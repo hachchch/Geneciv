@@ -1,28 +1,100 @@
 [
 	{
 		"columnNumber": 0,
-                "era": "Pre Cambrian era",
+                "era": "Cryptic era",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "First Idea",
+				"name": "Home Star",
 				"row": 5,
-				"uniques": ["[+1 Science]","Starting tech"],
+				"uniques": ["Starting tech"],
 			}
                 ]
         },
 	{
 		"columnNumber": 1,
-                "era": "The Genesis",
+                "era": "Cryptic era",
                 "techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "First Idea",
+				"name": "Planet Earth",
 				"row": 5,
-				"uniques": ["[+1 Science]","Starting tech"],
+				"prerequisites": ["Home Star"],
 			}
 		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Hadean eon",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Primordial Soup",
+				"row": 5,
+				"prerequisites": ["Planet Earth"],
+			},
+			{
+				"name": "Moon",
+				"row": 3,
+				"prerequisites": ["Planet Earth"],
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Hadean eon",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Amino Acid",
+				"row": 6,
+				"prerequisites": ["Primordial Soup"],
+			},
+			{
+				"name": "Nucleotides",
+				"row": 4,
+				"prerequisites": ["Primordial Soup"],
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Hadean eon",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Protein",
+				"row": 6,
+				"prerequisites": ["Amino Acid"],
+			},
+			{
+				"name": "DNA",
+				"row": 4,
+				"prerequisites": ["Nucleotides"],
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Archean eon",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Prokaryotic Cell",
+				"row": 5,
+				"prerequisites": ["Protein","DNA"],
+			}
+		]
+	},
