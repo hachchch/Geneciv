@@ -1,12 +1,18 @@
 [
         {
                 "name": "Earth",
+                "leaderName": "Human",
+                "adjective": ["Humanoid"],
+                "preferredVictoryType": "Scientific",
                 "innerColor": [0,0,0],
                 "outerCollor": [255,255,255],
                 "cities": ["Gaia"],
         },
         {
                 "name": "Mars",
+                "leaderName": "Alien",
+                "adjective": ["Martian"],
+                "preferredVictoryType": "Cultural",
                 "innerColor": [0,0,0],
                 "outerCollor": [255,255,255],
                 "cities": ["Eden"],
