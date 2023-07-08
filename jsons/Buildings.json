@@ -1,0 +1,9 @@
+[
+        {
+                "name": "Volcano",
+                "production": 2,
+                "food": 1,
+                "cost": 20,
+                "requiredTech": "Primordial Soup",
+        }
+]
