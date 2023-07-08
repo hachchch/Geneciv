@@ -1,3 +1,28 @@
 [
-        {
-                "columnNumber": 0,
+	{
+		"columnNumber": 0,
+                "era": "The Genesis",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "First Idea",
+				"row": 5,
+				"uniques": ["[+1 Science]","Starting tech"],
+			}
+                ]
+        },
+	{
+		"columnNumber": 1,
+                "era": "The Genesis",
+                "techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "First Idea",
+				"row": 5,
+				"uniques": ["[+1 Science]","Starting tech"],
+			}
+		]
