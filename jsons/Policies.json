@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Tradition",
+		"era": "Cryptic era",
+		"effect": "+3 culture in capital and increased rate of border expansion",
+		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
+		"policies": [
+			{
+				"name": "Aristocracy",
+				"effect": "+15% production when constructing wonders, +1 happiness for every 10 citizens in a city",
+				"uniques": ["+[15]% Production when constructing [Wonders]", "[+1 Happiness] per [10] population in all cities"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Legalism",
+				"effect": "Immediately creates a cheapest available cultural building in each of your first 4 cities for free",
+				"uniques":["Immediately creates a cheapest available cultural building in each of your first 4 cities for free"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Oligarchy",
+				"effect": "Units in cities cost no Maintenance, garrisoned city +50% attacking strength",
+				"uniques": ["Units in cities cost no Maintenance", "+50% attacking strength for cities with garrisoned units"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Landed Elite",
+				"effect": "+10% food growth and +2 food in capital",
+				"uniques": ["+[10]% growth in capital", "[+2 Food] in capital"],
+				"requires": ["Legalism"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Monarchy",
+				"effect": "+1 gold and -1 unhappiness for every 2 citizens in capital",
+				"uniques": ["+1 gold and -1 unhappiness for every 2 citizens in capital"],
+				"requires": ["Legalism"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Tradition Complete",
+				"effect": "+15% growth and +2 food in all cities",
+				"uniques": ["+[15]% growth in all cities","[+2 Food] in all cities"]
+			}
+		]
+  }
+]
