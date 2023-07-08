@@ -1,7 +1,7 @@
 [
         {
                 "name": "Atom",
-                "unitType": "",
+                "unitType": "Particle",
                 "strength": 1,
                 "movement": 1,
                 "cost": 5,
