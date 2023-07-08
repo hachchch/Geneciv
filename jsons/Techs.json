@@ -98,3 +98,47 @@
 			}
 		]
 	},
+	{
+		"columnNumber": 6,
+		"era": "Archean eon",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Mitochondria",
+				"row": 3,
+				"prerequisites": ["Prokaryotic Cell"],
+			},
+			{
+				"name": "Nucleus",
+				"row": 7,
+				"prerequisites": ["Prokaryotic Cell"],
+			},
+			{
+				"name": "Mitosis",
+				"row": 9,
+				"prerequisites": ["Prokaryotic Cell"],
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Paleoproterozoic",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Eukaryotic Cell",
+				"row": 5,
+				"prerequisites": ["Nucleus","Mitochondria"],
+			},
+			{
+				"name": "Asexual Reproduction",
+				"row": 9,
+				"prerequisites": ["Mitosis"],
+			}
+		]
+	},
+]
