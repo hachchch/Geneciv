@@ -8,7 +8,7 @@
 		"startingMilitaryUnit": "Atom",
 		"startingGold": 0,
 		"settlerPopulation": 1,
-		"startPercent": 1,
+		"startPercent": 0,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
@@ -22,7 +22,7 @@
 		"startingMilitaryUnit": "Atom",
 		"startingGold": 0,
 		"settlerPopulation": 1,
-		"startPercent": 1,
+		"startPercent": 10,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
@@ -36,7 +36,7 @@
 		"startingMilitaryUnit": "Atom",
 		"startingGold": 0,
 		"settlerPopulation": 1,
-		"startPercent": 1,
+		"startPercent": 20,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
@@ -50,7 +50,7 @@
 		"startingMilitaryUnit": "Atom",
 		"startingGold": 0,
 		"settlerPopulation": 1,
-		"startPercent": 1,
+		"startPercent": 30,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
