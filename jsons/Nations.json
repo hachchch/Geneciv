@@ -5,7 +5,7 @@
                 "adjective": ["Humanoid"],
                 "preferredVictoryType": "Scientific",
                 "innerColor": [0,0,0],
-                "outerCollor": [255,255,255],
+                "outerColor": [255,255,255],
                 "cities": ["Gaia"],
         },
         {
@@ -14,7 +14,7 @@
                 "adjective": ["Martian"],
                 "preferredVictoryType": "Cultural",
                 "innerColor": [0,0,0],
-                "outerCollor": [255,255,255],
+                "outerColor": [255,255,255],
                 "cities": ["Eden"],
         }
 ]
