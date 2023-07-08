@@ -3,4 +3,8 @@
 		"name": "Particle",
 		"movementType": "Land"
 	},
+	{
+		"name": "Civilian",
+		"movementType": "Land"
+	},
 ]
