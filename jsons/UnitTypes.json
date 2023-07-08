@@ -1,10 +1,10 @@
 [
 	{
 		"name": "Particle",
-		"movementType": "Land"
+		"movementType": "Land",
 	},
 	{
 		"name": "Civilian",
-		"movementType": "Land"
+		"movementType": "Land",
 	},
 ]
