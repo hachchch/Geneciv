@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["Can also be built on tiles adjacent to fresh water", "[+1 Food] on [fresh water] tiles once [Civil Service] is discovered", "[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
+	},
+	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
