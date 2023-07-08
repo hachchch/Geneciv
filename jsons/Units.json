@@ -11,7 +11,6 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"upgradesTo": "Mechanized Worker",
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
 		"cost": 70
 	},
