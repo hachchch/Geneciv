@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Center of Biology",
+		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
 		"civilopediaText": [
