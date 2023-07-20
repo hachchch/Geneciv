@@ -172,6 +172,16 @@
 		"wonderCost": 100,
 		"techs": [
 			{
+				"name": "Chloroplast",
+				"row": 1,
+				"prerequisites": ["Tissue"],
+			},
+			{
+				"name": "Nervous System",
+				"row": 2,
+				"prerequisites": ["Tissue"],
+			},
+			{
 				"name": "Muscles",
 				"row": 3,
 				"prerequisites": ["Tissue"],
@@ -198,8 +208,28 @@
 		"techs": [
 			{
 				"name": "Swimming",
+				"row": 5,
+				"prerequisites": ["Muscles","Sponge"],
+			}
+			{
+				"name": "Coral",
 				"row": 4,
-				"prerequisites": ["Muscles"],
+				"prerequisites": ["Sponge"],
+				"uniques": ["[+1 Gold, +1 Food] in cities on [Coast] tiles"],
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Mesoproterozoic",
+		"techCost": 230,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Radial Symmetry",
+				"row": 4,
+				"prerequisites": ["Swimming"],
 			}
 		]
 	},
