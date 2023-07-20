@@ -194,7 +194,8 @@
 			{
 				"name": "Sexual Reproduction",
 				"row": 9,
-				"prerequisites": ["Asexual Reproduction"]
+				"prerequisites": ["Asexual Reproduction"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 			}
 		]
 		
