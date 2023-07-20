@@ -162,6 +162,7 @@
 				"row": 8,
 				"prerequisites": ["Eukaryotic Cell"],
 			}
+		]
 	},
 	{
 		"columnNumber": 9,
@@ -185,6 +186,7 @@
 				"row": 9,
 				"prerequisites": ["Asexual Reproduction","Sponge"]
 			}
+		]
 		
 	},
 	{
