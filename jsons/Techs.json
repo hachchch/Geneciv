@@ -121,7 +121,7 @@
 				"name": "Mitosis",
 				"row": 9,
 				"prerequisites": ["Prokaryotic Cell"],
-				"uniques": ["Enables conversion of city production to [Food]","Production to [Food] conversion in cities changed by [+10]%"],
+				"uniques": ["Enables conversion of city production to [Science]"],
 			}
 		]
 	},
@@ -141,7 +141,7 @@
 				"name": "Asexual Reproduction",
 				"row": 9,
 				"prerequisites": ["Mitosis"],
-				"uniques": ["Production to [Food] conversion in cities changed by [+20]%"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 			}
 		]
 	}
