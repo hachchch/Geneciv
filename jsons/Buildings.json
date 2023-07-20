@@ -3,13 +3,16 @@
                 "name": "Volcano",
                 "production": 2,
                 "food": 1,
-                "cost": 20,
+                "cost": 50,
                 "requiredTech": "Primordial Soup",
         },
 	{
 		"name": "Ozone Layer",
 		"isNationalWonder": true,
-		"food": 1,
+		"cost": 100,
+		"food": 4,
+		"gold": 1,
+		"requiredTech": "Primordial Soup",
 	},
         {
                 "name": "Palace",
