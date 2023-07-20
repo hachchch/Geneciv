@@ -39,6 +39,7 @@
 		"unitType": "Water Animal",
 		"cost": 160,
 		"strength": 6,
+		"movement": 3,
 		"requiredTech": "Swimming",
 	},
         {
