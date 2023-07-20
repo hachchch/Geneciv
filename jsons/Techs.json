@@ -144,5 +144,61 @@
 				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 			}
 		]
-	}
+	},
+	{
+		"columnNumber": 8,
+		"era": "Paleoproterozoic",
+		"techCost": 150,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Tissue",
+				"row": 4,
+				"prerequisites": ["Eukaryotic Cell"],
+			},
+			{
+				"name": "Filter Feeding",
+				"row": 8,
+				"prerequisites": ["Eukaryotic Cell"],
+			}
+	},
+	{
+		"columnNumber": 9,
+		"era": "Mesoproterozoic",
+		"techCost": 175,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Muscles",
+				"row": 3,
+				"prerequisites": ["Tissue"],
+			},
+			{
+				"name": "Sponge",
+				"row": 5,
+				"prerequisites": ["Tissue","Filter Feeding"],
+			},
+			{
+				"name": "Sexual Reproduction",
+				"row": 9,
+				"prerequisites": ["Asexual Reproduction","Sponge"]
+			}
+		
+	},
+	{
+		"columnNumber": 10,
+		"era": "Mesoproterozoic",
+		"techCost": 200,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Swimming",
+				"row": 4,
+				"prerequisites": ["Miuscles"],
+			}
+		]
+	},
 ]
