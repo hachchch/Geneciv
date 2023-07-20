@@ -5,5 +5,9 @@
                 "food": 1,
                 "cost": 20,
                 "requiredTech": "Primordial Soup",
+        },
+        {
+                "name": "BioDiversity",
+                "uniques": ["Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Limited to [1] per Civilization"]
         }
 ]
