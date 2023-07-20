@@ -16,7 +16,7 @@
 	{
 		"columnNumber": 1,
                 "era": "Cryptic era",
-                "techCost": 10,
+                "techCost": 40,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -31,7 +31,7 @@
 	{
 		"columnNumber": 2,
 		"era": "Hadean eon",
-		"techCost": 20,
+		"techCost": 50,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -51,7 +51,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Hadean eon",
-		"techCost": 40,
+		"techCost": 60,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
