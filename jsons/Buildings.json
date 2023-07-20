@@ -29,6 +29,7 @@
 		"name": "Adenosine Triphosphate",
 		"gold": 3,
 		"cost": 60,
-		"uniques": ["[+10%] [Gold] [in this city]"]
+		"uniques": ["[+10%] [Gold] [in this city]"],
+		"requiredTech": "Nucleotides",
 	}
 ]
