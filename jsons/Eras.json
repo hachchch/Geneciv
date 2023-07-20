@@ -55,4 +55,18 @@
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
 	},
+	{
+		"name": "Mesoproterozoic",
+		"researchAgreementCost": 0,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 4,
+		"startingMilitaryUnit": "Atom",
+		"startingGold": 0,
+		"settlerPopulation": 1,
+		"startPercent": 40,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [233, 31, 99]
+	},
 ]
