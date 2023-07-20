@@ -51,7 +51,7 @@
 	{
 		"columnNumber": 3,
 		"era": "Hadean eon",
-		"techCost": 30,
+		"techCost": 40,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -70,7 +70,7 @@
 	{
 		"columnNumber": 4,
 		"era": "Hadean eon",
-		"techCost": 40,
+		"techCost": 60,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -89,7 +89,7 @@
 	{
 		"columnNumber": 5,
 		"era": "Archean eon",
-		"techCost": 50,
+		"techCost": 80,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -103,7 +103,7 @@
 	{
 		"columnNumber": 6,
 		"era": "Archean eon",
-		"techCost": 60,
+		"techCost": 100,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -128,7 +128,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Paleoproterozoic",
-		"techCost": 70,
+		"techCost": 120,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
