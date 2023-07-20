@@ -8,6 +8,10 @@
 		"movementType": "Land",
 	},
 	{
+		"name": "Water Animal",
+		"movementType": "Water",
+	},
+	{
 		"name": "Civilian",
 		"movementType": "Land",
 	},
