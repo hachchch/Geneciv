@@ -8,6 +8,15 @@
 		"uniques": ["No Sight"],
         },
 	{
+		"name": "Amino Acid",
+		"unitType": "Particle",
+		"movement": 2,
+		"strength": 1,
+		"cost": 60,
+		"uniques": ["No Sight"],
+		"requiredTech": "Amino Acid",
+	},
+	{
 		"name": "Prokaryotic Cell",
 		"unitType": "Cell",
 		"strength": 2,
@@ -20,6 +29,7 @@
 		"name": "Eukaryotic Cell",
 		"unitType": "Cell",
 		"movement": 2,
+		"strength": 3,
 		"cost": 100,
 		"requiredTech": "Eukaryotic Cell",
 		"uniques": ["No Sight"],
