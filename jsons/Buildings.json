@@ -24,5 +24,11 @@
 		"cityStrength": 2,
 		"cost": 1,
                 "uniques": ["Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%"],
-        }
+        },
+	{
+		"name": "Adenosine Triphosphate",
+		"gold": 3,
+		"cost": 60,
+		"uniques": ["[+10%] [Gold] [in this city]"]
+	}
 ]
