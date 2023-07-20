@@ -34,6 +34,13 @@
 		"requiredTech": "Eukaryotic Cell",
 		"uniques": ["No Sight"],
 	},
+	{
+		"name": "Jellyfish",
+		"unitType": "Water Animal",
+		"cost": 160,
+		"strength": 6,
+		"requiredTech": "Swimming",
+	},
         {
                 "name": "Worker",
 		"unitType": "Civilian",
