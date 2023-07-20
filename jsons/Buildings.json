@@ -6,6 +6,11 @@
                 "cost": 20,
                 "requiredTech": "Primordial Soup",
         },
+	{
+		"name": "Ozone Layer",
+		"isNationalWonder": true,
+		"food": 1,
+	},
         {
                 "name": "Palace",
                 "isNationalWonder": true,
