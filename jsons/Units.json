@@ -4,7 +4,7 @@
                 "unitType": "Particle",
                 "strength": 1,
                 "movement": 1,
-                "cost": 5,
+                "cost": 40,
         },
         {
                 "name": "Worker",
@@ -12,13 +12,13 @@
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
-		"cost": 70
+		"cost": 500,
 	},
         {
                 "name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 106,
+		"cost": 102,
 		"uniques": ["Founds a new city"],
 		"hurryCostModifier": 20
 	},
