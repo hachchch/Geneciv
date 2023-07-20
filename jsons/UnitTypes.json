@@ -4,6 +4,10 @@
 		"movementType": "Land",
 	},
 	{
+		"name": "Cell"
+		"movementType": "Land",
+	},
+	{
 		"name": "Civilian",
 		"movementType": "Land",
 	},
