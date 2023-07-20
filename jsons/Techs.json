@@ -24,6 +24,7 @@
 				"name": "Planet Earth",
 				"row": 5,
 				"prerequisites": ["Home Star"],
+				"uniques": ["Cannot be hurried","[+100]% growth [in all cities]"],
 			}
 		]
 	},
@@ -43,6 +44,7 @@
 				"name": "Moon",
 				"row": 3,
 				"prerequisites": ["Planet Earth"],
+				"uniques": ["[+10]% growth [in all cities]"],
 			}
 		]
 	},
@@ -119,6 +121,7 @@
 				"name": "Mitosis",
 				"row": 9,
 				"prerequisites": ["Prokaryotic Cell"],
+				"uniques": ["Enables conversion of city production to [Food]","Production to [Food] conversion in cities changed by [+10]%"],
 			}
 		]
 	},
@@ -138,6 +141,7 @@
 				"name": "Asexual Reproduction",
 				"row": 9,
 				"prerequisites": ["Mitosis"],
+				"uniques": ["Production to [Food] conversion in cities changed by [+20]%"],
 			}
 		]
 	}
