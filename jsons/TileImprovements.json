@@ -17,7 +17,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] once [Compass] is discovered"]",
+		"uniques": ["[+1 Gold] once [Compass] is discovered"],
 	},
 	{
 		"name": "City center",
