@@ -11,6 +11,7 @@
 		"food": 1,
 		"terrainsCanBeBuiltOn": ["Dirt","Plains","Desert"],
 		"defenceBonus": -0.1,
+		"turnsToBuild": 2,
 	},
 	{
 		"name": "Fishing Boats",
