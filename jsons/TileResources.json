@@ -1,5 +1,12 @@
 [
         {
-                
+                "name": "Atoll",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Coast"]
+		"food": 1,
+                "gold": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1},
+		"building": "Lighthouse"
         },
 ]
