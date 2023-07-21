@@ -38,9 +38,12 @@
 		"name": "Jellyfish",
 		"unitType": "Water Animal",
 		"cost": 160,
-		"strength": 6,
+		"strength": 5,
+		"rangetStrength": 6,
+		"range": 1,
 		"movement": 3,
 		"requiredTech": "Swimming",
+		"uniques": ["[1] Sight","Can move after attacking"],
 	},
         {
                 "name": "Worker",
