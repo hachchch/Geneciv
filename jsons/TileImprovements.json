@@ -10,6 +10,7 @@
 		"name": "Grassland",
 		"type": "Land",
 		"food": 1,
+		"terrainsCanBeBuiltOn": ["Dirt","Plains","Desert"],
 		"defenceBonus": -0.1,
 	},
 	{
