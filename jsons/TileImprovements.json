@@ -13,6 +13,13 @@
 		"defenceBonus": -0.1,
 	},
 	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Gold] once [Compass] is discovered"]",
+	},
+	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
