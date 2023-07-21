@@ -75,7 +75,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill"],
+		"occursOn": ["Tundra","Plains","Dirt","Hill"],
 		"rough": true,
 		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"]
 	},
@@ -86,7 +86,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Plains","Grassland","Hill"],
+		"occursOn": ["Plains","Dirt","Hill"],
 		"rough": true
 	},
 	{
@@ -95,7 +95,7 @@
 		"movementCost": 3,
 		"unbuildable": true,
 		"defenceBonus": -0.15,
-		"occursOn": ["Grassland"],
+		"occursOn": ["Dirt"],
 		"uniques": ["Rare feature"]
 	},
 	{
@@ -150,7 +150,7 @@
 		"type": "NaturalWonder",
 		"science": 2,
 		"happiness": 3,
-		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
+		"occursOn": ["Dirt","Plains","Tundra","Mountain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -194,7 +194,7 @@
 		"type": "NaturalWonder",
 		"gold": 1,
 		"culture": 5,
-		"occursOn": ["Grassland","Plains"],
+		"occursOn": ["Dirt","Plains"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -215,7 +215,7 @@
 		"type": "NaturalWonder",
 		"food": 2,
 		"gold": 5,
-		"occursOn": ["Grassland"],
+		"occursOn": ["Dirt"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
