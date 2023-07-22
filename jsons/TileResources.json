@@ -14,6 +14,7 @@
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Dirt","Plains"]
 		"food": 1,
+		"improvement": "Forests",
                 "production": 1,
 		"improvementStats": {"food": 1},
 		"building": "Lighthouse"
