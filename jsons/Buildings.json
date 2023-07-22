@@ -19,6 +19,19 @@
 		"cost": 100,
 		"production": 1,
 		"uniques": ["[+9]% [Production] [in this city]"],
+		"requiredTech": "Amino Acid",
+	},
+	{
+		"name": "RNA",
+		"cost": 100,
+		"food": 1,
+		"requiredTech": "DNA",
+	},
+	{
+		"name": "Replication",
+		"cost": 120,
+		"uniques": "[10]% of food is carried over after population increases",
+		"requiredTech": "DNA",
 	},
         {
                 "name": "Palace",
