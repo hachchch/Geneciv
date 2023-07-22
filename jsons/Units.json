@@ -99,7 +99,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
+		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action","No Sight"],
 		"cost": 500,
 		"requiredTech": "First Plant",
 	},
