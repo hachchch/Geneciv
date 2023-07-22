@@ -3,7 +3,7 @@
                 "name": "Volcano",
                 "food": 1,
                 "cost": 50,
-		"uniques": ["[+1 production] from every [Lakes]"],
+		"uniques": ["[+1 Production] from every [Lakes]"],
                 "requiredTech": "Primordial Soup",
         },
 	{
