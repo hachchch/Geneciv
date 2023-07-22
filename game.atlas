@@ -45,6 +45,13 @@ TileSets/FantasyHex/Tiles/Lakes
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/City center-Cryptic era
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 
 game2.png
 size: 2048, 2048
@@ -59,6 +66,13 @@ TileSets/FantasyHex/Tiles/Plains
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lakes-Archean eon
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Archen eon
   rotate: false
   xy: 1272, 935
   size: 32, 28
