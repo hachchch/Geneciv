@@ -6,6 +6,8 @@
                 "movement": 1,
                 "cost": 40,
 		"uniques": ["No Sight"],
+		"obsoleteTech": "Amino Acid",
+		"upgradesTo": "Amino Acid",
         },
 	{
 		"name": "Amino Acid",
@@ -15,6 +17,8 @@
 		"cost": 60,
 		"uniques": ["No Sight"],
 		"requiredTech": "Amino Acid",
+		"obsoleteTech": "Eukaryotic Cell",
+		"upgradesTo": "Prokaryotic Cell",
 	},
 	{
 		"name": "Prokaryotic Cell",
@@ -25,6 +29,7 @@
 		"uniques": ["No Sight"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
+		"upgradesTo": "Eukaryotic Cell",
 	},
 	{
 		"name": "Eukaryotic Cell",
