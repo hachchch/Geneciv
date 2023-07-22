@@ -212,6 +212,7 @@
 				"name": "Swimming",
 				"row": 5,
 				"prerequisites": ["Muscles","Sponge"],
+				"uniques": ["Enables embarkation for land units"],
 			}
 			{
 				"name": "Coral",
