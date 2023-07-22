@@ -180,6 +180,7 @@
 				"name": "Nervous System",
 				"row": 2,
 				"prerequisites": ["Tissue"],
+				"uniques": ["[+1 Prooduction] [in all cities]"]
 			},
 			{
 				"name": "Muscles",
@@ -290,6 +291,7 @@
 				"name": "Nerve Cord",
 				"row": 2,
 				"prerequisites": ["Bilateral Symmetry","Nervous System"],
+				"uniques": ["[+1 Gold] from [Ocean] tiles [in all cities]"],
 			},
 			{
 				"name": "Pigment Spot",
@@ -321,5 +323,98 @@
 				"prerequisites": ["Arthropod"],
 			}
 		]
-	}
+	},
+	{
+		"columnNumber": 15,
+		"era": "Cambrian period",
+		"techCost": 250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Gills",
+				"row": 5,
+				"prerequisites": ["Fish"],
+			},
+			{
+				"name": "Fins",
+				"row": 4,
+				"prerequisites": ["Fish"],
+			},
+			{
+				"name": "Cold Blooded",
+				"row": 6,
+				"prerequisites": ["Fish"]
+			},
+			{
+				"name": "Jaw",
+				"row": 7,
+				"prerequisites": ["Fish"],
+			},
+			{
+				"name": "Fish Egg",
+				"row": 9,
+				"prerequisites": ["Fish"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+			},
+			{
+				"name": "Excretion Opening",
+				"row": 8,
+				"prerequisites": ["Fish"]
+			}
+		]
+	},
+	{
+		"columnNumber": 16,
+		"era": "Cambrian period",
+		"techCost": 250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Medulla Oblongata",
+				"row": 2,
+				"prerequisites": ["Nerve Cord","Gills"],
+				"uniques": ["[+1 Production] from [Ocean] tiles [in all cities]"]
+			},
+			{
+				"name": "Lungfish",
+				"row": 6,
+				"prerequisites": ["Gills","Cold Blooded"]
+			},
+			{
+				"name": "Predation",
+				"row": 8,
+				"prerequisites": ["Excretion Opening","Jaw"],
+			},
+		]
+	},
+	{
+		"columnNumber": 17,
+		"era": "Cambrian period",
+		"techCost": 250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Amphibian",
+				"row": 6,
+				"prerequisites": ["Lungfish"],
+			},
+			{
+				"name": "Legs",
+				"row": 4,
+				"prerequisites": ["Fins"],
+			},
+			{
+				"name": "Water Tight",
+				"prerequisites": ["Lungfish"]
+				"row": 3,
+			},
+			{
+				"name": "Lung",
+				"row": 5,
+				"prerequisites": ["Lungfish"],
+			},
+		]
 ]
