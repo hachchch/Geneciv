@@ -276,7 +276,7 @@
 			{
 				"name": "Arthropod",
 				"row": 6,
-				"prerequisites": ["Articulation",Bilateral Symmetry],
+				"prerequisites": ["Articulation","Bilateral Symmetry"],
 			},
 			{
 				"name": "Vertebrate",
@@ -418,6 +418,11 @@
 				"prerequisites": ["Lungfish"],
 			},
 			{
+				"name": "Insect",
+				"row": 1,
+				"prerequisites": ["Fern"],
+			},
+			{
 				"name": "Legs",
 				"row": 4,
 				"prerequisites": ["Fins","Lungfish"],
@@ -447,7 +452,7 @@
 			{
 				"name": "Herbivore",
 				"row": 3,
-				"prerequisites": ["Fern","Reptile"],
+				"prerequisites": ["Insect","Reptile"],
 				"uniques": ["[+1 Food] from [Grassland] tiles [in all cities]"]
 			},
 			{
@@ -469,7 +474,34 @@
 			{
 				"name": "Ear",
 				"row": 7,
-				"prerequisites": ["Reptile"]
+				"prerequisites": ["Reptile"],
+				"uniques": ["[+25]% XP gained from combat <for [Military] units>"],
 			},
 		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Devonian period",
+		"techCost": 220,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Dinosaur",
+				"row": 3,
+				"prerequisites": ["Archosauria","Egg Shell"],
+			},
+			{
+				"name": "Uterus",
+				"row": 9,
+				"prerequisites": ["Warm Blooded","Egg Shell"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+			},
+			{
+				"name": "Mammal",
+				"row": 6,
+				"prerequisites": ["Warm Blooded"]
+			},
+		]
+	}
 ]
