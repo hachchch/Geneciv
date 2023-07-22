@@ -419,7 +419,7 @@
 			{
 				"name": "Legs",
 				"row": 4,
-				"prerequisites": ["Fins"],
+				"prerequisites": ["Fins","Lungfish"],
 			},
 			{
 				"name": "Water Tight",
