@@ -78,20 +78,29 @@
 		"requiredTech": "Fish",
 		"uniques": ["[1] Sight","Can move after attacking"]
 	},
+	{
+		"name": "Vegetation",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
+		"cost": 500,
+		"requiredTech": "Chloroplasts",
+	},
         {
                 "name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
-		"cost": 500,
+		"cost": 5000,
 	},
         {
                 "name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 102,
-		"uniques": ["Founds a new city"],
+		"uniques": ["Founds a new city","No Sight <before discovering [Human]>"],
 		"hurryCostModifier": 20
 	},
 ]
