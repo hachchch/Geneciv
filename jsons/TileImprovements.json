@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Dirt","Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plain","Dirt","Desert","Flood plains"],
 		"food": 2,
 		"turnsToBuild": 7,
 		"uniques": ["Can also be built on tiles adjacent to fresh water", "[+1 Food] on [fresh water] tiles once [Civil Service] is discovered", "[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
@@ -9,7 +9,7 @@
 	{
 		"name": "Grassland",
 		"food": 1,
-		"terrainsCanBeBuiltOn": ["Dirt","Plains","Desert"],
+		"terrainsCanBeBuiltOn": ["Dirt","Plain","Desert"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
 	},
