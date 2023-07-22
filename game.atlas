@@ -37,3 +37,24 @@ TileSets/FantasyHex/Units/Amino Acid
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Prokaryotic Cell
+  rotate: false
+  xy: 1800, 1620
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eukaryotic Cell
+  rotate: false
+  xy: 1840, 1620
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lakes
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
