@@ -24,7 +24,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Plain
+TileSets/FantasyHex/Tiles/Plains
   rotate: false
   xy: 1720, 1624
   size: 32, 28
