@@ -51,7 +51,7 @@ TileSets/FantasyHex/Units/Amino Acid
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Lake
+TileSets/FantasyHex/Tiles/Lakes
   rotate: false
   xy: 1272, 935
   size: 32, 28
