@@ -365,7 +365,7 @@
 			{
 				"name": "Fish Egg",
 				"row": 9,
-				"prerequisites": ["Fish"],
+				"prerequisites": ["Fish","Cocoon"],
 				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 			},
 			{
@@ -578,6 +578,11 @@
 				"name": "Bat",
 				"row": 4,
 				"prerequisites": ["Eutherians","Flying"],
+			},
+			{
+				"name": "Modern Birds",
+				"row": 3,
+				"prerequisites": ["Flying"]
 			},
 			{
 				"name": "Cetaceans",
