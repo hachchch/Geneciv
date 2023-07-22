@@ -1,18 +1,24 @@
 [
         {
                 "name": "Volcano",
-                "production": 2,
                 "food": 1,
                 "cost": 50,
+		"uniques": ["[+1 production] from every [Lakes]"],
                 "requiredTech": "Primordial Soup",
         },
 	{
 		"name": "Ozone Layer",
 		"isNationalWonder": true,
-		"cost": 100,
+		"cost": 200,
 		"food": 4,
 		"gold": 1,
 		"requiredTech": "Primordial Soup",
+	},
+	{
+		"name": "Enzymes",
+		"cost": 100,
+		"production": 1,
+		"uniques": ["[+9]% [Production] [in this city]"],
 	},
         {
                 "name": "Palace",
