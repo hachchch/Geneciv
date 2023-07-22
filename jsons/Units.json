@@ -38,6 +38,8 @@
 		"strength": 3,
 		"cost": 100,
 		"requiredTech": "Eukaryotic Cell",
+		"obsoleteTech": "Lungfish",
+		"upgradesTo": "Tetrapod",
 		"uniques": ["No Sight"],
 	},
 	{
@@ -49,6 +51,8 @@
 		"range": 1,
 		"movement": 1,
 		"requiredTech": "Swimming",
+		"obsoleteTech": "Fish",
+		"upgradesTo": "Fish",
 		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
 	},
 	{
@@ -57,6 +61,8 @@
 		"cost": 200,
 		"strength": 16,
 		"movement": 3,
+		"obsoleteTech": "Fish",
+		"upgradesTo": "Fish",
 		"requiredTech": "Flatworm",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
 	},
@@ -65,6 +71,8 @@
 		"unitType": "Water Arthropod",
 		"cost": 250,
 		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Arthropod",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"]
