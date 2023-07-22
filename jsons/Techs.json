@@ -313,6 +313,11 @@
 				"prerequisites": ["Arthropod","Pigment Spot"],
 			},
 			{
+				"name": "First Plant",
+				"row": 1,
+				"prerequisites": ["Chloroplasts"],
+			},
+			{
 				"name": "Fish",
 				"row": 6,
 				"prerequisites": ["Arthropod","Vertebrate"],
@@ -335,6 +340,11 @@
 				"name": "Gills",
 				"row": 5,
 				"prerequisites": ["Fish"],
+			},
+			{
+				"name": "Spore Plant",
+				"row": 1,
+				"prerequisites": ["First Plant"],
 			},
 			{
 				"name": "Fins",
@@ -376,6 +386,11 @@
 				"row": 2,
 				"prerequisites": ["Nerve Cord","Gills"],
 				"uniques": ["[+1 Production] from [Ocean] tiles [in all cities]"]
+			},
+			{
+				"name": "Fern",
+				"row": 1,
+				"prerequisites": ["Spore Plant"],
 			},
 			{
 				"name": "Lungfish",
