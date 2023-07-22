@@ -98,6 +98,12 @@
 		"uniques": ["[+1 Production] from [Grassland] tiles [in this city]"]
 	},
 	{
+		"name": "Algae",
+		"cost": 215,
+		"requiredTech": "Chloroplasts",
+		"uniques": ["[+1 Food] from [Coast] tiles [in this city]"]
+	},
+	{
 		"name": "Fungi",
 		"requiredTech": "Tissue",
 		"cost": 205,
