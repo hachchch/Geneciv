@@ -58,7 +58,7 @@
 		"strength": 6,
 		"movement": 3,
 		"requiredTech": "Flatworm",
-		"uniques": ["[-2] Sight <before discovering [Pigment Spot]>","[-1] Sight <after discovering [Pigment Spot]>"],
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>"],
 	},
 	{
 		"name": "Arthropod",
@@ -67,7 +67,7 @@
 		"strength": 9,
 		"movement": 2,
 		"requiredTech": "Arthropod",
-		"uniques": ["[-2] Sight <before discovering [Pigment Spot]>","[-1] Sight <after discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"]
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"]
 	},
 	{
 		"name": "Fish",
@@ -76,7 +76,7 @@
 		"strength": 15,
 		"movement": 4,
 		"requiredTech": "Fish",
-		"uniques": ["[1] Sight","Can move after attacking"]
+		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking"]
 	},
 	{
 		"name": "Vegetation",
