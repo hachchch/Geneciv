@@ -415,7 +415,7 @@
 			{
 				"name": "Reptile",
 				"row": 6,
-				"prerequisites": ["Lungfish"],
+				"prerequisites": ["Lungfish","Medulla Oblongata"],
 			},
 			{
 				"name": "Insect",
@@ -502,6 +502,99 @@
 				"row": 6,
 				"prerequisites": ["Warm Blooded"]
 			},
+			{
+				"name": "Wings",
+				"row": 4,
+				"prerequisites": ["Archosauria"],
+			},
+		]
+	},
+	{
+		"columnNumber": 20,
+		"era": "Mesozoic era",
+		"techCost": 220,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Gliding",
+				"row": 3,
+				"prerequisites": ["Wings","Dinosaur"],
+			},
+			{
+				"name": "Plesiosaur",
+				"row": 8,
+				"prerequisites": ["Dinosaur","Predation"],
+			},
+			{
+				"name": "Feathers"
+				"row": 4,
+				"prerequisites": ["Wings"]
+			},
+			{
+				"name": "Hair",
+				"row": 5,
+				"prerequisites": ["Mammal"]
+			},
+			{
+				"name": "Glands",
+				"row": 6,
+				"prerequisites": ["Mammal"]
+			},
+			{
+				"name": "Secondary Palate",
+				"row": 7,
+				"prerequisites": ["Mammal"],
+			},
+		]
+	},
+	{
+		"columnNumber": 21,
+		"era": "Mesozoic era",
+		"techCost": 220,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Flying",
+				"row": 3,
+				"prerequisites": ["Feathers","Gliding"],
+			},
+			{
+				"name": "Eutherians",
+				"row": 6,
+				"prerequisites": ["Hair"]
+			}
+		]
+	},
+	{
+		"columnNumber": 22,
+		"era": "Mesozoic era",
+		"techCost": 220,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Bat",
+				"row": 4,
+				"prerequisites": ["Eutherians","Flying"],
+			},
+			{
+				"name": "Cetaceans",
+				"row": 8,
+				"prerequisites": ["Plesiosaur","Eutherians"],
+			},
+			{
+				"name": "Ape",
+				"row": 6,
+				"prerequisites": ["Eutherians"],
+				"uniques": ["[+1 Science] per [5] population [in all cities]"],
+			},
+			{
+				"name": "Neocortex"
+				"row": 2,
+				"prerequisites": ["Eutherians"],
+			}
 		]
 	}
 ]
