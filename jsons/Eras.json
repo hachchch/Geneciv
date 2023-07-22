@@ -69,4 +69,32 @@
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
 	},
+	{
+		"name": "Neoproterozoic",
+		"researchAgreementCost": 0,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Eukaryotic Cell",
+		"startingGold": 0,
+		"settlerPopulation": 1,
+		"startPercent": 40,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [233, 31, 99]
+	},
+	{
+		"name": "Cambrian period",
+		"researchAgreementCost": 0,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Eukaryotic Cell",
+		"startingGold": 0,
+		"settlerPopulation": 1,
+		"startPercent": 40,
+		"citySound": "cityAncient",
+		"embarkDefense": 1,
+		"iconRGB": [233, 31, 99]
+	}
 ]
