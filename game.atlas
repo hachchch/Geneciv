@@ -72,7 +72,7 @@ TileSets/FantasyHex/Tiles/Lakes-Archean eon
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Archen eon
+TileSets/FantasyHex/Tiles/City center-Archean eon
   rotate: false
   xy: 1272, 935
   size: 32, 28
