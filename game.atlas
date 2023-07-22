@@ -24,7 +24,7 @@ TileSets/FantasyHex/Tiles/Plains
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Lakes-Archen eon
+TileSets/FantasyHex/Tiles/Lakes-Archean eon
   rotate: false
   xy: 1272, 935
   size: 32, 28
