@@ -15,7 +15,6 @@
                 "terrainsCanBeFoundOn": ["Dirt,Plains"]
 		"food": 1,
                 "production": 1,
-		"improvement": "Warker",
 		"improvementStats": {"food": 1},
 		"building": "Lighthouse"
 	},
