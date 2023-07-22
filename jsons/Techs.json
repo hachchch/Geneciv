@@ -413,7 +413,7 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Amphibian",
+				"name": "Reptile",
 				"row": 6,
 				"prerequisites": ["Lungfish"],
 			},
