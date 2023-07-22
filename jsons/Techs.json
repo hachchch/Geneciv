@@ -239,4 +239,87 @@
 			}
 		]
 	},
+	{
+		"columnNumber": 12,
+		"era": "Cambrian period",
+		"techCost": 230,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Bilateral Symmetry",
+				"row": 4,
+				"prerequisites": ["Radial Symmetry","Flatworm"],
+			},
+			{
+				"name": "Articulation",
+				"row": 6,
+				"prerequisites": ["Flatworm"],
+			},
+			{
+				"name": "Cocoon",
+				"row": 9,
+				"prerequisites": ["Sexual Reproduction","Flatworm"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Cambrian period",
+		"techCost": 230,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Arthropod",
+				"row": 6,
+				"prerequisites": ["Articulation",Bilateral Symmetry],
+			},
+			{
+				"name": "Vertebrate",
+				"row": 8,
+				"prerequisites": ["Articulation"],
+			},
+			{
+				"name": "Heart",
+				"row": 4,
+				"prerequisites": ["Bilateral Symmetry"],
+			},
+			{
+				"name": "Nerve Cord",
+				"row": 2,
+				"prerequisites": ["Bilateral Symmetry","Nervous System"],
+			},
+			{
+				"name": "Pigment Spot",
+				"row": 3,
+				"prerequisites": ["Bilateral Symmetry"],
+			},
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Cambrian period",
+		"techCost": 230,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Eye",
+				"row": 3,
+				"prerequisites": ["Arthropod","Pigment Spot"],
+			},
+			{
+				"name": "Fish",
+				"row": 6,
+				"prerequisites": ["Arthropod","Vertebrate"],
+			},
+			{
+				"name": "Trilobite",
+				"row": 8,
+				"prerequisites": ["Arthropod"],
+			}
+		]
+	}
 ]
