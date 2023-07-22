@@ -18,6 +18,7 @@ TileSets/FantasyHex/Tiles/Plains
   orig: 32, 28
   offset: 0, 0
   index: -1
+
 game3.png
 size: 2048, 2048
 format: RGBA8888
