@@ -85,7 +85,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
 		"cost": 500,
-		"requiredTech": "Chloroplasts",
+		"requiredTech": "First Plant",
 	},
         {
                 "name": "Worker",
