@@ -180,7 +180,7 @@
 				"name": "Nervous System",
 				"row": 2,
 				"prerequisites": ["Tissue"],
-				"uniques": ["[+1 Prooduction] [in all cities]"]
+				"uniques": ["[+1 Production] [in all cities]"]
 			},
 			{
 				"name": "Muscles",
