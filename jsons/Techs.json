@@ -128,7 +128,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Paleoproterozoic",
-		"techCost": 120,
+		"techCost": 110,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -148,7 +148,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Paleoproterozoic",
-		"techCost": 150,
+		"techCost": 120,
 		"buildingCost": 40,
 		"wonderCost": 100,
 		"techs": [
@@ -167,7 +167,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Mesoproterozoic",
-		"techCost": 175,
+		"techCost": 130,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -204,7 +204,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Mesoproterozoic",
-		"techCost": 200,
+		"techCost": 140,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -224,7 +224,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Neoproterozoic",
-		"techCost": 230,
+		"techCost": 150,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -243,7 +243,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Cambrian period",
-		"techCost": 230,
+		"techCost": 160,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -268,7 +268,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Cambrian period",
-		"techCost": 230,
+		"techCost": 170,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -303,7 +303,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Silurian period",
-		"techCost": 230,
+		"techCost": 180,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -332,7 +332,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Silurian period",
-		"techCost": 250,
+		"techCost": 190,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -377,7 +377,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Devonian period",
-		"techCost": 250,
+		"techCost": 200,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -407,7 +407,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Devonian period",
-		"techCost": 250,
+		"techCost": 210,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
