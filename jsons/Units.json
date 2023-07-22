@@ -24,6 +24,7 @@
 		"cost": 80,
 		"uniques": ["No Sight"],
 		"requiredTech": "Prokaryotic Cell",
+		"obsoleteTech": "Tissue",
 	},
 	{
 		"name": "Eukaryotic Cell",
