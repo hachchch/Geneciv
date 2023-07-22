@@ -57,7 +57,7 @@
 		"cost": 300,
 		"strength": 12,
 		"movement": 4,
-		"requiredTech": "",
+		"requiredTech": "Swimming",
 		"uniques": ["[3] Sight","Can move after attacking"]
 	},
         {
