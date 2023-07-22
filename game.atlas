@@ -24,6 +24,13 @@ TileSets/FantasyHex/Tiles/Plains
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Lakes-Archen eon
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 
 game4.png
 size: 2048, 2048
