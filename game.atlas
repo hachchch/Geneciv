@@ -51,3 +51,10 @@ TileSets/FantasyHex/Units/Amino Acid
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Lakes-Cryptic era
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
