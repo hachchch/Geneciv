@@ -49,7 +49,7 @@
 		"range": 1,
 		"movement": 1,
 		"requiredTech": "Swimming",
-		"uniques": ["[-2] Sight","Can move after attacking"],
+		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
 	},
 	{
 		"name": "Flatworm",
@@ -58,7 +58,7 @@
 		"strength": 16,
 		"movement": 3,
 		"requiredTech": "Flatworm",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>"],
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
 	},
 	{
 		"name": "Arthropod",
@@ -67,7 +67,7 @@
 		"strength": 24,
 		"movement": 2,
 		"requiredTech": "Arthropod",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"]
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"]
 	},
 	{
 		"name": "Fish",
@@ -76,7 +76,23 @@
 		"strength": 32,
 		"movement": 4,
 		"requiredTech": "Fish",
-		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking"]
+		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"]
+	},
+	{
+		"name": "Tetrapod",
+		"unitType": "Amphibian",
+		"strength": 24,
+		"movement": 1,
+		"requiredTech": "Lungfish",
+		"uniques": ["May travel on Water tiles without embarking","Can enter ice tiles","Double movement in [Ocean]","Double movement in [Fresh Water]","Double movement in [Coast]"],
+	},
+	{
+		"name": "Shark",
+		"unitType": "Water Animal",
+		"strength": 50,
+		"movement": 5,
+		"requiredTech": "Predation",
+		"uniques": ["Can move after attacking","Destroys tile improvements when attacking"],
 	},
 	{
 		"name": "Vegetation",
