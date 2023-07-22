@@ -26,14 +26,14 @@ TileSets/FantasyHex/Units/Amino Acid
   index: -1
 TileSets/FantasyHex/Units/Prokaryotic Cell
   rotate: false
-  xy: 1800, 1620
+  xy: 1192, 1102
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Eukaryotic Cell
   rotate: false
-  xy: 1840, 1620
+  xy: 1192, 1066
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
