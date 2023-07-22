@@ -79,3 +79,10 @@ TileSets/FantasyHex/Tiles/City center-Archean eon
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Jellyfish
+  rotate: false
+  xy: 1272, 1043
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
