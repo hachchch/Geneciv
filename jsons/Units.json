@@ -74,9 +74,9 @@
 		"unitType": "Water Animal",
 		"cost": 300,
 		"strength": 32,
-		"movement": 4,
+		"movement": 2,
 		"requiredTech": "Fish",
-		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"]
+		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders","Double movement in [Coast] <after discovering [Fins]>","Double movement in [Ocean] <after discovering [Fins]>"]
 	},
 	{
 		"name": "Tetrapod",
@@ -84,7 +84,7 @@
 		"strength": 24,
 		"movement": 1,
 		"requiredTech": "Lungfish",
-		"uniques": ["May travel on Water tiles without embarking","Can enter ice tiles","Double movement in [Ocean]","Double movement in [Fresh Water]","Double movement in [Coast]"],
+		"uniques": ["May travel on Water tiles without embarking","Can enter ice tiles","Double movement in [Ocean]","Double movement in [Fresh Water]","Double movement in [Coast]","Double movement in [Land] <after discovering [Legs]>"],
 	},
 	{
 		"name": "Shark",
