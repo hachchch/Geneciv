@@ -12,26 +12,6 @@ TileSets/FantasyHex/Tiles/Dirt
   offset: 0, 0
   index: -1
 
-game2.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TileSets/FantasyHex/Tiles/Plains
-  rotate: false
-  xy: 1904, 1460
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Lakes-Archean eon
-  rotate: false
-  xy: 1272, 935
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-
 game4.png
 size: 2048, 2048
 format: RGBA8888
@@ -59,3 +39,29 @@ TileSets/FantasyHex/Units/Eukaryotic Cell
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lakes
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Plains
+  rotate: false
+  xy: 1904, 1460
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lakes-Archean eon
+  rotate: false
+  xy: 1272, 935
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
