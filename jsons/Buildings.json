@@ -132,7 +132,6 @@
 		"production": 3,
 		"science": 3,
 		"gold": 3,
-		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
                 "uniques": ["Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%"],
