@@ -12,7 +12,7 @@
 	{
 		"name": "Forest",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Dirt,Plains"]
+                "terrainsCanBeFoundOn": ["Dirt","Plains"]
 		"food": 1,
                 "production": 1,
 		"improvementStats": {"food": 1},
