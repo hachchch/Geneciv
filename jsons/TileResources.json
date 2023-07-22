@@ -11,6 +11,16 @@
 		"building": "Lighthouse"
         },
 	{
+		"name": "Marsh",
+		"revealedBy": "Spore Plant",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Dirt"]
+		"food": -1,
+		"improvement": "Grassland",
+                "production": 3,
+		"improvementStats": {"food": 2},
+	},
+	{
 		"name": "Oasis",
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
