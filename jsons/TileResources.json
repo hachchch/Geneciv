@@ -11,6 +11,16 @@
 		"building": "Lighthouse"
         },
 	{
+		"name": "Oasis",
+		"revealedBy": "Fern",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Desert"]
+		"food": 3,
+		"improvement": "Forests",
+                "production": 1,
+		"improvementStats": {"food": 2},
+	},
+	{
 		"name": "Forest",
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
