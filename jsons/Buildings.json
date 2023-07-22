@@ -30,7 +30,7 @@
 	{
 		"name": "Replication",
 		"cost": 120,
-		"uniques": "[10]% of food is carried over after population increases",
+		"uniques": ["[10]% of food is carried over after population increases"],
 		"requiredTech": "DNA",
 	},
         {
