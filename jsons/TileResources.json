@@ -1,6 +1,7 @@
 [
         {
                 "name": "Atoll",
+		"revealedBy": "Sponge",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Coast"]
 		"food": 1,
@@ -11,11 +12,22 @@
         },
 	{
 		"name": "Forest",
+		"revealedBy": "Fern",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Dirt","Plains"]
 		"food": 1,
 		"improvement": "Forests",
                 "production": 1,
-		"improvementStats": {"food": 1},
+		"improvementStats": {"food": 2},
+	},
+	{
+		"name": "Jungle",
+		"revealedBy": "Fern",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Dirt","Plains"]
+		"food": 1,
+		"improvement": "Forests",
+                "production": 1,
+		"improvementStats": {"food": 2},
 	},
 ]
