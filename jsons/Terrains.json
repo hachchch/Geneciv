@@ -68,15 +68,6 @@
 		"RGB": [153, 255, 255]
 	},
 	{
-		"name": "Marsh",
-		"type": "TerrainFeature",
-		"movementCost": 3,
-		"unbuildable": true,
-		"defenceBonus": -0.15,
-		"occursOn": ["Dirt"],
-		"uniques": ["Rare feature"]
-	},
-	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
 		"food": -3,
