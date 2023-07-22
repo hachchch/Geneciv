@@ -10,6 +10,13 @@
 		"building": "Lighthouse"
         },
 	{
-		"name": "",
+		"name": "Forest",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Dirt,Plains"]
+		"food": 1,
+                "production": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1},
+		"building": "Lighthouse"
 	},
 ]
