@@ -49,16 +49,34 @@
 		"range": 1,
 		"movement": 1,
 		"requiredTech": "Swimming",
-		"uniques": ["[1] Sight","Can move after attacking"],
+		"uniques": ["[-2] Sight","Can move after attacking"],
+	},
+	{
+		"name": "Flatworm",
+		"unitType": "Water Animal",
+		"cost": 200,
+		"strength": 6,
+		"movement": 3,
+		"requiredTech": "Flatworm",
+		"uniques": ["[-2] Sight <before discovering [Pigment Spot]>","[-1] Sight <after discovering [Pigment Spot]>"],
+	},
+	{
+		"name": "Arthropod",
+		"unitType": "Water Arthropod",
+		"cost": 250,
+		"strength": 9,
+		"movement": 2,
+		"requiredTech": "Arthropod",
+		"uniques": ["[-2] Sight <before discovering [Pigment Spot]>","[-1] Sight <after discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"]
 	},
 	{
 		"name": "Fish",
 		"unitType": "Water Animal",
 		"cost": 300,
-		"strength": 12,
+		"strength": 15,
 		"movement": 4,
-		"requiredTech": "Swimming",
-		"uniques": ["[3] Sight","Can move after attacking"]
+		"requiredTech": "Fish",
+		"uniques": ["[1] Sight","Can move after attacking"]
 	},
         {
                 "name": "Worker",
