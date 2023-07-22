@@ -87,15 +87,6 @@
 		"defenceBonus": -0.15
 	},
 	{
-		"name": "Oasis",
-		"type": "TerrainFeature",
-		"movementCost": 1,
-		"unbuildable": true,
-		"defenceBonus": -0.1,
-		"occursOn": ["Desert"],
-		"uniques": ["Fresh water", "Rare feature"]
-	},
-	{
 		"name": "Flood plains",
 		"type": "TerrainFeature",
 		"movementCost": 1,
