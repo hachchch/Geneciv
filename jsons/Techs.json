@@ -231,6 +231,11 @@
 				"name": "Radial Symmetry",
 				"row": 4,
 				"prerequisites": ["Swimming"],
+			},
+			{
+				"name": "Flatworm",
+				"row": 6,
+				"prerequisites": ["Jellyfish"],
 			}
 		]
 	},
