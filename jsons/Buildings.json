@@ -7,6 +7,11 @@
                 "requiredTech": "Primordial Soup",
         },
 	{
+		"name": "Meteor",
+		"cost": 45,
+		"science": 1,
+	},
+	{
 		"name": "Ozone Layer",
 		"isNationalWonder": true,
 		"cost": 200,
@@ -62,6 +67,7 @@
 		"name": "Cytoplasm",
 		"cost": 675,
 		"isWonder": true
+		"requiredTech": "Eukaryotic Cell",
 		"uniques": ["New [Land] units start with [15] Experience [in all cities]"],
 	},
 	{
