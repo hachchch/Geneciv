@@ -421,16 +421,19 @@
 				"name": "Legs",
 				"row": 4,
 				"prerequisites": ["Fins","Lungfish"],
+				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"]
 			},
 			{
 				"name": "Water Tight",
 				"prerequisites": ["Lungfish"]
 				"row": 3,
+				"uniques": ["[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
 			},
 			{
 				"name": "Lung",
 				"row": 5,
 				"prerequisites": ["Lungfish"],
+				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"]
 			},
 		]
 	}
