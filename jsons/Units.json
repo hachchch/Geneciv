@@ -26,7 +26,7 @@
 		"strength": 2,
 		"movement": 2,
 		"cost": 80,
-		"uniques": ["No Sight"],
+		"uniques": ["No Sight","May travel on Water tiles without embarking"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eukaryotic Cell",
@@ -40,7 +40,7 @@
 		"requiredTech": "Eukaryotic Cell",
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
-		"uniques": ["No Sight"],
+		"uniques": ["No Sight","May travel on Water tiles without embarking"],
 	},
 	{
 		"name": "Jellyfish",
