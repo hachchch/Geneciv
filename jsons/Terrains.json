@@ -1,5 +1,4 @@
 [	
-	// Base terrains
 	{
 		"name": "Ocean",
 		"type": "Water",
@@ -20,7 +19,7 @@
 		"RGB": [109,139,53]
 	},
 	{
-		"name": "Plains",
+		"name": "Plain",
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
@@ -53,7 +52,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [74,81,40],
 		"rough": true
-		"occursOn": ["Coast","Snow","Desert","Tundra","Plains","Dirt"],
+		"occursOn": ["Coast","Snow","Desert","Tundra","Plain","Dirt"],
 	},
 	{
 		"name": "Mountain",
@@ -75,7 +74,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Dirt","Hill"],
+		"occursOn": ["Tundra","Plain","Dirt","Hill"],
 		"rough": true,
 		"uniques": ["Provides a one-time Production bonus to the closest city when cut down"]
 	},
@@ -86,7 +85,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Plains","Dirt","Hill"],
+		"occursOn": ["Plain","Dirt","Hill"],
 		"rough": true
 	},
 	{
@@ -150,7 +149,7 @@
 		"type": "NaturalWonder",
 		"science": 2,
 		"happiness": 3,
-		"occursOn": ["Dirt","Plains","Tundra","Mountain"],
+		"occursOn": ["Dirt","Plain","Tundra","Mountain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -160,7 +159,7 @@
 		"name": "El Dorado",
 		"type": "NaturalWonder",
 		"culture": 5,
-		"occursOn": ["Plains"],
+		"occursOn": ["Plain"],
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
@@ -171,7 +170,7 @@
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
-		"occursOn": ["Plains"],
+		"occursOn": ["Plain"],
 		"turnsInto": "Plains",
 		"impassable": true,
 		"unbuildable": true,
@@ -183,7 +182,7 @@
 		"type": "NaturalWonder",
 		"production": 2,
 		"gold": 3,
-		"occursOn": ["Plains","Desert","Tundra"],
+		"occursOn": ["Plain","Desert","Tundra"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -194,7 +193,7 @@
 		"type": "NaturalWonder",
 		"gold": 1,
 		"culture": 5,
-		"occursOn": ["Dirt","Plains"],
+		"occursOn": ["Dirt","Plain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -225,7 +224,7 @@
 		"name": "Cerro de Potosi",
 		"type": "NaturalWonder",
 		"gold": 10,
-		"occursOn": ["Plains","Mountain"],
+		"occursOn": ["Plain","Mountain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -247,7 +246,7 @@
 		"name": "Lake Victoria",
 		"type": "NaturalWonder",
 		"food": 6,
-		"occursOn": [Plains"],
+		"occursOn": [Plain"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
