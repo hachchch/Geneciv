@@ -172,7 +172,7 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Chloroplast",
+				"name": "Chloroplasts",
 				"row": 1,
 				"prerequisites": ["Tissue"],
 			},
