@@ -12,6 +12,10 @@
 		"movementType": "Water",
 	},
 	{
+		"name": "Water Arthropod",
+		"movementType": "Water",
+	},
+	{
 		"name": "Civilian",
 		"movementType": "Land",
 	},
