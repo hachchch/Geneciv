@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Plain
   rotate: false
-  xy: 1730, 1840
+  xy: 1720, 1624
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
