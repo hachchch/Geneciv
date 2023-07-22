@@ -436,5 +436,40 @@
 				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"]
 			},
 		]
-	}
+	},
+	{
+		"columnNumber": 18,
+		"era": "Devonian period",
+		"techCost": 220,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Herbivore",
+				"row": 3,
+				"prerequisites": ["Fern","Reptile"],
+				"uniques": ["[+1 Food] from [Grassland] tiles [in all cities]"]
+			},
+			{
+				"name": "Egg Shell",
+				"row": 9,
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"prerequisites": ["Reptile","Fish Egg"],
+			},
+			{
+				"name": "Archosauria",
+				"row": 6,
+				"prerequisites": ["Reptile","Legs"],
+			},
+			{
+				"name": "Warm Blooded",
+				"row": 4,
+				"prerequisites": ["Lung","Legs"],
+			},
+			{
+				"name": "Ear",
+				"row": 7,
+				"prerequisites": ["Reptile"]
+			},
+		]
 ]
