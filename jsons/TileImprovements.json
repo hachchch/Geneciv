@@ -9,7 +9,7 @@
 		"name": "Forests",
 		"terrainsCanBeBuiltOn": ["Plains","Dirt"],
 		"turnsToBuild": 3,
-		"food": 3,
+		"food": 1,
 	},
 	{
 		"name": "Grassland",
