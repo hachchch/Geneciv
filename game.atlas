@@ -33,7 +33,7 @@ TileSets/FantasyHex/Units/Prokaryotic Cell
   index: -1
 TileSets/FantasyHex/Units/Eukaryotic Cell
   rotate: false
-  xy: 1392, 803
+  xy: 1512, 766
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
