@@ -1,5 +1,5 @@
 
-game3.png
+game4.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -7,6 +7,13 @@ repeat: none
 TileSets/FantasyHex/Tiles/Dirt
   rotate: false
   xy: 1730, 1840
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Amino Acid
+  rotate: false
+  xy: 1466, 690
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
