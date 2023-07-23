@@ -610,7 +610,7 @@
 				"uniques": ["[+1 Science] per [5] population [in all cities]"],
 			},
 			{
-				"name": "Neocortex"
+				"name": "Neocortex",
 				"row": 2,
 				"prerequisites": ["Eutherians"],
 			},
