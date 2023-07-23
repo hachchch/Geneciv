@@ -640,5 +640,6 @@
 				"row": 2,
 				"prerequisites": ["Neocortex"],
 			}
+		]
 	},
 ]
