@@ -107,7 +107,7 @@
 		"startingGold": 0,
 		"settlerPopulation": 1,
 		"startPercent": 40,
-		"citySound": "cityAncient",
+		"citySound": "Underwater",
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
 	},
@@ -121,7 +121,7 @@
 		"startingGold": 0,
 		"settlerPopulation": 1,
 		"startPercent": 40,
-		"citySound": "cityAncient",
+		"citySound": "Underwater",
 		"embarkDefense": 1,
 		"iconRGB": [233, 31, 99]
 	},
