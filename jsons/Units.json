@@ -110,7 +110,8 @@
 		"strength": 45,
 		"movement": 5,
 		"requiredTech": "Predation",
-			"uniques": ["Can move after attacking","Destroys tile improvements when attacking"],
+		"attackSound": "Splash",
+		"uniques": ["Can move after attacking","Destroys tile improvements when attacking"],
 	},
 	{
 		"name": "Small Reptile",
@@ -160,6 +161,7 @@
 		"strength": 65,
 		"movement": 3,
 		"requiredTech": "Plesiosaur",
+		"attackSound": "Splash",
 	},
 	{
 		"name": "Pterosaur",
@@ -207,6 +209,7 @@
 		"movement": 4,
 		"requiredTech": "Cetaceans",
 		"cost": 170,
+		"attackSound": "Splash",
 	},
 	{
 		"name": "Ape",
