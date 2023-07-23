@@ -36,11 +36,11 @@
 	},
 	{
 		"name": "Glider",
-		"moovementType": "Air",
+		"movementType": "Air",
 	},
 	{
 		"name": "Birds",
-		"moovementType": "Air",
+		"movementType": "Air",
 	},
 	{
 		"name": "Water Animal",
