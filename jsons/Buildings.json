@@ -127,6 +127,12 @@
 		"food": -1,
 	},
 	{
+		"name": "Radial Symmetry",
+		"cost": 125,
+		"science": 2,
+		"uniques": [""],
+	},
+	{
 		"name": "Gamerule",
 		"culture": 5,
 		"cityStrength": -50,
