@@ -15,7 +15,7 @@
 	{
 		"name": "Grassland",
 		"techRequired": "Chloroplasts",
-		"food": 3,
+		"food": 2,
 		"terrainsCanBeBuiltOn": ["Dirt","Plains","Desert"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
