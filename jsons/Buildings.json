@@ -148,7 +148,7 @@
 	},
 	{
 		"name": "Bilateral Symmetry",
-		"cist": 130,
+		"cost": 130,
 		"science": 2,
 		"uniques": ["[+15]% Production when constructing [Water Animal] units [in this city]"],
 		"requiredTech": "Bilateral Symmetry",
