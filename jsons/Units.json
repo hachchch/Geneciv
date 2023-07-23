@@ -8,6 +8,7 @@
 		"uniques": ["No Sight"],
 		"obsoleteTech": "Amino Acid",
 		"upgradesTo": "Amino Acid",
+		"attackSound": "Plays",
         },
 	{
 		"name": "Amino Acid",
@@ -19,6 +20,7 @@
 		"requiredTech": "Amino Acid",
 		"obsoleteTech": "Eukaryotic Cell",
 		"upgradesTo": "Prokaryotic Cell",
+		"attackSound": "Plays",
 	},
 	{
 		"name": "Prokaryotic Cell",
@@ -30,6 +32,7 @@
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eukaryotic Cell",
+		"attackSound": "Cell",
 	},
 	{
 		"name": "Eukaryotic Cell",
@@ -41,6 +44,7 @@
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
 		"uniques": ["No Sight","May travel on Water tiles without embarking"],
+		"attackSound": "Cell",
 	},
 	{
 		"name": "Jellyfish",
@@ -54,6 +58,7 @@
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
 		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
+		"attackSound": "Whoo",
 	},
 	{
 		"name": "Flatworm",
@@ -65,6 +70,7 @@
 		"upgradesTo": "Fish",
 		"requiredTech": "Flatworm",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"attackSound": "Whoo",
 	},
 	{
 		"name": "Arthropod",
@@ -75,7 +81,8 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Arthropod",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"]
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "Whoo",
 	},
 	{
 		"name": "Fish",
@@ -84,7 +91,8 @@
 		"strength": 32,
 		"movement": 2,
 		"requiredTech": "Fish",
-		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders","Double movement in [Coast] <after discovering [Fins]>","Double movement in [Ocean] <after discovering [Fins]>"]
+		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders","Double movement in [Coast] <after discovering [Fins]>","Double movement in [Ocean] <after discovering [Fins]>"],
+		"attackSound": "Splash",
 	},
 	{
 		"name": "Tetrapod",
