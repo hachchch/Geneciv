@@ -312,6 +312,7 @@
 				"name": "Eye",
 				"row": 3,
 				"prerequisites": ["Arthropod","Pigment Spot"],
+				"uniques": ["[+10]% Production when constructing [Range] units [in all cities]"]
 			},
 			{
 				"name": "First Plant",
@@ -327,6 +328,7 @@
 				"name": "Trilobite",
 				"row": 8,
 				"prerequisites": ["Arthropod"],
+				"uniques": ["[+200]% Production when constructing [Amphibian] units [in all cities]"]
 			}
 		]
 	},
@@ -341,37 +343,43 @@
 				"name": "Gills",
 				"row": 5,
 				"prerequisites": ["Fish"],
+				"uniques": ["[+25]% Production when constructing [Fishes] units [in all cities]"]
 			},
 			{
 				"name": "Spore Plant",
 				"row": 1,
 				"prerequisites": ["First Plant"],
+				"uniques": ["[+10]% [Food] [in all cities]"]
 			},
 			{
 				"name": "Fins",
 				"row": 4,
 				"prerequisites": ["Fish"],
+				"uniques": ["[+15]% Production when constructing [Fishes] units [in all cities]"]
 			},
 			{
 				"name": "Cold Blooded",
 				"row": 6,
-				"prerequisites": ["Fish"]
+				"prerequisites": ["Fish"],
+				"uniques": ["[+10]% Production when constructing [Water] units [in all cities]"]
 			},
 			{
 				"name": "Jaw",
 				"row": 7,
 				"prerequisites": ["Fish"],
+				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]"],
 			},
 			{
 				"name": "Fish Egg",
 				"row": 9,
 				"prerequisites": ["Fish","Cocoon"],
-				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%","[+15]% Production when constructing [Fishes] units [in all cities]"],
 			},
 			{
 				"name": "Excretion Opening",
 				"row": 8,
 				"prerequisites": ["Fish"]
+				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]"],
 			}
 		]
 	},
@@ -402,6 +410,7 @@
 				"name": "Predation",
 				"row": 8,
 				"prerequisites": ["Excretion Opening","Jaw"],
+				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]"]
 			},
 		]
 	},
@@ -421,12 +430,13 @@
 				"name": "Insect",
 				"row": 1,
 				"prerequisites": ["Fern"],
+				"name": ["[+33]% [Food] from every [Grassland]","[+50]% Yield from every [Forests]"],
 			},
 			{
 				"name": "Legs",
 				"row": 4,
 				"prerequisites": ["Fins","Lungfish"],
-				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"]
+				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
 			},
 			{
 				"name": "Water Tight",
