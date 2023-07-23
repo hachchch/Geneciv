@@ -86,7 +86,7 @@
 	},
 	{
 		"name": "Fish",
-		"unitType": "Water Animal",
+		"unitType": "Fish",
 		"cost": 120,
 		"strength": 32,
 		"movement": 2,
@@ -105,12 +105,16 @@
 	},
 	{
 		"name": "Shark",
-		"unitType": "Water Animal",
-		"cost": 150,
+		"unitType": "Fish",
+		"cost": 140,
 		"strength": 50,
 		"movement": 5,
 		"requiredTech": "Predation",
 		"uniques": ["Can move after attacking","Destroys tile improvements when attacking"],
+	},
+	{
+		"name": "Shark",
+		"unitType": "Reptile",
 	},
 	{
 		"name": "Vegetation",
