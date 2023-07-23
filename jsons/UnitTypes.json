@@ -20,6 +20,10 @@
 		"moovementType": "Land",
 	},
 	{
+		"name": "Herbivore",
+		"movementType": "Land",
+	},
+	{
 		"name": "Hominiae",
 		"movementType": "Land",
 	},
@@ -37,6 +41,10 @@
 	},
 	{
 		"name": "Water Animal",
+		"movementType": "Water",
+	},
+	{
+		"name": "Fishes",
 		"movementType": "Water",
 	},
 	{
