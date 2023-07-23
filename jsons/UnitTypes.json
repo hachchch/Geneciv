@@ -16,6 +16,9 @@
 		"movementType": "Land",
 	},
 	{
+		"name": "Water Reptiles",
+	},
+	{
 		"name": "Mammal",
 		"moovementType": "Land",
 	},
