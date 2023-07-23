@@ -15,7 +15,7 @@
 		"unitType": "Particle",
 		"movement": 2,
 		"strength": 1,
-		"cost": 60,
+		"cost": 40,
 		"uniques": ["No Sight"],
 		"requiredTech": "Amino Acid",
 		"obsoleteTech": "Eukaryotic Cell",
@@ -27,7 +27,7 @@
 		"unitType": "Cell",
 		"strength": 2,
 		"movement": 2,
-		"cost": 80,
+		"cost": 60,
 		"uniques": ["No Sight","May travel on Water tiles without embarking"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
@@ -39,7 +39,7 @@
 		"unitType": "Cell",
 		"movement": 2,
 		"strength": 3,
-		"cost": 100,
+		"cost": 80,
 		"requiredTech": "Eukaryotic Cell",
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
@@ -49,7 +49,7 @@
 	{
 		"name": "Jellyfish",
 		"unitType": "Water Animal",
-		"cost": 160,
+		"cost": 100,
 		"strength": 15,
 		"rangetStrength": 6,
 		"range": 1,
@@ -63,7 +63,7 @@
 	{
 		"name": "Flatworm",
 		"unitType": "Water Animal",
-		"cost": 200,
+		"cost": 110,
 		"strength": 16,
 		"movement": 3,
 		"obsoleteTech": "Fish",
@@ -75,7 +75,7 @@
 	{
 		"name": "Arthropod",
 		"unitType": "Water Arthropod",
-		"cost": 250,
+		"cost": 120,
 		"strength": 24,
 		"obsoleteTech": "Predation",
 		"upgradesTo": "Shark",
@@ -87,7 +87,7 @@
 	{
 		"name": "Fish",
 		"unitType": "Water Animal",
-		"cost": 300,
+		"cost": 120,
 		"strength": 32,
 		"movement": 2,
 		"requiredTech": "Fish",
@@ -97,6 +97,7 @@
 	{
 		"name": "Tetrapod",
 		"unitType": "Amphibian",
+		"cost": 120,
 		"strength": 24,
 		"movement": 1,
 		"requiredTech": "Lungfish",
@@ -105,6 +106,7 @@
 	{
 		"name": "Shark",
 		"unitType": "Water Animal",
+		"cost": 150,
 		"strength": 50,
 		"movement": 5,
 		"requiredTech": "Predation",
@@ -116,7 +118,7 @@
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action","No Sight"],
-		"cost": 500,
+		"cost": 120,
 		"requiredTech": "First Plant",
 	},
         {
