@@ -561,6 +561,15 @@
 				"prerequisites": ["Feathers","Gliding"],
 			},
 			{
+				"name": "Grass",
+				"row": 1,
+				"prerequisites": ["Insect"],
+			},
+			{
+				"name": "Cretaceous Reptiles",
+				"row": 4,
+				"prerequisites": ["Gliding","Plesiosaur"],
+			{
 				"name": "Eutherians",
 				"row": 6,
 				"prerequisites": ["Hair"]
@@ -585,6 +594,11 @@
 				"prerequisites": ["Flying"]
 			},
 			{
+				"name": "Flowers",
+				"row": 1,
+				"prerequisites": ["Grass","Flying"],
+			},
+			{
 				"name": "Cetaceans",
 				"row": 8,
 				"prerequisites": ["Plesiosaur","Eutherians"],
@@ -607,5 +621,24 @@
 				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 			},
 		]
-	}
+	},
+	{
+
+		"columnNumber": 23,
+		"era": "Paleogene period",
+		"techCost": 220,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Ape",
+				"row": 6,
+				"prerequisites": ["Primate","Neocortex"]
+			},
+			{
+				"name": "Learning",
+				"row": 2,
+				"prerequisites": ["Neocortex"],
+			}
+	},
 ]
