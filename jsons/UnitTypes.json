@@ -12,6 +12,22 @@
 		"movementType": "Land",
 	},
 	{
+		"name": "Reptiles",
+		"movementType": "Land",
+	},
+	{
+		"name": "Mammal",
+		"moovementType": "Land",
+	},
+	{
+		"name": "Hominiae",
+		"movementType": "Land",
+	},
+	{
+		"name": "Water Mammal",
+		"moovementType": "Water",
+	},
+	{
 		"name": "Water Animal",
 		"movementType": "Water",
 	},
