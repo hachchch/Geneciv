@@ -148,7 +148,7 @@
 		"name": "Mammal",
 		"cost": 130,
 		"strength": 45,
-		"uniques": ["Can move immediately once bought","Can move after attacking"],
+		"uniques": ["[120]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 5,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
