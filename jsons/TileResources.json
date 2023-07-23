@@ -38,7 +38,7 @@
 		"food": 1,
 		"improvement": "Forests",
                 "production": 1,
-		"improvementStats": {"food": 2},
+		"improvementStats": {"food": 1},
 	},
 	{
 		"name": "Jungle",
