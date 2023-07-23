@@ -28,6 +28,14 @@
 		"moovementType": "Water",
 	},
 	{
+		"name": "Grider",
+		"moovementType": "Air",
+	},
+	{
+		"name": "Birds",
+		"moovementType": "Air",
+	},
+	{
 		"name": "Water Animal",
 		"movementType": "Water",
 	},
