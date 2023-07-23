@@ -126,6 +126,18 @@
 		"cost": 120,
 		"food": -1,
 	},
+	{
+		"name": "Gamerule",
+		"cityStrength": -10,
+		"cityHealth": -9,
+		"uniques": ["Unsellable","Unbuildable","[+1 Production] per [1] population [in this city]"]
+	},
+	{
+		"name": "Gamerule2",
+		"cityStrength": -10,
+		"cityHealth": -9,
+		"uniques": ["Unsellable","Unbuildable","Cannot build [Cell] units"]
+	},
         {
                 "name": "Palace",
                 "isNationalWonder": true,
@@ -133,7 +145,7 @@
 		"science": 3,
 		"gold": 3,
 		"cost": 1,
-                "uniques": ["Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%"],
+                "uniques": ["Gain a free [Gamerule] [in all cities]","Gain a free [Gamerule2] [in all cities] <upon entering the [Cambrian Period]>","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%","Each city founded increases culture cost of policies [-100]% less than normal <before discovering [Policies]>"],
         },
 	{
 		"name": "Adenosine Triphosphate",
