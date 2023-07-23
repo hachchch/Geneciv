@@ -271,7 +271,7 @@
 	{
 		"columnNumber": 13,
 		"era": "Cambrian period",
-		"techCost": 170,
+		"techCost": 180,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -306,7 +306,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Silurian period",
-		"techCost": 180,
+		"techCost": 200,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -319,7 +319,7 @@
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Chloroplasts"],
+				"prerequisites": ["Chloroplasts","Arthropod"],
 			},
 			{
 				"name": "Fish",
@@ -337,7 +337,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Silurian period",
-		"techCost": 190,
+		"techCost": 220,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -388,7 +388,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Devonian period",
-		"techCost": 200,
+		"techCost": 240,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -419,7 +419,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Carboniferous period",
-		"techCost": 210,
+		"techCost": 260,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -431,7 +431,7 @@
 			{
 				"name": "Insect",
 				"row": 1,
-				"prerequisites": ["Fern"],
+				"prerequisites": ["Fern","Lungfish"],
 				"uniques": ["[+33]% [Food] from every [Grassland]","[+50]% Yield from every [Forests]"],
 			},
 			{
@@ -457,7 +457,7 @@
 	{
 		"columnNumber": 18,
 		"era": "Permian period",
-		"techCost": 220,
+		"techCost": 280,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -494,7 +494,7 @@
 	{
 		"columnNumber": 19,
 		"era": "Mesozoic era",
-		"techCost": 220,
+		"techCost": 300,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -518,7 +518,7 @@
 	{
 		"columnNumber": 20,
 		"era": "Mesozoic era",
-		"techCost": 220,
+		"techCost": 320,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -563,7 +563,7 @@
 	{
 		"columnNumber": 21,
 		"era": "Mesozoic era",
-		"techCost": 220,
+		"techCost": 340,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -592,7 +592,7 @@
 	{
 		"columnNumber": 22,
 		"era": "Paleogene period",
-		"techCost": 220,
+		"techCost": 360,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
@@ -638,7 +638,7 @@
 	{
 		"columnNumber": 23,
 		"era": "Paleogene period",
-		"techCost": 220,
+		"techCost": 380,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
