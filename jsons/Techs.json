@@ -492,12 +492,6 @@
 				"prerequisites": ["Archosauria","Egg Shell"],
 			},
 			{
-				"name": "Uterus",
-				"row": 9,
-				"prerequisites": ["Warm Blooded","Egg Shell"],
-				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
-			},
-			{
 				"name": "Mammal",
 				"row": 6,
 				"prerequisites": ["Warm Blooded"]
@@ -520,6 +514,12 @@
 				"name": "Gliding",
 				"row": 3,
 				"prerequisites": ["Wings","Dinosaur"],
+			},
+			{
+				"name": "Uterus",
+				"row": 9,
+				"prerequisites": ["Warm Blooded","Egg Shell"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 			},
 			{
 				"name": "Plesiosaur",
@@ -590,7 +590,7 @@
 				"prerequisites": ["Plesiosaur","Eutherians"],
 			},
 			{
-				"name": "Ape",
+				"name": "Primate",
 				"row": 6,
 				"prerequisites": ["Eutherians"],
 				"uniques": ["[+1 Science] per [5] population [in all cities]"],
@@ -599,7 +599,13 @@
 				"name": "Neocortex"
 				"row": 2,
 				"prerequisites": ["Eutherians"],
-			}
+			},
+			{
+				"name": "Placenta",
+				"row": 9,
+				"prerequisites": ["Uterus","Eutherians"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+			},
 		]
 	}
 ]
