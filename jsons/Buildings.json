@@ -128,14 +128,13 @@
 	},
 	{
 		"name": "Gamerule",
-		"cityStrength": -10,
-		"cityHealth": -9,
+		"cityStrength": -50,
+		"cityHealth": -10,
 		"uniques": ["Unsellable","Unbuildable","[+1 Production] per [1] population [in this city]"]
 	},
 	{
 		"name": "Gamerule2",
 		"cityStrength": -10,
-		"cityHealth": -9,
 		"uniques": ["Unsellable","Unbuildable","Cannot build [Cell] units"]
 	},
         {
