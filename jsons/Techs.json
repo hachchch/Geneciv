@@ -518,7 +518,7 @@
 			{
 				"name": "Uterus",
 				"row": 9,
-				"prerequisites": ["Warm Blooded","Egg Shell"],
+				"prerequisites": ["Mammal","Egg Shell"],
 				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 			},
 			{
