@@ -574,6 +574,7 @@
 				"row": 6,
 				"prerequisites": ["Hair"],
 			},
+		]
 	},
 	{
 		"columnNumber": 22,
@@ -622,7 +623,6 @@
 		]
 	},
 	{
-
 		"columnNumber": 23,
 		"era": "Paleogene period",
 		"techCost": 220,
