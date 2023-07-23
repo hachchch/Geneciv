@@ -17,10 +17,11 @@
 	},
 	{
 		"name": "Water Reptiles",
+		"movementType": "Water",
 	},
 	{
 		"name": "Mammal",
-		"moovementType": "Land",
+		"movementType": "Land",
 	},
 	{
 		"name": "Herbivore",
@@ -32,7 +33,7 @@
 	},
 	{
 		"name": "Water Mammal",
-		"moovementType": "Water",
+		"movementType": "Water",
 	},
 	{
 		"name": "Glider",
