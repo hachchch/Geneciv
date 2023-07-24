@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "Amphibian",
-		"movementType": "Land",
+		"movementType": "Amphibian",
 	},
 	{
 		"name": "Reptiles",
