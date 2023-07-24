@@ -549,20 +549,20 @@
 				"prerequisites": ["Mammal"]
 			},
 			{
-				"name": "Glands",
+				"name": "Cretaceous Reptiles",
 				"row": 6,
-				"prerequisites": ["Mammal"]
+				"prerequisites": ["Dinosaur"],
 			},
 			{
-				"name": "Secondary Palate",
+				"name": "Glands",
 				"row": 7,
-				"prerequisites": ["Mammal"],
+				"prerequisites": ["Mammal"]
 			},
 		]
 	},
 	{
 		"columnNumber": 21,
-		"era": "Mesozoic era",
+		"era": "Paleogene period",
 		"techCost": 340,
 		"buildingCost": 50,
 		"wonderCost": 100,
@@ -576,11 +576,6 @@
 				"name": "Grass",
 				"row": 1,
 				"prerequisites": ["Insect"],
-			},
-			{
-				"name": "Cretaceous Reptiles",
-				"row": 4,
-				"prerequisites": ["Gliding","Plesiosaur"],
 			},
 			{
 				"name": "Eutherians",
@@ -637,7 +632,7 @@
 	},
 	{
 		"columnNumber": 23,
-		"era": "Paleogene period",
+		"era": "Miocene",
 		"techCost": 380,
 		"buildingCost": 50,
 		"wonderCost": 100,
@@ -653,5 +648,33 @@
 				"prerequisites": ["Neocortex"],
 			}
 		]
+	},
+	{
+		"columnNumber": 24,
+		"era": "Miocene",
+		"techCost": 400,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Modern Ocean",
+				"row": 8,
+				"prerequisites": ["Cetaceans"],
+			},
+			{
+				"name": "Five Fingers",
+				"row": 5,
+				"prerequisites": ["Ape"],
+			},
+			{
+				"name": "upright biped",
+				"row": 6,
+				"prerequisites": ["Ape"],
+			},
+			{
+				"name": "Ape brain",
+				"row": 2,
+				"prerequisites": ["Ape","Learning"]
+			},
 	},
 ]
