@@ -676,5 +676,6 @@
 				"row": 2,
 				"prerequisites": ["Ape","Learning"]
 			},
+		]
 	},
 ]
