@@ -1,5 +1,5 @@
 
-game3.png
+game14.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -11,12 +11,6 @@ TileSets/FantasyHex/Tiles/Dirt
   orig: 32, 28
   offset: 0, 0
   index: -1
-
-game4.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
 TileSets/FantasyHex/Units/Amino Acid
   rotate: false
   xy: 1466, 690
@@ -52,12 +46,6 @@ TileSets/FantasyHex/Tiles/City center-Cryptic era
   orig: 32, 28
   offset: 0, 0
   index: -1
-
-game2.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
 TileSets/FantasyHex/Tiles/Plains
   rotate: false
   xy: 1904, 1460
@@ -75,13 +63,6 @@ TileSets/FantasyHex/Tiles/Lakes-Archean eon
 TileSets/FantasyHex/Tiles/City center-Archean eon
   rotate: false
   xy: 1272, 935
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Jellyfish
-  rotate: false
-  xy: 1272, 1043
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
