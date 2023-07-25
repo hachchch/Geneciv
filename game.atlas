@@ -69,6 +69,13 @@ TileSets/FantasyHex/Tiles/Lakes-Archean eon
   index: -1
 TileSets/FantasyHex/Tiles/City center-Archean eon
   rotate: false
+  xy: 604, 636
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Mesoproterozoic
+  rotate: false
   xy: 484, 741
   size: 32, 28
   orig: 32, 28
