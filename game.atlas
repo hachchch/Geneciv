@@ -109,3 +109,24 @@ TileSets/FantasyHex/Tiles/Plains+Forests+Forest
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Fish
+  rotate: false
+  xy: 444, 672
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Caniform
+  rotate: false
+  xy: 524, 1230
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Arthropod
+  rotate: false
+  xy: 444, 1074
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
