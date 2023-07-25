@@ -21,7 +21,6 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[Great Scientist] is earned [50]% faster"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -52,7 +51,6 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
 		"uniqueName": "Ingenuity",
 		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[Great Scientist] is earned [50]% faster"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -83,7 +81,6 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
 		"uniqueName": "A stone that tells history",
 		"uniques": ["[25]% [Gold] [in all cities] <during a Golden Age>","[35]% [Gold] [in all cities] <during We Love The King Day>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -114,7 +111,6 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
 		"uniqueName": "The Supercontinent",
 		"uniques": ["[+2 Production] [in all cities]","[+44]% Production when constructing [Civilian] units [in all cities]"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -145,7 +141,6 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
 		"uniqueName": "Snowball Earth",
 		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
