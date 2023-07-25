@@ -52,12 +52,9 @@
 		"movement": 2,
 		"uniqueTo": "Barbarians",
 		"strength": 4,
-		"cost": 80,
 		"requiredTech": "Eukaryotic Cell",
-		"obsoleteTech": "Lungfish",
-		"upgradesTo": "Tetrapod",
-		"uniques": ["No Sight","May travel on Water tiles without embarking"],
 		"attackSound": "Cell",
+		"uniques": ["May travel on Water tiles without embarking"],
 	},
 	{
 		"name": "Jellyfish",
