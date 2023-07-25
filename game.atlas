@@ -54,7 +54,7 @@ TileSets/FantasyHex/Tiles/Plains
   offset: 0, 0
   index: -1
 
-game10.png
+game22.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
