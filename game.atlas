@@ -74,3 +74,38 @@ TileSets/FantasyHex/Tiles/City center-Archean eon
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Dirt-Miocene
+  rotate: false
+  xy: 484, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland-Dirt
+  rotate: false
+  xy: 484, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Grassland
+  rotate: false
+  xy: 1485, 876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Dirt+Forests+Forest
+  rotate: false
+  xy: 524, 854
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Forests+Forest
+  rotate: false
+  xy: 1685, 795
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
