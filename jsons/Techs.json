@@ -39,7 +39,7 @@
 				"name": "Primordial Soup",
 				"row": 5,
 				"prerequisites": ["Planet Earth"],
-				"uniques": ["[+4 Happiness] from [Lakes] tiles"]
+				"uniques": ["[+4 Happiness] from [Lakes] tiles [in all cities]"]
 			},
 			{
 				"name": "Moon",
@@ -182,7 +182,7 @@
 				"name": "Nervous System",
 				"row": 2,
 				"prerequisites": ["Tissue"],
-				"uniques": ["[+1 Production] [in all cities]","[+2 Happiness] from [City center] tiles"],
+				"uniques": ["[+1 Production] [in all cities]","[+2 Happiness] from [City center] tiles [in all cities]"],
 			},
 			{
 				"name": "Muscles",
