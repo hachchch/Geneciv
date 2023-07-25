@@ -228,7 +228,7 @@
 		"strength": 50,
 		"movement": 3,
 		"requiredTech": "Ape",
-		"uniques": ["All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [mapUnitFilter] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
+		"uniques": ["All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
 	},
 	{
 		"name": "Archeopteryx",
