@@ -93,19 +93,6 @@
 	},
 	// Natural Wonders
 	{
-		"name": "Great Barrier Reef",
-		"type": "NaturalWonder",
-		"food": 2,
-		"production": 1,
-		"gold": 1,
-		"science": 2,
-		"occursOn": ["Coast"],
-		"turnsInto": "Coast",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
 		"name": "Old Faithful",
 		"type": "NaturalWonder",
 		"science": 2,
