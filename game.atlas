@@ -53,16 +53,23 @@ TileSets/FantasyHex/Tiles/Plains
   orig: 32, 28
   offset: 0, 0
   index: -1
+
+game10.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
 TileSets/FantasyHex/Tiles/Lakes-Archean eon
+  TileSets/FantasyHex/Tiles/Lakes
   rotate: false
-  xy: 1272, 935
+  xy: 604, 636
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Archean eon
   rotate: false
-  xy: 1272, 935
+  xy: 404, 1173
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
