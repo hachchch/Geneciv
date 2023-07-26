@@ -800,7 +800,7 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Unciv",
+				"name": "Unciv Tech",
 				"row": 6,
 				"prerequisites": ["Human Race"],
 				"uniques": ["Can be continually researched","[[+50 Production,+50 Science,+25 Culture,+10 Faith,+100 Gold] [in all cities]]"],
