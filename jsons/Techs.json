@@ -667,15 +667,143 @@
 				"prerequisites": ["Ape"],
 			},
 			{
-				"name": "upright biped",
+				"name": "Upright Bipedal Walk",
 				"row": 6,
 				"prerequisites": ["Ape"],
 			},
 			{
-				"name": "Ape brain",
+				"name": "Ape Brain",
 				"row": 2,
 				"prerequisites": ["Ape","Learning"]
 			},
 		]
 	},
+	{
+		"columnNumber": 25,
+		"era": "Pliocene",
+		"techCost": 450,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Australopithecus",
+				"row": 6,
+				"prerequisites": ["Upright Bipedal Walk","Five Fingers","Ape Brain"],
+			},
+			{
+				"name": "Opposable Thumb",
+				"row": 5,
+				"prerequisites": ["Upright Bipedal Walk","Five Fingers"],
+			},
+		]
+	},
+	{
+		"columnNumber": 26,
+		"era": "Pliocene",
+		"techCost": 500,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "New Ability",
+				"row": 1,
+				"prerequisites": ["Australopithecus"],
+			},
+			{
+				"name": "Homo Habilis",
+				"row": 6,
+				"prerequisites": ["Australopithecus"],
+			},
+		]
+	},
+	{
+		"columnNumber": 27,
+		"era": "Pleistocene",
+		"techCost": 550,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Stone Tools",
+				"row": 1,
+				"prerequisites": ["New Ability"],
+			},
+			{
+				"name": "Homo Erectus",
+				"row": 6,
+				"prerequisites": ["Homo habilis"],
+			}
+			{
+				"name": "Homo Ergaster",
+				"row": 7,
+				"prerequisites": ["Homo habilis"],
+			},
+			{
+				"name": "Homo Heidelbergensis",
+				"row": 5,
+				"prerequisites": ["Homo habilis"],
+			},
+	},
+	{
+		"columnNumber": 28,
+		"era": "Pleistocene",
+		"techCost": 600,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Homo Neanderthalensis",
+				"row": 5,
+				"prerequisites": ["Homo Erectus","Homo Heidelbergensis"],
+			},
+			{
+				"name": "Homo Sapiens",
+				"row": 7,
+				"prerequisites": ["Homo Erectus","Homo Ergaster"],
+			}
+		]
+	},
+	{
+		"columnNumber": 29,
+		"era": "Pleistocene",
+		"techCost": 800,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Homo Sapiens Sapiens",
+				"row": 6,
+				"prerequisites": ["Homo Sapiens","Homo Neanderthalensis"],
+			},
+		]
+	},
+	{
+		"columnNumber": 30,
+		"era": "Holocene",
+		"techCost": 1000,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Human Race",
+				"row": 6,
+				"prerequisites": ["Homo Sapiens Sapiens"],
+			}
+		]
+	},
+	{
+		"columnNumber": 31,
+		"era": "Anthropocene",
+		"techCost": 1000,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Unciv",
+				"row": 6,
+				"prerequisites": ["Human Race"],
+				"uniques": ["Can be continually researched","[[+50 Production,+50 Science,+25 Culture,+10 Faith,+100 Gold] [in all cities]]"],
+			}
+		]
+	}
 ]
