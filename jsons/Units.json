@@ -307,7 +307,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 102,
-		"uniques": ["Founds a new city","No Sight <before discovering [Human]>"],
+		"uniques": ["Founds a new city","No Sight <before discovering [Australopithecus]>"],
 		"hurryCostModifier": 20
 	},
 ]
