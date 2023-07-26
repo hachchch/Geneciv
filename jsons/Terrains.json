@@ -25,7 +25,7 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"RGB": [109,139,53],
-		"uniques": ["[+10] to Fertility for Map Generation"],
+		"uniques": ["[+10] to Fertility for Map Generation","Becomes [Dirt] when adjacent to [Land]","Doesn't generate naturally"],
 	},
 	{
 		"name": "Plains",
