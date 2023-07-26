@@ -710,7 +710,7 @@
 				"prerequisites": ["Australopithecus"],
 			},
 			{
-				"name": "Homo Habilis",
+				"name": "H0mo Habilis",
 				"row": 6,
 				"prerequisites": ["Australopithecus"],
 			},
@@ -729,19 +729,19 @@
 				"prerequisites": ["New Ability"],
 			},
 			{
-				"name": "Homo Erectus",
+				"name": "H0mo Erectus",
 				"row": 6,
-				"prerequisites": ["Homo Habilis"],
+				"prerequisites": ["H0mo Habilis"],
 			}
 			{
-				"name": "Homo Ergaster",
+				"name": "H0mo Ergaster",
 				"row": 7,
-				"prerequisites": ["Homo Habilis"],
+				"prerequisites": ["H0mo Habilis"],
 			},
 			{
-				"name": "Homo Heidelbergensis",
+				"name": "H0mo Heidelbergensis",
 				"row": 5,
-				"prerequisites": ["Homo Habilis"],
+				"prerequisites": ["H0mo Habilis"],
 			},
 		]
 	},
@@ -753,14 +753,14 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Homo Neanderthalensis",
+				"name": "H0mo Neanderthalensis",
 				"row": 5,
-				"prerequisites": ["Homo Erectus","Homo Heidelbergensis"],
+				"prerequisites": ["H0mo Erectus","H0mo Heidelbergensis"],
 			},
 			{
-				"name": "Homo Sapiens",
+				"name": "H0mo Sapiens",
 				"row": 7,
-				"prerequisites": ["Homo Erectus","Homo Ergaster"],
+				"prerequisites": ["H0mo Erectus","H0mo Ergaster"],
 			}
 		]
 	},
@@ -772,9 +772,9 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Homo Sapiens Sapiens",
+				"name": "H0mo Sapiens Sapiens",
 				"row": 6,
-				"prerequisites": ["Homo Sapiens","Homo Neanderthalensis"],
+				"prerequisites": ["H0mo Sapiens","H0mo Neanderthalensis"],
 			},
 		]
 	},
@@ -788,7 +788,7 @@
 			{
 				"name": "Human Race",
 				"row": 6,
-				"prerequisites": ["Homo Sapiens Sapiens"],
+				"prerequisites": ["H0mo Sapiens Sapiens"],
 			}
 		]
 	},
