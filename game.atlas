@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Dirt
+TileSets/FantasyHex/Tiles/Grassland
   rotate: false
   xy: 1730, 1840
   size: 32, 28
