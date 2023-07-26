@@ -43,7 +43,7 @@
 				"column": 4
 			},
 			{
-				"name": "Tradition Complete",
+				"name": "Tribalism Complete",
 				"effect": "+15% growth and +2 food in all cities",
 				"uniques": ["+[15]% growth in all cities","[+2 Food] in all cities"]
 			}
