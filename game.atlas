@@ -60,7 +60,6 @@ format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Lakes-Archean eon
-  TileSets/FantasyHex/Tiles/Lakes
   rotate: false
   xy: 604, 636
   size: 32, 28
