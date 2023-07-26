@@ -17,7 +17,7 @@
 		"food": 2,
 		"movementCost": 1,
 		"RGB": [107, 214, 152],
-		"uniques": ["Doesn't generate naturally","Occurs at temperature between [-100] and [100] and humidity between [-100] and [100]",],
+		"uniques": ["Doesn't generate naturally","Occurs at temperature between [-100] and [-100] and humidity between [-100] and [-100]",],
 	},
 	{
 		"name": "Dirt",
