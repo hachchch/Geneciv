@@ -696,5 +696,115 @@
 				"prerequisites": ["Upright Bipedal Walk","Five Fingers"],
 			},
 		]
+	},
+	{
+		"columnNumber": 26,
+		"era": "Pliocene",
+		"techCost": 500,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "New Ability",
+				"row": 1,
+				"prerequisites": ["Australopithecus"],
+			},
+			{
+				"name": "Humo Habilis",
+				"row": 6,
+				"prerequisites": ["Australopithecus"],
+			},
+		]
+	},
+	{
+		"columnNumber": 27,
+		"era": "Pleistocene",
+		"techCost": 550,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Stone Tools",
+				"row": 1,
+				"prerequisites": ["New Ability"],
+			},
+			{
+				"name": "Humo Erectus",
+				"row": 6,
+				"prerequisites": ["Humo Habilis"],
+			}
+			{
+				"name": "Humo Ergaster",
+				"row": 7,
+				"prerequisites": ["Humo Habilis"],
+			},
+			{
+				"name": "Humo Heidelbergensis",
+				"row": 5,
+				"prerequisites": ["Humo Habilis"],
+			},
+		]
+	},
+	{
+		"columnNumber": 28,
+		"era": "Pleistocene",
+		"techCost": 600,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Humo Neanderthalensis",
+				"row": 5,
+				"prerequisites": ["Humo Erectus","Humo Heidelbergensis"],
+			},
+			{
+				"name": "Humo Sapiens",
+				"row": 7,
+				"prerequisites": ["Humo Erectus","Humo Ergaster"],
+			}
+		]
+	},
+	{
+		"columnNumber": 29,
+		"era": "Holocene",
+		"techCost": 800,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Humo Sapiens Sapiens",
+				"row": 6,
+				"prerequisites": ["Humo Sapiens","Humo Neanderthalensis"],
+			},
+		]
+	},
+	{
+		"columnNumber": 30,
+		"era": "Holocene",
+		"techCost": 1000,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Human Race",
+				"row": 6,
+				"prerequisites": ["Humo Sapiens Sapiens"],
+			}
+		]
+	},
+	{
+		"columnNumber": 31,
+		"era": "Anthropocene",
+		"techCost": 1000,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Unciv Tech",
+				"row": 6,
+				"prerequisites": ["Human Race"],
+				"uniques": ["Can be continually researched","[[+50 Production,+50 Science,+25 Culture,+10 Faith,+100 Gold] [in all cities]]"],
+			}
+		]
 	}
 ]
