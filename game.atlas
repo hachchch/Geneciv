@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Dirt
+TileSets/FantasyHex/Tiles/Grassland
   rotate: false
   xy: 1730, 1840
   size: 32, 28
@@ -80,14 +80,14 @@ TileSets/FantasyHex/Tiles/City center-Mesoproterozoic
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Dirt-Miocene
+TileSets/FantasyHex/Tiles/Grassland-Miocene
   rotate: false
   xy: 484, 1009
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Dirt+GrassLand
+TileSets/FantasyHex/Tiles/Grassland+GrassLand
   rotate: false
   xy: 484, 1009
   size: 32, 28
@@ -101,7 +101,7 @@ TileSets/FantasyHex/Tiles/Plains+GrassLand
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Dirt+Forests+Forest
+TileSets/FantasyHex/Tiles/Grassland+Forests+Forest
   rotate: false
   xy: 524, 854
   size: 32, 31
