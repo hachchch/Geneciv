@@ -149,7 +149,6 @@ TechIcons/Planet Earth
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Home Star
   rotate: false
   xy: 100, 0
@@ -157,7 +156,6 @@ TechIcons/Home Star
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Moon
   rotate: false
   xy: 200, 0
@@ -165,7 +163,6 @@ TechIcons/Moon
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Primordial Soup
   rotate: false
   xy: 300, 0
@@ -173,7 +170,6 @@ TechIcons/Primordial Soup
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/DNA
   rotate: false
   xy: 400, 0
@@ -181,7 +177,6 @@ TechIcons/DNA
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Nucleotides
   rotate: false
   xy: 500, 0
@@ -189,7 +184,6 @@ TechIcons/Nucleotides
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Amino Acid
   rotate: false
   xy: 600, 0
@@ -197,7 +191,6 @@ TechIcons/Amino Acid
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Protein
   rotate: false
   xy: 700, 0
@@ -205,7 +198,6 @@ TechIcons/Protein
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Prokaryotic Cell
   rotate: false
   xy: 800, 0
@@ -213,7 +205,6 @@ TechIcons/Prokaryotic Cell
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Mitosis
   rotate: false
   xy: 900, 0
@@ -221,7 +212,6 @@ TechIcons/Mitosis
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Speaking
   rotate: false
   xy: 1000, 0
@@ -229,7 +219,6 @@ TechIcons/Speaking
   orig: 100, 100
   offset: 0, 0
   index: -1
-
 TechIcons/Human Race
   rotate: false
   xy: 1100, 0
