@@ -143,7 +143,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-UnitIcons/Particle
+UnitIcons/Particles
   rotate: false
   xy: 1723, 1391
   size: 100, 100
