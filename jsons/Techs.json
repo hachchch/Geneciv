@@ -432,7 +432,7 @@
 				"name": "Insect",
 				"row": 1,
 				"prerequisites": ["Fern","Lungfish"],
-				"uniques": ["[+33]% [Food] from every [Grassland]","[+50]% Yield from every [Forests]"],
+				"uniques": ["[+33]% [Food] from every [GrassLand]","[+50]% Yield from every [Forests]"],
 			},
 			{
 				"name": "Legs",
