@@ -2,7 +2,7 @@
 	{
 		"name": "Forests",
 		"techRequired": "Fern",
-		"terrainsCanBeBuiltOn": ["Plains","Dirt"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"turnsToBuild": 3,
 		"food": 1,
 	},
@@ -10,7 +10,7 @@
 		"name": "GrassLand",
 		"techRequired": "Chloroplasts",
 		"food": 2,
-		"terrainsCanBeBuiltOn": ["Dirt","Plains","Desert"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
 	},
