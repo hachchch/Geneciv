@@ -7,7 +7,7 @@
 		"food": 1,
 	},
 	{
-		"name": "Grassland",
+		"name": "GrassLand",
 		"techRequired": "Chloroplasts",
 		"food": 2,
 		"terrainsCanBeBuiltOn": ["Dirt","Plains","Desert"],
