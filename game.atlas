@@ -137,3 +137,16 @@ TileSets/FantasyHex/Units/Arthropod
   orig: 32, 28
   offset: 0, 0
   index: -1
+
+game99.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Particle
+  rotate: false
+  xy: 1723, 1391
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
