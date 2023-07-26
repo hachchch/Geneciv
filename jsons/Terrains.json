@@ -52,7 +52,7 @@
 		"defenceBonus": 0.25,
 		"RGB": [74,81,40],
 		"rough": true
-		"occursOn": ["Coast","Snow","Desert","Tundra","Plains","Dirt"],
+		"occursOn": ["Snow","Desert","Tundra","Plains","Dirt"],
 	},
 	{
 		"name": "Mountain",
