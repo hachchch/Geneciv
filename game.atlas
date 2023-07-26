@@ -87,14 +87,14 @@ TileSets/FantasyHex/Tiles/Dirt-Miocene
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland-Dirt
+TileSets/FantasyHex/Tiles/Dirt+GrassLand
   rotate: false
   xy: 484, 1009
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Grassland
+TileSets/FantasyHex/Tiles/Plains+GrassLand
   rotate: false
   xy: 1485, 876
   size: 32, 28
