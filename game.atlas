@@ -149,10 +149,3 @@ UnitIcons/Particles
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Tyrannosaurus
-  rotate: false
-  xy: 328, 131
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
