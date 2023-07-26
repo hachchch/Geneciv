@@ -731,17 +731,17 @@
 			{
 				"name": "Homo Erectus",
 				"row": 6,
-				"prerequisites": ["Homo habilis"],
+				"prerequisites": ["Homo Habilis"],
 			}
 			{
 				"name": "Homo Ergaster",
 				"row": 7,
-				"prerequisites": ["Homo habilis"],
+				"prerequisites": ["Homo Habilis"],
 			},
 			{
 				"name": "Homo Heidelbergensis",
 				"row": 5,
-				"prerequisites": ["Homo habilis"],
+				"prerequisites": ["Homo Habilis"],
 			},
 		]
 	},
