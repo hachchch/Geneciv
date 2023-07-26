@@ -13,7 +13,7 @@
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Dirt"]
 		"food": -1,
-		"improvement": "Grassland",
+		"improvement": "GrassLand",
                 "production": 3,
 		"improvementStats": {"food": 2},
 	},
