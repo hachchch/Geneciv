@@ -710,8 +710,13 @@
 				"prerequisites": ["Australopithecus"],
 			},
 			{
-				"name": "Habilis",
+				"name": "Homo Habilis",
 				"row": 6,
+				"prerequisites": ["Australopithecus"],
+			},
+			{
+				"name": "Abstract Thinking",
+				"row": 9,
 				"prerequisites": ["Australopithecus"],
 			},
 		]
@@ -729,19 +734,24 @@
 				"prerequisites": ["New Ability"],
 			},
 			{
-				"name": "Erectus",
-				"row": 6,
-				"prerequisites": ["Habilis"],
-			}
-			{
-				"name": "Ergaster",
-				"row": 7,
-				"prerequisites": ["Habilis"],
+				"name": "Cave Painting",
+				"row": 9,
+				"prerequisites": ["Abstract Thinking"],
 			},
 			{
-				"name": "Heidelbergensis",
+				"name": "Homo Erectus",
+				"row": 6,
+				"prerequisites": ["Homo Habilis"],
+			}
+			{
+				"name": "Homo Ergaster",
+				"row": 7,
+				"prerequisites": ["Homo Habilis"],
+			},
+			{
+				"name": "Homo Heidelbergensis",
 				"row": 5,
-				"prerequisites": ["Habilis"],
+				"prerequisites": ["Homo Habilis"],
 			},
 		]
 	},
@@ -753,14 +763,34 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Neanderthalensis",
+				"name": "Homo Neanderthalensis",
 				"row": 5,
-				"prerequisites": ["Erectus","Heidelbergensis"],
+				"prerequisites": ["Homo Erectus","Homo Heidelbergensis"],
 			},
 			{
-				"name": "Sapiens",
+				"name": "New Predater",
+				"row": 1,
+				"prerequisites": ["Stone Tools"],
+			},
+			{
+				"name": "Fire",
+				"row": 2,
+				"prerequisites": ["Stone Tools"],
+			},
+			{
+				"name": "Where I will gone?",
+				"row": 9,
+				"prerequisites": ["Cave Painting"],
+			},
+			{
+				"name": "Where did we come from?",
+				"row" : 8,
+				"prerequisites": ["Cave Painting"],
+			},
+			{
+				"name": "Homo Sapiens",
 				"row": 7,
-				"prerequisites": ["Erectus","Ergaster"],
+				"prerequisites": ["Homo Erectus","Homo Ergaster"],
 			}
 		]
 	},
@@ -772,9 +802,29 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Sapiens Sapiens",
+				"name": "Homo Sapiens Sapiens",
 				"row": 6,
-				"prerequisites": ["Sapiens","Neanderthalensis"],
+				"prerequisites": ["Homo Sapiens","Homo Neanderthalensis"],
+			},
+			{
+				"name": "War",
+				"row": 1,
+				"prerequisites": ["Homo Sapiens","New Predater"],
+			},
+			{
+				"name": "Speaking",
+				"row": 2,
+				"prerequisites": ["Homo Neanderthalensis","Fire"],
+			},
+			{
+				"name": "Burial",
+				"row": 9,
+				"prerequisites": ["Homo Neanderthalensis","Where I will gone?"],
+			},
+			{
+				"name": "Religion",
+				"row": 8,
+				"prerequisites": ["Homo Sapiens","Where did we come from?"],
 			},
 		]
 	},
@@ -788,7 +838,7 @@
 			{
 				"name": "Human Race",
 				"row": 6,
-				"prerequisites": ["Sapiens Sapiens"],
+				"prerequisites": ["Homo Sapiens Sapiens"],
 			}
 		]
 	},
@@ -800,7 +850,7 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Human Tech",
+				"name": "Unciv",
 				"row": 6,
 				"prerequisites": ["Human Race"],
 				"uniques": ["Can be continually researched"],
