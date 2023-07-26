@@ -1,4 +1,4 @@
 {
     "isBaseRuleset": true,
-    "TerrainsToRemove": ["Grassland"],
+    "TerrainToRemove": ["Grassland"],
 }
