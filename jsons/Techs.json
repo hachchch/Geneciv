@@ -743,6 +743,7 @@
 				"row": 5,
 				"prerequisites": ["Homo habilis"],
 			},
+		]
 	},
 	{
 		"columnNumber": 28,
@@ -765,7 +766,7 @@
 	},
 	{
 		"columnNumber": 29,
-		"era": "Pleistocene",
+		"era": "Holocene",
 		"techCost": 800,
 		"buildingCost": 50,
 		"wonderCost": 100,
