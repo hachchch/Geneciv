@@ -85,7 +85,7 @@
 	},
 	{
 		"name": "Deep Sea Fish",
-		"prerequisites": ["Jaw II"],
+		"prerequisites": ["Jaw II","Predation II"],
 		"uniques": ["[+30]% Strength <when fighting in [Ocean] tiles>"],
 		"unitTypes": ["Fishes"],
 		"row": 12,
