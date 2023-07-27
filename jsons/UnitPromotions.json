@@ -64,7 +64,7 @@
 		"name": "Jaw I",
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking> <after discovering [Jaw]>"],
 		"unitTypes": ["Fishes"],
-		"row": 1,
+		"row": 10,
 		"column": 0,
 	},
 	{
