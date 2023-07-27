@@ -5,5 +5,11 @@
         "milestones": ["Have highest score after max turns"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    }
+    },
+    {
+        "name": "Dawn of Civilization",
+        "milestones": ["Build [Anthropocene era]"],
+        "victoryString": "This planet has been completely conquered by humans. Humans have completely changed the look of this planet.A new biome of concrete and plastic was born,Iron Lumps are Flying there, and the forest was cleared. Now human action could easily destroy the earth.",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
 ]
