@@ -43,7 +43,7 @@
 			},
 			{
 				"name": "Moon",
-				"row": 10,
+				"row": 3,
 				"prerequisites": ["Planet Earth"],
 				"uniques": ["[+10]% growth [in all cities]"],
 			}
