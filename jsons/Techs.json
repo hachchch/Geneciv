@@ -872,7 +872,7 @@
 			{
 				"name": "Unciv",
 				"row": 6,
-				"prerequisites": ["Human Race","Human Brain","Morality","Culture","Diplomacy"],
+				"prerequisites": ["Human Race","Human Brain","Morality","The Culture","Diplomacy"],
 				"uniques": ["Can be continually researched"],
 			}
 		]
