@@ -31,7 +31,7 @@
 		"name": "Forest",
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Grassland","Plains"]
+                "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra"]
 		"food": 1,
 		"improvement": "Forests",
                 "production": 1,
