@@ -1,11 +1,11 @@
 [
-    {
+	{
         "name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
         "unitTypes": ["Amphibian","Birds","Cell","Fishes","Glider","Herbivore","Hominiae","Mammal","Particle","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
         "row": 0,
         "column": 0,
-    },
+	},
 
 	// Water Animal
 	{
