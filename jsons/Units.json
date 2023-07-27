@@ -208,8 +208,9 @@
 		"name": "Glires",
 		"unitType": "Mammal",
 		"strength": 45,
-		"uniques": ["[120]% Strength <vs cities>"],
+		"uniques": ["[200]% Strength <vs cities>"],
 		"cost": 900,
+		"movement": 4,
 		"requiredTech": "Eutherians",
 	},
 	{
