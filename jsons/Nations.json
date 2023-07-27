@@ -2,7 +2,7 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255, 255, 255]
-		"innerColor": [255, 255, 255]
+		"innerColor": [0, 0, 0]
 	},
 	{
 		"name": "Panspermia",
@@ -24,10 +24,10 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
-		"uniqueName": "Ingenuity",
-		"uniques": ["[+1 Science] [in all cities]"],
+		"outerColor": [138,50,70],
+		"innerColor": [255,167,165],
+		"uniqueName": "Germ spread theory",
+		"uniques": ["[+3 Food] [in all cities] <before discovering [Sexual Reproduction]>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
@@ -56,8 +56,8 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"uniqueName": "Ingenuity",
-		"uniques": ["[+2 Gold] [in all cities]"],
+		"uniqueName": " The Embryo of Life",
+		"uniques": ["[+6 Gold] [in all cities] <before [Sexual Reproduction]>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
@@ -148,6 +148,36 @@
 		"innerColor": [213,249,255],
 		"uniqueName": "Snowball Earth",
 		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]"],
+		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
+			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
+			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
+			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Burgess",
+		"leaderName": "Reginald Claude Sprigg",
+		"adjective": ["Burgessis"],
+		"startBias": ["[Coast]"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [27,53,63],
+		"innerColor": [213,249,255],
+		"uniqueName": "Cambrian explosion",
+		"uniques": ["[+3 Science] from [Ocean] tiles [in all cities] <during a Golden Age> <during the [Cambrian period]>","[+45]% Strength <for [Arthropod] units> <when at war> <during the [Cambrian period]>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
 			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
