@@ -174,7 +174,7 @@
 		"name": "Gamerule",
 		"culture": 5,
 		"cityStrength": -15,
-		"cityHealth": -10,
+		"cityHealth": -5,
 		"uniques": ["Unsellable","Unbuildable","[+1 Production] per [1] population [in this city]"]
 	},
 	{
