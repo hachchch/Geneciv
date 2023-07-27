@@ -310,5 +310,32 @@
 		"cost": 102,
 		"uniques": ["Founds a new city","No Sight <before discovering [Australopithecus]>"],
 		"hurryCostModifier": 20
+	}
+	{
+		"name": "Spearman",
+		"cost": 2500,
+		"requiredTech": "War",
+		"unitType": "Human",
+		"strength": 170,
+		"movement": 2,
+		"uniques": ["[+25]% Strength for [Human]"],
+	},
+	{
+		"name": "Infantry",
+		"cost": 25000,
+		"unitType": "Human",
+		"requiredTech": "Unciv",
+		"strength": 850,
+		"movement": 2,
+		"uniques": ["[+150]% Strength for [Human]"],
+	},
+	{
+		"name": "Modern Armored",
+		"cost": 50000,
+		"unitType": "Human",
+		"requiredTech": "Unciv",
+		"strength": 1350,
+		"movement": 5,
+		"uniques": ["[+150]% Strength for [City]"],
 	},
 ]
