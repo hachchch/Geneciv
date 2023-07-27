@@ -7,6 +7,11 @@
                 "requiredTech": "Primordial Soup",
         },
 	{
+		"name": "The Anthropocene era",
+		"cost": 1500,
+		"requiredTech": "Unciv",
+	},
+	{
 		"name": "Meteor",
 		"cost": 20,
 		"science": 1,
