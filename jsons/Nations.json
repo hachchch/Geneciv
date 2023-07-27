@@ -54,8 +54,8 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
+		"outerColor": [133,118,126],
+		"innerColor": [255,255,255],
 		"uniqueName": " The Embryo of Life",
 		"uniques": ["[+6 Gold] [in all cities] <before discovering [Sexual Reproduction]>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -114,8 +114,8 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
+		"outerColor": [26,62,78],
+		"innerColor": [172,152,223],
 		"uniqueName": "The Supercontinent",
 		"uniques": ["[+2 Production] [in all cities]","[+44]% Production when constructing [Civilian] units [in all cities]"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -144,8 +144,8 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
+		"outerColor": [217,217,247],
+		"innerColor": [255,255,245],
 		"uniqueName": "Snowball Earth",
 		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -174,8 +174,8 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
+		"outerColor": [108,94,202],
+		"innerColor": [160,177,236],
 		"uniqueName": "Cambrian explosion",
 		"uniques": ["[+3 Science] from [Ocean] tiles [in all cities] <during a Golden Age> <during the [Cambrian period]>","[+45]% Strength <for [Arthropod] units> <when at war> <during the [Cambrian period]>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
