@@ -43,7 +43,7 @@
 			},
 			{
 				"name": "Moon",
-				"row": 3,
+				"row": 10,
 				"prerequisites": ["Planet Earth"],
 				"uniques": ["[+10]% growth [in all cities]"],
 			}
@@ -839,20 +839,40 @@
 				"name": "Human Race",
 				"row": 6,
 				"prerequisites": ["Homo Sapiens Sapiens"],
-			}
+			},
+			{
+				"name": "Diplomacy",
+				"row": 2,
+				"prerequisites": ["Homo Sapiens Sapiens","War","Speaking"],
+			},
+			{
+				"name": "Culture",
+				"row": 8,
+				"prerequisites": ["Homo Sapiens Sapiens","Religion","Burial"],
+			},
+			{
+				"name": "Morality",
+				"row": 7,
+				"prerequisites": ["Homo Sapiens Sapiens"],
+			},
+			{
+				"name": "Human Brain",
+				"row": "5",
+				"prerequisites": ["Homo Sapiens Sapiens"],
+			},
 		]
 	},
 	{
 		"columnNumber": 31,
 		"era": "Anthropocene",
-		"techCost": 1000,
+		"techCost": 1250,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Unciv",
 				"row": 6,
-				"prerequisites": ["Human Race"],
+				"prerequisites": ["Human Race","Human Brain","Morality","Culture","Diplomacy"],
 				"uniques": ["Can be continually researched"],
 			}
 		]
