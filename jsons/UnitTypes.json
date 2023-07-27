@@ -59,4 +59,8 @@
 		"name": "Civilian",
 		"movementType": "Land",
 	},
+	{
+		"name": "Human",
+		"movementType": "Land",
+	},
 ]
