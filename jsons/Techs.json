@@ -805,6 +805,7 @@
 				"name": "Homo Sapiens Sapiens",
 				"row": 6,
 				"prerequisites": ["Homo Sapiens","Homo Neanderthalensis"],
+				"quote": "It's you.",
 			},
 			{
 				"name": "War",
