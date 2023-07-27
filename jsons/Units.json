@@ -313,6 +313,7 @@
 	},
 	{
 		"name": "Sapiens Warrior",
+		"unitType": "Human",
 		"cost": 2000,
 		"requiredTech": "Homo Sapiens",
 		"strength": 135,
@@ -321,6 +322,7 @@
 	},
 	{
 		"name": "Neanderthalensis Warrior",
+		"unitType": "Human",
 		"cost": 2500,
 		"requiredTech": "Homo Neanderthalensis",
 		"strength": 170,
