@@ -348,7 +348,7 @@
 		"uniques": ["[+150]% Strength for [Human]"],
 	},
 	{
-		"name": "Modern Armored",
+		"name": "Modern Armor",
 		"cost": 50000,
 		"unitType": "Human",
 		"requiredTech": "Unciv",
