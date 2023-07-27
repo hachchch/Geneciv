@@ -1,3 +1,5 @@
 {
     "isBaseRuleset": true,
+    "erasToRemove": ["Ancient era"],
+    "tileImprovementsToRemove": ["Barbarian encampment"],
 }
