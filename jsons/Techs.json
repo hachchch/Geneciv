@@ -716,7 +716,7 @@
 			},
 			{
 				"name": "Abstract Thinking",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Australopithecus"],
 			},
 		]
@@ -735,7 +735,7 @@
 			},
 			{
 				"name": "Cave Painting",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Abstract Thinking"],
 			},
 			{
@@ -779,12 +779,12 @@
 			},
 			{
 				"name": "Where I will gone?",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Cave Painting"],
 			},
 			{
 				"name": "Where did we come from?",
-				"row" : 8,
+				"row" : 9,
 				"prerequisites": ["Cave Painting"],
 			},
 			{
@@ -818,12 +818,12 @@
 			},
 			{
 				"name": "Burial",
-				"row": 9,
+				"row": 10,
 				"prerequisites": ["Homo Neanderthalensis","Where I will gone?"],
 			},
 			{
 				"name": "Religion",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Homo Sapiens","Where did we come from?"],
 			},
 		]
@@ -846,8 +846,8 @@
 				"prerequisites": ["Homo Sapiens Sapiens","War","Speaking"],
 			},
 			{
-				"name": "Culture",
-				"row": 8,
+				"name": "The Culture",
+				"row": 9,
 				"prerequisites": ["Homo Sapiens Sapiens","Religion","Burial"],
 			},
 			{
