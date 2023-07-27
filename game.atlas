@@ -94,11 +94,32 @@ TileSets/FantasyHex/Tiles/Grassland+GrassLand
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Camping Spot
+TileSets/FantasyHex/Tiles/Hunting Spot
   rotate: false
   xy: 444, 1004
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Anthropocene
+  rotate: false
+  xy: 404, 1325
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Holocene
+  rotate: false
+  xy: 364, 598
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Pleistocene
+  rotate: false
+  xy: 484, 970
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+GrassLand
