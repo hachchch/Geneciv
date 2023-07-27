@@ -94,6 +94,13 @@ TileSets/FantasyHex/Tiles/Grassland+GrassLand
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Camping Spot
+  rotate: false
+  xy: 444, 1004
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Plains+GrassLand
   rotate: false
   xy: 1485, 876
