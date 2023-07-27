@@ -122,4 +122,12 @@
 		"row": 1,
 		"column": 2,
 	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Shock I", "Drill I", "Terrain Cover I","Scouting I","Survivalism I"],
+		"uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","May attack when embarked"],
+		"unitTypes": ["Amphibious"],
+		"row": 2,
+		"column": 0
+	},
 ]
