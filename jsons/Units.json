@@ -310,7 +310,23 @@
 		"cost": 102,
 		"uniques": ["Founds a new city","No Sight <before discovering [Australopithecus]>"],
 		"hurryCostModifier": 20
-	}
+	},
+	{
+		"name": "Sapiens Warrior",
+		"cost": 2000,
+		"requiredTech": "Homo Sapiens",
+		"strength": 135,
+		"movement": 2,
+		"uniques": ["[-80]% Strength for [Human] <before discovering [{War}{Religion}]>"],
+	},
+	{
+		"name": "Neanderthalensis Warrior",
+		"cost": 2500,
+		"requiredTech": "Homo Neanderthalensis",
+		"strength": 170,
+		"movement": 2,
+		"uniques": ["[-80]% Strength for [Human]"],
+	},
 	{
 		"name": "Spearman",
 		"cost": 2500,
