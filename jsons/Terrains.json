@@ -17,7 +17,6 @@
 		"food": 2,
 		"movementCost": 1,
 		"RGB": [107, 214, 152],
-		"uniques": ["Doesn't generate naturally","Must be adjacent to [100] to [100] [Elevated] tiles","Always Fertility [-100] for Map Generation","Becomes [Dirt] when adjacent to [Land]"],
 	},
 	{
 		"name": "Plains",
