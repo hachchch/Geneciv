@@ -3,7 +3,7 @@
                 "name": "Atoll",
 		"revealedBy": "Sponge",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Coast"]
+                "terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
                 "gold": 1,
         },
@@ -11,7 +11,7 @@
 		"name": "Marsh",
 		"revealedBy": "Spore Plant",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Grassland"]
+                "terrainsCanBeFoundOn": ["Grassland"],
 		"food": -1,
 		"improvement": "GrassLand",
                 "production": 3,
@@ -21,21 +21,71 @@
 		"name": "Oasis",
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Desert"]
+                "terrainsCanBeFoundOn": ["Desert"],
 		"food": 3,
 		"improvement": "Forests",
                 "production": 1,
 		"improvementStats": {"food": 2},
 	},
 	{
+		"name": "Cattle",
+		"revealedBy": "Eutherians",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"food": 1,
+		"improvement": "Hunting Spot",
+		"improvementStats": {"food": 1},
+	},
+	{
+		"name": "Mammoth",
+		"revealedBy": "Eutherians",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"food": 1,
+		"improvement": "Hunting Spot",
+		"improvementStats": {"food": 2},
+	},
+	{
+		"name": "Sheep",
+		"revealedBy": "Eutherians",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Grassland","Hill"]
+		"food": 1,
+		"improvement": "Hunting Spot",
+		"improvementStats": {"food": 1},
+	},
+	{
+		"name": "Deer",
+		"revealedBy": "Eutherians",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Tundra"]
+		"food": 1,
+		"improvement": "Hunting Spot",
+		"improvementStats": {"food": 1},
+	},
+	{
+		"name": "Stone",
+		"revealedBy": "Primordial Soup",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Hill","Snow","Plains"]
+		"production": 2,
+	},
+	{
+		"name": "Fish",
+		"revealedBy": "Fish",
+		"resourceType": "Bonus",
+                "terrainsCanBeFoundOn": ["Water"],
+	},
+	{
 		"name": "Forest",
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra"]
+                "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill"]
 		"food": 1,
 		"improvement": "Forests",
                 "production": 1,
 		"improvementStats": {"food": 1},
+		"uniques": ["[1] to Fertility for Map Generation"],
 	},
 	{
 		"name": "Jungle",
