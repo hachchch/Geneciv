@@ -312,6 +312,16 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Archer",
+		"unitType": "Human",
+		"cost": 2000,
+		"Range": 2,
+		"rangedStrength": 135,
+		"strength": 100,
+		"movement": 2,
+		"uniques": ["[-80]% Strength for [Human] <before discovering [{War}{Religion}]>"],
+	},
+	{
 		"name": "Sapiens Warrior",
 		"unitType": "Human",
 		"cost": 2000,
