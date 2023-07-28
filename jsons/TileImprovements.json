@@ -8,6 +8,8 @@
 	},
 	{
 		"name": "Barbarian encampment",
+		"techRequired": "Unciv",
+		"terrainsCanBeBuiltOn": ["Land"],
 	},
 	{
 		"name": "Hunting Spot",
