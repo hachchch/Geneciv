@@ -314,6 +314,7 @@
 	{
 		"name": "Archer",
 		"unitType": "Human",
+		"requiredTech": "New Predater",
 		"cost": 2000,
 		"Range": 2,
 		"rangedStrength": 135,
