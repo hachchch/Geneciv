@@ -101,14 +101,14 @@ TileSets/FantasyHex/Tiles/Hunting Spot
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hunting Spot-Anthropocene
+TileSets/FantasyHex/Tiles/Hunting Spot-Ancient era
   rotate: false
   xy: 1485, 912
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Anthropocene
+TileSets/FantasyHex/Tiles/City center-Ancient era
   rotate: false
   xy: 404, 1325
   size: 32, 36
