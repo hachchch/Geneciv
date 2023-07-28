@@ -16,6 +16,10 @@
 		"turnsToBuild": 7,
 	},
 	{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Grassland","Hill","Plains","Snow","Tundra","Desert"],
+	},
+	{
 		"name": "GrassLand",
 		"techRequired": "Chloroplasts",
 		"food": 2,
