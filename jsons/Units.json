@@ -71,6 +71,32 @@
 		"attackSound": "Whoo",
 	},
 	{
+		"name": "Mankind",
+		"unitType": "Hominiae",
+		"cost": 1250,
+		"movement": 2,
+		"strength": 50,
+		"uniques": ["[500]% Strength <vs [Glires] units>"],
+	},
+	{
+		"name": "Thrower",
+		"unitType": "Hominiae",
+		"cost": 1500,
+		"movement": 2,
+		"range": 2,
+		"strength": 50,
+		"rangedStrength": 90,
+		"uniques": ["[350]% Strength <vs [Glires] units>"],
+	},
+	{
+		"name": "Tribesman",
+		"unitType": "Human",
+		"uniques": ["[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[200]% Strength <vs [Feliform] units> <after discovering [New Predater]> <when attacking>","[200]% Strength <vs [Caniform] units> <after discovering [New Predater]> <when attacking>"],
+		"strength": 50,
+		"movement": 2,
+		"cost": 1750,
+	},
+	{
 		"name": "Flatworm",
 		"unitType": "Water Animal",
 		"cost": 220,
@@ -229,6 +255,7 @@
 		"strength": 50,
 		"movement": 3,
 		"requiredTech": "Ape",
+		"obsoleteTech": "Homo Habilis",
 		"uniques": ["All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
 	},
 	{
@@ -261,6 +288,7 @@
 		"strength": 150,
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 2,
+		"obsoleteTech": "Eutherians",
 	},
 	{
 		"name": "Triceratops",
@@ -269,6 +297,7 @@
 		"strength": 90,
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 1,
+		"obsoleteTech": "Eutherians",
 	},
 	{
 		"name": "Cretaceous Dinosaur",
@@ -277,6 +306,7 @@
 		"strength": 80,
 		"movement": 2,
 		"requiredTech": "Cretaceous Reptiles",
+		"obsoleteTech": "Eutherians",
 	},
 	{
 		"name": "Dinosaur",
@@ -285,6 +315,7 @@
 		"cost": 930,
 		"movement": 2,
 		"requiredTech": "Dinosaur",
+		"obsoleteTech": "Eutherians",
 	},
 	{
 		"name": "Vegetation",
@@ -301,7 +332,8 @@
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
-		"cost": 5000,
+		"cost": 2000,
+		"requiredTech": ["Human Race"],
 	},
         {
                 "name": "Settler",
@@ -320,7 +352,7 @@
 		"rangedStrength": 135,
 		"strength": 100,
 		"movement": 2,
-		"uniques": ["[-80]% Strength for [Human] <before discovering [{War}{Religion}]>"],
+		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [{War}{Religion}]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
 	},
 	{
 		"name": "Sapiens Warrior",
@@ -329,7 +361,7 @@
 		"requiredTech": "Homo Sapiens",
 		"strength": 135,
 		"movement": 2,
-		"uniques": ["[-80]% Strength for [Human] <before discovering [{War}{Religion}]>"],
+		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [{War}{Religion}]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
 	},
 	{
 		"name": "Neanderthalensis Warrior",
@@ -338,7 +370,8 @@
 		"requiredTech": "Homo Neanderthalensis",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["[-80]% Strength for [Human]"],
+		"uniques": ["[-80]% Strength <vs [Human] units>"],
+		"obsoleteTech": "Homo Sapiens Sapiens",
 	},
 	{
 		"name": "Spearman",
@@ -347,7 +380,7 @@
 		"unitType": "Human",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["[+25]% Strength for [Human]"],
+		"uniques": ["[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
 	},
 	{
 		"name": "Infantry",
@@ -356,7 +389,7 @@
 		"requiredTech": "Unciv",
 		"strength": 850,
 		"movement": 2,
-		"uniques": ["[+150]% Strength for [Human]"],
+		"uniques": ["[+150]% Strength <vs [Human] units>"],
 	},
 	{
 		"name": "Modern Armor",
@@ -365,6 +398,6 @@
 		"requiredTech": "Unciv",
 		"strength": 1350,
 		"movement": 5,
-		"uniques": ["[+150]% Strength for [City]"],
+		"uniques": ["[+150]% Strength <vs Cities>"],
 	},
 ]
