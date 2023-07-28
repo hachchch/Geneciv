@@ -67,7 +67,7 @@
 	{
 		"name": "Sacred Place",
 		"cost": 3000,
-		"faith": 1,
+		"faith": 5,
 		"requiredTech": "Religion",
 	},
 	{
