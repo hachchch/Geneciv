@@ -74,7 +74,10 @@
 		"name": "Fish",
 		"revealedBy": "Fish",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Water"],
+                "terrainsCanBeFoundOn": ["Ocean","Coast"],
+		"food": 1,
+		"Gold": 3,
+		"production": 1,
 	},
 	{
 		"name": "Forest",
