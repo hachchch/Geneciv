@@ -7,8 +7,14 @@
                 "requiredTech": "Primordial Soup",
         },
 	{
+		"name": "Sociality",
+		"cost": 1000,
+		"happiness": 1,
+		"uniques": ["[25]% [Production] [in this city]","[25]% [Culture] [in this city]","[12]% [Food] [in this city]"],
+	},
+	{
 		"name": "The Anthropocene era",
-		"cost": 1500,
+		"cost": 5000,
 		"requiredTech": "Unciv",
 	},
 	{
