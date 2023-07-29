@@ -314,7 +314,7 @@
 				"name": "Eye",
 				"row": 3,
 				"prerequisites": ["Arthropod","Pigment Spot"],
-				"uniques": ["[+10]% Production when constructing [Range] units [in all cities]"]
+				"uniques": ["[+10]% Production when constructing [Ranged] units [in all cities]"]
 			},
 			{
 				"name": "First Plant",
