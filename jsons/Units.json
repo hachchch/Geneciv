@@ -352,7 +352,7 @@
 		"rangedStrength": 135,
 		"strength": 100,
 		"movement": 2,
-		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [{War}{Religion}]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
 	},
 	{
 		"name": "Sapiens Warrior",
@@ -361,7 +361,7 @@
 		"requiredTech": "Homo Sapiens",
 		"strength": 135,
 		"movement": 2,
-		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [{War}{Religion}]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
 	},
 	{
 		"name": "Neanderthalensis Warrior",
@@ -398,6 +398,6 @@
 		"requiredTech": "Unciv",
 		"strength": 1350,
 		"movement": 5,
-		"uniques": ["[+150]% Strength <vs Cities>"],
+		"uniques": ["[+150]% Strength <vs cities>"],
 	},
 ]
