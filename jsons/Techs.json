@@ -235,6 +235,7 @@
 				"name": "Radial Symmetry",
 				"row": 4,
 				"prerequisites": ["Swimming"],
+				"uniques": ["[+250]% XP gained from combat <for [Jellyfish] units>"],
 			},
 			{
 				"name": "Flatworm",
@@ -254,6 +255,7 @@
 				"name": "Bilateral Symmetry",
 				"row": 4,
 				"prerequisites": ["Radial Symmetry","Flatworm"],
+				"uniques": ["[+125]% XP gained from combat <for [Flatworm] units>"],
 			},
 			{
 				"name": "Articulation",
