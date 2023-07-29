@@ -254,6 +254,19 @@
 		"movement": 1,
 		"cost": 1000,
 		"requiredTech": "Modern Birds",
+		"uniques": ["[+25]% Strength <vs [Land] units>"]
+	},
+	{
+		"name": "Crow",
+		"unitType": "Birds",
+		"interceptRange": 5,
+		"range": 5,
+		"rangedStrength": 65,
+		"strength": 65,
+		"movement": 1,
+		"cost": 1000,
+		"uniques": ["Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
+		"requiredTech": "Modern Birds",
 	},
 	{
 		"name": "Tyrannosaurus",
