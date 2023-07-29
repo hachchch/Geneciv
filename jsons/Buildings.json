@@ -17,7 +17,7 @@
 		"name": "Fishing",
 		"food": 1,
 		"cost": 2500,
-		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","[+3 Food] from [Lake] tiles [in this city]","[+3 Food] from [Liver] tiles [in this city]"],
+		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","[+3 Food] from [Lakes] tiles [in this city]","[+3 Food] from [River] tiles [in this city]"],
 		"requiredTech": "Stone Tools",
 	},
 	{
