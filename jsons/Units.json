@@ -307,7 +307,7 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
 		"cost": 2000,
-		"requiredTech": ["Human Race"],
+		"requiredTech": "Human Race",
 	},
         {
                 "name": "Settler",
