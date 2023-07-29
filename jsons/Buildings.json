@@ -26,7 +26,7 @@
 		"production": 2,
 		"gold": 3,
 		"requiredTech": "Five Fingers",
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this cities]"],
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
 	},
 	{
 		"name": "Gathering",
@@ -35,7 +35,7 @@
 		"gold": 1,
 		"food": 4,
 		"requiredTech": "Opposable Thumb",
-		"uniques": ["[+15]% Production when constructing [All] buildings [in this cities]"],
+		"uniques": ["[+15]% Production when constructing [All] buildings [in this city]"],
 	},
 	{
 		"name": "Campfire",
