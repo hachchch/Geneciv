@@ -212,7 +212,7 @@ TechIcons/DNA
   orig: 100, 100
   offset: 0, 0
   index: -1
-OtherIcons/Diplomacy
+OtherIcons/Politics
   rotate: false
   xy: 400, 0
   size: 100, 100
