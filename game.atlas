@@ -212,6 +212,13 @@ TechIcons/DNA
   orig: 100, 100
   offset: 0, 0
   index: -1
+OtherIcons/Diplomacy
+  rotate: false
+  xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TechIcons/Nucleotides
   rotate: false
   xy: 500, 0
@@ -226,6 +233,20 @@ TechIcons/Amino Acid
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Amino Acid
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Particle
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TechIcons/Protein
   rotate: false
   xy: 700, 0
@@ -234,6 +255,20 @@ TechIcons/Protein
   offset: 0, 0
   index: -1
 TechIcons/Prokaryotic Cell
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Prokaryotic Cell
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Cell
   rotate: false
   xy: 800, 0
   size: 100, 100
@@ -309,6 +344,13 @@ UnitIcons/Jellyfish
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitTypeIcons/Water Animal
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TechIcons/Swimming
   rotate: false
   xy: 600, 0
@@ -330,7 +372,21 @@ UnitIcons/Fish
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitTypeIcons/Fishes
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Tetrapod
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Amphibian
   rotate: false
   xy: 900, 0
   size: 100, 100
@@ -359,6 +415,13 @@ TechIcons/Trilobite
   offset: 0, 0
   index: -1
 UnitIcons/Arthropod
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Water Arthropod
   rotate: false
   xy: 1200, 0
   size: 100, 100
