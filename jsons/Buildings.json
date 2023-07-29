@@ -7,6 +7,19 @@
                 "requiredTech": "Primordial Soup",
         },
 	{
+		"name": "Logical Thinking",
+		"cost": 4000,
+		"requiredTech": "Human Brain",
+		"science": 2,
+		"uniques": ["[+2 Science] per [1] population"],
+	},
+	{
+		"name": "Fishing",
+		"food": 1,
+		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","[+3 Food] from [Lake] tiles [in this city]","[+3 Food] from [Liver] tiles [in this city]"],
+		"requiredTech": "Stone Tools",
+	},
+	{
 		"name": "Sociality",
 		"cost": 1000,
 		"happiness": 1,
