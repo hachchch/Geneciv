@@ -200,7 +200,7 @@
 		"cost": 1000,
 		"strength": 70,
 		"range": 1,
-		"rangedStrength": "70",
+		"rangedStrength": 70,
 		"movement": 3,
 		"requiredTech": "Eutherians",
 	},
