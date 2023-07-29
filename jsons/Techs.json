@@ -330,7 +330,7 @@
 				"name": "Trilobite",
 				"row": 8,
 				"prerequisites": ["Arthropod"],
-				"uniques": ["[+200]% Production when constructing [Amphibian] units [in all cities]"]
+				"uniques": ["[+200]% Production when constructing [Arthropod] units [in all cities]"]
 			}
 		]
 	},
