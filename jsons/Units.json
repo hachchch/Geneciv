@@ -324,6 +324,7 @@
 		"movement": 2,
 		"strength": 50,
 		"uniques": ["[500]% Strength <vs [Glires] units>"],
+		"requiredTech": "Australopithecus",
 	},
 	{
 		"name": "Thrower",
@@ -334,6 +335,7 @@
 		"strength": 50,
 		"rangedStrength": 90,
 		"uniques": ["[350]% Strength <vs [Glires] units>"],
+		"requiredTech": "Stone Tools",
 	},
 	{
 		"name": "Tribesman",
@@ -342,6 +344,7 @@
 		"strength": 50,
 		"movement": 2,
 		"cost": 1750,
+		"requiredTech": "Homo Habilis",
 	},
 	{
 		"name": "Archer",
