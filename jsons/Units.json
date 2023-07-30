@@ -209,6 +209,7 @@
 		"requiredTech": "Gliding",
 		"obsoleteTech": "Flying",
 		"upgradesTo": "Archeopteryx",
+		"attackSound": "Whoosh",
 	},
 	{
 		"name": "Feliform",
@@ -270,6 +271,7 @@
 		"requiredTech": "Flying",
 		"obsoleteTech": "Modern Birds",
 		"upgradesTo": "Eagle",
+		"attackSound": "Whoosh",
 	},
 	{
 		"name": "Eagle",
@@ -280,6 +282,7 @@
 		"movement": 1,
 		"cost": 1000,
 		"requiredTech": "Modern Birds",
+		"attackSound": "Whoosh",
 		"uniques": ["[+25]% Strength <vs [Land] units>"]
 	},
 	{
@@ -293,6 +296,7 @@
 		"cost": 1000,
 		"uniques": ["Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
 		"requiredTech": "Modern Birds",
+		"attackSound": "Whoosh",
 	},
 	{
 		"name": "Tyrannosaurus",
