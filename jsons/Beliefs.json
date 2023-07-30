@@ -3,8 +3,21 @@
     {
         "name": "Sun Worship",
         "type": "Pantheon",
-        "uniques": ["[+10 Faith] <during a Golden Age>"]
+        "uniques": ["[+15 Faith] <during a Golden Age>"]
     },
     {
-        "name": "",
+        "name": "Curse of God",
+        "type": "Pantheon",
+        "uniques": ["[+10]% Strength <vs cities> <for [all] units> <in all except [Rationalism] Regions>"],
     },
+    {
+        "name": "Monument to the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
+    },
+    {
+        "name": "Cosmology",
+        "type": "Pantheon",
+        "uniques": ["[+4 Science] for each global city following this religion","[+2 Faith] for each global city following this religion"],
+    },
+]
