@@ -8,7 +8,7 @@
     {
         "name": "Curse of God",
         "type": "Pantheon",
-        "uniques": ["[+10]% Strength <vs cities> <for [all] units> <in all except [Rationalism] Regions>"],
+        "uniques": ["[+10]% Strength <vs cities> <for [all] units>"],
     },
     {
         "name": "Monument to the Gods",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Cosmology",
-        "type": "Pantheon",
+        "type": "Founder",
         "uniques": ["[+4 Science] for each global city following this religion","[+2 Faith] for each global city following this religion"],
     },
 ]
