@@ -11,7 +11,7 @@
 		"cost": 4000,
 		"requiredTech": "Human Brain",
 		"science": 2,
-		"uniques": ["[+2 Science] per [1] population"],
+		"uniques": ["[+1 Science] per [2] population"],
 	},
 	{
 		"name": "Fishing",
