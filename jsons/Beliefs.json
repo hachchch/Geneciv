@@ -8,7 +8,7 @@
     {
         "name": "Curse of God",
         "type": "Pantheon",
-        "uniques": ["[+10]% Strength <vs cities> <for [all] units>"],
+        "uniques": ["[+10]% Strength <vs cities> <for [Human] units>"],
     },
     {
         "name": "Monument to the Gods",
