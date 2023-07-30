@@ -82,6 +82,7 @@
 		"obsoleteTech": "Human Race",
 		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
 		"attackSound": "whoo",
+		"promotions": ["Nematocyst I","Poison I"],
 	},
 	{
 		"name": "Modern Fish",
