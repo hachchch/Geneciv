@@ -8,7 +8,7 @@
     {
         "name": "Curse of God",
         "type": "Pantheon",
-        "uniques": ["[+10]% Strength <vs cities> <for [Human] units>"],
+        "uniques": ["[-30]% Strength for cities","Earn [300]% of [Military] unit's [Strength] as [Gold] when killed within 1 tiles of a city following this religion","Earn [300]% of [Military] unit's [Strength] as [Faith] when killed within 1 tiles of a city following this religion","Earn [50]% of [Military] unit's [Strength] as [Culture] when killed within 1 tiles of a city following this religion"],
     },
     {
         "name": "Monument to the Gods",
