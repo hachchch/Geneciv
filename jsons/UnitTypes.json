@@ -63,4 +63,12 @@
 		"name": "Human",
 		"movementType": "Land",
 	},
+	{
+		"name": "Human Air",
+		"movementType": "Air",
+	},
+	{
+		"name": "Human Water",
+		"movementType": "Water",
+	},
 ]
