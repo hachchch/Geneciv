@@ -234,7 +234,7 @@
 		"settlerPopulation": 1,
 		"startPercent": 40,
 		"citySound": "cityAncient",
-		"embarkDefense": 1,
+		"embarkDefense": 10,
 		"iconRGB": [233, 31, 99]
 	},
 	{
@@ -248,7 +248,7 @@
 		"settlerPopulation": 1,
 		"startPercent": 40,
 		"citySound": "cityAncient",
-		"embarkDefense": 1,
+		"embarkDefense": 100,
 		"iconRGB": [233, 31, 99],
 	},
 	{
@@ -261,8 +261,8 @@
 		"startingGold": 100,
 		"settlerPopulation": 10,
 		"startPercent": 40,
-		"citySound": "cityAncient",
-		"embarkDefense": 100,
-		"iconRGB": [233, 31, 99],
+		"citySound": "cityInformation",
+		"embarkDefense": 1000,
+		"iconRGB": [100, 100, 200]
 	}
 ]
