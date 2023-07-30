@@ -443,7 +443,7 @@
 		"requiredTech": "Unciv",
 		"strength": 850,
 		"movement": 2,
-		"uniques": ["Nuclear weapon of Strength [0]","[+150]% Strength <vs [Human] units>"],
+		"uniques": ["[+150]% Strength <vs [Human] units>"],
 	},
 	{
 		"name": "Jet Fighter",
@@ -455,7 +455,7 @@
 		"interceptRange": 10,
 		"cost": 62500,
 		"requiredTech": "Unciv",
-		"uniques": ["Nuclear weapon of Strength [0]","[100]% chance to intercept air attacks", "[+150]% Strength <vs [Land] units>", "[+150]% Strength <vs [Water] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Land] units>", "[+150]% Strength <vs [Water] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -466,7 +466,7 @@
 		"requiredTech": "Unciv",
 		"strength": 1350,
 		"movement": 5,
-		"uniques": ["Nuclear weapon of Strength [0]","[+150]% Strength <vs cities>"],
+		"uniques": ["[+150]% Strength <vs cities>"],
 	},
 	{
 		"name": "Missile Cruiser",
@@ -478,7 +478,7 @@
 		"interceptRange": 2,
 		"cost": 72500,
 		"requiredTech": "Unciv",
-		"uniques": ["Nuclear weapon of Strength [0]","[100]% chance to intercept air attacks", "Can see invisible [Ape] units","Can carry [3] [Jet Fighter] units", "[+100]% Strength <vs [Water] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Ape] units","Can carry [3] [Jet Fighter] units", "[+100]% Strength <vs [Water] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
 ]
