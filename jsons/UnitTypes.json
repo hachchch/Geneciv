@@ -28,6 +28,10 @@
 		"movementType": "Land",
 	},
 	{
+		"name": "Modern Fishes",
+		"movementType": "Water",
+	},
+	{
 		"name": "Hominiae",
 		"movementType": "Land",
 	},
@@ -42,6 +46,7 @@
 	{
 		"name": "Birds",
 		"movementType": "Air",
+		"uniques": ["[+3] Sight", "Can see over obstacles", "Can perform Air Sweep"],
 	},
 	{
 		"name": "Water Animal",
@@ -66,6 +71,7 @@
 	{
 		"name": "Human Air",
 		"movementType": "Air",
+		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
 	},
 	{
 		"name": "Human Water",
