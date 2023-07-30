@@ -193,6 +193,7 @@
 		"strength": 80,
 		"movement": 4,
 		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
 	},
 	{
 		"name": "Caniform",
@@ -203,6 +204,7 @@
 		"rangedStrength": 70,
 		"movement": 3,
 		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
 	},
 	{
 		"name": "Glires",
@@ -336,6 +338,7 @@
 		"cost": 1250,
 		"movement": 2,
 		"strength": 50,
+		"attackSound": "nonmetalhit",
 		"uniques": ["[500]% Strength <vs [Glires] units>"],
 		"requiredTech": "Australopithecus",
 	},
@@ -349,6 +352,7 @@
 		"rangedStrength": 90,
 		"uniques": ["[350]% Strength <vs [Glires] units>"],
 		"requiredTech": "Stone Tools",
+		"attackSound": "Stone",
 	},
 	{
 		"name": "Tribesman",
@@ -356,6 +360,7 @@
 		"uniques": ["[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[200]% Strength <vs [Feliform] units> <after discovering [New Predater]> <when attacking>","[200]% Strength <vs [Caniform] units> <after discovering [New Predater]> <when attacking>"],
 		"strength": 50,
 		"movement": 2,
+		"attackSound": "nonmetalhit",
 		"cost": 1750,
 		"requiredTech": "Homo Habilis",
 	},
@@ -366,6 +371,7 @@
 		"cost": 2000,
 		"Range": 2,
 		"rangedStrength": 135,
+		"attackSound": "arrow",
 		"strength": 100,
 		"movement": 2,
 		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
@@ -373,6 +379,7 @@
 	{
 		"name": "Sapiens Warrior",
 		"unitType": "Human",
+		"attackSound": "nonmetalhit",
 		"cost": 2000,
 		"requiredTech": "Homo Sapiens",
 		"strength": 135,
@@ -382,6 +389,7 @@
 	{
 		"name": "Neanderthalensis Warrior",
 		"unitType": "Human",
+		"attackSound": "nonmetalhit",
 		"cost": 2500,
 		"requiredTech": "Homo Neanderthalensis",
 		"strength": 170,
@@ -392,6 +400,7 @@
 	{
 		"name": "Spearman",
 		"cost": 2500,
+		"attackSound": "metalhit",
 		"requiredTech": "War",
 		"unitType": "Human",
 		"strength": 170,
@@ -400,6 +409,7 @@
 	},
 	{
 		"name": "Infantry",
+		"attackSound": "shot",
 		"cost": 25000,
 		"unitType": "Human",
 		"requiredTech": "Unciv",
@@ -408,7 +418,21 @@
 		"uniques": ["[+150]% Strength <vs [Human] units>"],
 	},
 	{
+		"name": "Jet Fighter",
+		"unitType": "Human Air",
+		"movement": 1,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 10,
+		"interceptRange": 10,
+		"cost": 62500,
+		"requiredTech": "Unciv",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Land] units>", "[+150]% Strength <vs [Water] units>"],
+		"attackSound": "jetgun"
+	},
+	{
 		"name": "Modern Armor",
+		"attackSound": "tankshot",
 		"cost": 50000,
 		"unitType": "Human",
 		"requiredTech": "Unciv",
