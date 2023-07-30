@@ -202,7 +202,7 @@
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
 
-		"favoredReligion": "Science",
+		"favoredReligion": "Rationalism",
 		"uniqueName": "Advanced Evolution of Humans",
 		"uniques": ["[+1000]% [Science] [in all cities] <during the [Ancient era]>","[+1] Sight <for [Human] units>", "[-50]% Gold cost of acquiring tiles [in all cities] <after discovering [Human Race]>","[+45]% Strength <vs [Human] units> <during the [Ancient era]> <for [Human] units>"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
