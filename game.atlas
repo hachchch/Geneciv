@@ -414,6 +414,13 @@ TechIcons/Trilobite
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitTypeIcons/Arthropod
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Arthropod
   rotate: false
   xy: 1200, 0
