@@ -828,7 +828,7 @@
 				"name": "Religion",
 				"row": 9,
 				"prerequisites": ["Homo Sapiens","Where did we come from?"],
-				"uniques": ["Damage is ignored when determining unit Strength <for [Human] units>","[+1 Faith] from [City center] tiles [in all cities] <before discovering [Unciv]>"],
+				"uniques": ["Damage is ignored when determining unit Strength <for [Human] units> <after founding a Pantheon>","[+1 Faith] from [City center] tiles [in all cities] <before discovering [Unciv]>"],
 			},
 		]
 	},
