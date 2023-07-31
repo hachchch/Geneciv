@@ -88,7 +88,7 @@
 		"improvement": "Forests",
                 "production": 1,
 		"improvementStats": {"food": 1},
-		"uniques": ["Generated on every [0.2] tiles"],
+		"uniques": ["Generated on every [10] tiles"],
 	},
 	{
 		"name": "Jungle",
