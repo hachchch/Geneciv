@@ -33,6 +33,6 @@
     {
         "name": "Waterfall of God",
         "type": "Pantheon",
-        "uniques": ["[+4 Culture] [in all cities] <in [Mountain] [Flesh Water] tiles>","[+4 Faith] [in all cities] <in [Mountain] [Flesh Water] tiles>"],
+        "uniques": ["[+4 Culture] [in all cities] <in [Mountain] [River] tiles>","[+4 Faith] [in all cities] <in [Mountain] [River] tiles>"],
     },
 ]
