@@ -144,8 +144,8 @@
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
-		"outerColor": [217,217,247],
-		"innerColor": [255,255,245],
+		"outerColor": [160,160,200],
+		"innerColor": [242,242,255],
 		"uniqueName": "Snowball Earth",
 		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
@@ -175,7 +175,7 @@
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
 		"outerColor": [108,94,202],
-		"innerColor": [160,177,236],
+		"innerColor": [176,195,260],
 		"uniqueName": "Cambrian explosion",
 		"uniques": ["[+3 Science] from [Ocean] tiles [in all cities] <during a Golden Age> <during the [Cambrian period]>","[+45]% Strength <for [Arthropod] units> <when at war> <during the [Cambrian period]>"],
 		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
