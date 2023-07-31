@@ -73,6 +73,13 @@ TileSets/FantasyHex/Tiles/City center-Archean eon
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Forests-Ancient era
+  rotate: false
+  xy: 404, 1245
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/City center-Mesoproterozoic
   rotate: false
   xy: 484, 741
