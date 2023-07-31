@@ -21,6 +21,11 @@
         "uniques": ["[+4 Science] for each global city following this religion","[+2 Faith] for each global city following this religion"],
     },
     {
+        "name": "Calender",
+        "type": "Enhancer",
+        "uniques": ["[+25]% [Food] [in all cities] <with [30]% chance>"],
+    },
+    {
         "name": "Festival for Gods",
         "type": "Follower",
         "uniques": ["[+2 Happiness] from every [Campfire]","[+2]% [Culture] from every follower, up to [+50]% <during a Golden Age>"],
