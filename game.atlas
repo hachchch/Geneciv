@@ -94,6 +94,13 @@ TileSets/FantasyHex/Tiles/Grassland-Miocene
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Plains-Miocene
+  rotate: false
+  xy: 1485, 876
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Grassland+GrassLand
   rotate: false
   xy: 484, 1009
@@ -152,9 +159,9 @@ TileSets/FantasyHex/Tiles/Grassland+Forests+Forest
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Forests+Forest
   rotate: false
-  xy: 1685, 795
-  size: 32, 32
-  orig: 32, 32
+  xy: 1485, 876
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fish
