@@ -8,6 +8,10 @@
         },
 	{
 		"name": "Clay Work",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"specialistSlots": {"Merchant": 1},
 		"culture": 8,
 		"cost": 40,
 		"hurryCostModifier": 40,
