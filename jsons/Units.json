@@ -484,8 +484,14 @@
 	{
 		"name": "Great Elder",
 		"unitType": "Civilian",
-		"uniques": ["Can [Spread Religion] [4] times","Removes other religions when spreading religion","May found a religion","May enhance a religion","May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Unbuildable", "Religious Unit", "Hidden when religion is disabled","Takes your religion over the one in their birth city"],
+		"uniques": ["Can instantly construct a [Monument] improvement <by consuming this unit>","Can [Spread Religion] [4] times","Removes other religions when spreading religion","May found a religion","May enhance a religion","May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Unbuildable", "Religious Unit", "Hidden when religion is disabled","Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
+	},
+	{
+		"name": "Great Chief",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles","Can instantly construct a [Outpost] improvement <by consuming this unit>","Great Person - [War]", "Unbuildable", "Uncapturable"],
 	},
 ]
