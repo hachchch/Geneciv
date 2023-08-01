@@ -9,6 +9,8 @@
 	{
 		"name": "Monument",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 9,
+		"techRequired": "The Culture",
 	},
 	{
 		"name": "Hunting Spot",
