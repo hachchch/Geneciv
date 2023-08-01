@@ -10,8 +10,8 @@
 		"name": "Clay Work",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"specialistSlots": {"Merchant": 1},
+		"greatPersonPoints": {"Great Craftsman": 1},
+		"specialistSlots": {"Craftsman": 2},
 		"culture": 8,
 		"cost": 40,
 		"hurryCostModifier": 40,
@@ -31,16 +31,19 @@
 		"cost": 2500,
 		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","[+3 Food] from [Lakes] tiles [in this city]","[+3 Food] from [River] tiles [in this city]"],
 		"requiredTech": "Stone Tools",
+		"specialistSlots": {"Hunter": 1},
 	},
 	{
 		"name": "Sociality",
 		"cost": 1000,
 		"happiness": 1,
 		"requiredTech": "Ape Brain",
+		"specialistSlots": {"Elder": 2},
 		"uniques": ["[25]% [Production] [in this city]","[25]% [Culture] [in this city]","[12]% [Food] [in this city]"],
 	},
 	{
 		"name": "Stone Work",
+		"specialistSlots": {"Craftsman": 2},
 		"cost": 2000,
 		"production": 8,
 		"requiredTech": "Stone Tools",
@@ -65,6 +68,7 @@
 	},
 	{
 		"name": "Campfire",
+		"specialistSlots": {"Hunter": 3},
 		"culture": 5,
 		"happiness": 5,
 		"food": 5,
@@ -76,6 +80,7 @@
 	},
 	{
 		"name": "Bulletin Wall",
+		"specialistSlots": {"Elder": 1},
 		"requiredTech": "Cave Painting",
 		"cost": 2000,
 		"gold": 6,
@@ -92,6 +97,7 @@
 	},
 	{
 		"name": "Sacred Place",
+		"specialistSlots": {"Elder": 2},
 		"cost": 3000,
 		"faith": 5,
 		"requiredTech": "Religion",
@@ -105,6 +111,7 @@
 	},
 	{
 		"name": "Factory",
+		"specialistSlots": {"Craftsman": 8},
 		"cost": 5000,
 		"requiredTech": "Unciv",
 		"uniques": ["[+1000]% [Production] [in this city]","[+10] [Production] from [Hunting Spot] tiles","[+1000]% [Gold] [in this city]","[+10] [Gold] from [Hunting Spot] tiles [in this city]"],
