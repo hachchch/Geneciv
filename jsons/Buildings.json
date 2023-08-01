@@ -7,6 +7,14 @@
                 "requiredTech": "Primordial Soup",
         },
 	{
+		"name": "Clay Work",
+		"culture": 8,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["[+1 Culture] from [Monument] tiles [in this city]"]
+	},
+	{
 		"name": "Logical Thinking",
 		"cost": 4000,
 		"requiredTech": "Human Brain",
