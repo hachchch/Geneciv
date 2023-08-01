@@ -189,4 +189,11 @@
 		"column": 0,
 		"unitTypes": ["Water Mammal"],
 	},
+	{
+		"name": "Cell Division",
+		"uniques": ["Heal this unit by [33] HP <upon defeating a [All] unit>"],
+		"row": 60,
+		"column": 0,
+		"unitTypes": ["Cell"],
+	},
 ]
