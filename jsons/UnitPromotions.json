@@ -184,7 +184,7 @@
 	},
 	{
 		"name": "Intelligence",
-		"uniques": ["Can [[+10] XP] [5] times <with [75]% chance> <when [Wounded]>","Can [[+25] HP] [5] times <when [Wounded]>"],
+		"uniques": ["Can [+10 XP] [5] times <with [75]% chance> <when [Wounded]>","Can [+25 HP] [5] times <when [Wounded]>"],
 		"row": 52,
 		"column": 0,
 		"unitTypes": ["Water Mammal"],
