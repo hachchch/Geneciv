@@ -101,6 +101,7 @@
 		"cost": 3000,
 		"faith": 5,
 		"requiredTech": "Religion",
+		"uniques": ["[+4 Faith] from every Elder [in this city]"],
 	},
 	{
 		"name": "The Anthropocene era",
