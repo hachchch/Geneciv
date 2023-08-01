@@ -9,7 +9,7 @@
 	{
 		"name": "Productive Site",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 8,
+		"production": 10,
 	},
 	{
 		"name": "Outpost",
