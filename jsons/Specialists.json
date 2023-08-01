@@ -21,8 +21,8 @@
 	},
 	{
 		"name": "Elder",
-		"faith": 4,
-		"science": 2,
+		"science": 4,
+		"gold": 2,
 		"culture": 2,
 		"greatPersonPoints": { "Great Elder": 3 },
 		"color": [100, 165, 133]
