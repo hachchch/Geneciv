@@ -2,13 +2,13 @@
 	{
 		"name": "Reproductive",
 		"science": 3,
-		"greatPersonPoints": { "Great Scientist": 3 },
+		"greatPersonPoints": { "Great Reproductive": 3 },
 		"color": [0, 0, 255]
 	},
 	{
 		"name": "Meristem",
 		"gold": 2,
-		"greatPersonPoints": { "Great Merchant": 3 },
+		"greatPersonPoints": { "Great Meristem": 3 },
 		"color": [255, 215, 0]
 	},
 	{
@@ -38,13 +38,13 @@
 	{
 		"name": "Vegetation",
 		"production": 2,
-		"greatPersonPoints": { "Great Engineer": 3 },
+		"greatPersonPoints": { "Great Vegetation": 3 },
 		"color": [0, 215, 0],
 	},
 	{
 		"name": "Animal",
 		"food": 2,
 		"color": [139, 69, 19],
-		"greatPersonPoints": { "Great Farmer": 3 }
+		"greatPersonPoints": { "Great Animal": 3 }
 	}
 ]
