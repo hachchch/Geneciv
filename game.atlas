@@ -877,8 +877,8 @@ TileSets/FantasyHex/Units/Boar
 TileSets/FantasyHex/Units/Sapiens Warrior
   rotate: false
   xy: 764, 504
-  size: 32, 20
-  orig: 32, 20
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Neanderthalensis Warrior
@@ -919,15 +919,15 @@ TileSets/FantasyHex/Units/Jellyfish
 TileSets/FantasyHex/Units/Spearman
   rotate: false
   xy: 684, 497
-  size: 32, 20
-  orig: 32, 20
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Particles
   rotate: false
   xy: 684, 471
-  size: 32, 22
-  orig: 32, 22
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Modern Fishes
