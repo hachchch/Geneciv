@@ -926,8 +926,8 @@ TileSets/FantasyHex/Units/Spearman
 TileSets/FantasyHex/Units/Particles
   rotate: false
   xy: 684, 477
-  size: 32, 28
-  orig: 32, 28
+  size: 32, 22
+  orig: 32, 22
   offset: 0, 6
   index: -1
 TileSets/FantasyHex/Units/Modern Fishes
