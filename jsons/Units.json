@@ -221,6 +221,26 @@
 		"attackSound": "Slash",
 	},
 	{
+		"name": "Boar",
+		"cost": 1000,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"strength": 70,
+		"movement": 2,
+		"unitType": "Mammal",
+		"uniques": ["[+45]% to Flank Attack bonuses <vs [Mammal] units>"],
+	},
+	{
+		"name": "Horse",
+		"cost": 1000,
+		"requiredTech": "Eutherians",
+		"attackSound": "horse"
+		"strength": 70,
+		"movement": 5,
+		"unitType": "Mammal",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+	},
+	{
 		"name": "Caniform",
 		"unitType": "Mammal",
 		"cost": 1000,
@@ -230,6 +250,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
+		"uniques": ["[-50]% Strength <vs [Human] units>"],
 	},
 	{
 		"name": "Glires",
