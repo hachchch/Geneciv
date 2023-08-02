@@ -930,7 +930,7 @@ TileSets/FantasyHex/Units/Particles
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Modern Fishes
+TileSets/FantasyHex/Units/Modern Fish
   rotate: false
   xy: 604, 636
   size: 32, 28
