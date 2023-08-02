@@ -925,7 +925,7 @@ TileSets/FantasyHex/Units/Spearman
   index: -1
 TileSets/FantasyHex/Units/Particles
   rotate: false
-  xy: 684, 471
+  xy: 684, 477
   size: 32, 28
   orig: 32, 28
   offset: 0, 6
