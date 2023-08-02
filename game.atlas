@@ -884,36 +884,36 @@ TileSets/FantasyHex/Units/Sapiens Warrior
 TileSets/FantasyHex/Units/Neanderthalensis Warrior
   rotate: false
   xy: 764, 476
-  size: 32, 20
-  orig: 32, 20
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mankind
   rotate: false
   xy: 764, 448
-  size: 32, 20
-  orig: 32, 20
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Thrower
   rotate: false
   xy: 764, 364
-  size: 32, 20
-  orig: 32, 20
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ape
   rotate: false
   xy: 764, 420
-  size: 32, 20
-  orig: 32, 20
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jellyfish
   rotate: false
   xy: 764, 392
-  size: 32, 20
-  orig: 32, 20
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman
