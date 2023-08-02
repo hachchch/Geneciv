@@ -897,7 +897,7 @@ TileSets/FantasyHex/Units/Mankind
   index: -1
 TileSets/FantasyHex/Units/Thrower
   rotate: false
-  xy: 744, 364
+  xy: 764, 364
   size: 32, 20
   orig: 32, 20
   offset: 0, 0
