@@ -925,10 +925,10 @@ TileSets/FantasyHex/Units/Spearman
   index: -1
 TileSets/FantasyHex/Units/Particles
   rotate: false
-  xy: 684, 477
+  xy: 684, 471
   size: 32, 20
   orig: 32, 20
-  offset: 0, 0
+  offset: 0, 6
   index: -1
 TileSets/FantasyHex/Units/Modern Fishes
   rotate: false
