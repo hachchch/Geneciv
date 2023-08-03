@@ -138,6 +138,18 @@
 		"requiredTech": "Fish",
 		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders","Double movement in [Coast] <after discovering [Fins]>","Double movement in [Ocean] <after discovering [Fins]>"],
 		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Fish",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "With fins to maneuver the ancient seas, fish evolved from less agile invertebrates and rapidly diversified to take control of the oceans."
+			}
+		]
 	},
 	{
 		"name": "Tetrapod",
