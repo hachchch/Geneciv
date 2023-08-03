@@ -952,9 +952,9 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/City center-Carboniferous period
   rotate: false
-  xy: 604, 628
-  size: 32, 36
-  orig: 32, 36
+  xy: 604, 626
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Pleistocene
