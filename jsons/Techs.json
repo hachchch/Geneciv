@@ -770,14 +770,16 @@
 				"prerequisites": ["Homo Erectus","Homo Heidelbergensis"],
 			},
 			{
-				"name": "New Predater",
+				"name": "Advanced Game",
 				"row": 1,
 				"prerequisites": ["Stone Tools"],
+				"quote": "What began with rocks has moved on towards spear tips and arrow heads. Now They are Apex Predator",
 			},
 			{
 				"name": "Fire",
 				"row": 2,
 				"prerequisites": ["Stone Tools"],
+				"quote": "The discovery of fire gave mankind a way to survive the winter, cooked meat and new weapons. Homo ergaster might also have been the earliest hominin to master control of fire.",
 			},
 			{
 				"name": "Where I will gone?",
@@ -785,7 +787,7 @@
 				"prerequisites": ["Cave Painting"],
 			},
 			{
-				"name": "Where did we come from?",
+				"name": "Where do we come from?",
 				"row" : 9,
 				"prerequisites": ["Cave Painting"],
 			},
@@ -812,12 +814,13 @@
 			{
 				"name": "War",
 				"row": 1,
-				"prerequisites": ["Homo Sapiens","New Predater"],
+				"prerequisites": ["Homo Sapiens","Advanced Game"],
 			},
 			{
 				"name": "Speaking",
 				"row": 2,
 				"prerequisites": ["Homo Neanderthalensis","Fire"],
+				"quote": "Language is a key stone to our thoughts. The ability to talk allows us to communicate with one another, sharing ideas, knowledge and instructions.",
 			},
 			{
 				"name": "Burial",
@@ -827,7 +830,7 @@
 			{
 				"name": "Religion",
 				"row": 9,
-				"prerequisites": ["Homo Sapiens","Where did we come from?"],
+				"prerequisites": ["Homo Sapiens","Where do we come from?"],
 				"uniques": ["Damage is ignored when determining unit Strength <for [Human] units> <after founding a Pantheon>","[+1 Faith] from [City center] tiles [in all cities] <before discovering [Unciv]>"],
 			},
 		]
