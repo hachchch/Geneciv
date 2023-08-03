@@ -15,6 +15,10 @@
 ・hachchch - craft diamond tools
 
 ・hachchch - build nether portal etcetc...
+
+Icons from Noun Project
+
+Sounds from Free Sound
 ## Translation
 ・hachchch - translation template
 
