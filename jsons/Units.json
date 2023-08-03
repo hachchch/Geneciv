@@ -71,12 +71,12 @@
 		]
 	},
 	{
-		"name": "Eukaryotic Cell",
+		"name": "Eukaryote",
 		"unitType": "Cell",
 		"movement": 2,
 		"strength": 3,
 		"cost": 80,
-		"requiredTech": "Eukaryote",
+		"requiredTech": "Eukaryotic Cell",
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
 		"uniques": ["No Sight","May travel on Water tiles without embarking"],
