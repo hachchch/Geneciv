@@ -5,16 +5,39 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"turnsToBuild": 3,
 		"food": 1,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Forests",
+				"imageSize": 192,
+			},
+			{
+				"text": "Photosynthesis by this giant fern plant transforms the Earth's environment. The Carboniferous created an oxygen-rich environment that cooled the Earth. Also, the fallen trees did not decompose and produced a lot of coal. And after the decomposers appeared, the hypoxic environment of the earth became decisive and encouraged the prosperity of the giant dinosaurs. But trigger a mass extinction event too. The current Earth is in good balance unless humans destroy it.",
+			},
+		]
 	},
 	{
 		"name": "Productive Site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 10,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Productive Site",
+				"imageSize": 192,
+			},
+			{
+				"text": "I don't know if there was a concept of a production base like a factory long ago, but I was forced to add it as a production facility.",
+			},
+		]
 	},
 	{
 		"name": "Outpost",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement","Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [50] damage","Can be built just outside your borders","Constructing it will take over the tiles around it and assign them to your closest city","Removes removable features when built"],
+		"civilopediaText": [
+			{
+				"text": "This is a hunting base, but gives only combat bonuses. It seems that it can also be used when fighting compatriots.",
+			},
+		]
 	},
 	{
 		"name": "Monument",
@@ -22,6 +45,15 @@
 		"culture": 9,
 		"techRequired": "The Culture",
 		"uniques": ["Great Improvement","Removes removable features when built"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Monument",
+				"imageSize": 192,
+			},
+			{
+				"text": "Humans like to represent themselves and their communities in symbolic ways. But it would have been very difficult for the ancients. Many wishes are put in the monument that looks like a simple stone.",
+			},
+		]
 	},
 	{
 		"name": "Hunting Spot",
@@ -31,6 +63,15 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Hill"],
 		"defenceBonus": 0.1,
 		"turnsToBuild": 7,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Hunting Spot",
+				"imageSize": 192,
+			},
+			{
+				"text": "Until now, most primates used counterattack tactics when met predator, but with the power of civilization, we chase and hunt them down. This is the beginning of the hunt. However, this practice has brought some species closer to extinction.",
+			},
+		]
 	},
 	{
 		"name": "Barbarian encampment",
@@ -56,6 +97,15 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/GrassLand",
+				"imageSize": 192,
+			},
+			{
+				"text": "Grasslands serve as food for land animals, but they can also provide oxygen. This is very important because the oxygen concentration affects not only the land, but also the sea.",
+			},
+		]
 	},
 	{
 		"name": "City center",
