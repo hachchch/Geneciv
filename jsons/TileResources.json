@@ -8,6 +8,9 @@
                 "gold": 1,
         },
 	{
+		"name": "",
+	},
+	{
 		"name": "Marsh",
 		"revealedBy": "Spore Plant",
 		"resourceType": "Bonus",
