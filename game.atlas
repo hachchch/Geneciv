@@ -953,8 +953,8 @@ repeat: none
 TileSets/FantasyHex/Tiles/City center-Carboniferous period
   rotate: false
   xy: 604, 636
-  size: 32, 28
-  orig: 32, 28
+  size: 32, 36
+  orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Pleistocene
