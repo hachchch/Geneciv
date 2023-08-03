@@ -1,6 +1,6 @@
 # Credits
 ## Development
-・hachchch - idea
+・@hachchch - idea
 
 ・hachchch - code
 
