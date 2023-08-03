@@ -42,9 +42,9 @@
 		"color": [0, 215, 0],
 	},
 	{
-		"name": "Animal",
+		"name": "Creature",
 		"food": 2,
 		"color": [139, 69, 19],
-		"greatPersonPoints": { "Great Animal": 3 }
+		"greatPersonPoints": { "Great Creature": 3 }
 	}
 ]
