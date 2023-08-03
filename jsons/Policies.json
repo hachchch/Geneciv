@@ -41,13 +41,13 @@
 				"uniques": ["[+50]% XP gained from combat <for [Dinosaur] units>"],
 				"row": 5,
 				"column": 4,
-				"requires": ["Siberian Traps"],
+				"requires": ["Oceanic Anoxic Events"],
 			},
 			{
 				"name": "Meteorite Impact",
 				"row": 6,
 				"column": 3,
-				"requires": ["Hypoxic Environment"],
+				"requires": ["Hypoxic Environment","Siberian Traps"],
 			},
 			{
 				"name": "Impact winter",
