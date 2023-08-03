@@ -95,6 +95,17 @@
 		"attackSound": "Splash",
 	},
 	{
+		"name": "Megalodon",
+		"requiredTech": "Predation",
+		"unitType": "Fishes",
+		"cost": 750,
+		"strength": 60,
+		"movement": 4,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Splash",
+		"uniques": ["Destroys tile improvements when attacking"],
+	},
+	{
 		"name": "Flatworm",
 		"unitType": "Water Animal",
 		"cost": 220,
@@ -221,6 +232,16 @@
 		"attackSound": "Slash",
 	},
 	{
+		"name": "Lion",
+		"unitType": "Mammal",
+		"cost": 1500,
+		"strength": 150,
+		"movement": 5,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"requiredResource": "Super Creature Stock",
+	},
+	{
 		"name": "Boar",
 		"cost": 1000,
 		"requiredTech": "Eutherians",
@@ -322,10 +343,11 @@
 	{
 		"name": "Tyrannosaurus",
 		"unitType": "Reptiles",
-		"cost": 2500,
+		"cost": 1500,
 		"strength": 150,
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 2,
+		"requiredResource": "Super Creature Stock",
 		"obsoleteTech": "Eutherians",
 	},
 	{
