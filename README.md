@@ -15,4 +15,5 @@ I don't think there has ever been a strategy game related to geological time. Bu
 ・Primate
 ・Super Ancient Civilization
 
+# 1234567890
 Mod author(hachchch) is not biology experts, so there may be misinformation.(In addition, I am from areas where English is not an official language.)
