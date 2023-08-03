@@ -63,10 +63,69 @@
 		"uniques": ["Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
 		"civilopediaText": [
 			{
-				"text": "Marks the center of a city"
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Cryptic era",
+				"imageSize": 192,
 			},
 			{
-				"text": "Appearance changes with the technological era of the owning civilization"
+				"text": "Lava",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Archean eon",
+				"imageSize": 192,
+			},
+			{
+				"text": "Water",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Silurian period",
+				"imageSize": 192,
+			},
+			{
+				"text": "",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Devonian period",
+				"imageSize": 192,
+			},
+			{
+				"text": "Dried Land",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Carboniferous period",
+				"imageSize": 192,
+			},
+			{
+				"text": "Lepidodendrons Forest with Pond",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Pleistocene",
+				"imageSize": 192,
+			},
+			{
+				"text": "Cave and Artifact with Pond",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Holocene",
+				"imageSize": 192,
+			},
+			{
+				"text": "Tribal Village",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/City center-Ancient",
+				"imageSize": 192,
+			},
+			{
+				"text": "Concrete biome",
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Marks the center of a city",
+			},
+			{
+				"text": "Appearance changes with the technological era of the owning civilization",
 			}
 		]
 	},
