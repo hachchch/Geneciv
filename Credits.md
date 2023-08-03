@@ -4,7 +4,7 @@
 
 ・hachchch - code
 
-・hachchch - make texture
+・hachchch - make TileSet texture
 
 ・hachchch - texture atlas
 
