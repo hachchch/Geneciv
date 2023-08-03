@@ -261,6 +261,7 @@
 				"name": "Articulation",
 				"row": 6,
 				"prerequisites": ["Flatworm"],
+				"uniques": ["[+25]% XP gained from combat <for [Water Arthropod] units>"],
 			},
 			{
 				"name": "Cocoon",
@@ -302,6 +303,7 @@
 				"name": "Pigment Spot",
 				"row": 3,
 				"prerequisites": ["Bilateral Symmetry"],
+				"uniques": ["[+25]% XP gained from combat <for [Flatworm] units>"]
 			},
 		]
 	},
@@ -332,7 +334,7 @@
 				"name": "Trilobite",
 				"row": 8,
 				"prerequisites": ["Arthropod"],
-				"uniques": ["[+200]% Production when constructing [Arthropod] units [in all cities]"]
+				"uniques": ["[+100]% Production when constructing [Water Arthropod] units [in all cities]"]
 			}
 		]
 	},
