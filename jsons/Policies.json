@@ -1,7 +1,86 @@
 [
 	{
+		"name": "Extinctions",
+		"era": "Cambrian period",
+		"effect": "+3 culture in capital and increased rate of border expansion",
+		"uniques": ["[+33]% [Science] [in capital]"],
+		"policies": [
+			{
+				"name": "Super Plume",
+				"row": 3,
+				"column": 1,
+			},
+			{
+				"name": "Great Volcanic Activity",
+				"row": 3,
+				"column": 2,
+			},
+			{
+				"name": "Global Cooling",
+				"row": 3,
+				"column": 3,
+			},
+			{
+				"name": "Oceanic Anoxic Events",
+				"uniques": ["[-50]% Production when constructing [Arthropod] units [in all cities]"],
+				"row": 3,
+				"column": 4,
+			},
+			{
+				"name": "Siberian Traps",
+				"unques": ["Cannot build [Arthropod] units"],
+				"row": 4,
+				"column": 5,
+			},
+			{
+				"name": "Hypoxic Environment",
+				"uniques": ["[+50]% XP gained from combat <for [Dinosaur] units>"],
+				"row": 2,
+				"column": 5,
+			},
+			{
+				"name": "Meteorite Impact",
+				"row": 3,
+				"column": 6,
+			},
+			{
+				"name": "Impact winter",
+				"row": 2,
+				"column": 7,
+			},
+			{
+				"name": "Deccan Traps",
+				"row": 4,
+				"column": 7,
+			},
+			{
+				"name": "Ice Age",
+				"row": 3,
+				"column": 8,
+			},
+			{
+				"name": "Industrial Revolution",
+				"uniques": ["[-1 Food] from [Ocean] tiles [in all cities]","[-1 Production] from [GrassLand] tiles [in all cities]","[-1 Food] from [Forest] tiles [in all cities]"],
+				"row": 2,
+				"column": 10,
+			},
+			{
+				"name": "Overfishing",
+				"uniques": ["[+1 Food] from [Hunting Spot] tiles [in all cities]","[-1 Food] from [Forests] tiles [in all cities]"],
+				"row": 3,
+				"column": 9,
+			},
+			{
+				"name": "Nuclear Apocalypse",
+				"uniques": ["[+10]% Strength <for [Human] units>"],
+				"row": 4,
+				"column": 10,
+			},
+		]
+	},
+	{
 		"name": "Tribalism",
-		"era": "Pliocene",
+		"era": "Pleistocene",
 		"effect": "+3 culture in capital and increased rate of border expansion",
 		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
 		"policies": [
