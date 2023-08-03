@@ -18,7 +18,7 @@
 	{
 		"name": "Productive Site",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 10,
+		"production": 5,
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Productive Site",
