@@ -952,7 +952,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/City center-Carboniferous period
   rotate: false
-  xy: 604, 636
+  xy: 604, 644
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
