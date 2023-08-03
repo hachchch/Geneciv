@@ -7,6 +7,19 @@
                 "requiredTech": "Primordial Soup",
         },
 	{
+		"name": "Big Brain",
+		"cost": 2000,
+		"science": 5,
+		"uniques": ["[+20]% [Science] [in this city]"],
+		"requiredTech": "Homo Heidelbergensis",
+	},
+	{
+		"name": "Hunting",
+		"cost": 2000,
+		"specialistSlots": {"Hunter": 2},
+		"requiredTech": "Homo Ergaster",
+	},
+	{
 		"name": "Clay Work",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
