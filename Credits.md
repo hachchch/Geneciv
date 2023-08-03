@@ -1,23 +1,23 @@
 # Credits
-# Development
-hachchch - idea
+## Development
+・hachchch - idea
 
-hachchch - code
+・hachchch - code
 
-hachchch - make texture
+・hachchch - make texture
 
-hachchch - texture atlas
+・hachchch - texture atlas
 
-hachchch - sound finder
+・hachchch - sound finder
 
-hachchch - idea
+・hachchch - idea
 
-hachchch - craft diamond tools
+・hachchch - craft diamond tools
 
-hachchch - build nether portal etcetc...
-# Translation
-hachchch - translation template
+・hachchch - build nether portal etcetc...
+## Translation
+・hachchch - translation template
 
-hachchch - Japanese translation
+・hachchch - Japanese translation
 
-hachchch - English translation to rename terrains
+・hachchch - English translation to rename terrains
