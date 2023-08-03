@@ -3,7 +3,7 @@ Build Human before the Burn Planet Earth. In  this mod You can Control Cells, Fi
 
 I don't think there has ever been a strategy game related to geological time. But it is feasible.
 
-Features:
+# Features
 
 ・Cell
 ・Coral
