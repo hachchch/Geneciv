@@ -560,7 +560,7 @@
 			{
 				"name": "Glands",
 				"row": 7,
-				"prerequisites": ["Mammal"]
+				"prerequisites": ["Mammal"],
 			},
 		]
 	},
@@ -625,6 +625,7 @@
 				"name": "Neocortex",
 				"row": 2,
 				"prerequisites": ["Eutherians"],
+				"uniques": ["[+1 Science] per [2] population [in all cities]"],
 			},
 			{
 				"name": "Placenta",
@@ -674,11 +675,13 @@
 				"name": "Upright Bipedal Walk",
 				"row": 6,
 				"prerequisites": ["Ape"],
+				"uniques": ["[-1] Movement <for [Ape] units>","[+25]% Strength <for [Ape] units>"],
 			},
 			{
 				"name": "Ape Brain",
 				"row": 2,
-				"prerequisites": ["Ape","Learning"]
+				"prerequisites": ["Ape","Learning"],
+				"uniques": ["[+1 Science] per [2] population [in all cities]"],
 			},
 		]
 	},
@@ -716,7 +719,7 @@
 			{
 				"name": "Homo Habilis",
 				"row": 6,
-				"prerequisites": ["Australopithecus"],
+				"prerequisites": ["Australopithecus","Opposable Thumb"],
 			},
 			{
 				"name": "Abstract Thinking",
