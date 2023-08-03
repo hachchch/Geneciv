@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "Hunting Spot",
-		"techRequired": "New Predater",
+		"techRequired": "Homo Ergaster",
 		"food": 4,
 		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Hill"],
