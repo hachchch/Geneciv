@@ -7,10 +7,32 @@
                 "requiredTech": "Primordial Soup",
         },
 	{
+		"name": "Emotions",
+		"cost": 500,
+		"happiness": 4,
+		"uniques": ["[+10]% [Production] [in this city]"],
+		"requiredTech": "Medulla Oblongata",
+	},
+	{
+		"name": "Mammal Brain",
+		"cost": 1500,
+		"science": 4,
+		"production": 4,
+		"requiredTech": "Neocortex",
+		"uniques": ["New [Mammal] units start with [15] Experience [in this city]","[+15]% [Science] [in this city]","[+10]% [Production] [in this city]"],
+	},
+	{
+		"name": "Green Field",
+		"requiredTech": "Grass",
+		"food": 8,
+		"cost": 1375,
+	},
+	{
 		"name": "Big Brain",
 		"cost": 2000,
 		"science": 5,
-		"uniques": ["[+20]% [Science] [in this city]"],
+		"happiness": 1,
+		"uniques": ["[+20]% [Science] [in this city]","New [Human] units start with [15] Experience [in this city]"],
 		"requiredTech": "Homo Heidelbergensis",
 	},
 	{
@@ -287,7 +309,7 @@
 		"name": "Limbic System",
 		"cost": 240,
 		"requiredTech": "Learning",
-		"prerequisites": ["[+10]% [Happiness] [in all cities]","[+4 Science] from [City center] tiles [in all cities]"],
+		"uniques": ["[+50]% XP gained from combat <for [Mammal] units> <in this city>","New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]","[+4 Science] from [City center] tiles [in all cities]"],
 	},
 	{
 		"name": "Gamerule",
