@@ -9,6 +9,18 @@
 		"obsoleteTech": "Amino Acid",
 		"upgradesTo": "Amino Acid",
 		"attackSound": "plays",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Particles",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "All creature, including humans, are made up of elements. The cells that make up creature are made of compounds, which are also made of elements. The stones in that area may also become living things if the structure is rearranged.",
+			},
+		]
         },
 	{
 		"name": "Amino Acid",
@@ -19,11 +31,23 @@
 		"uniques": ["No Sight"],
 		"requiredTech": "Amino Acid",
 		"obsoleteTech": "Eukaryotic Cell",
-		"upgradesTo": "Prokaryotic Cell",
+		"upgradesTo": "Prokaryote",
 		"attackSound": "plays",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Amino Acid",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Amino acids are not creature, but they make up proteins that are important to creature.",
+			},
+		]
 	},
 	{
-		"name": "Prokaryotic Cell",
+		"name": "Prokaryote",
 		"unitType": "Cell",
 		"strength": 2,
 		"movement": 2,
@@ -31,8 +55,20 @@
 		"uniques": ["No Sight","May travel on Water tiles without embarking"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
-		"upgradesTo": "Eukaryotic Cell",
+		"upgradesTo": "Eukaryote",
 		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Prokaryote",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This is the first creature. God has a good sense of humor that making many creature so small that they can't be seen.",
+			},
+		]
 	},
 	{
 		"name": "Eukaryotic Cell",
@@ -40,11 +76,23 @@
 		"movement": 2,
 		"strength": 3,
 		"cost": 80,
-		"requiredTech": "Eukaryotic Cell",
+		"requiredTech": "Eukaryote",
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
 		"uniques": ["No Sight","May travel on Water tiles without embarking"],
 		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eukaryote",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The nucleus at the center of the cell controls various organs. It's like our brain. Also, eukaryotes are much larger than prokaryotes. There is also a lot of DNA.",
+			},
+		]
 	},
 	{
 		"name": "Virus",
@@ -69,6 +117,18 @@
 		"upgradesTo": "Modern Jellyfish",
 		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
 		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Something like a coral that wandered the ocean was the first animal. They have poisonous nematocysts like sea anemones.",
+			},
+		]
 	},
 	{
 		"name": "Modern Jellyfish",
@@ -93,6 +153,18 @@
 		"requiredTech": "Modern Ocean",
 		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Modern Fish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish choose to evolve on land, while others remain in the sea and continue to evolve. Modern fish have shiny scales and huge schools. Tuna is a fairly new aquatic species.",
+			},
+		]
 	},
 	{
 		"name": "Megalodon",
