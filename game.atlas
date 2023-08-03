@@ -18,14 +18,14 @@ TileSets/FantasyHex/Units/Amino Acid
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Prokaryotic Cell
+TileSets/FantasyHex/Units/Prokaryote
   rotate: false
   xy: 1386, 731
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Eukaryotic Cell
+TileSets/FantasyHex/Units/Eukaryote
   rotate: false
   xy: 1346, 724
   size: 32, 28
@@ -261,7 +261,7 @@ TechIcons/Prokaryotic Cell
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Prokaryotic Cell
+UnitIcons/Prokaryote
   rotate: false
   xy: 800, 0
   size: 100, 100
