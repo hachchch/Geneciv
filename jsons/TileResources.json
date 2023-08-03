@@ -8,7 +8,10 @@
                 "gold": 1,
         },
 	{
-		"name": "",
+		"name": "Super Creature Stock",
+		"resourceType": "Strategic",
+		"science": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"],
 	},
 	{
 		"name": "Marsh",
