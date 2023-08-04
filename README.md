@@ -3,7 +3,7 @@ Build Human before the Burn Planet Earth. In  this mod You can Control Cells, Fi
 
 I don't think there has ever been a strategy game related to geological time. But it is feasible.
 
-# Features
+## Features
 
 ・Cell
 ・Coral
@@ -15,5 +15,5 @@ I don't think there has ever been a strategy game related to geological time. Bu
 ・Primate
 ・Super Ancient Civilization
 
-# 1234567890
+## Why Modern Jelllyfish can Range attack
 Mod author(hachchch) is not biology experts, so there may be misinformation.(In addition, I am from areas where English is not an official language.)
