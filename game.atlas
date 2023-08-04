@@ -989,6 +989,6 @@ TileSets/FantasyHex/Units/Cretaceous Dinosaur
   rotate: false
   xy: 556, 695
   size: 60, 52
-  orig: 60, 52
+  orig: 28, 28
   offset: 0, 0
   index: -1
