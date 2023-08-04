@@ -451,6 +451,15 @@
 		"movement": 2,
 		"requiredTech": "Cretaceous Reptiles",
 		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Dinosaur",
