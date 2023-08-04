@@ -945,7 +945,7 @@ TileSets/FantasyHex/Tiles/Monument
   offset: 0, 0
   index: -1
 
-game930.png
+game931.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -976,5 +976,19 @@ TileSets/FantasyHex/Tiles/City center-Devonian period
   xy: 484, 1009
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tribesman
+  rotate: false
+  xy: 764, 504
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cretaceous Dinosaur
+  rotate: false
+  xy: 564, 705
+  size: 52, 52
+  orig: 52, 52
   offset: 0, 0
   index: -1
