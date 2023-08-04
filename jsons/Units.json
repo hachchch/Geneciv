@@ -627,4 +627,10 @@
 		"uniques": ["Can speed up construction of a building","Can instantly construct a [Productive Site] improvement <by consuming this unit>","Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2,
 	},
+	{
+		"name": "Extinctions",
+		"unitType": "Civilian",
+		"uniques": ["No Sight","Can be added to [Extinction] in the Capital"],
+		"movement": 2,
+	},
 ]
