@@ -300,4 +300,16 @@
 		"uniques": ["[+35]% Strength <when fighting in [Forests] tiles>"],
 		"unitTypes": ["Hominiae"],
 	},
+	{
+		"name": "Battle of Landing Race",
+		"row": 300,
+		"column": 0,
+		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [Flesh Water] tiles>"],
+	},
+	{
+		"name": "Spawn Egg in Water",
+		"row": 301,
+		"column": 0,
+		"uniques": ["[+29] HP when healing <in [Flesh Water] tiles>","[+5] HP when healing"],
+	},
 ]
