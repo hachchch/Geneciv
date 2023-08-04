@@ -987,7 +987,7 @@ TileSets/FantasyHex/Units/Tribesman
   index: -1
 TileSets/FantasyHex/Units/Cretaceous Dinosaur
   rotate: false
-  xy: 572, 695
+  xy: 556, 695
   size: 60, 52
   orig: 60, 52
   offset: 0, 0
