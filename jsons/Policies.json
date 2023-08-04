@@ -9,6 +9,7 @@
 				"name": "Super Plume",
 				"row": 1,
 				"column": 3,
+				"uniques": ["[1] free [Extinctions] units appear [in capital]"],
 			},
 			{
 				"name": "Great Volcanic Activity",
