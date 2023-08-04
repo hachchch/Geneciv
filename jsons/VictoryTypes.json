@@ -15,5 +15,7 @@
     {
         "name": "Total Extinction",
         "milestones": ["Add all [Extinction] in capital","Destroy all players"],
+        "victoryString": "",
+        "defeatString": "",
     },
 ]
