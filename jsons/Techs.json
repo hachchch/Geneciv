@@ -992,10 +992,6 @@
 				"name": "Masonry",
 				"row": 8,
 			},
-			{
-				"name": "Lens",
-				"row": 1,
-			},
 		]
 	},
 	{
@@ -1034,7 +1030,7 @@
 				"row": 2,
 			},
 			{
-				"name": "Telescope",
+				"name": "Lens",
 				"row": 1,
 			},
 		]
@@ -1061,6 +1057,10 @@
 			{
 				"name": "Engineering",
 				"row": 9,
+			},
+			{
+				"name": "Telescope",
+				"row": 1,
 			},
 		]
 	},
