@@ -142,7 +142,7 @@
 		"name": "The Anthropocene era",
 		"cost": 5000,
 		"uniques": ["Triggers the following global alert: [!Humans are Changing the World!]","Triggers victory"],
-		"requiredTech": "Unciv",
+		"requiredTech": "Anthropocene",
 		"isWonder": true,
 	},
 	{
