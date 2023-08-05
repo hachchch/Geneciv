@@ -1142,6 +1142,10 @@
 				"row": 9,
 			},
 			{
+				"name": "Astronomy",
+				"row": 1,
+			},
+			{
 				"name": "Paper Money",
 				"row": 6,
 			},
@@ -1149,6 +1153,34 @@
 				"name": "Fire Arms",
 				"row": 3,
 			},
+			{
+				"name": "Herbalism",
+				"row": 2,
+			},
 		]
-	}
+	},
+	{
+		"columnNumber": 41,
+		"era": "Discovery era",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Banking",
+				"row": 6,
+			},
+			{
+				"name": "Astrolabe",
+				"row": 1,
+			},
+			{
+				"name": "Musket",
+				"row": 3,
+			},
+			{
+				"name": "Navigation",
+			},
+		]
+	},
 ]
