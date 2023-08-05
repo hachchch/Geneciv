@@ -876,17 +876,279 @@
 	},
 	{
 		"columnNumber": 31,
-		"era": "Ancient era",
+		"era": "Holocene",
 		"techCost": 6250,
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Unciv",
+				"name": "Anthropocene",
 				"row": 6,
 				"prerequisites": ["Human Race","Human Brain","Morality","The Culture","Diplomacy"],
-				"uniques": ["Can be continually researched"],
+				"quote": "The technology cannot be stopped.",
 			}
+		]
+	},
+	{
+		"columnNumber": 32,
+		"era": "Neolithic",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"prerequisites": ["Anthropocene"],
+			},
+		]
+	},
+	{
+		"columnNumber": 33,
+		"era": "Neolithic",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Animal Husbandry",
+				"row": 5,
+			},
+			{
+				"name": "Pottery",
+				"row": 2,
+			},
+			{
+				"name": "Urbanization",
+				"row": 9,
+			},
+			{
+				"name": "Wheel",
+				"row": 7,
+			},
+		]
+	},
+	{
+		"columnNumber": 34,
+		"era": "Neolithic",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Fertilizer",
+				"row": 4,
+			},
+			{
+				"name": "Plow",
+				"row": 5,
+			},
+			{
+				"name": "Mining",
+				"row": 9,
+			},
+			{
+				"name": "Writing",
+				"row": 10,
+			},
+			{
+				"name": "Gear",
+				"row": 7,
+			},
+			{
+				"name": "Calender",
+				"row": 2,
+			},
+			{
+				"name": "Sail",
+				"row": 1,
+			},
+		]
+	},
+	{
+		"columnNumber": 35,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Optics",
+				"row": 1,
+			},
+			{
+				"name": "Metallurgy",
+				"row": 9,
+			},
+			{
+				"name": "Paper",
+				"row": 10,
+			},
+			{
+				"name": "Mathematics",
+				"row": 7,
+			},
+			{
+				"name": "Masonry",
+				"row": 8,
+			},
+			{
+				"name": "Lens",
+				"row": 1,
+			},
+		]
+	},
+	{
+		"columnNumber": 36,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Airthmetic",
+				"row": 7,
+			},
+			{
+				"name": "Geometry",
+				"row": 6,
+			},
+			{
+				"name": "Pronounceable Writes",
+				"row": 10,
+			},
+			{
+				"name": "Nail",
+				"row": 8,
+			},
+			{
+				"name": "Construction",
+				"row": 9,
+			},
+			{
+				"name": "Zero",
+				"row": 5,
+			},
+			{
+				"name": "Philosophy",
+				"row": 2,
+			},
+			{
+				"name": "Telescope",
+				"row": 1,
+			},
+		]
+	},
+	{
+		"columnNumber": 37,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Civil Service",
+				"row": 5,
+			},
+			{
+				"name": "Iron Working",
+				"row": 7,
+			},
+			{
+				"name": "Teology",
+				"row": 2,
+			},
+			{
+				"name": "Engineering",
+				"row": 9,
+			},
+		]
+	},
+	{
+		"columnNumber": 38,
+		"era": "Classical era",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Military",
+				"row": 7,
+			},
+			{
+				"name": "Alchemy",
+				"row": 3,
+			},
+			{
+				"name": "Currency",
+				"row": 6,
+			},
+			{
+				"name": "Metal Casting",
+				"row": 9,
+			},
+			{
+				"name": "Education",
+				"row": 2,
+			},
+		]
+	},
+	{
+		"columnNumber": 39,
+		"era": "Medival era",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Gunpowder",
+				"row": 3,
+			},
+			{
+				"name": "Organized Religion",
+				"row": 2,
+			},
+			{
+				"name": "Machinery",
+				"row": 9,
+			},
+			{
+				"name": "Guilds",
+				"row": 6,
+			},
+			{
+				"name": "Chivalry",
+				"row": 7,
+			},
+			{
+				"name": "Steel",
+				"row": 10,
+			},
+			{
+				"name": "Physics",
+				"row": 4,
+			},
+		]
+	},
+	{
+		"columnNumber": 40,
+		"era": "Medival era",
+		"techCost": 6250,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Printing Press",
+				"row": 9,
+			},
+			{
+				"name": "Paper Money",
+				"row": 6,
+			},
+			{
+				"name": "Fire Arms",
+				"row": 3,
+			},
 		]
 	}
 ]
