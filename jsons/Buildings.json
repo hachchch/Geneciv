@@ -48,9 +48,10 @@
 		"greatPersonPoints": {"Great Craftsman": 1},
 		"specialistSlots": {"Craftsman": 2},
 		"culture": 8,
-		"cost": 40,
+		"cost": 2150,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
+		"requiredTech": "Pottery",
 		"uniques": ["[+1 Culture] from [Monument] tiles [in this city]"]
 	},
 	{
