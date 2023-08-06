@@ -913,18 +913,22 @@
 			{
 				"name": "Animal Husbandry",
 				"row": 5,
+				"prerequisites": ["Agrculture"],
 			},
 			{
 				"name": "Pottery",
 				"row": 2,
+				"prerequisites": ["Agrculture"],
 			},
 			{
 				"name": "Urbanization",
 				"row": 9,
+				"prerequisites": ["Agrculture"],
 			},
 			{
 				"name": "Wheel",
 				"row": 7,
+				"prerequisites": ["Agrculture"],
 			},
 		]
 	},
@@ -938,30 +942,37 @@
 			{
 				"name": "Fertilizer",
 				"row": 4,
+				"prerequisites": ["Animal Husbandry"],
 			},
 			{
 				"name": "Plow",
 				"row": 5,
+				"prerequisites": ["Animal Husbandry","Wheel"],
 			},
 			{
 				"name": "Mining",
 				"row": 9,
+				"prerequisites": ["Urbanization"],
 			},
 			{
 				"name": "Writing",
 				"row": 10,
+				"prerequisites": ["Urbanization"],
 			},
 			{
 				"name": "Gear",
 				"row": 7,
+				"prerequisites": ["Wheel","Urbanization"],
 			},
 			{
 				"name": "Calender",
 				"row": 2,
+				"prerequisites": ["Pottery"],
 			},
 			{
 				"name": "Sail",
 				"row": 1,
+				"prerequisites": ["Pottery"],
 			},
 		]
 	},
@@ -975,22 +986,27 @@
 			{
 				"name": "Optics",
 				"row": 1,
+				"prerequisites": ["Sail"],
 			},
 			{
 				"name": "Metallurgy",
 				"row": 9,
+				"prerequisites": ["Mining"],
 			},
 			{
 				"name": "Paper",
 				"row": 10,
+				"prerequisites": ["Writing"],
 			},
 			{
 				"name": "Mathematics",
 				"row": 7,
+				"prerequisites": ["Gear","Writing"],
 			},
 			{
 				"name": "Masonry",
 				"row": 8,
+				"prerequisites": ["Gear","Mining"],
 			},
 		]
 	},
@@ -1004,34 +1020,42 @@
 			{
 				"name": "Airthmetic",
 				"row": 7,
+				"prerequisites": ["Mathematics"],
 			},
 			{
 				"name": "Geometry",
 				"row": 6,
+				"prerequisites": ["Mathematics","Paper","Masonry"],
 			},
 			{
 				"name": "Pronounceable Writes",
 				"row": 10,
+				"prerequisites": ["Mathematics","Paper"],
 			},
 			{
 				"name": "Nail",
 				"row": 8,
+				"prerequisites": ["Masonry","Metallurgy"],
 			},
 			{
 				"name": "Construction",
 				"row": 9,
+				"prerequisites": ["Mathematics","Masonry"],
 			},
 			{
 				"name": "Zero",
 				"row": 5,
+				"prerequisites": ["Mathematics"],
 			},
 			{
 				"name": "Philosophy",
 				"row": 2,
+				"prerequisites": ["Optics"],
 			},
 			{
 				"name": "Lens",
 				"row": 1,
+				"prerequisites": ["Optics"],
 			},
 		]
 	},
@@ -1045,22 +1069,27 @@
 			{
 				"name": "Civil Service",
 				"row": 5,
+				"prerequisites": ["Philosophy","Construction","Pronounceable Writes"],
 			},
 			{
 				"name": "Iron Working",
 				"row": 7,
+				"prerequisites": ["Construction","Nail"],
 			},
 			{
 				"name": "Teology",
 				"row": 2,
+				"prerequisites": ["Geometry","Philosophy"],
 			},
 			{
 				"name": "Engineering",
 				"row": 9,
+				"prerequisites": ["Zero","Airthmetic","Construction","Nail"],
 			},
 			{
 				"name": "Telescope",
 				"row": 1,
+				"prerequisites": ["Geometry","Lens"],
 			},
 		]
 	},
@@ -1074,22 +1103,27 @@
 			{
 				"name": "Military",
 				"row": 7,
+				"prerequisites": ["Civil Service","Iron Working"],
 			},
 			{
 				"name": "Alchemy",
 				"row": 3,
+				"prerequisites": ["Teology","Iron Working"],
 			},
 			{
 				"name": "Currency",
 				"row": 6,
+				"prerequisites": ["Civil Service"],
 			},
 			{
 				"name": "Metal Casting",
 				"row": 9,
+				"prerequisites": ["Iron Working","Engineering"],
 			},
 			{
 				"name": "Education",
 				"row": 2,
+				"prerequisites": ["Civil Service","Teology"],
 			},
 		]
 	},
@@ -1103,30 +1137,37 @@
 			{
 				"name": "Gunpowder",
 				"row": 3,
+				"prerequisites": ["Alchemy"],
 			},
 			{
 				"name": "Organized Religion",
 				"row": 2,
+				"prerequisites": ["Education","Currency"],
 			},
 			{
 				"name": "Machinery",
 				"row": 9,
+				"prerequisites": ["Currency","Metal Casting"],
 			},
 			{
 				"name": "Guilds",
 				"row": 6,
+				"prerequisites": ["Currency"],
 			},
 			{
 				"name": "Chivalry",
 				"row": 7,
+				"prerequisites": ["Military"],
 			},
 			{
 				"name": "Steel",
 				"row": 10,
+				"prerequisites": ["Metal Casting"],
 			},
 			{
 				"name": "Physics",
 				"row": 4,
+				"prerequisites": ["Education"],
 			},
 		]
 	},
@@ -1140,22 +1181,27 @@
 			{
 				"name": "Printing Press",
 				"row": 9,
+				"prerequisites": ["Machinery"],
 			},
 			{
 				"name": "Astronomy",
 				"row": 1,
+				"prerequisites": ["Telescope","Physics"],
 			},
 			{
 				"name": "Paper Money",
 				"row": 6,
+				"prerequisites": ["Guilds"],
 			},
 			{
 				"name": "Fire Arms",
 				"row": 3,
+				"prerequisites": ["Gunpowder","Chivalry"],
 			},
 			{
 				"name": "Herbalism",
 				"row": 2,
+				"prerequisites": ["Organized Religion","Chivalry"],
 			},
 		]
 	},
@@ -1169,17 +1215,22 @@
 			{
 				"name": "Banking",
 				"row": 6,
+				"prerequisites": ["Paper Money","Printing Press"],
 			},
 			{
 				"name": "Astrolabe",
 				"row": 1,
+				"prerequisites": ["Astronomy"],
 			},
 			{
 				"name": "Musket",
 				"row": 3,
+				"prerequisites": ["Fire Arms"],
 			},
 			{
-				"name": "Navigation",
+				"name": "Shipbuilding",
+				"row": 10,
+				"prerequisites": ["Steel"],
 			},
 		]
 	},
