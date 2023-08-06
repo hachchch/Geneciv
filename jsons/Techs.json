@@ -913,22 +913,22 @@
 			{
 				"name": "Animal Husbandry",
 				"row": 5,
-				"prerequisites": ["Agrculture"],
+				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Pottery",
 				"row": 2,
-				"prerequisites": ["Agrculture"],
+				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Urbanization",
 				"row": 9,
-				"prerequisites": ["Agrculture"],
+				"prerequisites": ["Agriculture"],
 			},
 			{
 				"name": "Wheel",
 				"row": 7,
-				"prerequisites": ["Agrculture"],
+				"prerequisites": ["Agriculture"],
 			},
 		]
 	},
