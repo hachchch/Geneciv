@@ -593,7 +593,7 @@
 	{
 		"name": "Extinctions",
 		"unitType": "Civilian",
-		"uniques": ["No Sight","Can be added to [Extinction] in the Capital"],
+		"uniques": ["Unbuildable","Uncapturable","Limited to [1] per Civilization","Extinction","Cannot be purchased","No Sight","Can be added to [Extinction] in the Capital"],
 		"movement": 2,
 	},
 ]
