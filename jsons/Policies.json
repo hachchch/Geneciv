@@ -70,7 +70,7 @@
 			},
 			{
 				"name": "Industrial Revolution",
-				"uniques": ["[+25]% [Gold] [in capital] <after discovering [Unciv]>","[+15]% [Production] [in all cities] <after discovering [Unciv]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Unciv]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Unciv]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Unciv]>"],
+				"uniques": ["[+25]% [Gold] [in capital] <after discovering [Anthropocene]>","[+15]% [Production] [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Anthropocene]>"],
 				"row": 10,
 				"column": 2,
 				"requires": ["Overfishing"],
