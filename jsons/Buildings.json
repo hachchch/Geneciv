@@ -146,13 +146,6 @@
 		"isWonder": true,
 	},
 	{
-		"name": "Factory",
-		"specialistSlots": {"Craftsman": 8},
-		"cost": 5000,
-		"requiredTech": "Unciv",
-		"uniques": ["[+1000]% [Production] [in this city]","[+10] [Production] from [Hunting Spot] tiles","[+1000]% [Gold] [in this city]","[+10] [Gold] from [Hunting Spot] tiles [in this city]"],
-	},
-	{
 		"name": "Meteor",
 		"cost": 20,
 		"science": 1,
