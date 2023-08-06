@@ -199,12 +199,12 @@
 		"hateHello": "Well?",
 		"tradeRequest": "Is the following trade of interest to you?",
 
-		"outerColor": [ 28,51,119],
+		"outerColor": [28,51,119],
 		"innerColor": [255,255,255],
 
 		"favoredReligion": "Rationalism",
 		"uniqueName": "Advanced Evolution of Humans",
-		"uniques": ["[+1000]% [Science] [in all cities] <during the [Ancient era]>","[+1] Sight <for [Human] units>", "[-50]% Gold cost of acquiring tiles [in all cities] <after discovering [Human Race]>","[+45]% Strength <vs [Human] units> <during the [Ancient era]> <for [Human] units>"],
+		"uniques": ["[+12]% [Science] [in all cities] <after discovering [Anthropocene]>","[+1] Sight <for [Human] units>", "[-50]% Gold cost of acquiring tiles [in all cities] <after discovering [Human Race]>","[+45]% Strength <vs [Human] units> <after discovering [Anthropocene]> <for [Human] units>"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
