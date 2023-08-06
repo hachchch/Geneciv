@@ -957,13 +957,6 @@ TileSets/FantasyHex/Tiles/City center-Carboniferous period
   orig: 32, 38
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Pleistocene
-  rotate: false
-  xy: 404, 841
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/City center-Silurian period
   rotate: false
   xy: 404, 1173
@@ -990,5 +983,18 @@ TileSets/FantasyHex/Units/Cretaceous Dinosaur
   xy: 550, 695
   size: 60, 52
   orig: 28, 28
+  offset: 0, 0
+  index: -1
+
+game321.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/City center-Pleistocene
+  rotate: false
+  xy: 404, 841
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
