@@ -294,7 +294,8 @@
 		"embarkDefense": 4,
 		"startPercent": 10,
 		"citySound": "cityClassical",
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Medieval era",
