@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Forests",
+		"shortcutKey": "F",
 		"techRequired": "Fern",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"turnsToBuild": 3,
@@ -57,6 +58,7 @@
 	},
 	{
 		"name": "Hunting Spot",
+		"shortcutKey": "H",
 		"techRequired": "Homo Ergaster",
 		"food": 4,
 		"culture": 1,
@@ -92,6 +94,7 @@
 	},
 	{
 		"name": "GrassLand",
+		"shortcutKey": "G",
 		"techRequired": "Chloroplasts",
 		"food": 2,
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
@@ -178,5 +181,14 @@
 				"text": "Appearance changes with the technological era of the owning civilization",
 			}
 		]
+	},
+	{
+		"name": "Road",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"shortcutKey": "R",
+		"civilopediaText": [{"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"}, {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},{"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}]
 	},
 ]
