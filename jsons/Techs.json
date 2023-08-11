@@ -926,7 +926,7 @@
 				"prerequisites": ["Agriculture"],
 			},
 			{
-				"name": "Wheel",
+				"name": "The Wheel",
 				"row": 7,
 				"prerequisites": ["Agriculture"],
 			},
@@ -947,7 +947,7 @@
 			{
 				"name": "Plow",
 				"row": 5,
-				"prerequisites": ["Animal Husbandry","Wheel"],
+				"prerequisites": ["Animal Husbandry","The Wheel"],
 			},
 			{
 				"name": "Mining",
@@ -962,7 +962,7 @@
 			{
 				"name": "Gear",
 				"row": 7,
-				"prerequisites": ["Wheel","Urbanization"],
+				"prerequisites": ["The Wheel","Urbanization"],
 			},
 			{
 				"name": "Calender",
@@ -970,7 +970,7 @@
 				"prerequisites": ["Pottery"],
 			},
 			{
-				"name": "Sail",
+				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Pottery"],
 			},
@@ -986,7 +986,7 @@
 			{
 				"name": "Optics",
 				"row": 1,
-				"prerequisites": ["Sail"],
+				"prerequisites": ["Sailing"],
 			},
 			{
 				"name": "Metallurgy",
