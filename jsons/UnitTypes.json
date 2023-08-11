@@ -77,4 +77,12 @@
 		"name": "Human Water",
 		"movementType": "Water",
 	},
+	{
+		"name": "Husbandried",
+		"movementType": "Land",
+	},
+	{
+		"name": "Siege",
+		"movementType": "Land",
+	},
 ]
