@@ -19,7 +19,7 @@
 	{
 		"name": "Industry",
 		"shortcutKey": "I",
-		"techRequired": "Fern",
+		"techRequired": "Economic Competition",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 20,
 		"production": 3,
