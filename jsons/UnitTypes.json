@@ -87,6 +87,6 @@
 	},
 	{
 		"name": "Fixed",
-		"movement": "Air",
+		"movementType": "Air",
 	},
 ]
