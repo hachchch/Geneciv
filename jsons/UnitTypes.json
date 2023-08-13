@@ -85,4 +85,8 @@
 		"name": "Siege",
 		"movementType": "Land",
 	},
+	{
+		"name": "Fixed",
+		"movement": "Air",
+	},
 ]
