@@ -602,7 +602,7 @@
 		"requiredTech": "Plow",
 		"cost": 2250,
 		"movement": 3,
-		"uniques": ["Can build [Road] improvements on tiles","Uncapturable","Can carry [1] [Land] units","Can move immediately once bought"],
+		"uniques": ["Can build [Road] improvements on tiles","Uncapturable","Can carry [1] [Barista] units","Can move immediately once bought"],
 	},
 	{
 		"name": "Chariot",
@@ -611,7 +611,7 @@
 		"cost": 2250,
 		"movement": 3,
 		"strength": 200,
-		"uniques": ["Can carry [2] [Ranged] units","Cannot attack"],
+		"uniques": ["Can carry [2] [Barista] units","Cannot attack"],
 	},
 	{
 		"name": "Battering Ram",
@@ -639,6 +639,17 @@
 		"range": 2,
 		"movement": 2,
 		"requiredTech": "Mathematics",
-		"uniques": ["Ranged attacks may be performed over obstacles","Can carry [1] [Ranged] units"],
+		"uniques": ["Ranged attacks may be performed over obstacles","Can carry [1] [Barista] units"],
+	},
+	{
+		"name": "Barista",
+		"unitType": "Fixed",
+		"cost": 2000,
+		"rangedStrength": 150,
+		"strength": 170,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Gear",
+		"uniques": ["For Chariot"],
 	},
 ]
