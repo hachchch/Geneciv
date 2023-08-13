@@ -19,11 +19,12 @@
 	{
 		"name": "Industry",
 		"shortcutKey": "I",
-		"techRequired": "Economic Competition",
+		"techRequired": "Guilds",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 20,
 		"production": 3,
 		"gold": 15,
+		"uniques": ["techRequired: Economic Competition,"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Industry",
@@ -37,10 +38,11 @@
 	{
 		"name": "Factory",
 		"shortcutKey": "P",
-		"techRequired": "Industrialization",
+		"techRequired": "Machinery",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"turnsToBuild": 20,
 		"production": 10,
+		"uniques": ["techRequired: Industrialization,"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Factory",
