@@ -17,6 +17,41 @@
 		]
 	},
 	{
+		"name": "Industry",
+		"shortcutKey": "I",
+		"techRequired": "Fern",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 20,
+		"production": 3,
+		"gold": 15,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Industry",
+				"imageSize": 192,
+			},
+			{
+				"text": "Photosynthesis by this giant fern plant transforms the Earth's environment. The Carboniferous created an oxygen-rich environment that cooled the Earth. Also, the fallen trees did not decompose and produced a lot of coal. And after the decomposers appeared, the hypoxic environment of the earth became decisive and encouraged the prosperity of the giant dinosaurs. But trigger a mass extinction event too. The current Earth is in good balance unless humans destroy it.",
+			},
+		]
+	},
+	{
+		"name": "Factory",
+		"shortcutKey": "P",
+		"techRequired": "Industrialization",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"turnsToBuild": 20,
+		"production": 10,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Factory",
+				"imageSize": 192,
+			},
+			{
+				"text": "Photosynthesis by this giant fern plant transforms the Earth's environment. The Carboniferous created an oxygen-rich environment that cooled the Earth. Also, the fallen trees did not decompose and produced a lot of coal. And after the decomposers appeared, the hypoxic environment of the earth became decisive and encouraged the prosperity of the giant dinosaurs. But trigger a mass extinction event too. The current Earth is in good balance unless humans destroy it.",
+			},
+		]
+	},
+	{
 		"name": "Productive Site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 5,
