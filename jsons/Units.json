@@ -648,7 +648,7 @@
 		"rangedStrength": 150,
 		"strength": 170,
 		"range": 2,
-		"movement": 2,
+		"movement": 1,
 		"requiredTech": "Gear",
 		"uniques": ["For Chariot"],
 	},
