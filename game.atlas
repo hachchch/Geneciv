@@ -108,7 +108,7 @@ TileSets/FantasyHex/Tiles/Factory
   orig: 32, 33
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Industory
+TileSets/FantasyHex/Tiles/Industry
   rotate: false
   xy: 404, 1325
   size: 32, 36
