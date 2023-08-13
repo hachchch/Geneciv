@@ -267,7 +267,7 @@
 				"name": "Cocoon",
 				"row": 9,
 				"prerequisites": ["Sexual Reproduction","Flatworm"],
-				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"uniques": ["[10]% Food is carried over after population increases [in all cities]"],
 			}
 		]
 	},
@@ -379,7 +379,7 @@
 				"name": "Fish Egg",
 				"row": 9,
 				"prerequisites": ["Fish","Cocoon"],
-				"uniques": ["Production to [Science] conversion in cities changed by [+10]%","[+15]% Production when constructing [Fishes] units [in all cities]"],
+				"uniques": ["[10]% Food is carried over after population increases [in all cities]","[+15]% Production when constructing [Fishes] units [in all cities]"],
 			},
 			{
 				"name": "Excretion Opening",
@@ -474,7 +474,7 @@
 			{
 				"name": "Egg Shell",
 				"row": 9,
-				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"uniques": ["[10]% Food is carried over after population increases [in all cities]"],
 				"prerequisites": ["Reptile","Fish Egg"],
 			},
 			{
