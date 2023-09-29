@@ -94,7 +94,7 @@ TileSets/FantasyHex/Tiles/Plains-Miocene
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+GrassLand
+TileSets/FantasyHex/Tiles/Grassland+GrassLand-Paleogene period
   rotate: false
   xy: 484, 1009
   size: 32, 28
@@ -122,7 +122,7 @@ TileSets/FantasyHex/Tiles/City center-Holocene
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+GrassLand
+TileSets/FantasyHex/Tiles/Plains+GrassLand-Paleogene period
   rotate: false
   xy: 1485, 876
   size: 32, 28
@@ -978,6 +978,13 @@ TileSets/FantasyHex/Units/Cretaceous Dinosaur
   orig: 28, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Tundra-Miocene
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 
 game321.png
 size: 2048, 2048
@@ -987,6 +994,96 @@ repeat: none
 TileSets/FantasyHex/Tiles/City center-Pleistocene
   rotate: false
   xy: 404, 841
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mountain-Cambrian period
+  rotate: false
+  xy: 716, 717
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+
+game3939.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Flatworm
+  rotate: false
+  xy: 676, 694
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Jellyfish
+  rotate: false
+  xy: 556, 757
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Dolphin
+  rotate: false
+  xy: 636, 660
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Feliform
+  rotate: false
+  xy: 716, 1116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lion
+  rotate: false
+  xy: 716, 1116
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Small Reptile
+  rotate: false
+  xy: 592, 496
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tetrapod
+  rotate: false
+  xy: 636, 1063
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mountain
+  rotate: false
+  xy: 716, 717
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+GrassLand
+  rotate: false
+  xy: 596, 1208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+GlassLand
+  rotate: false
+  xy: 756, 1000
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
