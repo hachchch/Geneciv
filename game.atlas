@@ -998,13 +998,6 @@ TileSets/FantasyHex/Tiles/Mountain-Cambrian period
   orig: 32, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra-Miocene
-  rotate: false
-  xy: 552, 465
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 
 game3939.png
 size: 2048, 2048
