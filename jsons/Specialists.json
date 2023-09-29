@@ -2,13 +2,11 @@
 	{
 		"name": "Reproductive",
 		"science": 3,
-		"greatPersonPoints": { "Great Reproductive": 3 },
 		"color": [0, 0, 255]
 	},
 	{
 		"name": "Meristem",
 		"gold": 2,
-		"greatPersonPoints": { "Great Meristem": 3 },
 		"color": [255, 215, 0]
 	},
 	{
@@ -38,13 +36,11 @@
 	{
 		"name": "Vegetation",
 		"production": 2,
-		"greatPersonPoints": { "Great Vegetation": 3 },
 		"color": [0, 215, 0],
 	},
 	{
 		"name": "Creature",
 		"food": 2,
 		"color": [139, 69, 19],
-		"greatPersonPoints": { "Great Creature": 3 }
 	}
 ]
