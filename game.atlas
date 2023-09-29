@@ -978,13 +978,6 @@ TileSets/FantasyHex/Units/Cretaceous Dinosaur
   orig: 28, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Tundra-Miocene
-  rotate: false
-  xy: 552, 465
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 
 game321.png
 size: 2048, 2048
@@ -1003,6 +996,13 @@ TileSets/FantasyHex/Tiles/Mountain-Cambrian period
   xy: 716, 717
   size: 32, 30
   orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra-Miocene
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 
@@ -1055,7 +1055,7 @@ TileSets/FantasyHex/Units/Small Reptile
   index: -1
 TileSets/FantasyHex/Units/Tetrapod
   rotate: false
-  xy: 636, 1063
+  xy: 676, 575
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
