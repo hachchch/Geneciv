@@ -1088,7 +1088,7 @@ TileSets/FantasyHex/Tiles/Forests
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Jungle
+TileSets/FantasyHex/Tiles/Forests+Jungle
   rotate: false
   xy: 916, 973
   size: 32, 28
@@ -1122,7 +1122,7 @@ TileSets/FantasyHex/Tiles/Forests-Mesozoic era
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest+Forests-Mesozoic era
+TileSets/FantasyHex/Tiles/Grassland+Forests+Forest-Mesozoic era
   rotate: false
   xy: 516, 690
   size: 32, 32
