@@ -310,6 +310,7 @@
 		"culture": 5,
 		"cityStrength": -5,
 		"cityHealth": -5,
+		"happiness": -3,
 		"uniques": ["Unsellable","Unbuildable"]
 	},
 	{
@@ -323,6 +324,7 @@
 		"science": 3,
 		"gold": 3,
 		"cost": 1,
+		"happiness": 3,
                 "uniques": ["Gain a free [Gamerule] [in all cities]","Gain a free [Gamerule2] [in all cities] <during the [Cambrian period]>","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%","Each city founded increases culture cost of policies [-100]% less than normal <before discovering [Human Race]>","Provides [1] [Super Creature Stock]"],
         },
 	{
