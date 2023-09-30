@@ -1422,7 +1422,7 @@ BuildingIcons/RNA
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Replications
+BuildingIcons/Replication
   rotate: false
   xy: 3900, 0
   size: 100, 100
@@ -1534,7 +1534,7 @@ TechIcons/Radial Symmetry
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Birateral Symmetry
+TechIcons/Bilateral Symmetry
   rotate: false
   xy: 5500, 0
   size: 100, 100
