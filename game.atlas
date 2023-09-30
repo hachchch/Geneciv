@@ -1095,6 +1095,13 @@ TileSets/FantasyHex/Tiles/Jungle
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Dunkleosteus
+  rotate: false
+  xy: 596, 832
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 
 game0.png
 size: 2048, 2048
