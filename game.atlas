@@ -1067,6 +1067,13 @@ TileSets/FantasyHex/Tiles/Grassland+GrassLand
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Forest
+  rotate: false
+  xy: 0, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Plains+GlassLand
   rotate: false
   xy: 756, 1000
@@ -1074,14 +1081,7 @@ TileSets/FantasyHex/Tiles/Plains+GlassLand
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest
-  rotate: false
-  xy: 836, 992
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Plains+Forest
+TileSets/FantasyHex/Tiles/Forests
   rotate: false
   xy: 836, 992
   size: 32, 28
@@ -1115,7 +1115,7 @@ TileSets/FantasyHex/Tiles/Jungle-Mesozoic era
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Forest-Mesozoic era
+TileSets/FantasyHex/Tiles/Forests-Mesozoic era
   rotate: false
   xy: 516, 690
   size: 32, 32
