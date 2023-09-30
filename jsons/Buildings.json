@@ -310,7 +310,7 @@
 		"culture": 5,
 		"cityStrength": -5,
 		"cityHealth": -5,
-		"uniques": ["Unsellable","Unbuildable","[+1 Production] per [1] population [in this city]"]
+		"uniques": ["Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Gamerule2",
