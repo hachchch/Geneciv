@@ -1124,9 +1124,9 @@ TileSets/FantasyHex/Tiles/Tundra-Paleogene period
   index: -1
 TileSets/FantasyHex/Tiles/Mountain-Cambrian period
   rotate: false
-  xy: 716, 717
-  size: 32, 30
-  orig: 32, 30
+  xy: 716, 593
+  size: 32, 36
+  orig: 32, 36
   offset: 0, 0
   index: -1
 
