@@ -167,11 +167,35 @@
 		]
 	},
 	{
+		"name": "Dunkleosteus",
+		"unitType": "Fishes",
+		"cost": 490,
+		"strength": 55,
+		"movement": 5,
+		"uniqueTo": "Euramerica",
+		"replaces": "Shark",
+		"requiredTech": "Predation",
+		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dunkleosteus",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "He was a hunter who ate the overpopulated fish, but unfortunately a mass extinction occurred and his prosperity was short-lived. Extinct at least during the coal period.",
+			},
+		]
+	},
+	{
 		"name": "Megalodon",
 		"requiredTech": "Predation",
 		"unitType": "Fishes",
 		"cost": 750,
-		"strength": 60,
+		"strength": 65,
 		"movement": 4,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
