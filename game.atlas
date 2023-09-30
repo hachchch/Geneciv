@@ -1067,7 +1067,7 @@ TileSets/FantasyHex/Tiles/Grassland+GrassLand
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest
+TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   rotate: false
   xy: 756, 920
   size: 32, 32
