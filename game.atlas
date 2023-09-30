@@ -1013,14 +1013,14 @@ TileSets/FantasyHex/Units/Flatworm
   index: -1
 TileSets/FantasyHex/Units/Modern Jellyfish
   rotate: false
-  xy: 553, 754
+  xy: 559, 754
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dolphin
   rotate: false
-  xy: 633, 657
+  xy: 639, 657
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
