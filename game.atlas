@@ -1095,7 +1095,7 @@ TileSets/FantasyHex/Units/Dunkleosteus
   orig: 32, 28
   offset: 0, 0
   index: -1
-\
+
 game0.png
 size: 2048, 2048
 format: RGBA8888
@@ -1127,5 +1127,18 @@ TileSets/FantasyHex/Tiles/Tundra-Paleogene period
   xy: 552, 465
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game1300.png
+size: 1000, 1000
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TechIcons/Anthropocene
+  rotate: false
+  xy: 0, 0
+  size: 1000, 1000
+  orig: 1000, 1000
   offset: 0, 0
   index: -1
