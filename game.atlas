@@ -1088,7 +1088,7 @@ TileSets/FantasyHex/Tiles/Forests
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Jungle+Forests
+TileSets/FantasyHex/Tiles/Jungle+Forests
   rotate: false
   xy: 916, 973
   size: 32, 28
