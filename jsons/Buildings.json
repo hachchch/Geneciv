@@ -8,7 +8,7 @@
         },
 	{
 		"name": "Emotions",
-		"cost": 500,
+		"cost": 400,
 		"happiness": 4,
 		"uniques": ["[+10]% [Production] [in this city]"],
 		"requiredTech": "Medulla Oblongata",
