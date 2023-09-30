@@ -1062,21 +1062,21 @@ TileSets/FantasyHex/Tiles/Tundra
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+GrassLand
   rotate: false
-  xy: 596, 1208
-  size: 32, 28
-  orig: 32, 28
+  xy: 468, 4
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Forest
   rotate: false
-  xy: 0, 0
-  size: 32, 28
-  orig: 32, 28
+  xy: 756, 920
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+GlassLand
   rotate: false
-  xy: 756, 1000
+  xy: 876, 847
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1134,5 +1134,12 @@ TileSets/FantasyHex/Tiles/Grassland+Forests+Forest-Mesozoic era
   xy: 516, 690
   size: 32, 32
   orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra-Paleogene period
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
