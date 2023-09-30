@@ -1055,9 +1055,9 @@ TileSets/FantasyHex/Tiles/Tundra
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+GrassLand
   rotate: false
-  xy: 836, 952
-  size: 32, 32
-  orig: 32, 32
+  xy: 716, 1152
+  size: 32, 29
+  orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
