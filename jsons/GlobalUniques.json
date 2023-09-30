@@ -7,7 +7,7 @@
 		"[-33]% [Production] [in all cities] <when below [-10] Happiness>",
 		"[-33]% Strength <for [All] units> <when below [-10] Happiness>",
 		"Cannot build [Settler] units <when below [-10] Happiness>",
-		"Rebel units may spawn <when below [-20] Happiness>",
-	        "[+5 Happiness] per [1] population [in all cities] <before discovering [Human Race]>",
+		"Rebel units may spawn <when below [-12] Happiness>",
+	        "[+1 Happiness] per [1] population [in all cities] <before discovering [Human Race]>",
 	]
 }
