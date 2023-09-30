@@ -129,13 +129,6 @@ TileSets/FantasyHex/Tiles/Plains+GrassLand-Paleogene period
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Forest+Forests
-  rotate: false
-  xy: 1485, 876
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Fish
   rotate: false
   xy: 444, 672
@@ -1062,7 +1055,7 @@ TileSets/FantasyHex/Tiles/Tundra
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+GrassLand
   rotate: false
-  xy: 468, 4
+  xy: 836, 952
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1076,7 +1069,7 @@ TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   index: -1
 TileSets/FantasyHex/Tiles/Plains+GlassLand
   rotate: false
-  xy: 876, 847
+  xy: 756, 1000
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
