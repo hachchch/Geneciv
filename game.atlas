@@ -1090,7 +1090,7 @@ TileSets/FantasyHex/Tiles/Grassland+Jungle+Forests
   index: -1
 TileSets/FantasyHex/Units/Dunkleosteus
   rotate: false
-  xy: 596, 832
+  xy: 590, 832
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
