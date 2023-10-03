@@ -263,4 +263,11 @@
 		"uniqueName": "The Plate tectonics",
 		"uniques": ["[+2 Science] from every [Volcano]","[+2 Production] from every [Volcano]","[+20]% Strength <for [Land] units> <during the [Permian period]>"],
 	},
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging"]
+	}
 ]
