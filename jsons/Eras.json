@@ -39,7 +39,8 @@
 		"startPercent": 20,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [76, 176, 81]
+		"iconRGB": [76, 176, 81],
+		"settlerBuildings": ["Meteor"]
 	},
 	{
 		"name": "Paleoproterozoic",
@@ -53,7 +54,8 @@
 		"startPercent": 30,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [0, 150, 136]
+		"iconRGB": [0, 150, 136],
+		"settlerBuildings": ["Meteor","Volcano","Adenosine Triphoshate","Enzymes"],
 	},
 	{
 		"name": "Mesoproterozoic",
@@ -67,7 +69,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [33, 150, 243]
+		"iconRGB": [33, 150, 243],
+		"settlerBuildings": ["Plasma Membrane","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Neoproterozoic",
@@ -81,7 +84,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [63, 81, 182]
+		"iconRGB": [63, 81, 182],
+		"settlerBuildings": ["Plasma Membrane","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Cambrian period",
@@ -95,7 +99,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [104, 58, 183]
+		"iconRGB": [104, 58, 183],
+		"settlerBuildings": ["Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Ordovician period",
@@ -109,7 +114,8 @@
 		"startPercent": 40,
 		"citySound": "Underwater",
 		"embarkDefense": 1,
-		"iconRGB": [157, 39, 176]
+		"iconRGB": [157, 39, 176],
+		"settlerBuildings": ["Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Silurian period",
@@ -123,7 +129,8 @@
 		"startPercent": 40,
 		"citySound": "Underwater",
 		"embarkDefense": 1,
-		"iconRGB": [72, 108, 186]
+		"iconRGB": [72, 108, 186],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Devonian period",
@@ -137,7 +144,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Carboniferous period",
@@ -151,7 +159,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [255, 87, 35]
+		"iconRGB": [255, 87, 35],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Permian period",
@@ -165,7 +174,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [150, 255, 100]
+		"iconRGB": [150, 255, 100],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Mesozoic era",
@@ -179,7 +189,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Paleogene period",
@@ -193,7 +204,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Miocene",
@@ -207,7 +219,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Pliocene",
@@ -221,7 +234,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 1,
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Pleistocene",
@@ -235,7 +249,8 @@
 		"startPercent": 40,
 		"citySound": "cityAncient",
 		"embarkDefense": 10,
-		"iconRGB": [233, 31, 99]
+		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Holocene",
@@ -250,6 +265,7 @@
 		"citySound": "cityAncient",
 		"embarkDefense": 100,
 		"iconRGB": [233, 31, 99],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
 	{
 		"name": "Ancient era",
@@ -263,8 +279,9 @@
 		"startPercent": 40,
 		"citySound": "cityInformation",
 		"embarkDefense": 1000,
-		"iconRGB": [100, 100, 200]
-	}
+		"iconRGB": [100, 100, 200],
+		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphoshate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+	},
 	{
 		"name": "Neolithic",
 		"researchAgreementCost": 0,
