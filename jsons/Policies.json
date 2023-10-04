@@ -92,7 +92,7 @@
 			{
 				"name": "Extinctions Complete",
 				"effect": "+100% growth and +10 science in all cities",
-				"uniques": ["+[100]% growth in all cities","[+10 Science] in all cities"]
+				"uniques": ["Free [Extinction Complete]","[+100]% growth in all cities","[+10 Science] in all cities"]
 			},
 		]
 	},
