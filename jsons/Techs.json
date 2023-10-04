@@ -279,7 +279,7 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Arthropod",
+				"name": "Exoskeleton",
 				"row": 6,
 				"prerequisites": ["Articulation","Bilateral Symmetry"],
 			},
@@ -317,23 +317,23 @@
 			{
 				"name": "Eye",
 				"row": 3,
-				"prerequisites": ["Arthropod","Pigment Spot"],
+				"prerequisites": ["Exoskeleton","Pigment Spot"],
 				"uniques": ["[+10]% Production when constructing [Ranged] units [in all cities]"]
 			},
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Chloroplasts","Arthropod"],
+				"prerequisites": ["Chloroplasts","Exoskeleton"],
 			},
 			{
 				"name": "Fish",
 				"row": 6,
-				"prerequisites": ["Arthropod","Vertebrate"],
+				"prerequisites": ["Exoskeleton","Vertebrate"],
 			},
 			{
 				"name": "Trilobite",
 				"row": 8,
-				"prerequisites": ["Arthropod"],
+				"prerequisites": ["Exoskeleton"],
 				"uniques": ["[+100]% Production when constructing [Water Arthropod] units [in all cities]"]
 			}
 		]
@@ -399,7 +399,7 @@
 			{
 				"name": "Medulla Oblongata",
 				"row": 2,
-				"prerequisites": ["Nerve Cord","Gills"],
+				"prerequisites": ["Nerve Cord","Gills","Eye"],
 				"uniques": ["[+1 Production] from [Ocean] tiles [in all cities]"]
 			},
 			{
