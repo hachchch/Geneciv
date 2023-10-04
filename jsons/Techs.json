@@ -438,7 +438,7 @@
 				"name": "Insect",
 				"row": 1,
 				"prerequisites": ["Fern","Lungfish"],
-				"uniques": ["[+33]% [Food] from every [GrassLand]","[+50]% Yield from every [Forests]"],
+				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
 			},
 			{
 				"name": "Legs",
@@ -450,7 +450,7 @@
 				"name": "Water Tight",
 				"prerequisites": ["Lungfish"]
 				"row": 3,
-				"uniques": ["[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
 			},
 			{
 				"name": "Lung",
