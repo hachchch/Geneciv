@@ -34,6 +34,13 @@
 		"cost": 350,
 	},
 	{
+		"name": "Orthoptera",
+		"isNationalWonder": true,
+		"requiredTech": "Insect",
+		"cost": 350,
+		"uniques": ["[+33]% Production when constructing [Civilian] units [in all cities]"],
+	},
+	{
 		"name": "Big Brain",
 		"cost": 1000,
 		"science": 5,
