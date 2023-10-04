@@ -400,7 +400,7 @@ UnitTypeIcons/Arthropod
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Arthropod
+UnitIcons/Crustacean
   rotate: false
   xy: 1200, 0
   size: 100, 100
