@@ -24,8 +24,14 @@
 	{
 		"name": "Green Field",
 		"requiredTech": "Grass",
-		"food": 8,
+		"food": 4,
 		"cost": 750,
+	},
+	{
+		"name": "Uniramia",
+		"requiredTech": "Insect",
+		"food": 2,
+		"cost": 350,
 	},
 	{
 		"name": "Big Brain",
