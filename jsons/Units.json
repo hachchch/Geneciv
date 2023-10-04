@@ -221,7 +221,7 @@
 		"obsoleteTech": "Predation",
 		"upgradesTo": "Shark",
 		"movement": 2,
-		"requiredTech": "Arthropod",
+		"requiredTech": "Exoskeleton",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "whoo",
 	},
