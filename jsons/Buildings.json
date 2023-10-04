@@ -1,5 +1,10 @@
 [
         {
+		"name": "Extinction Complete",
+		"isNationalWonder": true,
+		"uniques": ["Unbuildable","Unsellable"],
+	},
+	{
                 "name": "Volcano",
                 "food": 1,
                 "cost": 25,
