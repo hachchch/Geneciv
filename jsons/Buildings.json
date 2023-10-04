@@ -30,15 +30,17 @@
 	{
 		"name": "Uniramia",
 		"requiredTech": "Insect",
-		"food": 2,
+		"food": 1,
+		"uniques": ["[+10]% Production when constructing [{Land} {Military}] units [in all cities]"],
 		"cost": 350,
 	},
 	{
 		"name": "Orthoptera",
 		"isNationalWonder": true,
 		"requiredTech": "Insect",
+		"food": 1,
 		"cost": 350,
-		"uniques": ["[+33]% Production when constructing [Civilian] units [in all cities]"],
+		"uniques": ["[+20]% Production when constructing [{Land} {Civilian}] units [in all cities]"],
 	},
 	{
 		"name": "Big Brain",
@@ -51,7 +53,7 @@
 	{
 		"name": "Hunting",
 		"cost": 1000,
-		"specialistSlots": {"Hunter": 2},
+		"specialistSlots": {"Hunter": 1},
 		"requiredTech": "Homo Ergaster",
 	},
 	{
@@ -87,12 +89,12 @@
 		"cost": 700,
 		"happiness": 1,
 		"requiredTech": "Ape Brain",
-		"specialistSlots": {"Elder": 2},
+		"specialistSlots": {"Elder": 1},
 		"uniques": ["[25]% [Production] [in this city]","[25]% [Culture] [in this city]","[12]% [Food] [in this city]"],
 	},
 	{
 		"name": "Stone Work",
-		"specialistSlots": {"Craftsman": 2},
+		"specialistSlots": {"Craftsman": 1},
 		"cost": 1000,
 		"production": 8,
 		"requiredTech": "Stone Tools",
