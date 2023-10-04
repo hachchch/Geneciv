@@ -215,12 +215,13 @@
 				"row": 5,
 				"prerequisites": ["Muscles","Sponge"],
 				"uniques": ["Enables embarkation for land units"],
+				"quote": "Translucent, moving objects have been created from polyps that at first glance look like coral. Yes, this is our ancestor. Lol",
 			}
 			{
 				"name": "Coral",
 				"row": 4,
 				"prerequisites": ["Sponge"],
-				"uniques": ["[+1 Gold, +1 Food] in cities on [Coast] tiles"],
+				"uniques": ["[+1 Gold, +1 Food] in cities on [Coast] tiles"]
 			}
 		]
 	},
@@ -410,7 +411,8 @@
 			{
 				"name": "Lungfish",
 				"row": 6,
-				"prerequisites": ["Gills","Cold Blooded"]
+				"prerequisites": ["Gills","Cold Blooded"],
+				"quote": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
 			},
 			{
 				"name": "Predation",
