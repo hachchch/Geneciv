@@ -214,7 +214,7 @@
 		"attackSound": "whoo",
 	},
 	{
-		"name": "Arthropod",
+		"name": "Crustacean",
 		"unitType": "Water Arthropod",
 		"cost": 260,
 		"strength": 24,
