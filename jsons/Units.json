@@ -134,6 +134,7 @@
 	},
 	{
 		"name": "Cordyceps",
+		"unitType": "Cell",
 		"cost": 430,
 		"strength": 30,
 		"movement": 2,
