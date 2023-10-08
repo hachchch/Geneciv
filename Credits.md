@@ -25,3 +25,6 @@ Sounds from Free Sound
 ・hachchch - Japanese translation
 
 ・hachchch - English translation to rename terrains
+
+## Inspiration
+・Cell to Singularity
