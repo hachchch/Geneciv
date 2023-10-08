@@ -195,7 +195,7 @@
 	{
 		"name": "Modern Jellyfish",
 		"unitType": "Water Animal",
-		"cost": 1090,
+		"cost": 840,
 		"strength": 50,
 		"rangedStrength": 75,
 		"range": 2,
@@ -209,7 +209,7 @@
 	{
 		"name": "Modern Fish",
 		"unitType": "Modern Fishes",
-		"cost": 1250,
+		"cost": 860,
 		"strength": 70,
 		"movement": 5,
 		"requiredTech": "Modern Ocean",
