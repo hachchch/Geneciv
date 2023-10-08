@@ -229,6 +229,15 @@
 		]
 	},
 	{
+		"name": "Eusuchia",
+		"unitType": "Reptiles",
+		"strength": 60,
+		"cost": 860,
+		"movement": 2,
+		"uniques": ["[+100]% <when fighting in [River] tiles>"],
+		"requiredTech": "Modern Ocean",
+	},
+	{
 		"name": "Dunkleosteus",
 		"unitType": "Fishes",
 		"cost": 490,
@@ -574,8 +583,10 @@
 		"strength": 50,
 		"cost": 630,
 		"movement": 2,
-		"uniques": ["[+100]% <when fighting in [River] tiles>"],
+		"uniques": ["[+80]% <when fighting in [River] tiles>"],
 		"requiredTech": "Dinosaur",
+		"upgradesTo": "Eusuchia",
+		"obsoleteTech": "Modern Ocean",
 	},
 	{
 		"name": "Avemetatarsalia",
@@ -589,9 +600,7 @@
 	},
 	{
 		"name": "Sauropoda",
-		"cost": 590,
-		"obsoleteTech": "Dinosaur",
-		"upgradesTo": "Dinosaur",
+		"cost": 630,
 		"strength": 45,
 		"rangedStrength": 50,
 		"range": 1,
