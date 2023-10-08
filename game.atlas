@@ -2105,3 +2105,100 @@ BuildingIcons/Nervous System
   orig: 100, 100
   offset: 0, 0
   index: -1
+
+game4004.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/GrasslandForest2
+  rotate: false
+  xy: 556, 976
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/GrasslandForest3
+  rotate: false
+  xy: 556, 1026
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest2
+  rotate: false
+  xy: 792, 880
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest3
+  rotate: false
+  xy: 828, 880
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hill2
+  rotate: false
+  xy: 556, 717
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hill3
+  rotate: false
+  xy: 556, 681
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hill4
+  rotate: false
+  xy: 556, 681
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ice2
+  rotate: false
+  xy: 676, 1208
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Snow2
+  rotate: false
+  xy: 876, 847
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wheat2
+  rotate: false
+  xy: 916, 973
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Worker2
+  rotate: false
+  xy: 916, 865
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mine2
+  rotate: false
+  xy: 596, 688
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest2
+  rotate: false
+  xy: 516, 690
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
