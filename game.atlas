@@ -1569,7 +1569,7 @@ BuildingIcons/Algae
   orig: 100, 100
   offset: 0, 0
   index: -1
-EmojiIcons/Science
+StatIcons/Science
   rotate: false
   xy: 6000, 0
   size: 100, 100
@@ -1954,7 +1954,7 @@ BuildingIcons/Photosynthesis
   offset: 0, 0
   index: -1
 
-game2056.png
+game02.png
 size: 2000, 2000
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
