@@ -1,12 +1,10 @@
 # Credits
 ## Development
-・hachchch - idea
+・hachchch and Unciv Discord People- idea
 
 ・hachchch - code
 
 ・hachchch - make Unit and Tile texture
-
-・hachchch - texture atlas
 
 ・hachchch - sound finder
 
