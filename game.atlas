@@ -1708,7 +1708,7 @@ TechIcons/Feathers
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Dinosaur
+UnitIcons/Saurischia
   rotate: false
   xy: 1500, 0
   size: 100, 100
