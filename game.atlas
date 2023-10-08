@@ -2100,8 +2100,8 @@ BuildingIcons/Phagocytic Cell
   index: -1
 BuildingIcons/Nervous System
   rotate: false
-  xy: 100, 100
-  size: 0, 100
+  xy: 0, 100
+  size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
