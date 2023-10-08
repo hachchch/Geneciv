@@ -3,9 +3,9 @@
 		"name": "Forests",
 		"shortcutKey": "F",
 		"techRequired": "Fern",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
 		"turnsToBuild": 3,
 		"food": 1,
+		"uniques": ["Can only be built to improve a resource"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Forests",
@@ -99,7 +99,7 @@
 		"techRequired": "Homo Ergaster",
 		"food": 4,
 		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Hill"],
+		"uniques": ["Can only be built to improve a resource"],
 		"defenceBonus": 0.1,
 		"turnsToBuild": 7,
 		"civilopediaText": [
