@@ -1708,7 +1708,7 @@ TechIcons/Feathers
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Dinosaur
+UnitIcons/Dinosaur
   rotate: false
   xy: 1500, 0
   size: 100, 100
@@ -1813,7 +1813,7 @@ BuildingIcons/Bulletin Wall
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sciality
+BuildingIcons/Sociality
   rotate: false
   xy: 500, 100
   size: 100, 100
