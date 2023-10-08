@@ -134,7 +134,7 @@
 		"shortcutKey": "G",
 		"techRequired": "Chloroplasts",
 		"food": 2,
-		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
+		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Plains"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
 		"civilopediaText": [
