@@ -1,6 +1,6 @@
 # Credits
 ## Development
-・hachchch and Unciv Discord People- idea
+・hachchch and Unciv Discord People - idea
 
 ・hachchch - code
 
