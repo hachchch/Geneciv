@@ -1,4 +1,4 @@
-[
+[//
         {
                 "name": "Particles",
                 "unitType": "Particle",
@@ -355,7 +355,7 @@
 		"movement": 2,
 		"cost": 570,
 		"obsoleteTech": "Dinosaur",
-		"upgradesTo": "Dinosaur",
+		"upgradesTo": "Saurischia",
 		"strength": 50,
 		"requiredTech": "Archosauria",
 	},
@@ -363,7 +363,7 @@
 		"name": "Herbivore",
 		"cost": 590,
 		"obsoleteTech": "Dinosaur",
-		"upgradesTo": "Dinosaur",
+		"upgradesTo": "Sauropoda",
 		"strength": 35,
 		"rangedStrength": 40,
 		"range": 1,
@@ -569,15 +569,6 @@
 		"obsoleteTech": "Eutherians",
 	},
 	{
-		"name": "Sauropsida",
-		"unitType": "Reptiles",
-		"strength": 50,
-		"cost": 630,
-		"movement": 3,
-		"requiredTech": "Dinosaur",
-		"obsoleteTech": "Eutherians",
-	},
-	{
 		"name": "Pseudosuchia",
 		"unitType": "Reptiles",
 		"strength": 50,
@@ -595,6 +586,19 @@
 		"uniques": ["[+60]% Strength <when defending>"],
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
+	},
+	{
+		"name": "Sauropoda",
+		"cost": 590,
+		"obsoleteTech": "Dinosaur",
+		"upgradesTo": "Dinosaur",
+		"strength": 45,
+		"rangedStrength": 50,
+		"range": 1,
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"movement": 2,
+		"requiredTech": "Dinosaur",
+		"unitType": "Herbivore",
 	},
 	{
 		"name": "Pseudosuchia",
