@@ -2306,7 +2306,7 @@ TileSets/FantasyHex/Units/Plesiosaur2
   orig: 33, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit
+TileSets/FantasyHex/Units/EmbarkedUnit-Military
   rotate: false
   xy: 472, 476
   size: 32, 26
