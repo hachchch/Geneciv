@@ -105,6 +105,15 @@
 		"upgradesTo": "Eukaryote",
 		"uniques": ["No Sight"],
 		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archaea",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Eumycetozoa",
@@ -117,6 +126,15 @@
 		"upgradesTo": "Tetrapod",
 		"uniques": ["No Sight"],
 		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eumycetozoa",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Parasiticworm",
@@ -236,6 +254,15 @@
 		"movement": 2,
 		"uniques": ["[+100]% <when fighting in [River] tiles>"],
 		"requiredTech": "Modern Ocean",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eusuchia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Dunkleosteus",
@@ -283,6 +310,15 @@
 		"requiredTech": "Flatworm",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
 		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Flatworm",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Crustacean",
@@ -357,6 +393,15 @@
 		"uniques": ["Can move after attacking <after discovering [Legs]>"],
 		"strength": 36,
 		"requiredTech": "Reptile",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Big Reptile",
@@ -367,6 +412,15 @@
 		"upgradesTo": "Saurischia",
 		"strength": 50,
 		"requiredTech": "Archosauria",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Herbivore",
@@ -389,6 +443,15 @@
 		"movement": 5,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mammal",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Plesiosaur",
@@ -398,6 +461,19 @@
 		"movement": 3,
 		"requiredTech": "Plesiosaur",
 		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur2",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Pterosaur",
@@ -431,6 +507,15 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
 		"requiredResource": "Super Creature Stock",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Boar",
@@ -576,6 +661,15 @@
 		"movement": 2,
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Pseudosuchia",
@@ -597,6 +691,15 @@
 		"uniques": ["[+60]% Strength <when defending>"],
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Avemetatarsalia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	{
 		"name": "Sauropoda",
