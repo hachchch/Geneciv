@@ -2238,16 +2238,16 @@ TileSets/FantasyHex/Units/Eumycetozoa
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur
   rotate: false
-  xy: 749, 435
-  size: 32, 29
-  orig: 32, 29
+  xy: 749, 437
+  size: 33, 31
+  orig: 33, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur2
   rotate: false
-  xy: 800, 435
-  size: 32, 29
-  orig: 32, 29
+  xy: 799, 437
+  size: 33, 31
+  orig: 33, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit
