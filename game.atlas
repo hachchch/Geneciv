@@ -2204,15 +2204,15 @@ repeat: none
 TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   rotate: false
   xy: 796, 956
-  size: 32, 32
-  orig: 32, 32
+  size: 32, 33
+  orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Forests
   rotate: false
   xy: 756, 960
-  size: 32, 32
-  orig: 32, 32
+  size: 32, 33
+  orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Avemetatarsalia
