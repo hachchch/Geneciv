@@ -2224,7 +2224,7 @@ TileSets/FantasyHex/Units/Avemetatarsalia
   index: -1
 TileSets/FantasyHex/Units/Saurischia
   rotate: false
-  xy: 671, 694
+  xy: 681, 694
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2245,14 +2245,14 @@ TileSets/FantasyHex/Units/Eumycetozoa
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur
   rotate: false
-  xy: 753, 434
+  xy: 750, 434
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur2
   rotate: false
-  xy: 803, 434
+  xy: 801, 434
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2266,7 +2266,7 @@ TileSets/FantasyHex/Units/EmbarkedUnit
   index: -1
 TileSets/FantasyHex/Units/Eusuchia
   rotate: false
-  xy: 456, 510
+  xy: 468, 510
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2280,7 +2280,7 @@ TileSets/FantasyHex/Units/Mammal
   index: -1
 TileSets/FantasyHex/Units/Archaea
   rotate: false
-  xy: 796, 740
+  xy: 797, 740
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
