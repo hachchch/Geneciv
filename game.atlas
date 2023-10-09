@@ -1053,7 +1053,7 @@ TileSets/FantasyHex/Tiles/Grassland+GrassLand
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
+TileSets/FantasyHex/Tiles/Plains+Forest+Forests
   rotate: false
   xy: 756, 920
   size: 32, 32
@@ -1074,7 +1074,7 @@ TileSets/FantasyHex/Tiles/Forests
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Jungle+Forests
+TileSets/FantasyHex/Tiles/Plains+Jungle+Forests
   rotate: false
   xy: 876, 847
   size: 32, 28
@@ -2201,7 +2201,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/GrasslandForest+Forests
+TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   rotate: false
   xy: 796, 956
   size: 32, 32
