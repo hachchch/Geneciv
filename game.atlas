@@ -2308,14 +2308,14 @@ TileSets/FantasyHex/Units/Plesiosaur2
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military
   rotate: false
-  xy: 467, 476
+  xy: 477, 476
   size: 32, 26
   orig: 32, 26
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Eusuchia
   rotate: false
-  xy: 477, 510
+  xy: 478, 510
   size: 33, 28
   orig: 33, 28
   offset: 0, 0
