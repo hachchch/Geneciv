@@ -2273,7 +2273,7 @@ TileSets/FantasyHex/Units/Avemetatarsalia
   index: -1
 TileSets/FantasyHex/Units/Saurischia
   rotate: false
-  xy: 681, 690
+  xy: 681, 689
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
