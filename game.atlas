@@ -2245,14 +2245,14 @@ TileSets/FantasyHex/Units/Eumycetozoa
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur
   rotate: false
-  xy: 753, 448
+  xy: 753, 434
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur2
   rotate: false
-  xy: 803, 448
+  xy: 803, 434
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
