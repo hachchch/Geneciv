@@ -2113,13 +2113,6 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/GrasslandForest2
   rotate: false
-  xy: 556, 976
-  size: 32, 31
-  orig: 32, 31
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/GrasslandForest3
-  rotate: false
   xy: 556, 1026
   size: 32, 31
   orig: 32, 31
@@ -2217,7 +2210,7 @@ TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   index: -1
 TileSets/FantasyHex/Units/Avemetatarsalia
   rotate: false
-  xy: 635, 660
+  xy: 637, 660
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2266,7 +2259,7 @@ TileSets/FantasyHex/Units/EmbarkedUnit
   index: -1
 TileSets/FantasyHex/Units/Eusuchia
   rotate: false
-  xy: 468, 510
+  xy: 474, 510
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
