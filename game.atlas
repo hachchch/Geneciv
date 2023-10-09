@@ -2287,7 +2287,7 @@ TileSets/FantasyHex/Units/Big Reptile
   index: -1
 TileSets/FantasyHex/Units/Eumycetozoa
   rotate: false
-  xy: 592, 501
+  xy: 592, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2308,16 +2308,16 @@ TileSets/FantasyHex/Units/Plesiosaur2
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military
   rotate: false
-  xy: 472, 476
+  xy: 467, 476
   size: 32, 26
   orig: 32, 26
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Eusuchia
   rotate: false
-  xy: 478, 510
-  size: 32, 28
-  orig: 32, 28
+  xy: 477, 510
+  size: 33, 28
+  orig: 33, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mammal
