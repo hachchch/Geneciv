@@ -2208,6 +2208,13 @@ TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Plains+Forest+Forests
+  rotate: false
+  xy: 796, 956
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Avemetatarsalia
   rotate: false
   xy: 637, 660
