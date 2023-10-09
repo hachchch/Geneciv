@@ -2280,7 +2280,7 @@ TileSets/FantasyHex/Units/Saurischia
   index: -1
 TileSets/FantasyHex/Units/Big Reptile
   rotate: false
-  xy: 552, 501
+  xy: 552, 496
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
