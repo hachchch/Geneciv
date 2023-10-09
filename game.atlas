@@ -2273,14 +2273,14 @@ TileSets/FantasyHex/Units/Eusuchia
   index: -1
 TileSets/FantasyHex/Units/Mammal
   rotate: false
-  xy: 429, 440
+  xy: 413, 440
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archaea
   rotate: false
-  xy: 795, 740
+  xy: 793, 740
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
