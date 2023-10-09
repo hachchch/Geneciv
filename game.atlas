@@ -2202,3 +2202,86 @@ TileSets/FantasyHex/Tiles/Forest2
   orig: 32, 32
   offset: 0, 0
   index: -1
+
+game922.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Forests2
+  rotate: false
+  xy: 636, 915
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Avemetatarsalia
+  rotate: false
+  xy: 636, 660
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Saurischia
+  rotate: false
+  xy: 676, 694
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Big Reptile
+  rotate: false
+  xy: 552, 501
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eumycetozoa
+  rotate: false
+  xy: 592, 496
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Plesiosaur
+  rotate: false
+  xy: 752, 443
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Plesiosaur2
+  rotate: false
+  xy: 802, 443
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit
+  rotate: false
+  xy: 472, 476
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Eusuchia
+  rotate: false
+  xy: 472, 510
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mammal
+  rotate: false
+  xy: 436, 440
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Archaea
+  rotate: false
+  xy: 796, 740
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
