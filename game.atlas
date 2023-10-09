@@ -2315,7 +2315,7 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Military
   index: -1
 TileSets/FantasyHex/Units/Eusuchia
   rotate: false
-  xy: 478, 510
+  xy: 476, 510
   size: 33, 28
   orig: 33, 28
   offset: 0, 0
