@@ -2252,14 +2252,14 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   rotate: false
-  xy: 796, 957
+  xy: 796, 955
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Forests
   rotate: false
-  xy: 756, 961
+  xy: 756, 959
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
