@@ -650,6 +650,7 @@
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 2,
 		"requiredResource": "Super Creature Stock",
+		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
 	},
 	{
@@ -667,6 +668,7 @@
 		"cost": 700,
 		"strength": 80,
 		"movement": 2,
+		"attackSound": "Slash",
 		"requiredTech": "Cretaceous Reptiles",
 		"obsoleteTech": "Eutherians",
 		"civilopediaText": [
@@ -687,6 +689,7 @@
 		"movement": 2,
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
+		"attackSound": "Slash",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
@@ -706,6 +709,7 @@
 		"uniques": ["[+80]% <when fighting in [River] tiles>"],
 		"requiredTech": "Dinosaur",
 		"upgradesTo": "Eusuchia",
+		"attackSound": "Slash",
 		"obsoleteTech": "Modern Ocean",
 	},
 	{
@@ -716,6 +720,7 @@
 		"movement": 2,
 		"uniques": ["[+60]% Strength <when defending>"],
 		"requiredTech": "Dinosaur",
+		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
 		"civilopediaText": [
 			{
@@ -746,6 +751,7 @@
 		"movement": 2,
 		"uniques": ["[+50]% Strength <when attacking>"],
 		"requiredTech": "Dinosaur",
+		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
 	},
 	{
