@@ -2208,23 +2208,23 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Grassland+Jungle+Forests2
+TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   rotate: false
-  xy: 636, 915
+  xy: 796, 956
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Avemetatarsalia
   rotate: false
-  xy: 636, 660
+  xy: 635, 660
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Saurischia
   rotate: false
-  xy: 676, 694
+  xy: 671, 694
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2245,14 +2245,14 @@ TileSets/FantasyHex/Units/Eumycetozoa
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur
   rotate: false
-  xy: 752, 443
+  xy: 753, 448
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Plesiosaur2
   rotate: false
-  xy: 802, 443
+  xy: 803, 448
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -2266,21 +2266,21 @@ TileSets/FantasyHex/Units/EmbarkedUnit
   index: -1
 TileSets/FantasyHex/Units/Eusuchia
   rotate: false
-  xy: 472, 510
+  xy: 456, 510
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mammal
   rotate: false
-  xy: 436, 440
+  xy: 429, 440
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archaea
   rotate: false
-  xy: 796, 740
+  xy: 795, 740
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
