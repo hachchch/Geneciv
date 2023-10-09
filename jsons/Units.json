@@ -1,4 +1,33 @@
 [
+	// Cambrian Entities
+	{
+		"name": "Crustacean",
+		"unitType": "Water Arthropod",
+		"cost": 260,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "whoo",
+	},
+	{
+		"name": "Opabinia",
+		"unitType": "Water Arthropod",
+		"cost": 260,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "whoo",
+	},
+	{
+		"name": "Anomalocaris",
+	},
+	// General
         {
                 "name": "Particles",
                 "unitType": "Particle",
@@ -319,18 +348,6 @@
 				"Separator": true
 			},
 		]
-	},
-	{
-		"name": "Crustacean",
-		"unitType": "Water Arthropod",
-		"cost": 260,
-		"strength": 24,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
-		"movement": 2,
-		"requiredTech": "Exoskeleton",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
-		"attackSound": "whoo",
 	},
 	{
 		"name": "Fish",
