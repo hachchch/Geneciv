@@ -2111,42 +2111,77 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/FantasyHex/Tiles/GrasslandForest
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/GrasslandForest2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsForest3
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/GrasslandForest2-Paleogene period
   rotate: false
   xy: 556, 1026
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/PlainsForest2
+TileSets/FantasyHex/Tiles/PlainsForest2-Paleogene period
   rotate: false
   xy: 792, 880
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/PlainsForest3
+TileSets/FantasyHex/Tiles/PlainsForest3-Paleogene period
   rotate: false
   xy: 828, 880
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill2
+TileSets/FantasyHex/Tiles/Hill2-Paleogene period
   rotate: false
   xy: 556, 717
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill3
+TileSets/FantasyHex/Tiles/Hill3-Devonian period
   rotate: false
   xy: 556, 681
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill4
+TileSets/FantasyHex/Tiles/Hill4-Devonian period
   rotate: false
   xy: 556, 681
   size: 32, 32
@@ -2188,7 +2223,21 @@ TileSets/FantasyHex/Tiles/Mine2
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Forest
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Forest2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forest2-Paleogene period
   rotate: false
   xy: 516, 690
   size: 32, 32
