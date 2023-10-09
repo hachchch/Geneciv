@@ -2210,7 +2210,7 @@ TileSets/FantasyHex/Tiles/Grassland+Forest+Forests
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Forest+Forests
   rotate: false
-  xy: 796, 956
+  xy: 756, 960
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
