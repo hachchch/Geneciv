@@ -1,0 +1,6 @@
+{
+	"useColorAsBaseTerrain": "false",
+	"ruleVariants": {
+    "Grassland+Forest+Forests": ["Forest","Forests"],
+	},
+}
