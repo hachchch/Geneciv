@@ -329,7 +329,7 @@
 			{
 				"name": "Fish",
 				"row": 6,
-				"prerequisites": ["Exoskeleton","Vertebrate"],
+				"prerequisites": ["Exoskeleton","Vertebrate","Heart"],
 			},
 			{
 				"name": "Trilobite",
@@ -482,12 +482,12 @@
 			{
 				"name": "Archosauria",
 				"row": 6,
-				"prerequisites": ["Reptile","Legs"],
+				"prerequisites": ["Reptile","Legs","Lung"],
 			},
 			{
 				"name": "Warm Blooded",
 				"row": 4,
-				"prerequisites": ["Lung","Legs"],
+				"prerequisites": ["Lung","Legs","Water Tight"],
 			},
 			{
 				"name": "Ear",
@@ -506,13 +506,13 @@
 		"techs": [
 			{
 				"name": "Dinosaur",
-				"row": 3,
+				"row": 6,
 				"prerequisites": ["Archosauria","Egg Shell"],
 			},
 			{
 				"name": "Mammal",
-				"row": 6,
-				"prerequisites": ["Warm Blooded"]
+				"row": 3,
+				"prerequisites": ["Warm Blooded","Ear","Herbivore"]
 			},
 			{
 				"name": "Wings",
@@ -581,12 +581,12 @@
 			{
 				"name": "Grass",
 				"row": 1,
-				"prerequisites": ["Insect"],
+				"prerequisites": ["Insect","Gliding"],
 			},
 			{
 				"name": "Eutherians",
 				"row": 6,
-				"prerequisites": ["Hair"],
+				"prerequisites": ["Hair","Glands"],
 			},
 		]
 	},
