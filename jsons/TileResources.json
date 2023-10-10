@@ -168,7 +168,7 @@
 		"name": "Dyes",
 		"revealedBy": "Flowers",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Marsh"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "GrassLand",
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
