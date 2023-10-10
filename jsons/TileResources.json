@@ -90,11 +90,13 @@
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill"]
-		"food": 1,
+		"food": 2,
 		"improvement": "Forests",
                 "production": 1,
-		"improvementStats": {"food": 1},
+		"improvementStats": {"production": 3},
 		"uniques": ["Generated on every [4] tiles <in [Plains] tiles>"],
+		"majorDepositAmount": {"sparse": 20, "default": 28, "abundant": 40},
+		"minorDepositAmount": {"sparse": 8, "default": 12, "abundant": 12}
 	},
 	{
 		"name": "Jungle",
@@ -105,6 +107,8 @@
 		"improvement": "Forests",
                 "production": 1,
 		"improvementStats": {"food": 1},
+		"majorDepositAmount": {"sparse": 10, "default": 14, "abundant": 20},
+		"minorDepositAmount": {"sparse": 4, "default": 6, "abundant": 6}
 	},
 	{
 		"name": "Wheat",
