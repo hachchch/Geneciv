@@ -113,10 +113,6 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
 		"food": 1,
 		"improvement": "Farm",
-		"uniques": ["Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
-					"Generated on every [10] tiles <in [Desert] [Fresh Water] tiles> <in tiles without [Hill]>",
-					"Generated on every [20] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
-					"Generated on every [20] tiles <in [Fresh Water] [Desert] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
 	},
 	{
 		"name": "Coal",
@@ -125,17 +121,6 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
 		"production": 1,
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [35] <in [Hill] tiles>",
-					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Generated with weight [30] <in [Forest] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Jungle] tiles>",
-					"Minor deposits generated with weight [10] <in [Forest] tiles>",
-					"Minor deposits generated with weight [20] <in [Grassland] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Plains] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Desert] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Tundra] [Hill] tiles>",
-					"Minor deposits generated with weight [30] <in [Snow] [Hill] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -147,9 +132,6 @@
 		"gold": 2,
 		"improvement": "Hunting Spot",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "Cotton",
@@ -158,11 +140,6 @@
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
 		"improvement": "GrassLand",
-		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [30] <in [Grassland] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
 		"name": "Dyes",
@@ -171,11 +148,6 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "GrassLand",
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [30] <in [Forest] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
 		"name": "Incense",
@@ -184,10 +156,6 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
 		"improvement": "GrassLand",
-		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
 	},
 	{
 		"name": "Ivory",
@@ -197,10 +165,6 @@
 		"gold": 2,
 		"improvement": "Hunting Spot",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [35] <in [Plains] Regions>",
-					"Generated with weight [15] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] [Fresh Water] tiles>"]
 	},
 	{
 		"name": "Silk",
@@ -209,11 +173,6 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "Forests",
-		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
-					"Generated with weight [30] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>"]
 	},
 	{
 		"name": "Spices",
@@ -222,29 +181,14 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "GrassLand",
-		"uniques": ["Generated with weight [30] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]",
-					"Doesn't generate naturally <in [Hill] tiles>",
-					"Doesn't generate naturally <in [Tundra] [Forest] tiles>"]
 	},
 	{
 		"name": "Sugar",
 		"revealedBy": "Fern",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland"],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
 		"improvement": "GrassLand",
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [15] <in [Desert] Regions>",
-					"Generated with weight [20] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Grassland] tiles> <in tiles without [Fresh Water]>"]
 	},
 	{
 		"name": "Whales",
@@ -253,13 +197,6 @@
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 1,
 		"gold": 1,
-		"uniques": ["Generated with weight [35] <in [Tundra] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [10] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]"]
 	},
 	{
 		"name": "Pearls",
@@ -267,13 +204,5 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
-		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [10] <in [Forest] Regions>",
-					"Generated with weight [5] <in [Desert] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Plains] Regions>",
-					"Generated with weight [10] <in [Grassland] Regions>",
-					"Generated with weight [20] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
 	},
 ]
