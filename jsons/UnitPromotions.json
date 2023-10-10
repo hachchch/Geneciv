@@ -305,11 +305,18 @@
 		"row": 300,
 		"column": 0,
 		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [River] tiles>"],
+		"unitTypes": ["Amphibian"],
 	},
 	{
 		"name": "Spawn Egg in Water",
 		"row": 301,
 		"column": 0,
 		"uniques": ["[+29] HP when healing <in [River] tiles>","[+5] HP when healing"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Hollow Bones",
+		"uniques": ["Ignores Zone of Control","[+1] Range"],
+		"unitTypes": ["Reptiles","Birds","Glider"],
 	},
 ]
