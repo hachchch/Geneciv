@@ -58,14 +58,14 @@
 		"isNationalWonder": true,
 		"production": 10,
 		"cost": 300,
-		"uniques": ["Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
+		"uniques": ["Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
 	},
 	{
 		"name": "Cambrian Extinction",
 		"isNationalWonder": true,
 		"culture": 10,
 		"cost": 300,
-		"uniques": ["Unbuildable <before the [Cambrian period]>","[+50]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
+		"uniques": ["Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+50]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
 	},
 	// General
 	{
