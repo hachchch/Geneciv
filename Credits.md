@@ -27,8 +27,8 @@ Sounds from Free Sound
 ・hachchch - English translation to rename terrains
 
 ## Inspiration
-・Charles Darwin and Alfred Russel Wallace
-Theory of evolution by natural selection
+・On the Origin of Species
+Charles Darwin and Alfred Russel Wallace
 
 ・Cell to Singularity
 A Greatest Tapping game
