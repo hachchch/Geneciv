@@ -15,7 +15,7 @@
 	// Land Arthropod
 	{
 		"name": "Beetles",
-		"requiredTech": "Incest",
+		"requiredTech": "Insect",
 		"production": 5,
 		"cost": 350,
 		"uniques": ["[+5]% [Production] [in all cities]"]
