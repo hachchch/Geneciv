@@ -1,9 +1,73 @@
 [
+	// Victory Milestones
         {
 		"name": "Extinction Complete",
 		"isNationalWonder": true,
 		"uniques": ["Unbuildable","Unsellable"],
 	},
+	{
+		"name": "The Anthropocene era",
+		"cost": 3500,
+		"uniques": ["Triggers the following global alert: [!Humans are Changing the World!]","Triggers victory"],
+		"requiredTech": "Anthropocene",
+		"isWonder": true,
+	},
+	// Land Arthropod
+	{
+		"name": "Beetles",
+		"requiredTech": "Incest",
+		"production": 5,
+		"cost": 350,
+		"uniques": ["[+5]% [Production] [in all cities]",]
+	},
+	{
+		"name": "Uniramia",
+		"requiredTech": "Insect",
+		"food": 1,
+		"production": 1,
+		"uniques": ["[+10]% Production when constructing [{Land} {Military}] units [in this city]"],
+		"cost": 350,
+	},
+	{
+		"name": "Orthoptera",
+		"requiredTech": "Insect",
+		"food": 1,
+		"production": 1,
+		"cost": 350,
+		"uniques": ["[+20]% Production when constructing [{Land} {Civilian}] units [in this city]"],
+	},
+	// Wonders
+	{
+		"name": "Cytoplasm",
+		"cost": 475,
+		"isWonder": true
+		"requiredTech": "Eukaryotic Cell",
+		"uniques": ["New [Land] units start with [15] Experience [in all cities]"],
+	},
+	// National Wonders
+	{
+		"name": "Ozone Layer",
+		"isNationalWonder": true,
+		"cost": 200,
+		"food": 4,
+		"gold": 1,
+		"requiredTech": "Primordial Soup",
+	},
+	{
+		"name": "Cambrian Explosion",
+		"isNationalWonder": true,
+		"production": 10,
+		"cost": 300,
+		"uniques": ["Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
+	},
+	{
+		"name": "Cambrian Extinction",
+		"isNationalWonder": true,
+		"culture": 10,
+		"cost": 300,
+		"uniques": ["Unbuildable <before the [Cambrian period]>","[+50]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
+	},
+	// General
 	{
                 "name": "Volcano",
                 "food": 1,
@@ -31,21 +95,6 @@
 		"requiredTech": "Grass",
 		"food": 4,
 		"cost": 750,
-	},
-	{
-		"name": "Uniramia",
-		"requiredTech": "Insect",
-		"food": 1,
-		"uniques": ["[+10]% Production when constructing [{Land} {Military}] units [in all cities]"],
-		"cost": 350,
-	},
-	{
-		"name": "Orthoptera",
-		"isNationalWonder": true,
-		"requiredTech": "Insect",
-		"food": 1,
-		"cost": 350,
-		"uniques": ["[+20]% Production when constructing [{Land} {Civilian}] units [in all cities]"],
 	},
 	{
 		"name": "Big Brain",
@@ -160,24 +209,9 @@
 		"uniques": ["[+4 Faith] from every Elder [in this city]"],
 	},
 	{
-		"name": "The Anthropocene era",
-		"cost": 3500,
-		"uniques": ["Triggers the following global alert: [!Humans are Changing the World!]","Triggers victory"],
-		"requiredTech": "Anthropocene",
-		"isWonder": true,
-	},
-	{
 		"name": "Meteor",
 		"cost": 20,
 		"science": 1,
-	},
-	{
-		"name": "Ozone Layer",
-		"isNationalWonder": true,
-		"cost": 200,
-		"food": 4,
-		"gold": 1,
-		"requiredTech": "Primordial Soup",
 	},
 	{
 		"name": "Enzymes",
@@ -222,13 +256,6 @@
 		"cost": 85,
 		"uniques": ["New [Cell] units start with [15] Experience [in this city]"],
 		"requiredTech": "Nucleus",
-	},
-	{
-		"name": "Cytoplasm",
-		"cost": 475,
-		"isWonder": true
-		"requiredTech": "Eukaryotic Cell",
-		"uniques": ["New [Land] units start with [15] Experience [in all cities]"],
 	},
 	{
 		"name": "Ribosomes",
