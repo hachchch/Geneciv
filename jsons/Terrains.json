@@ -16,6 +16,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"RGB": [107, 214, 152],
+		"uniques": ["Starts in regions of this type receive an extra [Forest]"]
 	},
 	{
 		"name": "Plains",
@@ -23,6 +24,7 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"RGB": [200,208,161],
+		"uniques": ["Starts in regions of this type receive an extra [Forest]"]
 	},
 	{
 		"name": "Tundra",
@@ -53,7 +55,7 @@
 		"RGB": [74,81,40],
 		"rough": true
 		"occursOn": ["Snow","Desert","Tundra","Plains","Grassland"],
-		"uniques": ["Rough terrain","[+5] Strength for cities built on this terrain","Has an elevation of [1] for visibility calculations","Occurs in groups around high elevations","[-50] to Fertility for Map Generation","A Region is formed with at least [40]% [Hill] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Considered [Desirable] when determining start locations","Considered [Production] when determining start locations","Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": ["Starts in regions of this type receive an extra [Forest]","Rough terrain","[+5] Strength for cities built on this terrain","Has an elevation of [1] for visibility calculations","Occurs in groups around high elevations","[-50] to Fertility for Map Generation","A Region is formed with at least [40]% [Hill] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Considered [Desirable] when determining start locations","Considered [Production] when determining start locations","Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Mountain",
