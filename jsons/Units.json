@@ -466,7 +466,7 @@
 		"cost": 220,
 		"strength": 45,
 		"uniques": ["[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
-		"movement": 5,
+		"movement": 3,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
 		"civilopediaText": [
@@ -485,6 +485,7 @@
 		"cost": 650,
 		"strength": 65,
 		"movement": 3,
+		"uniques": ["[+2] Sight"]
 		"requiredTech": "Plesiosaur",
 		"attackSound": "Splash",
 		"civilopediaText": [
