@@ -2362,3 +2362,24 @@ TileSets/FantasyHex/Units/Archaea
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Virus
+  rotate: false
+  xy: 556, 757
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Crustacean
+  rotate: false
+  xy: 716, 791
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Radiodonta
+  rotate: false
+  xy: 716, 791
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
