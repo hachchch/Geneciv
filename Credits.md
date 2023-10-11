@@ -18,7 +18,7 @@
 
 Icons from Noun Project
 
-Sounds from Free Sound
+Sounds from Free Sound and Koukaon-Lab
 ## Translation
 ・hachchch - translation template
 
