@@ -2,25 +2,27 @@
 	{
 		"name": "Extinctions",
 		"era": "Cambrian period",
-		"effect": "In Extinction, You lose Everything. But, also come Everything.",
+		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
 		"uniques": ["[+33]% [Science] [in capital]"],
 		"policies": [
 			{
 				"name": "Super Plume",
 				"row": 1,
 				"column": 3,
-				"uniques": ["[1] free [Extinctions] units appear [in capital]"],
+				"uniques": ["[+10]% [Gold] [in all cities]"],
 			},
 			{
 				"name": "Great Volcanic Activity",
 				"row": 2,
 				"column": 3,
+				"uniques": ["[+10]% [Science] [in all cities]","[+110]"],
 				"requires": ["Super Plume"],
 			},
 			{
 				"name": "Global Cooling",
 				"row": 3,
 				"column": 3,
+				"uniques": "[+10]% [Production] [in all cities]"
 				"requires": ["Great Volcanic Activity"],
 			},
 			{
