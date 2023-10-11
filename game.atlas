@@ -2244,6 +2244,20 @@ TileSets/FantasyHex/Tiles/Forest2
   orig: 0, 0
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/GrasslandJungle
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/PlainsJungle
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Forest2-Paleogene period
   rotate: false
   xy: 516, 690
