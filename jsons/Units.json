@@ -531,7 +531,7 @@
 		"strength": 150,
 		"movement": 5,
 		"requiredTech": "Eutherians",
-		"attackSound": "Slash",
+		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
 		"civilopediaText": [
 			{
@@ -547,7 +547,7 @@
 		"name": "Boar",
 		"cost": 800,
 		"requiredTech": "Eutherians",
-		"attackSound": "Slash",
+		"attackSound": "Boar",
 		"strength": 70,
 		"movement": 2,
 		"unitType": "Mammal",
@@ -650,7 +650,7 @@
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 2,
 		"requiredResource": "Super Creature Stock",
-		"attackSound": "Slash",
+		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
 	},
 	{
@@ -660,6 +660,7 @@
 		"strength": 90,
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 1,
+		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
 	},
 	{
@@ -668,7 +669,7 @@
 		"cost": 700,
 		"strength": 80,
 		"movement": 2,
-		"attackSound": "Slash",
+		"attackSound": "Monster",
 		"requiredTech": "Cretaceous Reptiles",
 		"obsoleteTech": "Eutherians",
 		"civilopediaText": [
