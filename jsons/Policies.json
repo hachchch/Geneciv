@@ -2,7 +2,7 @@
 	{
 		"name": "Extinctions",
 		"era": "Cambrian period",
-		"effect": "+33% Evolution",
+		"effect": "In Extinction, You lose Everything. But, also come Everything.",
 		"uniques": ["[+33]% [Science] [in capital]"],
 		"policies": [
 			{
