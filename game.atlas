@@ -1069,7 +1069,7 @@ TileSets/FantasyHex/Tiles/Grassland+Jungle+Forests
   index: -1
 TileSets/FantasyHex/Tiles/Plains+GrassLand
   rotate: false
-  xy: 756, 984
+  xy: 756, 1000
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
@@ -1123,6 +1123,13 @@ TileSets/FantasyHex/Tiles/Grassland+Forests+Forest-Mesozoic era
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra-Paleogene period
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0,0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+GrassLand
   rotate: false
   xy: 552, 465
   size: 32, 28
