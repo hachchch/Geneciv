@@ -11,6 +11,13 @@ TileSets/FantasyHex/Tiles/Grassland
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle
+  rotate: false
+  xy: 1730, 1840
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Amino Acid
   rotate: false
   xy: 1466, 690
@@ -2245,13 +2252,6 @@ TileSets/FantasyHex/Tiles/Forest
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest2
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Jungle
   rotate: false
   xy: 0, 0
   size: 0, 0
