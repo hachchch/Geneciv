@@ -9,13 +9,13 @@
 				"name": "Super Plume",
 				"row": 1,
 				"column": 3,
-				"uniques": ["[+10]% [Gold] [in all cities]","[+10] [Gold] [in capital] <for [5] turns>"],
+				"uniques": ["[+10]% [Gold] [in all cities]","[+10] [Gold] [in capital] <for [10] turns>"],
 			},
 			{
 				"name": "Great Volcanic Activity",
 				"row": 2,
 				"column": 3,
-				"uniques": ["[+10]% [Science] [in all cities]","[+110] <for [3] turns>"],
+				"uniques": ["[+10]% [Science] [in all cities]","[+110] <for [1] turns>"],
 				"requires": ["Super Plume"],
 			},
 			{
