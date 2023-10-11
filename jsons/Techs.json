@@ -677,7 +677,7 @@
 				"name": "Upright Bipedal Walk",
 				"row": 6,
 				"prerequisites": ["Ape"],
-				"uniques": ["[-1] Movement <for [Ape] units>","[+25]% Strength <for [Ape] units>"],
+				"uniques": ["[-1] Movement <for [Ape] units>","[+2] Sight <for [Ape] units>"],
 			},
 			{
 				"name": "Ape Brain",
