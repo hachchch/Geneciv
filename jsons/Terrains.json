@@ -39,7 +39,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"production": 2,
+		"production": 1,
 		"RGB": [ 255, 255, 102]
 	},
 	{
