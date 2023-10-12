@@ -103,10 +103,10 @@
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains"]
-		"food": 1,
+		"food": 2,
 		"improvement": "Forests",
                 "production": 1,
-		"improvementStats": {"food": 1},
+		"improvementStats": {"food": 2},
 		"majorDepositAmount": {"sparse": 10, "default": 14, "abundant": 20},
 		"minorDepositAmount": {"sparse": 4, "default": 6, "abundant": 6}
 	},
