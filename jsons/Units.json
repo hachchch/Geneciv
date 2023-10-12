@@ -330,7 +330,7 @@
 		"name": "Megalodon",
 		"requiredTech": "Predation",
 		"unitType": "Fishes",
-		"cost": 360,
+		"cost": 500,
 		"strength": 65,
 		"movement": 4,
 		"requiredResource": "Super Creature Stock",
@@ -404,7 +404,7 @@
 	{
 		"name": "Shark",
 		"unitType": "Fishes",
-		"cost": 200,
+		"cost": 340,
 		"strength": 45,
 		"movement": 5,
 		"requiredTech": "Predation",
