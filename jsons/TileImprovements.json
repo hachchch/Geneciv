@@ -4,7 +4,6 @@
 		"shortcutKey": "F",
 		"techRequired": "Fern",
 		"turnsToBuild": 3,
-		"food": 1,
 		"uniques": ["Can only be built to improve a resource"],
 		"civilopediaText": [
 			{
