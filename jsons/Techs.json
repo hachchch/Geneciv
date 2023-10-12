@@ -444,7 +444,7 @@
 				"name": "Legs",
 				"row": 4,
 				"prerequisites": ["Fins","Lungfish"],
-				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
+				"uniques": ["Enables Open Borders agreements","[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
 			},
 			{
 				"name": "Water Tight",
@@ -476,7 +476,7 @@
 			{
 				"name": "Egg Shell",
 				"row": 9,
-				"uniques": ["[10]% Food is carried over after population increases [in all cities]"],
+				"uniques": ["Enables Research agreements","[10]% Food is carried over after population increases [in all cities]"],
 				"prerequisites": ["Reptile","Fish Egg"],
 			},
 			{
@@ -537,7 +537,7 @@
 				"name": "Uterus",
 				"row": 9,
 				"prerequisites": ["Mammal","Egg Shell"],
-				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"uniques": ["Enables Defensive Pacts","Production to [Science] conversion in cities changed by [+10]%"],
 			},
 			{
 				"name": "Plesiosaur",
