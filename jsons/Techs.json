@@ -621,13 +621,13 @@
 				"name": "Primate",
 				"row": 6,
 				"prerequisites": ["Eutherians"],
-				"uniques": ["[+1 Science] per [5] population [in all cities]"],
+				"uniques": ["[+3 Science] per [5] population [in all cities]"],
 			},
 			{
 				"name": "Neocortex",
 				"row": 2,
 				"prerequisites": ["Eutherians"],
-				"uniques": ["[+1 Science] per [2] population [in all cities]"],
+				"uniques": ["[+1 Science] per [10] population [in all cities]"],
 			},
 			{
 				"name": "Placenta",
