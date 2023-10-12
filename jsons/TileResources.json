@@ -93,8 +93,8 @@
 		"food": 2,
 		"improvement": "Forests",
                 "production": 1,
-		"improvementStats": {"production": 3},
-		"uniques": ["Generated on every [4] tiles <in [Plains] tiles>"],
+		"improvementStats": {"production": 2},
+		"uniques": ["Generated on every [2] tiles <in [Plains] tiles>","Generated on every [2] tiles <in [Grassland] tiles>"],
 		"majorDepositAmount": {"sparse": 20, "default": 28, "abundant": 40},
 		"minorDepositAmount": {"sparse": 8, "default": 12, "abundant": 12}
 	},
