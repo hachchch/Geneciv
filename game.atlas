@@ -2405,9 +2405,9 @@ TileSets/HexaRealm/Tiles/Grassland
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Forest+Forests
   rotate: false
-  xy: 1080, 1501
-  size: 64, 56
-  orig: 64, 56
+  xy: 1080, 1490
+  size: 64, 67
+  orig: 64, 67
   offset: 0, 0
   index: -1
 
