@@ -11,6 +11,12 @@
 		"requiredTech": "Exoskeleton",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Radiodonta",
@@ -23,6 +29,12 @@
 		"requiredTech": "Articulation",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Radiodonta",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Tamisiocaris",
@@ -35,6 +47,12 @@
 		"requiredTech": "Exoskeleton",
 		"uniques": ["[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+		]
 	},
 	// General
         {
@@ -187,6 +205,12 @@
 		"requiredTech": "Flatworm",
 		"uniques": ["[+190]% Strength <when attacking> <with [20]% chance>","Self-destructs when attacking <with [20]% chance>","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
 		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Parasiticworm",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Cordyceps",
@@ -196,6 +220,12 @@
 		"movement": 2,
 		"requiredTech": "Insect",
 		"uniqueTo": "Barbarians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cordyceps",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Cancer",
@@ -210,6 +240,12 @@
 		"upgradesTo": "Tetrapod",
 		"uniques": ["No Sight"],
 		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cancer",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Virus",
@@ -221,6 +257,12 @@
 		"requiredTech": "Eukaryotic Cell",
 		"attackSound": "Cell",
 		"uniques": ["May travel on Water tiles without embarking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Virus",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Jellyfish",
@@ -265,6 +307,12 @@
 		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
 		"attackSound": "whoo",
 		"promotions": ["Nematocyst I","Poison I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Modern Jellyfish",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Modern Fish",
@@ -340,6 +388,12 @@
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
 		"uniques": ["Destroys tile improvements when attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Flatworm",
@@ -414,6 +468,12 @@
 		"requiredTech": "Predation",
 		"attackSound": "Splash",
 		"uniques": ["Can move after attacking","Destroys tile improvements when attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Shark",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Small Reptile",
@@ -464,6 +524,12 @@
 		"movement": 2,
 		"requiredTech": "Herbivore",
 		"unitType": "Herbivore",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Herbivore",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Mammal",
@@ -528,6 +594,12 @@
 		"movement": 4,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Feliform",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Lion",
@@ -557,6 +629,12 @@
 		"movement": 2,
 		"unitType": "Mammal",
 		"uniques": ["[+45]% to Flank Attack bonuses <vs [Mammal] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Boar",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Horse",
@@ -567,6 +645,12 @@
 		"movement": 5,
 		"unitType": "Mammal",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Horse",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Caniform",
@@ -579,6 +663,12 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
 		"uniques": ["[-50]% Strength <vs [Human] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Caniform",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Glires",
@@ -588,6 +678,12 @@
 		"cost": 450,
 		"movement": 4,
 		"requiredTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Glires",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Dolphin",
@@ -597,6 +693,12 @@
 		"requiredTech": "Cetaceans",
 		"cost": 500,
 		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dolphin",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Ape",
@@ -607,6 +709,12 @@
 		"requiredTech": "Ape",
 		"obsoleteTech": "Homo Habilis",
 		"uniques": ["All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Ape",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Archeopteryx",
@@ -657,6 +765,12 @@
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Triceratops",
@@ -667,6 +781,12 @@
 		"movement": 1,
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Cretaceous Dinosaur",
@@ -717,6 +837,12 @@
 		"upgradesTo": "Eusuchia",
 		"attackSound": "Slash",
 		"obsoleteTech": "Modern Ocean",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pseudosuchia",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Avemetatarsalia",
@@ -748,6 +874,12 @@
 		"movement": 2,
 		"requiredTech": "Dinosaur",
 		"unitType": "Herbivore",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Pseudosuchia",
@@ -759,6 +891,12 @@
 		"requiredTech": "Dinosaur",
 		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pseudosuchia",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Vegetation",
@@ -769,6 +907,12 @@
 		"uniques": ["Can build [Forests] improvements on tiles","Can build [GrassLand] improvements on tiles","Automation is a primary action","No Sight"],
 		"cost": 300,
 		"requiredTech": "First Plant",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Vegetation",
+				"imageSize": 192
+			},
+		]
 	},
         {
                 "name": "Worker",
@@ -796,6 +940,12 @@
 		"attackSound": "nonmetalhit",
 		"uniques": ["[500]% Strength <vs [Glires] units>"],
 		"requiredTech": "Australopithecus",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mankind",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Thrower",
@@ -808,6 +958,12 @@
 		"uniques": ["[350]% Strength <vs [Glires] units>"],
 		"requiredTech": "Stone Tools",
 		"attackSound": "Stone",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Thrower",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Tribesman",
@@ -818,6 +974,12 @@
 		"attackSound": "nonmetalhit",
 		"cost": 650,
 		"requiredTech": "Homo Habilis",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tribesman",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Archer",
@@ -830,6 +992,12 @@
 		"strength": 100,
 		"movement": 2,
 		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archer",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Sapiens Warrior",
@@ -840,6 +1008,12 @@
 		"strength": 135,
 		"movement": 2,
 		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Sapiens Warrior",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Neanderthalensis Warrior",
@@ -851,6 +1025,12 @@
 		"movement": 2,
 		"uniques": ["[-80]% Strength <vs [Human] units>"],
 		"obsoleteTech": "Homo Sapiens Sapiens",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Neanderthalensis Warrior",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Spearman",
@@ -861,6 +1041,12 @@
 		"strength": 170,
 		"movement": 2,
 		"uniques": ["[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Spearman",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Great Elder",
