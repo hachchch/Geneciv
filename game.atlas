@@ -2385,13 +2385,62 @@ TileSets/FantasyHex/Units/Radiodonta
   index: -1
 
 game002.png
-size: 64, 64
+size: 192, 192
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/AbsoluteUnits/Units/Jellyfish
+TileSets/AbsoluteUnits/Units/Fish
   rotate: false
   xy: 0, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mammal
+  rotate: false
+  xy: 0, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Particles
+  rotate: false
+  xy: 64, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Flatworm
+  rotate: false
+  xy: 128, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Prokaryote
+  rotate: false
+  xy: 64, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Crustacean
+  rotate: false
+  xy: 128, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Amino Acid
+  rotate: false
+  xy: 64, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jellyfish
+  rotate: false
+  xy: 0, 128
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
