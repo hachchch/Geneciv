@@ -159,6 +159,10 @@
 				"imageSize": 192
 			},
 			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eukaryote",
+				"imageSize": 192
+			},
+			{
 				"Separator": true
 			},
 			{
@@ -183,6 +187,10 @@
 				"imageSize": 192
 			},
 			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Archaea",
+				"imageSize": 192
+			},
+			{
 				"Separator": true
 			},
 		]
@@ -201,6 +209,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Eumycetozoa",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eumycetozoa",
 				"imageSize": 192
 			},
 			{
@@ -473,6 +485,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tetrapod",
 				"imageSize": 192
 			},
 			{
@@ -885,6 +901,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Avemetatarsalia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Avemetatarsalia",
 				"imageSize": 192
 			},
 			{
