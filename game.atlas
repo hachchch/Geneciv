@@ -2384,8 +2384,35 @@ TileSets/FantasyHex/Units/Radiodonta
   offset: 0, 0
   index: -1
 
+game001.png
+size: 320, 192
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Tiles/Grassland
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland
+  rotate: false
+  xy: 1080, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Forest+Forests
+  rotate: false
+  xy: 1080, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
 game002.png
-size: 192, 192
+size: 320, 192
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -2441,6 +2468,34 @@ TileSets/AbsoluteUnits/Units/Amino Acid
 TileSets/AbsoluteUnits/Units/Jellyfish
   rotate: false
   xy: 0, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tetrapod
+  rotate: false
+  xy: 192, 128
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eukaryote
+  rotate: false
+  xy: 192, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Archaea
+  rotate: false
+  xy: 192, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Avemetatarsalia
+  rotate: false
+  xy: 256, 0
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
