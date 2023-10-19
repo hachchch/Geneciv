@@ -241,6 +241,10 @@
 				"imageSize": 192
 			},
 			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
 				"Separator": true
 			},
 			{
