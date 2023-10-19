@@ -16,6 +16,8 @@
 
 ・hachchch - Music Creator
 
+・Basil - AbsoluteUnits Artist
+
 Icons from Noun Project
 
 Sounds from Free Sound and Koukaon-Lab
