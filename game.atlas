@@ -2383,3 +2383,16 @@ TileSets/FantasyHex/Units/Radiodonta
   orig: 32, 28
   offset: 0, 0
   index: -1
+
+game002.png
+size: 64, 64
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Jellyfish
+  rotate: false
+  xy: 416, 601
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
