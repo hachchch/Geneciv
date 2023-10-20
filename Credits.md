@@ -1,18 +1,14 @@
 # Credits
 ## Development
-・hachchch and Unciv Discord People - idea
-
 ・hachchch - code
 
-・hachchch - make Unit and Tile texture
+・hachchch - FantasyHex HexaRealm
 
 ・hachchch - sound finder
 
 ・hachchch - idea
 
-・hachchch - craft diamond tools
-
-・hachchch - build nether portal etcetc...
+・Unciv Discord People - idea
 
 ・hachchch - Music Creator
 
