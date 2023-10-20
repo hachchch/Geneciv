@@ -2424,6 +2424,27 @@ TileSets/HexaRealm/Tiles/Grassland+Forest+Forests
   orig: 64, 67
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Grassland+Forest+Forests2
+  rotate: false
+  xy: 1080, 1390
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Forest+Forests3
+  rotate: false
+  xy: 1080, 1290
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Forests
+  rotate: false
+  xy: 1280, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/ForestG
   rotate: false
   xy: 980, 1490
