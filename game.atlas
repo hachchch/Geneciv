@@ -2507,7 +2507,7 @@ TileSets/AbsoluteUnits/Units/Big Reptile
   orig: 64, 64
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military
   rotate: false
   xy: 320, 64
   size: 64, 64
