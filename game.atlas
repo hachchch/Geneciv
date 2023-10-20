@@ -2677,15 +2677,15 @@ TileSets/AbsoluteUnits/Units/Horse
   index: -1
 TileSets/AbsoluteUnits/Units/Plesiosaur
   rotate: false
-  xy: 320, 0
+  xy: 399, 0
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cretaceous Dinosaur
   rotate: false
-  xy: 384, 0
-  size: 64, 64
-  orig: 64, 64
+  xy: 320, 0
+  size: 79, 69
+  orig: 79, 69
   offset: 0, 0
   index: -1
