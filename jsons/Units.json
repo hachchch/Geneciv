@@ -579,7 +579,7 @@
 		"name": "Mammal",
 		"cost": 300,
 		"strength": 45,
-		"uniques": ["[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"uniques": ["[+1 Sight]","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
@@ -696,6 +696,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Horse",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Horse",
 				"imageSize": 192
 			},
 		]
@@ -848,6 +852,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cretaceous Dinosaur",
 				"imageSize": 192
 			},
 			{
