@@ -419,7 +419,7 @@
 		"movement": 4,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
-		"uniques": ["Destroys tile improvements when attacking"],
+		"uniques": ["Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
@@ -666,6 +666,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
+		"uniques": ["Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
@@ -825,6 +826,7 @@
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
+		"uniques": ["Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
