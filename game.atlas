@@ -2690,7 +2690,7 @@ TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-2
   offset: 0, 0
   index: -1
 
-game14.png
+game003.png
 size: 102, 500
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
