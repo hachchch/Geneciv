@@ -700,7 +700,7 @@
 		"strength": 70,
 		"movement": 5,
 		"unitType": "Mammal",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Horse",
@@ -915,7 +915,7 @@
 		"strength": 45,
 		"cost": 430,
 		"movement": 2,
-		"uniques": ["[+60]% Strength <when defending>"],
+		"uniques": ["[+1] Sight","[+60]% Strength <when defending>"],
 		"requiredTech": "Dinosaur",
 		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
