@@ -844,11 +844,12 @@
 		"name": "Cretaceous Dinosaur",
 		"unitType": "Reptiles",
 		"cost": 500,
-		"strength": 80,
+		"strength": 75,
 		"movement": 2,
 		"attackSound": "Monster",
 		"requiredTech": "Cretaceous Reptiles",
 		"obsoleteTech": "Eutherians",
+		"uniques": ["[+30]% Strength <when attacking>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
@@ -888,7 +889,7 @@
 		"strength": 50,
 		"cost": 430,
 		"movement": 2,
-		"uniques": ["[+80]% <when fighting in [River] tiles>"],
+		"uniques": ["[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
 		"requiredTech": "Dinosaur",
 		"upgradesTo": "Eusuchia",
 		"attackSound": "Slash",
@@ -937,23 +938,6 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Pseudosuchia",
-		"unitType": "Reptiles",
-		"strength": 50,
-		"cost": 430,
-		"movement": 2,
-		"uniques": ["[+50]% Strength <when attacking>"],
-		"requiredTech": "Dinosaur",
-		"attackSound": "Slash",
-		"obsoleteTech": "Eutherians",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Pseudosuchia",
 				"imageSize": 192
 			},
 		]
