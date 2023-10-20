@@ -2542,109 +2542,137 @@ size: 320, 192
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/AbsoluteUnits/Units/Fish
+TileSets/AbsoluteUnits/Units/Plesiosaur
   rotate: false
   xy: 0, 0
-  size: 64, 64
-  orig: 64, 64
+  size: 102, 100
+  orig: 102, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Mammal
   rotate: false
-  xy: 0, 64
-  size: 64, 64
-  orig: 64, 64
+  xy: 0, 100
+  size: 102, 100
+  orig: 102, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Particles
+TileSets/AbsoluteUnits/Units/Fish
   rotate: false
-  xy: 64, 0
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Flatworm
-  rotate: false
-  xy: 128, 0
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Prokaryote
-  rotate: false
-  xy: 64, 64
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Crustacean
-  rotate: false
-  xy: 128, 64
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Amino Acid
-  rotate: false
-  xy: 64, 128
-  size: 64, 64
-  orig: 64, 64
+  xy: 0, 200
+  size: 102, 100
+  orig: 102, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Jellyfish
   rotate: false
-  xy: 0, 128
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Tetrapod
-  rotate: false
-  xy: 192, 128
-  size: 64, 64
-  orig: 64, 64
+  xy: 0, 300
+  size: 102, 100
+  orig: 102, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Eukaryote
   rotate: false
-  xy: 192, 64
-  size: 64, 64
-  orig: 64, 64
+  xy: 0, 400
+  size: 102, 100
+  orig: 102, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Archaea
+TileSets/AbsoluteUnits/Units/Prokaryote
   rotate: false
-  xy: 192, 0
-  size: 64, 64
-  orig: 64, 64
+  xy: 0, 500
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Particles
+  rotate: false
+  xy: 0, 600
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tetrapod
+  rotate: false
+  xy: 0, 700
+  size: 102, 100
+  orig: 102, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Avemetatarsalia
   rotate: false
-  xy: 256, 0
-  size: 64, 64
-  orig: 64, 64
+  xy: 0, 800
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Crustacean
+  rotate: false
+  xy: 0, 900
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eusuchia
+  rotate: false
+  xy: 0, 1000
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Archaea
+  rotate: false
+  xy: 0, 1100
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Flatworm
+  rotate: false
+  xy: 0, 1200
+  size: 86, 84
+  orig: 86, 84
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Saurischia
+  rotate: false
+  xy: 0, 1284
+  size: 79, 69
+  orig: 79, 69
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Big Reptile
   rotate: false
-  xy: 64, 192
+  xy: 0, 1353
+  size: 78, 77
+  orig: 78, 77
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Horse
+  rotate: false
+  xy: 0, 1430
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military
+  rotate: false
+  xy: 0, 1508
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Amino Acid
+  rotate: false
+  xy: 0, 1578
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Eumycetozoa
   rotate: false
-  xy: 0, 192
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military
-  rotate: false
-  xy: 128, 192
-  size: 64, 64
-  orig: 64, 64
+  xy: 0, 1642
+  size: 63, 70
+  orig: 63, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-1
@@ -2659,33 +2687,5 @@ TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-2
   xy: 0, 0
   size: 0, 0
   orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Eusuchia
-  rotate: false
-  xy: 192, 192
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Horse
-  rotate: false
-  xy: 256, 192
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Plesiosaur
-  rotate: false
-  xy: 399, 0
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Cretaceous Dinosaur
-  rotate: false
-  xy: 320, 0
-  size: 79, 69
-  orig: 79, 69
   offset: 0, 0
   index: -1
