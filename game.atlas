@@ -2385,7 +2385,7 @@ TileSets/FantasyHex/Units/Radiodonta
   index: -1
 
 game001.png
-size: 320, 192
+size: 384, 192
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -2496,6 +2496,20 @@ TileSets/AbsoluteUnits/Units/Archaea
 TileSets/AbsoluteUnits/Units/Avemetatarsalia
   rotate: false
   xy: 256, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Big Reptile
+  rotate: false
+  xy: 320, 0
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Military
+  rotate: false
+  xy: 320, 64
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
