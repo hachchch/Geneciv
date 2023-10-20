@@ -124,7 +124,7 @@
 	},
 	{
 		"name": "City ruins",
-		"terrainsCanBeBuiltOn": ["Land","Gives a defensive bonus of [-10]%"],
+		"terrainsCanBeBuiltOn": ["Land"]
 		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
 		"civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
