@@ -350,7 +350,7 @@
 		"name": "Limbic System",
 		"cost": 240,
 		"requiredTech": "Learning",
-		"uniques": ["[+50]% XP gained from combat <for [Mammal] units> <in this city>","New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]","[+4 Science] from [City center] tiles [in all cities]"],
+		"uniques": ["[+50]% XP gained from combat <for [Mammal] units> <in this city>","New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]","[+4 Science] from [City center] tiles [in this city]"],
 	},
 	{
 		"name": "Gamerule",
