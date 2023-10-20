@@ -2424,14 +2424,14 @@ TileSets/HexaRealm/Tiles/Grassland+Forest+Forests
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+Forest
+TileSets/HexaRealm/Tiles/GrasslandForest
   rotate: false
   xy: 980, 1490
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Plains+Forest
+TileSets/HexaRealm/Tiles/PlainsForest
   rotate: false
   xy: 980, 1490
   size: 64, 67
