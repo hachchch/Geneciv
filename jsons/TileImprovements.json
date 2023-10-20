@@ -4,7 +4,7 @@
 		"shortcutKey": "F",
 		"techRequired": "Fern",
 		"turnsToBuild": 3,
-		"uniques": ["Can only be built to improve a resource"],
+		"uniques": ["Gives a defensive bonus of [15]%","Can only be built to improve a resource"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Forests",
@@ -98,7 +98,7 @@
 		"techRequired": "Homo Ergaster",
 		"food": 4,
 		"culture": 1,
-		"uniques": ["Can only be built to improve a resource"],
+		"uniques": ["Can only be built to improve a resource","Gives a defensive bonus of [25]%"],
 		"defenceBonus": 0.1,
 		"turnsToBuild": 7,
 		"civilopediaText": [
@@ -114,7 +114,7 @@
 	{
 		"name": "Barbarian encampment",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Unbuildable"],
+		"uniques": ["Unpillagable", "Unbuildable","Gives a defensive bonus of [33]%"],
 		"civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	},
 	{
@@ -124,7 +124,7 @@
 	},
 	{
 		"name": "City ruins",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Land","Gives a defensive bonus of [-10]%"],
 		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
 		"civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
