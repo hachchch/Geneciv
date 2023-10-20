@@ -20,10 +20,6 @@ Sounds from Free Sound and Koukaon-Lab
 ## Translation
 ・hachchch - translation template
 
-・hachchch - Japanese translation
-
-・hachchch - English translation to rename terrains
-
 ## Inspiration
 ・On the Origin of Species
 Charles Darwin and Alfred Russel Wallace
