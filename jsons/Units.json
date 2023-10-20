@@ -548,6 +548,10 @@
 				"imageSize": 192
 			},
 			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
 				"Separator": true
 			},
 		]
