@@ -378,6 +378,10 @@
 				"imageSize": 192
 			},
 			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eusuchia",
+				"imageSize": 192
+			},
+			{
 				"Separator": true
 			},
 		]
@@ -613,6 +617,10 @@
 			},
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur2",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Plesiosaur",
 				"imageSize": 192
 			},
 			{
