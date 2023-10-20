@@ -2689,3 +2689,44 @@ TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-2
   orig: 0, 0
   offset: 0, 0
   index: -1
+
+game14.png
+size: 102, 500
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Mammal
+  rotate: false
+  xy: 0, 0
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Lion
+  rotate: false
+  xy: 0, 100
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Big Reptile
+  rotate: false
+  xy: 0, 200
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Feliform
+  rotate: false
+  xy: 0, 300
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Crustacean
+  rotate: false
+  xy: 0, 400
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
