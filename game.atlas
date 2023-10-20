@@ -2424,11 +2424,25 @@ TileSets/HexaRealm/Tiles/Grassland+Forest+Forests
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Plains+Forest+Forests
+TileSets/HexaRealm/Tiles/Grassland+Forest
   rotate: false
-  xy: 980, 1790
+  xy: 980, 1490
   size: 64, 67
   orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Forest
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Forest+Forests
+  rotate: false
+  xy: 980, 1784
+  size: 64, 73
+  orig: 64, 73
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains
@@ -2466,14 +2480,14 @@ TileSets/HexaRealm/Tiles/Plains+Hill2
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/GrasslandHill
+TileSets/HexaRealm/Tiles/Grassland+Hill
   rotate: false
   xy: 1280, 1590
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/GrasslandHill2
+TileSets/HexaRealm/Tiles/Grassland+Hill2
   rotate: false
   xy: 1280, 1590
   size: 64, 67
