@@ -2677,7 +2677,7 @@ TileSets/AbsoluteUnits/Units/Horse
   index: -1
 TileSets/AbsoluteUnits/Units/Plesiosaur
   rotate: false
-  xy: 320, 192
+  xy: 320, 0
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
