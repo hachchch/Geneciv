@@ -2396,9 +2396,30 @@ TileSets/HexaRealm/Tiles/Grassland
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center
+TileSets/HexaRealm/Tiles/City center-Carboniferous period
   rotate: false
   xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 880, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -2607,14 +2628,21 @@ TileSets/AbsoluteUnits/Units/Avemetatarsalia
   index: -1
 TileSets/AbsoluteUnits/Units/Big Reptile
   rotate: false
-  xy: 320, 0
+  xy: 64, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eumycetozoa
+  rotate: false
+  xy: 0, 192
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military
   rotate: false
-  xy: 320, 64
+  xy: 128, 192
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -2631,5 +2659,33 @@ TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-2
   xy: 0, 0
   size: 0, 0
   orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Horse
+  rotate: false
+  xy: 192, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Horse
+  rotate: false
+  xy: 256, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Plesiosaur
+  rotate: false
+  xy: 320, 192
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cretaceous Dinosaur
+  rotate: false
+  xy: 384, 0
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
