@@ -2514,3 +2514,17 @@ TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-1
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-2
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
