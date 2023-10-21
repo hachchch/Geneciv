@@ -1,4 +1,52 @@
 
+game0.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Jungle-Mesozoic era
+  rotate: false
+  xy: 636, 915
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Forests-Mesozoic era
+  rotate: false
+  xy: 516, 690
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Forests+Forest-Mesozoic era
+  rotate: false
+  xy: 516, 690
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra-Paleogene period
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0,0
+  index: -1
+TileSets/FantasyHex/Tiles/Tundra+GrassLand
+  rotate: false
+  xy: 552, 465
+  size: 32, 28
+  orig: 32, 28
+  offset: 0,0
+  index: -1
+TileSets/FantasyHex/Tiles/Mountain-Cambrian period
+  rotate: false
+  xy: 716, 593
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+
 game14.png
 size: 2048, 2048
 format: RGBA8888
@@ -1100,54 +1148,6 @@ TileSets/FantasyHex/Units/Dunkleosteus
   xy: 590, 832
   size: 32, 28
   orig: 32, 28
-  offset: 0, 0
-  index: -1
-
-game0.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TileSets/FantasyHex/Tiles/Jungle-Mesozoic era
-  rotate: false
-  xy: 636, 915
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Forests-Mesozoic era
-  rotate: false
-  xy: 516, 690
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forests+Forest-Mesozoic era
-  rotate: false
-  xy: 516, 690
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tundra-Paleogene period
-  rotate: false
-  xy: 552, 465
-  size: 32, 28
-  orig: 32, 28
-  offset: 0,0
-  index: -1
-TileSets/FantasyHex/Tiles/Tundra+GrassLand
-  rotate: false
-  xy: 552, 465
-  size: 32, 28
-  orig: 32, 28
-  offset: 0,0
-  index: -1
-TileSets/FantasyHex/Tiles/Mountain-Cambrian period
-  rotate: false
-  xy: 716, 593
-  size: 32, 36
-  orig: 32, 36
   offset: 0, 0
   index: -1
 
