@@ -2501,6 +2501,20 @@ TileSets/HexaRealm/Tiles/ForestP
   orig: 64, 67
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/ForestGH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Plains+Forest+Forests
   rotate: false
   xy: 980, 1784
@@ -2847,24 +2861,58 @@ TileSets/AbsoluteUnits/Units/Big Reptile
   orig: 128, 128
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Cancer
+TileSets/AbsoluteUnits/Units/Pterosaur
   rotate: false
   xy: 0, 128
+  size: 109, 107
+  orig: 109, 107
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cancer
+  rotate: false
+  xy: 0, 235
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Herbivore
+  rotate: false
+  xy: 0, 335
+  size: 99, 96
+  orig: 99, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Triceratops
+  rotate: false
+  xy: 0, 431
+  size: 98, 92
+  orig: 98, 92
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Virus
   rotate: false
-  xy: 0, 228
+  xy: 0, 523
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Parasiticworm
   rotate: false
-  xy: 0, 292
+  xy: 0, 587
   size: 64, 64
   orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+game00000.png
+size: 200, 200
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+SecretImages/Monkey Dance!
+  rotate: false
+  xy: 0, 0
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
