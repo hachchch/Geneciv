@@ -2426,14 +2426,14 @@ TileSets/HexaRealm/Tiles/City center-Pleistocene
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests
   rotate: false
-  xy: 780, 1493
+  xy: 780, 1593
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Forests
   rotate: false
-  xy: 780, 1593
+  xy: 780, 1693
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
