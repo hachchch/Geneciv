@@ -2695,20 +2695,6 @@ size: 102, 500
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/AbsoluteUnits/Units/Mammal
-  rotate: false
-  xy: 0, 0
-  size: 102, 100
-  orig: 102, 100
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Lion
-  rotate: false
-  xy: 0, 100
-  size: 102, 100
-  orig: 102, 100
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Big Reptile
   rotate: false
   xy: 0, 200
@@ -2728,5 +2714,74 @@ TileSets/AbsoluteUnits/Units/Crustacean
   xy: 0, 400
   size: 102, 100
   orig: 102, 100
+  offset: 0, 0
+  index: -1
+
+game004.png
+size: 149, 1000
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Tetrapod
+  rotate: false
+  xy: 0, 0
+  size: 149, 146
+  orig: 149, 146
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mammal
+  rotate: false
+  xy: 0, 146
+  size: 143, 133
+  orig: 143, 133
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Feliform-Pliocene
+  rotate: false
+  xy: 0, 279
+  size: 136, 136
+  orig: 136, 136
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Particles
+  rotate: false
+  xy: 0, 415
+  size: 131, 136
+  orig: 131, 136
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Lion
+  rotate: false
+  xy: 0, 551
+  size: 126, 119
+  orig: 126, 119
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Glires
+  rotate: false
+  xy: 0, 670
+  size: 113, 108
+  orig: 113, 108
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tamisiocaris
+  rotate: false
+  xy: 0, 778
+  size: 100, 92
+  orig: 100, 92
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Small Reptile
+  rotate: false
+  xy: 0, 870
+  size: 99, 98
+  orig: 99, 98
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Shark
+  rotate: false
+  xy: 0, 968
+  size: 99, 97
+  orig: 99, 97
   offset: 0, 0
   index: -1
