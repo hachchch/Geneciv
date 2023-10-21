@@ -2424,6 +2424,20 @@ TileSets/HexaRealm/Tiles/City center-Pleistocene
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests
+  rotate: false
+  xy: 780, 1493
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Jungle+Forests
+  rotate: false
+  xy: 780, 1593
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Grassland2
   rotate: false
   xy: 1080, 1601
@@ -2462,6 +2476,13 @@ TileSets/HexaRealm/Tiles/Grassland+Forest+Forests3
 TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Forests
   rotate: false
   xy: 1280, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+Forest+Forests
+  rotate: false
+  xy: 1280, 1790
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
@@ -2515,6 +2536,20 @@ TileSets/HexaRealm/Tiles/Plains+Hill
   orig: 64, 67
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand
+  rotate: false
+  xy: 1380, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand
+  rotate: false
+  xy: 1380, 1790
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill2
   rotate: false
   xy: 1280, 1690
@@ -2525,6 +2560,27 @@ TileSets/HexaRealm/Tiles/Plains+Hill2
 TileSets/HexaRealm/Tiles/Grassland+Hill
   rotate: false
   xy: 1280, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand
+  rotate: false
+  xy: 1380, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand
+  rotate: false
+  xy: 1480, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand2
+  rotate: false
+  xy: 1380, 1490
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
@@ -2695,13 +2751,6 @@ size: 102, 500
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/AbsoluteUnits/Units/Big Reptile
-  rotate: false
-  xy: 0, 200
-  size: 102, 100
-  orig: 102, 100
-  offset: 0, 0
-  index: -1
 TileSets/AbsoluteUnits/Units/Feliform
   rotate: false
   xy: 0, 300
@@ -2783,5 +2832,39 @@ TileSets/AbsoluteUnits/Units/Shark
   xy: 0, 968
   size: 99, 97
   orig: 99, 97
+  offset: 0, 0
+  index: -1
+
+game005.png
+size: 128, 1000
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Big Reptile
+  rotate: false
+  xy: 0, 0
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cancer
+  rotate: false
+  xy: 0, 128
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Virus
+  rotate: false
+  xy: 0, 228
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Parasiticworm
+  rotate: false
+  xy: 0, 292
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
