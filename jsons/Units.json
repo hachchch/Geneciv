@@ -517,6 +517,16 @@
 				"extraImage": "TileSets/FantasyHex/Units/Shark",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Shark",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The earliest known sharks appearing over 420 million years ago. Both dangerous and endangered, these powerful predators and sleek swimmers are at the top of the underwater food chain.",
+			},
 		]
 	},
 	{
@@ -530,6 +540,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Small Reptile",
 				"imageSize": 192
 			},
 			{
