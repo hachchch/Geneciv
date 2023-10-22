@@ -2690,6 +2690,20 @@ TileSets/HexaRealm/Tiles/Plains+Hill+Forest+Forests
   orig: 64, 67
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleP
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/ForestG
   rotate: false
   xy: 980, 1490
