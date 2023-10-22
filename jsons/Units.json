@@ -727,9 +727,10 @@
 		"unitType": "Mammal",
 		"cost": 500,
 		"strength": 80,
-		"movement": 4,
+		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
+		"uniques": ["[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Feliform",
@@ -756,7 +757,7 @@
 		"unitType": "Mammal",
 		"cost": 900,
 		"strength": 150,
-		"movement": 5,
+		"movement": 4,
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
@@ -781,9 +782,11 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Boar",
 		"strength": 70,
-		"movement": 2,
+		"range": 1,
+		"rangedStrength": 70,
+		"movement": 4,
 		"unitType": "Mammal",
-		"uniques": ["[+45]% to Flank Attack bonuses <vs [Mammal] units>"],
+		"uniques": ["[+50]% to Flank Attack bonuses"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Boar",
@@ -801,7 +804,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "horse"
 		"strength": 70,
-		"movement": 5,
+		"movement": 3,
 		"unitType": "Mammal",
 		"uniques": ["[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
@@ -819,13 +822,11 @@
 		"name": "Caniform",
 		"unitType": "Mammal",
 		"cost": 500,
-		"strength": 70,
-		"range": 1,
-		"rangedStrength": 70,
+		"strength": 80,
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["[-50]% Strength <vs [Human] units>"],
+		"uniques": ["[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Caniform",
@@ -841,9 +842,9 @@
 		"name": "Glires",
 		"unitType": "Mammal",
 		"strength": 45,
-		"uniques": ["[200]% Strength <vs cities>"],
+		"uniques": ["[225]% Strength <vs cities>","All healing effects doubled"],
 		"cost": 450,
-		"movement": 4,
+		"movement": 3,
 		"requiredTech": "Eutherians",
 		"civilopediaText": [
 			{
