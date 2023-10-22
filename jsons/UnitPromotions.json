@@ -191,7 +191,7 @@
 	},
 	{
 		"name": "Bird Hunter",
-		"uniques": ["[50]% chance to intercept air attacks","[100]% Damage when intercepting","[-25]% Strength <vs [Land] units>"],
+		"uniques": ["[+5]% Strength","[50]% chance to intercept air attacks","[100]% Damage when intercepting"],
 		"row": 53,
 		"column": 0,
 		"unitTypes": ["Birds","Mammal","Hominiae"],
@@ -210,6 +210,13 @@
 		"row": 54,
 		"column": 1,
 		"unitTypes": ["Human"],
+	},
+	{
+		"name": "Echolocation",
+		"uniques": ["[+10]% Strength <when defending> <when adjacent to a [Military] unit>","[+1] Sight <when adjacent to a [Military] unit>"],
+		"row": 55,
+		"column": 0,
+		"unitTypes": ["Water Mammal","Air Mammal"],
 	},
 	{
 		"name": "Cell Division",
