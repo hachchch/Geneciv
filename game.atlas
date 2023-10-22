@@ -2606,6 +2606,13 @@ TileSets/HexaRealm/Tiles/JungleP
   orig: 64, 67
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Jungle
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Grassland
   rotate: false
   xy: 980, 1601
@@ -3221,6 +3228,26 @@ TileSets/AbsoluteUnits/Units/Boar
   xy: 0, 318
   size: 94, 87
   orig: 94, 87
+  offset: 0, 0
+  index: -1
+
+game008.png
+size: 228, 1000
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Tyrannosaurus
+  rotate: false
+  xy: 0, 0
+  size: 228, 246
+  orig: 228, 246
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cordyceps
+  rotate: false
+  xy: 0, 246
+  size: 64, 64
+  orig: 64, 64
   offset: 0, 0
   index: -1
 
