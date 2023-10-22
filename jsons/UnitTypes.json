@@ -2,17 +2,22 @@
 	{
 		"name": "Particle",
 		"movementType": "Land",
+		"uniques": ["No defensive terrain bonus"],
 	},
 	{
 		"name": "Cell",
 		"movementType": "Land",
+		"uniques": ["No defensive terrain bonus"],
 	},
 	{
 		"name": "Amphibian",
+		"uniques": ["[+30]% Strength <when fighting in [Coastal] tiles>","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>"],
 	},
 	{
 		"name": "Reptiles",
 		"movementType": "Land",
+		"uniques": ["[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>"],
 	},
 	{
 		"name": "Water Reptiles",
@@ -21,10 +26,12 @@
 	{
 		"name": "Mammal",
 		"movementType": "Land",
+		"uniques": ["[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
 	},
 	{
 		"name": "Herbivore",
 		"movementType": "Land",
+		"uniques": ["All healing effects doubled <in [GrassLand] tiles>","[-60]% Strength <when fighting in [Desert] tiles>","[-35]% Strength <when fighting in [Tundra] tiles>","[-80]% Strength <when fighting in [Snow] tiles>"],
 	},
 	{
 		"name": "Modern Fishes",
@@ -33,6 +40,7 @@
 	{
 		"name": "Hominiae",
 		"movementType": "Land",
+		"uniques": ["[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
 	},
 	{
 		"name": "Water Mammal",
@@ -66,6 +74,7 @@
 	{
 		"name": "Human",
 		"movementType": "Land",
+		"uniques": ["[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
 	},
 	{
 		"name": "Human Air",
