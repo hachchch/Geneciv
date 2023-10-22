@@ -47,6 +47,10 @@
 		"movementType": "Water",
 	},
 	{
+		"name": "Air Mammal",
+		"movementType": "Air",
+	},
+	{
 		"name": "Glider",
 		"movementType": "Air",
 	},
