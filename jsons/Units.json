@@ -803,7 +803,7 @@
 		"cost": 500,
 		"requiredTech": "Eutherians",
 		"attackSound": "horse"
-		"strength": 70,
+		"strength": 60,
 		"movement": 3,
 		"unitType": "Mammal",
 		"uniques": ["[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
@@ -853,6 +853,25 @@
 			},
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Glires",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Chiroptera",
+		"unitType": "Air Mammal",
+		"strength": 60,
+		"uniques": ["[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
+		"cost": 450,
+		"movement": 3,
+		"requiredTech": "Bat",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Chiroptera",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Chiroptera",
 				"imageSize": 192
 			},
 		]
