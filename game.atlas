@@ -4,6 +4,223 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/HexaRealm/Tiles/Grassland+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 148, 183
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 148, 119
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Forest+Forests
+  rotate: false
+  xy: 220, 185
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+Forest+Forests
+  rotate: false
+  xy: 220, 121
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland-Paleogeneperiod
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill-Paleogene period
+  rotate: false
+  xy: 1196, 1570
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand-Paleogeneperiod
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand-Paleogene period
+  rotate: false
+  xy: 1196, 1570
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill2-Paleogene period
+  rotate: false
+  xy: 1268, 1571
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland2-Paleogene period
+  rotate: false
+  xy: 1052, 1584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland3-Paleogene period
+  rotate: false
+  xy: 1124, 1574
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1268, 1571
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1052, 1584
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand3-Paleogene period
+  rotate: false
+  xy: 1124, 1574
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests-Paleogene period
+  rotate: false
+  xy: 501, 1510
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Jungle+Forests-Paleogene period
+  rotate: false
+  xy: 357, 1378
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
+  rotate: false
+  xy: 1412, 1580
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hunting Spot
+  rotate: false
+  xy: 433, 1574
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains-Paleogene period
+  rotate: false
+  xy: 1441, 1233
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill-Paleogene period
+  rotate: false
+  xy: 1365, 1184
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand-Paleogene period
+  rotate: false
+  xy: 1441, 1233
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand-Paleogene period
+  rotate: false
+  xy: 1365, 1184
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill2-Paleogene period
+  rotate: false
+  xy: 1365, 1120
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains2-Paleogene period
+  rotate: false
+  xy: 1293, 1195
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains3-Paleogene period
+  rotate: false
+  xy: 1293, 1131
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1365, 1120
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand2-Paleogene period
+  rotate: false
+  xy: 1293, 1195
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand3-Paleogene period
+  rotate: false
+  xy: 1293, 1131
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forests
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center
+  rotate: false
+  xy: 0, 0
+  size: 0, 0
+  orig: 0, 0
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Jungle-Mesozoic era
   rotate: false
   xy: 636, 915
