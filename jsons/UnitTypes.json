@@ -49,6 +49,7 @@
 	{
 		"name": "Air Mammal",
 		"movementType": "Air",
+		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control"],
 	},
 	{
 		"name": "Glider",
