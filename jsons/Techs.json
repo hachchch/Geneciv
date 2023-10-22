@@ -493,7 +493,7 @@
 				"name": "Ear",
 				"row": 7,
 				"prerequisites": ["Reptile"],
-				"uniques": ["[+25]% XP gained from combat <for [Military] units>"],
+				"uniques": ["[+25]% XP gained from combat <for [Land] units>"],
 			},
 		]
 	},
@@ -552,6 +552,7 @@
 			{
 				"name": "Hair",
 				"row": 5,
+				"uniques": ["[+10]% Strength <when fighting in [Snow] tiles> <for [Mammal] units>"],
 				"prerequisites": ["Mammal"]
 			},
 			{
@@ -562,6 +563,7 @@
 			{
 				"name": "Glands",
 				"row": 7,
+				"uniques": ["[+10]% Strength <when fighting in [Desert] tiles>","[+10]% Strength <when fighting in [Jungle] tiles>"],
 				"prerequisites": ["Mammal"],
 			},
 		]
