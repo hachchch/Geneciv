@@ -32,7 +32,7 @@ TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Forests
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland-Paleogeneperiod
+TileSets/HexaRealm/Tiles/Grassland-Paleogene period
   rotate: false
   xy: 980, 1601
   size: 64, 56
@@ -46,7 +46,7 @@ TileSets/HexaRealm/Tiles/Grassland+Hill-Paleogene period
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+GrassLand-Paleogeneperiod
+TileSets/HexaRealm/Tiles/Grassland+GrassLand-Paleogene period
   rotate: false
   xy: 980, 1601
   size: 64, 56
