@@ -184,10 +184,32 @@
 	},
 	{
 		"name": "Intelligence",
-		"uniques": ["This Unit gains [10] XP <with [75]% chance> <upon defeating a [All] unit> <[5] times>"],
+		"uniques": ["May withdraw before melee ([33]%)"],
 		"row": 52,
 		"column": 0,
 		"unitTypes": ["Water Mammal","Hominiae"],
+	},
+	{
+		"name": "Bird Hunter",
+		"uniques": ["[50]% chance to intercept air attacks","[100]% Damage when intercepting","[-25]% Strength <vs [Land] units>"],
+		"row": 53,
+		"column": 0,
+		"unitTypes": ["Birds","Mammal","Hominiae"],
+	},
+	{
+		"name": "Bird Tamer I",
+		"uniques": ["Can carry [1] [Birds] units"],
+		"row": 54,
+		"column": 0,
+		"unitTypes": ["Human"],
+	},
+	{
+		"name": "Bird Tamer II",
+		"uniques": ["Can carry [1] extra [Birds] units"],
+		"prerequisites": ["Bird Tamer I"],
+		"row": 54,
+		"column": 1,
+		"unitTypes": ["Human"],
 	},
 	{
 		"name": "Cell Division",
