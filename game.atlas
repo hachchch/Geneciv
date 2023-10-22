@@ -2592,6 +2592,20 @@ size: 384, 192
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleP
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Grassland
   rotate: false
   xy: 980, 1601
@@ -2606,7 +2620,35 @@ TileSets/HexaRealm/Tiles/City center-Carboniferous period
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Silurian period
   rotate: false
   xy: 880, 1701
   size: 64, 56
@@ -2621,6 +2663,20 @@ TileSets/HexaRealm/Tiles/City center
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Pleistocene
   rotate: false
   xy: 880, 1501
   size: 64, 56
