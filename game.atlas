@@ -3057,7 +3057,7 @@ size: 128, 1000
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/AbsoluteUnits/Units/Big Reptile
+TileSets/AbsoluteUnits/Units/Sauropoda
   rotate: false
   xy: 0, 0
   size: 128, 128
@@ -3131,6 +3131,40 @@ TileSets/AbsoluteUnits/Units/Mankind
   xy: 0, 128
   size: 64, 64
   orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+game007.png
+size: 114, 1000
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Caniform
+  rotate: false
+  xy: 0, 0
+  size: 114, 115
+  orig: 114, 115
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Radiodonta
+  rotate: false
+  xy: 0, 115
+  size: 110, 107
+  orig: 110, 107
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Caniform-Pliocene
+  rotate: false
+  xy: 0, 222
+  size: 105, 96
+  orig: 105, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Boar
+  rotate: false
+  xy: 0, 318
+  size: 94, 87
+  orig: 94, 87
   offset: 0, 0
   index: -1
 
