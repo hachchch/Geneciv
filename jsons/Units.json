@@ -38,6 +38,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Radiodonta",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Radiodonta",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -54,6 +58,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
 				"imageSize": 192
 			},
 		]
@@ -238,6 +246,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Parasiticworm",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Parasiticworm",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -251,6 +263,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cordyceps",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cordyceps",
 				"imageSize": 192
 			},
 		]
@@ -273,6 +289,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Cancer",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cancer",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -288,6 +308,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Virus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Virus",
 				"imageSize": 192
 			},
 		]
@@ -340,6 +364,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Modern Jellyfish",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Jellyfish",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -354,6 +382,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Modern Fish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Fish",
 				"imageSize": 192
 			},
 			{
@@ -403,6 +435,10 @@
 				"imageSize": 192
 			},
 			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Dunkleosteus",
+				"imageSize": 192
+			},
+			{
 				"Separator": true
 			},
 			{
@@ -423,6 +459,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Megalodon",
 				"imageSize": 192
 			},
 		]
@@ -591,6 +631,13 @@
 				"extraImage": "TileSets/FantasyHex/Units/Herbivore",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Herbivore",
+				"imageSize": 192
+			},
+			{
+				"text": "Herbivores have been around for a long time, but the ornithischian reptiles are unique. They had pelvises like modern birds, and some had long, flat noses like ducks. And the predentary bones were suitable for grazing.",
+			},
 		]
 	},
 	{
@@ -612,6 +659,9 @@
 			},
 			{
 				"Separator": true
+			},
+			{
+				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
 			},
 		]
 	},
@@ -640,6 +690,9 @@
 			{
 				"Separator": true
 			},
+			{
+				"text": "Large reptiles that flourished during the Mesozoic Era and filled the Earth made their way to the ocean. Plesiosaurs had long necks, flat bodies, and four fins. that's right. This animal became the starting point for aquatic diapsid reptiles. Also following them comes the Cetacean. By the way, they were the first fossilized reptiles discovered by humans.",
+			},
 		]
 	},
 	{
@@ -655,6 +708,19 @@
 		"obsoleteTech": "Flying",
 		"upgradesTo": "Archeopteryx",
 		"attackSound": "Whoosh",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pterosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Pterosaur",
+				"imageSize": 192
+			},
+			{
+				"text": "Pterosaurs are known to be the first vertebrates to glide. And their leathery wings become like wool...",
+			},
+		]
 	},
 	{
 		"name": "Feliform",
@@ -668,6 +734,20 @@
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Feliform",
 				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform",
+				"imageSize": 192
+			},
+			{
+				"text": "After Pleistocene",
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform-Pleistocene",
+				"imageSize": 192
+			},
+			{
+				"text": "Cats, known as cute pets, are apex predators in the wild. African lions, American pumas, Asian tigers, and mountain snow leopards are all ferocious hunters, without domesticated felis catus.",
 			},
 		]
 	},
@@ -687,6 +767,10 @@
 				"imageSize": 192
 			},
 			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Lion",
+				"imageSize": 192
+			},
+			{
 				"Separator": true
 			},
 		]
@@ -703,6 +787,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Boar",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Boar",
 				"imageSize": 192
 			},
 		]
@@ -743,6 +831,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Caniform",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Caniform",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -756,6 +848,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Glires",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Glires",
 				"imageSize": 192
 			},
 		]
@@ -773,6 +869,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Dolphin",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Dolphin",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -787,6 +887,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Ape",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Ape",
 				"imageSize": 192
 			},
 			{
@@ -817,7 +921,7 @@
 				"imageSize": 200
 			},
 			{
-				"text": "I can't believe that you found this! This weakest beast is standing on its head in search of a new normal. Please evolve him just now! Although they are currently the weakest, but they may deviate from the predatory nature of the fittest and become the rulers of this universe abd they travel through space!",
+				"text": "Woooow You found he, this is hidden element:) This weakest beast is standing on its head in search of a new normal. Please evolve him just now! Although they are currently the weakest, but they may deviate from the predatory nature of the fittest and become the rulers of this universe abd they travel through space!",
 			},
 		]
 	},
@@ -1043,6 +1147,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Mankind",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Mankind",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -1059,6 +1167,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Thrower",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Thrower",
 				"imageSize": 192
 			},
 		]
