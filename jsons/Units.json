@@ -743,7 +743,7 @@
 				"text": "After Pleistocene",
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform-Pleistocene",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform-Pliocene",
 				"imageSize": 192
 			},
 			{
@@ -1034,6 +1034,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
 				"imageSize": 192
 			},
 			{
