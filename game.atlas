@@ -2918,14 +2918,14 @@ TileSets/AbsoluteUnits/Units/Ape
   index: -1
 TileSets/AbsoluteUnits/Units/Thrower
   rotate: false
-  xy: 0, 0
+  xy: 0, 64
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Mankind
   rotate: false
-  xy: 0, 0
+  xy: 0, 128
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
