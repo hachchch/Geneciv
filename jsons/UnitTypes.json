@@ -48,7 +48,7 @@
 	},
 	{
 		"name": "Air Mammal",
-		"movementType": "Air",
+		"movementType": "Land",
 		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control"],
 	},
 	{
