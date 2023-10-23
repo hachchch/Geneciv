@@ -4,7 +4,8 @@
 		"shortcutKey": "F",
 		"techRequired": "Fern",
 		"turnsToBuild": 3,
-		"uniques": ["Gives a defensive bonus of [15]%","Can only be built to improve a resource"],
+		"uniques": ["Gives a defensive bonus of [15]%","Can only be built to improve a resource",
+		"[+1 Production] <after discovering [Herbivore]>","[+1 Production] <after discovering [Flowers]>","[+1 Science] <after discovering [Primate]>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Forests",
