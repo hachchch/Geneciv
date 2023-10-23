@@ -3053,7 +3053,7 @@ TileSets/AbsoluteUnits/Units/Fish
   orig: 102, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Jellyfish
+TileSets/AbsoluteUnits/Units/Modern Jellyfish
   rotate: false
   xy: 0, 300
   size: 102, 100
@@ -3261,7 +3261,7 @@ TileSets/AbsoluteUnits/Units/Small Reptile
   orig: 99, 98
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Shark
+TileSets/AbsoluteUnits/Units/Shark2
   rotate: false
   xy: 0, 968
   size: 99, 97
