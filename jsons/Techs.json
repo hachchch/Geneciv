@@ -1419,4 +1419,53 @@
 			},
 		]
 	},
+	{
+		"columnNumber": 46,
+		"era": "Industrial era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Photography",
+				"row": 1,
+				"prerequisites": ["Biology"],
+			},
+			{
+				"name": "Recoil Reusion",
+				"row": 3,
+				"prerequisites": ["Bolt Action","Industrialization"],
+			},
+			{
+				"name": "Medical Institution",
+				"row": 2,
+				"prerequisites": ["Morphine","Industrialization"],
+			},
+			{
+				"name": "Combustion",
+				"row": 6,
+				"prerequisites": ["Industrialization","Economics"],
+			},
+			{
+				"name": "",
+				"row": 7,
+				"prerequisites": ["Game Theory"],
+			},
+			{
+				"name": "Mechanical Loom",
+				"row": 8,
+				"prerequisites": ["Loom","Industrialization"],
+			},
+			{
+				"name": "Radio",
+				"row": 9,
+				"prerequisites": ["Morse"],
+			},
+			{
+				"name": "Locomotive",
+				"row": 5,
+				"prerequisites": ["Locomotives","Morse"],
+			},
+		]
+	},
 ]
