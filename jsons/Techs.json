@@ -1203,6 +1203,11 @@
 				"prerequisites": ["Gunpowder","Chivalry"],
 			},
 			{
+				"name": "Hydraulically",
+				"row": 4,
+				"prerequisites": ["Physics","Machinery"],
+			},
+			{
 				"name": "Herbalism",
 				"row": 2,
 				"prerequisites": ["Organized Religion","Chivalry"],
@@ -1222,19 +1227,195 @@
 				"prerequisites": ["Paper Money","Printing Press"],
 			},
 			{
+				"name": "Turbine",
+				"row": 4,
+				"prerequisites": ["Hydraulically"],
+			},
+			{
 				"name": "Astrolabe",
 				"row": 1,
 				"prerequisites": ["Astronomy"],
 			},
 			{
-				"name": "Musket",
+				"name": "Musket Arms",
 				"row": 3,
 				"prerequisites": ["Fire Arms"],
 			},
 			{
-				"name": "Shipbuilding",
+				"name": "Ranged Trading",
 				"row": 10,
 				"prerequisites": ["Steel"],
+			},
+		]
+	},
+	{
+		"columnNumber": 42,
+		"era": "Discovery era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Sextant",
+				"row": 1,
+				"prerequisites": ["Astrolabe"],
+			},
+			{
+				"name": "Intensive farming",
+				"row": 10,
+				"prerequisites": ["Ranged Trading"],
+			},
+			{
+				"name": "Calculus",
+				"row": 4,
+				"prerequisites": ["Turbine"],
+			},
+			{
+				"name": "Pharmacy",
+				"row": 2,
+				"prerequisites": ["Herbalism"],
+			},
+			{
+				"name": "Flintlock",
+				"row": 3,
+				"prerequisites": ["Musket Arms"],
+			},
+			{
+				"name": "Contract Management",
+				"row": 6,
+				"prerequisites": ["Banking"],
+			},
+			{
+				"name": "Earth Globe",
+				"row": 9,
+				"prerequisites": ["Ranged Trading"],
+			},
+		]
+	},
+	{
+		"columnNumber": 43,
+		"era": "Scientific era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Magnetic Compass",
+				"row": 1,
+				"prerequisites": ["Sextant"],
+			},
+			{
+				"name": "Mechanics",
+				"row": 4,
+				"prerequisites": ["Flintlock","Calculus"],
+			},
+			{
+				"name": "Chemistry",
+				"row": 2,
+				"prerequisites": ["Pharmacy"],
+			},
+			{
+				"name": "Acoustics",
+				"row": 5,
+				"prerequisites": ["Contract Management"],
+			},
+			{
+				"name": "Manufacture",
+				"row": 6,
+				"prerequisites": ["Contract Management"],
+			},
+			{
+				"name": "Architecture",
+				"row": 7,
+				"prerequisites": ["Contract Management"],
+			},
+			{
+				"name": "Minie Bullet",
+				"row": 3,
+				"prerequisites": ["Contract Management","Flintlock"],
+			},
+		]
+	},
+	{
+		"columnNumber": 44,
+		"era": "Scientific era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Law of Gravity",
+				"row": 4,
+				"prerequisites": ["Mechanics"],
+			},
+			{
+				"name": "Rifling",
+				"row": 3,
+				"prerequisites": ["Minie Bullet","Mechanics"],
+			},
+			{
+				"name": "Steam Engine",
+				"row": 6,
+				"prerequisites": ["Chemistry","Mechanics"],
+			},
+			{
+				"name": "Biology",
+				"row": 2,
+				"prerequisites": ["Chemistry"],
+			},
+			{
+				"name": "Economics",
+				"row": 7,
+				"prerequisites": ["Mechanics","Architecture"],
+			},
+		]
+	},
+	{
+		"columnNumber": 45,
+		"era": "Industrial era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Photography",
+				"row": 1,
+				"prerequisites": ["Biology"],
+			},
+			{
+				"name": "Bolt Action",
+				"row": 3,
+				"prerequisites": ["Rifling","Law of Gravity"],
+			},
+			{
+				"name": "Morphine",
+				"row": 2,
+				"prerequisites": ["Biology"],
+			},
+			{
+				"name": "Industrialization",
+				"row": 6,
+				"prerequisites": ["Steam Engine","Economics"],
+			},
+			{
+				"name": "Game Theory",
+				"row": 7,
+				"prerequisites": ["Economics"],
+			},
+			{
+				"name": "Loom",
+				"row": 8,
+				"prerequisites": ["Steam Engine","Economics"],
+			},
+			{
+				"name": "Morse",
+				"row": 9,
+				"prerequisites": ["Economics"],
+			},
+			{
+				"name": "Locomotives",
+				"row": 5,
+				"prerequisites": ["Law of Gravity","Steam Engine"],
 			},
 		]
 	},
