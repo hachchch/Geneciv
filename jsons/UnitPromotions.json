@@ -24,10 +24,50 @@
 		"name": "Primates",
 		"uniques": ["Primate"],
 	},
+	{
+		"name": "Carnivora",
+		"uniques": ["Carnivora"],
+	},
+	{
+		"name": "Artiodactyla",
+		"uniques": ["Artiodactyl"],
+	},
+	{
+		"name": "Perissodactyla",
+		"uniques": ["Perissodactyla"],
+	},
+	// Magnorder
+	{
+		"name": "Boreoeutheria",
+		"uniques": ["Boreoeutheria"],
+	},
+	// Superorder
+	{
+		"name": "Euarchontoglires",
+		"uniques": ["Euarchontoglires"],
+	},
+	// Clade
+	{
+		"name": "Gliriformes",
+		"uniques": ["Gliriformes"],
+	},
+	// Grandorder
+	{
+		"name": "Glires",
+		"uniques": ["Glires"],
+	},
 	// Suborder
 	{
 		"name": "Haplorhini",
 		"uniques": ["Haplorhini"],
+	},
+	{
+		"name": "Feliformia",
+		"uniques": ["Feliform"],
+	},
+	{
+		"name": "Caniformia",
+		"uniques": ["Caniform"],
 	},
 	// Infraorder
 	{
@@ -39,10 +79,26 @@
 		"name": "Hominidae",
 		"uniques": ["Hominidae"],
 	},
+	{
+		"name": "Suidae",
+		"uniques": ["Suidae"],
+	},
+	{
+		"name": "Felidae",
+		"uniques": ["Felidae"],
+	},
+	{
+		"name": "Equidae",
+		"uniques": ["Equidae"],
+	},
 	// Subfamily
 	{
 		"name": "Homininae",
 		"uniques": ["Homininae"],
+	},
+	{
+		"name": "Pantherinae",
+		"uniques": ["Pantherinae"],
 	},
 	// Tribe
 	{
@@ -54,10 +110,34 @@
 		"name": "Homo",
 		"uniques": ["Homo"],
 	},
+	{
+		"name": "Sus",
+		"uniques": ["Hmmm...sus"],
+	},
+	{
+		"name": "Panthera",
+		"uniques": ["Not Panzer"],
+	},
+	{
+		"name": "Equus",
+		"uniques": ["Equus"],
+	},
 	// Species
 	{
-		"name": "H. sapiens",
+		"name": "H.sapiens",
 		"uniques": ["You"],
+	},
+	{
+		"name": "H.neanderthalensis",
+	},
+	{
+		"name": "S.scrofa",
+	},
+	{
+		"name": "P.leo",
+	},
+	{
+		"name": "E.ferus",
 	},
 	// General
 	{
