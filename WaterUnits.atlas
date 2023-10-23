@@ -24,3 +24,51 @@ TileSets/AbsoluteUnits/Units/Modern Fish
   orig: 94, 96
   offset: 0, 0
   index: -1
+
+WaterUnits2.png
+size: 117, 2023
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Shark
+  rotate: false
+  xy: 0, 0
+  size: 227, 234
+  orig: 227, 234
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Megalodon
+  rotate: false
+  xy: 0, 234
+  size: 195, 182
+  orig: 195, 182
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Archeopteryx
+  rotate: false
+  xy: 0, 416
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Crow
+  rotate: false
+  xy: 0, 544
+  size: 112, 115
+  orig: 112, 115
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eagle
+  rotate: false
+  xy: 0, 659
+  size: 112, 106
+  orig: 112, 106
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Neanderthalensis Warrior
+  rotate: false
+  xy: 0, 765
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
