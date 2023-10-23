@@ -1,4 +1,65 @@
 [
+	// Domain
+	{
+		"name": "Eukaryota",
+		"uniques": ["Eukaryote"],
+	},
+	// Kingdom
+	{
+		"name": "Animalia",
+		"uniques": ["Animal"],
+	},
+	// Phylum
+	{
+		"name": "Chordata",
+		"uniques": ["Chordate"],
+	},
+	// Class
+	{
+		"name": "Mammalia",
+		"uniques": ["Mammal"],
+	},
+	// Order
+	{
+		"name": "Primates",
+		"uniques": ["Primate"],
+	},
+	// Suborder
+	{
+		"name": "Haplorhini",
+		"uniques": ["Haplorhini"],
+	},
+	// Infraorder
+	{
+		"name": "Simiiformes",
+		"uniques": ["Simian"],
+	},
+	// Family
+	{
+		"name": "Hominidae",
+		"uniques": ["Hominidae"],
+	},
+	// Subfamily
+	{
+		"name": "Homininae",
+		"uniques": ["Homininae"],
+	},
+	// Tribe
+	{
+		"name": "Hominini",
+		"uniques": ["Hominini"],
+	},
+	// Genus
+	{
+		"name": "Homo",
+		"uniques": ["Homo"],
+	},
+	// Species
+	{
+		"name": "H. sapiens",
+		"uniques": ["You"],
+	},
+	// General
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
