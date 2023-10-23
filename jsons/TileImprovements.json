@@ -150,7 +150,7 @@
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"food": 4,
+		"food": 5,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
