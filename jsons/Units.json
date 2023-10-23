@@ -1000,6 +1000,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -1014,6 +1018,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Triceratops",
 				"imageSize": 192
 			},
 		]
@@ -1122,6 +1130,10 @@
 				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
 				"imageSize": 192
 			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Sauropoda",
+				"imageSize": 192
+			},
 		]
 	},
 	{
@@ -1135,7 +1147,11 @@
 		"requiredTech": "First Plant",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Vegetation",
+				"extraImage": "TileSets/FantasyHex/Tiles/Grassland+GrassLand",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Tiles/Grassland+GrassLand",
 				"imageSize": 192
 			},
 		]
