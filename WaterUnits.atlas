@@ -1,5 +1,26 @@
 WaterUnits.png
-size: 2048, 2048
+size: 117, 2023
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/AbsoluteUnits/Units/Dolphin
+  rotate: false
+  xy: 0, 0
+  size: 117, 115
+  orig: 117, 115
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Jellyfish
+  rotate: false
+  xy: 0, 115
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Modern Fish
+  rotate: false
+  xy: 0, 211
+  size: 94, 96
+  orig: 94, 96
+  offset: 0, 0
+  index: -1
