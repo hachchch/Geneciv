@@ -4,6 +4,48 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/HexaRealm/Tiles/Tundra-Paleogene period
+  rotate: false
+  xy: 292, 678
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand-Paleogene period
+  rotate: false
+  xy: 292, 678
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra2-Paleogene period
+  rotate: false
+  xy: 292, 614
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra3-Paleogene period
+  rotate: false
+  xy: 364, 1254
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand2-Paleogene period
+  rotate: false
+  xy: 292, 614
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand3-Paleogene period
+  rotate: false
+  xy: 364, 1254
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Forest+Forests-Paleogene period
   rotate: false
   xy: 148, 183
@@ -2704,6 +2746,20 @@ TileSets/HexaRealm/Tiles/Plains+Jungle+Forests
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Jungle+Forests
+  rotate: false
+  xy: 680, 1593
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+Jungle+Forests
+  rotate: false
+  xy: 680, 1693
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Grassland2
   rotate: false
   xy: 1080, 1601
@@ -2786,6 +2842,97 @@ TileSets/HexaRealm/Tiles/Plains+Forest+Forests
   xy: 980, 1784
   size: 64, 73
   orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra
+  rotate: false
+  xy: 980, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra2
+  rotate: false
+  xy: 1080, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra3
+  rotate: false
+  xy: 980, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra4
+  rotate: false
+  xy: 1080, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests
+  rotate: false
+  xy: 1180, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests2
+  rotate: false
+  xy: 1280, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand
+  rotate: false
+  xy: 1380, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand2
+  rotate: false
+  xy: 1480, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+City center
+  rotate: false
+  xy: 1580, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+City center
+  rotate: false
+  xy: 1680, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert
+  rotate: false
+  xy: 1678, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert2
+  rotate: false
+  xy: 1750, 1705
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert3
+  rotate: false
+  xy: 1822, 1713
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains
