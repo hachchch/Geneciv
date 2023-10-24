@@ -1575,6 +1575,11 @@
 		"wonderCost": 100,
 		"techs": [
 			{
+				"name": "Molecular Biology",
+				"row": 2,
+				"prerequisites": ["Refrigeration"],
+			},
+			{
 				"name": "Rocketry",
 				"row": 3,
 				"prerequisites": ["Ballistics"],
@@ -1598,6 +1603,11 @@
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
+			{
+				"name": "Genetics",
+				"row": 2,
+				"prerequisites": ["Molecular Biology"],
+			},
 			{
 				"name": "Terminal",
 				"row": 9,
@@ -1627,6 +1637,16 @@
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
+			{
+				"name": "Globalization",
+				"row": 8,
+				"prerequisites": ["Neumann Computer","Telecommunications"],
+			},
+			{
+				"name": "Modern Biotech",
+				"row": 2,
+				"prerequisites": ["Molecular Biology"],
+			},
 			{
 				"name": "3G Network",
 				"row": 7,
@@ -1664,12 +1684,17 @@
 			{
 				"name": "Genome Mapping",
 				"row": 2,
-				"prerequisites": ["Online Commerce","3G Network"],
+				"prerequisites": ["Modern Biotech"],
+			},
+			{
+				"name": "Nanotechnology",
+				"row": 1,
+				"prerequisites": ["Modern Biotech"],
 			},
 			{
 				"name": "Artificial Intelligence",
 				"row": 10,
-				"prerequisites": ["Online Commerce","3G Network"],
+				"prerequisites": ["Modern Biotech","3G Network"],
 			},
 		]
 	},
