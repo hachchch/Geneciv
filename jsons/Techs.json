@@ -1447,9 +1447,9 @@
 				"prerequisites": ["Industrialization","Economics"],
 			},
 			{
-				"name": "",
+				"name": "Telephone",
 				"row": 7,
-				"prerequisites": ["Game Theory"],
+				"prerequisites": ["Game Theory","Morse"],
 			},
 			{
 				"name": "Mechanical Loom",
@@ -1462,9 +1462,58 @@
 				"prerequisites": ["Morse"],
 			},
 			{
-				"name": "Locomotive",
+				"name": "Phonograph",
+				"row": 10,
+				"prerequisites": ["Morse"],
+			},
+			{
+				"name": "Combustion",
 				"row": 5,
-				"prerequisites": ["Locomotives","Morse"],
+				"prerequisites": ["Industrialization","Locomotives"],
+			},
+		]
+	},
+	{
+		"columnNumber": 47,
+		"era": "Atomic era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Electronics",
+				"row": 9,
+				"prerequisites": ["Radio","Phonograph","Telephone"],
+			},
+			{
+				"name": "Relativity",
+				"row": 8,
+				"prerequisites": ["Combustion","Phonograph","Telephone"],
+			},
+			{
+				"name": "Plastic",
+				"row": 1,
+				"prerequisites": ["Medical Institution"],
+			},
+			{
+				"name": "Antibiotics",
+				"row": 2,
+				"prerequisites": ["Medical Institution"],
+			},
+			{
+				"name": "Ballistics",
+				"row": 3,
+				"prerequisites": ["Recoil Reusion"],
+			},
+			{
+				"name": "Flight",
+				"row": 5,
+				"prerequisites": ["Combustion"],
+			},
+			{
+				"name": "Movie",
+				"row": 10,
+				"prerequisites": ["Radio","Phonograph","Telephone"],
 			},
 		]
 	},
