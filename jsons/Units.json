@@ -1420,7 +1420,7 @@
 	// Meghalayan Strange Animals
 	{
 		"name": "Catapult",
-		"unitType": "Human",
+		"unitType": "Siege",
 		"movement": 2,
 		"strength": 140,
 		"rangedStrength": 160,
@@ -1433,7 +1433,7 @@
 	},
 	{
 		"name": "Swordsman",
-		"unitType": "Human",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 280,
 		"cost": 1500,
@@ -1445,7 +1445,7 @@
 	},
 	{
 		"name": "Pikeman",
-		"unitType": "Human",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 200,
 		"cost": 1500,
@@ -1455,7 +1455,7 @@
 	},
 	{
 		"name": "Knight",
-		"unitType": "Human",
+		"unitType": "Husbandried",
 		"movement": 4,
 		"strength": 400,
 		"cost": 2800,
@@ -1465,7 +1465,7 @@
 	},
 	{
 		"name": "Longswordsman",
-		"unitType": "Human",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 380,
 		"cost": 2800,
@@ -1476,7 +1476,7 @@
 	},
 	{
 		"name": "Rocket Spear",
-		"unitType": "Human",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"range": 2,
 		"strength": 180,
@@ -1484,15 +1484,66 @@
 		"cost": 3000,
 		"requiredTech": "Fire Arms",
 		"attackSound": "shot",
-		"uniques": ["Free [Pikeman] appears <upon being defeated>","Must set up to ranged attack","Self-destructs when attacking","Destroys tile improvements when attacking"],
+		"uniques": ["Free [Pikeman] appears <upon defeating a [Military] unit>","Must set up to ranged attack","Self-destructs when attacking","Destroys tile improvements when attacking"],
 	},
 	{
 		"name": "Musketman",
-		"unitType": "Human",
+		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 480,
 		"cost": 3000,
 		"requiredTech": "Musket Arms",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Line Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 580,
+		"cost": 3850,
+		"requiredTech": "Flintlock",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 680,
+		"cost": 4500,
+		"requiredTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 420,
+		"rangedStrength": 560,
+		"range": 3,
+		"cost": 6400,
+		"requiredTech": "Dynamite",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Submarine",
+		"unitType": "Human Water",
+		"movement": 5,
+		"strength": 700,
+		"rangedStrength": 1200,
+		"cost": 6500,
+		"requiredTech": "Refrigeration",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 1000,
+		"cost": 6400,
+		"requiredTech": "Replaceable Parts",
 		"attackSound": "shot"
 	},
 ]
