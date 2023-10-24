@@ -373,7 +373,7 @@
 	},
 	{
 		"name": "Gamerule2",
-		"uniques": ["Unsellable","Unbuildable","Cannot build [Cell] units"]
+		"uniques": ["Unsellable","Unbuildable"]
 	},
         {
                 "name": "Palace",
