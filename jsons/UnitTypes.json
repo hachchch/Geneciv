@@ -82,6 +82,14 @@
 		"uniques": ["[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
 	},
 	{
+		"name": "Sword",
+		"movementType": "Land",
+	},
+	{
+		"name": "Gunpowder",
+		"movementType": "Land",
+	},
+	{
 		"name": "Human Air",
 		"movementType": "Air",
 		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
