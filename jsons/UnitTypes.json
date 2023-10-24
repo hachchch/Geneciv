@@ -122,4 +122,8 @@
 		"name": "Missile",
 		"movementType": "Land",
 	},
+	{
+		"name": "Aircraft Carrier",
+		"movementType": "Land",
+	},
 ]
