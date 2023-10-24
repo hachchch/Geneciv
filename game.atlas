@@ -2830,6 +2830,20 @@ TileSets/HexaRealm/Tiles/ForestP
   orig: 64, 67
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/ForestT
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestTH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/ForestGH
   rotate: false
   xy: 980, 1490
