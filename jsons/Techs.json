@@ -1345,7 +1345,7 @@
 		"techs": [
 			{
 				"name": "Law of Gravity",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Mechanics"],
 			},
 			{
@@ -1367,6 +1367,11 @@
 				"name": "Economics",
 				"row": 7,
 				"prerequisites": ["Mechanics","Architecture"],
+			},
+			{
+				"name": "Military Science",
+				"row": 4,
+				"prerequisites": ["Chemistry","Mechanics","Minie Bullet"],
 			},
 		]
 	},
@@ -1413,6 +1418,11 @@
 				"prerequisites": ["Economics"],
 			},
 			{
+				"name": "Dynamite",
+				"row": 4,
+				"prerequisites": ["Economics","Military Science"],
+			},
+			{
 				"name": "Locomotives",
 				"row": 5,
 				"prerequisites": ["Law of Gravity","Steam Engine"],
@@ -1434,17 +1444,12 @@
 			{
 				"name": "Recoil Reusion",
 				"row": 3,
-				"prerequisites": ["Bolt Action","Industrialization"],
+				"prerequisites": ["Bolt Action","Industrialization","Dynamite"],
 			},
 			{
 				"name": "Medical Institution",
 				"row": 2,
 				"prerequisites": ["Morphine","Industrialization"],
-			},
-			{
-				"name": "Combustion",
-				"row": 6,
-				"prerequisites": ["Industrialization","Economics"],
 			},
 			{
 				"name": "Telephone",
@@ -1471,6 +1476,11 @@
 				"row": 5,
 				"prerequisites": ["Industrialization","Locomotives"],
 			},
+			{
+				"name": "Electricity",
+				"row": 4,
+				"prerequisites": ["Industrialization"],
+			},
 		]
 	},
 	{
@@ -1483,17 +1493,17 @@
 			{
 				"name": "Electronics",
 				"row": 9,
-				"prerequisites": ["Radio","Phonograph","Telephone"],
+				"prerequisites": ["Electricity","Radio","Phonograph","Telephone"],
 			},
 			{
 				"name": "Relativity",
 				"row": 8,
-				"prerequisites": ["Combustion","Phonograph","Telephone"],
+				"prerequisites": ["Electricity","Phonograph","Telephone"],
 			},
 			{
-				"name": "Plastic",
+				"name": "Plastics",
 				"row": 1,
-				"prerequisites": ["Medical Institution"],
+				"prerequisites": ["Electricity","Medical Institution"],
 			},
 			{
 				"name": "Antibiotics",
@@ -1501,7 +1511,7 @@
 				"prerequisites": ["Medical Institution"],
 			},
 			{
-				"name": "Ballistics",
+				"name": "Replaceable Parts",
 				"row": 3,
 				"prerequisites": ["Recoil Reusion"],
 			},
@@ -1529,6 +1539,138 @@
 				"row": 9,
 				"prerequisites": ["Electronics"],
 			},
+			{
+				"name": "Refrigeration",
+				"row": 2,
+				"prerequisites": ["Antibiotics", "Electronics"],
+			},
+			{
+				"name": "Ballistics",
+				"row": 3,
+				"prerequisites": ["Replaceable Parts"],
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 8,
+				"prerequisites": ["Relativity"],
+				
+			},
+			{
+				"name": "Rader",
+				"row": 5,
+				"prerequisites": ["Electronics","Flight"],
+			},
+			{
+				"name": "Television",
+				"row": 10,
+				"prerequisites": ["Movie","Plastics"],
+			},
 		]
-	}
+	},
+	{
+		"columnNumber": 49,
+		"era": "Information era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Rocketry",
+				"row": 3,
+				"prerequisites": ["Ballistics"],
+			},
+			{
+				"name": "Circuit",
+				"row": 9,
+				"prerequisites": ["Transistor","Nuclear Fission"],
+			},
+			{
+				"name": "Computers",
+				"row": 10,
+				"prerequisites": ["Transistor","Television"],
+			},
+		]
+	},
+	{
+		"columnNumber": 50,
+		"era": "Information era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Terminal",
+				"row": 9,
+				"prerequisites": ["Computers"],
+			},
+			{
+				"name": "Computer Chip",
+				"row": 10,
+				"prerequisites": ["Computers","Circuit"],
+			},
+			{
+				"name": "Neumann Computer",
+				"row": 8,
+				"prerequisites": ["Computers"],
+			},
+			{
+				"name": "Telecommunications",
+				"row": 7,
+				"prerequisites": ["Computers"],
+			},
+		]
+	},
+	{
+		"columnNumber": 51,
+		"era": "Contemporary era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "3G Network",
+				"row": 7,
+				"prerequisites": ["Telecommunications"],
+			},
+			{
+				"name": "Online Commerce",
+				"row": 6,
+				"prerequisites": ["Telecommunications"],
+			},
+		]
+	},
+	{
+		"columnNumber": 51,
+		"era": "Contemporary era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Smart Phone",
+				"row": 7,
+				"prerequisites": ["Online Commerce","3G Network"],
+			},
+			{
+				"name": "Social Media",
+				"row": 6,
+				"prerequisites": ["Online Commerce","3G Network"],
+			},
+			{
+				"name": "Space Station",
+				"row": 3,
+				"prerequisites": ["Online Commerce","3G Network"],
+			},
+			{
+				"name": "Genome Mapping",
+				"row": 2,
+				"prerequisites": ["Online Commerce","3G Network"],
+			},
+			{
+				"name": "Artificial Intelligence",
+				"row": 10,
+				"prerequisites": ["Online Commerce","3G Network"],
+			},
+		]
+	},
 ]
