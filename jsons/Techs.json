@@ -993,7 +993,7 @@
 				"prerequisites": ["Sailing"],
 			},
 			{
-				"name": "Metallurgy",
+				"name": "Bronze Working",
 				"row": 9,
 				"prerequisites": ["Mining"],
 			},
@@ -1039,7 +1039,7 @@
 			{
 				"name": "Nail",
 				"row": 8,
-				"prerequisites": ["Masonry","Metallurgy"],
+				"prerequisites": ["Masonry","Bronze Working"],
 			},
 			{
 				"name": "Construction",
