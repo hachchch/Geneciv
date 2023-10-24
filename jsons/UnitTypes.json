@@ -110,4 +110,16 @@
 		"name": "Fixed",
 		"movementType": "Air",
 	},
+	{
+		"name": "Archery",
+		"movementType": "Land",
+	},
+	{
+		"name": "Armored",
+		"movementType": "Land",
+	},
+	{
+		"name": "Missile",
+		"movementType": "Land",
+	},
 ]
