@@ -391,5 +391,41 @@
 		"cost": 60,
 		"uniques": ["[+10%] [Gold] [in this city]"],
 		"requiredTech": "Nucleotides",
-	}
+	},
+	// Meghalayan
+	{
+		"name": "Granary",
+		"cost": 1000,
+		"food": 2,
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Stonehenge",
+		"faith": 25,
+		"cost": 3000,
+		"isWonder": true,
+		"requiredTech": "Calendar",
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 5,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Paper"
+	},
+	{
+		"name": "Water Mill",
+		"maintenance": 10,
+		"food": 2,
+		"production": 10,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Gear"
+	},
 ]
