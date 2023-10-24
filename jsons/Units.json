@@ -1566,7 +1566,6 @@
 		"rangedStrength": 340,
 		"cost": 2000,
 		"requiredTech": "Telescope",
-		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
@@ -1683,7 +1682,6 @@
 		"rangedStrength": 1100,
 		"range": 3,
 		"cost": 7500,
-		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
@@ -1834,7 +1832,7 @@
 		"range": 12,
 		"cost": 20000,
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["Nuclear weapon of Strength [2]", "Only available <if [Manhattan Project] is constructed>",
+		"uniques": ["Nuclear weapon of Strength [2]",
 			"Blast radius [2]"],
 		"attackSound": "nuke"
 	},
