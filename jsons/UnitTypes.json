@@ -124,6 +124,6 @@
 	},
 	{
 		"name": "Aircraft Carrier",
-		"movementType": "Land",
+		"movementType": "Water",
 	},
 ]
