@@ -1645,7 +1645,7 @@
 			{
 				"name": "Modern Biotech",
 				"row": 2,
-				"prerequisites": ["Molecular Biology"],
+				"prerequisites": ["Genetics"],
 			},
 			{
 				"name": "3G Network",
