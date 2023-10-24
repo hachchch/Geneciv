@@ -969,7 +969,7 @@
 				"prerequisites": ["The Wheel","Urbanization"],
 			},
 			{
-				"name": "Calender",
+				"name": "Calendar",
 				"row": 2,
 				"prerequisites": ["Pottery"],
 			},
