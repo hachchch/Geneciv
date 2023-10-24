@@ -1081,7 +1081,7 @@
 				"prerequisites": ["Construction","Nail"],
 			},
 			{
-				"name": "Teology",
+				"name": "Theology",
 				"row": 2,
 				"prerequisites": ["Geometry","Philosophy"],
 			},
