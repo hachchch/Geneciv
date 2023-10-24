@@ -396,7 +396,7 @@
 	{
 		"name": "Granary",
 		"cost": 1000,
-		"food": 2,
+		"food": 10,
 		"maintenance": 5,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
@@ -413,6 +413,7 @@
 	},
 	{
 		"name": "Library",
+		"cost": 1000,
 		"hurryCostModifier": 25,
 		"maintenance": 5,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
@@ -420,11 +421,40 @@
 	},
 	{
 		"name": "Water Mill",
+		"cost": 1500,
 		"maintenance": 10,
-		"food": 2,
-		"production": 10,
+		"food": 20,
+		"production": 20,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "Gear"
+	},
+	{
+		"name": "Workshop",
+		"cost": 1500,
+		"maintenance": 10,
+		"production": 20,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Nail"
+	},
+	{
+		"name": "Bank",
+		"cost": 1500,
+		"gold": 50,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Factory",
+		"cost": 3600,
+		"production": 40,
+		"percentStatBonus": {"production": 10},
+		"requiredBuilding": "Workshop",
+		"maintenance": 30,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
 	},
 ]
