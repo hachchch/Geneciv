@@ -1517,4 +1517,18 @@
 			},
 		]
 	},
+	{
+		"columnNumber": 48,
+		"era": "Atomic era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Transistor",
+				"row": 9,
+				"prerequisites": ["Electronics"],
+			},
+		]
+	}
 ]
