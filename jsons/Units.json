@@ -1471,7 +1471,7 @@
 		"cost": 2800,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Musket Arms",
 		"attackSound": "metalhit"
 	},
 	{
@@ -1479,7 +1479,7 @@
 		"unitType": "Human",
 		"movement": 2,
 		"range": 2,
-		"Strength": 180,
+		"strength": 180,
 		"rangedStrength": 1000,
 		"cost": 3000,
 		"requiredTech": "Fire Arms",
