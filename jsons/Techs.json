@@ -1112,7 +1112,7 @@
 			{
 				"name": "Alchemy",
 				"row": 3,
-				"prerequisites": ["Teology","Iron Working"],
+				"prerequisites": ["Theology","Iron Working"],
 			},
 			{
 				"name": "Currency",
@@ -1127,7 +1127,7 @@
 			{
 				"name": "Education",
 				"row": 2,
-				"prerequisites": ["Civil Service","Teology"],
+				"prerequisites": ["Civil Service","Theology"],
 			},
 		]
 	},
@@ -1556,7 +1556,7 @@
 				
 			},
 			{
-				"name": "Rader",
+				"name": "Radar",
 				"row": 5,
 				"prerequisites": ["Electronics","Flight"],
 			},
