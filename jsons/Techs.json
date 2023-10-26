@@ -25,6 +25,7 @@
 				"row": 5,
 				"prerequisites": ["Home Star"],
 				"uniques": ["Cannot be hurried","[+100]% growth [in all cities]"],
+				"quote": "This is the planet we live on. Although it is still a ball of magma, it has already met the miraculous conditions for growing life.",
 			}
 		]
 	},
@@ -39,13 +40,15 @@
 				"name": "Primordial Soup",
 				"row": 5,
 				"prerequisites": ["Planet Earth"],
-				"uniques": ["[+4 Happiness] from [Lakes] tiles [in all cities]"]
+				"uniques": ["[+4 Happiness] from [Lakes] tiles [in all cities]"],
+				"quote": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
 			},
 			{
 				"name": "Moon",
 				"row": 3,
 				"prerequisites": ["Planet Earth"],
 				"uniques": ["[+10]% growth [in all cities]"],
+				"quote": "The moon causes the tides. This is important because it relates to changes in sea level, but there are still many mysteries about how the moon was born. In many cases, it is said that it was created by the impact of a giant meteorite, and that it separated from the earth, but there is also a theory that it was created by the Sumerians.",
 			}
 		]
 	},
@@ -401,12 +404,14 @@
 				"name": "Medulla Oblongata",
 				"row": 2,
 				"prerequisites": ["Nerve Cord","Gills","Eye"],
-				"uniques": ["[+1 Production] from [Ocean] tiles [in all cities]"]
+				"uniques": ["[+1 Production] from [Ocean] tiles [in all cities]"],
+				"quote": "medulla oblongata is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing.",
 			},
 			{
 				"name": "Fern",
 				"row": 1,
 				"prerequisites": ["Spore Plant"],
+				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
 			{
 				"name": "Lungfish",
@@ -418,7 +423,8 @@
 				"name": "Predation",
 				"row": 8,
 				"prerequisites": ["Excretion Opening","Jaw"],
-				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]"]
+				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]"],
+				"quote": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
 			},
 		]
 	},
@@ -433,18 +439,21 @@
 				"name": "Reptile",
 				"row": 6,
 				"prerequisites": ["Lungfish","Medulla Oblongata"],
+				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
 			},
 			{
 				"name": "Insect",
 				"row": 1,
 				"prerequisites": ["Fern","Lungfish"],
 				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
+				"quote": "Once invertebrates were brought to land, they rapidly evolved at a rate unmatched by vertebrates. The secret lies in their low metabolism and high birth rate. And because the lungs are not used, the blood is not red. They account for 53% of all living creatures in terms of the number of discovered species that exist today.",
 			},
 			{
 				"name": "Legs",
 				"row": 4,
 				"prerequisites": ["Fins","Lungfish"],
-				"uniques": ["Enables Open Borders agreements","[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
+				"uniques": ["Improve Lungfishes Move Speed","Enables Open Borders agreements","[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
+				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins are very similar.",
 			},
 			{
 				"name": "Water Tight",
