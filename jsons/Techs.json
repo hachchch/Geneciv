@@ -905,6 +905,7 @@
 				"name": "Agriculture",
 				"row": 6,
 				"prerequisites": ["Anthropocene"],
+				"quote": "Congratulations. After a long evolutionary journey, you gave birth to an intelligent life form. It will be less than 1 million years before they, the one of  primate species, dominate the everything!",
 			},
 		]
 	},
