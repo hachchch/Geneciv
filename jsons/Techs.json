@@ -824,6 +824,7 @@
 				"name": "War",
 				"row": 1,
 				"prerequisites": ["Homo Sapiens","Advanced Game"],
+				"quote": "Homo Genus evolves to exhibit organized behavior. Finally, H. sapiens is capable of the organized violence like a we know. This allows for a new behavior: exclusion of others. As a result, large numbers military group of H.sapiens slaughtered family groups of H. neanderthalensis."
 			},
 			{
 				"name": "Speaking",
