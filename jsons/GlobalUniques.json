@@ -13,7 +13,7 @@
 		"[Mammal] units gain the [Eukaryota] promotion",
 		"[Reptiles] units gain the [Eukaryota] promotion",
 		"[Hominiae] units gain the [Eukaryota] promotion",
-		"[Amphibian] units gain the [Eukaryota] promotion",
+		"[Amphibian] units gain the [Eukaryota] promotion"/*,
 	"[Human] units gain the [Animalia] promotion",
 	"[Human] units gain the [Chordata] promotion",
 	"[Mammal] units gain the [Animalia] promotion",
@@ -40,5 +40,5 @@
 	"[Human] units gain the [Homo] promotion",
 	"[Sapiens Warrior] units gain the [H.sapiens] promotion",
 	"[Neanderthalensis Warrior] units gain the [H.neanderthalensis] promotion",
-	"[Human] units gain the [Haplorhini] promotion"],
+	"[Human] units gain the [Haplorhini] promotion"*/],
 }
