@@ -104,6 +104,14 @@
 		"cost": 750,
 	},
 	{
+		"name": "Kelp Forest",
+		"specialistSlots": {"Vegetation": 1},
+		"requiredTech": "Modern Ocean",
+		"production": 4,
+		"uniques": ["Must be next to [Coast]"],
+ 		"cost": 750,
+	},
+	{
 		"name": "Big Brain",
 		"cost": 1000,
 		"science": 5,
@@ -282,7 +290,7 @@
 		"specialistSlots": {"Creature": 1},
 		"cost": 100,
 		"production": 2,
-		"uniques": ["[+1 Production] from [Coast] tiles [in this city]"],
+		"uniques": ["Must be next to [Coast]","[+1 Production] from [Coast] tiles [in this city]"],
 		"requiredTech": "Coral",
 	},
 	{
@@ -298,7 +306,7 @@
 		"specialistSlots": {"Vegetation": 1},
 		"cost": 120,
 		"requiredTech": "Chloroplasts",
-		"uniques": ["[+1 Food] from [Coast] tiles [in this city]"]
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles [in this city]"]
 	},
 	{
 		"name": "Fungi",
