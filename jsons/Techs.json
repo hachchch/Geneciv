@@ -201,7 +201,7 @@
 				"name": "Sexual Reproduction",
 				"row": 9,
 				"prerequisites": ["Asexual Reproduction"],
-				"uniques": ["Enables conversion of city production to [Science]"],
+				"uniques": ["Enables conversion of city production to [Science]","[+1 Science] from every specialist [in all cities]"],
 			}
 		]
 		
@@ -497,12 +497,13 @@
 				"name": "Warm Blooded",
 				"row": 4,
 				"prerequisites": ["Lung","Legs","Water Tight"],
+				"uniques": ["[+20]% Strength for cities <when defending>"],
 			},
 			{
 				"name": "Ear",
 				"row": 7,
 				"prerequisites": ["Reptile"],
-				"uniques": ["[+25]% XP gained from combat <for [Land] units>"],
+				"uniques": ["[+25]% Golden Age length","[+25]% XP gained from combat <for [Land] units>"],
 			},
 		]
 	},
@@ -527,6 +528,7 @@
 				"name": "Wings",
 				"row": 4,
 				"prerequisites": ["Archosauria"],
+				"uniques": ["[+10]% Strength <for [Herbivore] units>","[+1] movement <for [Avemetatarsalia] units>"],
 			},
 		]
 	},
@@ -556,7 +558,8 @@
 			{
 				"name": "Feathers"
 				"row": 4,
-				"prerequisites": ["Wings"]
+				"prerequisites": ["Wings"],
+				"uniques": ["[+1] Sight <for [Avemetatarsalia] units>"],
 			},
 			{
 				"name": "Hair",
@@ -644,7 +647,7 @@
 				"name": "Placenta",
 				"row": 9,
 				"prerequisites": ["Uterus","Eutherians"],
-				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"uniques": ["[+5]% Strength <for [Mammal] units> <when defending>","Production to [Science] conversion in cities changed by [+10]%"],
 			},
 		]
 	},
@@ -658,7 +661,7 @@
 			{
 				"name": "Ape",
 				"row": 6,
-				"prerequisites": ["Primate","Neocortex"]
+				"prerequisites": ["Primate","Neocortex"],
 			},
 			{
 				"name": "Learning",
@@ -694,7 +697,8 @@
 				"name": "Ape Brain",
 				"row": 2,
 				"prerequisites": ["Ape","Learning"],
-				"uniques": ["[+1 Science] per [2] population [in all cities]"],
+				"uniques": ["N e u r o n   A c t i v a t e d",
+					"[+1 Science] per [2] population [in all cities]"],
 			},
 		]
 	},
