@@ -2648,6 +2648,13 @@ TileSets/HexaRealm/Tiles/JungleG
   orig: 64, 67
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Vegetation
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/JungleP
   rotate: false
   xy: 980, 1490
