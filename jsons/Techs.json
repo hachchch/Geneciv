@@ -359,7 +359,8 @@
 				"name": "Spore Plant",
 				"row": 1,
 				"prerequisites": ["First Plant"],
-				"uniques": ["[+10]% [Food] [in all cities]"]
+				"uniques": ["[+1 Food] from [Grassland] tiles [in all cities]",
+				"[+1 Production] from [Plains] tiles [in all cities]"]
 			},
 			{
 				"name": "Fins",
