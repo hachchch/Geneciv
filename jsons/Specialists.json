@@ -1,10 +1,5 @@
 [
 	{
-		"name": "Reproductive",
-		"science": 3,
-		"color": [0, 0, 255]
-	},
-	{
 		"name": "Meristem",
 		"gold": 2,
 		"color": [255, 215, 0]
