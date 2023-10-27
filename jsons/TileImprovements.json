@@ -133,7 +133,7 @@
 		"name": "GrassLand",
 		"shortcutKey": "G",
 		"techRequired": "Chloroplasts",
-		"food": 2,
+		"food": 1,
 		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Plains","Hill"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
