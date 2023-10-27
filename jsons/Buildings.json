@@ -15,6 +15,7 @@
 	// Land Arthropod
 	{
 		"name": "Beetles",
+		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
 		"production": 5,
 		"cost": 350,
@@ -22,6 +23,7 @@
 	},
 	{
 		"name": "Uniramia",
+		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
 		"food": 1,
 		"production": 1,
@@ -30,6 +32,7 @@
 	},
 	{
 		"name": "Orthoptera",
+		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
 		"food": 1,
 		"production": 1,
@@ -47,6 +50,7 @@
 	// National Wonders
 	{
 		"name": "Ozone Layer",
+		"specialistSlots": {"Creature": 1},
 		"isNationalWonder": true,
 		"cost": 200,
 		"food": 4,
@@ -55,6 +59,7 @@
 	},
 	{
 		"name": "Cambrian Explosion",
+		"specialistSlots": {"Creature": 2},
 		"isNationalWonder": true,
 		"production": 10,
 		"cost": 300,
@@ -62,6 +67,7 @@
 	},
 	{
 		"name": "Cambrian Extinction",
+		"specialistSlots": {"Meristem": 2},
 		"isNationalWonder": true,
 		"culture": 10,
 		"cost": 300,
@@ -92,6 +98,7 @@
 	},
 	{
 		"name": "Green Field",
+		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Grass",
 		"food": 4,
 		"cost": 750,
@@ -272,6 +279,7 @@
 	},
 	{
 		"name": "Oscula",
+		"specialistSlots": {"Creature": 1},
 		"cost": 100,
 		"production": 2,
 		"uniques": ["[+1 Production] from [Coast] tiles [in this city]"],
@@ -280,24 +288,28 @@
 	{
 		"name": "Photosynthesis",
 		"cost": 120,
+		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Chloroplasts",
 		"production": 1,
 		"uniques": ["[+1 Production] from [GrassLand] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]"],
 	},
 	{
 		"name": "Algae",
+		"specialistSlots": {"Vegetation": 1},
 		"cost": 120,
 		"requiredTech": "Chloroplasts",
 		"uniques": ["[+1 Food] from [Coast] tiles [in this city]"]
 	},
 	{
 		"name": "Fungi",
+		"specialistSlots": {"Meristem": 1},
 		"requiredTech": "Tissue",
 		"cost": 100,
 		"science": 2,
 	},
 	{
 		"name": "Muscles",
+		"specialistSlots": {"Meristem": 1},
 		"requiredTech": "Muscles",
 		"cost": 120,
 		"cityHealth": 15,
@@ -329,6 +341,7 @@
 	},
 	{
 		"name": "Vertebrate",
+		"specialistSlots": {"Creature": 1},
 		"cost": 135,
 		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
 		"requiredTech": "Vertebrate",
