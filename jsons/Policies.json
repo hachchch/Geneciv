@@ -9,13 +9,13 @@
 				"name": "Super Plume",
 				"row": 1,
 				"column": 3,
-				"uniques": ["[+10]% [Gold] [in all cities]","[+10 Gold] [in capital] <for [10] turns>"],
+				"uniques": ["Gain [-100] [Gold]","[+10]% [Gold] [in all cities]","[+10 Gold] [in capital] <for [10] turns>"],
 			},
 			{
 				"name": "Great Volcanic Activity",
 				"row": 2,
 				"column": 3,
-				"uniques": ["[+10]% [Production] [in all cities]","[+110 Production] from every [Volcano] <for [2] turns>"],
+				"uniques": ["[+1000]% Strength <for [Cell] units> <for [5] turns>","[+10]% [Production] [in all cities]","[+110 Production] from every [Volcano] <for [2] turns>"],
 				"requires": ["Super Plume"],
 			},
 			{
@@ -27,7 +27,7 @@
 			},
 			{
 				"name": "Oceanic Anoxic Events",
-				"uniques": ["[-50]% Production when constructing [Arthropod] units [in all cities]","[+20]% Production when constructing [Amphibian] units [in all cities]"],
+				"uniques": ["[-25]% Production when constructing [Fishes] units [in all cities]","[-50]% Production when constructing [Arthropod] units [in all cities]","[+20]% Production when constructing [Amphibian] units [in all cities]"],
 				"row": 4,
 				"column": 3,
 				"requires": ["Global Cooling"],
@@ -50,7 +50,7 @@
 				"name": "Meteorite Impact",
 				"row": 6,
 				"column": 3,
-				"uniques": ["[-25]% Production when constructing [Reptile] units [in all cities] <for [30] turns>","[+20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
+				"uniques": ["[+25]% [Science] <for [15] turns>","[-25]% Production when constructing [Reptile] units [in all cities] <for [30] turns>","[-20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
 				"requires": ["Hypoxic Environment","Siberian Traps"],
 			},
 			{
@@ -72,6 +72,8 @@
 				"row": 8,
 				"column": 3,
 				"requires": ["Impact winter","Deccan Traps"],
+				"uniques": ["[-30]% Production when constructing [Mammal] units [in all cities] <during the [Pleistocene]>","[+40]% [Science] <during the [Pleistocene]>",
+					"[+40]% [Science] <during the [Pliocene]>"],
 			},
 			{
 				"name": "Industrial Revolution",
@@ -82,14 +84,14 @@
 			},
 			{
 				"name": "Overfishing",
-				"uniques": ["[+1 Food] from [Hunting Spot] tiles [in all cities]","[-1 Food] from [Forests] tiles [in all cities]"],
+				"uniques": ["[-30]% Production when constructing [Mammal] units [in all cities]","[+1 Food] from [Hunting Spot] tiles [in all cities]","[-1 Food] from [Forests] tiles [in all cities]"],
 				"row": 9,
 				"column": 3,
 				"requires": ["Ice Age"],
 			},
 			{
 				"name": "Nuclear Apocalypse",
-				"uniques": ["[+10]% Strength <for [Human] units>"],
+				"uniques": ["[+10]% Strength <for [Gunpowder] units> <when attacking>"],
 				"row": 10,
 				"column": 4,
 				"requires": ["Overfishing"],
