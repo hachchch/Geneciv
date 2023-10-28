@@ -35,14 +35,14 @@
         "dealDuration": 25,
         "startYear": -4000,
         "turns": [
-            {"yearsPerTurn": -50000000000, "untilTurn":  50},
-            {"yearsPerTurn": -10000000000, "untilTurn":  80},
-            {"yearsPerTurn": -5000000000, "untilTurn": 100},
-            {"yearsPerTurn": -1000000000, "untilTurn": 130},
-            {"yearsPerTurn": -500000000, "untilTurn": 155},
-            {"yearsPerTurn": -100000000, "untilTurn": 195},
-            {"yearsPerTurn": -50000000, "untilTurn": 260},
-            {"yearsPerTurn": -10000000, "untilTurn": 330}
+            {"yearsPerTurn": 8, "untilTurn":  50},
+            {"yearsPerTurn": 7, "untilTurn":  80},
+            {"yearsPerTurn": 6, "untilTurn": 100},
+            {"yearsPerTurn": 5, "untilTurn": 130},
+            {"yearsPerTurn": 4, "untilTurn": 155},
+            {"yearsPerTurn": 3, "untilTurn": 195},
+            {"yearsPerTurn": 2, "untilTurn": 260},
+            {"yearsPerTurn": 1, "untilTurn": 330}
         ]
     },
     {
