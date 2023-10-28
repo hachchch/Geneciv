@@ -1742,12 +1742,12 @@
 			{
 				"name": "Artificial Intelligence",
 				"row": 10,
-				"prerequisites": ["Modern Biotech","3G Network"],
+				"prerequisites": ["Robotics","Modern Biotech","3G Network"],
 			},
 			{
 				"name": "Online Culture",
 				"row": 9,
-				"prerequisites": ["Game","Online Commerce","3G Network"],
+				"prerequisites": ["Globalization","Game","3G Network"],
 			},
 		]
 	},
