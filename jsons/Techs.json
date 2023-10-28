@@ -1833,7 +1833,7 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Human",
+				"name": "Humans",
 				"row": 10,
 				"prerequisites": ["Machine Life Form"],
 			},
