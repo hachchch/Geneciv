@@ -905,6 +905,7 @@
 				"row": 6,
 				"prerequisites": ["Human Race","Human Brain","Morality","The Culture","Diplomacy"],
 				"quote": "The technology cannot be stopped.",
+				"uniques": ["Life New Order Comes","[+100]% [Production] [in all cities]","[+100]% [Gold] [in all cities]","[+50]% [Happiness] [in all cities]","[-35]% [Food] [in all cities]"]
 			}
 		]
 	},
