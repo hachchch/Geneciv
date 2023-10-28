@@ -1635,6 +1635,12 @@
 				"prerequisites": ["Molecular Biology"],
 			},
 			{
+				"name": "Satellites",
+				"row": 3,
+				"prerequisites": ["Rocketry"],
+				"uniques": ["Reveals the entire map"],
+			},
+			{
 				"name": "Terminal",
 				"row": 9,
 				"prerequisites": ["Computers"],
@@ -1669,6 +1675,12 @@
 				"prerequisites": ["Neumann Computer","Telecommunications"],
 			},
 			{
+				"name": "Moon Mission",
+				"row": 3,
+				"prerequisites": ["Satellites"],
+				"uniques": ["Reveals the entire map"],
+			},
+			{
 				"name": "Modern Biotech",
 				"row": 2,
 				"prerequisites": ["Genetics"],
@@ -1682,6 +1694,16 @@
 				"name": "Online Commerce",
 				"row": 6,
 				"prerequisites": ["Telecommunications"],
+			},
+			{
+				"name": "Game",
+				"row": 9,
+				"prerequisites": ["Neumann Computer","Computer Chip"],
+			},
+			{
+				"name": "Robotics",
+				"row": 10,
+				"prerequisites": ["Terminal","Computer Chip"],
 			},
 		]
 	},
@@ -1705,7 +1727,7 @@
 			{
 				"name": "Space Station",
 				"row": 3,
-				"prerequisites": ["Online Commerce","3G Network"],
+				"prerequisites": ["Moon Mission","Online Commerce"],
 			},
 			{
 				"name": "Genome Mapping",
@@ -1721,6 +1743,103 @@
 				"name": "Artificial Intelligence",
 				"row": 10,
 				"prerequisites": ["Modern Biotech","3G Network"],
+			},
+			{
+				"name": "Online Culture",
+				"row": 9,
+				"prerequisites": ["Game","Online Commerce","3G Network"],
+			},
+		]
+	},
+	{
+		"columnNumber": 53,
+		"era": "Pre Future era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Bioengineering",
+				"row": 2,
+				"prerequisites": ["Genome Mapping"],
+			},
+			{
+				"name": "Superstrings Theory",
+				"row": 1,
+				"prerequisites": ["Nanotechnology"],
+			},
+			{
+				"name": "Artificial Personality",
+				"row": 10,
+				"prerequisites": ["Artificial Intelligence"],
+			},
+			{
+				"name": "Virtual Life",
+				"row": 8,
+				"prerequisites": ["Online Culture"],
+			},
+		]
+	},
+	{
+		"columnNumber": 54,
+		"era": "Pre Future era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Mind Upload",
+				"row": 8,
+				"prerequisites": ["Virtual Life"],
+			},
+			{
+				"name": "Machine Life Form",
+				"row": 10,
+				"prerequisites": ["Artificial Personality"],
+			},
+			{
+				"name": "Space Adaptation",
+				"row": 4,
+				"prerequisites": ["Bioengineering"],
+			},
+			{
+				"name": "Transhumanism",
+				"row": 2,
+				"prerequisites": ["Bioengineering"],
+			},
+			{
+				"name": "Cybernetics",
+				"row": 3,
+				"prerequisites": ["Bioengineering"],
+			},
+			{
+				"name": "Neural Internet",
+				"row": 5,
+				"prerequisites": ["Bioengineering"],
+			},	
+			{
+				"name": "Dimensional Physics",
+				"row": 1,
+				"prerequisites": ["Superstrings Theory"],
+			},
+		]
+	},
+	{
+		"columnNumber": 55,
+		"era": "Future era",
+		"techCost": 6350,
+		"buildingCost": 50,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Human",
+				"row": 10,
+				"prerequisites": ["Machine Life Form"],
+			},
+			{
+				"name": "Machine Rights",
+				"row": 9,
+				"prerequisites": ["Machine Life Form"],
 			},
 		]
 	},
