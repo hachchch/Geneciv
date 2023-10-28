@@ -1277,7 +1277,7 @@
 				"prerequisites": ["Astrolabe"],
 			},
 			{
-				"name": "Intensive farming",
+				"name": "Intensive Farming",
 				"row": 10,
 				"prerequisites": ["Ranged Trading"],
 			},
@@ -1315,6 +1315,16 @@
 		"buildingCost": 50,
 		"wonderCost": 100,
 		"techs": [
+			{
+				"name": "Monopoly",
+				"row": 10,
+				"prerequisites": ["Intensive Farming"],
+			},
+			{
+				"name": "Colonization",
+				"row": 9,
+				"prerequisites": ["Earth Globe"],
+			},
 			{
 				"name": "Magnetic Compass",
 				"row": 1,
@@ -1382,7 +1392,7 @@
 			{
 				"name": "Economics",
 				"row": 7,
-				"prerequisites": ["Mechanics","Architecture"],
+				"prerequisites": ["Monopoly","Colonization"],
 			},
 			{
 				"name": "Military Science",
@@ -1455,7 +1465,7 @@
 			{
 				"name": "Photography",
 				"row": 1,
-				"prerequisites": ["Biology"],
+				"prerequisites": ["Morphine"],
 			},
 			{
 				"name": "Recoil Reusion",
