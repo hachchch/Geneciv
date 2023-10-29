@@ -70,12 +70,18 @@
 	{
 		"name": "Outpost",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement","Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [50] damage","Can be built just outside your borders","Constructing it will take over the tiles around it and assign them to your closest city","Removes removable features when built"],
+		"uniques": ["Great Improvement","Gives a defensive bonus of [100]%","Adjacent enemy units ending their turn take [10] damage","Can be built just outside your borders","Constructing it will take over the tiles around it and assign them to your closest city","Removes removable features when built"],
 		"civilopediaText": [
 			{
 				"text": "This is a hunting base, but gives only combat bonuses. It seems that it can also be used when fighting compatriots.",
 			},
 		]
+	},
+	{
+		"name": "Habitat",
+		"turnsToBuild": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Gives a defensive bonus of [50]%","Can be built just outside your borders","Removes removable features when built"],
 	},
 	{
 		"name": "Monument",
