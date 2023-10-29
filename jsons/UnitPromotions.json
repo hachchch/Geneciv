@@ -489,4 +489,69 @@
 		"uniques": ["Ignores Zone of Control","[+1] Range"],
 		"unitTypes": ["Reptiles","Birds","Glider"],
 	},
+	{
+		"name": "Propubic Pelvis",
+		"uniques": ["[+20]% to Flank Attack bonuses"],
+		"unitTypes": ["Reptiles","Glider"],
+	},
+	{
+		"name": "Ankylosis",
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Reptiles"],
+	},
+	{
+		"name": "Predentary",
+		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>"],
+		"unitTypes": ["Herbivore"],
+	},
+	{
+		"name": "Herd",
+		"uniques": ["[+15]% Strength <when adjacent to a [Herbivore] unit>"],
+		"unitTypes": ["Herbivore"],
+	},
+	{
+		"name": "Insectivore",
+		"uniques": ["No defensive terrain penalty"],
+		"unitTypes": ["Reptiles"],
+	},
+	{
+		"name": "Scale",
+		"uniques": ["[+15]% Strength <in [Water] tiles> <when defending>"],
+		"unitTypes": ["Fishes","Reptiles"],
+	},
+	{
+		"name": "Quadrupedalism",
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Estrus",
+		"uniques": ["[+20] HP when healing <during a Golden Age>"],
+		"unitTypes": ["Mammal"],
+	},
+	{
+		"name": "Marathon",
+		"uniques": ["[+1] Movement <during a Golden Age>"],
+		"unitTypes": ["Human","Hominiae"],
+	},
+	{
+		"name": "Bone Tools",
+		"uniques": ["[+20]% Strength <upon defeating a [Enemy] unit> <when attacking>"],
+		"unitTypes": ["Human","Hominiae"],
+	},
+	{
+		"name": "DNA Replication",
+		"uniques": ["Free [Amino Acid] appears <upon being promoted>"],
+		"unitTypes": ["Particle"],
+	},
+	{
+		"name": "Bacterium",
+		"uniques": ["[+10]% Strength","[-100]% maintenance costs"],
+		"unitTypes": ["Cell"],
+	},
+	{
+		"name": "Ecosystem Engineer",
+		"uniques": ["Can build [Habitat] improvements on tiles","[300]% maintenance costs"],
+		"unitTypes": ["Mammal","Human","Hominiae"],
+	},
 ]
