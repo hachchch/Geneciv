@@ -506,8 +506,13 @@
 	},
 	{
 		"name": "Predentary",
-		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>"],
+		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>","This Unit gains [1] XP <upon ending a turn in a [GrassLand] tile>"],
 		"unitTypes": ["Herbivore"],
+	},
+	{
+		"name": "Molar",
+		"uniques": ["Heal this unit by [5] HP <upon ending a turn in a [GrassLand] tile>"],
+		"unitTypes": ["Herbivore","Mammal"],
 	},
 	{
 		"name": "Herd",
