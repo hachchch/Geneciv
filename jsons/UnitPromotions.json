@@ -139,6 +139,11 @@
 	{
 		"name": "E.ferus",
 	},
+	// Sub Unit Types
+	{
+		"name": "Unglates",
+		"uniques": ["[+1] Movement"],
+	},
 	// General
 	{
 		"name": "Heal Instantly",
