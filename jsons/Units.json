@@ -777,6 +777,36 @@
 		]
 	},
 	{
+		"name": "Koala",
+		"unitType": "Mammal",
+		"cost": 500,
+		"strength": 80,
+		"movement": 1,
+		"requiredTech": "Placenta",
+		"attackSound": "Slash",
+		"uniques": ["All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
+	},
+	{
+		"name": "Kangaroos",
+		"unitType": "Mammal",
+		"cost": 500,
+		"strength": 75,
+		"movement": 2,
+		"requiredTech": "Placenta",
+		"attackSound": "throw",
+		"uniques": ["[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
+	},
+	{
+		"name": "Platypus",
+		"unitType": "Mammal",
+		"cost": 500,
+		"strength": 60,
+		"movement": 2,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
+	},
+	{
 		"name": "Boar",
 		"cost": 500,
 		"requiredTech": "Eutherians",
