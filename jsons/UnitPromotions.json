@@ -139,10 +139,26 @@
 	{
 		"name": "E.ferus",
 	},
-	// Sub Unit Types
+	// Mammal Types
 	{
-		"name": "Unglates",
-		"uniques": ["[+1] Movement"],
+		"name": "Carnivora",
+		"uniques": ["[+10]% Strength <when attacking> <when adjacent to a [{Enemy} {Wounded}] unit>"],
+	},
+	{
+		"name": "Primate",
+		"uniques": ["May withdraw before melee ([15]%)"],
+	},
+	{
+		"name": "Unglate",
+		"uniques": ["[+1] Movement <when adjacent to a [Enemy] unit>"],
+	},
+	{
+		"name": "Marsupial",
+		"uniques": ["Heal this unit by [10] HP <upon being promoted>"],
+	},
+	{
+		"name": "Rodentia",
+		"uniques": ["Heal this unit by [10] HP"],
 	},
 	// General
 	{
