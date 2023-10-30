@@ -145,6 +145,18 @@
 		"uniques": ["[+10]% Strength <when attacking> <when adjacent to a [{Enemy} {Wounded}] unit>"],
 	},
 	{
+		"name": "Monotreme",
+		"uniques": ["[+10]% Strength <when fighting in [Coastal] tiles>","Gain [30] [Gold] <upon being promoted>"],
+	},
+	{
+		"name": "Cetacea",
+		"uniques": ["[+10]% Strength <when fighting in [Ocean] tiles>"],
+	},
+	{
+		"name": "Lagomorpha",
+		"uniques": ["[+10]% Strength <when fighting in [GrassLand] tiles>"],
+	},
+	{
 		"name": "Primate",
 		"uniques": ["May withdraw before melee ([15]%)"],
 	},
