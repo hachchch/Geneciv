@@ -17,7 +17,10 @@
 	    "[Dolphin] units gain the [Cetacea] promotion",
 	    "[Hominiae] units gain the [Primate] promotion",
 	    "[Human] units gain the [Primate] promotion",
-	    "[Boar] units gain the [Ungulate] promotion"
+	    "[Boar] units gain the [Ungulate] promotion",
+	    "[Koala] units gain the [Marsupial] promotion",
+	    "[Kangaroos] units gain the [Marsupial] promotion",
+	    "[Platypus] units gain the [Monotreme] promotion"
 
 	    
 	    /*,
