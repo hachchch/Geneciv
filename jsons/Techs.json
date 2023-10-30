@@ -994,6 +994,7 @@
 				"name": "Sailing",
 				"row": 1,
 				"prerequisites": ["Pottery"],
+				"uniques": ["[+40]% Strength <for [Embarked] units>"],
 			},
 		]
 	},
@@ -1008,6 +1009,7 @@
 				"name": "Optics",
 				"row": 1,
 				"prerequisites": ["Sailing"],
+				"uniques": ["[+1] Sight <for [Embarked] units>"],
 			},
 			{
 				"name": "Bronze Working",
@@ -1052,16 +1054,19 @@
 				"name": "Pronounceable Writes",
 				"row": 10,
 				"prerequisites": ["Mathematics","Paper"],
+				"uniques": ["Gain [200] [Science] <upon conquering a city>"],
 			},
 			{
 				"name": "Nail",
 				"row": 8,
 				"prerequisites": ["Masonry","Bronze Working"],
+				"uniques": ["[-10]% tile improvement construction time"],
 			},
 			{
 				"name": "Construction",
 				"row": 9,
 				"prerequisites": ["Mathematics","Masonry"],
+				"uniques": ["[-15]% tile improvement construction time"]
 			},
 			{
 				"name": "Zero",
@@ -1111,6 +1116,7 @@
 				"name": "Telescope",
 				"row": 1,
 				"prerequisites": ["Geometry","Lens"],
+				"uniques": ["[+1] Sight <for [Settler] units>"],
 			},
 		]
 	},
@@ -1125,6 +1131,8 @@
 				"name": "Military",
 				"row": 7,
 				"prerequisites": ["Civil Service","Iron Working"],
+				"uniques": ["[+10]% Strength <when defending> <when fighting in [Friendly Land] tiles>",
+				"[+10]% Strength <when attacking> <when fighting in [Enemy Land] tiles>"],
 			},
 			{
 				"name": "Alchemy",
@@ -1135,6 +1143,7 @@
 				"name": "Currency",
 				"row": 6,
 				"prerequisites": ["Civil Service"],
+				"uniques": ["Market Economy Beginning"],
 			},
 			{
 				"name": "Metal Casting",
@@ -1164,6 +1173,7 @@
 				"name": "Organized Religion",
 				"row": 2,
 				"prerequisites": ["Education","Currency"],
+				"uniques": ["Enables conversion of city production to [Faith]"],
 			},
 			{
 				"name": "Machinery",
@@ -1174,6 +1184,7 @@
 				"name": "Guilds",
 				"row": 6,
 				"prerequisites": ["Currency"],
+				"uniques": ["Production to [Gold] conversion in cities changed by [+10]%"],
 			},
 			{
 				"name": "Chivalry",
@@ -1262,6 +1273,7 @@
 				"name": "Ranged Trading",
 				"row": 10,
 				"prerequisites": ["Steel"],
+				"uniques": ["[+50]% Gold from Great Merchant trade missions","[+1] Movement <for [Human Water] units>"],
 			},
 		]
 	},
@@ -1276,16 +1288,19 @@
 				"name": "Sextant",
 				"row": 1,
 				"prerequisites": ["Astrolabe"],
+				"uniques": ["[+1] Sight <for [Human Water] units>"],
 			},
 			{
 				"name": "Intensive Farming",
 				"row": 10,
 				"prerequisites": ["Ranged Trading"],
+				"uniques": ["[+1] Happiness from each type of luxury resource","[+10 Gold] from [Spices] tiles [in all cities]"],
 			},
 			{
 				"name": "Calculus",
 				"row": 4,
 				"prerequisites": ["Turbine"],
+				"uniques": ["Science gained from research agreements [+33]%"],
 			},
 			{
 				"name": "Pharmacy",
@@ -1301,6 +1316,7 @@
 				"name": "Contract Management",
 				"row": 6,
 				"prerequisites": ["Banking"],
+				"uniques": ["[Gold] cost of purchasing [All] units [-17]%","[-25]% [Faith]","[+25]% Great Person generation [in all cities]"],
 			},
 			{
 				"name": "Earth Globe",
@@ -1360,6 +1376,7 @@
 				"name": "Minie Bullet",
 				"row": 3,
 				"prerequisites": ["Contract Management","Flintlock"],
+				"uniques": ["Improve hit chance of Gunpowder units"],
 			},
 		]
 	},
@@ -1410,14 +1427,10 @@
 		"wonderCost": 100,
 		"techs": [
 			{
-				"name": "Photography",
-				"row": 1,
-				"prerequisites": ["Biology"],
-			},
-			{
 				"name": "Bolt Action",
 				"row": 3,
 				"prerequisites": ["Rifling","Law of Gravity"],
+				"uniques": ["[+80]% Strength <when attacking> <for [Rifleman] units>"],
 			},
 			{
 				"name": "Morphine",
@@ -1467,6 +1480,7 @@
 				"name": "Photography",
 				"row": 1,
 				"prerequisites": ["Morphine"],
+				"uniques": ["[+10]% Great Person generation [in all cities]"],
 			},
 			{
 				"name": "Recoil Reusion",
@@ -1531,6 +1545,7 @@
 				"name": "Plastics",
 				"row": 1,
 				"prerequisites": ["Electricity","Medical Institution"],
+				"uniques": ["[+10000]% Strength <vs [Water Mammal] units>"],
 			},
 			{
 				"name": "Antibiotics",
@@ -1591,6 +1606,7 @@
 				"name": "Television",
 				"row": 10,
 				"prerequisites": ["Movie","Plastics"],
+				"uniques": ["[+25]% Great Person generation [in all cities]"],
 			},
 		]
 	},
@@ -1679,7 +1695,6 @@
 				"name": "Moon Mission",
 				"row": 3,
 				"prerequisites": ["Satellites"],
-				"uniques": ["Reveals the entire map"],
 			},
 			{
 				"name": "Modern Biotech",
