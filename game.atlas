@@ -361,6 +361,68 @@ TileSets/FantasyHex/Tiles/Plains
   offset: 0, 0
   index: -1
 
+game10010.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Rocket Spear
+  rotate: false
+  xy: 796, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Chiroptera
+  rotate: false
+  xy: 846, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Platypus
+  rotate: false
+  xy: 896, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Kangaroos
+  rotate: false
+  xy: 946, 1072
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests-Paleogene period
+  rotate: false
+  xy: 980, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 1080, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Forest+Forests-Paleogene period
+  rotate: false
+  xy: 1080, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+
 game22.png
 size: 2048, 2048
 format: RGBA8888
