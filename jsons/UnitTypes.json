@@ -126,4 +126,8 @@
 		"name": "Aircraft Carrier",
 		"movementType": "Water",
 	},
+	{
+		"name": "Bot",
+		"movementType": "Land",
+	},
 ]
