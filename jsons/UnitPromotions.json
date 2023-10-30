@@ -158,7 +158,7 @@
 	},
 	{
 		"name": "Rodentia",
-		"uniques": ["Heal this unit by [10] HP"],
+		"uniques": ["Heal this unit by [5] HP <when below [30] HP> <for [1] movement>"],
 	},
 	// General
 	{
