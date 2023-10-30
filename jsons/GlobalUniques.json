@@ -9,7 +9,18 @@
 		"Cannot build [Settler] units <when below [-10] Happiness>",
 		"Rebel units may spawn <when below [-12] Happiness>",
 	        "[+2 Happiness] per [1] population [in all cities] <before discovering [Human Race]>",
-	    "[Horse] units gain the [Ungulate] promotion"/*,
+	    "[Horse] units gain the [Ungulate] promotion",
+	    "[Glires] units gain the [Rodentia] promotion",
+	    "[Lion] units gain the [Carnivora] promotion",
+	    "[Feliform] units gain the [Carnivora] promotion",
+	    "[Caniform] units gain the [Carnivora] promotion",
+	    "[Dolphin] units gain the [Cetacea] promotion",
+	    "[Hominiae] units gain the [Primate] promotion",
+	    "[Human] units gain the [Primate] promotion",
+	    "[Boar] units gain the [Ungulate] promotion"
+
+	    
+	    /*,
 	    "[Human] units gain the [Eukaryota] promotion",
 		"[Mammal] units gain the [Eukaryota] promotion",
 		"[Reptiles] units gain the [Eukaryota] promotion",
