@@ -928,8 +928,8 @@
 		"columnNumber": 33,
 		"era": "Neolithic",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 800,
+		"wonderCost": 2400,
 		"techs": [
 			{
 				"name": "Animal Husbandry",
@@ -957,8 +957,8 @@
 		"columnNumber": 34,
 		"era": "Neolithic",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 900,
+		"wonderCost": 2700,
 		"techs": [
 			{
 				"name": "Fertilizer",
@@ -1002,8 +1002,8 @@
 		"columnNumber": 35,
 		"era": "Classical era",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1000,
+		"wonderCost": 3000,
 		"techs": [
 			{
 				"name": "Optics",
@@ -1037,8 +1037,8 @@
 		"columnNumber": 36,
 		"era": "Classical era",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1100,
+		"wonderCost": 3300,
 		"techs": [
 			{
 				"name": "Airthmetic",
@@ -1089,8 +1089,8 @@
 		"columnNumber": 37,
 		"era": "Classical era",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1200,
+		"wonderCost": 3600,
 		"techs": [
 			{
 				"name": "Civil Service",
@@ -1124,8 +1124,8 @@
 		"columnNumber": 38,
 		"era": "Classical era",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1300,
+		"wonderCost": 3900,
 		"techs": [
 			{
 				"name": "Military",
@@ -1161,8 +1161,8 @@
 		"columnNumber": 39,
 		"era": "Medieval era",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1400,
+		"wonderCost": 4200,
 		"techs": [
 			{
 				"name": "Gunpowder",
@@ -1207,8 +1207,8 @@
 		"columnNumber": 40,
 		"era": "Medieval era",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1500,
+		"wonderCost": 4500,
 		"techs": [
 			{
 				"name": "Printing Press",
@@ -1246,8 +1246,8 @@
 		"columnNumber": 41,
 		"era": "Discovery era",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1600,
+		"wonderCost": 4800,
 		"techs": [
 			{
 				"name": "Banking",
@@ -1281,8 +1281,8 @@
 		"columnNumber": 42,
 		"era": "Discovery era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1700,
+		"wonderCost": 5100,
 		"techs": [
 			{
 				"name": "Sextant",
@@ -1329,8 +1329,8 @@
 		"columnNumber": 43,
 		"era": "Scientific era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1800,
+		"wonderCost": 5400,
 		"techs": [
 			{
 				"name": "Monopoly",
@@ -1384,8 +1384,8 @@
 		"columnNumber": 44,
 		"era": "Scientific era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 1900,
+		"wonderCost": 5700,
 		"techs": [
 			{
 				"name": "Law of Gravity",
@@ -1423,8 +1423,8 @@
 		"columnNumber": 45,
 		"era": "Industrial era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2000,
+		"wonderCost": 6000,
 		"techs": [
 			{
 				"name": "Bolt Action",
@@ -1473,8 +1473,8 @@
 		"columnNumber": 46,
 		"era": "Industrial era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2100,
+		"wonderCost": 6300,
 		"techs": [
 			{
 				"name": "Photography",
@@ -1528,8 +1528,8 @@
 		"columnNumber": 47,
 		"era": "Atomic era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2200,
+		"wonderCost": 6600,
 		"techs": [
 			{
 				"name": "Electronics",
@@ -1573,8 +1573,8 @@
 		"columnNumber": 48,
 		"era": "Atomic era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2300,
+		"wonderCost": 6900,
 		"techs": [
 			{
 				"name": "Transistor",
@@ -1614,8 +1614,8 @@
 		"columnNumber": 49,
 		"era": "Information era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2400,
+		"wonderCost": 7200,
 		"techs": [
 			{
 				"name": "Molecular Biology",
@@ -1643,8 +1643,8 @@
 		"columnNumber": 50,
 		"era": "Information era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2500,
+		"wonderCost": 7500,
 		"techs": [
 			{
 				"name": "Genetics",
@@ -1683,8 +1683,8 @@
 		"columnNumber": 51,
 		"era": "Contemporary era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2600,
+		"wonderCost": 7800,
 		"techs": [
 			{
 				"name": "Globalization",
@@ -1727,8 +1727,8 @@
 		"columnNumber": 52,
 		"era": "Contemporary era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2700,
+		"wonderCost": 8100,
 		"techs": [
 			{
 				"name": "Smart Phone",
@@ -1771,8 +1771,8 @@
 		"columnNumber": 53,
 		"era": "Pre Future era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2800,
+		"wonderCost": 8400,
 		"techs": [
 			{
 				"name": "Bioengineering",
@@ -1800,8 +1800,8 @@
 		"columnNumber": 54,
 		"era": "Pre Future era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 2900,
+		"wonderCost": 8700,
 		"techs": [
 			{
 				"name": "Mind Upload",
@@ -1844,8 +1844,8 @@
 		"columnNumber": 55,
 		"era": "Future era",
 		"techCost": 6350,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 3000,
+		"wonderCost": 9000,
 		"techs": [
 			{
 				"name": "Humans",
