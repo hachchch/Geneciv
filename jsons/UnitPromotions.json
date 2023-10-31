@@ -232,7 +232,7 @@
 	},
 	{
 		"name": "Jaw I",
-		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking> <after discovering [Jaw]>"],
+		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>","Only available <after discovering [Jaw]>"],
 		"unitTypes": ["Fishes"],
 		"row": 10,
 		"column": 0,
@@ -263,7 +263,7 @@
 	},
 	{
 		"name": "Predation I",
-		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking> <after discovering [Predation]>"],
+		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>","Only available <after discovering [Predation]>"],
 		"unitTypes": ["Fishes"],
 		"row": 13,
 		"column": 0,
@@ -271,7 +271,7 @@
 	{
 		"name": "Predation II",
 		"prerequisites": ["Predation I"],
-		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking> <after discovering [Predation]>"],
+		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Fishes"],
 		"row": 13,
 		"column": 1,
@@ -287,7 +287,7 @@
 	{
 		"name": "Fin",
 		"prerequisites": ["Predation I","Jaw I"],
-		"uniques": ["[+1] Movement <after discovering [Fins]>"],
+		"uniques": ["[+1] Movement","Only available <after discovering [Fins]>"],
 		"unitTypes": ["Fishes"],
 		"row": 11,
 		"column": 2,
@@ -555,18 +555,18 @@
 	},
 	{
 		"name": "Quadrupedalism",
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+1] Movement","Only available <after discovering [Legs]>"],
 		"unitTypes": ["Amphibian"],
 	},
 	{
 		"name": "Estrus",
-		"uniques": ["[+20] HP when healing <during a Golden Age>"],
+		"uniques": ["[+20] HP when healing <during a Golden Age>","Only available <after discovering [Uterus]>"],
 		"unitTypes": ["Mammal"],
 	},
 	{
 		"name": "Marathon",
-		"uniques": ["[+1] Movement <during a Golden Age>"],
-		"unitTypes": ["Human","Hominiae"],
+		"uniques": ["[+1] Movement <during a Golden Age>","Only available <after discovering [Homo Ergaster]>"],
+		"unitTypes": ["Human"],
 	},
 	{
 		"name": "Bone Tools",
@@ -575,7 +575,7 @@
 	},
 	{
 		"name": "DNA Replication",
-		"uniques": ["Free [Amino Acid] appears <upon being promoted>"],
+		"uniques": ["Free [Amino Acid] appears <upon being promoted>","Only available <after discovering [DNA]>"],
 		"unitTypes": ["Particle"],
 	},
 	{
