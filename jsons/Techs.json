@@ -1041,7 +1041,7 @@
 		"wonderCost": 3300,
 		"techs": [
 			{
-				"name": "Airthmetic",
+				"name": "Arithmetic",
 				"row": 7,
 				"prerequisites": ["Mathematics"],
 			},
@@ -1110,7 +1110,7 @@
 			{
 				"name": "Engineering",
 				"row": 9,
-				"prerequisites": ["Zero","Airthmetic","Construction","Nail"],
+				"prerequisites": ["Zero","Arithmetic","Construction","Nail"],
 			},
 			{
 				"name": "Telescope",
