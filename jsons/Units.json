@@ -641,7 +641,7 @@
 		]
 	},
 	{
-		"name": "Mammal",
+		"name": "Synapsida",
 		"cost": 300,
 		"strength": 45,
 		"uniques": ["[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
@@ -650,11 +650,11 @@
 		"unitType": "Mammal",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Mammal",
+				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Mammal",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
 				"imageSize": 192
 			},
 			{
