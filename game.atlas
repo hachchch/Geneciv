@@ -2232,7 +2232,7 @@ UnitIcons/Pterosaur
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Mammal
+UnitIcons/Synapsida
   rotate: false
   xy: 1500, 100
   size: 100, 100
@@ -2662,7 +2662,7 @@ TileSets/FantasyHex/Units/Eusuchia
   orig: 33, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mammal
+TileSets/FantasyHex/Units/Synapsida
   rotate: false
   xy: 445, 440
   size: 32, 28
