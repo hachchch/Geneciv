@@ -3122,7 +3122,7 @@ TileSets/AbsoluteUnits/Units/Plesiosaur
   orig: 102, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Mammal
+TileSets/AbsoluteUnits/Units/Synapsida
   rotate: false
   xy: 0, 100
   size: 102, 100
@@ -3295,7 +3295,7 @@ TileSets/AbsoluteUnits/Units/Tetrapod
   orig: 149, 146
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Mammal
+TileSets/AbsoluteUnits/Units/Synapsida
   rotate: false
   xy: 0, 146
   size: 143, 133
