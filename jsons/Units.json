@@ -73,7 +73,7 @@
                 "strength": 1,
                 "movement": 1,
                 "cost": 20,
-		"uniques": ["No Sight","Reveal up to [1] [Grassland] within a [5] tile radius <for [2] movement>"],
+		"uniques": ["No Sight","Reveal up to [100] [Grassland] within a [5] tile radius <for [2] movement>"],
 		"obsoleteTech": "Amino Acid",
 		"upgradesTo": "Amino Acid",
 		"attackSound": "plays",
