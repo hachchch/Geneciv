@@ -71,7 +71,7 @@
                 "name": "Particles",
                 "unitType": "Particle",
                 "strength": 1,
-                "movement": 1,
+                "movement": 2,
                 "cost": 20,
 		"uniques": ["No Sight","Reveal up to [200] [Grassland] within a [5] tile radius <for [2] movement> <[5] times> <with [77]% chance> <if it hasn't used other actions yet>"],
 		"obsoleteTech": "Amino Acid",
