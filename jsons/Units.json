@@ -73,7 +73,7 @@
                 "strength": 1,
                 "movement": 1,
                 "cost": 20,
-		"uniques": ["No Sight","Reveal up to [all] [Stone] within a [100] tile radius <for [1] movement>"],
+		"uniques": ["No Sight","Reveal up to [all] [City center] within a [100] tile radius <for [1] movement>"],
 		"obsoleteTech": "Amino Acid",
 		"upgradesTo": "Amino Acid",
 		"attackSound": "plays",
