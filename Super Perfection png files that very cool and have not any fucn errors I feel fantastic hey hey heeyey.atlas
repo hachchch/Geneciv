@@ -1,3 +1,9 @@
+
+Super Perfection png files that very cool and have not any fucn errors I feel fantastic hey hey heeyey.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
 TechIcons/Jaw
   rotate: false
   xy: 0, 0
@@ -152,24 +158,6 @@ TechIcons/Spore Plant
   orig: 100, 100
   offset: 0, 0
   index: -1
-
-
-
-
-
-
-
-
-
-
-
-
-
-Super Perfection png files that very cool and have not any fucn errors I feel fantastic hey hey heeyey2.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
 ResourceIcons/Mammoth
   rotate: false
   xy: 0, 0
@@ -331,6 +319,14 @@ UnitTypeIcons/Human
   orig: 100, 100
   offset: 0, 0
   index: -1
+
+
+
+
+
+
+
+
 TechIcons/Homo Sapiens
   rotate: false
   xy: 2000, 0
