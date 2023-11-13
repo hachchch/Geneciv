@@ -9,7 +9,7 @@
 			{
 				"name": "Home Star",
 				"row": 5,
-				"uniques": ["The Sun","Starting tech"],
+				"uniques": ["The Sun","Starting tech","Instantly provides [500] [Temperature]"],
 			}
                 ]
         },
@@ -40,7 +40,7 @@
 				"name": "Primordial Soup",
 				"row": 5,
 				"prerequisites": ["Planet Earth"],
-				"uniques": ["[+4 Happiness] from [Lakes] tiles [in all cities]"],
+				"uniques": ["[+4 Happiness] from [Lakes] tiles [in all cities]","Instantly provides [500] [Oxygen]","Instantly provides [2000] [Atmosphere]","Instantly provides [500] [Water]","Instantly provides [500] [Temperature]"],
 				"quote": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
 			},
 			{
@@ -179,7 +179,7 @@
 			{
 				"name": "Chloroplasts",
 				"row": 1,
-				"prerequisites": ["Tissue"],
+				"prerequisites": ["Tissue","Instantly provides [10] [Biomass]"],
 			},
 			{
 				"name": "Nervous System",
