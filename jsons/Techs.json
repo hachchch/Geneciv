@@ -179,7 +179,7 @@
 			{
 				"name": "Chloroplasts",
 				"row": 1,
-				"prerequisites": ["Tissue","Instantly provides [10] [Biomass]"],
+				"prerequisites": ["Tissue"],
 			},
 			{
 				"name": "Nervous System",
