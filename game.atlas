@@ -1466,7 +1466,7 @@ TileSets/FantasyHex/Units/Dunkleosteus
   index: -1
 
 game2056.png
-size: 6400, 100
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -1920,7 +1920,7 @@ NotificationIcons/PickTech
   index: -1
 
 game01.png
-size: 6400, 100
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -2290,7 +2290,7 @@ BuildingIcons/Photosynthesis
   index: -1
 
 game02.png
-size: 2000, 2000
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -2699,7 +2699,7 @@ TileSets/FantasyHex/Units/Radiodonta
   index: -1
 
 game001.png
-size: 384, 192
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -3111,7 +3111,7 @@ TileSets/HexaRealm/Tiles/Grassland+Hill2
   index: -1
 
 game002.png
-size: 320, 192
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -3264,7 +3264,7 @@ TileSets/AbsoluteUnits/Units/EmbarkedUnit-Military-2
   index: -1
 
 game003.png
-size: 102, 500
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -3284,7 +3284,7 @@ TileSets/AbsoluteUnits/Units/Crustacean
   index: -1
 
 game004.png
-size: 149, 1000
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -3353,7 +3353,7 @@ TileSets/AbsoluteUnits/Units/Shark2
   index: -1
 
 game005.png
-size: 128, 1000
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -3408,7 +3408,7 @@ TileSets/AbsoluteUnits/Units/Parasiticworm
   index: -1
 
 game006.png
-size: 128, 1000
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -3435,7 +3435,7 @@ TileSets/AbsoluteUnits/Units/Mankind
   index: -1
 
 game007.png
-size: 114, 1000
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
@@ -3469,7 +3469,7 @@ TileSets/AbsoluteUnits/Units/Boar
   index: -1
 
 game008.png
-size: 228, 1000
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
