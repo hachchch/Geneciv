@@ -4,7 +4,7 @@
 		"shortcutKey": "F",
 		"techRequired": "Fern",
 		"turnsToBuild": 3,
-		"uniques": ["Gives a defensive bonus of [15]%","Can only be built to improve a resource",
+		"uniques": ["Provides [3] [Biomass]","Consumes [3] [Atmosphere]","Provides [3] [Oxygen]","Gives a defensive bonus of [15]%","Can only be built to improve a resource",
 		"[+1 Production] <after discovering [Herbivore]>","[+1 Production] <after discovering [Flowers]>","[+1 Science] <after discovering [Primate]>"],
 		"civilopediaText": [
 			{
@@ -24,7 +24,7 @@
 		"turnsToBuild": 20,
 		"production": 3,
 		"gold": 15,
-		"uniques": ["Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
+		"uniques": ["Consumes [5] [Oxygen]","Provides [5] [Atmosphere]","Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Industry",
@@ -42,7 +42,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"turnsToBuild": 20,
 		"production": 10,
-		"uniques": ["Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
+		"uniques": ["Provides [1] [Temperature]","Provides [10] [Atmosphere]","Consumes [3] [Biomass]","Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Factory",
@@ -81,7 +81,7 @@
 		"name": "Habitat",
 		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Gives a defensive bonus of [50]%","Can be built just outside your borders","Removes removable features when built"],
+		"uniques": ["Provides [1] [Biomass]","Gives a defensive bonus of [50]%","Can be built outside your borders","Removes removable features when built"],
 	},
 	{
 		"name": "Monument",
@@ -105,7 +105,7 @@
 		"techRequired": "Homo Ergaster",
 		"food": 4,
 		"culture": 1,
-		"uniques": ["Can only be built to improve a resource","Gives a defensive bonus of [25]%"],
+		"uniques": ["Consumes [1] [Biomass]","Can only be built to improve a resource","Gives a defensive bonus of [25]%"],
 		"defenceBonus": 0.1,
 		"turnsToBuild": 7,
 		"civilopediaText": [
@@ -140,6 +140,7 @@
 		"shortcutKey": "G",
 		"techRequired": "Chloroplasts",
 		"food": 1,
+		"uniques": ["Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Plains","Hill"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
@@ -159,7 +160,7 @@
 		"food": 5,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["Can also be built on tiles adjacent to fresh water",
+		"uniques": ["Consumes [1] [Water]","Consumes [2] [Biomass]","Consumes [2] [Atmosphere]","Provides [2] [Oxygen]","Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [River] tiles",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
@@ -170,7 +171,7 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
+		"uniques": ["Provides [1] [Biomass]","Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City center-Cryptic era",
@@ -244,7 +245,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"techRequired": "The Wheel",
-		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+		"uniques": ["Consumes [1] [Biomass]","Can be built outside your borders", "Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
 		"civilopediaText": [{"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"}, {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},{"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}]
 	},
