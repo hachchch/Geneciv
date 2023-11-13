@@ -6,315 +6,315 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TechIcons/Jaw
   rotate: false
-  xy: 0, 0
+  xy: 0, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PromotionIcons/Jaw
   rotate: false
-  xy: 0, 0
+  xy: 0, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hunting
   rotate: false
-  xy: 100, 0
+  xy: 100, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Hunting Spot
   rotate: false
-  xy: 100, 0
+  xy: 100, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Plow
   rotate: false
-  xy: 200, 0
+  xy: 200, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bulletin Wall
   rotate: false
-  xy: 300, 0
+  xy: 300, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Count
   rotate: false
-  xy: 400, 0
+  xy: 400, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Limbic System
   rotate: false
-  xy: 500, 0
+  xy: 500, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Ape Brain
   rotate: false
-  xy: 600, 0
+  xy: 600, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Flowers
   rotate: false
-  xy: 700, 0
+  xy: 700, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Green Field
   rotate: false
-  xy: 800, 0
+  xy: 800, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Horse
   rotate: false
-  xy: 900, 0
+  xy: 900, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Caniform
   rotate: false
-  xy: 1000, 0
+  xy: 1000, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lion
   rotate: false
-  xy: 1100, 0
+  xy: 1100, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Plesiosaur
   rotate: false
-  xy: 1200, 0
+  xy: 1200, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Glands
   rotate: false
-  xy: 1300, 0
+  xy: 1300, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Feathers
   rotate: false
-  xy: 1400, 0
+  xy: 1400, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Saurischia
   rotate: false
-  xy: 1500, 0
+  xy: 1500, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Megalodon
   rotate: false
-  xy: 1600, 0
+  xy: 1600, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Herbivore
   rotate: false
-  xy: 1700, 0
+  xy: 1700, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fish Egg
   rotate: false
-  xy: 1800, 0
+  xy: 1800, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Spore Plant
   rotate: false
-  xy: 1900, 0
+  xy: 1900, 200
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Mammoth
   rotate: false
-  xy: 0, 0
+  xy: 0, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Cave Painting
   rotate: false
-  xy: 100, 0
+  xy: 100, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Campfire
   rotate: false
-  xy: 200, 0
+  xy: 200, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tribesman
   rotate: false
-  xy: 300, 0
+  xy: 300, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sapiens Warrior
   rotate: false
-  xy: 300, 0
+  xy: 300, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Neanderthalensis Warrior
   rotate: false
-  xy: 300, 0
+  xy: 300, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Fishing
   rotate: false
-  xy: 400, 0
+  xy: 400, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Meteor
   rotate: false
-  xy: 500, 0
+  xy: 500, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Anthropocene era
   rotate: false
-  xy: 600, 0
+  xy: 600, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Where did we come from?
   rotate: false
-  xy: 700, 0
+  xy: 700, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/New Predater
   rotate: false
-  xy: 800, 0
+  xy: 800, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fire
   rotate: false
-  xy: 900, 0
+  xy: 900, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/The Culture
   rotate: false
-  xy: 1000, 0
+  xy: 1000, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Diplomacy
   rotate: false
-  xy: 1100, 0
+  xy: 1100, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Neocortex
   rotate: false
-  xy: 1200, 0
+  xy: 1200, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Human Brain
   rotate: false
-  xy: 1300, 0
+  xy: 1300, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Australopithecus
   rotate: false
-  xy: 1400, 0
+  xy: 1400, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Logical Thinking
   rotate: false
-  xy: 1500, 0
+  xy: 1500, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Primate
   rotate: false
-  xy: 1600, 0
+  xy: 1600, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Ape
   rotate: false
-  xy: 1700, 0
+  xy: 1700, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Morality
   rotate: false
-  xy: 1800, 0
+  xy: 1800, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Homo Sapiens Sapiens
   rotate: false
-  xy: 1900, 0
+  xy: 1900, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitTypeIcons/Human
   rotate: false
-  xy: 1900, 0
+  xy: 1900, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -461,161 +461,161 @@ TechIcons/Archosauria
   index: -1
 TechIcons/Advanced Game
   rotate: false
-  xy: 0, 100
+  xy: 0, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Stone Tools
   rotate: false
-  xy: 100, 100
+  xy: 100, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Where do we come from?
   rotate: false
-  xy: 200, 100
+  xy: 200, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Where I will gone?
   rotate: false
-  xy: 200, 100
+  xy: 200, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Gathering
   rotate: false
-  xy: 300, 100
+  xy: 300, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bulletin Wall
   rotate: false
-  xy: 400, 100
+  xy: 400, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sociality
   rotate: false
-  xy: 500, 100
+  xy: 500, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mammal Brain
   rotate: false
-  xy: 600, 100
+  xy: 600, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Bee
   rotate: false
-  xy: 700, 100
+  xy: 700, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Glires
   rotate: false
-  xy: 800, 100
+  xy: 800, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Boar
   rotate: false
-  xy: 900, 100
+  xy: 900, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Feliform
   rotate: false
-  xy: 1000, 100
+  xy: 1000, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archeopteryx
   rotate: false
-  xy: 1100, 100
+  xy: 1100, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Flying
   rotate: false
-  xy: 1100, 100
+  xy: 1100, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Plesiosaur
   rotate: false
-  xy: 1200, 100
+  xy: 1200, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Hair
   rotate: false
-  xy: 1300, 100
+  xy: 1300, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Gliding
   rotate: false
-  xy: 1400, 100
+  xy: 1400, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pterosaur
   rotate: false
-  xy: 1400, 100
+  xy: 1400, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Synapsida
   rotate: false
-  xy: 1500, 100
+  xy: 1500, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Big Reptile
   rotate: false
-  xy: 1600, 100
+  xy: 1600, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Herbivore
   rotate: false
-  xy: 1700, 100
+  xy: 1700, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Excretion Opening
   rotate: false
-  xy: 1800, 100
+  xy: 1800, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Pigment Spot
   rotate: false
-  xy: 1900, 100
+  xy: 1900, 300
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
