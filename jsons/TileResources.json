@@ -2,33 +2,44 @@
 	// Ambience
 	{
 		"name": "Atmosphere",
-		"uniques": ["Stockpiled"],
+		"resourceType": "Strategic",
+		"revealedBy": "Primordial Soup",
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Temperature",
-		"uniques": ["Stockpiled"],
+		"resourceType": "Strategic",
+		"revealedBy": "Planet Earth",
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Water",
-		"uniques": ["Stockpiled"],
+		"resourceType": "Strategic",
+		"revealedBy": "Planet Earth",
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Oxygen",
-		"uniques": ["Stockpiled"],
+		"resourceType": "Strategic",
+		"revealedBy": "Planet Earth",
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Biomass",
-		"uniques": ["Stockpiled"],
+		"resourceType": "Strategic",
+		"revealedBy": "Chloroplasts",
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	// Variable
 	{
 		"name": "Complex",
-		"uniques": ["Stockpiled"],
+		"resourceType": "Strategic",
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Super Creature Stock",
 		"resourceType": "Strategic",
-		"science": 1,
+		"food": 1,
 		"uniques": ["Cannot be traded","Not shown on world screen"],
 	},
 	// General
