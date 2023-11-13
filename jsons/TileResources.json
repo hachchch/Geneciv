@@ -1,4 +1,37 @@
 [
+	// Ambience
+	{
+		"name": "Atmosphere",
+		"uniques": ["Stockpiled"],
+	},
+	{
+		"name": "Temperature",
+		"uniques": ["Stockpiled"],
+	},
+	{
+		"name": "Water",
+		"uniques": ["Stockpiled"],
+	},
+	{
+		"name": "Oxygen",
+		"uniques": ["Stockpiled"],
+	},
+	{
+		"name": "Biomass",
+		"uniques": ["Stockpiled"],
+	},
+	// Variable
+	{
+		"name": "Complex",
+		"uniques": ["Stockpiled"],
+	},
+	{
+		"name": "Super Creature Stock",
+		"resourceType": "Strategic",
+		"science": 1,
+		"uniques": ["Cannot be traded","Not shown on world screen"],
+	},
+	// General
         {
                 "name": "Atoll",
 		"revealedBy": "Sponge",
@@ -7,12 +40,6 @@
 		"food": 1,
                 "gold": 1,
         },
-	{
-		"name": "Super Creature Stock",
-		"resourceType": "Strategic",
-		"science": 1,
-		"uniques": ["Cannot be traded","Not shown on world screen"],
-	},
 	{
 		"name": "Marsh",
 		"revealedBy": "Spore Plant",
