@@ -12,31 +12,31 @@
 	{
 		"name": "Amphibian",
 		"uniques": ["[+30]% Strength <when fighting in [Coastal] tiles>","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
-		"Provides [1] [Biomass]","Consumes [1] [Oxygen]","Provides [1] [Atmosphere]"],
+		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Reptiles",
 		"movementType": "Land",
 		"uniques": ["[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 			"[-10]% Strength <when fighting in [Coastal] tiles>",
-		"Provides [1] [Biomass]","Consumes [1] [Oxygen]","Provides [1] [Atmosphere]"],
+		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Water Reptiles",
 		"movementType": "Water",
-		"uniques": ["Provides [1] [Biomass]","Consumes [1] [Oxygen]","Provides [1] [Atmosphere]"],
+		"uniques": ["Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Mammal",
 		"movementType": "Land",
 		"uniques": ["[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
-		"Provides [1] [Biomass]","Consumes [1] [Oxygen]","Provides [1] [Atmosphere]"],
+		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Herbivore",
 		"movementType": "Land",
 		"uniques": ["All healing effects doubled <in [GrassLand] tiles>","[-60]% Strength <when fighting in [Desert] tiles>","[-35]% Strength <when fighting in [Tundra] tiles>","[-80]% Strength <when fighting in [Snow] tiles>",
-		"Provides [1] [Biomass]","Consumes [1] [Oxygen]","Provides [1] [Atmosphere]"],
+		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Modern Fishes",
