@@ -23,7 +23,27 @@
     {
         "name": "Calender",
         "type": "Enhancer",
-        "uniques": ["[+25]% [Food] [in all cities] <with [30]% chance>"],
+        "uniques": ["[+10]% [Food] [in all cities] <before the [Industrial era]>"],
+    },
+    {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+    },
+    {
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+    },
+    {
+        "name": "Oral Tradition",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Luxury resource]"]
+    },
+    {
+        "name": "Religious Idols",
+        "type": "Pantheon",
+        "uniques": ["[+5 Culture, +5 Faith] <when above [5000] [Gold]>"]
     },
     {
         "name": "Festival for Gods",
