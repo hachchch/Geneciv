@@ -1072,6 +1072,8 @@
 				"name": "Zero",
 				"row": 5,
 				"prerequisites": ["Mathematics"],
+				"uniques": ["[Great Scientist] is earned [20]% faster",
+					"Science gained from research agreements [10]%"]
 			},
 			{
 				"name": "Philosophy",
@@ -1316,12 +1318,14 @@
 				"name": "Contract Management",
 				"row": 6,
 				"prerequisites": ["Banking"],
-				"uniques": ["[Gold] cost of purchasing [All] units [-17]%","[-25]% [Faith]","[+25]% Great Person generation [in all cities]"],
+				"uniques": ["When defeating a [Barbarian] unit, earn [10] Gold and recruit it","[Gold] cost of purchasing [All] units [-17]%","[-25]% [Faith]","[+25]% Great Person generation [in all cities]"],
 			},
 			{
 				"name": "Earth Globe",
 				"row": 9,
 				"prerequisites": ["Ranged Trading"],
+				"uniques": ["Reveal up to [10000] [All] within a [30] tile radius <upon discovering [Earth Globe]>"],
+				"quote": "'The church says the earth is flat, but I know that it is round.' - Ferdinand Magellan"
 			},
 		]
 	},
