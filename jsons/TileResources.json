@@ -129,7 +129,7 @@
 		"revealedBy": "Fern",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill"]
-		"improvement": "Forests",
+		"improvedBy": ["Forests", "Lumber mill"],
 		"improvementStats": {"production": 2, "food": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option","Generated on every [2] tiles <in [Plains] tiles>","Generated on every [2] tiles <in [Grassland] tiles>"],
 		"majorDepositAmount": {"sparse": 200, "default": 280, "abundant": 400},
