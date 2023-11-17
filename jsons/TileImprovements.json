@@ -255,7 +255,7 @@
 		"production": 10,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+10 Production] <after discovering [Gunpowder]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+10 Production] <after discovering [Gunpowder]>","[+10 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "M"
 	},
 	{
