@@ -1502,8 +1502,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-	},
-	{
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
