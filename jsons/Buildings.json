@@ -1047,17 +1047,35 @@
 	},
 	{
 		"name": "Stock Exchange",
-		"gold": 3,
+		"gold": 100,
 		"percentStatBonus": {"gold": 25},
 		"hurryCostModifier": 15,
 		"requiredBuilding": "Bank",
 		"requiredTech": "Telephone"
 	},
 	{
+		"name": "Broadcast Tower",
+		"culture": 30,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
 		"name": "Mass Communication",
 		"culture": 19,
 		"isNationalWonder": true,
 		"requiredTech": "Television",
-		"uniques": ["[-1] Unit Supply per city <when not at war>","[1] Unit Supply per city <when at war>","[-50]% Culture cost of adopting new Policies","[+20]% of excess happiness converted to [Culture]","[-20]% [Happiness] <when below [0] Happiness>"],
+		"uniques": ["Requires a [Broadcast Tower] in all cities","[-1] Unit Supply per city <when not at war>","[1] Unit Supply per city <when at war>","[-50]% Culture cost of adopting new Policies","[+20]% of excess happiness converted to [Culture]","[-100]% [Happiness] <when below [0] Happiness>"],
 	},
+	{
+		"name": "Big Media",
+		"culture": 100,
+		"percentStatBonus": {"culture": 10},
+		"requiredBuilding": "Broadcast Tower",
+		"maintenance": 3,
+		"requiredTech": "Social Media",
+		"uniques": ["Destroyed when the city is captured"]
+	}
 ]
