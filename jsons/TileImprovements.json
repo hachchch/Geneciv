@@ -161,12 +161,16 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": ["Consumes [1] [Water]","Consumes [2] [Biomass]","Consumes [2] [Atmosphere]","Provides [2] [Oxygen]","Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [River] tiles",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-			"[+1 Food] from [Road] tiles <after discovering [Plow]>",
-			"Pillaging this improvement yields approximately [+18 Gold]"],
-		"shortcutKey": "F"
+			"[+5 Food] from [River] tiles",
+			"[+5 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+5 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"[+3 Food] from [Road] tiles <after discovering [Plow]>",
+			"[+5 Food] <after discovering [Fertilizer]>",
+			"[+3 Food] <after discovering [Plow]>",
+			"[+5 Food] <after discovering [Herbalism]>",
+			"[+5 Food] <after discovering [Biology]>",
+			"[+5 Food] <after discovering [Genetics]>",
+			"[+5 Food] <after discovering [Genome Mapping>"]
 	},
 	{
 		"name": "City center",
@@ -260,7 +264,7 @@
 	},
 	{
 		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Flood plains"],
 		"gold": 20,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
