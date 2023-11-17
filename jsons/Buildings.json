@@ -1077,5 +1077,18 @@
 		"maintenance": 3,
 		"requiredTech": "Social Media",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Evolutionalism",
+		"science": 10,
+		"isWonder": true,
+		"requiredTech": "Biology",
+		"uniques": ["Free [Ambopteryx] appears",
+		"Free [Synapsida] appears",
+			"Free [Tetrapod] appears",
+		"[+1300]% Strength <for [Tetrapod] units>",
+		"[+700]% Strength <for [Synapsida] units>",
+		"[+400]% Strength <for [Ambopteryx] units>",
+		"[+2] Range <for [Ambopteryx] units>"],
 	}
 ]
