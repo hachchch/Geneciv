@@ -288,6 +288,35 @@
 			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
+	{
+		"name": "Lumber mill",
+		"production": 10,
+		"turnsToBuild": 7,
+		"techRequired": "Nail",
+		"uniques": ["[+10 Production] <after discovering [Arithmetic]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": ["[+10 Production] <after discovering [Hydraulically]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Well House",
+		"turnsToBuild": 8,
+		"food": 5,
+		"production": 5,
+		"techRequired": "Gear",
+		"uniques": ["Can only be built on [Hill] tiles","Can also be built on tiles adjacent to fresh water","[+10 Production] <after discovering [Hydraulically]>",
+			"[+5 Production] <after discovering [Machinery]>",
+			"[+5 Production] <after discovering [Mechanics]>",
+			"[+5 Production] <after discovering [Turbine]>",
+			"[+5 Production] <after discovering [Geometry]>",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "W"
+	},
 	// Great
 	{
 		"name": "Academy",
