@@ -77,7 +77,7 @@
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains"]
 		"food": 1,
-		"improvement": "Hunting Spot",
+		"improvedBy": ["Hunting Spot", "Pasture"],
 		"improvementStats": {"food": 1},
 	},
 	{
@@ -95,7 +95,7 @@
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Hill"]
 		"food": 1,
-		"improvement": "Hunting Spot",
+		"improvedBy": ["Hunting Spot", "Pasture"],
 		"improvementStats": {"food": 1},
 	},
 	{
@@ -111,6 +111,7 @@
 		"name": "Stone",
 		"revealedBy": "Primordial Soup",
 		"resourceType": "Bonus",
+		"improvement": "Quarry",
                 "terrainsCanBeFoundOn": ["Hill","Snow","Plains"]
 		"production": 2,
 	},
@@ -161,6 +162,7 @@
 		"revealedBy": "Fern",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
 		"production": 1,
+		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
@@ -180,7 +182,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
-		"improvement": "GrassLand",
+		"improvedBy": ["GrassLand", "Plantation"]
 	},
 	{
 		"name": "Dyes",
@@ -188,7 +190,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvement": "GrassLand",
+		"improvedBy": ["GrassLand", "Plantation"]
 	},
 	{
 		"name": "Incense",
@@ -196,7 +198,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
-		"improvement": "GrassLand",
+		"improvedBy": ["GrassLand", "Plantation"]
 	},
 	{
 		"name": "Ivory",
@@ -213,7 +215,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvement": "Forests",
+		"improvedBy": ["Forests", "Plantation"]
 	},
 	{
 		"name": "Spices",
@@ -221,7 +223,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvement": "GrassLand",
+		"improvedBy": ["GrassLand", "Plantation"]
 	},
 	{
 		"name": "Sugar",
@@ -229,7 +231,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland"],
 		"gold": 2,
-		"improvement": "GrassLand",
+		"improvedBy": ["GrassLand", "Plantation"]
 	},
 	{
 		"name": "Whales",
