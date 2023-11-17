@@ -249,6 +249,45 @@
 		"shortcutKey": "R",
 		"civilopediaText": [{"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"}, {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},{"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}]
 	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 10,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+10 Production] <after discovering [Gunpowder]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 20,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["[+20 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["[+10 Food] <after discovering [Plow]>","[+10 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 10,
+		"techRequired": "Calendar",
+		"uniques": ["[+10 Food] <after discovering [Fertilizer]>",
+			"[+10 Gold] <after discovering [Guilds]>",
+			"[+10 Food, +10 Gold] <after discovering [Intensive Farming]>",
+			"[+5 Production, +20 Gold] <after discovering [Monopoly]>",
+			"[+5 Production, +20 Gold] <after discovering [Colonization]>",
+			"[+5 Production, +20 Gold] <after discovering [Economics]>",
+			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
 	// Great
 	{
 		"name": "Academy",
