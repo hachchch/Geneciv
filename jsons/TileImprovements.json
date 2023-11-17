@@ -170,7 +170,7 @@
 			"[+5 Food] <after discovering [Herbalism]>",
 			"[+5 Food] <after discovering [Biology]>",
 			"[+5 Food] <after discovering [Genetics]>",
-			"[+5 Food] <after discovering [Genome Mapping>"]
+			"[+5 Food] <after discovering [Genome Mapping]>"]
 	},
 	{
 		"name": "City center",
@@ -297,7 +297,7 @@
 		"production": 10,
 		"turnsToBuild": 7,
 		"techRequired": "Nail",
-		"uniques": ["[+10 Production] <after discovering [Arithmetic]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+10 Production] <after discovering [Arithmetic]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "L"
 	},
 	{
