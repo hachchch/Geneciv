@@ -1921,6 +1921,19 @@
 		"uniques": ["Cannot attack",
 		"Reveal up to [100] [Water] within a [8] tile radius <for [5] movement>"]
 	},
+	{
+		"name": "Conquistador",
+		"unitType": "Husbandried",
+		"movement": 4,
+		"strength": 400,
+		"cost": 2700,
+		"requiredTech": "Colonization",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city", "[+2] Sight"],
+		"attackSound": "horse"
+	},
 	// Great  Person
 	{
 		"name": "Great Artist",
