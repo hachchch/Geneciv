@@ -249,4 +249,47 @@
 		"shortcutKey": "R",
 		"civilopediaText": [{"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"}, {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},{"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}]
 	},
+	// Great
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 40,
+		"uniques": ["Great Improvement", "[+10 Science] <after discovering [Calculus]>", "[+20 Science] <after discovering [Relativity]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+200 Science]"]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 30,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 40,
+		"uniques": ["Great Improvement", "[+10 Production] <after discovering [Manufacture]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 80,
+		"uniques": ["Great Improvement", "[+20 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 12,
+		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Faith]"]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+        	"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built",
+		]
+	}
 ]
