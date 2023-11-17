@@ -1901,6 +1901,26 @@
 		"requiredTech": "Electronics",
 		"uniques": ["Cannot attack", "Can carry [2] [Human Air] units"]
 	},
+	{
+		"name": "Wanderer",
+		"unitType": "Human",
+		"movement": 4,
+		"strength": 250,
+		"cost": 800,
+		"requiredTech": "Astrolabe",
+		"uniques": ["Cannot attack","Founds a new city <by consuming this unit> <on foreign continents>",
+		"Reveal up to [100] [All] within a [4] tile radius <for [4] movement>"]
+	},
+	{
+		"name": "Navigator",
+		"unitType": "Human Water",
+		"movement": 5,
+		"strength": 300,
+		"cost": 1000,
+		"requiredTech": "Sextant",
+		"uniques": ["Cannot attack",
+		"Reveal up to [100] [Water] within a [8] tile radius <for [5] movement>"]
+	},
 	// Great  Person
 	{
 		"name": "Great Artist",
