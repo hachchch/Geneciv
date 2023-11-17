@@ -348,6 +348,7 @@
 	},
 	{
 		"name": "Modern Jellyfish",
+		"obsoleteTech": "Sailing",
 		"unitType": "Water Animal",
 		"cost": 840,
 		"strength": 50,
@@ -372,6 +373,7 @@
 	},
 	{
 		"name": "Modern Fish",
+		"obsoleteTech": "Sailing",
 		"unitType": "Modern Fishes",
 		"cost": 860,
 		"strength": 70,
@@ -398,6 +400,7 @@
 	},
 	{
 		"name": "Eusuchia",
+		"obsoleteTech": "Anthropocene",
 		"unitType": "Reptiles",
 		"strength": 60,
 		"cost": 860,
@@ -420,6 +423,7 @@
 	},
 	{
 		"name": "Dunkleosteus",
+		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
 		"cost": 140,
 		"strength": 55,
@@ -448,6 +452,7 @@
 	},
 	{
 		"name": "Megalodon",
+		"obsoleteTech": "Plesiosaur",
 		"requiredTech": "Predation",
 		"unitType": "Fishes",
 		"cost": 500,
@@ -494,6 +499,7 @@
 	},
 	{
 		"name": "Fish",
+		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
 		"cost": 150,
 		"strength": 32,
@@ -520,6 +526,7 @@
 	},
 	{
 		"name": "Tetrapod",
+		"obsoleteTech": "Anthropocene",
 		"unitType": "Amphibian",
 		"cost": 200,
 		"strength": 24,
@@ -545,6 +552,7 @@
 	},
 	{
 		"name": "Shark",
+		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
 		"cost": 340,
 		"strength": 45,
@@ -571,6 +579,7 @@
 	},
 	{
 		"name": "Small Reptile",
+		"obsoleteTech": "Mammal",
 		"unitType": "Reptiles",
 		"movement": 3,
 		"cost": 250,
@@ -642,6 +651,7 @@
 	},
 	{
 		"name": "Synapsida",
+		"obsoleteTech": "Eutherians",
 		"cost": 300,
 		"strength": 45,
 		"uniques": ["[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
@@ -725,6 +735,7 @@
 	{
 		"name": "Feliform",
 		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
 		"cost": 500,
 		"strength": 80,
 		"movement": 3,
@@ -755,6 +766,7 @@
 	{
 		"name": "Lion",
 		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
 		"cost": 900,
 		"strength": 150,
 		"movement": 4,
@@ -779,6 +791,7 @@
 	{
 		"name": "Koala",
 		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
 		"cost": 500,
 		"strength": 80,
 		"movement": 1,
@@ -789,6 +802,7 @@
 	{
 		"name": "Kangaroos",
 		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
 		"cost": 500,
 		"strength": 75,
 		"movement": 2,
@@ -799,6 +813,7 @@
 	{
 		"name": "Platypus",
 		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
 		"cost": 500,
 		"strength": 60,
 		"movement": 2,
@@ -815,6 +830,7 @@
 		"range": 1,
 		"rangedStrength": 70,
 		"movement": 4,
+		"obsoleteTech": "Anthropocene",
 		"unitType": "Mammal",
 		"uniques": ["[+50]% to Flank Attack bonuses"],
 		"civilopediaText": [
@@ -832,6 +848,7 @@
 		"name": "Horse",
 		"cost": 500,
 		"requiredTech": "Eutherians",
+		"obsoleteTech": "Anthropocene",
 		"attackSound": "horse"
 		"strength": 60,
 		"movement": 3,
@@ -852,6 +869,7 @@
 		"name": "Caniform",
 		"unitType": "Mammal",
 		"cost": 500,
+		"obsoleteTech": "Anthropocene",
 		"strength": 80,
 		"movement": 3,
 		"requiredTech": "Eutherians",
@@ -875,6 +893,7 @@
 		"uniques": ["[225]% Strength <vs cities>","All healing effects doubled"],
 		"cost": 450,
 		"movement": 3,
+		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Eutherians",
 		"civilopediaText": [
 			{
@@ -1007,6 +1026,7 @@
 		"strength": 90,
 		"movement": 1,
 		"cost": 500,
+		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Birds",
 		"attackSound": "Whoosh",
 		"uniques": ["[+25]% Strength <vs [Land] units>"],
@@ -1030,6 +1050,7 @@
 		"strength": 65,
 		"movement": 1,
 		"cost": 500,
+		"obsoleteTech": "Anthropocene",
 		"uniques": ["Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
 		"requiredTech": "Modern Birds",
 		"attackSound": "Whoosh",
@@ -1183,6 +1204,7 @@
 		"range": 1,
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"movement": 2,
+		"obsoleteTech": "Eutherians",
 		"requiredTech": "Dinosaur",
 		"unitType": "Herbivore",
 		"civilopediaText": [
@@ -1351,6 +1373,7 @@
 		"cost": 800,
 		"attackSound": "metalhit",
 		"requiredTech": "War",
+		"obsoleteTech": "Urbanization",
 		"unitType": "Human",
 		"strength": 170,
 		"movement": 2,
@@ -1454,6 +1477,32 @@
 		"uniques": ["For Chariot"],
 	},
 	// Meghalayan Strange Animals
+	{
+		"name": "Civil Spearman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 185,
+		"cost": 1000,
+		"requiredTech": "Urbanization",
+		"obsoleteTech": "Bronze Working",
+		"upgradesTo": "Hoplite",
+		"uniques": ["[+50]% Strength <vs [Husbandried] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Hoplite",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 200,
+		"cost": 1200,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Husbandried] units>"],
+		"attackSound": "metalhit"
+	},
+	{
+	},
 	{
 		"name": "Catapult",
 		"unitType": "Siege",
