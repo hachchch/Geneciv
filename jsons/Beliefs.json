@@ -43,7 +43,7 @@
     {
         "name": "Religious Idols",
         "type": "Pantheon",
-        "uniques": ["[+5 Culture, +5 Faith] <when above [5000] [Gold]>"]
+        "uniques": ["[+5 Culture, +5 Faith] [in holy cities] <when above [5000] [Gold]>"]
     },
     {
         "name": "Festival for Gods",
