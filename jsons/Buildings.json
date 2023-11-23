@@ -190,10 +190,10 @@
 	},
 	{
 		"name": "Hurrian Hymn",
-		"cost": 3000,
+		"cost": 4500,
 		"culture": 1,
 		"isWonder": true,
-		"requiredTech": "The Culture",
+		"requiredTech": "Writing",
 		"uniques": ["[+33]% [Culture] [in this city]"]
 	},
 	{
@@ -208,6 +208,28 @@
 		"gold": 200,
 		"isWonder": true,
 		"requiredTech": "Alchemy",
+	},
+	{
+		"name": "Fireworks Entertainment!",
+		"happiness": 3,
+		"cost": 3400,
+		"requiredTech": "Gunpowder"
+	},
+	{
+		"name": "Sputnik",
+		"uniques": ["[2] Free Technologies"],
+		"cost": 17000,
+		"requiredTech": "Satellites"
+	},
+	{
+		"name": "Moon Base",
+		"production": 170,
+		"science": 360,
+		"food": 30,
+		"gold": 1200,
+		"culture": 90,
+		"cost": 15000,
+		"requiredTech": "Space Adaptation"
 	},
 	{
 		"name": "Replaceable Teeth",
