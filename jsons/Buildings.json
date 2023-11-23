@@ -85,6 +85,7 @@
 		"name": "Land Algae",
 		"cost": 250,
 		"food": 2,
+		"requiredTech": "First Plant",
 		"uniques": ["[+1 Food] from [Fresh Water] tiles [in this city]"]
 	},
 	{
