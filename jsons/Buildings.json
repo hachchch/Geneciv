@@ -119,6 +119,12 @@
 		"uniques": ["[+25]% Golden Age length"]
 	},
 	{
+		"name": "Foraminifera",
+		"cost": 800,
+		"gold": 8,
+		"requiredTech": "Grass"
+	},
+	{
 		"name": "Domed Cranium",
 		"cost": 1000,
 		"gold": 4,
