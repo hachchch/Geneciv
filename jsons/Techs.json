@@ -1012,6 +1012,11 @@
 				"uniques": ["[+1] Sight <for [Embarked] units>"],
 			},
 			{
+				"name": "Alcohol",
+				"row": 4,
+				"prerequisites": ["Fertilizer","Plow"],
+			},
+			{
 				"name": "Bronze Working",
 				"row": 9,
 				"prerequisites": ["Mining"],
@@ -1044,6 +1049,11 @@
 				"name": "Arithmetic",
 				"row": 7,
 				"prerequisites": ["Mathematics"],
+			},
+			{
+				"name": "Early Medicine",
+				"row": 3,
+				"prerequisites": ["Alcohol"],
 			},
 			{
 				"name": "Geometry",
@@ -1097,7 +1107,7 @@
 			{
 				"name": "Civil Service",
 				"row": 5,
-				"prerequisites": ["Philosophy","Construction","Pronounceable Writes"],
+				"prerequisites": ["Early Medicine","Philosophy","Construction","Pronounceable Writes"],
 			},
 			{
 				"name": "Iron Working",
@@ -1107,7 +1117,7 @@
 			{
 				"name": "Theology",
 				"row": 2,
-				"prerequisites": ["Geometry","Philosophy"],
+				"prerequisites": ["Geometry","Philosophy","Early Medicine"],
 			},
 			{
 				"name": "Engineering",
@@ -1394,7 +1404,7 @@
 			{
 				"name": "Law of Gravity",
 				"row": 5,
-				"prerequisites": ["Mechanics"],
+				"prerequisites": ["Mechanics","Acoustics"],
 			},
 			{
 				"name": "Rifling",
@@ -1404,17 +1414,17 @@
 			{
 				"name": "Steam Engine",
 				"row": 6,
-				"prerequisites": ["Chemistry","Mechanics"],
+				"prerequisites": ["Chemistry","Mechanics","Manufacture"],
 			},
 			{
 				"name": "Biology",
 				"row": 2,
-				"prerequisites": ["Chemistry"],
+				"prerequisites": ["Chemistry","Magnetic Compass"],
 			},
 			{
 				"name": "Economics",
 				"row": 7,
-				"prerequisites": ["Monopoly","Colonization"],
+				"prerequisites": ["Monopoly","Colonization","Manufacture","Architecture"],
 			},
 			{
 				"name": "Military Science",
