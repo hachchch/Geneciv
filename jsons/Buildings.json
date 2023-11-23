@@ -107,7 +107,7 @@
 		"cost": 500,
 		"science": 3,
 		"isWonder": true,
-		"requiredTech": "Nerve Cord",
+		"requiredTech": "Eye",
 		"uniques": ["[+10]% Production when constructing [Ranged] units [in all cities]"]
 	},
 	{
@@ -236,13 +236,6 @@
 		"culture": 90,
 		"cost": 15000,
 		"requiredTech": "Space Adaptation"
-	},
-	{
-		"name": "Replaceable Teeth",
-		"cost": 400,
-		"isWonder": true,
-		"requiredTech": "Eutherians",
-		"uniques": ["Provides [1] [Super Creature Stock]"]
 	},
 	{
 		"name": "Hive Mind",
