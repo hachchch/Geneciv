@@ -79,8 +79,150 @@
                 "food": 1,
                 "cost": 25,
 		"uniques": ["[+1 Production] from [Lakes] tiles [in this city]"],
-                "requiredTech": "Primordial Soup",
+		"requiredTech": "Primordial Soup",
         },
+	{
+		"name": "Land Algae",
+		"cost": 250,
+		"food": 2,
+		"uniques": ["[+1 Food] from [Fresh Water] tiles [in this city]"]
+	},
+	{
+		"name": "The Predator's Food Chain",
+		"isWonder": true,
+		"cost": 550,
+		"food": 2,
+		"requiredTech": "Predation",
+		"uniques": ["[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
+	},
+	{
+		"name": "Neuron Activation",
+		"cost": 220,
+		"isWonder": true,
+		"requiredTech": "Nerve Cord",
+		"uniques": ["[+1 Gold] from [Coast] tiles [in all cities]","[+1 Gold] from [Ocean] tiles [in all cities]"]
+	},
+	{
+		"name": "White of Eye Cells",
+		"cost": 500,
+		"science": 3,
+		"isWonder": true,
+		"requiredTech": "Nerve Cord",
+		"uniques": ["[+10]% Production when constructing [Ranged] units [in all cities]"]
+	},
+	{
+		"name": "Three Bone Ear",
+		"cost": 700,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Mammal",
+		"uniques": ["[+25]% Golden Age length"]
+	},
+	{
+		"name": "Domed Cranium",
+		"cost": 1000,
+		"gold": 4,
+		"science": 4,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Ape Brain",
+		"uniques": ["[+10]% [Gold] <in this city>","[+10]% [Science] <in this city>"]
+	},
+	{
+		"name": "Winged Threat",
+		"cost": 750,
+		"science": 1,
+		"isWonder": true,
+		"requiredTech": "Wings",
+		"uniques": ["[+33]% Strength <for [Herbivore] units>","[+14]% Strength <for [Avemetatarsalia] units>"]
+	},
+	{
+		"name": "Secondary Palate",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+15]% Strength <for [Caniform] units>","[+15]% Strength <for [Feliform] units>"]
+	},
+	{
+		"name": "Hooves",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+33]% Strength <for [Horse] units> <when defending>","[+1] Movement <for [Horse] units>","[+1] Sight <for [Horse] units>"]
+	},
+	{
+		"name": "Zoonosis",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Ape",
+		"uniques": ["[+50]% Strength <for [Glires] units> <vs cities> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Hominiae] units> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Human] units> <when attacking>"]
+	},
+	{
+		"name": "Carnassials",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+30]% Strength <for [Lion] units> <when attacking>"]
+	},
+	{
+		"name": "Replaceable Teeth",
+		"cost": 400,
+		"isWonder": true,
+		"requiredTech": "Jaw",
+		"uniques": ["Provides [1] [Super Creature Stock]"]
+	},
+	{
+		"name": "Polyp",
+		"cost": 125,
+		"food": 1,
+		"isWonder": true,
+		"requiredTech": "Radial Symmetry",
+		"uniques": ["[6] free [Jellyfish] units appear"]
+	},
+	{
+		"name": "Çatalhöyük",
+		"cost": 4000,
+		"production": 1,
+		"food": 2,
+		"isWonder": true,
+		"requiredTech": "Urbanization",
+		"uniques": ["[+50]% [Production] [in all cities] <for [10] turns>"]
+	},
+	{
+		"name": "Hurrian Hymn",
+		"cost": 3000,
+		"culture": 1,
+		"isWonder": true,
+		"requiredTech": "The Culture",
+		"uniques": ["[+33]% [Culture] [in this city]"]
+	},
+	{
+		"name": "Early Chemistry",
+		"cost": 3000,
+		"science": 30,
+		"requiredTech": "Alchemy",
+	},
+	{
+		"name": "Chrysopoeia",
+		"cost": 6000,
+		"gold": 200,
+		"isWonder": true,
+		"requiredTech": "Alchemy",
+	},
+	{
+		"name": "Replaceable Teeth",
+		"cost": 400,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["Provides [1] [Super Creature Stock]"]
+	},
+	{
+		"name": "Hive Mind",
+		"isWonder": true,
+		"cost": 400,
+		"requiredTech": "Nerve Cord",
+		"uniques": ["[+10]% Strength <for [Water] units> <when adjacent to a [non-[Enemy]] unit>"]
+	},
 	{
 		"name": "Emotions",
 		"cost": 400,
