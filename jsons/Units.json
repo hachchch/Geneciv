@@ -9,7 +9,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -31,7 +31,7 @@
 		"upgradesTo": "Shark",
 		"movement": 3,
 		"requiredTech": "Articulation",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
