@@ -3,20 +3,140 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TechPortraits/Primordial Soup
+Picture/Primordial Soup
   xy: 0, 0
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
-TechPortraits/Planet Earth
+Picture/Planet Earth
   xy: 0, 75
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
-TechPortraits/Moon
+Picture/Moon
   xy: 0, 150
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Animo Acid
+  xy: 0, 225
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/DNA
+  xy: 0, 300
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Nucleotides
+  xy: 0, 375
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Protein
+  xy: 0, 450
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Prokaryotic Cell
+  xy: 0, 525
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Nucleus
+  xy: 0, 600
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Mitosis
+  xy: 0, 675
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Asexual Reproduction
+  xy: 0, 750
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Sexual Reproduction
+  xy: 0, 825
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Mitochondria
+  xy: 0, 900
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Eukaryotic Cell
+  xy: 0, 975
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Filter Feeding
+  xy: 0, 1050
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Sponge
+  xy: 0, 1125
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Swimming
+  xy: 0, 1200
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Chloroplasts
+  xy: 0, 1275
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Nervous System
+  xy: 0, 1350
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Fish
+  xy: 0, 1425
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Predation
+  xy: 0, 1500
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Predation
+  xy: 0, 1575
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Picture/Lungfish
+  xy: 0, 1650
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
