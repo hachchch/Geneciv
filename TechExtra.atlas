@@ -5,19 +5,19 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TechPortraits/Primordial Soup
   xy: 0, 0
-  size: 200, 200
-  orig: 200, 200
+  size: 75, 75
+  orig: 75, 75
   offset: 0, 0
   index: -1
 TechPortraits/Planet Earth
-  xy: 0, 200
-  size: 200, 200
-  orig: 200, 200
+  xy: 0, 75
+  size: 75, 75
+  orig: 75, 75
   offset: 0, 0
   index: -1
 TechPortraits/Moon
-  xy: 0, 400
-  size: 200, 200
-  orig: 200, 200
+  xy: 0, 150
+  size: 75, 75
+  orig: 75, 75
   offset: 0, 0
   index: -1
