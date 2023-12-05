@@ -28,7 +28,7 @@
 				"quote": "This is the planet we live on. Although it is still a ball of magma, it has already met the miraculous conditions for growing life.",
 				"civilopediaText": [
 			{
-				"extraImage": "TechPortraits/Planet Earth",
+				"extraImage": "Picture/Planet Earth",
 				"imageSize": 192
 			},
 			{
@@ -431,6 +431,18 @@
 				"row": 6,
 				"prerequisites": ["Gills","Cold Blooded"],
 				"quote": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Lungfish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+			}
+				]
 			},
 			{
 				"name": "Predation",
