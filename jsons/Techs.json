@@ -26,6 +26,16 @@
 				"prerequisites": ["Home Star"],
 				"uniques": ["Cannot be hurried","[+100]% growth [in all cities]"],
 				"quote": "This is the planet we live on. Although it is still a ball of magma, it has already met the miraculous conditions for growing life.",
+				"civilopediaText": [
+			{
+				"extraImage": "TechPortraits/Planet Earth",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This is the planet we live on. Although it is still a ball of magma, it has already met the miraculous conditions for growing life.",
 			}
 		]
 	},
