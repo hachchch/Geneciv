@@ -447,7 +447,7 @@
 		"uniqueTo": "Euramerica",
 		"replaces": "Shark",
 		"requiredTech": "Predation",
-		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["Devonian","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "Splash",
 		"civilopediaText": [
 			{
@@ -476,7 +476,7 @@
 		"movement": 4,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
-		"uniques": ["Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
+		"uniques": ["Miocene","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
@@ -497,7 +497,7 @@
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
 		"requiredTech": "Flatworm",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"uniques": ["Cambrian","Ordovician","Devonian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -521,7 +521,7 @@
 		"strength": 32,
 		"movement": 2,
 		"requiredTech": "Fish",
-		"uniques": ["Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
+		"uniques": ["Cambrian","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
 			{
@@ -548,7 +548,7 @@
 		"strength": 24,
 		"movement": 1,
 		"requiredTech": "Lungfish",
-		"uniques": ["May travel on Water tiles without embarking","Can enter ice tiles","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
@@ -599,7 +599,7 @@
 		"unitType": "Reptiles",
 		"movement": 3,
 		"cost": 250,
-		"uniques": ["Can move after attacking <after discovering [Legs]>"],
+		"uniques": ["Pennsylvanian","Quadrupedal","Can move after attacking <after discovering [Legs]>"],
 		"strength": 36,
 		"requiredTech": "Reptile",
 		"civilopediaText": [
@@ -625,6 +625,7 @@
 		"upgradesTo": "Saurischia",
 		"strength": 50,
 		"requiredTech": "Archosauria",
+		"uniques": ["Triassic","Quadrupedal","Bipedal"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
@@ -647,7 +648,7 @@
 		"strength": 35,
 		"rangedStrength": 40,
 		"range": 1,
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Jurassic","Quadrupedal","Unit will heal every turn, even if it performs an action"],
 		"movement": 2,
 		"requiredTech": "Herbivore",
 		"unitType": "Herbivore",
@@ -670,7 +671,7 @@
 		"obsoleteTech": "Eutherians",
 		"cost": 300,
 		"strength": 45,
-		"uniques": ["[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"uniques": ["Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
@@ -697,7 +698,7 @@
 		"cost": 450,
 		"strength": 65,
 		"movement": 3,
-		"uniques": ["[+2] Sight"]
+		"uniques": ["Triassic","Quadrupedal","[+2] Sight"]
 		"requiredTech": "Plesiosaur",
 		"attackSound": "Splash",
 		"civilopediaText": [
@@ -733,7 +734,8 @@
 		"requiredTech": "Gliding",
 		"obsoleteTech": "Flying",
 		"upgradesTo": "Archeopteryx",
-		"attackSound": "Whoosh",
+		"attackSound": "Whoosh"
+		"uniques": ["Triassic"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Pterosaur",
@@ -757,7 +759,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
+		"uniques": ["Eocene","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Feliform",
@@ -789,7 +791,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Pleistocene","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
@@ -813,7 +815,7 @@
 		"movement": 1,
 		"requiredTech": "Placenta",
 		"attackSound": "Slash",
-		"uniques": ["All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
+		"uniques": ["Pleistocene","All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
 	},
 	{
 		"name": "Kangaroos",
@@ -824,7 +826,7 @@
 		"movement": 2,
 		"requiredTech": "Placenta",
 		"attackSound": "throw",
-		"uniques": ["[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
+		"uniques": ["Miocene","[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Platypus",
@@ -835,7 +837,7 @@
 		"movement": 2,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
+		"uniques": ["Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
 	},
 	{
 		"name": "Boar",
@@ -848,7 +850,7 @@
 		"movement": 4,
 		"obsoleteTech": "Anthropocene",
 		"unitType": "Mammal",
-		"uniques": ["[+50]% to Flank Attack bonuses"],
+		"uniques": ["Pleistocene","[+50]% to Flank Attack bonuses"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Boar",
@@ -869,7 +871,7 @@
 		"strength": 60,
 		"movement": 3,
 		"unitType": "Mammal",
-		"uniques": ["[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Eocene","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Horse",
@@ -890,7 +892,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Eocene","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Caniform",
@@ -906,7 +908,7 @@
 		"name": "Glires",
 		"unitType": "Mammal",
 		"strength": 45,
-		"uniques": ["[225]% Strength <vs cities>","All healing effects doubled"],
+		"uniques": ["Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
 		"cost": 450,
 		"movement": 3,
 		"obsoleteTech": "Anthropocene",
@@ -926,7 +928,7 @@
 		"name": "Chiroptera",
 		"unitType": "Air Mammal",
 		"strength": 60,
-		"uniques": ["[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
+		"uniques": ["Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
 		"cost": 450,
 		"movement": 3,
 		"requiredTech": "Bat",
@@ -946,6 +948,7 @@
 		"unitType": "Water Mammal",
 		"strength": 75,
 		"movement": 4,
+		"uniques": ["Oligocene"],
 		"requiredTech": "Cetaceans",
 		"cost": 500,
 		"attackSound": "Splash",
@@ -968,7 +971,7 @@
 		"movement": 3,
 		"requiredTech": "Ape",
 		"obsoleteTech": "Homo Habilis",
-		"uniques": ["All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
+		"uniques": ["Miocene","All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Ape",
@@ -1023,6 +1026,7 @@
 		"obsoleteTech": "Modern Birds",
 		"upgradesTo": "Eagle",
 		"attackSound": "Whoosh",
+		"uniques": ["Jurassic"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Archeopteryx",
@@ -1045,7 +1049,7 @@
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Birds",
 		"attackSound": "Whoosh",
-		"uniques": ["[+25]% Strength <vs [Land] units>"],
+		"uniques": ["Eocene","[+25]% Strength <vs [Land] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Eagle",
@@ -1067,7 +1071,7 @@
 		"movement": 1,
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
+		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
 		"requiredTech": "Modern Birds",
 		"attackSound": "Whoosh",
 		"civilopediaText": [
@@ -1091,7 +1095,7 @@
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Cretaceous","Bipedal","Predator","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
@@ -1112,6 +1116,7 @@
 		"movement": 1,
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Quadrupedal","Herbivore"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
@@ -1132,7 +1137,7 @@
 		"attackSound": "Monster",
 		"requiredTech": "Cretaceous Reptiles",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["[+30]% Strength <when attacking>"],
+		"uniques": ["Cretaceous","Bipedal","[+30]% Strength <when attacking>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
@@ -1156,6 +1161,7 @@
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
 		"attackSound": "Slash",
+		"uniques": ["Triassic","Bipedal"]
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
@@ -1176,7 +1182,7 @@
 		"strength": 50,
 		"cost": 430,
 		"movement": 2,
-		"uniques": ["[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
+		"uniques": ["Triassic","Bipedal","[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
 		"requiredTech": "Dinosaur",
 		"upgradesTo": "Eusuchia",
 		"attackSound": "Slash",
@@ -1194,7 +1200,7 @@
 		"strength": 45,
 		"cost": 430,
 		"movement": 2,
-		"uniques": ["[+1] Sight","[+60]% Strength <when defending>"],
+		"uniques": ["Triassic","Quadrupedal","[+1] Sight","[+60]% Strength <when defending>"],
 		"requiredTech": "Dinosaur",
 		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
@@ -1218,7 +1224,7 @@
 		"strength": 45,
 		"rangedStrength": 50,
 		"range": 1,
-		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Triassic","Quadrupedal","Unit will heal every turn, even if it performs an action"],
 		"movement": 2,
 		"obsoleteTech": "Eutherians",
 		"requiredTech": "Dinosaur",
@@ -1240,7 +1246,7 @@
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Human Race",
-		"uniques": ["Can build [Forests] improvements on tiles","Can build [GrassLand] improvements on tiles","Automation is a primary action","No Sight"],
+		"uniques": ["Ordovician","Can build [Forests] improvements on tiles","Can build [GrassLand] improvements on tiles","Automation is a primary action","No Sight"],
 		"cost": 300,
 		"requiredTech": "First Plant",
 		"civilopediaText": [
@@ -1259,7 +1265,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Can build [Land] improvements on tiles","Automation is a primary action"],
+		"uniques": ["Holocene","Can build [Land] improvements on tiles","Automation is a primary action"],
 		"cost": 800,
 		"requiredTech": "Human Race",
 	},
@@ -1278,7 +1284,7 @@
 		"movement": 2,
 		"strength": 50,
 		"attackSound": "nonmetalhit",
-		"uniques": ["[500]% Strength <vs [Glires] units>"],
+		"uniques": ["Pliocene","[500]% Strength <vs [Glires] units>"],
 		"requiredTech": "Australopithecus",
 		"civilopediaText": [
 			{
@@ -1299,7 +1305,7 @@
 		"range": 2,
 		"strength": 50,
 		"rangedStrength": 90,
-		"uniques": ["[350]% Strength <vs [Glires] units>"],
+		"uniques": ["Pleistocene","[350]% Strength <vs [Glires] units>"],
 		"requiredTech": "Stone Tools",
 		"attackSound": "Stone",
 		"civilopediaText": [
@@ -1316,7 +1322,7 @@
 	{
 		"name": "Tribesman",
 		"unitType": "Human",
-		"uniques": ["[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>"],
+		"uniques": ["Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>"],
 		"strength": 50,
 		"movement": 2,
 		"attackSound": "nonmetalhit",
@@ -1339,7 +1345,7 @@
 		"attackSound": "arrow",
 		"strength": 100,
 		"movement": 2,
-		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"uniques": ["Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Archer",
@@ -1355,7 +1361,7 @@
 		"requiredTech": "Homo Sapiens",
 		"strength": 135,
 		"movement": 2,
-		"uniques": ["[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Sapiens Warrior",
@@ -1371,7 +1377,7 @@
 		"requiredTech": "Homo Neanderthalensis",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["[-80]% Strength <vs [Human] units>"],
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units>"],
 		"obsoleteTech": "Homo Sapiens Sapiens",
 		"civilopediaText": [
 			{
@@ -1393,7 +1399,7 @@
 		"unitType": "Human",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
+		"uniques": ["Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Spearman",
