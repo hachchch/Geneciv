@@ -97,18 +97,7 @@
 		"uniques": ["[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
 	},
 	{
-		"name": "Microbiota",
-
-
-
-
-
-
-
-
-
-
-		
+		"name": "Microbiota",	
 		"food": 1,
 		"gold": 3,
 		"production": 1,
