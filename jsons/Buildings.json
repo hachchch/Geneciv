@@ -141,7 +141,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"requiredTech": "Ape Brain",
-		"uniques": ["[+10]% [Gold] <in this city>","[+10]% [Science] <in this city>"]
+		"uniques": ["[+10]% [Gold] [in this city]","[+10]% [Science] [in this city]"]
 	},
 	{
 		"name": "Winged Threat",
