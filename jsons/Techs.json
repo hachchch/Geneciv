@@ -690,6 +690,18 @@
 				"prerequisites": ["Excretion Opening","Jaw"],
 				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]"],
 				"quote": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Lungfish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
+			}
+				]
 			},
 		]
 	},
