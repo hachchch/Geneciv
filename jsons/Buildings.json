@@ -83,6 +83,7 @@
         },
 	{
 		"name": "Pronounce commonality",
+		"isWonder": true,
 		"requiredTech": "Speaking",
 		"cost": 2250,
 		"uniques": ["Provides [1] [Negotiation Skill]"]
