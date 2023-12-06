@@ -667,8 +667,8 @@
 		"columnNumber": 17,
 		"era": "Carboniferous period",
 		"techCost": 570,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 500,
+		"wonderCost": 550,
 		"techs": [
 			{
 				"name": "Reptile",
