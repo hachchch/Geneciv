@@ -82,7 +82,7 @@
 		"requiredTech": "Primordial Soup",
         },
 	{
-		"name": "Pronounce commonality",
+		"name": "Universal Language",
 		"isWonder": true,
 		"requiredTech": "Speaking",
 		"cost": 2250,
