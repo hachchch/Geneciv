@@ -1,4 +1,11 @@
 [
+	// Special
+	{
+		"name": "Negotiation Skill",
+		"resourceType": "Strategic",
+		"revealedBy": "Diplomacy",
+		"uniques": ["It can increase their interest in trade or treaties."]
+	},
 	// Ambience
 	{
 		"name": "Atmosphere",
