@@ -1153,7 +1153,8 @@
 				"name": "Diplomacy",
 				"row": 2,
 				"prerequisites": ["Homo Sapiens Sapiens","War","Speaking"],
-			},
+				"uniques": ["Provides [1] [Negotiation Skill] <upon discovering [Diplomacy]>"]
+					},
 			{
 				"name": "The Culture",
 				"row": 9,
