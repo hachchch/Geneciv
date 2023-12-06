@@ -97,6 +97,25 @@
 		"uniques": ["[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
 	},
 	{
+		"name": "Microbiota",
+
+
+
+
+
+
+
+
+
+
+		
+		"food": 1,
+		"gold": 3,
+		"production": 1,
+		"science": 1,
+		"requiredTech": "Lung"
+	},
+	{
 		"name": "Neuron Activation",
 		"cost": 220,
 		"isWonder": true,
