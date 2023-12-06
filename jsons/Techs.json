@@ -543,7 +543,7 @@
 			{
 				"name": "Fish",
 				"row": 6,
-				"uniques": ["Jawless fishes (-25% Attack Strength for Fishes)","[-25]% Strength <when attacking> <for [Fishes] units> <before discovering [Jaw]> <hidden from users>"],
+				"uniques": ["Jawless fishes (-25% Attack Strength for Fishes)","[-25]% Strength <when attacking> <for [Jawless] units> <before discovering [Jaw]> <hidden from users>"],
 				"prerequisites": ["Exoskeleton","Vertebrate","Heart"],
 				"civilopediaText": [
 			{
