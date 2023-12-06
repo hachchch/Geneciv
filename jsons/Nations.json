@@ -268,6 +268,6 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
-		"uniques": ["[+40]% Strength <when defending>","Can only heal by pillaging"]
+		"uniques": ["[+40]% Strength <when defending>","[+2] Sight <for [Cell] units>","[+2] Sight <for [Particle] units>","Can only heal by pillaging"]
 	}
 ]
