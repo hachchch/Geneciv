@@ -9,6 +9,7 @@
 			{
 				"name": "Home Star",
 				"row": 5,
+				"quote": "The Sun is the star at the center of the Solar System. It is a massive, hot ball of plasma, inflated and heated by energy produced by nuclear fusion reactions at its core. Part of this internal energy is emitted from its surface as light, ultraviolet, and infrared radiation, providing most of the energy for life on Earth.",
 				"uniques": ["The Sun","Starting tech","Instantly provides [500] [Temperature]"],
 			}
                 ]
@@ -54,13 +55,37 @@
 				"prerequisites": ["Planet Earth"],
 				"uniques": ["[+4 Happiness] from [Lakes] tiles [in all cities]","Instantly provides [500] [Oxygen]","Instantly provides [2000] [Atmosphere]","Instantly provides [500] [Water]","Instantly provides [500] [Temperature]"],
 				"quote": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Primordial Soup",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
+			}
+				]
 			},
 			{
 				"name": "Moon",
 				"row": 3,
 				"prerequisites": ["Planet Earth"],
 				"uniques": ["[+10]% growth [in all cities]"],
-				"quote": "The moon causes the tides. This is important because it relates to changes in sea level, but there are still many mysteries about how the moon was born. In many cases, it is said that it was created by the impact of a giant meteorite, and that it separated from the earth, but there is also a theory that it was created by the Sumerians.",
+				"quote": "The moon causes the tides. This is important because it relates to changes in sea level and fluid flow, but there are still many mysteries about how the moon was born. In many cases, it is said that it was created by the impact of a giant meteorite, and that it separated from the earth, but there is also a theory that it was created by the Sumerians.",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Moon",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The moon gravitationalfield causes the Earth tides. This is important because it relates to changes in sea level and fluid flow, but there are still many mysteries about how the moon was born. In many cases, it is said that it was created by the impact of a giant meteorite, and that it separated from the earth, but there is also a theory that it was created by the Sumerians.",
+			}
+				]
 			}
 		]
 	},
@@ -75,11 +100,35 @@
 				"name": "Amino Acid",
 				"row": 6,
 				"prerequisites": ["Primordial Soup"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Amino Acid",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			}
+				]
 			},
 			{
 				"name": "Nucleotides",
 				"row": 4,
 				"prerequisites": ["Primordial Soup"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Nucleotides",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			}
+				]
 			}
 		]
 	},
@@ -94,11 +143,31 @@
 				"name": "Protein",
 				"row": 6,
 				"prerequisites": ["Amino Acid"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Protein",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "DNA",
 				"row": 4,
 				"prerequisites": ["Nucleotides"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/DNA",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			}
 		]
 	},
@@ -113,6 +182,16 @@
 				"name": "Prokaryotic Cell",
 				"row": 5,
 				"prerequisites": ["Protein","DNA"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Prokaryotic Cell",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			}
 		]
 	},
@@ -128,17 +207,47 @@
 				"row": 3,
 				"prerequisites": ["Prokaryotic Cell"],
 				"uniques": ["[+2 Production] [in all cities]"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Mitochondria",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "Nucleus",
 				"row": 7,
 				"prerequisites": ["Prokaryotic Cell"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Nucleus",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "Mitosis",
 				"row": 9,
 				"prerequisites": ["Prokaryotic Cell"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Mitosis",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			}
 		]
 	},
@@ -153,12 +262,32 @@
 				"name": "Eukaryotic Cell",
 				"row": 5,
 				"prerequisites": ["Nucleus","Mitochondria"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Eukaryotic Cell",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "Asexual Reproduction",
 				"row": 9,
 				"prerequisites": ["Mitosis"],
 				"uniques": ["Production to [Gold] conversion in cities changed by [+10]%"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Asexual Reproduction",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			}
 		]
 	},
@@ -178,6 +307,16 @@
 				"name": "Filter Feeding",
 				"row": 8,
 				"prerequisites": ["Eukaryotic Cell"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Filter Feeding",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			}
 		]
 	},
@@ -192,12 +331,32 @@
 				"name": "Chloroplasts",
 				"row": 1,
 				"prerequisites": ["Tissue"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Chloroplasts",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "Nervous System",
 				"row": 2,
 				"prerequisites": ["Tissue"],
 				"uniques": ["[+1 Production] [in all cities]","[+2 Happiness] from [City center] tiles [in all cities]"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Nervous System",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "Muscles",
@@ -208,12 +367,32 @@
 				"name": "Sponge",
 				"row": 5,
 				"prerequisites": ["Tissue","Filter Feeding"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Sponge",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "Sexual Reproduction",
 				"row": 9,
 				"prerequisites": ["Asexual Reproduction"],
 				"uniques": ["Enables conversion of city production to [Science]","[+1 Science] from every specialist [in all cities]"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Sexual Reproduction",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			}
 		]
 		
@@ -231,12 +410,32 @@
 				"prerequisites": ["Muscles","Sponge"],
 				"uniques": ["Enables embarkation for land units"],
 				"quote": "Translucent, moving objects have been created from polyps that at first glance look like coral. Yes, this is our ancestor. Lol",
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Swimming",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Translucent, moving objects have been created from polyps that at first glance look like coral. Yes, this is our ancestor.It's cute.",
 			}
 			{
 				"name": "Coral",
 				"row": 4,
 				"prerequisites": ["Sponge"],
-				"uniques": ["[+1 Gold, +1 Food] in cities on [Coast] tiles"]
+				"uniques": ["[+1 Gold, +1 Food] in cities on [Coast] tiles"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Coral",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			}
 		]
 	},
@@ -344,7 +543,18 @@
 			{
 				"name": "Fish",
 				"row": 6,
+				"uniques": ["Jawless fishes (-25% Attack Strength for Fishes)","[-25]% Strength <when attacking> <for [Fishes] units> <before discovering [Jaw]> <hidden from users>"],
 				"prerequisites": ["Exoskeleton","Vertebrate","Heart"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Fish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
 			},
 			{
 				"name": "Trilobite",
@@ -390,7 +600,7 @@
 				"name": "Jaw",
 				"row": 7,
 				"prerequisites": ["Fish"],
-				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]","[+1 Food] from [Coast] tiles [in all cities]"],
+				"uniques": ["Fish With Jaw Confirmed","[+1 Food] from [Ocean] tiles [in all cities]","[+1 Food] from [Coast] tiles [in all cities]"],
 			},
 			{
 				"name": "Fish Egg",
@@ -417,7 +627,7 @@
 				"name": "Medulla Oblongata",
 				"row": 2,
 				"prerequisites": ["Nerve Cord","Gills","Eye"],
-				"uniques": ["[+1 Production] from [Ocean] tiles [in all cities]"],
+				"uniques": ["[+1 Gold] from [Water] tiles [in all cities]"],
 				"quote": "medulla oblongata is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing.",
 			},
 			{
