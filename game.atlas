@@ -1600,6 +1600,27 @@ TileSets/HexaRealm/Tiles/Jungle+City center-Silurian period
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City center
   rotate: false
   xy: 880, 1801
