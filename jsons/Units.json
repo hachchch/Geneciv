@@ -357,7 +357,7 @@
 		"movement": 2,
 		"requiredTech": "Modern Ocean",
 		"obsoleteTech": "Human Race",
-		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
+		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles <hidden from users>"],
 		"attackSound": "whoo",
 		"promotions": ["Nematocyst I","Poison I"],
 		"civilopediaText": [
@@ -379,7 +379,7 @@
 		"strength": 70,
 		"movement": 5,
 		"requiredTech": "Modern Ocean",
-		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
 			{
@@ -399,13 +399,29 @@
 		]
 	},
 	{
+		"name": "Charadriiformes",
+		"unitType": "Birds",
+		"range": 7,
+		"rangedStrength": 70,
+		"strength": 70,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Modern Ocean",
+		"attackSound": "Whoosh",
+		"uniques": ["[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
+	},
+	{
 		"name": "Eusuchia",
 		"obsoleteTech": "Anthropocene",
 		"unitType": "Reptiles",
 		"strength": 60,
 		"cost": 860,
 		"movement": 2,
-		"uniques": ["[+100]% <when fighting in [River] tiles>"],
+		"uniques": ["[+150]% Strength <in [Flesh water] tiles>","[+150]% <when fighting in [Flesh water] tiles> <hidden from users>",
+		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
+		"[+1] Movement <in [Flesh water] tiles>","[+1] Movement <in [Coastal] tiles>",
+		"[+500]% Strength <when defending> <when [Embarked]>"],
 		"requiredTech": "Modern Ocean",
 		"civilopediaText": [
 			{
@@ -505,7 +521,7 @@
 		"strength": 32,
 		"movement": 2,
 		"requiredTech": "Fish",
-		"uniques": ["[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders","Double movement in [Coast] <after discovering [Fins]>","Double movement in [Ocean] <after discovering [Fins]>"],
+		"uniques": ["Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
 			{
