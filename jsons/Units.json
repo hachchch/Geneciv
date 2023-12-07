@@ -282,7 +282,7 @@
 		"requiredTech": "Tissue",
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
-		"uniques": ["No Sight"],
+		"uniques": ["[+60]% Strength <vs cities> <when attacking>"]
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
@@ -409,7 +409,7 @@
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
 		"attackSound": "Whoosh",
-		"uniques": ["[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
+		"uniques": ["Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
 	},
 	{
 		"name": "Eusuchia",
@@ -418,7 +418,7 @@
 		"strength": 60,
 		"cost": 860,
 		"movement": 2,
-		"uniques": ["[+150]% Strength <in [Flesh water] tiles>","[+150]% <when fighting in [Flesh water] tiles> <hidden from users>",
+		"uniques": ["Cretaceous","Predator","[+150]% Strength <in [Flesh water] tiles>","[+150]% <when fighting in [Flesh water] tiles> <hidden from users>",
 		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
 		"[+1] Movement <in [Flesh water] tiles>","[+1] Movement <in [Coastal] tiles>",
 		"[+500]% Strength <when defending> <when [Embarked]>"],
@@ -447,7 +447,7 @@
 		"uniqueTo": "Euramerica",
 		"replaces": "Shark",
 		"requiredTech": "Predation",
-		"uniques": ["Devonian","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["Devonian","Predator","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "Splash",
 		"civilopediaText": [
 			{
@@ -476,7 +476,7 @@
 		"movement": 4,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
-		"uniques": ["Miocene","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
+		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
@@ -575,7 +575,7 @@
 		"movement": 5,
 		"requiredTech": "Predation",
 		"attackSound": "Splash",
-		"uniques": ["Can move after attacking","Destroys tile improvements when attacking"],
+		"uniques": ["Jurassic","Predator","Can move after attacking","Destroys tile improvements when attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Shark",
@@ -625,7 +625,7 @@
 		"upgradesTo": "Saurischia",
 		"strength": 50,
 		"requiredTech": "Archosauria",
-		"uniques": ["Triassic","Quadrupedal","Bipedal"],
+		"uniques": ["Triassic","Predator","Herbivore","Quadrupedal","Bipedal"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
@@ -698,7 +698,7 @@
 		"cost": 450,
 		"strength": 65,
 		"movement": 3,
-		"uniques": ["Triassic","Quadrupedal","[+2] Sight"]
+		"uniques": ["Triassic","Predator","Quadrupedal","[+2] Sight"]
 		"requiredTech": "Plesiosaur",
 		"attackSound": "Splash",
 		"civilopediaText": [
@@ -735,7 +735,7 @@
 		"obsoleteTech": "Flying",
 		"upgradesTo": "Archeopteryx",
 		"attackSound": "Whoosh"
-		"uniques": ["Triassic"],
+		"uniques": ["Triassic","Predator"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Pterosaur",
@@ -759,7 +759,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Eocene","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
+		"uniques": ["Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Feliform",
@@ -791,7 +791,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
-		"uniques": ["Pleistocene","Never appears as a Barbarian unit"],
+		"uniques": ["Pleistocene","Predator","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
@@ -850,7 +850,7 @@
 		"movement": 4,
 		"obsoleteTech": "Anthropocene",
 		"unitType": "Mammal",
-		"uniques": ["Pleistocene","[+50]% to Flank Attack bonuses"],
+		"uniques": ["Pleistocene","Ungulates","[+50]% to Flank Attack bonuses"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Boar",
@@ -871,7 +871,7 @@
 		"strength": 60,
 		"movement": 3,
 		"unitType": "Mammal",
-		"uniques": ["Eocene","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Horse",
@@ -892,7 +892,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Eocene","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Caniform",
@@ -927,8 +927,8 @@
 	{
 		"name": "Chiroptera",
 		"unitType": "Air Mammal",
-		"strength": 60,
-		"uniques": ["Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
+		"strength": 66,
+		"uniques": ["Eocene","","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
 		"cost": 450,
 		"movement": 3,
 		"requiredTech": "Bat",
@@ -948,7 +948,7 @@
 		"unitType": "Water Mammal",
 		"strength": 75,
 		"movement": 4,
-		"uniques": ["Oligocene"],
+		"uniques": ["Oligocene","Predator"],
 		"requiredTech": "Cetaceans",
 		"cost": 500,
 		"attackSound": "Splash",
@@ -1026,7 +1026,7 @@
 		"obsoleteTech": "Modern Birds",
 		"upgradesTo": "Eagle",
 		"attackSound": "Whoosh",
-		"uniques": ["Jurassic"],
+		"uniques": ["Jurassic","Predator"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Archeopteryx",
@@ -1049,7 +1049,7 @@
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Birds",
 		"attackSound": "Whoosh",
-		"uniques": ["Eocene","[+25]% Strength <vs [Land] units>"],
+		"uniques": ["Eocene","Predator","[+25]% Strength <vs [Land] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Eagle",
@@ -1095,7 +1095,7 @@
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Bipedal","Predator","Never appears as a Barbarian unit"],
+		"uniques": ["Cretaceous","Predator","Bipedal","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
@@ -1116,7 +1116,7 @@
 		"movement": 1,
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Quadrupedal","Herbivore"],
+		"uniques": ["Cretaceous","Herbivore","Quadrupedal"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
@@ -1161,7 +1161,7 @@
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Triassic","Bipedal"]
+		"uniques": ["Triassic","Predator","Bipedal"]
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
@@ -1265,7 +1265,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"uniques": ["Holocene","Can build [Land] improvements on tiles","Automation is a primary action"],
+		"uniques": ["Holocene","Human","Can build [Land] improvements on tiles","Automation is a primary action"],
 		"cost": 800,
 		"requiredTech": "Human Race",
 	},
