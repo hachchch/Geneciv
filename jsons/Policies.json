@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Extinctions",
-		"era": "Cambrian period",
+		"era": "Mesoproterozoic",
 		"priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
 		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
 		"uniques": ["[+33]% [Science] [in capital]"],
@@ -51,6 +51,7 @@
 				"name": "Meteorite Impact",
 				"row": 6,
 				"column": 3,
+				"effect": "The P–T",
 				"uniques": ["[+25]% [Science] <for [15] turns>","[-25]% Production when constructing [Reptile] units [in all cities] <for [30] turns>","[-20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
 				"requires": ["Hypoxic Environment","Siberian Traps"],
 			},
@@ -101,6 +102,56 @@
 				"name": "Extinctions Complete",
 				"effect": "+100% growth and +10 science in all cities",
 				"uniques": ["Gain a free [Extinction Complete] [in capital]","[+100]% growth in all cities","[+10 Science] in all cities"]
+			},
+		]
+	},
+	{
+		"name": "Diversity",
+		"era": "Cambrian Period",
+		"effect": "+3 culture in capital and increased rate of border expansion",
+		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
+		"policies": [
+			{
+				"name": "Parallel Evolution",
+				"effect": "+3 Science per Wonder from foreign continent tiles",
+				"uniques": ["[+2 Culture] from every [Wonder] <on foreign continents>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Phylogenetic Trees",
+				"effect": "Gain Tech Boost when you built Wonders",
+				"uniques":["Gain [120] [Science] <upon constructing [Wonder]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Coevolution",
+				"effect": "+1 Science from Bug Buildings",
+				"uniques": ["[+1 Science] from every [Bugs]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Bio Feudalism",
+				"effect": "+20% Production when constructing Herbivore and Small Reptiles, 30% growth in capital",
+				"uniques": ["+[30]% growth in capital", "[+20]% Production when constructing [Herbivore] units [in all cities]","[+20]% Production when constructing [Small Reptile] units [in all cities]"],
+				"requires": ["Phylogenetic Trees"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Evolvability",
+				"effect": "Reduces Upgrade cost 50% for all units",
+				"uniques": ["[-50]% Gold cost of upgrading"],
+				"requires": ["Coevolution"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Diversity Complete",
+				"effect": "+2 Culture from Wonders in all cities",
+				"uniques": ["[+2 Culture] from every [Wonder]"]
 			},
 		]
 	},
