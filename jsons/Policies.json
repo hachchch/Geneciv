@@ -171,7 +171,7 @@
 				"name": "Triassic Extinction",
 				"uniques":["[-84]% Production when constructing [Big Reptile] units [in all cities]","Gain [1200] [Science] (modified by game speed)"],
 				"row": 1,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Survival Wisdom",
@@ -189,7 +189,7 @@
 					"[+1 Food] from [GrassLand] tiles [in capital]"],
 				"requires": ["Festival"],
 				"row": 2,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Ceramics Biome",
