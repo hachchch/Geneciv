@@ -100,6 +100,7 @@
 				"name": "Amino Acid",
 				"row": 6,
 				"prerequisites": ["Primordial Soup"],
+				"quote": "Amino acids are not creature, but they make up proteins that are important to creature.",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Amino Acid",
@@ -109,7 +110,7 @@
 				"Separator": true
 			},
 			{
-				"text": ".",
+				"text": "Amino acids are not creature, but they make up proteins that are important to creature.",
 			}
 				]
 			},
@@ -117,6 +118,7 @@
 				"name": "Nucleotides",
 				"row": 4,
 				"prerequisites": ["Primordial Soup"],
+				"quote": "Nucleotides are organic molecules composed of a nitrogenous base, a pentose sugar and a phosphate.",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Nucleotides",
@@ -126,7 +128,7 @@
 				"Separator": true
 			},
 			{
-				"text": ".",
+				"text": "Nucleotides are organic molecules composed of a nitrogenous base, a pentose sugar and a phosphate.",
 			}
 				]
 			}
@@ -143,6 +145,7 @@
 				"name": "Protein",
 				"row": 6,
 				"prerequisites": ["Amino Acid"],
+				"quote": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another.",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Protein",
@@ -152,7 +155,7 @@
 				"Separator": true
 			},
 			{
-				"text": ".",
+				"text": "Proteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, providing structure to cells and organisms, and transporting molecules from one location to another.",
 			},
 				]
 			},
@@ -160,6 +163,7 @@
 				"name": "DNA",
 				"row": 4,
 				"prerequisites": ["Nucleotides"],
+				"quote": "The DNA is Deoxyribonucleic acid.DNA is a long polymer made from repeating units called nucleotides.",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/DNA",
@@ -169,7 +173,7 @@
 				"Separator": true
 			},
 			{
-				"text": ".",
+				"text": "The DNA is Deoxyribonucleic acid.DNA is a long polymer made from repeating units called nucleotides.",
 			}
 				]
 			}
