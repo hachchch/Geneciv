@@ -546,13 +546,12 @@
 				"name": "Nerve Cord",
 				"row": 2,
 				"prerequisites": ["Bilateral Symmetry","Nervous System"],
-				"uniques": ["[+1 Gold] from [Ocean] tiles [in all cities]"],
 			},
 			{
 				"name": "Pigment Spot",
 				"row": 3,
 				"prerequisites": ["Bilateral Symmetry"],
-				"uniques": ["[+25]% XP gained from combat <for [Flatworm] units>"]
+				"uniques": ["+1 sight for Water Animals"]
 			},
 		]
 	},
