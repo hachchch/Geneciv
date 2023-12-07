@@ -7,8 +7,8 @@
 		"strength": 40,
 		"obsoleteTech": "Plesiosaur",
 		"movement": 2,
-		"requiredTech": "Exoskeleton",
-		"uniques": ["Only available <after adopting [Order of Earth]>","[+45]% Strength <vs [Predator] units> <when attacking>",
+		"requiredTech": "Trilobite",
+		"uniques": ["Only available <after adopting [Diversity]>","[+45]% Strength <vs [Predator] units> <when attacking>",
 			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
