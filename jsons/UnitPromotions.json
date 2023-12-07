@@ -595,18 +595,23 @@
 		"unitTypes": ["Mammal","Human","Hominiae"],
 	},
 	{
+		"name": "Anti-Predator",
+		"uniques": ["[+38]% Strength <vs [Predator] units> <when defending>","Only available <when [non-[Predator]]>"],
+		"unitTypes": ["Reptiles","Mammal"]
+	},
+	{
 		"name": "Best Friends",
 		"uniques": ["Free [Feliform] appears <upon defeating a [Feliform] unit> <with [15]% chance>","Free [Caniform] appears <upon defeating a [Caniform] unit> <with [15]% chance>","[200]% maintenance costs"],
 		"unitTypes": ["Human"],
 	},
 	{
 		"name": "Rodent",
-		"uniques": ["Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
-		"unitTypes": ["Glires"]
+		"uniques": ["Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>","Only available <when [Glires]>"],
+		"unitTypes": ["Mammal"]
 	},
 	{
 		"name": "Lagomorpha",
-		"uniques": ["They have four incisors in the upper jaw.","All healing effects doubled <in [GrassLand] tiles>","Can only heal by pillaging"],
-		"unitTypes": ["Glires"]
+		"uniques": ["They have four incisors in the upper jaw.","Only available <when [Glires]>","All healing effects doubled <in [GrassLand] tiles>","Can only heal by pillaging"],
+		"unitTypes": ["Mammal"]
 	},
 ]
