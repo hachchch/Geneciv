@@ -614,4 +614,8 @@
 		"uniques": ["They have four incisors in the upper jaw.","Only available <when [Glires]>","All healing effects doubled <in [GrassLand] tiles>","Can only heal by pillaging"],
 		"unitTypes": ["Mammal"]
 	},
+	{
+		"name": "Survival Instinct",
+		"uniques": ["[+1] Movement <when below [20] HP>","[+1] Sight <when below [20] HP>"]
+	},
 ]
