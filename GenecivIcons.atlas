@@ -345,7 +345,7 @@ ImprovementIcons/Habitat
   orig: 200, 200
   offset: 0, 0
   index: -1
-ImprovementIcons/Foraminifera
+BuildingIcons/Foraminifera
   rotate: false
   xy: 1400, 200
   size: 200, 200
