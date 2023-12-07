@@ -1,6 +1,28 @@
 [
 	// Cambrian Entities
 	{
+		"name": "Trilobites",
+		"unitType": "Water Arthropod",
+		"cost": 250,
+		"strength": 40,
+		"obsoleteTech": "Plesiosaur",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["[+45]% Strength <vs [Predator] units> <when attacking>",
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
+				"imageSize": 192
+			},
+		]
+	},
+	{
 		"name": "Crustacean",
 		"unitType": "Water Arthropod",
 		"cost": 115,
