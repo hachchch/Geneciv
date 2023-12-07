@@ -124,7 +124,7 @@
 		"science": 3,
 		"isWonder": true,
 		"requiredTech": "Eye",
-		"uniques": ["[+10]% Production when constructing [Ranged] units [in all cities]"]
+		"uniques": ["[+10]% Production when constructing [{non-[Predator]} {Water}] units [in all cities]","[+10]% Production when constructing [Ranged] units [in all cities]"]
 	},
 	{
 		"name": "Three Bone Ear",
@@ -156,7 +156,7 @@
 		"science": 1,
 		"isWonder": true,
 		"requiredTech": "Wings",
-		"uniques": ["[+33]% Strength <for [Herbivore] units>","[+14]% Strength <for [Avemetatarsalia] units>"]
+		"uniques": ["[+12]% Strength <for [Herbivore] units>","[+14]% Strength <for [Avemetatarsalia] units>"]
 	},
 	{
 		"name": "Secondary Palate",
