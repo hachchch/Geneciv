@@ -108,8 +108,8 @@
 	{
 		"name": "Diversity",
 		"era": "Cambrian period",
-		"effect": "+3 culture in capital and increased rate of border expansion",
-		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
+		"effect": "+3 Science, +3 Food in capital",
+		"uniques": ["[+3 Science, +3 Food] in capital"],
 		"policies": [
 			{
 				"name": "Parallel Evolution",
