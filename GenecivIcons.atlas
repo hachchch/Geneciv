@@ -93,21 +93,21 @@ NationIcons/Hirnantian
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicieIcons/Industrial Revolution
+PolicyIcons/Industrial Revolution
   rotate: false
   xy: 0, 1400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicieIcons/Deccan Traps
+PolicyIcons/Deccan Traps
   rotate: false
   xy: 0, 1600
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PolicieIcons/Nuclear Apocalypse
+PolicyIcons/Nuclear Apocalypse
   rotate: false
   xy: 0, 1800
   size: 200, 200
