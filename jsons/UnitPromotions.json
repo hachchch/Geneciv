@@ -599,4 +599,14 @@
 		"uniques": ["Free [Feliform] appears <upon defeating a [Feliform] unit> <with [15]% chance>","Free [Caniform] appears <upon defeating a [Caniform] unit> <with [15]% chance>","[200]% maintenance costs"],
 		"unitTypes": ["Human"],
 	},
+	{
+		"name": "Rodent",
+		"uniques": ["Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
+		"unitTypes": ["Glires"]
+	},
+	{
+		"name": "Lagomorpha",
+		"uniques": ["They have four incisors in the upper jaw.","All healing effects doubled <in [GrassLand] tiles>","Can only heal by pillaging"],
+		"unitTypes": ["Glires"]
+	},
 ]
