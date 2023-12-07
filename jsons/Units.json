@@ -1177,6 +1177,23 @@
 		]
 	},
 	{
+		"name": "Theropoda",
+		"unitType": "Reptiles",
+		"strength": 50,
+		"cost": 430,
+		"movement": 2,
+		"uniques": ["Triassic","Avemetatarsalia","Bipedal","[+40]% Strength <when defending>"],
+		"requiredTech": "Dinosaur",
+		"attackSound": "Slash",
+		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Theropoda",
+				"imageSize": 192
+			},
+		]
+	},
+	/*{
 		"name": "Pseudosuchia",
 		"unitType": "Reptiles",
 		"strength": 50,
@@ -1194,6 +1211,7 @@
 			},
 		]
 	},
+	*/
 	{
 		"name": "Avemetatarsalia",
 		"unitType": "Reptiles",
