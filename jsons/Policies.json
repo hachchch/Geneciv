@@ -200,8 +200,8 @@
 			},
 			{
 				"name": "Order of Earth Complete",
-				"effect": "+15% growth and +2 food in all cities",
-				"uniques": ["+[15]% growth in all cities","[+2 Food] in all cities"]
+				"effect": "+30% Strength to Predator vs Wounded for 50 turn and +100% Strength for Trilobites when attacking",
+				"uniques": ["[+30]% Strength <for [Predator] units> <vs [Wounded] units> <for [50] turns>","[+100]% Strength <for [Trilobites] units> <when attacking>"]
 			}
 		]
 	},
