@@ -156,6 +156,56 @@
 		]
 	},
 	{
+		"name": "Order of Earth",
+		"era": "Devonian period",
+		"effect": "+3 culture in capital and increased rate of border expansion",
+		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
+		"policies": [
+			{
+				"name": "Survival of the fittest",
+				"uniques": ["[non-[Predator]] units gain the [Survival Instinct] promotion","[+10]% Strength <for [Predator] units> <vs [{Wounded} {non-[Predator]} units]> <when attacking>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Triassic Extinction",
+				"uniques":["[-84]% Production when constructing [Big Reptile] units [in all cities]","Gain [1200] [Science] (modified by game speed)"],
+				"row": 1,
+				"column": 2
+			},
+			{
+				"name": "Survival Wisdom",
+				"requires": ["Survival of the fittest"],
+				"uniques": ["[+50]% XP gained from combat <for [Military] units>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Flowering earth singing for Mammals",
+				"uniques": ["[+1 Food] from [Dyes] tiles [in all cities]",
+					"[+1 Food] from [Incense] tiles [in all cities]",
+					"[+1 Food] from [Spices] tiles [in all cities]",
+					"[+1 Food] from [Cotton] tiles [in all cities]",
+					"[+1 Food] from [GrassLand] tiles [in capital]"],
+				"requires": ["Festival"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Ceramics Biome",
+				"uniques": ["[+8 Gold] from [City center] tiles [in all cities]"],
+				"requires": ["Survival Wisdom","Flowering earth singing for Mammals"],
+				"row": 3,
+				"column": 2
+			},
+			{
+				"name": "Order of Earth Complete",
+				"effect": "+15% growth and +2 food in all cities",
+				"uniques": ["+[15]% growth in all cities","[+2 Food] in all cities"]
+			}
+		]
+	},
+	{
 		"name": "Tribalism",
 		"era": "Pleistocene",
 		"effect": "+3 culture in capital and increased rate of border expansion",
