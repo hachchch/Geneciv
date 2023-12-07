@@ -108,8 +108,8 @@
 	{
 		"name": "Diversity",
 		"era": "Cambrian period",
-		"effect": "+3 Science, +3 Food in capital",
-		"uniques": ["[+3 Science, +3 Food] in capital"],
+		"effect": "Enable To Construct Trilobites",
+		"uniques": ["Enable To Construct Trilobites"],
 		"policies": [
 			{
 				"name": "Parallel Evolution",
