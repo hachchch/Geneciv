@@ -1,6 +1,50 @@
 {
     "name": "Global uniques",
     "uniques": [
+	    // SubUnitTypes
+	    "[+20]% Production when constructing [Cretaceous] units [in all cities] <starting from the [Mesozoic era]>",
+	    "[+20]% XP gained from combat <for [Cretaceous] units> <starting from the [Mesozoic era]>",
+	    
+	    "[+20]% Production when constructing [Jurassic] units [in all cities] <starting from the [Mesozoic era]>",
+	    "[+20]% XP gained from combat <for [Jurassic] units> <starting from the [Mesozoic era]>",
+
+	    "[+20]% Production when constructing [Triassic] units [in all cities] <starting from the [Mesozoic era]>",
+	    "[+20]% XP gained from combat <for [Triassic] units> <starting from the [Mesozoic era]>",
+
+	    "[+20]% Production when constructing [Holocene] units [in all cities] <starting from the [Holocene]>",
+	    "[+20]% XP gained from combat <for [Holocene] units> <starting from the [Holocene]>",
+
+	    "[+20]% Production when constructing [Miocene] units [in all cities] <starting from the [Miocene]>",
+	    "[+20]% XP gained from combat <for [Miocene] units> <starting from the [Miocene]>",
+
+	    "[+20]% Production when constructing [Eocene] units [in all cities] <starting from the [Paleogene period]>",
+	    "[+20]% XP gained from combat <for [Eocene] units> <starting from the [Paleogene period]>",
+
+	    "[+20]% Production when constructing [Oligocene] units [in all cities] <starting from the [Paleogene period]>",
+	    "[+20]% XP gained from combat <for [Oligocene] units> <starting from the [Paleogene period]>",
+
+	    "[+20]% Production when constructing [Paleocene] units [in all cities] <starting from the [Paleogene period]>",
+	    "[+20]% XP gained from combat <for [Paleocene] units> <starting from the [Paleogene period]>",
+
+	    "[+20]% Production when constructing [Cambrian] units [in all cities] <starting from the [Cambrian period]>",
+	    "[+20]% XP gained from combat <for [Cambrian] units> <starting from the [Cambrian period]>",
+
+	    "[+20]% Production when constructing [Devonian] units [in all cities] <starting from the [Devonian period]>",
+	    "[+20]% XP gained from combat <for [Devonian] units> <starting from the [Devonian period]>",
+
+	    "[+20]% Production when constructing [Ordovician] units [in all cities] <starting from the [Silurian period]>",
+	    "[+20]% XP gained from combat <for [Ordovician] units> <starting from the [Silurian period]>",
+
+	    "[+20]% Production when constructing [Permian] units [in all cities] <starting from the [Permian period]>",
+	    "[+20]% XP gained from combat <for [Permian] units> <starting from the [Permian period]>",
+
+	    "[+20]% Production when constructing [Pliocene] units [in all cities] <starting from the [Pliocene]>",
+	    "[+20]% XP gained from combat <for [Pliocene] units> <starting from the [Pliocene]>",
+
+	    "[+20]% Production when constructing [Pleistocene] units [in all cities] <starting from the [Pleistocene]>",
+	    "[+20]% XP gained from combat <for [Pleistocene] units> <starting from the [Pleistocene]>",
+	    
+	    // General
 		"[-50]% growth [in all cities] <when between [-5] and [0] Happiness>",
 		"[-75]% growth [in all cities] <when between [-10] and [-6] Happiness>",
 		"Nullifies Growth [in all cities] <when below [-10] Happiness>",
