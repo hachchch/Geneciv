@@ -230,7 +230,7 @@
 			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
 			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
 		"uniqueName": "The Late Ordovician Mass Extinction",
-		"uniques": ["[+22]% Strength <for [Water Animal] units> <before the [Silurian period]>","[+49]% Strength <for [Water] units> <before the [Silurian period]>"],
+		"uniques": ["[+71]% Strength <for [Ordovician] units>","[+22]% Strength <for [Water Animal] units> <before the [Silurian period]>","[+49]% Strength <for [Water] units> <before the [Silurian period]>"],
 	},
 	{
 		"name": "Euramerica",
