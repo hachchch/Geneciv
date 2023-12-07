@@ -1182,7 +1182,7 @@
 		"strength": 50,
 		"cost": 430,
 		"movement": 2,
-		"uniques": ["Triassic","Avemetatarsalia","Bipedal","[+40]% Strength <when defending>"],
+		"uniques": ["Triassic","Avemetatarsalia","Predator","Bipedal","[+40]% Strength <when adjacent to a [Theropoda] unit>"],
 		"requiredTech": "Dinosaur",
 		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
