@@ -163,7 +163,7 @@
 		"policies": [
 			{
 				"name": "Survival of the fittest",
-				"uniques": ["[non-[Predator]] units gain the [Survival Instinct] promotion","[+10]% Strength <for [Predator] units> <vs [{Wounded} {non-[Predator]} units]> <when attacking>"],
+				"uniques": ["[non-[Predator]] units gain the [Survival Instinct] promotion","[+10]% Strength <for [Predator] units> <vs [{Wounded} {non-[Predator]}] units> <when attacking>"],
 				"row": 1,
 				"column": 1
 			},
