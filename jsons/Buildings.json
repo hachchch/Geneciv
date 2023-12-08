@@ -104,7 +104,9 @@
                 "name": "Volcano",
                 "food": 1,
                 "cost": 25,
-		"uniques": ["[+1 Production] from [Lakes] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Gold, +1 Production] from [Lakes] tiles [in this city]"],
 		"requiredTech": "Primordial Soup",
         },
 	{
@@ -117,6 +119,7 @@
 	{
 		"name": "Land Algae",
 		"cost": 250,
+		"maintenance": 1,
 		"food": 2,
 		"requiredTech": "First Plant",
 		"uniques": ["[+1 Food] from [Fresh Water] tiles [in this city]"]
@@ -127,7 +130,7 @@
 		"cost": 550,
 		"food": 2,
 		"requiredTech": "Predation",
-		"uniques": ["[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
+		"uniques": ["Must be next to [Coast]","[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
 	},
 	{
 		"name": "Microbiota",	
@@ -214,6 +217,7 @@
 	},
 	{
 		"name": "Replaceable Teeth",
+		"maintenance": 4,
 		"cost": 400,
 		"isWonder": true,
 		"requiredTech": "Jaw",
@@ -225,7 +229,7 @@
 		"food": 1,
 		"isWonder": true,
 		"requiredTech": "Radial Symmetry",
-		"uniques": ["[6] free [Jellyfish] units appear"]
+		"uniques": ["Must be next to [Coast]","[6] free [Jellyfish] units appear"]
 	},
 	{
 		"name": "Lascaux Cave",
@@ -254,6 +258,7 @@
 	{
 		"name": "Early Chemistry",
 		"cost": 3000,
+		"maintenance": 10,
 		"science": 30,
 		"requiredTech": "Alchemy",
 	},
@@ -267,6 +272,7 @@
 	{
 		"name": "Fireworks Entertainment!",
 		"happiness": 3,
+		"maintenance": 20,
 		"cost": 3400,
 		"requiredTech": "Gunpowder"
 	},
@@ -302,6 +308,7 @@
 	},
 	{
 		"name": "Mammal Brain",
+		"maintenance": 3,
 		"cost": 750,
 		"science": 4,
 		"production": 4,
@@ -310,6 +317,7 @@
 	},
 	{
 		"name": "Green Field",
+		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Grass",
 		"food": 4,
@@ -317,6 +325,7 @@
 	},
 	{
 		"name": "Kelp Forest",
+		"maintenance": 3,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Modern Ocean",
 		"production": 4,
@@ -326,6 +335,7 @@
 	{
 		"name": "Big Brain",
 		"cost": 1000,
+		"maintenance": 3,
 		"science": 5,
 		"happiness": 1,
 		"uniques": ["[+20]% [Science] [in this city]","New [Human] units start with [15] Experience [in this city]"],
@@ -334,6 +344,7 @@
 	{
 		"name": "Hunting",
 		"cost": 1000,
+		"maintenance": 1,
 		"specialistSlots": {"Hunter": 1},
 		"requiredTech": "Homo Ergaster",
 	},
@@ -353,6 +364,7 @@
 	{
 		"name": "Logical Thinking",
 		"cost": 1130,
+		"maintenance": 1,
 		"requiredTech": "Human Brain",
 		"science": 2,
 		"uniques": ["[+1 Science] per [2] population"],
@@ -360,6 +372,7 @@
 	{
 		"name": "Fishing",
 		"food": 1,
+		"maintenance": 1,
 		"cost": 1200,
 		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","[+3 Food] from [Lakes] tiles [in this city]","[+3 Food] from [River] tiles [in this city]"],
 		"requiredTech": "Stone Tools",
@@ -368,6 +381,7 @@
 	{
 		"name": "Sociality",
 		"cost": 700,
+		"maintenance": 1,
 		"happiness": 1,
 		"requiredTech": "Ape Brain",
 		"specialistSlots": {"Elder": 1},
@@ -378,12 +392,14 @@
 		"specialistSlots": {"Craftsman": 1},
 		"cost": 1000,
 		"production": 8,
+		"maintenance": 1,
 		"requiredTech": "Stone Tools",
 		"uniques": ["[+20]% Production when constructing [Human] units [in this city]"],
 	},
 	{
 		"name": "Count",
 		"cost": 700,
+		"maintenance": 1,
 		"production": 2,
 		"gold": 3,
 		"requiredTech": "Five Fingers",
@@ -393,6 +409,7 @@
 		"name": "Gathering",
 		"cost": 750,
 		"production": 6,
+		"maintenance": 1,
 		"gold": 1,
 		"food": 4,
 		"requiredTech": "Opposable Thumb",
@@ -402,6 +419,7 @@
 		"name": "Campfire",
 		"specialistSlots": {"Hunter": 3},
 		"culture": 5,
+		"maintenance": 1,
 		"happiness": 5,
 		"food": 5,
 		"production": 1,
@@ -415,6 +433,7 @@
 		"specialistSlots": {"Elder": 1},
 		"requiredTech": "Cave Painting",
 		"cost": 1000,
+		"maintenance": 1,
 		"gold": 6,
 		"culture": 5,
 		"happiness": 2,
@@ -423,6 +442,7 @@
 	{
 		"name": "Cemetery",
 		"cost": 1200,
+		"maintenance": 3,
 		"happiness": 1,
 		"requiredTech": "Burial",
 		"uniques": ["Excess Food converted to Production when under construction","Destroyed when the city is captured","Remove extra unhappiness from annexed cities"],
@@ -431,6 +451,7 @@
 		"name": "Sacred Place",
 		"specialistSlots": {"Elder": 2},
 		"cost": 1000,
+		"maintenance": 1,
 		"faith": 5,
 		"requiredTech": "Religion",
 		"uniques": ["[+4 Faith] from every Elder [in this city]"],
@@ -443,6 +464,7 @@
 	{
 		"name": "Enzymes",
 		"cost": 70,
+		"maintenance": 1,
 		"production": 1,
 		"uniques": ["[+9]% [Production] [in this city]"],
 		"requiredTech": "Amino Acid",
@@ -451,17 +473,20 @@
 		"name": "RNA",
 		"cost": 60,
 		"food": 1,
+		"maintenance": 1,
 		"requiredTech": "DNA",
 	},
 	{
 		"name": "Replication",
 		"cost": 65,
+		"maintenance": 1,
 		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "DNA",
 	},
 	{
 		"name": "Plasma Membrane",
 		"cost": 70,
+		"maintenance": 1,
 		"cityStrength": 5,
                 "cityHealth": 40,
 		"requiredTech": "Protein",
@@ -469,36 +494,45 @@
 	{
 		"name": "Polypeptides",
 		"cost": 70,
+		"science": 2,
+		"maintenance": 1,
 		"uniques": ["[+33]% Production when constructing [Particle] units [in this city]"],
 		"requiredTech": "Protein",
 	},
 	{
 		"name": "Chromosomes",
 		"cost": 75,
+		"science": 2,
+		"maintenance": 1,
 		"uniques": ["[+25]% Production when constructing [Cell] units [in this city]"],
 		"requiredTech": "DNA",
 	},
 	{
 		"name": "Flagellum",
 		"cost": 85,
+		"maintenance": 1,
+		"science": 2,
 		"uniques": ["New [Cell] units start with [15] Experience [in this city]"],
 		"requiredTech": "Nucleus",
 	},
 	{
 		"name": "Ribosomes",
 		"cost": 80,
+		"maintenance": 1,
 		"requiredTech": "Mitosis",
 		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Phagocytic Cell",
 		"cost": 90,
+		"maintenance": 1,
 		"requiredTech": "Filter Feeding",
 		"cityStrength": 5,
                 "cityHealth": 35,
 	},
 	{
 		"name": "Oscula",
+		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"cost": 100,
 		"production": 2,
@@ -508,6 +542,7 @@
 	{
 		"name": "Photosynthesis",
 		"cost": 120,
+		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Chloroplasts",
 		"production": 1,
@@ -515,6 +550,7 @@
 	},
 	{
 		"name": "Algae",
+		"maintenance": 1,
 		"specialistSlots": {"Vegetation": 1},
 		"cost": 120,
 		"requiredTech": "Chloroplasts",
@@ -522,6 +558,7 @@
 	},
 	{
 		"name": "Fungi",
+		"maintenance": 1,
 		"specialistSlots": {"Meristem": 1},
 		"requiredTech": "Tissue",
 		"cost": 100,
@@ -529,6 +566,7 @@
 	},
 	{
 		"name": "Muscles",
+		"maintenance": 1,
 		"specialistSlots": {"Meristem": 1},
 		"requiredTech": "Muscles",
 		"cost": 120,
