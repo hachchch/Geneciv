@@ -4,50 +4,50 @@
 		"name": "Negotiation Skill",
 		"resourceType": "Strategic",
 		"revealedBy": "Diplomacy",
-		"uniques": ["It can increase their interest in trade or treaties."]
+		"uniques": ["Excluded from map editor","It can increase their interest in trade or treaties."]
 	},
 	// Ambience
 	{
 		"name": "Atmosphere",
 		"resourceType": "Strategic",
 		"revealedBy": "Primordial Soup",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Temperature",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Water",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
 	},
 	{
 		"name": "Oxygen",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
 	},
 	{
 		"name": "Biomass",
 		"resourceType": "Strategic",
 		"revealedBy": "Chloroplasts",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
 	},
 	// Variable
 	{
 		"name": "Complex",
 		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Cannot be traded","Excluded from map editor","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Super Creature Stock",
 		"resourceType": "Strategic",
 		"food": 1,
-		"uniques": ["Cannot be traded","Not shown on world screen"],
+		"uniques": ["Cannot be traded","Not shown on world screen","Excluded from map editor"],
 	},
 	// General
         {
@@ -247,6 +247,37 @@
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"food": 1,
 		"gold": 1,
+	},
+	{
+		"name": "Faunas",
+		"resourceType": "Strategic",
+		"revealedBy": "Biology",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Grassland","Plains","Hill"],
+		"improvement": "Mine",
+		"improvementStats": {"culture": 20},
+		"uniques": ["Minor deposits generated with weight [20] <in [Featureless] [Desert] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Strategic",
+		"revealedBy": "Electricity",
+		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow"],
+		"production": 10,
+		"improvement": "Mine",
+		"improvementStats": {"production": 10},
+		"uniques": ["Generated with weight [15] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [39] <in [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Aruminiumu",
+		"resourceType": "Strategic",
+		"revealedBy": "Electricity",
 	},
 	{
 		"name": "Pearls",
