@@ -139,8 +139,8 @@
 		"improvedBy": ["Forests", "Lumber mill"],
 		"improvementStats": {"production": 2, "food": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option","Generated on every [2] tiles <in [Plains] tiles>","Generated on every [2] tiles <in [Grassland] tiles>"],
-		"majorDepositAmount": {"sparse": 200, "default": 280, "abundant": 400},
-		"minorDepositAmount": {"sparse": 80, "default": 120, "abundant": 120}
+		"majorDepositAmount": {"sparse": 100, "default": 140, "abundant": 200},
+		"minorDepositAmount": {"sparse": 40, "default": 60, "abundant": 60}
 	},
 	{
 		"name": "Jungle",
@@ -152,7 +152,7 @@
                 "production": 1,
 		"uniques": ["Guaranteed with Strategic Balance resource option","Generated with weight [1]"],
 		"improvementStats": {"food": 2},
-		"majorDepositAmount": {"sparse": 100, "default": 140, "abundant": 200},
+		"majorDepositAmount": {"sparse": 80, "default": 120, "abundant": 175},
 		"minorDepositAmount": {"sparse": 40, "default": 60, "abundant": 60}
 	},
 	{
