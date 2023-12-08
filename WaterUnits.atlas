@@ -5,7 +5,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/AbsoluteUnits/Units/Dolphin
   rotate: false
-  xy: 0, 0
+  xy: 0, -10
   size: 117, 115
   orig: 117, 115
   offset: 0, 0
