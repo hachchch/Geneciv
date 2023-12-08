@@ -4,6 +4,9 @@
 	    // SubUnitTypes
 	    "[+20]% Production when constructing [Cretaceous] units [in all cities] <starting from the [Mesozoic era]>",
 	    "[+20]% XP gained from combat <for [Cretaceous] units> <starting from the [Mesozoic era]>",
+
+	    "[+20]% Production when constructing [Pennsylvanian] units [in all cities] <starting from the [Carboniferous period]>",
+	    "[+20]% XP gained from combat <for [Pennsylvanian] units> <starting from the [Carboniferous period]>",
 	    
 	    "[+20]% Production when constructing [Jurassic] units [in all cities] <starting from the [Mesozoic era]>",
 	    "[+20]% XP gained from combat <for [Jurassic] units> <starting from the [Mesozoic era]>",
