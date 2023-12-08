@@ -467,6 +467,7 @@
 		"iconRGB": [86, 186, 61],
 		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
+	/*
 	{
 		"name": "Blattacene",
 		"researchAgreementCost": 50000,
@@ -484,4 +485,5 @@
 		"iconRGB": [86, 186, 61],
 		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
+	*/
 ]
