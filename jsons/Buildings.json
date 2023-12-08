@@ -65,6 +65,23 @@
 		"uniques": ["Gain a free [Eclipse] [in all cities]"],
 		"requiredTech": "Moon",
 	},
+	{
+		"name": "Gobekli Tepe",
+		"cost": 2000,
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+5] from [Monument] tiles [in all cities]"]
+		"isWonder": true,
+		"requiredTech": "The Culture",
+	},
+	{
+		"name": "Hōryū Ji",
+		"cost": 9000,
+		"isWonder": true,
+		"culture": 16,
+		"uniques": ["[+1 Culture] per every [8] [Faith]"],
+		"requiredTech": "Philosophy",
+	},
 	// National Wonders
 	{
 		"name": "Ozone Layer",
