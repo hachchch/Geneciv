@@ -150,7 +150,7 @@
 		"food": 2,
 		"improvement": "Forests",
                 "production": 1,
-		"uniques": ["Guaranteed with Strategic Balance resource option","Generated with weight [25]","Generated on every [7] tiles <in [Plains] tiles>","Generated on every [7] tiles <in [Grassland] tiles>"],
+		"uniques": ["Vegetation","Guaranteed with Strategic Balance resource option","Generated with weight [25]","Generated on every [7] tiles <in [Plains] tiles>","Generated on every [7] tiles <in [Grassland] tiles>"],
 		"improvementStats": {"food": 2},
 		"majorDepositAmount": {"sparse": 80, "default": 120, "abundant": 175},
 		"minorDepositAmount": {"sparse": 40, "default": 60, "abundant": 60}
