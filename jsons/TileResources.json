@@ -278,6 +278,7 @@
 		"name": "Aruminiumu",
 		"resourceType": "Strategic",
 		"revealedBy": "Electricity",
+		"uniques": ["Excluded from map editor"],
 	},
 	{
 		"name": "Pearls",
