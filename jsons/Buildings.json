@@ -15,14 +15,16 @@
 	// Land Arthropod
 	{
 		"name": "Beetles",
+		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
 		"production": 5,
 		"cost": 350,
-		"uniques": ["Bugs","[+5]% [Production] [in all cities]"]
+		"uniques": ["It's Bugs. Not Musician","Bugs <hidden from users>","[+5]% [Production] [in all cities]"]
 	},
 	{
 		"name": "Uniramia",
+		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
 		"food": 1,
@@ -32,6 +34,7 @@
 	},
 	{
 		"name": "Orthoptera",
+		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
 		"food": 1,
@@ -40,9 +43,61 @@
 		"uniques": ["Bugs","[+20]% Production when constructing [{Land} {Civilian}] units [in this city]"],
 	},
 	{
-		"name": "Bee",
+		"name": "Dixidae",
+		"maintenance": 2,
+		"production": 2,
+		"uniques": ["Bugs","Culicoidea"],
+		"requiredTech": "Grass",
 		"cost": 200,
-		"uniques": ["Bugs","[+1 Production] from [GrassLand] tiles [in this city]"],
+	},
+	{
+		"name": "Chaoboridae",
+		"gold": 2,
+		"cost": 200,
+		"uniques": ["Bugs","Culicoidea"],
+		"maintenance": 2,
+		"requiredTech": "Grass",
+	},
+	{
+		"name": "Mosquito",
+		"science": 2,
+		"cost": 200,
+		"uniques": ["Bugs","Culicoidea"],
+		"maintenance": 2,
+		"requiredTech": "Grass",
+	},
+	{
+		"name": "Midge",
+		"food": 2,
+		"maintenance": 1,
+		"uniques": ["Bugs","Vampire","[+1 Food] from [Jungle] tiles [in this city]"]
+		"requiredTech": "Insect",
+	},
+	{
+		"name": "Phasmatodea",
+		"maintenance": 2,
+		"requiredTech": "Grass",
+		"uniques": ["Bugs","Get Stick Bugged Lol"]
+	},
+	{
+		"name": "Lepidoptera", // Pieris Rapae my beloved
+		"cost": 230,
+		"maintenance": 3,
+		"requiredTech": "Flowers",
+		"uniques": ["Bugs","Coevolution","Must be next to [Tundra]","[+1 Production] from [{Tundra} {GrassLand}] tiles [in this city]"]
+	},
+	{
+		"name": "Hummingbirds",
+		"maintenance": 3,
+		"cost": 230,
+		"uniques": ["Bugs","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
+		"requiredTech": "Flowers",
+	},
+	{
+		"name": "Bee",
+		"maintenance": 3,
+		"cost": 230,
+		"uniques": ["Bugs","Coevolution","Must be next to [Grassland]","[+1 Production] from [{Grassland} {GrassLand}] tiles [in this city]"],
 		"requiredTech": "Flowers",
 	},
 	// Wonders
@@ -70,7 +125,7 @@
 		"cost": 2000,
 		"culture": 2,
 		"faith": 2,
-		"uniques": ["[+5] from [Monument] tiles [in all cities]"]
+		"uniques": ["[+5 Faith, +1 Culture] from [Monument] tiles [in all cities]"],
 		"isWonder": true,
 		"requiredTech": "The Culture",
 	},
