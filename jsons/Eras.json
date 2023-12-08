@@ -228,7 +228,7 @@
 		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
 		"startingMilitaryUnitCount": 3,
-		"startingMilitaryUnit": "Glires", // I think it should be Feliform or Caniform. but, I can't. so,maybe I make vote later which favorites Cat or Dog.
+		"startingMilitaryUnit": "Feliform",// meow meow
 		"startingGold": 500,
 		"settlerPopulation": 1,
 		"startPercent": 40,
