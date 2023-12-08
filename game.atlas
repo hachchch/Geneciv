@@ -2116,7 +2116,7 @@ TileSets/AbsoluteUnits/Units/Feliform
   orig: 102, 100
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Crustacean
+TileSets/AbsoluteUnits/Units/Trilobites
   rotate: false
   xy: 0, 400
   size: 102, 100
