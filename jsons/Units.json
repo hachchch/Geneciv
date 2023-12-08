@@ -49,8 +49,8 @@
 		"unitType": "Water Arthropod",
 		"cost": 95,
 		"strength": 24,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
+		"obsoleteTech": "Exoskeleton",
+		"upgradesTo": "Crustacean",
 		"movement": 3,
 		"requiredTech": "Articulation",
 		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
@@ -76,6 +76,30 @@
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
 		"uniques": ["[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Peytoia",
+		"uniqueTo": "Burgess",
+		"replaces": "Crustacean",
+		"unitType": "Water Arthropod",
+		"cost": 120,
+		"strength": 28,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -417,6 +441,31 @@
 			},
 			{
 				"text": "Some fish choose to evolve on land, while others remain in the sea and continue to evolve. Modern fish have shiny scales and huge schools. Tuna is a fairly new aquatic species.",
+			},
+		]
+	},
+	{
+		"name": "Giant Squid",
+		"unitType": "Water Animal",
+		"cost": 1680,
+		"strength": 250,
+		"rangedStrength": 100,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Human Race",
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "whoo",
+		"uniques": ["Miocene","Predator"]
+		"promotions": ["Nematocyst I","Poison I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Giant Squid",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Giant Squid",
+				"imageSize": 192
 			},
 		]
 	},
