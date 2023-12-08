@@ -619,10 +619,10 @@
 		"name": "Small Reptile",
 		"obsoleteTech": "Mammal",
 		"unitType": "Reptiles",
-		"movement": 3,
+		"movement": 2,
 		"cost": 250,
-		"uniques": ["Pennsylvanian","Quadrupedal","Can move after attacking <after discovering [Legs]>"],
-		"strength": 36,
+		"uniques": ["Devonian","Pennsylvanian","Quadrupedal","[+50]% Strength <after discovering [Lung]>","[+1] Movement <after discovering [Legs]>","Can move after attacking <after discovering [Legs]>"],
+		"strength": 24,
 		"requiredTech": "Reptile",
 		"civilopediaText": [
 			{
