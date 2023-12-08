@@ -48,10 +48,22 @@
 	// Wonders
 	{
 		"name": "Cytoplasm",
-		"cost": 475,
+		"cost": 375,
 		"isWonder": true
 		"requiredTech": "Eukaryotic Cell",
 		"uniques": ["New [Land] units start with [15] Experience [in all cities]"],
+	},
+	{
+		"name": "Nuclear Fusion",
+		"cost": 100,
+		"uniques": ["[+100]% [Gold] [in this city] <for [50] turns>"]
+	},
+	{
+		"name": "Giant-Impact",
+		"cost": 175,
+		"isWonder": true,
+		"uniques": ["Gain a free [Eclipse] [in all cities]"],
+		"requiredTech": "Moon",
 	},
 	// National Wonders
 	{
@@ -80,6 +92,14 @@
 		"uniques": ["Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+50]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
 	},
 	// General
+	{
+		"name": "Eclipse",
+		"cost": 30,
+		"gold": 2,
+		"happiness": 1,
+		"requiredTech": "Moon",
+		"uniques": ["[+10]% [Gold]"]
+	},
 	{
                 "name": "Volcano",
                 "food": 1,
