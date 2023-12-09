@@ -165,13 +165,6 @@ TileSets/HexaRealm/Tiles/Jungle+Forests2-Paleogene period
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
-  rotate: false
-  xy: 1412, 1580
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Tiles/Hunting Spot
   rotate: false
   xy: 433, 1574
@@ -291,7 +284,7 @@ TileSets/FantasyHex/Tiles/Tundra+GrassLand
   orig: 32, 28
   offset: 0,0
   index: -1
-TileSets/FantasyHex/Tiles/Mountain-Cambrian period
+TileSets/FantasyHex/Tiles/Mountain-Mesoproterozoic
   rotate: false
   xy: 716, 593
   size: 32, 36
@@ -1628,6 +1621,20 @@ TileSets/HexaRealm/Tiles/City center
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
+  rotate: false
+  xy: 780, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain
+  rotate: false
+  xy: 380, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/City center-Pleistocene
   rotate: false
   xy: 880, 1501
@@ -1745,6 +1752,41 @@ TileSets/HexaRealm/Tiles/ForestT
   xy: 980, 1490
   size: 64, 67
   orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Outpost
+  rotate: false
+  xy: 880, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Habitat
+  rotate: false
+  xy: 880, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Monument
+  rotate: false
+  xy: 980, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Productive Site
+  rotate: false
+  xy: 980, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Factory
+  rotate: false
+  xy: 780, 1515
+  size: 64, 70
+  orig: 64, 70
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/ForestTH
