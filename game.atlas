@@ -291,6 +291,13 @@ TileSets/FantasyHex/Tiles/Mountain-Mesoproterozoic
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Mountain2-Mesoproterozoic
+  rotate: false
+  xy: 716, 593
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
 
 game14.png
 size: 2048, 2048
@@ -1630,9 +1637,16 @@ TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
   index: -1
 TileSets/HexaRealm/Tiles/Mountain
   rotate: false
-  xy: 380, 1601
-  size: 64, 56
-  orig: 64, 56
+  xy: 380, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain2
+  rotate: false
+  xy: 380, 1577
+  size: 64, 80
+  orig: 64, 80
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Pleistocene
