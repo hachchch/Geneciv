@@ -1635,6 +1635,27 @@ TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/FaunasG
+  rotate: false
+  xy: 780, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Faunas
+  rotate: false
+  xy: 780, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mammoth
+  rotate: false
+  xy: 780, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Mountain
   rotate: false
   xy: 380, 1577
@@ -1771,6 +1792,13 @@ TileSets/HexaRealm/Tiles/ForestT
 TileSets/HexaRealm/Tiles/Outpost
   rotate: false
   xy: 880, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hunting Spot
+  rotate: false
+  xy: 680, 1501
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
