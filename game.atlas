@@ -1784,7 +1784,7 @@ TileSets/HexaRealm/Tiles/Productive Site
   index: -1
 TileSets/HexaRealm/Tiles/Factory
   rotate: false
-  xy: 780, 1515
+  xy: 780, 1487
   size: 64, 70
   orig: 64, 70
   offset: 0, 0
