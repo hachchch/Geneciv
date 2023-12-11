@@ -165,7 +165,7 @@
 		"uniqueTo": "Burgess",
 		"culture": 2,
 		"gold": 3,
-		"reqiredTech": "Flatworm",
+		"requiredTech": "Flatworm",
 		"uniques": ["Cambrian","There are many entities looks like our image of alien bugs"]
 	},
 	// National Wonders
