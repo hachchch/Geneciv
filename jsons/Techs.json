@@ -1914,6 +1914,11 @@
 		"wonderCost": 7200,
 		"techs": [
 			{
+				"name": "Electromagnetics",
+				"row": 7,
+				"prerequisites": ["Nuclear Fission"],
+			},
+			{
 				"name": "Molecular Biology",
 				"row": 2,
 				"prerequisites": ["Refrigeration"],
@@ -1971,7 +1976,7 @@
 			{
 				"name": "Telecommunications",
 				"row": 7,
-				"prerequisites": ["Computers"],
+				"prerequisites": ["Computers","Electromagnetics"],
 			},
 		]
 	},
@@ -2081,6 +2086,11 @@
 				"prerequisites": ["Nanotechnology"],
 			},
 			{
+				"name": "Diffusive Oxygen Field System",
+				"row": 3,
+				"prerequisites": ["Space Station"],
+			},
+			{
 				"name": "Artificial Personality",
 				"row": 10,
 				"prerequisites": ["Artificial Intelligence"],
@@ -2111,8 +2121,8 @@
 			},
 			{
 				"name": "Space Adaptation",
-				"row": 4,
-				"prerequisites": ["Bioengineering"],
+				"row": 3,
+				"prerequisites": ["Bioengineering","Diffusive Oxygen Field System"],
 			},
 			{
 				"name": "Transhumanism",
@@ -2121,7 +2131,7 @@
 			},
 			{
 				"name": "Cybernetics",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Bioengineering"],
 			},
 			{
@@ -2155,4 +2165,28 @@
 			},
 		]
 	},
+	{
+		"columnNumber": 56,
+		"era": "Future era",
+		"techCost": 10000,
+		"buildingCost": 3000,
+		"wonderCost": 9000,
+		"techs": [
+			{
+				"name": "Anthropocene Extinction",
+				"row": 6,
+				"uniques": ["Only available <after discovering [Nuclear Fission]> <after discovering [Rocketry]>","Cannot be hurried"],
+			},
+			{
+				"name": "Homo Deus",
+				"row": 3,
+				"uniques": ["Only available <after discovering [Nuclear Fission]> <after discovering [Rocketry]>","Cannot be hurried"],
+			},
+			{
+				"name": "Technocene",
+				"row": 9,
+				"uniques": ["Only available <after discovering [Nuclear Fission]> <after discovering [Rocketry]>","Cannot be hurried"],
+			},
+		]
+	}
 ]
