@@ -2132,12 +2132,12 @@
 			{
 				"name": "Cybernetics",
 				"row": 4,
-				"prerequisites": ["Bioengineering"],
+				"prerequisites": ["Bioengineering","Virtual Life"],
 			},
 			{
 				"name": "Neural Internet",
 				"row": 5,
-				"prerequisites": ["Bioengineering"],
+				"prerequisites": ["Bioengineering","Virtual Life"],
 			},	
 			{
 				"name": "Dimensional Physics",
