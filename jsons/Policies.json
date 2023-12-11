@@ -2,7 +2,7 @@
 	{
 		"name": "Extinctions",
 		"era": "Mesoproterozoic",
-		"priorities": {"Neutral": 10,"Cultural": 10,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+		"priorities": {"Neutral": 10,"Cultural": 15,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
 		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
 		"uniques": ["[+33]% [Science] [in capital]"],
 		"policies": [
@@ -107,6 +107,7 @@
 	},
 	{
 		"name": "Diversity",
+		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
 		"era": "Cambrian period",
 		"effect": "Enable To Construct Trilobites",
 		"uniques": ["Enable To Construct Trilobites"],
@@ -158,6 +159,7 @@
 	{
 		"name": "Order of Earth",
 		"era": "Devonian period",
+		"priorities": {"Neutral": 10,"Cultural": 0,"Diplomatic": 10,"Domination": 15,"Scientific": 5},
 		"effect": "+3 culture in capital and increased rate of border expansion",
 		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
 		"policies": [
