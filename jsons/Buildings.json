@@ -76,8 +76,9 @@
 	{
 		"name": "Phasmatodea",
 		"maintenance": 2,
+		"happiness": 2,
 		"requiredTech": "Grass",
-		"uniques": ["Bugs","Get Stick Bugged Lol"]
+		"uniques": ["Bugs <hidden from users>","Get Stick Bugged Lol"]
 	},
 	{
 		"name": "Lepidoptera", // Pieris Rapae my beloved
@@ -107,11 +108,14 @@
 		"isWonder": true
 		"requiredTech": "Eukaryotic Cell",
 		"uniques": ["New [Land] units start with [15] Experience [in all cities]"],
+		"quote": "In cell biology, the cytoplasm describes all material within a eukaryotic cell, enclosed by the cell membrane, except for the cell nucleus. The material inside the nucleus and contained within the nuclear membrane is termed the nucleoplasm. The main components of the cytoplasm are the cytosol, the organelles, and various cytoplasmic inclusions. The cytoplasm is about 80% water and is usually colorless.",
 	},
 	{
 		"name": "Nuclear Fusion",
 		"cost": 100,
-		"uniques": ["[+100]% [Gold] [in this city] <for [50] turns>"]
+		"isWonder": true,
+		"uniques": ["[+100]% [Gold] [in this city] <for [50] turns>","gain 4000000000000 Energy after 170000 turns"],
+		"quote": "Every second, the Sun's core fuses about 600 million tons of hydrogen into helium, and in the process converts 4 million tons of matter into energy.",
 	},
 	{
 		"name": "Giant-Impact",
@@ -119,6 +123,7 @@
 		"isWonder": true,
 		"uniques": ["Gain a free [Eclipse] [in all cities]"],
 		"requiredTech": "Moon",
+		"quote": "'The giant-impact hypothesis, sometimes called the Big Splash, or the Theia Impact, suggests that the Moon was formed from the ejecta of a collision between the early Earth and a Mars-sized planet, approximately 4.5 billion years ago in the Hadean eon (about 20 to 100 million years after the Solar System coalesced).' -Free Web Dictionary Wikipedia",
 	},
 	{
 		"name": "Gobekli Tepe",
@@ -127,6 +132,7 @@
 		"faith": 2,
 		"uniques": ["[+5 Faith, +1 Culture] from [Monument] tiles [in all cities]"],
 		"isWonder": true,
+		"quote": "Göbekli Tepe was built and occupied during the earliest part of the Southwest Asian Neolithic, known as the Pre-Pottery Neolithic (9600–7000 BCE). Beginning at the end of the last Ice Age, the PPN marks 'the beginnings of village life', producing the earliest evidence for permanent human settlements in the world. Elements of village life appeared as early as 10,000 years before the Neolithic in places, and the transition to agriculture took thousands of years, with different paces and trajectories in different regions.",
 		"requiredTech": "The Culture",
 	},
 	{
@@ -136,12 +142,15 @@
 		"culture": 16,
 		"uniques": ["[+1 Culture] per every [8] [Faith]"],
 		"requiredTech": "Philosophy",
+		"quote": "Hōryū Ji was originally commissioned by Shōtokutaishi at the time it was called Wakakusadera, a name that is still sometimes used. This first temple is believed to have been completed by 607. Hōryū-ji was dedicated to Yakushi Nyorai, the Buddha of healing and in honor of the prince's father.",
 	},
 	{
 		"name": "Ammonoids",
 		"culture": 2,
+		"isWonder": "true",
 		"requiredTech": "Excretion Opening",
-		"uniques": ["Devonian","Ammonoidea","Gain a free [Cephalopoda] [in all cities]","[+25]% [Culture] [in this city]","[+25]% [Culture] [in capital]"]
+		"uniques": ["Devonian","Ammonoidea","Gain a free [Cephalopoda] [in all cities]","[+25]% [Culture] [in this city]","[+25]% [Culture] [in capital]"],
+		"quote": "Ammonoids are a group of extinct marine mollusc animals in the subclass Ammonoidea of the class Cephalopoda. These molluscs, commonly referred to as ammonites, are more closely related to living coleoids than they are to shelled nautiloids such as the living Nautilus species. The earliest ammonites appeared during the Devonian, with the last species vanishing during or soon after the K-Pg mass extinction event.",
 	},
 	// Invertebrates
 	{
@@ -149,6 +158,15 @@
 		"culture": 2,
 		"requiredTech": "Exoskeleton",
 		"uniques": ["Cambrian"]
+	},
+	{
+		"name": "Polychaetes",
+		"replaces": "Cephalopoda",
+		"uniqueTo": "Burgess",
+		"culture": 2,
+		"gold": 3,
+		"reqiredTech": "Flatworm",
+		"uniques": ["Cambrian","There are many entities looks like our image of alien bugs"]
 	},
 	// National Wonders
 	{
@@ -159,6 +177,7 @@
 		"food": 4,
 		"gold": 1,
 		"requiredTech": "Primordial Soup",
+		"quote": "'The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light (from about 200 nm to 315 nm wavelength), which otherwise would potentially damage exposed life forms near the surface.' -Wikipedia",
 	},
 	{
 		"name": "Cambrian Explosion",
@@ -166,7 +185,8 @@
 		"isNationalWonder": true,
 		"production": 10,
 		"cost": 300,
-		"uniques": ["Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
+		"uniques": ["Botomian","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
+		"quote": "Before early Cambrian diversification, most organisms were relatively simple, composed of individual cells, or small multicellular organisms, occasionally organized into colonies. As the rate of diversification subsequently accelerated, the variety of life became much more complex, and began to resemble that of today.",
 	},
 	{
 		"name": "Cambrian Extinction",
@@ -174,7 +194,8 @@
 		"isNationalWonder": true,
 		"culture": 10,
 		"cost": 300,
-		"uniques": ["Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+50]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
+		"uniques": ["Botomian","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+50]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
+		"quote": "Volcanic activity, particularly that of large igneous provinces, has been speculated to have been the cause of the environmental crisis. There are several hypotheses for the causes of these extinctions. There is also major changes in the carbon cycle and development of anoxia in the oceans. 50-80% of Sea Species died for ever.",
 	},
 	// General
 	{
