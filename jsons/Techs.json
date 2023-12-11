@@ -2175,17 +2175,17 @@
 			{
 				"name": "Anthropocene Extinction",
 				"row": 6,
-				"uniques": ["Only available <after discovering [Nuclear Fission]> <after discovering [Rocketry]>","Cannot be hurried"],
+				"uniques": ["Only available <after discovering [Nuclear Fission]>","Only available <after discovering [Rocketry]>","Cannot be hurried","Enable to Construct Cockroaches"],
 			},
 			{
 				"name": "Homo Deus",
 				"row": 3,
-				"uniques": ["Only available <after discovering [Nuclear Fission]> <after discovering [Rocketry]>","Cannot be hurried"],
+				"uniques": ["Only available <after discovering [Transhumanism]>","Only available <after discovering [Space Adaptation]>","Cannot be hurried","Enable to Construct Universe Beta 1.10"],
 			},
 			{
 				"name": "Technocene",
 				"row": 9,
-				"uniques": ["Only available <after discovering [Nuclear Fission]> <after discovering [Rocketry]>","Cannot be hurried"],
+				"uniques": ["Only available <after discovering [Nuclear Fission]>","Only available <after discovering [Rocketry]>","Cannot be hurried","Enable to Construct Humans"],
 			},
 		]
 	}
