@@ -137,6 +137,19 @@
 		"uniques": ["[+1 Culture] per every [8] [Faith]"],
 		"requiredTech": "Philosophy",
 	},
+	{
+		"name": "Ammonoids",
+		"culture": 2,
+		"requiredTech": "Excretion Opening",
+		"uniques": ["Devonian","Ammonoidea","Gain a free [Cephalopoda] [in all cities]","[+25]% [Culture] [in this city]","[+25]% [Culture] [in capital]"]
+	},
+	// Invertebrates
+	{
+		"name": "Cephalopoda",
+		"culture": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian"]
+	},
 	// National Wonders
 	{
 		"name": "Ozone Layer",
