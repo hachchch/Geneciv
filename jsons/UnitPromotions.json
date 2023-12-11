@@ -506,10 +506,24 @@
 		"unitTypes": ["Hominiae"],
 	},
 	{
-		"name": "Battle of Landing Race",
+		"name": "Battle of Landing Race I",
 		"row": 300,
 		"column": 0,
-		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>","[+25]% Strength <when fighting in [River] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Battle of Landing Race II",
+		"row": 300,
+		"column": 1,
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Battle of Landing Race III",
+		"row": 300,
+		"column": 2,
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>","[+15]% Strength <when fighting in [Coast] tiles>"],
 		"unitTypes": ["Amphibian"],
 	},
 	{
