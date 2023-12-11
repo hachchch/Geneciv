@@ -2291,13 +2291,13 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 	"movement": 2
 	},
-	/*
 	//  After Anthropocene
 	{
 		"name": "Blaberidae",
 		"unitType": "Cockroach",
 		"cost": 200,
 		"strength": 38,
+		"requiredTech": "Anthropocene Extinction",
 		"uniques": ["Cretaceous","Bugs","Hexapedal","[+10000000000]% Strength <vs cities>"],
 	},
 	{
@@ -2305,7 +2305,7 @@
 		"unitType": "Cockroach",
 		"cost": 10000,
 		"strength": 8000,
+		"requiredTech": "Anthropocene Extinction",
 		"uniques": ["Cretaceous","AI","Bugs","Hexabipedal"],
 	},
-	*/
 ]
