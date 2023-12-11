@@ -2307,7 +2307,7 @@
 		"cost": 200,
 		"strength": 38,
 		"requiredTech": "Anthropocene Extinction",
-		"uniques": ["Cretaceous","Bugs","Hexapedal","[+10000000000]% Strength <vs cities>"],
+		"uniques": ["Cretaceous","Bugs","Hexapedal","[+100000]% Strength <vs cities>"],
 	},
 	{
 		"name": "Machinerized-Blaberidae",
