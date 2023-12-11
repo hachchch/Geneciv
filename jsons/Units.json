@@ -1694,7 +1694,16 @@
 		"requiredTech": "Gear",
 		"uniques": ["For Chariot"],
 	},
-	// Meghalayan Strange Animals
+	// Meghalayan Civilized Primates
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": ["May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
 	{
 		"name": "Civil Spearman",
 		"unitType": "Sword",
