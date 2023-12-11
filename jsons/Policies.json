@@ -122,7 +122,7 @@
 			{
 				"name": "Phylogenetic Trees",
 				"effect": "Gain Tech Boost when you built Wonders",
-				"uniques":["Gain [120] [Science] <upon constructing [Wonder]>"],
+				"uniques":["Gain [120] [Science] <upon constructing [Wonders]>"],
 				"row": 1,
 				"column": 3
 			},
@@ -152,7 +152,7 @@
 			{
 				"name": "Diversity Complete",
 				"effect": "+2 Culture from Wonders in all cities",
-				"uniques": ["[+2 Culture] from every [Wonder]"]
+				"uniques": ["[+2 Culture] from every [Wonders]"]
 			},
 		]
 	},
