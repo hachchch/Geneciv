@@ -263,6 +263,79 @@
 		"uniqueName": "The Plate tectonics",
 		"uniques": ["[+2 Science, +2 Production] from every [Volcano]","[+1 Science] from every [World Wonder]","[+20]% Strength <for [Land] units> <during the [Permian period]>"],
 	},
+	// Biospheres
+	{
+		"name": "Dickinsonia",
+		"adjective": ["Dickinsoniidae"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I guess you weren't here for the sprouts after all...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [153,255,51],
+		"cities": ["Dickinsonia"]
+	},
+	{
+		"name": "Lily",
+		"adjective": ["Lilium"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "And so the Lily flower falls to barbaric hands...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [62,197,252],
+		"cities": ["Lily"]
+	},
+	{
+		"name": "Perucetus",
+		"adjective": ["Basilosauridae"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So this is how it feels to die...",
+		"outerColor": [0, 0, 0],
+        "innerColor": [51,51,255],
+		"cities": ["Perucetus"]
+	},
+	{
+		"name": "Tardigrade",
+		"adjective": ["Panarthropoda"],
+		"cityStateType": "Microorganisms Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Unacceptable!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [168,38,102],
+		"cities": ["Tardigrade"]
+	},
+	{
+		"name": "Ornithurans",
+		"adjective": ["Ornithurae"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Today, the Malay people obey you, but do not think this is over...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,102,102],
+		"cities": ["Ornithurans"]
+	},
+	{
+		"name": "Araucaria",
+		"adjective": ["Araucariaceae"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Perhaps now we will find peace in death...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [204,102,0],
+		"cities": ["Araucaria"]
+	},
 	//Barbarian
 	{
 		"name": "Barbarians",
