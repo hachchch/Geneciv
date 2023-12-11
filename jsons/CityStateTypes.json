@@ -1,54 +1,63 @@
 [
     {
-        "name": "Cultured",
+        "name": "Tribal Biosphere",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Medieval era]>",
+	"[+3 Science] <before the [Holocene]>",
+            "[+3 Culture] <starting from the [Holocene]> <before the [Medieval era]>",
             "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+13 Culture] <starting from the [Industrial era]>"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [Medieval era]>",
+            "[+3 Science, +3 Gold] <before the [Holocene]>",
+            "[+6 Culture] <starting from the [Holocene]> <before the [Medieval era]>",
             "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Culture] <starting from the [Industrial era]>"
         ],
         "color": [139, 96, 255]
     },
     {
-        "name": "Maritime",
-        "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "name": "Vegetation Biosphere",
+        "friendBonusUniques": ["[+3 Gold] [in capital] <before discovering [Chloroplasts]>"
+		,"[+2 Food] [in capital] <after discovering [Chloroplasts]>"],
+        "allyBonusUniques": ["[+3 Gold] [in capital] <before discovering [Chloroplasts]>","[+1 Gold] [in all cities] <before discovering [Chloroplasts]>","[+2 Food] [in capital] <after discovering [Chloroplasts]>", "[+1 Food] [in all cities] <after discovering [Chloroplasts]>"],
         "color": [56, 255, 112]
     },
     {
-        "name": "Mercantile",
+        "name": "Microorganisms Biosphere",
         "friendBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>"
+            "[+2 Happiness] <before the [Cambrian period]>",
+            "[+3 Happiness] <starting from the [Cambrian period]>"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>",
+            "[+2 Happiness] <before the [Cambrian period]>",
+            "[+3 Happiness] <starting from the [Cambrian period]>",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
     },
     {
-        "name": "Militaristic",
+        "name": "Animal Biosphere",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
         "allyBonusUniques": ["Provides military units every ≈[17] turns"],
         "color": [255, 0, 0]
     },
     {
-        "name": "Religious",
+        "name": "Wonderful Biosphere",
         "friendBonusUniques":  [
-            "[+3 Faith] <before the [Medieval era]>",
+            "[+3 Faith] <starting from the [Neolithic]> <before the [Medieval era]>",
             "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+13 Faith] <starting from the [Industrial era]>",
+		"[+3 Gold] <before the [Mesoproterozoic]>",
+            "[+6 Gold] <starting from the [Mesoproterozoic]> <before the [Carboniferous period]>",
+            "[+13 Gold] <starting from the [Carboniferous period]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Neolithic]> <before the [Medieval era]>",
             "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+26 Faith] <starting from the [Industrial era]>",
+		"[+6 Gold] <before the [Mesoproterozoic]>",
+            "[+12 Gold] <starting from the [Mesoproterozoic]> <before the [Carboniferous period]>",
+            "[+26 Gold] <starting from the [Carboniferous period]>"
         ],
         "color": [255, 255, 255]
     }
