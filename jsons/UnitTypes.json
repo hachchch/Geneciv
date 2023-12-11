@@ -82,6 +82,10 @@
 		"movementType": "Land",
 	},
 	{
+		"name": "Civilian Water",
+		"movementType": "Water"
+	},
+	{
 		"name": "Human",
 		"movementType": "Land",
 		"uniques": ["[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
@@ -133,6 +137,10 @@
 	},
 	{
 		"name": "Bot",
+		"movementType": "Land",
+	},
+	{
+		"name": "Cockroach",
 		"movementType": "Land",
 	},
 ]
