@@ -636,4 +636,8 @@
 		"name": "Shell",
 		"uniques": ["[+1000]% Strength <when defending> <when adjacent to a [Enemy] unit>"]
 	},
+	{
+		"name": "Cambrian Multicellular",
+		"uniques": ["[+33]% Strength <for [Eumycetozoa] units> <vs [Wounded] units> <when defending> <in [Ocean] tiles>"]
+	},
 ]
