@@ -632,4 +632,8 @@
 		"name": "Survival Instinct",
 		"uniques": ["[+1] Movement <when below [20] HP>","[+1] Sight <when below [20] HP>"]
 	},
+	{
+		"name": "Shell",
+		"uniques": ["[+1000]% Strength <when defending> <when adjacent to a [Enemy] unit>"]
+	},
 ]
