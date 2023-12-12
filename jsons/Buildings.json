@@ -15,6 +15,8 @@
 	// Land Arthropod
 	{
 		"name": "Beetles",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
@@ -24,6 +26,8 @@
 	},
 	{
 		"name": "Uniramia",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
@@ -34,6 +38,8 @@
 	},
 	{
 		"name": "Orthoptera",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
@@ -44,6 +50,8 @@
 	},
 	{
 		"name": "Dixidae",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"maintenance": 2,
 		"production": 2,
 		"uniques": ["Bugs","Culicoidea"],
@@ -52,6 +60,8 @@
 	},
 	{
 		"name": "Chaoboridae",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"gold": 2,
 		"cost": 200,
 		"uniques": ["Bugs","Culicoidea"],
@@ -60,6 +70,8 @@
 	},
 	{
 		"name": "Mosquito",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"science": 2,
 		"cost": 200,
 		"uniques": ["Bugs","Culicoidea"],
@@ -68,13 +80,17 @@
 	},
 	{
 		"name": "Midge",
-		"food": 2,
+		"cityStrength": 2,
+                "cityHealth": 10,
+		"food": 1,
 		"maintenance": 1,
 		"uniques": ["Bugs","Vampire","[+1 Food] from [Jungle] tiles [in this city]"]
 		"requiredTech": "Insect",
 	},
 	{
 		"name": "Phasmatodea",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"maintenance": 2,
 		"happiness": 2,
 		"requiredTech": "Grass",
@@ -82,6 +98,8 @@
 	},
 	{
 		"name": "Lepidoptera", // Pieris Rapae my beloved
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"cost": 230,
 		"maintenance": 3,
 		"requiredTech": "Flowers",
@@ -89,6 +107,8 @@
 	},
 	{
 		"name": "Hummingbirds",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"maintenance": 3,
 		"cost": 230,
 		"uniques": ["Bugs","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
@@ -96,6 +116,8 @@
 	},
 	{
 		"name": "Bee",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"maintenance": 3,
 		"cost": 230,
 		"uniques": ["Bugs","Coevolution","Must be next to [Grassland]","[+1 Production] from [{Grassland} {GrassLand}] tiles [in this city]"],
@@ -104,6 +126,8 @@
 	// Wonders
 	{
 		"name": "Cytoplasm",
+		"cityStrength": 1,
+                "cityHealth": 5,
 		"cost": 375,
 		"isWonder": true
 		"requiredTech": "Eukaryotic Cell",
@@ -156,15 +180,18 @@
 	{
 		"name": "Cephalopoda",
 		"culture": 2,
+		"maintenance": 1,
 		"requiredTech": "Exoskeleton",
 		"uniques": ["Cambrian"]
 	},
 	{
 		"name": "Polychaetes",
+		"cityStrength": 7,
+                "cityHealth": 10,
+		"maintenance": 2,
 		"replaces": "Cephalopoda",
 		"uniqueTo": "Burgess",
 		"culture": 2,
-		"gold": 3,
 		"requiredTech": "Flatworm",
 		"uniques": ["Cambrian","There are many entities looks like our image of alien bugs"]
 	},
