@@ -78,6 +78,11 @@
 		"movementType": "Water",
 	},
 	{
+		"name": "Aves",
+		"uniques": ["Birds","Includes Flying Birds. but It means Chicken in this mod"],
+		"movementType": "Land"
+	},
+	{
 		"name": "Civilian",
 		"movementType": "Land",
 	},
