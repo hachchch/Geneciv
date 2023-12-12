@@ -1264,6 +1264,61 @@
 		]
 	},
 	{
+		"name": "Raphus",
+		"unitType": "Aves",
+		"interceptRange": 2,
+		"strength": 70,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Modern Birds",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Birds","Bipedal","Holocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","Only available <before the [Medieval era]>"]
+	},
+	{
+		"name": "Galliform",
+		"unitType": "Aves",
+		"interceptRange": 2,
+		"strength": 65,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Modern Birds",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"]
+	},
+	{
+		"name": "Ophidia",
+		"unitType": "Reptiles",
+		"strength": 65,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Grass",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
+		"promotions": ["Poison I"]
+	},
+	{
+		"name": "Cryptodira",
+		"unitType": "Reptiles",
+		"strength": 35,
+		"movement": 1,
+		"cost": 500,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
+		"promotions": ["Shell"]
+	},
+	{
+		"name": "Chelonioidea",
+		"unitType": "Water Reptiles",
+		"strength": 40,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","Cannot attack"],
+		"promotions": ["Shell"]
+	},
+	{
 		"name": "Tyrannosaurus",
 		"unitType": "Reptiles",
 		"cost": 950,
