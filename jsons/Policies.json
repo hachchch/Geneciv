@@ -35,14 +35,14 @@
 			},
 			{
 				"name": "Siberian Traps",
-				"unques": ["Cannot build [Arthropod] units","[+50]% [Culture] [in capital]","[-1000]% XP gained from combat <for [Arthropod] units>"],
+				"uniques": ["90% Species Will be died","Cannot build [Water Arthropod] units","Cannot build [P-T] units","[+50]% [Culture] [in capital]","[-1000]% XP gained from combat <for [Water Arthropod] units>"],
 				"row": 5,
 				"column": 2,
 				"requires": ["Oceanic Anoxic Events"],
 			},
 			{
 				"name": "Hypoxic Environment",
-				"uniques": ["[-50]% Production when constructing [All] units [in all cities] <for [7] turns>","[+100]% Yield from every [Forests] <for [7] turns>","[+50]% XP gained from combat <for [Dinosaur] units>"],
+				"uniques": ["[-50]% Production when constructing [All] units [in all cities] <for [7] turns>","[+100]% Yield from every [Forests] <for [7] turns>","[+50]% XP gained from combat <for [Reptiles] units>"],
 				"row": 5,
 				"column": 4,
 				"requires": ["Oceanic Anoxic Events"],
@@ -51,22 +51,21 @@
 				"name": "Meteorite Impact",
 				"row": 6,
 				"column": 3,
-				"effect": "The P–T",
-				"uniques": ["[+25]% [Science] <for [15] turns>","[-25]% Production when constructing [Reptile] units [in all cities] <for [30] turns>","[-20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
+				"uniques": ["[+25]% [Science] <for [15] turns>","[-25]% Production when constructing [Reptiles] units [in all cities] <for [30] turns>","[-20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
 				"requires": ["Hypoxic Environment","Siberian Traps"],
 			},
 			{
 				"name": "Impact winter",
 				"row": 7,
 				"column": 2,
-				"uniques": ["[-50]% Production when constructing [Reptile] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
+				"uniques": ["[-50]% Production when constructing [Reptiles] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
 				"requires": ["Meteorite Impact"],
 			},
 			{
 				"name": "Deccan Traps",
 				"row": 7,
 				"column": 4,
-				"uniques": ["[-50]% Production when constructing [Reptile] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
+				"uniques": ["[-50]% Production when constructing [Reptiles] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
 				"requires": ["Meteorite Impact"],
 			},
 			{
@@ -79,7 +78,8 @@
 			},
 			{
 				"name": "Industrial Revolution",
-				"uniques": ["[+25]% [Gold] [in capital] <after discovering [Anthropocene]>","[+15]% [Production] [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Anthropocene]>"],
+				"uniques": ["Human Activities causing the Recent Holocene Extinction Event, Natural Extinction Speed increasing by 100000% than the past","[+25]% [Gold] [in capital] <after discovering [Anthropocene]>","[+15]% [Production] [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Anthropocene]>",
+				"[+25]% [Gold] [in capital] <after discovering [Industrialization]>","[+15]% [Production] [in all cities] <after discovering [Industrialization]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Industrialization]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Industrialization]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Industrialization]>"],
 				"row": 10,
 				"column": 2,
 				"requires": ["Overfishing"],
@@ -93,14 +93,28 @@
 			},
 			{
 				"name": "Nuclear Apocalypse",
-				"uniques": ["[+10]% Strength <for [Gunpowder] units> <when attacking>"],
+				"uniques": ["Everything is Estrasted to USA and USSR, or Most Animals died forever","[+10]% Strength <for [Gunpowder] units> <when attacking>","Free [Nuclear Missile] appears"],
 				"row": 10,
 				"column": 4,
 				"requires": ["Overfishing"],
 			},
 			{
+				"name": "Nibiru Cataclysm",
+				"uniques": ["Is Solar System will be destroy by Zeta Reticulians?","Enable Conversation with Aliens after discovering Space Station (with 0.000000001% Chances)"],
+				"row": 11,
+				"column": 3,
+				"requires": ["Nuclear Apocalypse","Industrial Revolution"],
+			},
+			{
+				"name": "End of Daylight",
+				"uniques": ["The Sun converted to Red Giants 5 billion years from now. The expanding Sun is expected to vaporize Mercury as well as Venus, and render Earth uninhabitable. 100% Species will be Died Forever."],
+				"row": 12,
+				"column": 3,
+				"requires": ["Nibiru Cataclysm"],
+			},
+			{
 				"name": "Extinctions Complete",
-				"effect": "+100% growth and +10 science in all cities",
+				"effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
 				"uniques": ["Gain a free [Extinction Complete] [in capital]","[+100]% growth in all cities","[+10 Science] in all cities"]
 			},
 		]
