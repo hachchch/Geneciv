@@ -159,7 +159,7 @@
 	{
 		"name": "Order of Earth",
 		"era": "Devonian period",
-		"priorities": {"Neutral": 10,"Cultural": 0,"Diplomatic": 10,"Domination": 15,"Scientific": 5},
+		"priorities": {"Neutral": 10,"Cultural": 1,"Diplomatic": 2,"Domination": 15,"Scientific": 2},
 		"effect": "+3 culture in capital and increased rate of border expansion",
 		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
 		"policies": [
@@ -170,10 +170,10 @@
 				"column": 1
 			},
 			{
-				"name": "Triassic Extinction",
-				"uniques":["[-84]% Production when constructing [Big Reptile] units [in all cities]","Gain [1200] [Science] (modified by game speed)"],
+				"name": "Permian-Triassic Extinction",
+				"uniques":["[-84]% Production when constructing [All] units [in all cities] <for [10] turns>","Gain a free [Volcano] [in all cities]","Gain [1200] [Science] (modified by game speed)"],
 				"row": 1,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Survival Wisdom",
@@ -189,21 +189,70 @@
 					"[+1 Food] from [Spices] tiles [in all cities]",
 					"[+1 Food] from [Cotton] tiles [in all cities]",
 					"[+1 Food] from [GrassLand] tiles [in capital]"],
-				"requires": ["Festival"],
+				"requires": ["Permian-Triassic Extinction"],
 				"row": 2,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Ceramics Biome",
 				"uniques": ["[+8 Gold] from [City center] tiles [in all cities]"],
 				"requires": ["Survival Wisdom","Flowering earth singing for Mammals"],
 				"row": 3,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Order of Earth Complete",
 				"effect": "+30% Strength to Predator vs Wounded for 50 turn and +100% Strength for Trilobites when attacking",
 				"uniques": ["[+30]% Strength <for [Predator] units> <vs [Wounded] units> <for [50] turns>","[+100]% Strength <for [Trilobites] units> <when attacking>"]
+			}
+		]
+	},
+	{
+		"name": "Wonderful Life",
+		"era": "Cambrian period",
+		"priorities": {"Neutral": 5,"Cultural": 5,"Diplomatic": 5,"Domination": 5,"Scientific": 5},
+		"effect": "+15% Strength vs non-Land units for Cambrian units",
+		"uniques": ["[+15]% Strength <for [Cambrian] units> <vs [non-[Land]] units>"],
+		"policies": [
+			{
+				"name": "Multicellular on Abyssal Plains",
+				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion","[+33]% Strength <for [Eumycetozoa] units> <vs [Wounded] units> <when defending> <in [Ocean] tiles>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Lobopodians",
+				"requires": ["Multicellular on Abyssal Plains"],
+				"uniques":["Enable to Construct Hallucigenia"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Jawless Warfare",
+				"requires": ["Multicellular on Abyssal Plains"],
+				"uniques": ["[+25]% Strength <for [Jawless] units> <vs [Jawless] units>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Law of Underwater",
+				"uniques": ["[+15]% Strength <for [{Water} {non-[Jawless]}] units>"],
+				"requires": ["Jawless Warfare"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Battle of Landing Race",
+				"uniques": ["[{Tournaisian} {Amphibian}] units gain the [Battle of Landing Race I] promotion",
+				"[{Devonian} {Amphibian}] units gain the [Battle of Landing Race I] promotion"],
+				"requires": ["Lobopodians"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Wonderful Life Complete",
+				"effect": "+30% Strength to Predator vs Wounded for 50 turn and +100% Strength for Trilobites when attacking",
+				"uniques": ["[+15]"]
 			}
 		]
 	},
