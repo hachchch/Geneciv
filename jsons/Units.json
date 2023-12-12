@@ -1410,6 +1410,30 @@
 		]
 	},
 	{
+		"name": "Ankylosauria",
+		"unitType": "Reptiles",
+		"strength": 60,
+		"cost": 425,
+		"movement": 1,
+		"requiredTech": "Dinosaur",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Jurassic","Quadrupedal"],
+		"promotions": ["Ankylosis"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
 		"name": "Theropoda",
 		"unitType": "Reptiles",
 		"strength": 50,
