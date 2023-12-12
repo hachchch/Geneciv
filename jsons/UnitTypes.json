@@ -79,7 +79,7 @@
 	},
 	{
 		"name": "Aves",
-		"uniques": ["Birds","Includes Flying Birds. but It means Chicken in this mod"],
+		"uniques": ["Birds","Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod"],
 		"movementType": "Land"
 	},
 	{
