@@ -216,7 +216,7 @@
 		"policies": [
 			{
 				"name": "Multicellular on Abyssal Plains",
-				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion","[+33]% Strength <for [Eumycetozoa] units> <vs [Wounded] units> <when defending> <in [Ocean] tiles>"],
+				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion"],
 				"row": 1,
 				"column": 3
 			},
@@ -251,8 +251,9 @@
 			},
 			{
 				"name": "Wonderful Life Complete",
-				"effect": "+30% Strength to Predator vs Wounded for 50 turn and +100% Strength for Trilobites when attacking",
-				"uniques": ["[+15]"]
+				"effect": "+1 Gold from all Cambrian Silurian Devonian Buildings",
+				"uniques": ["[+1 Gold] from all [Cambrian period] buildings",
+				"[+1 Gold] from all [Silurian period] buildings","[+1 Gold] from all [Devonian period] buildings"]
 			}
 		]
 	},
