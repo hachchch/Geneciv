@@ -278,6 +278,7 @@
 				"name": "Eukaryotic Cell",
 				"row": 5,
 				"prerequisites": ["Nucleus","Mitochondria"],
+				"quote": "'You can find microbes everywhere - they are extremely adaptable to conditions, and survive wherever they are.' -Charles Q. Choi",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Eukaryotic Cell",
