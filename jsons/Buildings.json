@@ -129,7 +129,7 @@
 		"isWonder": true,
 		"cost": 1200,
 		"requiredTech": "Insect",
-		"uniques": ["[+30]% Production when constructing [Bugs] buildings [in all cities]","Gain a free [{non-[Coevolution]} {non-[Wonders]} {Bugs}] [in this city]"],
+		"uniques": ["[+30]% Production when constructing [Bugs] buildings [in all cities]","Gain a free [{non-[Coevolution]} {Bugs}] [in this city]"],
 	},
 	{
 		"name": "Carnian Pluvial Episode",
