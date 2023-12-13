@@ -41,20 +41,22 @@
 	{
 		"name": "Modern Fishes",
 		"movementType": "Water",
+		"uniques": ["Fishes"]
 	},
 	{
 		"name": "Hominiae",
 		"movementType": "Land",
-		"uniques": ["[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
+		"uniques": ["Mammal","[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
 	},
 	{
 		"name": "Water Mammal",
+		"uniques": ["Mammal"],
 		"movementType": "Water",
 	},
 	{
 		"name": "Air Mammal",
 		"movementType": "Land",
-		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control"],
+		"uniques": ["Mammal","May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control"],
 	},
 	{
 		"name": "Glider",
@@ -79,7 +81,7 @@
 	},
 	{
 		"name": "Aves",
-		"uniques": ["Birds","Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod"],
+		"uniques": ["Birds"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
 		"movementType": "Land"
 	},
 	{
@@ -93,44 +95,52 @@
 	{
 		"name": "Human",
 		"movementType": "Land",
-		"uniques": ["[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
+		"uniques": ["Mammal","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
 	},
 	{
 		"name": "Sword",
 		"movementType": "Land",
+		"uniques": ["Mammal","Human"]
 	},
 	{
 		"name": "Gunpowder",
 		"movementType": "Land",
+		"uniques": ["Mammal","Human"]
 	},
 	{
 		"name": "Human Air",
 		"movementType": "Air",
-		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+		"uniques": ["Mammal","Human","Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
 	},
 	{
 		"name": "Human Water",
 		"movementType": "Water",
+		"uniques": ["Mammal","Human"]
 	},
 	{
 		"name": "Husbandried",
 		"movementType": "Land",
+		"uniques": ["Mammal","Domesticated"]
 	},
 	{
 		"name": "Siege",
 		"movementType": "Land",
+		"uniques": ["Mammal","Human"],
 	},
 	{
 		"name": "Fixed",
 		"movementType": "Air",
+		"uniques": ["Mammal","Human"]
 	},
 	{
 		"name": "Archery",
 		"movementType": "Land",
+		"uniques": ["Mammal","Human"]
 	},
 	{
 		"name": "Armored",
 		"movementType": "Land",
+		"uniques": ["Mammal","Human"]
 	},
 	{
 		"name": "Missile",
@@ -139,13 +149,16 @@
 	{
 		"name": "Aircraft Carrier",
 		"movementType": "Water",
+		"uniques": ["Mammal","Human"]
 	},
 	{
 		"name": "Bot",
 		"movementType": "Land",
+		"uniques": ["AI"]
 	},
 	{
 		"name": "Cockroach",
 		"movementType": "Land",
+		"uniques": ["Bugs"]
 	},
 ]
