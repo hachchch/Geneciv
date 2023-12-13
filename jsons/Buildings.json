@@ -74,7 +74,7 @@
                 "cityHealth": 5,
 		"science": 2,
 		"cost": 200,
-		"uniques": ["Bugs","Culicoidea"],
+		"uniques": ["Bugs","Vampire","Culicoidea"],
 		"maintenance": 2,
 		"requiredTech": "Grass",
 	},
@@ -84,7 +84,7 @@
                 "cityHealth": 10,
 		"food": 1,
 		"maintenance": 1,
-		"uniques": ["Bugs","Vampire","[+1 Food] from [Jungle] tiles [in this city]"]
+		"uniques": ["Bugs","[+1 Food] from [Jungle] tiles [in this city]"]
 		"requiredTech": "Insect",
 	},
 	{
@@ -282,6 +282,7 @@
 	},
 	{
 		"name": "Andean-Saharan Glaciation",
+		"isWonder": true,
 		"uniques": ["Silurian","Unbuildable <before the [Silurian period]>","[-61%] Strength <for [Water] units> <for [8] turns>","Free Social Policy <after [8] turns>"],
 		"cost": 490,
 	},
@@ -289,6 +290,7 @@
 	{
 		"name": "Earliest Known Life Forms",
 		"cost": 100,
+		"isWonder": true,
 		"uniques": ["Unbuildable <before the [Archean eon]>"],
 	},
 	*/
