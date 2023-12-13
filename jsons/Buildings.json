@@ -258,7 +258,9 @@
 		"science": 1,
 		"cost": 300,
 		"isWonder": true,
-		"uniques": ["All Life's Origin","[+1 Science] <after discovering [Eukaryotic Cell]>",
+		"uniques": ["All Life's Origin",
+		"[+1 Science] <after discovering [Prokaryotic Cell]>",
+		"[+1 Science] <after discovering [Eukaryotic Cell]>",
 		"[+1 Science] <after discovering [Sponge]>",
 		"[+1 Science] <after discovering [Swimming]>",
 		"[+1 Science] <after discovering [Flatworm]>",
@@ -276,8 +278,20 @@
 		"[+1 Science] <after discovering [Fern]>",
 		"[+1 Science] <after discovering [Flowers]>"
 		],
-		"requiredTech": "Prokaryotic Cell",
+		"requiredTech": "Primordial Soup",
 	},
+	{
+		"name": "Andean-Saharan Glaciation",
+		"uniques": ["Silurian","Unbuildable <before the [Silurian period]>","[-61%] Strength <for [Water] units> <for [8] turns>","Free Social Policy <after [8] turns>"],
+		"cost": 490,
+	},
+	/*
+	{
+		"name": "Earliest Known Life Forms",
+		"cost": 100,
+		"uniques": ["Unbuildable <before the [Archean eon]>"],
+	},
+	*/
 	// Invertebrates
 	{
 		"name": "Cephalopoda",
