@@ -244,7 +244,7 @@
 		"innerColor": [176,159,250],
 		"cities": ["Laurentia","Baltica","Avalonia","Carolinia","Armorica","Iapetus","Rheic","Antler","Innuitian-Lomonosov","Benthos"],
 		"uniqueName": "River transportation network",
-		"uniques": ["[+1] movement <for [Land] units> <in [Flesh water] tiles>","[+2 Food] from [GrassLand] tiles [in all cities] <in [Flesh water] tiles> <during the [Devonian period]>"],
+		"uniques": ["[+1] movement <for [Land] units> <in [Flesh water] tiles>","[+2 Food] from [GrassLand] tiles [in all cities] <in [Flesh water] tiles> <during the [Ancient era]>"],
 	},
 	{
 		"name": "The Pangaea",
