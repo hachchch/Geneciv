@@ -172,7 +172,7 @@
 	},
 	{
 		"name": "Order of Earth",
-		"era": "Devonian period",
+		"era": "Ancient era",
 		"priorities": {"Neutral": 10,"Cultural": 1,"Diplomatic": 2,"Domination": 15,"Scientific": 2},
 		"effect": "+3 culture in capital and increased rate of border expansion",
 		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
