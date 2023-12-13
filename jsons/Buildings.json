@@ -125,6 +125,78 @@
 	},
 	// Wonders
 	{
+		"name": "Interstitial Environment",
+		"isWonder": true,
+		"cost": 1200,
+		"requiredTech": "Insect",
+		"uniques": ["[+30]% Production when constructing [Bugs] buildings [in all cities]","Gain a free [{non-[Coevolution]} {non-[Wonders]} {Bugs}] [in this city]"],
+	},
+	{
+		"name": "Carnian Pluvial Episode",
+		"isWonder": true,
+		"cost": 1200,
+		"uniques": ["Unbuildable <before the [Mesozoic era]>","Empire enters a [2]-turn Golden Age","[1] free [Saurischia] units appear","[2] free [Synapsida] units appear","Free Social Policy"],
+	},
+	{
+		"name": "Manicouagan Reservoir",
+		"gold": 2,
+		"science": 1,
+		"isWonder": true,
+		"cost": 1200,
+		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-100]% maintenance cost for buildings [in this city]"]
+	},
+	{
+		"name": "Paleocene-Eocene Thermal Maximum",
+		"isWonder": true,
+		"cost": 1800,
+		"uniques": ["Unbuildable <before the [Paleogene period]>",
+			"[+20]% Production when constructing [Mammal] units [in this city]",
+			"[+20]% Production when constructing [Paleocene] units [in this city]",
+			"[+20]% Production when constructing [Eocene] units [in this city]",
+			"[+1 Food] from [Snow] tiles [in this city]",
+			"[1] units cost no maintenance",
+			"[1] Unit Supply"]
+	},
+	{
+		"name": "Antarctic Permanent Ice Sheets",
+		"isWonder": true,
+		"cost": 1800,
+		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be on [Snow]",
+		"[-98]% Culture cost of natural border growth [in this city]"]
+	},
+	{
+		"name": "North American Prairie expands",
+		"isWonder": true,
+		"cost": 1800,
+		"requiredTech": "Grass",
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-75]% construction time for [GrassLand] improvements","Unbuildable <before the [Paleogene period]>"]
+	},
+	{
+		"name": "Messinian Salinity Crisis",
+		"isWonder": true,
+		"cost": 1800,
+		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[+50]% Production when constructing [Land] units [in this city]","[-50]% Production when constructing [Water] units [in this city]"]
+	},
+	{
+		"name": "Zanclean Flood",
+		"isWonder": true,
+		"cost": 1800,
+		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[-50]% Production when constructing [Land] units [in this city]","[+50]% Production when constructing [Water] units [in this city]"]
+	},
+	{
+		"name": "Last Glacial Maximum",
+		"isWonder": true,
+		"cost": 1800,
+		"uniques": ["Unbuildable <before the [Pliocene]>","Enemy [{non-[Mammal]}] units must spend [1] extra movement points when inside your territory"]
+	},
+	{
+		"name": "Smithian-Spathian Boundary",
+		"isWonder": true,
+		"cost": 1200,
+		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-50]% Strength <for [Cambrian] units>","Free Technology"],
+		"quote": "An important extinction event occurred during the Olenekian age of the Early Triassic, near the Smithian and Spathian subage boundary. The main victims of this Smithian-Spathian boundary event, often called the Smithian-Spathian extinction, were 'disaster taxa': Palaeozoic species that survived the Permian-Triassic extinction event and flourished in the immediate aftermath of the extinction; ammonoids, conodonts, and radiolarians in particular suffered drastic biodiversity losses, which is accentuated, among others, by the cosmopolitan distribution of the ammonoid Anasibirites. Marine reptiles, such as ichthyopterygians and sauropterygians, diversified after the extinction.",
+	},
+	{
 		"name": "Cytoplasm",
 		"cityStrength": 1,
                 "cityHealth": 5,
@@ -394,6 +466,13 @@
 		"maintenance": 10,
 		"science": 30,
 		"requiredTech": "Alchemy",
+	},
+	{
+		"name": "Scleractinia",
+		"gold": 2,
+		"happiness": 2,
+		"cost": 450,
+		"uniques": ["Unbuildable <before the [Mesozoic era]>"]
 	},
 	{
 		"name": "Chrysopoeia",
