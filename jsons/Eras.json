@@ -134,7 +134,7 @@
 	},
 	{
 		"name": "Ancient era",
-		"researchAgreementCost": 100,
+		"researchAgreementCost": 0,
 		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
 		"startingMilitaryUnitCount": 1,
