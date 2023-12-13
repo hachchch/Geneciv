@@ -253,7 +253,7 @@
 		"science": 1,
 		"cost": 300,
 		"isWonder": true,
-		"uniques": ["[+1 Science] <after discovering [Eukaryotic Cell]>",
+		"uniques": ["All Life's Origin","[+1 Science] <after discovering [Eukaryotic Cell]>",
 		"[+1 Science] <after discovering [Sponge]>",
 		"[+1 Science] <after discovering [Swimming]>",
 		"[+1 Science] <after discovering [Flatworm]>",
