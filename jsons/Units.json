@@ -8,7 +8,7 @@
 		"obsoleteTech": "Plesiosaur",
 		"movement": 2,
 		"requiredTech": "Trilobite",
-		"uniques": ["Only available <after adopting [Diversity]>","[+45]% Strength <vs [Predator] units> <when attacking>",
+		"uniques": ["Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
 			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
@@ -31,7 +31,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -53,7 +53,7 @@
 		"upgradesTo": "Crustacean",
 		"movement": 3,
 		"requiredTech": "Articulation",
-		"uniques": ["[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -75,7 +75,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -99,7 +99,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -119,7 +119,7 @@
                 "strength": 1,
                 "movement": 1,
                 "cost": 20,
-		"uniques": ["No Sight"],
+		"uniques": ["No Sight <hidden from users>"],
 		"obsoleteTech": "Amino Acid",
 		"upgradesTo": "Amino Acid",
 		"attackSound": "plays",
@@ -146,7 +146,7 @@
 		"movement": 2,
 		"strength": 1,
 		"cost": 20,
-		"uniques": ["No Sight"],
+		"uniques": ["No Sight <hidden from users>"],
 		"requiredTech": "Amino Acid",
 		"obsoleteTech": "Eukaryotic Cell",
 		"upgradesTo": "Prokaryote",
@@ -174,7 +174,7 @@
 		"strength": 2,
 		"movement": 2,
 		"cost": 30,
-		"uniques": ["No Sight","May travel on Water tiles without embarking"],
+		"uniques": ["No Sight <hidden from users>","May travel on Water tiles without embarking <hidden from users>"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eukaryote",
@@ -205,7 +205,7 @@
 		"requiredTech": "Eukaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eumycetozoa",
-		"uniques": ["No Sight","May travel on Water tiles without embarking"],
+		"uniques": ["No Sight <hidden from users>","May travel on Water tiles without embarking <hidden from users>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
