@@ -638,6 +638,6 @@
 	},
 	{
 		"name": "Cambrian Multicellular",
-		"uniques": ["[+33]% Strength <for [Eumycetozoa] units> <vs [Wounded] units> <when defending> <in [Ocean] tiles>"]
+		"uniques": ["Cambrian","[+33]% Strength <for [Eumycetozoa] units> <vs [Wounded] units> <when defending> <in [Ocean] tiles>"]
 	},
 ]
