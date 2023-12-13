@@ -1549,7 +1549,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 102,
-		"uniques": ["Founds a new city","No Sight <before discovering [Reptile]>"],
+		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","No Sight <before discovering [Reptile]>"],
 		"hurryCostModifier": 20
 	},
 	{

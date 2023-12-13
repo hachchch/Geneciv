@@ -1329,14 +1329,14 @@ TileSets/FantasyHex/Tiles/Hill2-Paleogene period
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill3-Devonian period
+TileSets/FantasyHex/Tiles/Hill3-Ancient era
   rotate: false
   xy: 556, 681
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Hill4-Devonian period
+TileSets/FantasyHex/Tiles/Hill4-Ancient era
   rotate: false
   xy: 556, 681
   size: 32, 32
@@ -1558,27 +1558,6 @@ TileSets/HexaRealm/Tiles/Grassland
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/City center-Carboniferous period
-  rotate: false
-  xy: 880, 1601
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Forest+City center-Carboniferous period
-  rotate: false
-  xy: 880, 1601
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Jungle+City center-Carboniferous period
-  rotate: false
-  xy: 880, 1601
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/HexaRealm/Tiles/City center-Silurian period
   rotate: false
   xy: 880, 1701
@@ -1617,6 +1596,27 @@ TileSets/HexaRealm/Tiles/Forest+City center-Ancient era
 TileSets/HexaRealm/Tiles/Jungle+City center-Ancient era
   rotate: false
   xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1601
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1911,6 +1911,20 @@ TileSets/HexaRealm/Tiles/Tundra+GrassLand
 TileSets/HexaRealm/Tiles/Tundra+GrassLand2
   rotate: false
   xy: 1480, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+City center-Carboniferous period
+  rotate: false
+  xy: 1580, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+City center-Carboniferous period
+  rotate: false
+  xy: 1680, 1884
   size: 64, 73
   orig: 64, 73
   offset: 0, 0
