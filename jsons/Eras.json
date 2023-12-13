@@ -147,6 +147,7 @@
 		"iconRGB": [100, 100, 200],
 		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
+	/*
 	{
 		"name": "Devonian period",
 		"researchAgreementCost": 0,
@@ -162,6 +163,7 @@
 		"iconRGB": [233, 31, 99],
 		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
 	},
+	*/
 	{
 		"name": "Carboniferous period",
 		"researchAgreementCost": 0,
