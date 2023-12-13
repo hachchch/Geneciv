@@ -891,11 +891,7 @@
 	},
 	{
 		"name": "Gamerule3",
-		"happiness": 10,
-		"uniques": ["Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Gamerule2",
+		"happiness": 6,
 		"uniques": ["Unsellable","Unbuildable"]
 	},
         {
@@ -906,7 +902,7 @@
 		"gold": 3,
 		"cost": 1,
 		"happiness": 3,
-                "uniques": ["Gain a free [Gamerule4] [in all cities] <after discovering [Insect]>","Gain a free [Gamerule3] [in puppeted cities]","Gain a free [Gamerule3] [in annexed cities]","Gain a free [Gamerule] [in all cities]","Gain a free [Gamerule2] [in all cities] <upon entering the [Carboniferous period]>","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%","Each city founded increases culture cost of policies [-100]% less than normal <before discovering [Human Race]>","Provides [1] [Super Creature Stock]"],
+                "uniques": ["Gain a free [Gamerule4] [in all cities] <after discovering [Insect]>","Gain a free [Gamerule3] [in puppeted cities]","Gain a free [Gamerule3] [in annexed cities]","Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%","Each city founded increases culture cost of policies [-100]% less than normal <before discovering [Human Race]>","Provides [1] [Super Creature Stock]"],
         },
 	{
 		"name": "Adenosine Triphosphate",
