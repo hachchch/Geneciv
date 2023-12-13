@@ -67,7 +67,20 @@
 	    "[Boar] units gain the [Ungulate] promotion",
 	    "[Koala] units gain the [Marsupial] promotion",
 	    "[Kangaroos] units gain the [Marsupial] promotion",
-	    "[Platypus] units gain the [Monotreme] promotion"
+	    "[Platypus] units gain the [Monotreme] promotion",
+
+
+	    "[-33]% [Science] <for [City-states]>",
+	    "[+33]% [Production] <for [City-states]>",
+
+
+
+
+
+
+
+
+	    
 
 	    
 	    /*,
