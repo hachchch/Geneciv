@@ -136,13 +136,15 @@
 				"name": "Prebiotic Synthesis",
 				"uniques":["[3] units cost no maintenance"],
 				"row": 2,
-				"column": 5
+				"column": 5,
+				"requires": ["Habitable World"],
 			},
 			{
 				"name": "Great Oxidation Event",
 				"uniques": ["[+1 Gold, +1 Production] per [10] population [in all cities]","Double quantity of [Oxygen] produced"],
-				"row": 3,
-				"column": 1
+				"row": 2,
+				"column": 1,
+				"requires": ["Habitable World"],
 			},
 			{
 				"name": "Abiogenesis Complete",
