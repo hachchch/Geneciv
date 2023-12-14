@@ -120,6 +120,38 @@
 		]
 	},
 	{
+		"name": "Abiogenesis",
+		"priorities": {"Neutral": 3,"Cultural": 3,"Diplomatic": 3,"Domination": 3,"Scientific": 3},
+		"era": "Hadean eon",
+		"effect": "Enable to Construct Late Heavy Bombardment",
+		"uniques": ["Enable Late Heavy Bombardment"],
+		"policies": [
+			{
+				"name": "Habitable World",
+				"uniques": ["[+20]% growth [in all cities]","Double quantity of [Water] produced"]
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Prebiotic Synthesis",
+				"uniques":["[3] units cost no maintenance"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Great Oxidation Event",
+				"uniques": ["[+1 Gold, +1 Production] per [10] population [in all cities]","Double quantity of [Oxygen] produced"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Abiogenesis Complete",
+				"effect": "Free Otavia antiqua in all cities",
+				"uniques": ["Gain a free [Otavia Antiqua] [in all cities]"]
+			},
+		]
+	},
+	{
 		"name": "Diversity",
 		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
 		"era": "Cambrian period",
