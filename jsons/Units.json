@@ -1,4 +1,17 @@
 [
+	// Special Units
+	{
+		"name": "Comet",
+		"unitType": "Disaster",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 12,
+		"cost": 10000,
+		"uniques": ["Unbuildable","Nuclear weapon of Strength [1]",
+			"Blast radius [1]"],
+		// "attackSound": "nuke"
+	},
 	// Cambrian Entities
 	{
 		"name": "Trilobites",
