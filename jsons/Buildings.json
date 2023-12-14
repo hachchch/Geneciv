@@ -342,7 +342,17 @@
 		"uniques": ["Botomian","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+50]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
 		"quote": "Volcanic activity, particularly that of large igneous provinces, has been speculated to have been the cause of the environmental crisis. There are several hypotheses for the causes of these extinctions. There is also major changes in the carbon cycle and development of anoxia in the oceans. 50-80% of Sea Species died for ever.",
 	},
+	{
+		"name": "Late Heavy Bombardment",
+		"uniques": ["Only available <after adopting [Abiogenesis]>"]
+	},
 	// General
+	{
+		"name": "Otavia Antiqua",
+		"science": 1,
+		"gold": 1,
+		"uniques": ["Unbuildable","[+1] population [in this city]","Destroyed when the city is captured"],
+	},
 	{
 		"name": "Eclipse",
 		"cost": 30,
