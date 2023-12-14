@@ -111,7 +111,7 @@
                 "cityHealth": 5,
 		"maintenance": 3,
 		"cost": 230,
-		"uniques": ["Bugs","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
+		"uniques": ["Birds","Bugs <hidden from users>","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
 		"requiredTech": "Flowers",
 	},
 	{
