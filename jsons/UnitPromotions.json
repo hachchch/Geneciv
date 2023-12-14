@@ -539,9 +539,24 @@
 		"unitTypes": ["Reptiles","Birds","Glider"],
 	},
 	{
-		"name": "Propubic Pelvis",
-		"uniques": ["[+20]% to Flank Attack bonuses"],
+		"name": "Horn-Faced",
+		"uniques": ["Only available <when [Herbivore]>","[+10]% Strength <vs [Land] units>"],
 		"unitTypes": ["Reptiles","Glider"],
+	},
+	{
+		"name": "Propubic Pelvis",
+		"uniques": ["Only available <when [Bipedal]>","[+10]% Strength <vs [Land] units>"],
+		"unitTypes": ["Reptiles","Glider"],
+	},
+	{
+		"name": "Strong Jaw",
+		"uniques": ["Only available <when [Predator]>","[+10]% Strength <vs [Land] units>"],
+		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+	},
+	{
+		"name": "Large Body",
+		"uniques": ["Only available <when [Quadrupedal]>","[+10]% Strength <vs [Land] units>"],
+		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Ankylosis",
@@ -639,5 +654,10 @@
 	{
 		"name": "Cambrian Multicellular",
 		"uniques": ["Cambrian","[+33]% Strength <for [Eumycetozoa] units> <vs [Wounded] units> <when defending> <in [Ocean] tiles>"]
+	},
+	{
+		"name": "Skirmish",
+		"unitTypes": ["Reptiles"]
+		"uniques": ["[+35]% to Flank Attack bonuses"]
 	},
 ]
