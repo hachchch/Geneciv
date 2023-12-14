@@ -1,28 +1,39 @@
 # Credits
-## Development
-・hachchch - code
+## Development Contributors
 
-・hachchch - FantasyHex HexaRealm
+・Unciv Discord People
+Thanks to give me Idea a lot
 
-・hachchch - sound finder
+・Basil
+AbsoluteUnits Artist
+Thanks to him for helping AbsoluteUnits.
+His Unit paintings are really amazing.
 
-・hachchch - idea
+### Translation Contributors
 
-・Unciv Discord People - idea
+Japanese and Chinese translation by hachchch
+Spanish translation by hachchch
+Russian translation by [Monokiro](https://github.com/Monokiro)
+Ukrainian translation by Basil
 
-・hachchch - Music Creator
+## Sound Source
+・[hachchch sound cloud](https://soundcloud.com/yddwohjlhinu)
+Original musics in this mod are all own Musics.
+If you like my musics, I recommend to visit here!
 
-・Basil - AbsoluteUnits Artist
+・[効果音ラボ](https://soundeffect-lab.info/)
+Free soundeffects site.
+Most Japanese Youtuber always finding sound from here.
 
-Icons from Noun Project
+・[Freesound](https://freesound.org/)
+Many Free Sounds site.
+You can easy to find Perfect Reality soundeffects.
 
-Sounds from Free Sound and Koukaon-Lab
-## Translation
-・hachchch - translation template
-
-## Inspiration
-・On the Origin of Species
-Charles Darwin and Alfred Russel Wallace
+## Inspirations
 
 ・Cell to Singularity
 A Greatest Tapping game
+
+・Wikipedia
+It is our teacher
+I often call wikipedia that Electric Alexandria.
