@@ -344,11 +344,14 @@
 	},
 	{
 		"name": "Late Heavy Bombardment",
-		"uniques": ["Only available <after adopting [Abiogenesis]>"]
+		"cost": 200,
+		"isNationalWonder": true,
+		"uniques": ["Enemy [Cell] units must spend [10] extra movement points when inside your territory","Free [Comet] appears","Only available <after adopting [Abiogenesis]>"]
 	},
 	// General
 	{
 		"name": "Otavia Antiqua",
+		"cost": 1,
 		"science": 1,
 		"gold": 1,
 		"uniques": ["Unbuildable","[+1] population [in this city]","Destroyed when the city is captured"],
