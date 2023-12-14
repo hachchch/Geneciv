@@ -144,7 +144,13 @@
 	},
 	{
 		"name": "Missile",
-		"movementType": "Land",
+		"movementType": "Air",
+		"uniques": ["Self-destructs when attacking"]
+	},
+	{
+		"name": "Disaster",
+		"movementType": "Air",
+		"uniques": ["Self-destructs when attacking"]
 	},
 	{
 		"name": "Aircraft Carrier",
