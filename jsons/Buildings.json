@@ -255,6 +255,7 @@
 	},
 	{
 		"name": "Ammonoids",
+		"cost": 1000,
 		"culture": 2,
 		"isWonder": true,
 		"requiredTech": "Excretion Opening",
@@ -287,6 +288,12 @@
 		"[+1 Science] <after discovering [Flowers]>"
 		],
 		"requiredTech": "Primordial Soup",
+	},
+	{
+		"name": "Eocene-Oligocene Extinction",
+		"isWonder": true,
+		"cost": 1750,
+		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be next to [Coast]","[+10]% Strength <for [Water] units>"],
 	},
 	{
 		"name": "Andean-Saharan Glaciation",
