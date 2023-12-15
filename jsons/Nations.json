@@ -336,6 +336,56 @@
 		"innerColor": [204,102,0],
 		"cities": ["Araucaria"]
 	},
+	{
+		"name": "Rhynie", // Milan
+		"adjective": ["Rhynie Chert"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "You fiend! History shall remember this!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [185,132,66],
+		"uniques": ["Devonian Biosphere"],
+		"cities": ["Rhynie"]
+	},
+	{
+		"name": "Hunsrück",
+		"adjective": ["Hunsrück"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We were too weak to protect ourselves...",
+		"outerColor": [0, 0, 0],
+		"innerColor": [51,102,0],
+		"uniques": ["Devonian Biosphere"],
+		"cities": ["Hunsrück"]
+	},
+	{
+		"name": "Hemudu",
+		"adjective": ["Ancient Chinese"],
+		"cityStateType": "Tribal Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Hemudu"]
+	},
+	{
+		"name": "Hemudu",
+		"adjective": ["Ancient Chinese"],
+		"cityStateType": "Tribal Biosphere", // Tribal? Civilization?
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,153,153],
+		"cities": ["Hemudu"]
+	},
 	//Barbarian
 	{
 		"name": "Barbarians",
