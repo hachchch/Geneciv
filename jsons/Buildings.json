@@ -183,6 +183,12 @@
 		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[+50]% Production when constructing [Land] units [in this city]","[-50]% Production when constructing [Water] units [in this city]"]
 	},
 	{
+		"name": "Hangenberg Crisis",
+		"isWonder": true,
+		"cost": 1000,
+		"uniques": ["[Gold] cost of purchasing items in cities [-25]%","Unbuildable <before the [Ancient era]>"]
+	},
+	{
 		"name": "Zanclean Flood",
 		"isWonder": true,
 		"cost": 1800,
