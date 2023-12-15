@@ -1,10 +1,10 @@
 {
 	"useColorAsBaseTerrain": "false",
 	"ruleVariants": {
-		"Plains+Forest+Forests-Paleogene period": ["Grassland","ForestPP"],
-		"Plains+Hill+Forest+Forests-Paleogene period": ["Grassland","ForestPPH"],
-		"Grassland+Forest+Forests-Paleogene period": ["Grassland","ForestPG"],
-		"Grassland+Hill+Forest+Forests-Paleogene period": ["Grassland","Hill","ForestPGH"],
+		"Plains+Forest+Forests": ["Grassland","ForestPP"],
+		"Plains+Hill+Forest+Forests": ["Grassland","ForestPPH"],
+		"Grassland+Forest+Forests": ["Grassland","ForestPG"],
+		"Grassland+Hill+Forest+Forests": ["Grassland","Hill","ForestPGH"],
 		"Grassland+Faunas": ["Grassland","FaunasG"],
 	},
 }
