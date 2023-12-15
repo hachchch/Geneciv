@@ -4,6 +4,34 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/HexaRealm/Tiles/ForestPP
+  rotate: false
+  xy: 220, 185
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPPH
+  rotate: false
+  xy: 220, 121
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG
+  rotate: false
+  xy: 148, 183
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPGH
+  rotate: false
+  xy: 148, 119
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/ForestT-Paleogene period
   rotate: false
   xy: 292, 185
