@@ -1761,35 +1761,35 @@ TileSets/HexaRealm/Tiles/Grassland3
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+Forest+Forests
+TileSets/HexaRealm/Tiles/ForestPG
   rotate: false
   xy: 1080, 1490
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+Forest+Forests2
+TileSets/HexaRealm/Tiles/ForestPG2
   rotate: false
   xy: 1080, 1390
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+Forest+Forests3
+TileSets/HexaRealm/Tiles/ForestPG3
   rotate: false
   xy: 1080, 1290
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Forests
+TileSets/HexaRealm/Tiles/ForestPGH
   rotate: false
   xy: 1280, 1490
   size: 64, 67
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Plains+Hill+Forest+Forests
+TileSets/HexaRealm/Tiles/ForestPPH
   rotate: false
   xy: 1280, 1790
   size: 64, 67
@@ -1880,7 +1880,7 @@ TileSets/HexaRealm/Tiles/ForestPH
   orig: 64, 67
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Plains+Forest+Forests
+TileSets/HexaRealm/Tiles/ForestPP
   rotate: false
   xy: 980, 1784
   size: 64, 73
