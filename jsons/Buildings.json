@@ -294,6 +294,18 @@
 		"uniques": ["Unbuildable <before the [Archean eon]>"],
 	},
 	*/
+	{
+		"name": "Bangiomorpha",
+		"food": 8,
+		"cost": 300,
+		"requiredTech": "Sexual Reproduction",
+		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal"]
+	},
+	{
+		"name": "Grenville Orogeny",
+		"cost": 400,
+		"uniques": ["[20]% of excess happiness converted to [Production]","Unbuildable <before the [Mesoproterozoic]>"]
+	},
 	// Invertebrates
 	{
 		"name": "Cephalopoda",
@@ -344,9 +356,16 @@
 	},
 	{
 		"name": "Late Heavy Bombardment",
-		"cost": 200,
+		"cost": 100,
 		"isNationalWonder": true,
 		"uniques": ["Enemy [Cell] units must spend [10] extra movement points when inside your territory","Free [Comet] appears","Only available <after adopting [Abiogenesis]>"]
+	},
+	{
+		"name": "End Of Boring Billion",
+		"cost": 200,
+		"science": 1,
+		"uniques": ["[+20]% [Science] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
+		"isNationalWonder": true,
 	},
 	// General
 	{
