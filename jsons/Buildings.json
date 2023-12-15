@@ -180,13 +180,15 @@
 		"name": "Messinian Salinity Crisis",
 		"isWonder": true,
 		"cost": 1800,
-		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[+50]% Production when constructing [Land] units [in this city]","[-50]% Production when constructing [Water] units [in this city]"]
+		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[+50]% Production when constructing [Land] units [in this city]","[-50]% Production when constructing [Water] units [in this city]"],
+		"quote": "Sediment samples from below the deep seafloor of the Mediterranean Sea, which include evaporite minerals, soils, and fossil plants, show that the precursor of the Strait of Gibraltar closed about 5.96 million years ago, sealing the Mediterranean off from the Atlantic. If the Strait of Gibraltar closes again, the Mediterranean would mostly evaporate in about a thousand years, after which continued northward movement of Africa may obliterate the Mediterranean altogether...Atlantropa is Possible?",
 	},
 	{
 		"name": "Hangenberg Crisis",
 		"isWonder": true,
 		"cost": 1000,
-		"uniques": ["[Gold] cost of purchasing items in cities [-25]%","Unbuildable <before the [Ancient era]>"]
+		"uniques": ["[Gold] cost of purchasing items in cities [-25]%","Unbuildable <before the [Ancient era]>"],
+		"quote": "Mass extinction called the Hangenberg event, also known as the end-Devonian extinction, occurred 359 million years ago, bringing an end to the Famennian and Devonian, as the world transitioned into the Carboniferous Period.",
 	},
 	{
 		"name": "Zanclean Flood",
