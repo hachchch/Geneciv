@@ -1,1 +1,61 @@
-
+GenecivHexarealm.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/Hexarealm/Units/Saurischia
+  rotate: false
+  xy: 0, 0
+  size: 101, 52
+  orig: 101, 52
+  offset: 0, 0
+  index: -1
+TileSets/Hexarealm/Units/Amino Acid
+  rotate: false
+  xy: 101, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Hexarealm/Units/Eukaryote
+  rotate: false
+  xy: 165, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Hexarealm/Units/Prokaryote
+  rotate: false
+  xy: 229, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Hexarealm/Units/Galliform
+  rotate: false
+  xy: 293, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Hexarealm/Units/Tetrapod
+  rotate: false
+  xy: 357, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Hexarealm/Units/Big Reptile
+  rotate: false
+  xy: 421, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Hexarealm/Units/Small Reptile
+  rotate: false
+  xy: 485, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
