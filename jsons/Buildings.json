@@ -949,6 +949,7 @@
 		"science": 3,
 		"gold": 3,
 		"cost": 1,
+		"culture": 3,
 		"happiness": 3,
                 "uniques": ["Gain a free [Gamerule3] [in puppeted cities]","Gain a free [Gamerule3] [in annexed cities]","Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock]"],
         },
