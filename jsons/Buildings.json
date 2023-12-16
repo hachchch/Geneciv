@@ -314,11 +314,12 @@
 		"food": 8,
 		"cost": 300,
 		"requiredTech": "Sexual Reproduction",
-		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal"]
+		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal","Unbuildable <before the [Mesoproterozoic]>"]
 	},
 	{
 		"name": "Grenville Orogeny",
 		"cost": 400,
+		"isWonder": true,
 		"uniques": ["[20]% of excess happiness converted to [Production]","Unbuildable <before the [Mesoproterozoic]>"]
 	},
 	// Invertebrates
