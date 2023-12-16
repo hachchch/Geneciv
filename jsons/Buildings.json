@@ -937,10 +937,10 @@
 		"cityStrength": -10,
 		"cityHealth": -5,
 		"happiness": 6,
-		"uniques": ["[-70]% [Science] [in this city] <for [25] turns>",
-			"[-70]% [Culture] [in this city] <for [25] turns>",
-			"[-30]% [Food] [in this city] <for [25] turns>",
-			"Unsellable","Unbuildable","Destroyed when the city is captured"]
+		"uniques": ["[-70]% [Science] [in this city]",
+			"[-70]% [Culture] [in this city]",
+			"[-30]% [Food] [in this city]",
+			"Remove [Gamerule3] [in this city] <after [25] turns>","Unsellable","Unbuildable","Destroyed when the city is captured"]
 	},
         {
                 "name": "Palace",
