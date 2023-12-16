@@ -13,35 +13,35 @@ TileSets/HexaRealm/Units/Saurischia
   index: -1
 TileSets/HexaRealm/Units/Amino Acid
   rotate: false
-  xy: 101, -10
+  xy: 106, -10
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Eukaryote
   rotate: false
-  xy: 165, -10
+  xy: 170, -10
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Prokaryote
   rotate: false
-  xy: 229, -10
+  xy: 234, -10
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Galliform
   rotate: false
-  xy: 293, -10
+  xy: 298, -10
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Tetrapod
   rotate: false
-  xy: 357, -10
+  xy: 362, -10
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
