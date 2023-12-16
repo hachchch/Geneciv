@@ -1041,7 +1041,7 @@
 		"movement": 4,
 		"obsoleteTech": "Anthropocene",
 		"unitType": "Mammal",
-		"uniques": ["Pleistocene","Ungulates","[+50]% to Flank Attack bonuses"],
+		"uniques": ["Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Boar",
