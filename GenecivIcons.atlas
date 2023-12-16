@@ -826,7 +826,7 @@ BuildingIcons/LUCA
   orig: 200, 200
   offset: 0, 0
   index: -1
-OtherIcons/Chloroplasts
+Icons/Chloroplasts
   rotate: false
   xy: 400, 0
   size: 200, 200
