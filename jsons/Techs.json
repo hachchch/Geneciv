@@ -763,7 +763,6 @@
 				"name": "Herbivore",
 				"row": 3,
 				"prerequisites": ["Insect","Reptile"],
-				"uniques": ["[+1 Food] from [GrassLand] tiles [in all cities]"]
 			},
 			{
 				"name": "Egg Shell",
