@@ -298,7 +298,7 @@
 	{
 		"name": "Andean-Saharan Glaciation",
 		"isWonder": true,
-		"uniques": ["Silurian","Unbuildable <before the [Silurian period]>","[-61%] Strength <for [Water] units> <for [8] turns>","Free Social Policy <after [8] turns>"],
+		"uniques": ["Silurian","Must be next to [Cold]","Unbuildable <before the [Silurian period]>","[+1 Gold] from [Tundra] tiles [in this city]","[+1 Gold] from [Snow] tiles [in this city]","City-State Influence recovers at twice the normal rate"],
 		"cost": 490,
 	},
 	/*
