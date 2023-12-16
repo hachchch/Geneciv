@@ -4,7 +4,7 @@
 		"name": "Negotiation Skill",
 		"resourceType": "Strategic",
 		"revealedBy": "Diplomacy",
-		"uniques": ["Excluded from map editor","City-level resource","It can increase their interest in trade or treaties."]
+		"uniques": ["Excluded from map editor","It can increase their interest in trade or treaties."]
 	},
 	// Ambience
 	{
@@ -46,7 +46,7 @@
 	{
 		"name": "Super Creature Stock",
 		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded <before discovering [Genome Mapping]>","City-level resource","Excluded from map editor"],
+		"uniques": ["Cannot be traded <before discovering [Genome Mapping]>","Excluded from map editor"],
 	},
 	// CityStates
 	{
