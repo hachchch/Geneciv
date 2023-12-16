@@ -311,6 +311,7 @@
 	*/
 	{
 		"name": "Bangiomorpha",
+		"isWonder": true,
 		"food": 8,
 		"cost": 300,
 		"requiredTech": "Sexual Reproduction",
