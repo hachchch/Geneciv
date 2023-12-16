@@ -4,7 +4,7 @@
 		"name": "Negotiation Skill",
 		"resourceType": "Strategic",
 		"revealedBy": "Diplomacy",
-		"uniques": ["Excluded from map editor","It can increase their interest in trade or treaties."]
+		"uniques": ["Excluded from map editor","City-level resource","It can increase their interest in trade or treaties."]
 	},
 	// Ambience
 	{
@@ -46,8 +46,28 @@
 	{
 		"name": "Super Creature Stock",
 		"resourceType": "Strategic",
-		"food": 1,
-		"uniques": ["Cannot be traded","Not shown on world screen","Excluded from map editor"],
+		"uniques": ["Cannot be traded <before discovering [Genome Mapping]>","City-level resource","Excluded from map editor"],
+	},
+	// CityStates
+	{
+		"name": "Golden age Bonus", // Maybe change the name
+		"resourceType": "Luxury",
+		"uniques": ["Cannot be traded","Empire enters golden age","Can only be created by Mercantile City-States","City-level resource"]
+	},
+	{
+		"name": "Stalactite",
+		"resourceType": "Luxury",
+		"uniques": ["Can only be created by Mercantile City-States","City-level resource"]
+	},
+	{
+		"name": "Agrias",
+		"resourceType": "Luxury",
+		"uniques": ["Can only be created by Mercantile City-States","City-level resource"]
+	},
+	{
+		"name": "Cowry",
+		"resourceType": "Luxury",
+		"uniques": ["Can only be created by Mercantile City-States","City-level resource"]
 	},
 	// General
         {
