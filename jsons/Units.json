@@ -1296,7 +1296,13 @@
 		"cost": 500,
 		"requiredTech": "Modern Birds",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"]
+		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/HexaRealm/Units/Galliform",
+				"imageSize": 192
+			},
+		]
 	},
 	{
 		"name": "Ophidia",
@@ -1411,6 +1417,10 @@
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/HexaRealm/Units/Saurischia",
 				"imageSize": 192
 			},
 			{
