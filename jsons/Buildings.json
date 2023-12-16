@@ -932,16 +932,6 @@
 		"science": -3,
 		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured"]
 	},
-	{
-		"name": "Gamerule3",
-		"cityStrength": -10,
-		"cityHealth": -5,
-		"happiness": 6,
-		"uniques": ["[-70]% [Science] [in this city]",
-			"[-70]% [Culture] [in this city]",
-			"[-30]% [Food] [in this city]",
-			"Remove [Gamerule3] [in this city] <after [25] turns>","Unsellable","Unbuildable","Destroyed when the city is captured"]
-	},
         {
                 "name": "Palace",
                 "isNationalWonder": true,
@@ -951,7 +941,7 @@
 		"cost": 1,
 		"culture": 3,
 		"happiness": 3,
-                "uniques": ["Gain a free [Gamerule3] [in puppeted cities]","Gain a free [Gamerule3] [in annexed cities]","Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock]"],
+                "uniques": ["Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock]"],
         },
 	{
 		"name": "Adenosine Triphosphate",
