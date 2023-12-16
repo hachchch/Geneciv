@@ -6,9 +6,9 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/HexaRealm/Units/Saurischia
   rotate: false
-  xy: 0, 8
-  size: 101, 52
-  orig: 101, 52
+  xy: 0, 16
+  size: 101, 60
+  orig: 101, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Amino Acid
