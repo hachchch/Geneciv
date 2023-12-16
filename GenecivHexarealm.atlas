@@ -6,56 +6,56 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/HexaRealm/Units/Saurischia
   rotate: false
-  xy: 0, 16
+  xy: 0, 8
   size: 101, 60
   orig: 101, 60
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Amino Acid
   rotate: false
-  xy: 106, -10
+  xy: 106, -8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Eukaryote
   rotate: false
-  xy: 170, -10
+  xy: 170, -8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Prokaryote
   rotate: false
-  xy: 234, -10
+  xy: 234, -8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Galliform
   rotate: false
-  xy: 298, -10
+  xy: 298, -8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Tetrapod
   rotate: false
-  xy: 362, -10
+  xy: 362, -8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Big Reptile
   rotate: false
-  xy: 421, -10
+  xy: 421, -8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Small Reptile
   rotate: false
-  xy: 485, -10
+  xy: 485, -8
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
