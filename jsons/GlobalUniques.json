@@ -55,7 +55,7 @@
 		"[-33]% Strength <for [All] units> <when below [-10] Happiness>",
 		"Cannot build [Settler] units <when below [-10] Happiness>",
 		"Rebel units may spawn <when below [-12] Happiness>",
-	        "[+2 Happiness] per [1] population [in all cities] <before discovering [Human Race]>",
+	        "[+1 Happiness] per [1] population [in all cities] <before discovering [Human Race]>",
 	    "[Horse] units gain the [Ungulate] promotion",
 	    "[Glires] units gain the [Rodentia] promotion",
 	    "[Lion] units gain the [Carnivora] promotion",
