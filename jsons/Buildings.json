@@ -926,22 +926,21 @@
 	},
 	{
 		"name": "Gamerule",
-		"culture": 3,
 		"cityStrength": -5,
 		"cityHealth": -5,
 		"happiness": -3,
-		"uniques": ["Unsellable","Unbuildable"]
-	},
-	{
-		"name": "Gamerule4",
-		"cityStrength": 15,
-		"cityHealth": 15,
+		"science": -3,
 		"uniques": ["Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Gamerule3",
+		"cityStrength": -10,
+		"cityHealth": -5,
 		"happiness": 6,
-		"uniques": ["Unsellable","Unbuildable"]
+		"uniques": ["[-70]% [Science] [in this city] <for [25] turns>",
+			"[-70]% [Culture] [in this city] <for [25] turns>",
+			"[-30]% [Food] [in this city] <for [25] turns>",
+			"Unsellable","Unbuildable"]
 	},
         {
                 "name": "Palace",
@@ -951,7 +950,7 @@
 		"gold": 3,
 		"cost": 1,
 		"happiness": 3,
-                "uniques": ["Gain a free [Gamerule4] [in all cities] <after discovering [Insect]>","Gain a free [Gamerule3] [in puppeted cities]","Gain a free [Gamerule3] [in annexed cities]","Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Quantity of strategic resources produced by the empire increased by 100%","Each city founded increases culture cost of policies [-100]% less than normal <before discovering [Human Race]>","Provides [1] [Super Creature Stock]"],
+                "uniques": ["Gain a free [Gamerule3] [in puppeted cities]","Gain a free [Gamerule3] [in annexed cities]","Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock]"],
         },
 	{
 		"name": "Adenosine Triphosphate",
