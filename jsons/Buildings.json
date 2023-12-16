@@ -900,7 +900,7 @@
 	{
 		"name": "Blood Pump",
 		"cost": 135,
-		"uniques": ["[+10]% [Production] [in this city]"],
+		"uniques": ["[+10]% [Production] [in this city]","Destroyed when the city is captured"],
 		"production": 2,
 		"requiredTech": "Heart",
 	},
@@ -930,7 +930,7 @@
 		"cityHealth": -5,
 		"happiness": -3,
 		"science": -3,
-		"uniques": ["Unsellable","Unbuildable"]
+		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Gamerule3",
@@ -940,7 +940,7 @@
 		"uniques": ["[-70]% [Science] [in this city] <for [25] turns>",
 			"[-70]% [Culture] [in this city] <for [25] turns>",
 			"[-30]% [Food] [in this city] <for [25] turns>",
-			"Unsellable","Unbuildable"]
+			"Unsellable","Unbuildable","Destroyed when the city is captured"]
 	},
         {
                 "name": "Palace",
@@ -957,7 +957,7 @@
 		"name": "Adenosine Triphosphate",
 		"gold": 3,
 		"cost": 60,
-		"uniques": ["[+10%] [Gold] [in this city]"],
+		"uniques": ["[+10%] [Gold] [in this city]","Destroyed when the city is captured"],
 		"requiredTech": "Nucleotides",
 	},
 	// Meghalayan
