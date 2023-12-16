@@ -517,7 +517,7 @@
 				"name": "Cocoon",
 				"row": 9,
 				"prerequisites": ["Sexual Reproduction","Flatworm"],
-				"uniques": ["[10]% Food is carried over after population increases [in all cities]"],
+				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
 			}
 		]
 	},
@@ -642,7 +642,7 @@
 				"name": "Fish Egg",
 				"row": 9,
 				"prerequisites": ["Fish","Cocoon"],
-				"uniques": ["[10]% Food is carried over after population increases [in all cities]","[+15]% Production when constructing [Fishes] units [in all cities]","[+1 Food] from [River] tiles [in all cities]"],
+				"uniques": ["[5]% Food is carried over after population increases [in all cities]","[+15]% Production when constructing [Fishes] units [in all cities]","[+1 Food] from [River] tiles [in all cities]"],
 			},
 			{
 				"name": "Excretion Opening",
@@ -768,7 +768,7 @@
 			{
 				"name": "Egg Shell",
 				"row": 9,
-				"uniques": ["Enables Research agreements","[10]% Food is carried over after population increases [in all cities]"],
+				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
 				"prerequisites": ["Reptile","Fish Egg"],
 			},
 			{
