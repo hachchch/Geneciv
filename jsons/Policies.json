@@ -4,7 +4,7 @@
 		"era": "Mesoproterozoic",
 		"priorities": {"Neutral": 10,"Cultural": 15,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
 		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
-		"uniques": ["[+33]% [Science] [in capital]"],
+		"uniques": ["[+25]% [Science] [in capital] <while the empire is happy>"],
 		"policies": [
 			{
 				"name": "Super Plume",
@@ -16,14 +16,14 @@
 				"name": "Great Volcanic Activity",
 				"row": 2,
 				"column": 3,
-				"uniques": ["[+1000]% Strength <for [Cell] units> <for [5] turns>","[+10]% [Production] [in all cities]","[+110 Production] from every [Volcano] <for [2] turns>"],
+				"uniques": ["[+1000]% Strength <for [Cell] units> <for [5] turns>","[+5]% [Production] [in all cities]","[+110 Production] from every [Volcano] <for [2] turns>"],
 				"requires": ["Super Plume"],
 			},
 			{
 				"name": "Global Cooling",
 				"row": 3,
 				"column": 3,
-				"uniques": ["Nullifies [Food] [in all cities] <for [2] turns>","[+10]% [Science] [in all cities]","[+10 Science] from [Ice] tiles [in all cities]"],
+				"uniques": ["Nullifies [Food] [in all cities] <for [2] turns>","[+8]% [Science] [in all cities]","[+10 Science] from [Ice] tiles [in all cities]"],
 				"requires": ["Great Volcanic Activity"],
 			},
 			{
