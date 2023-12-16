@@ -32,7 +32,7 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"RGB": [125,122,113]
-		"uniques": ["Starts in regions of this type receive an extra [Forest]"],
+		"uniques": ["Cold","Starts in regions of this type receive an extra [Forest]"],
 	},
 	{
 		"name": "Desert",
@@ -73,6 +73,7 @@
 		"movementCost": 1,
 		"culture": 1,
 		"defenceBonus": -0.1,
+		"uniques": ["Cold"],
 		"RGB": [153, 255, 255]
 	},
 	{
@@ -97,6 +98,7 @@
 		"type": "TerrainFeature",
 		"impassable": true,
 		"overrideStats": true,
+		"uniques": ["Cold"],
 		"occursOn": ["Ocean", "Coast"]
 	},
 	// Natural Wonders
