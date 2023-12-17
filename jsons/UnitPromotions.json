@@ -595,9 +595,6 @@
 		"unitTypes": ["Water Reptiles","Reptiles"],
 	},
 	{
-		
-	},
-	{
 		"name": "Quadrupedalism",
 		"uniques": ["[+1] Movement","Quadrupedal","Only available <after discovering [Legs]>"],
 		"unitTypes": ["Amphibian"],
