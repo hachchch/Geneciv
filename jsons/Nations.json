@@ -365,7 +365,7 @@
 	{
 		"name": "Hemudu",
 		"adjective": ["Ancient Chinese"],
-		"cityStateType": "Tribal Biosphere",
+		"cityStateType": "Tribal Biosphere", // Tribal? Civilization?
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -375,16 +375,97 @@
 		"cities": ["Hemudu"]
 	},
 	{
-		"name": "Hemudu",
-		"adjective": ["Ancient Chinese"],
-		"cityStateType": "Tribal Biosphere", // Tribal? Civilization?
+		"name": "Kaili",
+		"adjective": ["Kaili Biota"],
+		"cityStateType": "Animal Biosphere",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "I have failed. May you, at least, know compassion towards our people.",
+		"defeated": "The day of judgement has come to us. But rest assured, the same will go for you!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [255,153,153],
-		"cities": ["Hemudu"]
+		"innerColor": [255,178,102],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Kaili"]
+	},
+	{
+		"name": "Orsten",
+		"adjective": ["Orsten Fauna"],
+		"cityStateType": "Microorganisms Biosphere",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Ah, Gods! Why have you forsaken us?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [96,96,96],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Orsten"]
+	},
+	{
+		"name": "Emu Bay",
+		"adjective": ["Emu Bay Shale"],
+		"cityStateType": "Wonderful Biosphere",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Congratulations, conqueror. This biosphere serves you now.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [224,224,224],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Emu Bay"]
+	},
+	{
+		"name": "Sirius Passet",
+		"adjective": ["Sirius Passet Biota"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
+		"attacked": "You can see how fruitless this will be for you... right?",
+		"defeated": "May God grant me these last wishes - peace and prosperity for Halkieria.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [211, 220, 103],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Sirius Passet"]
+	},
+	{
+		"name": "Maotianshan",
+		"adjective": ["Maotianshan Shales"],
+		"cityStateType": "Animal Biosphere",
+
+		"declaringWar": "After thorough deliberation, Australia finds itself at a crossroads. Prepare yourself, for war is upon us.",
+		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
+		"defeated": "The principles for which we have fought will survive longer than any nation you could ever build.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,204,204],
+		"uniques": ["Cambrian Biosphere"],
+		"cities": ["Maotianshan"]
+	},
+	{
+		"name": "Cryogenia",
+		"adjective": ["Cryogenian"],
+		"cityStateType": "Vegetation Biosphere",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of the Sumerians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"uniques": ["Neoproterozoic Biosphere"],
+		"cities": ["Cryogenia"]
+	},
+	{
+		"name": "Mazon Creek",
+		"adjective": ["Mazon Creek Fossil"],
+		"cityStateType": "Vegetation Biosphere",
+
+		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
+		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
+		"defeated": "I regret not defending my country to the last, although it was not of use.",
+		"outerColor": [0, 0, 0],
+		"innerColor": [0,255,128],
+		"uniques": ["Carboniferous Biosphere"],
+		"cities": ["Mazon Creek"]
 	},
 	//Barbarian
 	{
