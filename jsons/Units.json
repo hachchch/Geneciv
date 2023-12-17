@@ -1341,13 +1341,14 @@
 		"name": "Tyrannosaurus",
 		"unitType": "Reptiles",
 		"cost": 950,
-		"strength": 150,
+		"strength": 100,
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 2,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Predator","Bipedal","Never appears as a Barbarian unit"],
+		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Strong Jaw","Large Body"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
@@ -1440,7 +1441,7 @@
 		"movement": 1,
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Jurassic","Quadrupedal"],
+		"uniques": ["Jurassic","Quadrupedal","Armored"],
 		"promotions": ["Ankylosis"],
 		"civilopediaText": [
 			{
