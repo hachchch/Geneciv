@@ -310,6 +310,56 @@
 	},
 	*/
 	{
+		"name": "Carboniferous Rainforest Collapse",
+		"cost": 1000,
+		"science": 3,
+		"isWonder": true,
+		"uniques": ["[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Carboniferous period]>"],
+		"quote": "The Carboniferous rainforest collapse was a minor extinction event that occurred around 305 million years ago in the Carboniferous period. It altered the vast coal forests that covered the equatorial region of Euramerica. This event may have fragmented the forests into isolated refugia or ecological 'islands', which in turn encouraged dwarfism and, shortly after, extinction of many plant and animal species. Following the event, coal-forming tropical forests continued in large areas of the Earth, but their extent and composition were changed.",
+	},
+	{
+		"name": "Ireviken Event",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 800,
+		"uniques": ["Influence of all other civilizations with all city-states degrades [80]% faster <for [19] turns>","Unbuildable <before the [Silurian period]>"]
+	},
+	{
+		"name": "Mulde Event",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 800,
+		"uniques": ["Instantly consumes [10000] [Oxygen]","Resting point for Influence with City-States is increased by [10]","Unbuildable <before the [Silurian period]>"]
+	},
+	{
+		"name": "Lau Event",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 800,
+		"uniques": ["Provides [100] [Water]","Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","Unbuildable <before the [Silurian period]>"]
+	},
+	{
+		"name": "Sturtian Glaciation",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 200,
+		"uniques": ["[+2 Gold, +1 Food] from [Snow] tiles [in all cities]","Unbuildable <before the [Neoproterozoic]>"]
+	},
+	{
+		"name": "Romer's Gap",
+		"cost": 1000,
+		"isWonder": true,
+		"uniques": ["Free [Tetrapod] appears","[+50]% Strength <for [Tetrapod] units>","Unbuildable <before the [Carboniferous period]>"],
+		"quote": "This time is known for having very few fossils. The reason for this may be that the environment was not favorable for the formation of fossils.",
+	},
+	{
+		"name": "Capitanian Mass Extinction Event",
+		"science": 7,
+		"cost": 1100,
+		"isWonder": true,
+		"uniques": ["[+47]% Strength <for [Jawless] units>","Unbuildable <before the [Permian period]>"],
+	},
+	{
 		"name": "Bangiomorpha",
 		"isWonder": true,
 		"food": 8,
@@ -433,7 +483,7 @@
 		"uniques": ["Must be next to [Coast]","[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
 	},
 	{
-		"name": "Microbiota",	
+		"name": "Microbiota",
 		"food": 1,
 		"gold": 3,
 		"production": 1,
@@ -457,7 +507,7 @@
 	},
 	{
 		"name": "Three Bone Ear",
-		"cost": 700,
+		"cost": 1150,
 		"culture": 2,
 		"isWonder": true,
 		"requiredTech": "Mammal",
