@@ -11,7 +11,7 @@
 		"startPercent": 1,
 		"citySound": "Void",
 		"embarkDefense": 1,
-		"iconRGB": [100, 100, 200]
+		"iconRGB": [100, 100, 200],
 	},
         {
                 "name": "Hadean eon",
@@ -40,7 +40,8 @@
 		"citySound": "Under Lava",
 		"embarkDefense": 1,
 		"iconRGB": [76, 176, 81],
-		"settlerBuildings": ["Meteor"]
+		"settlerBuildings": ["Meteor"],
+		"startingObsoleteWonders": ["Nuclear Fusion"]
 	},
 	{
 		"name": "Paleoproterozoic",
@@ -55,7 +56,8 @@
 		"citySound": "Under Lava",
 		"embarkDefense": 1,
 		"iconRGB": [0, 150, 136],
-		"settlerBuildings": ["Meteor","Volcano","Adenosine Triphosphate","Enzymes"],
+		"settlerBuildings": ["Eclipse","Meteor","Volcano","Adenosine Triphosphate","Enzymes"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact"]
 	},
 	{
 		"name": "Mesoproterozoic",
@@ -70,7 +72,8 @@
 		"citySound": "UnderWater2",
 		"embarkDefense": 2,
 		"iconRGB": [33, 150, 243],
-		"settlerBuildings": ["Plasma Membrane","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Plasma Membrane","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact"]
 	},
 	{
 		"name": "Neoproterozoic",
@@ -85,7 +88,8 @@
 		"citySound": "UnderWater2",
 		"embarkDefense": 3,
 		"iconRGB": [63, 81, 182],
-		"settlerBuildings": ["Plasma Membrane","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Plasma Membrane","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm"]
 	},
 	{
 		"name": "Cambrian period",
@@ -100,7 +104,8 @@
 		"citySound": "Underwater",
 		"embarkDefense": 4,
 		"iconRGB": [104, 58, 183],
-		"settlerBuildings": ["Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha"]
 	},
 	{
 		"name": "Ordovician period",
@@ -115,7 +120,8 @@
 		"citySound": "Underwater",
 		"embarkDefense": 5,
 		"iconRGB": [157, 39, 176],
-		"settlerBuildings": ["Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha"]
 	},
 	{
 		"name": "Silurian period",
@@ -130,7 +136,8 @@
 		"citySound": "Underwater",
 		"embarkDefense": 7,
 		"iconRGB": [72, 108, 186],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp"]
 	},
 	{
 		"name": "Ancient era",
@@ -145,7 +152,8 @@
 		"citySound": "Coast",
 		"embarkDefense": 10,
 		"iconRGB": [100, 100, 200],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind"]
 	},
 	/*
 	{
@@ -161,7 +169,8 @@
 		"citySound": "Coast",
 		"embarkDefense": 25,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind"]
 	},
 	*/
 	{
@@ -177,7 +186,9 @@
 		"citySound": "River",
 		"embarkDefense": 13,
 		"iconRGB": [255, 87, 35],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Land Algae","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth"]
 	},
 	{
 		"name": "Permian period",
@@ -192,7 +203,9 @@
 		"citySound": "River",
 		"embarkDefense": 17,
 		"iconRGB": [150, 255, 100],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain"]
 	},
 	{
 		"name": "Mesozoic era",
@@ -207,7 +220,9 @@
 		"citySound": "Grass Walk",
 		"embarkDefense": 20,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment"]
 	},
 	{
 		"name": "Paleogene period",
@@ -222,7 +237,9 @@
 		"citySound": "Modern Environment",
 		"embarkDefense": 30,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment"]
 	},
 	{
 		"name": "Miocene",
@@ -237,7 +254,10 @@
 		"citySound": "Modern Environment",
 		"embarkDefense": 35,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
 		"name": "Pliocene",
@@ -252,7 +272,10 @@
 		"citySound": "Modern Environment",
 		"embarkDefense": 40,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
 		"name": "Pleistocene",
@@ -267,7 +290,10 @@
 		"citySound": "cityAncient",
 		"embarkDefense": 50,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
 		"name": "Holocene",
@@ -282,7 +308,10 @@
 		"citySound": "cityAncient",
 		"embarkDefense": 70,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
 		"name": "Neolithic",
@@ -297,7 +326,10 @@
 		"citySound": "cityAncient",
 		"embarkDefense": 80,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
 		"name": "Classical era",
@@ -314,7 +346,10 @@
 		"startPercent": 10,
 		"citySound": "cityClassical",
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
 		"name": "Medieval era",
@@ -332,6 +367,9 @@
 		"citySound": "cityMedieval",
 		"iconRGB": [157, 39, 176],
 		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Algae","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
 		"name": "Discovery era",
