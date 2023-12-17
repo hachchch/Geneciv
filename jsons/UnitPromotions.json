@@ -580,17 +580,26 @@
 	},
 	{
 		"name": "Insectivore",
-		"uniques": ["No defensive terrain penalty"],
+		"uniques": ["Can only heal by pillaging","All healing effects doubled"],
 		"unitTypes": ["Reptiles"],
 	},
 	{
-		"name": "Scale",
-		"uniques": ["[+15]% Strength <in [Water] tiles> <when defending>"],
-		"unitTypes": ["Fishes","Reptiles"],
+		"name": "Pinniped",
+		"uniques": ["[+1] Movement <on water maps>","May attack when embarked","[+35]% Strength <on water maps>"],
+		"unitTypes": ["Mammal"],
+	},
+	{
+		"name": "Squamate",
+		"uniques": ["Squamates","[+15]% Strength <in [Desert] tiles>",
+		"[+15]% Strength <in [Water] tiles>"],
+		"unitTypes": ["Water Reptiles","Reptiles"],
+	},
+	{
+		
 	},
 	{
 		"name": "Quadrupedalism",
-		"uniques": ["[+1] Movement","Only available <after discovering [Legs]>"],
+		"uniques": ["[+1] Movement","Quadrupedal","Only available <after discovering [Legs]>"],
 		"unitTypes": ["Amphibian"],
 	},
 	{
@@ -625,7 +634,7 @@
 	},
 	{
 		"name": "Anti-Predator",
-		"uniques": ["[+38]% Strength <vs [Predator] units> <when defending>","Only available <when [non-[Predator]]>"],
+		"uniques": ["[+38]% Strength <vs [Predator] units> <when attacking>","Only available <when [non-[Predator]]>"],
 		"unitTypes": ["Reptiles","Mammal"]
 	},
 	{
