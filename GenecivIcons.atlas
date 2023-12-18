@@ -1091,9 +1091,37 @@ BuildingIcons/Shrub
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Endosymbiont
+CityStateIcons/Animal Biosphere
   rotate: false
   xy: 1400, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Microorganisms Biosphere
+  rotate: false
+  xy: 1400, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Vegetation Biosphere
+  rotate: false
+  xy: 1400, 400
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Tribal Biosphere
+  rotate: false
+  xy: 1600, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+CityStateIcons/Wonderful Biosphere
+  rotate: false
+  xy: 1800, 0
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
