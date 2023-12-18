@@ -30,10 +30,7 @@
 		"uniques": ["[+3 Food] [in all cities] <before discovering [Sexual Reproduction]>",
 		"[+3 Science] [in all cities] <before discovering [Primordial Soup]>",
 		"When spreading religion to a city, gain [13] times the amount of followers of other religions as [Science]"],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+		"cities": ["Granular Zircons","Priscoan","Narryer Gneiss Terrane","Jack Hills","Xenolith","Guiana Shield"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
@@ -62,10 +59,7 @@
 		"uniques": ["[+12 Gold] [in all cities] <before discovering [Sexual Reproduction]>",
 		"[+25]% Natural religion spread [in all cities]",
 		"When spreading religion to a city, gain [20] times the amount of followers of other religions as [Faith]"],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+		"cities": ["Vaalbara","Chaotian","Baltic Shield","Rhodope Massif","Pilbara Craton","Kaapvaal Craton","Transvaal Basin"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
@@ -92,10 +86,7 @@
 		"innerColor": [213,249,255],
 		"uniqueName": "A stone that tells history",
 		"uniques": ["[+1 Culture, +1 Science] from [Stone] tiles [in all cities]","[25]% [Culture] [in all cities] <during a Golden Age>","[35]% [Culture] [in all cities] <during We Love The King Day>"],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+		"cities": ["Collenia","Shark Bay","Lagoa Salgada","Laguna de Bacalar","Lake Salda"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
@@ -123,10 +114,7 @@
 		"uniqueName": "The Supercontinent",
 		"uniques": ["[+1 Production, +1 Gold, +1 Happiness, +1 Culture] [in all cities]","[+44]% Production when constructing [Settler] units [in all cities]",
 		"[-25]% Culture cost of natural border growth [in all cities]"],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+		"cities": ["Laurentia","Consensus","Amazonia","SWEAT","AUSWUS","AUSMEX","Missing-Link"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
@@ -225,10 +213,7 @@
 		"startIntroPart2": "",
 		"outerColor": [ 112,1,65],
 		"innerColor": [255,188,175],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+		"cities": ["Hirnantian","Bolindian","Porkuni","Wufeng","Gamachian","Ashgill"],
 		"uniqueName": "The Late Ordovician Mass Extinction",
 		"uniques": ["[+71]% Strength <for [Ordovician] units>","[+22]% Strength <for [Water Animal] units> <before the [Silurian period]>","[+49]% Strength <for [Water] units> <before the [Silurian period]>"],
 	},
@@ -256,10 +241,7 @@
 		"startIntroPart2": "",
 		"outerColor": [10,100,10],
 		"innerColor": [85,200,100],
-		"cities": ["Gaia","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Urkontinent","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
+		"cities": ["Gaia","Gondwana","Kazakhstania","Pareiasaurs","Emeishan"],
 		"uniqueName": "The Plate tectonics",
 		"uniques": ["[+2 Science, +2 Production] from every [Volcano]","[+1 Science] from every [World Wonder]","[+20]% Strength <for [Land] units> <during the [Permian period]>"],
 	},
