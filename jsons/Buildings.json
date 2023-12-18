@@ -354,10 +354,8 @@
 	{
 		"name": "Great Ordovician Biodiversification Event",
 		"isWonder": true,
-		"cost": 400,
 		"gold": 4,
 		"culture": 1,
-		"isWonder": true,
 		"cost": 700,
 		"uniques": ["[+100]% growth [in this city]","Unbuildable <before the [Ordovician period]>"]
 	},
@@ -424,6 +422,14 @@
 		"requiredTech": "Flatworm",
 		"uniques": ["Cambrian","There are many entities looks like our image of alien bugs"]
 	},
+	{
+		"name": "Camellia Sinensis",
+		"isWonder": true,
+		"cost": 1400,
+		"gold": 3,
+		"requiredTech": "Flowers",
+		"uniques": ["Gain a free [Shrub] [in all cities]","Gifts of Gold to City-States generate [33]% more Influence","Empire enters golden age"]
+	},
 	// National Wonders
 	{
 		"name": "Ozone Layer",
@@ -458,15 +464,6 @@
 		"cost": 100,
 		"isNationalWonder": true,
 		"uniques": ["Enemy [Cell] units must spend [1] extra movement points when inside your territory","Free [Comet] appears","Only available <after adopting [Abiogenesis]>"]
-	},
-	{
-		"name": "Camellia Sinensis",
-		"isWonder": true,
-		"cost": 1400,
-		"gold": 3,
-		"requiredTech": "Flowers",
-		"requiredBuilding": ["Shrub"],
-		"uniques": ["Gifts of Gold to City-States generate [33]% more Influence","Empire enters golden age"]
 	},
 	{
 		"name": "End Of Boring Billion",
