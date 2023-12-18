@@ -511,6 +511,14 @@
 		"production": 1,
 		"requiredTech": "Fern",
 	},
+	//Cell Life
+	{
+		"name": "Endosymbiont",
+		"cost": 50,
+		"gold": 1,
+		"production": 1,
+		"requiredTech": "Mitochondria",
+	},
 	// General
 	{
 		"name": "Otavia Antiqua",
@@ -522,10 +530,8 @@
 	{
 		"name": "Eclipse",
 		"cost": 30,
-		"gold": 2,
 		"happiness": 1,
 		"requiredTech": "Moon",
-		"uniques": ["[+10]% [Gold]"]
 	},
 	{
                 "name": "Volcano",
@@ -652,7 +658,7 @@
 	},
 	{
 		"name": "Lascaux Cave",
-		"cost": 2600,
+		"cost": 2500,
 		"requiredTech": "Cave Painting",
 		"isWonder": true,
 		"uniques": ["[+1 Culture] per [2] population [in this city]","Gain a free [Bulletin Wall] [in all cities]"]
