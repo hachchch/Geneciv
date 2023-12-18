@@ -346,6 +346,38 @@
 		"uniques": ["[+2 Gold, +1 Food] from [Snow] tiles [in all cities]","Unbuildable <before the [Neoproterozoic]>"]
 	},
 	{
+		"name": "Avalon Explosion",
+		"isWonder": true,
+		"cost": 200,
+		"uniques": ["[3] free [Radiodonta] units appear","[+1 Gold] from [Water] tiles [in this city]","Unbuildable <before the [Neoproterozoic]>"]
+	},
+	{
+		"name": "Great Ordovician Biodiversification Event",
+		"isWonder": true,
+		"cost": 400,
+		"gold": 4,
+		"culture": 1,
+		"isWonder": true,
+		"cost": 700,
+		"uniques": ["[+100]% growth [in this city]","Unbuildable <before the [Ordovician period]>"]
+	},
+	{
+		"name": "Banded Iron Formation",
+		"isWonder": true,
+		"cost": 700,
+		"uniques": ["Each city founded increases culture cost of policies [-50]% less than normal","Double quantity of [Iron] produced","Unbuildable <before the [Ordovician period]>"]
+	},
+	{
+		"name": "Mesozoic-Cenozoic Radiation",
+		"isWonder": true,
+		"cost": 1400,
+		"gold": 4,
+		"production": 4,
+		"food": 4,
+		"culture": 1,
+		"uniques": ["[+15]% [Food] [in this city]","Unbuildable <before the [Paleogene period]>"],
+	},
+	{
 		"name": "Romer's Gap",
 		"cost": 1000,
 		"isWonder": true,
@@ -428,11 +460,56 @@
 		"uniques": ["Enemy [Cell] units must spend [1] extra movement points when inside your territory","Free [Comet] appears","Only available <after adopting [Abiogenesis]>"]
 	},
 	{
+		"name": "Camellia Sinensis",
+		"isWonder": true,
+		"cost": 1400,
+		"gold": 3,
+		"requiredTech": "Flowers",
+		"requiredBuilding": ["Shrub"],
+		"uniques": ["Gifts of Gold to City-States generate [33]% more Influence","Empire enters golden age"]
+	},
+	{
 		"name": "End Of Boring Billion",
 		"cost": 200,
 		"science": 1,
 		"uniques": ["[+20]% [Science] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
 		"isNationalWonder": true,
+	},
+	// Aquatic Charales
+	{
+		"name": "Kelp Forest",
+		"maintenance": 3,
+		"specialistSlots": {"Vegetation": 1},
+		"requiredTech": "Modern Ocean",
+		"production": 4,
+		"uniques": ["Must be next to [Coast]"],
+ 		"cost": 750,
+	},
+	// Embryophyte
+	{
+		"name": "Green Field",
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"requiredTech": "Grass",
+		"food": 4,
+		"cost": 750,
+	},
+	{
+		"name": "Land Algae",
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"cost": 250,
+		"maintenance": 1,
+		"food": 2,
+		"requiredTech": "First Plant",
+		"uniques": ["[+1 Food] from [Fresh Water] tiles [in this city]"]
+	},
+	{
+		"name": "Shrub",
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"production": 1,
+		"requiredTech": "Fern",
 	},
 	// General
 	{
@@ -465,14 +542,6 @@
 		"requiredTech": "Speaking",
 		"cost": 2250,
 		"uniques": ["Provides [1] [Negotiation Skill]"]
-	},
-	{
-		"name": "Land Algae",
-		"cost": 250,
-		"maintenance": 1,
-		"food": 2,
-		"requiredTech": "First Plant",
-		"uniques": ["[+1 Food] from [Fresh Water] tiles [in this city]"]
 	},
 	{
 		"name": "The Predator's Food Chain",
@@ -671,23 +740,6 @@
 		"production": 4,
 		"requiredTech": "Neocortex",
 		"uniques": ["New [Mammal] units start with [15] Experience [in this city]","[+15]% [Science] [in this city]","[+10]% [Production] [in this city]"],
-	},
-	{
-		"name": "Green Field",
-		"maintenance": 2,
-		"specialistSlots": {"Vegetation": 1},
-		"requiredTech": "Grass",
-		"food": 4,
-		"cost": 750,
-	},
-	{
-		"name": "Kelp Forest",
-		"maintenance": 3,
-		"specialistSlots": {"Vegetation": 1},
-		"requiredTech": "Modern Ocean",
-		"production": 4,
-		"uniques": ["Must be next to [Coast]"],
- 		"cost": 750,
 	},
 	{
 		"name": "Big Brain",
