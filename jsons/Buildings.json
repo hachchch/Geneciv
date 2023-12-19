@@ -485,7 +485,7 @@
 		"name": "Late Heavy Bombardment",
 		"cost": 100,
 		"isNationalWonder": true,
-		"uniques": ["Enemy [Cell] units must spend [1] extra movement points when inside your territory","Free [Comet] appears","Only available <after adopting [Abiogenesis]>"]
+		"uniques": ["Enemy [Cell] units must spend [1] extra movement points when inside your territory",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]>"]
 	},
 	{
 		"name": "End Of Boring Billion",
