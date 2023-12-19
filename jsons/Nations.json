@@ -245,6 +245,22 @@
 		"uniqueName": "The Plate tectonics",
 		"uniques": ["[+2 Science, +2 Production] from every [Volcano]","[+1 Science] from every [World Wonder]","[+20]% Strength <for [Land] units> <during the [Permian period]>"],
 	},
+	{
+		"name": "Famennia",
+		"leaderName": "André Hubert Dumont",
+		"adjective": ["Famennian"],
+		"preferredVictoryType": "Cultural",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"outerColor": [10,100,10],
+		"innerColor": [85,200,100],
+		"cities": ["Famennia","Clymeniida","Black Shales"],
+		"uniqueName": "Pandemonic Late Devonian",
+		"uniques": ["[+33]% Production when constructing [Devonian] buildings [in all cities]",
+		"[+33]% Production when constructing [Devonian] units [in all cities]",
+		"[+17]% Production when constructing [Devonian] wonders [in all cities]",
+		"[Gold] cost of purchasing [Reptiles] units [-25]%"],
+	},
 	// Biospheres
 	{
 		"name": "Dickinsonia",
