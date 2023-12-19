@@ -191,6 +191,26 @@
 		"quote": "Mass extinction called the Hangenberg event, also known as the end-Devonian extinction, occurred 359 million years ago, bringing an end to the Famennian and Devonian, as the world transitioned into the Carboniferous Period.",
 	},
 	{
+		"name": "Old Red Sandstone",
+		"isWonder": true,
+		"cost": 1000,
+		"uniques": ["Must be next to [Desert]","[+2 Gold] from [Desert] tiles [in this city]","[+50]% [Gold] [in this city]","Unbuildable <before the [Ancient era]>"],
+		"quote": "Old Red Sandstone, thick sequence of Devonian rocks (formed from 416 million to 359.2 million years ago) that are continental rather than marine in origin and occur in northwestern Europe, Scandinavia, Greenland, and northeastern Canada. Deposits of Old Red Sandstone have been extensively studied in Great Britain, where local and regional stage names have been applied.",
+	},
+	{
+		"name": "RNA World",
+		"isWonder": true,
+		"cost": 100,
+		"requiredTech": "DNA",
+		"uniques": ["[+1 Food] from all [Hadean eon] buildings","Gain a free [RNA] [in all cities]"]
+	},
+	{
+		"name": "Old Red Sandstone",
+		"isWonder": true,
+		"cost": 1000,
+		"uniques": ["Must be next to [Desert]","[+2 Gold] from [Desert] tiles [in this city]","[+50]% [Gold] [in this city]","Unbuildable <before the [Ancient era]>"],
+	},
+	{
 		"name": "Zanclean Flood",
 		"isWonder": true,
 		"cost": 1800,
@@ -293,7 +313,7 @@
 		"name": "Eocene-Oligocene Extinction",
 		"isWonder": true,
 		"cost": 1750,
-		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be next to [Coast]","[+10]% Strength <for [Water] units>"],
+		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be next to [Coast]","[+15]% Strength <for [Water] units>"],
 	},
 	{
 		"name": "Andean-Saharan Glaciation",
@@ -314,7 +334,7 @@
 		"cost": 1000,
 		"science": 3,
 		"isWonder": true,
-		"uniques": ["[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Carboniferous period]>"],
+		"uniques": ["Must be next to [Forests]","[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Carboniferous period]>"],
 		"quote": "The Carboniferous rainforest collapse was a minor extinction event that occurred around 305 million years ago in the Carboniferous period. It altered the vast coal forests that covered the equatorial region of Euramerica. This event may have fragmented the forests into isolated refugia or ecological 'islands', which in turn encouraged dwarfism and, shortly after, extinction of many plant and animal species. Following the event, coal-forming tropical forests continued in large areas of the Earth, but their extent and composition were changed.",
 	},
 	{
@@ -322,28 +342,28 @@
 		"gold": 4,
 		"isWonder": true,
 		"cost": 800,
-		"uniques": ["Influence of all other civilizations with all city-states degrades [80]% faster <for [19] turns>","Unbuildable <before the [Silurian period]>"]
+		"uniques": ["Must be next to [Water]","Influence of all other civilizations with all city-states degrades [80]% faster <for [19] turns>","Unbuildable <before the [Silurian period]>"]
 	},
 	{
 		"name": "Mulde Event",
 		"gold": 4,
 		"isWonder": true,
 		"cost": 800,
-		"uniques": ["Instantly consumes [10000] [Oxygen]","Resting point for Influence with City-States is increased by [10]","Unbuildable <before the [Silurian period]>"]
+		"uniques": ["Must be next to [Water]","Instantly consumes [10000] [Oxygen]","Resting point for Influence with City-States is increased by [10]","Unbuildable <before the [Silurian period]>"]
 	},
 	{
 		"name": "Lau Event",
 		"gold": 4,
 		"isWonder": true,
 		"cost": 800,
-		"uniques": ["Provides [100] [Water]","Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","Unbuildable <before the [Silurian period]>"]
+		"uniques": ["Must be next to [Water]","Provides [100] [Water]","Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","Unbuildable <before the [Silurian period]>"]
 	},
 	{
 		"name": "Sturtian Glaciation",
 		"gold": 4,
 		"isWonder": true,
 		"cost": 200,
-		"uniques": ["[+2 Gold, +1 Food] from [Snow] tiles [in all cities]","Unbuildable <before the [Neoproterozoic]>"]
+		"uniques": ["Must be next to [Cold]","[+2 Gold, +1 Food] from [Snow] tiles [in all cities]","Unbuildable <before the [Neoproterozoic]>"]
 	},
 	{
 		"name": "Avalon Explosion",
@@ -387,21 +407,31 @@
 		"science": 7,
 		"cost": 1100,
 		"isWonder": true,
-		"uniques": ["[+47]% Strength <for [Jawless] units>","Unbuildable <before the [Permian period]>"],
+		"uniques": ["[+47]% Strength <for [Jawless] units>","Must be next to [Coast]","Unbuildable <before the [Permian period]>"],
 	},
 	{
 		"name": "Bangiomorpha",
+		"providesFreeBuilding": "Algae",
 		"isWonder": true,
 		"food": 8,
 		"cost": 300,
 		"requiredTech": "Sexual Reproduction",
-		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal","Unbuildable <before the [Mesoproterozoic]>"]
+		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal","Must be next to [Coast]","Unbuildable <before the [Mesoproterozoic]>"]
 	},
 	{
 		"name": "Grenville Orogeny",
 		"cost": 400,
 		"isWonder": true,
 		"uniques": ["[20]% of excess happiness converted to [Production]","Unbuildable <before the [Mesoproterozoic]>"]
+	},
+	{
+		"name": "Camellia Sinensis",
+		"providesFreeBuilding": "Shrub",
+		"isWonder": true,
+		"cost": 1400,
+		"gold": 3,
+		"requiredTech": "Flowers",
+		"uniques": ["Gifts of Gold to City-States generate [33]% more Influence","Empire enters golden age"]
 	},
 	// Invertebrates
 	{
@@ -421,14 +451,6 @@
 		"culture": 2,
 		"requiredTech": "Flatworm",
 		"uniques": ["Cambrian","There are many entities looks like our image of alien bugs"]
-	},
-	{
-		"name": "Camellia Sinensis",
-		"isWonder": true,
-		"cost": 1400,
-		"gold": 3,
-		"requiredTech": "Flowers",
-		"uniques": ["Gain a free [Shrub] [in all cities]","Gifts of Gold to City-States generate [33]% more Influence","Empire enters golden age"]
 	},
 	// National Wonders
 	{
@@ -475,6 +497,7 @@
 	// Aquatic Charales
 	{
 		"name": "Kelp Forest",
+		"requiredBuilding": "Algae",
 		"maintenance": 3,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Modern Ocean",
@@ -485,6 +508,7 @@
 	// Embryophyte
 	{
 		"name": "Green Field",
+		"requiredBuilding": "Shrub",
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Grass",
@@ -503,10 +527,21 @@
 	},
 	{
 		"name": "Shrub",
+		"requiredBuilding": "Land Algae",
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"production": 1,
 		"requiredTech": "Fern",
+	},
+	{
+		"name": "Fenestrida",
+		"requiredBuilding": "Land Algae",
+		"food": 1,
+		"production": 1,
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"uniques": ["Must be next to [Coast]"],
+		"requiredTech": "Spore Plant",
 	},
 	//Cell Life
 	{
@@ -647,7 +682,7 @@
 	},
 	{
 		"name": "Polyp",
-		"cost": 125,
+		"cost": 325,
 		"food": 1,
 		"isWonder": true,
 		"requiredTech": "Radial Symmetry",
@@ -686,10 +721,11 @@
 	},
 	{
 		"name": "Scleractinia",
+		"requiredBuilding": "Oscula",
 		"gold": 2,
 		"happiness": 2,
 		"cost": 450,
-		"uniques": ["Unbuildable <before the [Mesozoic era]>"]
+		"uniques": ["Must be next to [Coast]","Unbuildable <before the [Mesozoic era]>"]
 	},
 	{
 		"name": "Chrysopoeia",
@@ -730,6 +766,7 @@
 	},
 	{
 		"name": "Emotions",
+		"requiredBuilding": "Nervous System",
 		"cost": 400,
 		"happiness": 4,
 		"uniques": ["[+10]% [Production] [in this city]"],
@@ -737,6 +774,7 @@
 	},
 	{
 		"name": "Mammal Brain",
+		"requiredBuilding": "Emotions",
 		"maintenance": 3,
 		"cost": 750,
 		"science": 4,
@@ -746,6 +784,7 @@
 	},
 	{
 		"name": "Big Brain",
+		"requiredBuilding": "Limbic System",
 		"cost": 1000,
 		"maintenance": 3,
 		"science": 5,
@@ -775,6 +814,7 @@
 	},
 	{
 		"name": "Logical Thinking",
+		"requiredBuilding": "Big Brain",
 		"cost": 1130,
 		"maintenance": 1,
 		"requiredTech": "Human Brain",
@@ -914,8 +954,9 @@
 	{
 		"name": "Chromosomes",
 		"cost": 75,
-		"science": 2,
+		"science": 1,
 		"maintenance": 1,
+		"percentStatBonus": {"science": 5},
 		"uniques": ["[+25]% Production when constructing [Cell] units [in this city]"],
 		"requiredTech": "DNA",
 	},
@@ -923,12 +964,14 @@
 		"name": "Flagellum",
 		"cost": 85,
 		"maintenance": 1,
-		"science": 2,
+		"science": 1,
+		"percentStatBonus": {"science": 5},
 		"uniques": ["New [Cell] units start with [15] Experience [in this city]"],
 		"requiredTech": "Nucleus",
 	},
 	{
 		"name": "Ribosomes",
+		"requiredBuilding": "Replication",
 		"cost": 80,
 		"maintenance": 1,
 		"requiredTech": "Mitosis",
@@ -936,6 +979,7 @@
 	},
 	{
 		"name": "Phagocytic Cell",
+		"requiredBuilding": "Plasma Membrane",
 		"cost": 90,
 		"maintenance": 1,
 		"requiredTech": "Filter Feeding",
@@ -958,10 +1002,11 @@
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Chloroplasts",
 		"production": 1,
-		"uniques": ["[+1 Production] from [GrassLand] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]"],
+		"uniques": ["[+1 Production, +1 Gold] from [Atoll] tiles [in this city]"],
 	},
 	{
 		"name": "Algae",
+		"requiredBuilding": "Photosynthesis",
 		"maintenance": 1,
 		"specialistSlots": {"Vegetation": 1},
 		"cost": 120,
@@ -979,31 +1024,32 @@
 	{
 		"name": "Muscles",
 		"maintenance": 1,
-		"specialistSlots": {"Meristem": 1},
+		"specialistSlots": {"Meristem": 2},
 		"requiredTech": "Muscles",
 		"cost": 120,
 		"cityHealth": 15,
-		"gold": 1,
-		"food": 1,
+		"production": 1,
+		"uniques": ["[+5]% [Production] [in this city]"]
 	},
 	{
 		"name": "Nervous System",
+		"requiredBuilding": "Adenosine Triphosphate",
 		"requiredTech": "Nervous System",
 		"cityStrength": 3,
-		"gold": 1,
-		"production": 1,
+		"gold": 3,
+		"percentStatBonus": {"gold": 15},
 		"cost": 120,
-		"food": -1,
 	},
 	{
 		"name": "Radial Symmetry",
 		"cost": 125,
-		"science": 2,
+		"science": 1,
 		"uniques": ["[+15]% Production when constructing [Water Animal] units [in this city]"],
 		"requiredTech": "Radial Symmetry",
 	},
 	{
 		"name": "Blood Pump",
+		"requiredBuilding": "Muscles",
 		"cost": 135,
 		"uniques": ["[+10]% [Production] [in this city]","Destroyed when the city is captured"],
 		"production": 2,
@@ -1019,12 +1065,13 @@
 	{
 		"name": "Bilateral Symmetry",
 		"cost": 130,
-		"science": 2,
+		"science": 1,
 		"uniques": ["[+15]% Production when constructing [Water Animal] units [in this city]"],
 		"requiredTech": "Bilateral Symmetry",
 	},
 	{
 		"name": "Limbic System",
+		"requiredBuilding": "Mammal Brain",
 		"cost": 240,
 		"requiredTech": "Learning",
 		"uniques": ["[+50]% XP gained from combat <for [Mammal] units> <in this city>","New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]","[+4 Science] from [City center] tiles [in this city]"],
