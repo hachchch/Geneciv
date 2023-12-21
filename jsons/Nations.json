@@ -34,6 +34,34 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
+		"name": "Vaalbara",
+		"leaderName": "E. S. Cheney",
+		"adjective": ["Vaalbaran"],
+		"startBias": ["Plains"]
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"introduction": "Are you real or a phantom?",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+
+		"outerColor": [133,118,126],
+		"innerColor": [255,255,255],
+		"uniqueName": "Convergent Boundary",
+		"uniques": ["[+100]% [Gold]","[+90]% [Production] [in all cities]","[-90]% [Food] [in all cities]",
+			"[+1] Sight <for [Cells] units>","[-1] Movement <for [Cells] units>"],
+		"cities": ["Vaalbara","Pongola","Dharwar Craton","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State"],
+        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
 		"name": "Spontaneous",
 		"leaderName": "Aristotelēs",
 		"adjective": ["Spontaneousian"],
@@ -59,7 +87,7 @@
 		"uniques": ["[+12 Gold] [in all cities] <before discovering [Sexual Reproduction]>",
 		"[+25]% Natural religion spread [in all cities]",
 		"When spreading religion to a city, gain [20] times the amount of followers of other religions as [Faith]"],
-		"cities": ["Vaalbara","Chaotian","Baltic Shield","Rhodope Massif","Pilbara Craton","Kaapvaal Craton","Transvaal Basin"],
+		"cities": ["Chaotian","Baltic Shield","Rhodope Massif","Pilbara Craton","Kaapvaal Craton","Transvaal Basin"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
