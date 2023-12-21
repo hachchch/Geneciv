@@ -8,7 +8,7 @@
 		"name": "Panspermia",
 		"leaderName": "Anaxagoras",
 		"adjective": ["Panspermian"],
-		"startBias": ["Avoid [Tundra]","[Lakes]"],
+		"startBias": ["Lakes"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "",
@@ -37,7 +37,7 @@
 		"name": "Spontaneous",
 		"leaderName": "Aristotelēs",
 		"adjective": ["Spontaneousian"],
-		"startBias": ["Avoid [Snow]"]
+		"startBias": ["Avoid [Cold]"]
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": "",
@@ -66,7 +66,7 @@
 		"name": "Stromatolite",
 		"leaderName": "James Hall",
 		"adjective": ["Stromatolite"],
-		"startBias": ["Avoid [Tundra]","[Lakes]"],
+		"startBias": ["Plains","Flesh water"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": "",
@@ -93,7 +93,7 @@
 		"name": "Rodinia",
 		"leaderName": "McMenamin",
 		"adjective": ["Rodinian"],
-		"startBias": ["Avoid [Tundra]","[Lakes]"],
+		"startBias": ["Avoid [Coastal]"]
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "",
@@ -121,7 +121,7 @@
 		"name": "Ediacara",
 		"leaderName": "Reginald Claude Sprigg",
 		"adjective": ["Ediacaran"],
-		"startBias": ["Avoid [Tundra]","[Lakes]"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "",
@@ -151,7 +151,7 @@
 		"name": "Burgess",
 		"leaderName": "Reginald Claude Sprigg",
 		"adjective": ["Burgessis"],
-		"startBias": ["[Coast]"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 
 		"startIntroPart1": "",
@@ -225,7 +225,7 @@
 		"name": "Euramerica",
 		"leaderName": "B.B. Bancroft",
 		"adjective": ["Euramerican"],
-		"startBias": ["[River]"],
+		"startBias": ["River"],
 		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -241,7 +241,7 @@
 		"name": "The Pangaea",
 		"leaderName": "Alfred Lothar Wegener",
 		"adjective": ["Pangaea"],
-		"startBias": ["Avoid [Coast]"],
+		"startBias": ["Avoid [Coastal]"],
 		"preferredVictoryType": "Diplomatic",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
