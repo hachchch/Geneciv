@@ -690,4 +690,12 @@
 		"[+5] HP when healing <when [{Air} {Birds}]>",
 		"[+5] HP when healing <when adjacent to a [Mammal] unit> <when [Mammal]>"]
 	},
+	{
+		"name": "Ordovician Experience",
+		"uniques": ["[+75]% XP gained from combat"]
+	},
+	{
+		"name": "Late Ordovician Climate Change",
+		"uniques": ["Ordovician","This Unit takes [100] damage <upon entering the [Silurian period]>"]
+	},
 ]
