@@ -77,6 +77,9 @@
 	    "[+20]% Production when constructing [LUCA] buildings [in all cities] <for [AI player]> <hidden from users>",
 	    "[+100]% Production when constructing [RNA World] buildings [in all cities] <for [AI player]> <hidden from users>"
 
+	    // Setting MovementType of Early Tetrapods
+	    // "[0] Movement point cost to embark <for [Tetrapod] units>",
+	    // "[100] Movement point cost to disembark <before discovering [Legs]> <for [Tetrapod] units>"
 
 
 
