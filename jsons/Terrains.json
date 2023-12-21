@@ -101,6 +101,29 @@
 	},
 	// Natural Wonders
 	{
+		"name": "Namakier",
+		"type": "NaturalWonder",
+		"food": 3,
+		"happiness": 2,
+		"occursOn": ["Plains"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+	{
+		"name": "Crater",
+		"type": "NaturalWonder",
+		"food": 1,
+		"science": 2,
+		"occursOn": ["Grassland"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	}
+	/*
+	{
 		"name": "Old Faithful",
 		"type": "NaturalWonder",
 		"science": 2,
@@ -196,18 +219,6 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	}
-	/*
-	{// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain. 
-		"name": "Lake Victoria",
-		"type": "NaturalWonder",
-		"food": 6,
-		"occursOn": [Plains"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Fresh water"],
-		"weight": 5
 	}
 	*/
 ]	
