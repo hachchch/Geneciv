@@ -698,4 +698,8 @@
 		"name": "Late Ordovician Climate Change",
 		"uniques": ["Ordovician","This Unit takes [100] damage <upon entering the [Silurian period]>"]
 	},
+	{
+		"name": "Crustal Deformation",
+		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land]>"],
+	}
 ]
