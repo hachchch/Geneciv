@@ -471,6 +471,41 @@
 		"requiredTech": "Flowers",
 		"uniques": ["Gifts of Gold to City-States generate [33]% more Influence","Empire enters golden age"]
 	},
+	{
+		"name": "Secondary Palate",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+15]% Strength <for [Caniform] units>","[+15]% Strength <for [Feliform] units>"]
+	},
+	{
+		"name": "Hooves",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+33]% Strength <for [Horse] units> <when defending>","[+1] Movement <for [Horse] units>","[+1] Sight <for [Horse] units>"]
+	},
+	{
+		"name": "Zoonosis",
+		"cost": 2250,
+		"isWonder": true,
+		"requiredTech": "Ape",
+		"uniques": ["[+50]% Strength <for [Glires] units> <vs cities> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Hominiae] units> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Human] units> <when attacking>"]
+	},
+	{
+		"name": "Carnassials",
+		"cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+30]% Strength <for [Lion] units> <when attacking>"]
+	},
+	{
+		"name": "Cauda Recurvata",
+		"cost": 2250,
+		"isWonder": true,
+		"requiredTech": "Advanced Game",
+		"uniques": ["[+1] Sight <for [Caniform] units> <when adjacent to a [Human] unit>","[1] additional attacks per turn <for [Caniform] units> <when adjacent to a [Human] unit>","+30% Strength when fighting City-State units and cities"]
+	},
 	// Invertebrates
 	{
 		"name": "Cephalopoda",
@@ -681,34 +716,6 @@
 		"isWonder": true,
 		"requiredTech": "Wings",
 		"uniques": ["[+20]% Strength <for [Theropoda] units>","[+14]% Strength <for [Avemetatarsalia] units>"]
-	},
-	{
-		"name": "Secondary Palate",
-		"cost": 2000,
-		"isWonder": true,
-		"requiredTech": "Eutherians",
-		"uniques": ["[+15]% Strength <for [Caniform] units>","[+15]% Strength <for [Feliform] units>"]
-	},
-	{
-		"name": "Hooves",
-		"cost": 2000,
-		"isWonder": true,
-		"requiredTech": "Eutherians",
-		"uniques": ["[+33]% Strength <for [Horse] units> <when defending>","[+1] Movement <for [Horse] units>","[+1] Sight <for [Horse] units>"]
-	},
-	{
-		"name": "Zoonosis",
-		"cost": 2000,
-		"isWonder": true,
-		"requiredTech": "Ape",
-		"uniques": ["[+50]% Strength <for [Glires] units> <vs cities> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Hominiae] units> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Human] units> <when attacking>"]
-	},
-	{
-		"name": "Carnassials",
-		"cost": 2000,
-		"isWonder": true,
-		"requiredTech": "Eutherians",
-		"uniques": ["[+30]% Strength <for [Lion] units> <when attacking>"]
 	},
 	{
 		"name": "Replaceable Teeth",
