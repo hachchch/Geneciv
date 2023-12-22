@@ -17,6 +17,7 @@
 		"name": "Feed the World", // Panspermia
 		"replaces": "Meteor",
 		"science": 2,
+		"cost": 20,
 		"uniqueTo": "Panspermia",
 		"uniques": ["Free [Amino Acid] appears"]
 	},
@@ -24,6 +25,8 @@
 		"name": "Plate Tectonics", // Vaalbara
 		"uniqueTo": "Vaalbara",
 		"replaces": "Volcano",
+		"requiredTech": "Primordial Soup",
+		"cost": 25,
 		"food": 1,
 		"gold": 3,
 		"production": 3,
@@ -32,19 +35,25 @@
 		"name": "Electrochemical Gradient", // Spontaneous
 		"gold": 7,
 		"uniqueTo": "Spontaneous",
+		"requiredTech": "Nucleotides",
 		"replaces": "Adenosine Triphosphate",
+		"cost": 60,
 		"uniques": ["[+10]% [Gold] [in this city]"]	
 	},
 	{
 		"name": "Cyanobacteria", // Stromatolite
+		"requiredTech": "Mitochondria",
 		"uniqueTo": "Stromatolite",
 		"replaces": "Endosymbiont",
+		"cost": 50,
 		"maintenance": 1,
-		"production": 4,
+		"production": 3,
 		"uniques": ["[+5]% [Production] [in this city]","Provides [1] [Oxygen]"]
 	},
 	{
 		"name": "Orogenic Belt", // Rodinia
+		"requiredTech": "Primordial Soup",
+		"cost": 25,
 		"replaces": "Volcano",
 		"uniqueTo": "Rodinia",
 		"food": 1,
