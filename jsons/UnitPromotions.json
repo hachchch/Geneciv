@@ -700,6 +700,6 @@
 	},
 	{
 		"name": "Crustal Deformation",
-		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land]>"],
+		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land] tiles>"],
 	}
 ]
