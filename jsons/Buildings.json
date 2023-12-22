@@ -12,6 +12,44 @@
 		"requiredTech": "Anthropocene",
 		"isWonder": true,
 	},
+	// Nation Unique Buildings
+	{
+		"name": "Feed the World", // Panspermia
+		"replaces": "Meteor",
+		"science": 2,
+		"uniqueTo": "Panspermia",
+		"uniques": ["Free [Amino Acid] appears"]
+	},
+	{
+		"name": "Plate Tectonics", // Vaalbara
+		"uniqueTo": "Vaalbara",
+		"replaces": "Volcano",
+		"food": 1,
+		"gold": 3,
+		"production": 3,
+	},
+	{
+		"name": "Electrochemical Gradient", // Spontaneous
+		"gold": 7,
+		"uniqueTo": "Spontaneous",
+		"replaces": "Adenosine Triphosphate",
+		"uniques": ["[+10]% [Gold] [in this city]"]	
+	},
+	{
+		"name": "Cyanobacteria", // Stromatolite
+		"uniqueTo": "Stromatolite",
+		"replaces": "Endosymbiont",
+		"maintenance": 1,
+		"production": 4,
+		"uniques": ["[+5]% [Production] [in this city]","Provides [1] [Oxygen]"]
+	},
+	{
+		"name": "Orogenic Belt", // Rodinia
+		"replaces": "Volcano",
+		"uniqueTo": "Rodinia",
+		"food": 1,
+		"uniques": ["[1] Unit Supply","All newly-trained [Cells] units [in this city] receive the [Crustal Deformation] promotion"]
+	},
 	// Land Arthropod
 	{
 		"name": "Beetles",
