@@ -319,8 +319,9 @@
 		"name": "Amphibious",
 		"uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","May attack when embarked"],
 		"unitTypes": ["Amphibian"],
-		"row": 22,
-		"column": 0
+		"prerequisites": ["Battle of Landing Race I"],
+		"row": 299,
+		"column": 1
 	},
 	{
 		"name": "Herd I",
@@ -384,7 +385,7 @@
 	},
 	{
 		"name": "Bird Hunter",
-		"uniques": ["[+5]% Strength","[50]% chance to intercept air attacks","[100]% Damage when intercepting"],
+		"uniques": ["[+5]% Strength <when attacking>","[50]% chance to intercept air attacks","[100]% Damage when intercepting"],
 		"row": 53,
 		"column": 0,
 		"unitTypes": ["Birds","Mammal","Hominiae"],
@@ -531,6 +532,7 @@
 	},
 	{
 		"name": "Battle of Landing Race II",
+		"prerequisites": ["Battle of Landing Race I"],
 		"row": 300,
 		"column": 1,
 		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>"],
@@ -538,6 +540,7 @@
 	},
 	{
 		"name": "Battle of Landing Race III",
+		"prerequisites": ["Battle of Landing Race II"],
 		"row": 300,
 		"column": 2,
 		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>","[+15]% Strength <when fighting in [Coast] tiles>"],
@@ -545,8 +548,9 @@
 	},
 	{
 		"name": "Spawn Egg in Water",
+		"prerequisites": ["Battle of Landing Race I"],
 		"row": 301,
-		"column": 0,
+		"column": 1,
 		"uniques": ["[+29] HP when healing <in [River] tiles>","[+5] HP when healing"],
 		"unitTypes": ["Amphibian"],
 	},
