@@ -177,7 +177,7 @@
 		"name": "Rodentia",
 		"uniques": ["Heal this unit by [5] HP <when below [30] HP> <for [1] movement>"],
 	},
-	// General
+	// Instant
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
@@ -186,10 +186,11 @@
 		"column": 0,
 	},
 	{
-		"name": "Sprint Instantly",
-		"uniques": ["[+1] Movement <for [3] turns>","Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Amphibian","Fishes","Herbivore","Hominiae","Mammal","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
+		// "name": "Sprint Instantly",
+		// "uniques": ["+1 Movement for 3 turns","[+1] Movement <hidden from users>","[-1] Movement <after [3] turns> <hidden from users>","Doing so will consume this opportunity to choose a Promotion"],
+		// "unitTypes": ["Amphibian","Fishes","Herbivore","Hominiae","Mammal","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
 	},
+	// General
 	{
 		"name": "Nematocyst I",
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
