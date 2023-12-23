@@ -1,7 +1,7 @@
 [
 	// Domain
 	{
-		"name": "Eukaryota", // These Classification Promotion are not used in game:l because fucn visual problem.
+		"name": "Eukaryota", // These Classification Promotion are not used in game because fucn visual problem:l
 		"uniques": ["Eukaryote"],
 	},
 	{
@@ -185,11 +185,11 @@
 		"row": 0,
 		"column": 0,
 	},
-	{
+	// {
 		// "name": "Sprint Instantly",
 		// "uniques": ["+1 Movement for 3 turns","[+1] Movement <hidden from users>","[-1] Movement <after [3] turns> <hidden from users>","Doing so will consume this opportunity to choose a Promotion"],
 		// "unitTypes": ["Amphibian","Fishes","Herbivore","Hominiae","Mammal","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
-	},
+	// },
 	// General
 	{
 		"name": "Nematocyst I",
