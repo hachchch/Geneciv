@@ -187,7 +187,7 @@
 		"strength": 2,
 		"movement": 2,
 		"cost": 30,
-		"uniques": ["No Sight <hidden from users>","May travel on Water tiles without embarking <hidden from users>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>","May travel on Water tiles without embarking <hidden from users>"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eukaryote",
@@ -218,7 +218,7 @@
 		"requiredTech": "Eukaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eumycetozoa",
-		"uniques": ["No Sight <hidden from users>","May travel on Water tiles without embarking <hidden from users>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>","May travel on Water tiles without embarking <hidden from users>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
@@ -246,7 +246,7 @@
 		"requiredTech": "Mitosis",
 		"obsoleteTech": "Eukaryotic Cell",
 		"upgradesTo": "Eukaryote",
-		"uniques": ["No Sight"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
@@ -271,7 +271,7 @@
 		"requiredTech": "Tissue",
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
-		"uniques": ["No Sight"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
