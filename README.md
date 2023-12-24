@@ -3,8 +3,9 @@
 ![](/extraImages/Moon.png)
 ![](/extraImages/OrganicCompound.png)
 ![](/extraImages/AsexualReproduction.png)
+![](/extraImages/Nucleus.png)
 ![](/extraImages/Jellyfishes.png)
-![](/extraImages/FishAge.png)
+![](/extraImages/FishAges.png)
 ![](/extraImages/Landing.png)
 
 4.5BYA...
