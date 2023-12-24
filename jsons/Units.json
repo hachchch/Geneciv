@@ -177,10 +177,99 @@
 	},
 	// Great Units
 	{
-		
+		"name": "Megalodon",
+		"obsoleteTech": "Plesiosaur",
+		"requiredTech": "Predation",
+		"unitType": "Fishes",
+		"cost": 500,
+		"strength": 65,
+		"movement": 4,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Splash",
+		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Megalodon",
+				"imageSize": 192
+			},
+		]
 	},
 	{
-		"name": "",
+		"name": "Tyrannosaurus",
+		"unitType": "Reptiles",
+		"cost": 950,
+		"strength": 100,
+		"requiredTech": "Cretaceous Reptiles",
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Monster",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Strong Jaw","Large Body"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Giant Squid",
+		"unitType": "Water Animal",
+		"cost": 1680,
+		"strength": 250,
+		"rangedStrength": 100,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Human Race",
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "whoo",
+		"uniques": ["Miocene","Predator"]
+		"promotions": ["Nematocyst I","Poison I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Giant Squid",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Giant Squid",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Lion",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 900,
+		"strength": 150,
+		"movement": 4,
+		"requiredTech": "Eutherians",
+		"attackSound": "Lion",
+		"requiredResource": "Super Creature Stock",
+		"uniques": ["Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
 	},
 	// General
         {
@@ -515,31 +604,6 @@
 		]
 	},
 	{
-		"name": "Giant Squid",
-		"unitType": "Water Animal",
-		"cost": 1680,
-		"strength": 250,
-		"rangedStrength": 100,
-		"range": 2,
-		"movement": 2,
-		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Human Race",
-		"requiredResource": "Super Creature Stock",
-		"attackSound": "whoo",
-		"uniques": ["Miocene","Predator"]
-		"promotions": ["Nematocyst I","Poison I"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Giant Squid",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Giant Squid",
-				"imageSize": 192
-			},
-		]
-	},
-	{
 		"name": "Charadriiformes",
 		"unitType": "Birds",
 		"range": 7,
@@ -604,28 +668,6 @@
 			},
 			{
 				"text": "He was a hunter who ate the overpopulated fish, but unfortunately a mass extinction occurred and his prosperity was short-lived. Extinct at least during the coal period.",
-			},
-		]
-	},
-	{
-		"name": "Megalodon",
-		"obsoleteTech": "Plesiosaur",
-		"requiredTech": "Predation",
-		"unitType": "Fishes",
-		"cost": 500,
-		"strength": 65,
-		"movement": 4,
-		"requiredResource": "Super Creature Stock",
-		"attackSound": "Splash",
-		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Megalodon",
-				"imageSize": 192
 			},
 		]
 	},
@@ -1030,31 +1072,6 @@
 		]
 	},
 	{
-		"name": "Lion",
-		"unitType": "Mammal",
-		"obsoleteTech": "Anthropocene",
-		"cost": 900,
-		"strength": 150,
-		"movement": 4,
-		"requiredTech": "Eutherians",
-		"attackSound": "Lion",
-		"requiredResource": "Super Creature Stock",
-		"uniques": ["Pleistocene","Predator","Never appears as a Barbarian unit"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
 		"name": "Koala",
 		"unitType": "Mammal",
 		"obsoleteTech": "Anthropocene",
@@ -1393,29 +1410,6 @@
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Cretaceous","Cannot attack"],
 		"promotions": ["Shell"]
-	},
-	{
-		"name": "Tyrannosaurus",
-		"unitType": "Reptiles",
-		"cost": 950,
-		"strength": 100,
-		"requiredTech": "Cretaceous Reptiles",
-		"movement": 2,
-		"requiredResource": "Super Creature Stock",
-		"attackSound": "Monster",
-		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Strong Jaw","Large Body"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Tyrannosaurus",
-				"imageSize": 192
-			},
-		]
 	},
 	{
 		"name": "Triceratops",
