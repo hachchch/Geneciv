@@ -1,4 +1,42 @@
 [
+	// Civilians
+	{
+		"name": "Vegetation",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Human Race",
+		"uniques": ["Ordovician","Can build [Forests] improvements on tiles","Can build [GrassLand] improvements on tiles","Automation is a primary action","No Sight <for [Human player]> <hidden from users>","[-1] Sight <hidden from users>"],
+		"cost": 300,
+		"requiredTech": "First Plant",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Grassland+GrassLand",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Tiles/Grassland+GrassLand",
+				"imageSize": 192
+			},
+		]
+	},
+        {
+                "name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Holocene","Human","Can build [Land] improvements on tiles","Automation is a primary action"],
+		"cost": 800,
+		"requiredTech": "Human Race",
+	},
+        {
+                "name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 102,
+		"uniques": ["Founds a new city","Uncapturable <before discovering [Spore Plant]>","No sight before discovering Insect","No Sight <hidden from users> <for [Human player]> <before discovering [Spore Plant]>","[-1] Sight <hidden from users> <before discovering [Spore Plant]>"],
+		"hurryCostModifier": 20
+	},
 	// Special Units
 	{
 		"name": "Comet",
@@ -132,7 +170,7 @@
                 "strength": 1,
                 "movement": 1,
                 "cost": 20,
-		"uniques": ["No Sight <hidden from users>"],
+		"uniques": ["No Sight <hidden from users> <for [Human player]>","[-1] Sight <hidden from users>"],
 		"obsoleteTech": "Amino Acid",
 		"upgradesTo": "Amino Acid",
 		"attackSound": "plays",
@@ -159,7 +197,7 @@
 		"movement": 2,
 		"strength": 1,
 		"cost": 20,
-		"uniques": ["No Sight <hidden from users>"],
+		"uniques": ["No Sight <hidden from users> <for [Human player]>","[-1] Sight <hidden from users>"],
 		"requiredTech": "Amino Acid",
 		"obsoleteTech": "Eukaryotic Cell",
 		"upgradesTo": "Prokaryote",
@@ -187,7 +225,7 @@
 		"strength": 2,
 		"movement": 2,
 		"cost": 30,
-		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>","May travel on Water tiles without embarking <hidden from users>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","[-1 Sight] <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eukaryote",
@@ -218,7 +256,7 @@
 		"requiredTech": "Eukaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eumycetozoa",
-		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>","May travel on Water tiles without embarking <hidden from users>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
@@ -246,7 +284,7 @@
 		"requiredTech": "Mitosis",
 		"obsoleteTech": "Eukaryotic Cell",
 		"upgradesTo": "Eukaryote",
-		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
@@ -271,7 +309,7 @@
 		"requiredTech": "Tissue",
 		"obsoleteTech": "Lungfish",
 		"upgradesTo": "Tetrapod",
-		"uniques": ["[-2] Sight <for [Vaalbara]>","No Sight <hidden from users> <for [non-[Vaalbara]]>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
@@ -1538,43 +1576,6 @@
 				"imageSize": 192
 			},
 		]
-	},
-	{
-		"name": "Vegetation",
-		"unitType": "Civilian",
-		"movement": 2,
-		"hurryCostModifier": 20,
-		"obsoleteTech": "Human Race",
-		"uniques": ["Ordovician","Can build [Forests] improvements on tiles","Can build [GrassLand] improvements on tiles","Automation is a primary action","No Sight"],
-		"cost": 300,
-		"requiredTech": "First Plant",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Grassland+GrassLand",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Tiles/Grassland+GrassLand",
-				"imageSize": 192
-			},
-		]
-	},
-        {
-                "name": "Worker",
-		"unitType": "Civilian",
-		"movement": 2,
-		"hurryCostModifier": 20,
-		"uniques": ["Holocene","Human","Can build [Land] improvements on tiles","Automation is a primary action"],
-		"cost": 800,
-		"requiredTech": "Human Race",
-	},
-        {
-                "name": "Settler",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 102,
-		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","No Sight <before discovering [Reptile]>"],
-		"hurryCostModifier": 20
 	},
 	{
 		"name": "Mankind",
