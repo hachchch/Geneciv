@@ -2,7 +2,6 @@
 4.5BYA...
 There are no any Creatures on Earth.
 but, Abiogenesis always can happen even if it's the hell world.
-You can make it.
 
 What is the most wonderful story of the our planet?
 Sometimes, they talk about Religious or Great  war.
