@@ -57,7 +57,7 @@
 		"replaces": "Volcano",
 		"uniqueTo": "Rodinia",
 		"food": 1,
-		"uniques": ["[1] Unit Supply","All newly-trained [Cells] units [in this city] receive the [Crustal Deformation] promotion"]
+		"uniques": ["[1] Unit Supply","All newly-trained [Cell] units [in this city] receive the [Crustal Deformation] promotion"]
 	},
 	// Land Arthropod
 	{
