@@ -10,7 +10,14 @@ TileSets/Civ6/Tiles/GrassLand
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/Grassland
+TileSets/Civ6/Tiles/GrasslandG
+  rotate: false
+  xy: 1572, 816
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/GrasslandP
   rotate: false
   xy: 1572, 816
   size: 64, 56
@@ -38,28 +45,7 @@ TileSets/Civ6/Tiles/Plains+Hill
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/ForestP
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/Civ6/Tiles/ForestPH
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/Civ6/Tiles/ForestG
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/Civ6/Tiles/ForestGH
+TileSets/Civ6/Tiles/Forest
   rotate: false
   xy: 0, 0
   size: 0, 0
@@ -73,58 +59,30 @@ TileSets/Civ6/Tiles/ForestT
   orig: 0, 0
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/ForestTH
+TileSets/Civ6/Tiles/Jungle
   rotate: false
   xy: 0, 0
   size: 0, 0
   orig: 0, 0
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/JungleP
+TileSets/Civ6/Tiles/ForestsJ
   rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/Civ6/Tiles/JunglePH
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/Civ6/Tiles/JungleG
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/Civ6/Tiles/JungleGH
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
-TileSets/Civ6/Tiles/ForestsP
-  rotate: false
-  xy: 1644, 698
+  xy: 1644, 678
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/ForestsG
+TileSets/Civ6/Tiles/ForestsF
   rotate: false
-  xy: 1572, 698
+  xy: 1572, 678
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/ForestsG2
+TileSets/Civ6/Tiles/ForestsF2
   rotate: false
-  xy: 1500, 698
+  xy: 1500, 678
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
