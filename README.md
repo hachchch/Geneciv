@@ -1,5 +1,5 @@
 # Geneciv
-![](/extraImages/Planet-Earth.png)
+![](/extraImages/PlanetEarth.png)
 
 4.5BYA...
 There are no any Creatures on Earth.
