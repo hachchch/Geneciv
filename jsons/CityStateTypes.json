@@ -39,7 +39,7 @@
         "name": "Animal Biosphere",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
         "allyBonusUniques": ["Provides military units every ≈[17] turns",
-	"Provides [1] [Super Creature Slot]"],
+	"Provides [1] [Super Creature Stock]"],
         "color": [255, 0, 0]
     },
     {
