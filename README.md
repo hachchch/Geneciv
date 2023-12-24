@@ -13,16 +13,17 @@ There are no any Creatures on Earth.
 but, Abiogenesis always can happen even if it's the hell world.
 
 **Concept:**
-What is the most wonderful story of the our planet?
-Sometimes, they talk about Religious or Great  war.
+What is the most wonderful history?
+Sometimes, they talk about Religious or Great war.
 But I think the most wonderful story of Earth is 4.5 Billion years of Organic Compounds Evolution.
 Meteor Bombardment,Beggining of Coral,Age of Fishes,Thrived Reptiles,Domination of Primates...
-There are many unique feature in story of our planet.
+There are many unique events in story of our planet.
 ...Why we don't make Geological time scale strategy?
-It's Time to make it.
-The Geneciv has Begun!
+
+well, It's Time to make it.
+I start to make Genesis of the Unciv Universe.
+The 'Geneciv' has Begun!
 
 ![](/preview.png)
 ## Contributing
 You can help my Project with Pull Request.
-Let's create story about the Genesis of Unciv Universe!
