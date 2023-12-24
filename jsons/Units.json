@@ -50,230 +50,9 @@
 			"Blast radius [1]"],
 		// "attackSound": "nuke"
 	},
-	// Cambrian Entities
+	// Boring Billion
 	{
-		"name": "Trilobites",
-		"unitType": "Water Arthropod",
-		"cost": 250,
-		"strength": 40,
-		"obsoleteTech": "Plesiosaur",
-		"movement": 2,
-		"requiredTech": "Trilobite",
-		"uniques": ["Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
-			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
-		"attackSound": "Splash",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Crustacean",
-		"unitType": "Water Arthropod",
-		"cost": 115,
-		"strength": 28,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
-		"movement": 2,
-		"requiredTech": "Exoskeleton",
-		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
-		"attackSound": "whoo",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Radiodonta",
-		"unitType": "Water Arthropod",
-		"cost": 95,
-		"strength": 24,
-		"obsoleteTech": "Exoskeleton",
-		"upgradesTo": "Crustacean",
-		"movement": 3,
-		"requiredTech": "Articulation",
-		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
-		"attackSound": "whoo",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Radiodonta",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Radiodonta",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Tamisiocaris",
-		"unitType": "Water Arthropod",
-		"cost": 115,
-		"strength": 24,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
-		"movement": 2,
-		"requiredTech": "Exoskeleton",
-		"uniques": ["Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
-		"attackSound": "whoo",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Peytoia",
-		"uniqueTo": "Burgess",
-		"replaces": "Crustacean",
-		"unitType": "Water Arthropod",
-		"cost": 120,
-		"strength": 28,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
-		"movement": 2,
-		"requiredTech": "Exoskeleton",
-		"uniques": ["Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
-		"attackSound": "whoo",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
-				"imageSize": 192
-			},
-		]
-	},
-	// Water
-	{
-	},
-	// Reptiles
-	{
-	},
-	// Mammals
-	{
-	},
-	// H.Sapiens
-	{
-	},
-	// Great Units
-	{
-		"name": "Megalodon",
-		"obsoleteTech": "Plesiosaur",
-		"requiredTech": "Predation",
-		"unitType": "Fishes",
-		"cost": 500,
-		"strength": 65,
-		"movement": 4,
-		"requiredResource": "Super Creature Stock",
-		"attackSound": "Splash",
-		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Megalodon",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Tyrannosaurus",
-		"unitType": "Reptiles",
-		"cost": 950,
-		"strength": 100,
-		"requiredTech": "Cretaceous Reptiles",
-		"movement": 2,
-		"requiredResource": "Super Creature Stock",
-		"attackSound": "Monster",
-		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Strong Jaw","Large Body"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Tyrannosaurus",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Giant Squid",
-		"unitType": "Water Animal",
-		"cost": 1680,
-		"strength": 250,
-		"rangedStrength": 100,
-		"range": 2,
-		"movement": 2,
-		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Human Race",
-		"requiredResource": "Super Creature Stock",
-		"attackSound": "whoo",
-		"uniques": ["Miocene","Predator"]
-		"promotions": ["Nematocyst I","Poison I"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Giant Squid",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Giant Squid",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Lion",
-		"unitType": "Mammal",
-		"obsoleteTech": "Anthropocene",
-		"cost": 900,
-		"strength": 150,
-		"movement": 4,
-		"requiredTech": "Eutherians",
-		"attackSound": "Lion",
-		"requiredResource": "Super Creature Stock",
-		"uniques": ["Pleistocene","Predator","Never appears as a Barbarian unit"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	// General
-        {
-                "name": "Particles",
+		"name": "Particles",
                 "unitType": "Particle",
                 "strength": 1,
                 "movement": 1,
@@ -433,94 +212,120 @@
 			},
 		]
 	},
+	// Cambrian Entities
 	{
-		"name": "Parasiticworm",
-		"replaces": "Flatworm",
-		"unitType": "Water Animal",
-		"uniqueTo": "Barbarians",
-		"cost": 220,
-		"strength": 22,
-		"movement": 3,
-		"obsoleteTech": "Fish",
-		"upgradesTo": "Fish",
-		"requiredTech": "Flatworm",
-		"uniques": ["[+190]% Strength <when attacking> <with [20]% chance>","Self-destructs when attacking <with [20]% chance>","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"name": "Trilobites",
+		"unitType": "Water Arthropod",
+		"cost": 250,
+		"strength": 40,
+		"obsoleteTech": "Plesiosaur",
+		"movement": 2,
+		"requiredTech": "Trilobite",
+		"uniques": ["Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Crustacean",
+		"unitType": "Water Arthropod",
+		"cost": 115,
+		"strength": 28,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Parasiticworm",
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Parasiticworm",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
 				"imageSize": 192
 			},
 		]
 	},
 	{
-		"name": "Cordyceps",
-		"unitType": "Cell",
-		"cost": 430,
-		"strength": 30,
-		"movement": 2,
-		"requiredTech": "Insect",
-		"uniqueTo": "Barbarians",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Cordyceps",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Cordyceps",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Cancer",
-		"unitType": "Cell",
-		"movement": 2,
-		"strength": 16,
+		"name": "Radiodonta",
+		"unitType": "Water Arthropod",
 		"cost": 95,
-		"replaces": "Eumycetozoa",
-		"uniqueTo": "Barbarians",
-		"requiredTech": "Tissue",
-		"obsoleteTech": "Lungfish",
-		"upgradesTo": "Tetrapod",
-		"uniques": ["[+60]% Strength <vs cities> <when attacking>"]
-		"attackSound": "Cell",
+		"strength": 24,
+		"obsoleteTech": "Exoskeleton",
+		"upgradesTo": "Crustacean",
+		"movement": 3,
+		"requiredTech": "Articulation",
+		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"attackSound": "whoo",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Cancer",
+				"extraImage": "TileSets/FantasyHex/Units/Radiodonta",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Cancer",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Radiodonta",
 				"imageSize": 192
 			},
 		]
 	},
 	{
-		"name": "Virus",
-		"unitType": "Cell",
+		"name": "Tamisiocaris",
+		"unitType": "Water Arthropod",
+		"cost": 115,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
 		"movement": 2,
-		"replaces": "Archaea",
-		"uniqueTo": "Barbarians",
-		"strength": 4,
-		"requiredTech": "Eukaryotic Cell",
-		"attackSound": "Cell",
-		"uniques": ["May travel on Water tiles without embarking"],
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "whoo",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Virus",
+				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Virus",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
 				"imageSize": 192
 			},
 		]
 	},
+	{
+		"name": "Peytoia",
+		"uniqueTo": "Burgess",
+		"replaces": "Crustacean",
+		"unitType": "Water Arthropod",
+		"cost": 120,
+		"strength": 28,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+		]
+	},
+	// Water
 	{
 		"name": "Jellyfish",
 		"unitType": "Water Animal",
@@ -548,126 +353,6 @@
 			},
 			{
 				"text": "Something like a coral that wandered the ocean was the first animal. They have poisonous nematocysts like sea anemones.",
-			},
-		]
-	},
-	{
-		"name": "Modern Jellyfish",
-		"obsoleteTech": "Sailing",
-		"unitType": "Water Animal",
-		"cost": 840,
-		"strength": 50,
-		"rangedStrength": 75,
-		"range": 2,
-		"movement": 2,
-		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Human Race",
-		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles <hidden from users>"],
-		"attackSound": "whoo",
-		"promotions": ["Nematocyst I","Poison I"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Modern Jellyfish",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Jellyfish",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Modern Fish",
-		"obsoleteTech": "Sailing",
-		"unitType": "Modern Fishes",
-		"cost": 860,
-		"strength": 70,
-		"movement": 5,
-		"requiredTech": "Modern Ocean",
-		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
-		"attackSound": "Splash",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Modern Fish",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Fish",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Some fish choose to evolve on land, while others remain in the sea and continue to evolve. Modern fish have shiny scales and huge schools. Tuna is a fairly new aquatic species.",
-			},
-		]
-	},
-	{
-		"name": "Charadriiformes",
-		"unitType": "Birds",
-		"range": 7,
-		"rangedStrength": 70,
-		"strength": 70,
-		"movement": 1,
-		"cost": 500,
-		"obsoleteTech": "Anthropocene",
-		"requiredTech": "Modern Ocean",
-		"attackSound": "Whoosh",
-		"uniques": ["Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
-	},
-	{
-		"name": "Eusuchia",
-		"obsoleteTech": "Anthropocene",
-		"unitType": "Reptiles",
-		"strength": 60,
-		"cost": 860,
-		"movement": 2,
-		"uniques": ["Cretaceous","Predator","[+150]% Strength <in [Flesh water] tiles>","[+150]% <when fighting in [Flesh water] tiles> <hidden from users>",
-		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
-		"[+1] Movement <in [Flesh water] tiles>","[+1] Movement <in [Coastal] tiles>",
-		"[+500]% Strength <when defending> <when [Embarked]>"],
-		"requiredTech": "Modern Ocean",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Eusuchia",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Eusuchia",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
-		"name": "Dunkleosteus",
-		"obsoleteTech": "Modern Ocean",
-		"unitType": "Fishes",
-		"cost": 140,
-		"strength": 55,
-		"movement": 5,
-		"uniqueTo": "Euramerica",
-		"replaces": "Shark",
-		"requiredTech": "Predation",
-		"uniques": ["Devonian","Predator","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
-		"attackSound": "Splash",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Dunkleosteus",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Dunkleosteus",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "He was a hunter who ate the overpopulated fish, but unfortunately a mass extinction occurred and his prosperity was short-lived. Extinct at least during the coal period.",
 			},
 		]
 	},
@@ -751,32 +436,6 @@
 		]
 	},
 	{
-		"name": "Tetrapod",
-		"obsoleteTech": "Anthropocene",
-		"unitType": "Amphibian",
-		"cost": 200,
-		"strength": 24,
-		"movement": 1,
-		"requiredTech": "Lungfish",
-		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Tetrapod",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
-			},
-		]
-	},
-	{
 		"name": "Shark",
 		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
@@ -803,6 +462,115 @@
 			},
 		]
 	},
+	{
+		"name": "Dunkleosteus",
+		"obsoleteTech": "Modern Ocean",
+		"unitType": "Fishes",
+		"cost": 140,
+		"strength": 55,
+		"movement": 5,
+		"uniqueTo": "Euramerica",
+		"replaces": "Shark",
+		"requiredTech": "Predation",
+		"uniques": ["Devonian","Predator","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dunkleosteus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Dunkleosteus",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "He was a hunter who ate the overpopulated fish, but unfortunately a mass extinction occurred and his prosperity was short-lived. Extinct at least during the coal period.",
+			},
+		]
+	},
+	{
+		"name": "Modern Jellyfish",
+		"obsoleteTech": "Sailing",
+		"unitType": "Water Animal",
+		"cost": 840,
+		"strength": 50,
+		"rangedStrength": 75,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Human Race",
+		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles <hidden from users>"],
+		"attackSound": "whoo",
+		"promotions": ["Nematocyst I","Poison I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Modern Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Jellyfish",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Modern Fish",
+		"obsoleteTech": "Sailing",
+		"unitType": "Modern Fishes",
+		"cost": 860,
+		"strength": 70,
+		"movement": 5,
+		"requiredTech": "Modern Ocean",
+		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Modern Fish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Modern Fish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish choose to evolve on land, while others remain in the sea and continue to evolve. Modern fish have shiny scales and huge schools. Tuna is a fairly new aquatic species.",
+			},
+		]
+	},
+	// Amphibian
+	{
+		"name": "Tetrapod",
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Amphibian",
+		"cost": 200,
+		"strength": 24,
+		"movement": 1,
+		"requiredTech": "Lungfish",
+		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+			},
+		]
+	},
+	// Reptiles
 	{
 		"name": "Small Reptile",
 		"obsoleteTech": "Mammal",
@@ -873,6 +641,36 @@
 			},
 			{
 				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Plesiosaur",
+		"unitType": "Water Reptiles",
+		"cost": 450,
+		"strength": 65,
+		"movement": 3,
+		"uniques": ["Triassic","Predator","Quadrupedal","[+2] Sight"]
+		"requiredTech": "Plesiosaur",
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur2",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Plesiosaur",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Large reptiles that flourished during the Mesozoic Era and filled the Earth made their way to the ocean. Plesiosaurs had long necks, flat bodies, and four fins. that's right. This animal became the starting point for aquatic diapsid reptiles. Also following them comes the Cetacean. By the way, they were the first fossilized reptiles discovered by humans.",
 			},
 		]
 	},
@@ -983,36 +781,6 @@
 		]
 	},
 	{
-		"name": "Plesiosaur",
-		"unitType": "Water Reptiles",
-		"cost": 450,
-		"strength": 65,
-		"movement": 3,
-		"uniques": ["Triassic","Predator","Quadrupedal","[+2] Sight"]
-		"requiredTech": "Plesiosaur",
-		"attackSound": "Splash",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Plesiosaur2",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Plesiosaur",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Large reptiles that flourished during the Mesozoic Era and filled the Earth made their way to the ocean. Plesiosaurs had long necks, flat bodies, and four fins. that's right. This animal became the starting point for aquatic diapsid reptiles. Also following them comes the Cetacean. By the way, they were the first fossilized reptiles discovered by humans.",
-			},
-		]
-	},
-	{
 		"name": "Pterosaur",
 		"unitType": "Glider",
 		"range": 2,
@@ -1037,6 +805,234 @@
 			},
 			{
 				"text": "Pterosaurs are known to be the first vertebrates to glide. And their leathery wings become like wool...",
+			},
+		]
+	},
+	{
+		"name": "Eusuchia",
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Reptiles",
+		"strength": 60,
+		"cost": 860,
+		"movement": 2,
+		"uniques": ["Cretaceous","Predator","[+150]% Strength <in [Flesh water] tiles>","[+150]% <when fighting in [Flesh water] tiles> <hidden from users>",
+		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
+		"[+1] Movement <in [Flesh water] tiles>","[+1] Movement <in [Coastal] tiles>",
+		"[+500]% Strength <when defending> <when [Embarked]>"],
+		"requiredTech": "Modern Ocean",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eusuchia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eusuchia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	// Mammals
+	{
+	},
+	// Aves
+	{
+		"name": "Charadriiformes",
+		"unitType": "Birds",
+		"range": 7,
+		"rangedStrength": 70,
+		"strength": 70,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Modern Ocean",
+		"attackSound": "Whoosh",
+		"uniques": ["Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],",
+	},
+	// Great Units
+	{
+		"name": "Megalodon",
+		"obsoleteTech": "Plesiosaur",
+		"requiredTech": "Predation",
+		"unitType": "Fishes",
+		"cost": 500,
+		"strength": 65,
+		"movement": 4,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Splash",
+		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Megalodon",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Tyrannosaurus",
+		"unitType": "Reptiles",
+		"cost": 950,
+		"strength": 100,
+		"requiredTech": "Cretaceous Reptiles",
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Monster",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Strong Jaw","Large Body"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tyrannosaurus",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Giant Squid",
+		"unitType": "Water Animal",
+		"cost": 1680,
+		"strength": 250,
+		"rangedStrength": 100,
+		"range": 2,
+		"movement": 2,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Human Race",
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "whoo",
+		"uniques": ["Miocene","Predator"]
+		"promotions": ["Nematocyst I","Poison I"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Giant Squid",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Giant Squid",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Lion",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 900,
+		"strength": 150,
+		"movement": 4,
+		"requiredTech": "Eutherians",
+		"attackSound": "Lion",
+		"requiredResource": "Super Creature Stock",
+		"uniques": ["Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	// General
+	{
+		"name": "Parasiticworm",
+		"replaces": "Flatworm",
+		"unitType": "Water Animal",
+		"uniqueTo": "Barbarians",
+		"cost": 220,
+		"strength": 22,
+		"movement": 3,
+		"obsoleteTech": "Fish",
+		"upgradesTo": "Fish",
+		"requiredTech": "Flatworm",
+		"uniques": ["[+190]% Strength <when attacking> <with [20]% chance>","Self-destructs when attacking <with [20]% chance>","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Parasiticworm",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Parasiticworm",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Cordyceps",
+		"unitType": "Cell",
+		"cost": 430,
+		"strength": 30,
+		"movement": 2,
+		"requiredTech": "Insect",
+		"uniqueTo": "Barbarians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cordyceps",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cordyceps",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Cancer",
+		"unitType": "Cell",
+		"movement": 2,
+		"strength": 16,
+		"cost": 95,
+		"replaces": "Eumycetozoa",
+		"uniqueTo": "Barbarians",
+		"requiredTech": "Tissue",
+		"obsoleteTech": "Lungfish",
+		"upgradesTo": "Tetrapod",
+		"uniques": ["[+60]% Strength <vs cities> <when attacking>"]
+		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cancer",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cancer",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Virus",
+		"unitType": "Cell",
+		"movement": 2,
+		"replaces": "Archaea",
+		"uniqueTo": "Barbarians",
+		"strength": 4,
+		"requiredTech": "Eukaryotic Cell",
+		"attackSound": "Cell",
+		"uniques": ["May travel on Water tiles without embarking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Virus",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Virus",
+				"imageSize": 192
 			},
 		]
 	},
