@@ -1,10 +1,20 @@
 {
 	"useColorAsBaseTerrain": "false",
 	"ruleVariants": {
-		"Plains+Forest+Forests": ["Plains","ForestsP"],
-		"Plains+Hill+Forest+Forests": ["Plains+Hill","ForestsP"],
-		"Grassland+Forest+Forests": ["Grassland","ForestsG"],
-		"Grassland+Hill+Forest+Forests": ["Grassland+Hill","ForestsG"],
+		"Plains+Forest+Forests": ["Plains","ForestsF"],
+		"Plains+Hill+Forest+Forests": ["Plains+Hill","ForestsF"],
+		"Grassland+Forest+Forests": ["Grassland","ForestsF"],
+		"Grassland+Hill+Forest+Forests": ["Grassland+Hill","ForestsF"],
+		"Plains+Jungle+Forests": ["Plains","ForestsJ"],
+		"Plains+Hill+Jungle+Forests": ["Plains+Hill","ForestsJ"],
+		"Grassland+Jungle+Forests": ["Grassland","ForestsJ"],
+		"Grassland+Hill+Jungle+Forests": ["Grassland+Hill","ForestsJ"],
+		
+		"Plains+GrassLand": ["Plains","GrassLandP"],
+		"Plains+Hill+GrassLand": ["Plains+Hill","GrassLandP"],
+		"Grassland+GrassLand": ["Grassland","GrassLandG"],
+		"Grassland+Hill+GrassLand": ["Grassland+Hill","GrassLandG"],
+		
 		"Grassland+Faunas": ["Grassland","FaunasG"],
 	},
 }
