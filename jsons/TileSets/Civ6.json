@@ -1,0 +1,10 @@
+{
+	"useColorAsBaseTerrain": "false",
+	"ruleVariants": {
+		"Plains+Forest+Forests": ["Plains","ForestsP"],
+		"Plains+Hill+Forest+Forests": ["Plains+Hill","ForestsP"],
+		"Grassland+Forest+Forests": ["Grassland","ForestsG"],
+		"Grassland+Hill+Forest+Forests": ["Grassland+Hill","ForestsG"],
+		"Grassland+Faunas": ["Grassland","FaunasG"],
+	},
+}
