@@ -619,32 +619,6 @@
 		]
 	},
 	{
-		"name": "Cynodontia",
-		"uniqueTo": "The Pangaea",
-		"replaces": "Big Reptile",
-		"unitType": "Mammal",
-		"movement": 2,
-		"cost": 300,
-		"obsoleteTech": "Mammal",
-		"upgradesTo": "Eutheriodontia",
-		"strength": 55,
-		"requiredTech": "Archosauria",
-		"uniques": ["Permian","P-T","Predator","Quadrupedal"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
 		"name": "Plesiosaur",
 		"unitType": "Water Reptiles",
 		"cost": 450,
@@ -675,32 +649,6 @@
 		]
 	},
 	{
-		"name": "Therocephalia",
-		"uniqueTo": "The Pangaea",
-		"replaces": "Big Reptile",
-		"unitType": "Mammal",
-		"movement": 2,
-		"cost": 300,
-		"obsoleteTech": "Mammal",
-		"upgradesTo": "Eutheriodontia",
-		"strength": 50,
-		"requiredTech": "Archosauria",
-		"uniques": ["Permian","P-T","Predator","Quadrupedal","[+30]% Strength <when attacking>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
 		"name": "Herbivore",
 		"cost": 340,
 		"obsoleteTech": "Dinosaur",
@@ -723,60 +671,6 @@
 			},
 			{
 				"text": "Herbivores have been around for a long time, but the ornithischian reptiles are unique. They had pelvises like modern birds, and some had long, flat noses like ducks. And the predentary bones were suitable for grazing.",
-			},
-		]
-	},
-	{
-		"name": "Synapsida",
-		"obsoleteTech": "Eutherians",
-		"cost": 300,
-		"strength": 45,
-		"uniques": ["Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
-		"movement": 3,
-		"requiredTech": "Mammal",
-		"unitType": "Mammal",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
-			},
-		]
-	},
-	{
-		"replaces": "Synapsida",
-		"name": "Eutheriodontia",
-		"uniqueTo": "The Pangaea",
-		"obsoleteTech": "Eutherians",
-		"cost": 300,
-		"strength": 50,
-		"uniques": ["Permian","Quadrupedal","[+1] Sight","[75]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
-		"movement": 3,
-		"requiredTech": "Mammal",
-		"unitType": "Mammal",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
 			},
 		]
 	},
@@ -836,6 +730,110 @@
 	},
 	// Mammals
 	{
+		"name": "Synapsida",
+		"obsoleteTech": "Eutherians",
+		"cost": 300,
+		"strength": 45,
+		"uniques": ["Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"movement": 3,
+		"requiredTech": "Mammal",
+		"unitType": "Mammal",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
+			},
+		]
+	},
+	{
+		"name": "Cynodontia",
+		"uniqueTo": "The Pangaea",
+		"replaces": "Big Reptile",
+		"unitType": "Mammal",
+		"movement": 2,
+		"cost": 300,
+		"obsoleteTech": "Mammal",
+		"upgradesTo": "Eutheriodontia",
+		"strength": 55,
+		"requiredTech": "Archosauria",
+		"uniques": ["Permian","P-T","Predator","Quadrupedal"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Therocephalia",
+		"uniqueTo": "The Pangaea",
+		"replaces": "Big Reptile",
+		"unitType": "Mammal",
+		"movement": 2,
+		"cost": 300,
+		"obsoleteTech": "Mammal",
+		"upgradesTo": "Eutheriodontia",
+		"strength": 50,
+		"requiredTech": "Archosauria",
+		"uniques": ["Permian","P-T","Predator","Quadrupedal","[+30]% Strength <when attacking>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"replaces": "Synapsida",
+		"name": "Eutheriodontia",
+		"uniqueTo": "The Pangaea",
+		"obsoleteTech": "Eutherians",
+		"cost": 300,
+		"strength": 50,
+		"uniques": ["Permian","Quadrupedal","[+1] Sight","[75]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"movement": 3,
+		"requiredTech": "Mammal",
+		"unitType": "Mammal",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
+			},
+		]
 	},
 	// Aves
 	{
