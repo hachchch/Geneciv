@@ -1,7 +1,7 @@
 # Geneciv
 4.5BYA...
 There are no any Creatures on Earth.
-but, Abiogenesis always happen even if it's dead environment.
+but, Abiogenesis always can happen even if it's the hell world.
 You can make it.
 
 What is the most wonderful story of the our planet?
