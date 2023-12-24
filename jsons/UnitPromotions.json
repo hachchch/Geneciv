@@ -583,9 +583,8 @@
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
-		"name": "Large Body III",
+		"name": "Large Body III", // Only Work for Giganotosaurus
 		"uniques": ["Only available <when [Quadrupedal]>","[+30]% Strength <vs [Land] units>"],
-		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Ankylosis",
