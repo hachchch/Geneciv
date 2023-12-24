@@ -225,7 +225,7 @@
 		"strength": 2,
 		"movement": 2,
 		"cost": 30,
-		"uniques": ["[-2] Sight <for [Vaalbara]>","[-1 Sight] <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eukaryote",
