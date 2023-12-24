@@ -3,21 +3,21 @@ size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/Civ6/Tiles/GrassLand
+TileSets/Civ6/Tiles/GrassLandG
   rotate: false
   xy: 1572, 880
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/GrasslandG
+TileSets/Civ6/Tiles/GrassLandP
   rotate: false
-  xy: 1572, 816
+  xy: 1088, 488
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/Civ6/Tiles/GrasslandP
+TileSets/Civ6/Tiles/Grassland
   rotate: false
   xy: 1572, 816
   size: 64, 56
