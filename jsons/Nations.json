@@ -57,7 +57,7 @@
 		"innerColor": [15,0,0],
 		"uniqueName": "Convergent Boundary",
 		"uniques": ["[+100]% [Gold]","[+90]% [Production] [in all cities]","[-90]% [Food] [in all cities]",
-			"[+1] Sight <for [Cells] units>","[-1] Movement <for [Cells] units>"],
+			"[+1] Sight <for [Cell] units>","[-1] Movement <for [Cell] units>"],
 		"cities": ["Vaalbara","Pongola","Dharwar Craton","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
@@ -329,8 +329,8 @@
 	},
 	{
 		"name": "Great Cockroaches Empire",
-		"leaderName": "André Hubert Dumont",
-		"adjective": ["Famennian"],
+		"leaderName": "Fallout Cockroaches",
+		"adjective": ["Cockroaches"],
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
