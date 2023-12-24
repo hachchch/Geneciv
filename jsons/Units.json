@@ -619,6 +619,116 @@
 		]
 	},
 	{
+		"name": "Saurischia",
+		"unitType": "Reptiles",
+		"strength": 66,
+		"cost": 430,
+		"movement": 2,
+		"requiredTech": "Dinosaur",
+		"obsoleteTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Triassic","Predator","Bipedal"]
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/HexaRealm/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Theropoda",
+		"unitType": "Reptiles",
+		"strength": 50,
+		"cost": 410,
+		"movement": 2,
+		"uniques": ["Triassic","Avemetatarsalia","Predator","Bipedal","[+40]% Strength <when adjacent to a [Theropoda] unit>"],
+		"requiredTech": "Dinosaur",
+		"attackSound": "Slash",
+		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Theropoda",
+				"imageSize": 192
+			},
+		]
+	},
+	/*{
+		"name": "Pseudosuchia",
+		"unitType": "Reptiles",
+		"strength": 50,
+		"cost": 430,
+		"movement": 2,
+		"uniques": ["Triassic","Bipedal","[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
+		"requiredTech": "Dinosaur",
+		"upgradesTo": "Eusuchia",
+		"attackSound": "Slash",
+		"obsoleteTech": "Modern Ocean",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Pseudosuchia",
+				"imageSize": 192
+			},
+		]
+	},
+	*/
+	{
+		"name": "Avemetatarsalia",
+		"unitType": "Reptiles",
+		"strength": 45,
+		"cost": 430,
+		"movement": 2,
+		"uniques": ["Triassic","Quadrupedal","[+1] Sight","[+60]% Strength <when defending>"],
+		"requiredTech": "Dinosaur",
+		"attackSound": "Slash",
+		"obsoleteTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Avemetatarsalia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Avemetatarsalia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Sauropoda",
+		"cost": 430,
+		"strength": 45,
+		"rangedStrength": 50,
+		"range": 1,
+		"uniques": ["Triassic","Quadrupedal","Unit will heal every turn, even if it performs an action"],
+		"movement": 2,
+		"obsoleteTech": "Eutherians",
+		"requiredTech": "Dinosaur",
+		"unitType": "Herbivore",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Sauropoda",
+				"imageSize": 192
+			},
+		]
+	},
+	{
 		"name": "Plesiosaur",
 		"unitType": "Water Reptiles",
 		"cost": 450,
@@ -703,6 +813,86 @@
 		]
 	},
 	{
+		"name": "Ankylosauria",
+		"unitType": "Reptiles",
+		"strength": 60,
+		"cost": 425,
+		"movement": 1,
+		"requiredTech": "Dinosaur",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Jurassic","Quadrupedal","Armored"],
+		"promotions": ["Ankylosis"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Triceratops",
+		"unitType": "Reptiles",
+		"cost": 500,
+		"strength": 90,
+		"requiredTech": "Cretaceous Reptiles",
+		"movement": 1,
+		"attackSound": "Monster",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Herbivore","Quadrupedal"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Triceratops",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Cretaceous Dinosaur",
+		"unitType": "Reptiles",
+		"cost": 500,
+		"strength": 75,
+		"movement": 2,
+		"attackSound": "Monster",
+		"requiredTech": "Cretaceous Reptiles",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Bipedal","[+30]% Strength <when attacking>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cretaceous Dinosaur",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Ophidia",
+		"unitType": "Reptiles",
+		"strength": 65,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Grass",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
+		"promotions": ["Poison I"]
+	},
+	{
 		"name": "Eusuchia",
 		"obsoleteTech": "Anthropocene",
 		"unitType": "Reptiles",
@@ -727,6 +917,28 @@
 				"Separator": true
 			},
 		]
+	},
+	{
+		"name": "Cryptodira",
+		"unitType": "Reptiles",
+		"strength": 35,
+		"movement": 1,
+		"cost": 500,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
+		"promotions": ["Shell"]
+	},
+	{
+		"name": "Chelonioidea",
+		"unitType": "Water Reptiles",
+		"strength": 40,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Modern Ocean",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Cretaceous","Cannot attack"],
+		"promotions": ["Shell"]
 	},
 	// Mammals
 	{
@@ -835,7 +1047,445 @@
 			},
 		]
 	},
+	{
+		"name": "Glires",
+		"unitType": "Mammal",
+		"strength": 45,
+		"uniques": ["Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
+		"cost": 450,
+		"movement": 3,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Eutherians",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Glires",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Glires",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Feliform",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 500,
+		"strength": 80,
+		"movement": 3,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Feliform",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform",
+				"imageSize": 192
+			},
+			{
+				"text": "After Pleistocene",
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform-Pliocene",
+				"imageSize": 192
+			},
+			{
+				"text": "Cats, known as cute pets, are apex predators in the wild. African lions, American pumas, Asian tigers, and mountain snow leopards are all ferocious hunters, without domesticated felis catus.",
+			},
+		]
+	},
+	{
+		"name": "Caniform",
+		"unitType": "Mammal",
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"strength": 80,
+		"movement": 3,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Caniform",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Caniform",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Horse",
+		"cost": 500,
+		"requiredTech": "Eutherians",
+		"obsoleteTech": "Anthropocene",
+		"attackSound": "horse"
+		"strength": 60,
+		"movement": 3,
+		"unitType": "Mammal",
+		"uniques": ["Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Horse",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Horse",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Chiroptera",
+		"unitType": "Air Mammal",
+		"strength": 66,
+		"uniques": ["Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
+		"cost": 450,
+		"movement": 3,
+		"requiredTech": "Bat",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Chiroptera",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Chiroptera",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Dolphin",
+		"unitType": "Water Mammal",
+		"strength": 75,
+		"movement": 4,
+		"uniques": ["Oligocene","Predator"],
+		"requiredTech": "Cetaceans",
+		"cost": 500,
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Dolphin",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Dolphin",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Kangaroos",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 500,
+		"strength": 75,
+		"movement": 2,
+		"requiredTech": "Placenta",
+		"attackSound": "throw",
+		"uniques": ["Miocene","[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
+	},
+	{
+		"name": "Platypus",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 500,
+		"strength": 60,
+		"movement": 2,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
+	},
+	{
+		"name": "Boar",
+		"cost": 500,
+		"requiredTech": "Eutherians",
+		"attackSound": "Boar",
+		"strength": 70,
+		"range": 1,
+		"rangedStrength": 70,
+		"movement": 4,
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Mammal",
+		"uniques": ["Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Boar",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Boar",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Koala",
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 500,
+		"strength": 80,
+		"movement": 1,
+		"requiredTech": "Placenta",
+		"attackSound": "Slash",
+		"uniques": ["Pleistocene","All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
+	},
+	// Wise Animals
+	{
+		"name": "Ape",
+		"unitType": "Hominiae",
+		"cost": 500,
+		"strength": 50,
+		"movement": 3,
+		"requiredTech": "Ape",
+		"obsoleteTech": "Homo Habilis",
+		"uniques": ["Miocene","All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Ape",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Ape",
+				"imageSize": 192
+			},
+			{
+				"text": "The advancement in primate evolution, the apes of the Hominidae family are ancestors of the modern human's earliest ancestors. Divergent branches of evolution created both humans and the modern great apes.",
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Lion",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "SecretImages/Monkey Dance!",
+				"imageSize": 200
+			},
+			{
+				"text": "Woooow You found he, this is hidden element:) This weakest beast is standing on its head in search of a new normal. Please evolve him just now! Although they are currently the weakest, but they may deviate from the predatory nature of the fittest and become the rulers of this universe abd they travel through space!",
+			},
+		]
+	},
+	{
+		"name": "Mankind",
+		"unitType": "Hominiae",
+		"cost": 570,
+		"movement": 2,
+		"strength": 50,
+		"attackSound": "nonmetalhit",
+		"uniques": ["Pliocene","[500]% Strength <vs [Glires] units>"],
+		"requiredTech": "Australopithecus",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mankind",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Mankind",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Thrower",
+		"unitType": "Hominiae",
+		"cost": 590,
+		"movement": 2,
+		"range": 2,
+		"strength": 50,
+		"rangedStrength": 90,
+		"uniques": ["Pleistocene","[350]% Strength <vs [Glires] units>"],
+		"requiredTech": "Stone Tools",
+		"attackSound": "Stone",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Thrower",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Thrower",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Tribesman",
+		"unitType": "Human",
+		"uniques": ["Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>"],
+		"strength": 50,
+		"movement": 2,
+		"attackSound": "nonmetalhit",
+		"cost": 650,
+		"requiredTech": "Homo Habilis",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tribesman",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Archer",
+		"unitType": "Human",
+		"requiredTech": "Advanced Game",
+		"cost": 800,
+		"Range": 2,
+		"rangedStrength": 135,
+		"attackSound": "arrow",
+		"strength": 100,
+		"movement": 2,
+		"uniques": ["Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archer",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Sapiens Warrior",
+		"unitType": "Human",
+		"attackSound": "nonmetalhit",
+		"cost": 700,
+		"requiredTech": "Homo Sapiens",
+		"strength": 135,
+		"movement": 2,
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Sapiens Warrior",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Neanderthalensis Warrior",
+		"unitType": "Human",
+		"attackSound": "nonmetalhit",
+		"cost": 750,
+		"requiredTech": "Homo Neanderthalensis",
+		"strength": 170,
+		"movement": 2,
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units>"],
+		"obsoleteTech": "Homo Sapiens Sapiens",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Neanderthalensis Warrior",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Neanderthalensis Warrior",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Spearman",
+		"cost": 800,
+		"attackSound": "metalhit",
+		"requiredTech": "War",
+		"obsoleteTech": "Urbanization",
+		"unitType": "Human",
+		"strength": 170,
+		"movement": 2,
+		"uniques": ["Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Spearman",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Spearman",
+				"imageSize": 192
+			},
+		]
+	},
 	// Aves
+	{
+		"name": "Archeopteryx",
+		"unitType": "Birds",
+		"range": 4,
+		"rangedStrength": 70,
+		"interceptRange": 4,
+		"strength": 70,
+		"movement": 1,
+		"cost": 450,
+		"requiredTech": "Flying",
+		"obsoleteTech": "Modern Birds",
+		"upgradesTo": "Eagle",
+		"attackSound": "Whoosh",
+		"uniques": ["Jurassic","Predator"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archeopteryx",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Archeopteryx",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Eagle",
+		"unitType": "Birds",
+		"range": 6,
+		"rangedStrength": 90,
+		"strength": 90,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Modern Birds",
+		"attackSound": "Whoosh",
+		"uniques": ["Eocene","Predator","[+25]% Strength <vs [Land] units>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Eagle",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eagle",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Galliform",
+		"unitType": "Aves",
+		"interceptRange": 2,
+		"strength": 65,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Modern Birds",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/HexaRealm/Units/Galliform",
+				"imageSize": 192
+			},
+		]
+	},
 	{
 		"name": "Charadriiformes",
 		"unitType": "Birds",
@@ -847,7 +1497,42 @@
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
 		"attackSound": "Whoosh",
-		"uniques": ["Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],",
+		"uniques": ["Eocene","Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],",
+	},
+	{
+		"name": "Crow",
+		"unitType": "Birds",
+		"interceptRange": 5,
+		"range": 5,
+		"rangedStrength": 65,
+		"strength": 65,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
+		"requiredTech": "Modern Birds",
+		"attackSound": "Whoosh",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crow",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crow",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Raphus",
+		"unitType": "Aves",
+		"interceptRange": 2,
+		"strength": 70,
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Modern Birds",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Birds","Bipedal","Holocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","Only available <before the [Medieval era]>"]
 	},
 	// Great Units
 	{
@@ -1030,690 +1715,6 @@
 			},
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Virus",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Feliform",
-		"unitType": "Mammal",
-		"obsoleteTech": "Anthropocene",
-		"cost": 500,
-		"strength": 80,
-		"movement": 3,
-		"requiredTech": "Eutherians",
-		"attackSound": "Slash",
-		"uniques": ["Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Feliform",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform",
-				"imageSize": 192
-			},
-			{
-				"text": "After Pleistocene",
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Feliform-Pliocene",
-				"imageSize": 192
-			},
-			{
-				"text": "Cats, known as cute pets, are apex predators in the wild. African lions, American pumas, Asian tigers, and mountain snow leopards are all ferocious hunters, without domesticated felis catus.",
-			},
-		]
-	},
-	{
-		"name": "Koala",
-		"unitType": "Mammal",
-		"obsoleteTech": "Anthropocene",
-		"cost": 500,
-		"strength": 80,
-		"movement": 1,
-		"requiredTech": "Placenta",
-		"attackSound": "Slash",
-		"uniques": ["Pleistocene","All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
-	},
-	{
-		"name": "Kangaroos",
-		"unitType": "Mammal",
-		"obsoleteTech": "Anthropocene",
-		"cost": 500,
-		"strength": 75,
-		"movement": 2,
-		"requiredTech": "Placenta",
-		"attackSound": "throw",
-		"uniques": ["Miocene","[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
-	},
-	{
-		"name": "Platypus",
-		"unitType": "Mammal",
-		"obsoleteTech": "Anthropocene",
-		"cost": 500,
-		"strength": 60,
-		"movement": 2,
-		"requiredTech": "Eutherians",
-		"attackSound": "Slash",
-		"uniques": ["Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
-	},
-	{
-		"name": "Boar",
-		"cost": 500,
-		"requiredTech": "Eutherians",
-		"attackSound": "Boar",
-		"strength": 70,
-		"range": 1,
-		"rangedStrength": 70,
-		"movement": 4,
-		"obsoleteTech": "Anthropocene",
-		"unitType": "Mammal",
-		"uniques": ["Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Boar",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Boar",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Horse",
-		"cost": 500,
-		"requiredTech": "Eutherians",
-		"obsoleteTech": "Anthropocene",
-		"attackSound": "horse"
-		"strength": 60,
-		"movement": 3,
-		"unitType": "Mammal",
-		"uniques": ["Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Horse",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Horse",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Caniform",
-		"unitType": "Mammal",
-		"cost": 500,
-		"obsoleteTech": "Anthropocene",
-		"strength": 80,
-		"movement": 3,
-		"requiredTech": "Eutherians",
-		"attackSound": "Slash",
-		"uniques": ["Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Caniform",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Caniform",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Glires",
-		"unitType": "Mammal",
-		"strength": 45,
-		"uniques": ["Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
-		"cost": 450,
-		"movement": 3,
-		"obsoleteTech": "Anthropocene",
-		"requiredTech": "Eutherians",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Glires",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Glires",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Chiroptera",
-		"unitType": "Air Mammal",
-		"strength": 66,
-		"uniques": ["Eocene","","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
-		"cost": 450,
-		"movement": 3,
-		"requiredTech": "Bat",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Chiroptera",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Chiroptera",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Dolphin",
-		"unitType": "Water Mammal",
-		"strength": 75,
-		"movement": 4,
-		"uniques": ["Oligocene","Predator"],
-		"requiredTech": "Cetaceans",
-		"cost": 500,
-		"attackSound": "Splash",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Dolphin",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Dolphin",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Ape",
-		"unitType": "Hominiae",
-		"cost": 500,
-		"strength": 50,
-		"movement": 3,
-		"requiredTech": "Ape",
-		"obsoleteTech": "Homo Habilis",
-		"uniques": ["Miocene","All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Ape",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Ape",
-				"imageSize": 192
-			},
-			{
-				"text": "The advancement in primate evolution, the apes of the Hominidae family are ancestors of the modern human's earliest ancestors. Divergent branches of evolution created both humans and the modern great apes.",
-			},
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Lion",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "SecretImages/Monkey Dance!",
-				"imageSize": 200
-			},
-			{
-				"text": "Woooow You found he, this is hidden element:) This weakest beast is standing on its head in search of a new normal. Please evolve him just now! Although they are currently the weakest, but they may deviate from the predatory nature of the fittest and become the rulers of this universe abd they travel through space!",
-			},
-		]
-	},
-	{
-		"name": "Archeopteryx",
-		"unitType": "Birds",
-		"range": 4,
-		"rangedStrength": 70,
-		"interceptRange": 4,
-		"strength": 70,
-		"movement": 1,
-		"cost": 450,
-		"requiredTech": "Flying",
-		"obsoleteTech": "Modern Birds",
-		"upgradesTo": "Eagle",
-		"attackSound": "Whoosh",
-		"uniques": ["Jurassic","Predator"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Archeopteryx",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Archeopteryx",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Eagle",
-		"unitType": "Birds",
-		"range": 6,
-		"rangedStrength": 90,
-		"strength": 90,
-		"movement": 1,
-		"cost": 500,
-		"obsoleteTech": "Anthropocene",
-		"requiredTech": "Modern Birds",
-		"attackSound": "Whoosh",
-		"uniques": ["Eocene","Predator","[+25]% Strength <vs [Land] units>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Eagle",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Eagle",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Crow",
-		"unitType": "Birds",
-		"interceptRange": 5,
-		"range": 5,
-		"rangedStrength": 65,
-		"strength": 65,
-		"movement": 1,
-		"cost": 500,
-		"obsoleteTech": "Anthropocene",
-		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
-		"requiredTech": "Modern Birds",
-		"attackSound": "Whoosh",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Crow",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Crow",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Raphus",
-		"unitType": "Aves",
-		"interceptRange": 2,
-		"strength": 70,
-		"movement": 2,
-		"cost": 500,
-		"requiredTech": "Modern Birds",
-		"obsoleteTech": "Anthropocene",
-		"uniques": ["Birds","Bipedal","Holocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","Only available <before the [Medieval era]>"]
-	},
-	{
-		"name": "Galliform",
-		"unitType": "Aves",
-		"interceptRange": 2,
-		"strength": 65,
-		"movement": 2,
-		"cost": 500,
-		"requiredTech": "Modern Birds",
-		"obsoleteTech": "Anthropocene",
-		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/HexaRealm/Units/Galliform",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Ophidia",
-		"unitType": "Reptiles",
-		"strength": 65,
-		"movement": 2,
-		"cost": 500,
-		"requiredTech": "Grass",
-		"obsoleteTech": "Anthropocene",
-		"uniques": ["Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
-		"promotions": ["Poison I"]
-	},
-	{
-		"name": "Cryptodira",
-		"unitType": "Reptiles",
-		"strength": 35,
-		"movement": 1,
-		"cost": 500,
-		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Anthropocene",
-		"uniques": ["Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
-		"promotions": ["Shell"]
-	},
-	{
-		"name": "Chelonioidea",
-		"unitType": "Water Reptiles",
-		"strength": 40,
-		"movement": 2,
-		"cost": 500,
-		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Anthropocene",
-		"uniques": ["Cretaceous","Cannot attack"],
-		"promotions": ["Shell"]
-	},
-	{
-		"name": "Triceratops",
-		"unitType": "Reptiles",
-		"cost": 500,
-		"strength": 90,
-		"requiredTech": "Cretaceous Reptiles",
-		"movement": 1,
-		"attackSound": "Monster",
-		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Herbivore","Quadrupedal"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Triceratops",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Cretaceous Dinosaur",
-		"unitType": "Reptiles",
-		"cost": 500,
-		"strength": 75,
-		"movement": 2,
-		"attackSound": "Monster",
-		"requiredTech": "Cretaceous Reptiles",
-		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Bipedal","[+30]% Strength <when attacking>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Cretaceous Dinosaur",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
-		"name": "Saurischia",
-		"unitType": "Reptiles",
-		"strength": 66,
-		"cost": 430,
-		"movement": 2,
-		"requiredTech": "Dinosaur",
-		"obsoleteTech": "Eutherians",
-		"attackSound": "Slash",
-		"uniques": ["Triassic","Predator","Bipedal"]
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/HexaRealm/Units/Saurischia",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
-		"name": "Ankylosauria",
-		"unitType": "Reptiles",
-		"strength": 60,
-		"cost": 425,
-		"movement": 1,
-		"requiredTech": "Dinosaur",
-		"obsoleteTech": "Eutherians",
-		"uniques": ["Jurassic","Quadrupedal","Armored"],
-		"promotions": ["Ankylosis"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Saurischia",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
-		"name": "Theropoda",
-		"unitType": "Reptiles",
-		"strength": 50,
-		"cost": 430,
-		"movement": 2,
-		"uniques": ["Triassic","Avemetatarsalia","Predator","Bipedal","[+40]% Strength <when adjacent to a [Theropoda] unit>"],
-		"requiredTech": "Dinosaur",
-		"attackSound": "Slash",
-		"obsoleteTech": "Eutherians",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Theropoda",
-				"imageSize": 192
-			},
-		]
-	},
-	/*{
-		"name": "Pseudosuchia",
-		"unitType": "Reptiles",
-		"strength": 50,
-		"cost": 430,
-		"movement": 2,
-		"uniques": ["Triassic","Bipedal","[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
-		"requiredTech": "Dinosaur",
-		"upgradesTo": "Eusuchia",
-		"attackSound": "Slash",
-		"obsoleteTech": "Modern Ocean",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Pseudosuchia",
-				"imageSize": 192
-			},
-		]
-	},
-	*/
-	{
-		"name": "Avemetatarsalia",
-		"unitType": "Reptiles",
-		"strength": 45,
-		"cost": 430,
-		"movement": 2,
-		"uniques": ["Triassic","Quadrupedal","[+1] Sight","[+60]% Strength <when defending>"],
-		"requiredTech": "Dinosaur",
-		"attackSound": "Slash",
-		"obsoleteTech": "Eutherians",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Avemetatarsalia",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Avemetatarsalia",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
-		"name": "Sauropoda",
-		"cost": 430,
-		"strength": 45,
-		"rangedStrength": 50,
-		"range": 1,
-		"uniques": ["Triassic","Quadrupedal","Unit will heal every turn, even if it performs an action"],
-		"movement": 2,
-		"obsoleteTech": "Eutherians",
-		"requiredTech": "Dinosaur",
-		"unitType": "Herbivore",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Sauropoda",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Mankind",
-		"unitType": "Hominiae",
-		"cost": 570,
-		"movement": 2,
-		"strength": 50,
-		"attackSound": "nonmetalhit",
-		"uniques": ["Pliocene","[500]% Strength <vs [Glires] units>"],
-		"requiredTech": "Australopithecus",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Mankind",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Mankind",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Thrower",
-		"unitType": "Hominiae",
-		"cost": 590,
-		"movement": 2,
-		"range": 2,
-		"strength": 50,
-		"rangedStrength": 90,
-		"uniques": ["Pleistocene","[350]% Strength <vs [Glires] units>"],
-		"requiredTech": "Stone Tools",
-		"attackSound": "Stone",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Thrower",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Thrower",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Tribesman",
-		"unitType": "Human",
-		"uniques": ["Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>"],
-		"strength": 50,
-		"movement": 2,
-		"attackSound": "nonmetalhit",
-		"cost": 650,
-		"requiredTech": "Homo Habilis",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Tribesman",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Archer",
-		"unitType": "Human",
-		"requiredTech": "Advanced Game",
-		"cost": 800,
-		"Range": 2,
-		"rangedStrength": 135,
-		"attackSound": "arrow",
-		"strength": 100,
-		"movement": 2,
-		"uniques": ["Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Archer",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Sapiens Warrior",
-		"unitType": "Human",
-		"attackSound": "nonmetalhit",
-		"cost": 700,
-		"requiredTech": "Homo Sapiens",
-		"strength": 135,
-		"movement": 2,
-		"uniques": ["Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Sapiens Warrior",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Neanderthalensis Warrior",
-		"unitType": "Human",
-		"attackSound": "nonmetalhit",
-		"cost": 750,
-		"requiredTech": "Homo Neanderthalensis",
-		"strength": 170,
-		"movement": 2,
-		"uniques": ["Holocene","[-80]% Strength <vs [Human] units>"],
-		"obsoleteTech": "Homo Sapiens Sapiens",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Neanderthalensis Warrior",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Neanderthalensis Warrior",
-				"imageSize": 192
-			},
-		]
-	},
-	{
-		"name": "Spearman",
-		"cost": 800,
-		"attackSound": "metalhit",
-		"requiredTech": "War",
-		"obsoleteTech": "Urbanization",
-		"unitType": "Human",
-		"strength": 170,
-		"movement": 2,
-		"uniques": ["Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Spearman",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Spearman",
 				"imageSize": 192
 			},
 		]
