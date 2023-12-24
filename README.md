@@ -19,4 +19,10 @@ But I think the most wonderful story of Earth is 4.5 Billion years of Organic Co
 Meteor Bombardment,Beggining of Coral,Age of Fishes,Thrived Reptiles,Domination of Primates...
 There are many unique feature in story of our planet.
 ...Why we don't make Geological time scale strategy?
-It's thinking about History of us, the nature.
+It's Time to make it.
+The Geneciv has Begun!
+
+![](/preview.png)
+## Contributing
+You can help my Project with Pull Request.
+Let's create story about the Genesis of Unciv Universe!
