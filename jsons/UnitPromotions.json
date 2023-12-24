@@ -583,6 +583,11 @@
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
+		"name": "Large Body III",
+		"uniques": ["Only available <when [Quadrupedal]>","[+30]% Strength <vs [Land] units>"],
+		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+	},
+	{
 		"name": "Ankylosis",
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
