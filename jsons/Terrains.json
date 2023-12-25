@@ -15,7 +15,7 @@
 		"name": "Grassland",
 		"type": "Land",
 		"movementCost": 1,
-		"RGB": [107, 214, 152],
+		"RGB": [117, 83, 45],
 		"uniques": ["Starts in regions of this type receive an extra [Forest]"]
 	},
 	{
@@ -23,7 +23,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [200,208,161],
+		"RGB": [103,99,80],
 		"uniques": ["Starts in regions of this type receive an extra [Forest]"]
 	},
 	{
@@ -31,7 +31,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"RGB": [125,122,113]
+		"RGB": [80,103,100]
 		"uniques": ["Cold","Starts in regions of this type receive an extra [Forest]"],
 	},
 	{
@@ -40,12 +40,12 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"production": 1,
-		"RGB": [ 255, 255, 102]
+		"RGB": [232, 198, 104]
 	},
 	{
 		"name": "Lakes",
 		"type": "Water",
-		"RGB": [ 200, 200, 255],
+		"RGB": [0, 171, 169],
 		"uniques": ["Fresh water"]
 	},
 	{
@@ -62,7 +62,7 @@
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
-		"RGB": [89, 45, 0]
+		"RGB": [0, 171, 169]
 		"uniques": ["Rough terrain","Has an elevation of [1] for visibility calculations","Occurs in groups around high elevations","[-1] to Fertility for Map Generation"],
 	},
 	{
@@ -72,7 +72,7 @@
 		"culture": 1,
 		"defenceBonus": -0.1,
 		"uniques": ["Cold"],
-		"RGB": [153, 255, 255]
+		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Fallout",
