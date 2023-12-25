@@ -1,6 +1,6 @@
 {
 	"useColorAsBaseTerrain": "false",
-	"fallbackTileSet": "HexaRealm",
+	// "fallbackTileSet": "HexaRealm",
 	"ruleVariants": {
 		"Plains+Forest+Forests": ["Plains","ForestsF"],
 		"Plains+Hill+Forest+Forests": ["Plains+Hill","ForestsF"],
