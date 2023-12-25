@@ -82,9 +82,9 @@ TileSets/Civ6/Tiles/Jungle
   index: -1
 TileSets/Civ6/Tiles/ForestsJ
   rotate: false
-  xy: 1644, 678
-  size: 64, 66
-  orig: 64, 66
+  xy: 1644, 674
+  size: 64, 70
+  orig: 64, 70
   offset: 0, 0
   index: -1
 TileSets/Civ6/Tiles/ForestsF
