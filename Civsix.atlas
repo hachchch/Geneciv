@@ -38,6 +38,13 @@ TileSets/Civ6/Tiles/Grassland+Hill2
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/Civ6/Tiles/Grassland+Hill3
+  rotate: false
+  xy: 1572, 752
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/Civ6/Tiles/Plains
   rotate: false
   xy: 1644, 816
@@ -53,6 +60,13 @@ TileSets/Civ6/Tiles/Plains+Hill
   offset: 0, 0
   index: -1
 TileSets/Civ6/Tiles/Plains+Hill2
+  rotate: false
+  xy: 1644, 752
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/Civ6/Tiles/Plains+Hill3
   rotate: false
   xy: 1644, 752
   size: 64, 56
