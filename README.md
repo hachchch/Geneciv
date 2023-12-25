@@ -8,22 +8,12 @@
 ![](/extraImages/FishAges.png)
 ![](/extraImages/Landing.png)
 
-4.5BYA...
-There are no any Creatures on Earth.
-but, Abiogenesis always can happen even if it's the hell world.
+4.5Billion Years Ago, There are no any Creatures on Earth.
+but, it is possible to build current wonderful life if you want to start abiogenesis...
+Always, the great story and dhrama is start from something even it was adversity
 
-**Concept:**
-What is the most wonderful history?
-Sometimes, they talk about Religious or Great war.
-But I think the most wonderful story of Earth is 4.5 Billion years of Organic Compounds Evolution.
-Meteor Bombardment,Beggining of Coral,Age of Fishes,Thrived Reptiles,Domination of Primates...
-There are many unique events in story of our planet.
-...Why we don't make Geological time scale strategy?
-
-well, It's Time to make it.
-I start to make Genesis of the Unciv Universe.
-The 'Geneciv' has Begun!
+well, It's time to beggining the biggest history!
 
 ![](/preview.png)
 ## Contributing
-You can help my Project with Pull Request.
+You can help my Project with Issues or Pull Request.
