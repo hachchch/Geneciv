@@ -77,8 +77,8 @@
 	    "[+20]% Production when constructing [LUCA] buildings [in all cities] <for [AI player]> <hidden from users>",
 	    "[+100]% Production when constructing [RNA World] buildings [in all cities] <for [AI player]> <hidden from users>",
 
-	    // Xmas
-	    "Double quantity of [Coal] produced",
+	    // when Xmas
+	    "Double quantity of [Coal] produced <during the [Carboniferous period]>",
 	    "[+100]% Yield from every [Coal]"
 
 	    // Setting MovementType of Early Tetrapods
