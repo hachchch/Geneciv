@@ -559,8 +559,8 @@
 	},
 	{
 		"name": "Hollow Bones",
-		"uniques": ["Ignores Zone of Control","[+1] Range"],
-		"unitTypes": ["Reptiles","Birds","Glider"],
+		"uniques": ["[+1] Movement","[+1] Range"],
+		"unitTypes": ["Birds","Glider","Aves"],
 	},
 	{
 		"name": "Horn-Faced",
@@ -568,12 +568,53 @@
 		"unitTypes": ["Reptiles","Glider"],
 	},
 	{
-		"name": "Propubic Pelvis",
-		"uniques": ["Only available <when [Bipedal]>","[+10]% Strength <vs [Land] units>"],
-		"unitTypes": ["Reptiles","Glider"],
+		"name": "Hollow Bones I",
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Reptiles"],
+		"column": 302,
+		"row": 1
 	},
 	{
-		"name": "Strong Jaw",
+		"name": "Propubic Pelvis I",
+		"uniques": ["/*Only available <when [Bipedal]>","*/[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Reptiles"],
+		"column": 303,
+		"row": 1
+	},
+	{
+		"name": "Hollow Bones II",
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Reptiles"],
+		"column": 302,
+		"row": 2,
+		"prerequisites": ["Hollow Bones I"]
+	},
+	{
+		"name": "Propubic Pelvis II",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Reptiles"],
+		"column": 303,
+		"row": 2,
+		"prerequisites": ["Propubic Pelvis I"]
+	},
+	{
+		"name": "Hollow Bones III",
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Reptiles"],
+		"column": 302,
+		"row": 3,
+		"prerequisites": ["Hollow Bones II"]
+	},
+	{
+		"name": "Propubic Pelvis III",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Reptiles"],
+		"column": 303,
+		"row": 3,
+		"prerequisites": ["Propubic Pelvis II"]
+	},
+	{
+		"name": "Strong Neck",
 		"uniques": ["Only available <when [Predator]>","[+10]% Strength <vs [Land] units>"],
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
@@ -587,9 +628,18 @@
 		"uniques": ["Only available <when [Quadrupedal]>","[+30]% Strength <vs [Land] units>"],
 	},
 	{
-		"name": "Ankylosis",
+		"name": "Ankylosis I",
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
+		"column": 304,
+		"row": 1,
+	},
+	{
+		"name": "Ankylosis II",
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Reptiles"],
+		"column": 304,
+		"row": 2,
 	},
 	{
 		"name": "Predentary",
