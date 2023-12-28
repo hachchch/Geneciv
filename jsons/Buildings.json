@@ -1833,5 +1833,20 @@
 		"[+700]% Strength <for [Synapsida] units>",
 		"[+400]% Strength <for [Archeopteryx] units>",
 		"[+2] Range <for [Archeopteryx] units>"],
+	},
+	{
+		"name": "Jarmo",
+		"requiredTech": "Stone Tools",
+		"isWonder": true,
+		"cost": 2000,
+		"culture": 7,
+		"uniques": ["[+25]% [Culture] [in this city]"]
+	},
+	{
+		"name": "Great Acceleration Event",
+		"isWonder": true,
+		"requiredTech": "Industrialization",
+		"science": 10,
+		"uniques": ["[+50]% [Science] [in this city]"]
 	}
 ]
