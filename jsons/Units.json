@@ -1,5 +1,5 @@
 [
-	// Civilians
+	// Civilians1
 	{
 		"name": "Vegetation",
 		"unitType": "Civilian",
@@ -901,9 +901,9 @@
 		"strength": 60,
 		"cost": 860,
 		"movement": 2,
-		"uniques": ["Cretaceous","Predator","[+150]% Strength <in [Flesh water] tiles>","[+150]% <when fighting in [Flesh water] tiles> <hidden from users>",
+		"uniques": ["Cretaceous","Predator","[+150]% <when fighting in [Fresh water] tiles> <hidden from users>",
 		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
-		"[+1] Movement <in [Flesh water] tiles>","[+1] Movement <in [Coastal] tiles>",
+		"[+1] Movement <in [Fresh water] tiles>","[+1] Movement <in [Coastal] tiles>",
 		"[+500]% Strength <when defending> <when [Embarked]>"],
 		"requiredTech": "Modern Ocean",
 		"civilopediaText": [
@@ -2491,5 +2491,5 @@
 		"strength": 8000,
 		"requiredTech": "Anthropocene Extinction",
 		"uniques": ["Cretaceous","AI","Bugs","Hexabipedal"],
-	},
+	}
 ]
