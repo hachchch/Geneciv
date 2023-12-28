@@ -530,7 +530,7 @@
 		"name": "Battle of Landing Race I",
 		"row": 300,
 		"column": 0,
-		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
 		"unitTypes": ["Amphibian"],
 	},
 	{
@@ -538,7 +538,7 @@
 		"prerequisites": ["Battle of Landing Race I"],
 		"row": 300,
 		"column": 1,
-		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
 		"unitTypes": ["Amphibian"],
 	},
 	{
@@ -546,7 +546,7 @@
 		"prerequisites": ["Battle of Landing Race II"],
 		"row": 300,
 		"column": 2,
-		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Flesh water] tiles>","[+15]% Strength <when fighting in [Coast] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>","[+15]% Strength <when fighting in [Coast] tiles>"],
 		"unitTypes": ["Amphibian"],
 	},
 	{
@@ -554,7 +554,7 @@
 		"prerequisites": ["Battle of Landing Race I"],
 		"row": 301,
 		"column": 1,
-		"uniques": ["[+29] HP when healing <in [River] tiles>","[+5] HP when healing"],
+		"uniques": ["[+29] HP when healing <in [Fresh water] tiles>","[+5] HP when healing"],
 		"unitTypes": ["Amphibian"],
 	},
 	{
