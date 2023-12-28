@@ -17,6 +17,26 @@
 		]
 	},
 	{
+		"name": "GrassLand",
+		"shortcutKey": "G",
+		"techRequired": "Chloroplasts",
+		"food": 1,
+		"uniques": ["Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
+		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Plains","Hill"],
+		"defenceBonus": -0.1,
+		"turnsToBuild": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/GrassLand",
+				"imageSize": 192,
+			},
+			{
+				"text": "Grasslands serve as food for land animals, but they can also provide oxygen. This is very important because the oxygen concentration affects not only the land, but also the sea.",
+			},
+		]
+	},
+	
+	{
 		"name": "Industry",
 		"shortcutKey": "I",
 		"techRequired": "Industrialization",
@@ -142,25 +162,6 @@
 		"terrainsCanBeBuiltOn": ["Land"]
 		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
 		"civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
-	},
-	{
-		"name": "GrassLand",
-		"shortcutKey": "G",
-		"techRequired": "Chloroplasts",
-		"food": 1,
-		"uniques": ["Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
-		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Plains","Hill"],
-		"defenceBonus": -0.1,
-		"turnsToBuild": 2,
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/GrassLand",
-				"imageSize": 192,
-			},
-			{
-				"text": "Grasslands serve as food for land animals, but they can also provide oxygen. This is very important because the oxygen concentration affects not only the land, but also the sea.",
-			},
-		]
 	},
 	{
 		"name": "Farm",
