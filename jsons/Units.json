@@ -1,5 +1,5 @@
 [
-	// Civilians1
+	// Civilians
 	{
 		"name": "Vegetation",
 		"unitType": "Civilian",
@@ -823,7 +823,7 @@
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
 		"uniques": ["Jurassic","Quadrupedal","Armored"],
-		"promotions": ["Ankylosis"],
+		"promotions": ["Ankylosis I"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
@@ -1585,7 +1585,7 @@
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
 		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Strong Jaw","Large Body"],
+		"promotions": ["Strong Neck","Large Body"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tyrannosaurus",
