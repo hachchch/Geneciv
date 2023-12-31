@@ -276,7 +276,8 @@
 		"policies": [
 			{
 				"name": "Multicellular on Abyssal Plains",
-				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion"],
+				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion",
+				"[+1 Gold] from every [Cambrian]","[+1 Gold] from every [Paleoproterozoic]"],
 				"row": 1,
 				"column": 3
 			},
@@ -296,7 +297,7 @@
 			},
 			{
 				"name": "Law of Underwater",
-				"uniques": ["[+15]% Strength <for [{Water} {non-[Jawless]}] units>"],
+				"uniques": ["[+15]% Strength <for [{Water} {non-[Jawless]}] units>","[+1 Gold, +1 Culture] from [Atoll] tiles [in all cities]"],
 				"requires": ["Jawless Warfare"],
 				"row": 3,
 				"column": 1
