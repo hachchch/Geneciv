@@ -23,7 +23,7 @@
 				"name": "Global Cooling",
 				"row": 3,
 				"column": 3,
-				"uniques": ["Nullifies [Food] [in all cities] <for [2] turns>","[+8]% [Science] [in all cities]","[+10 Science] from [Ice] tiles [in all cities]"],
+				"uniques": ["Nullifies [Food] [in all cities] <for [2] turns>","[+8]% [Science] [in all cities]","[+3 Science] from [Ice] tiles [in all cities]"],
 				"requires": ["Great Volcanic Activity"],
 			},
 			{
