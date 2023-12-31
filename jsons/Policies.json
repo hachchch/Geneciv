@@ -170,28 +170,28 @@
 			{
 				"name": "Parallel Evolution",
 				"effect": "+3 Science per Wonder from foreign continent tiles",
-				"uniques": ["[+2 Culture] from every [Wonder] <on foreign continents>"],
+				"uniques": ["[+2 Culture] from every [Wonder] <on foreign continents>","[+1 Culture] from every [Wonder]"],
 				"row": 1,
 				"column": 1
 			},
 			{
 				"name": "Phylogenetic Trees",
 				"effect": "Gain Tech Boost when you built Wonders",
-				"uniques":["Gain [120] [Science] <upon constructing [Wonders]>"],
+				"uniques":["[+10]% Production when constructing [All] wonders [in capital]","Gain [20] [Culture] <upon constructing [Wonders]>"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Coevolution",
 				"effect": "+1 Science from Bug Buildings",
-				"uniques": ["[+1 Science] from every [Bugs]"],
+				"uniques": ["Sometimes called Symbiont","[+1 Culture] from every [Bugs]"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Bio Feudalism",
 				"effect": "+20% Production when constructing Herbivore and Small Reptiles, 30% growth in capital",
-				"uniques": ["+[30]% growth in capital", "[+20]% Production when constructing [Herbivore] units [in all cities]","[+20]% Production when constructing [Small Reptile] units [in all cities]"],
+				"uniques": ["[+5 Culture] [in capital]","[+10]% Food is carried over after population increases [in capital]","[+10]% Production when constructing [non-[Predator]] units [in all cities]"],
 				"requires": ["Phylogenetic Trees"],
 				"row": 2,
 				"column": 3
@@ -199,7 +199,7 @@
 			{
 				"name": "Evolvability",
 				"effect": "Reduces Upgrade cost 50% for all units",
-				"uniques": ["[-50]% Gold cost of upgrading"],
+				"uniques": ["[-25]% Gold cost of upgrading"],
 				"requires": ["Coevolution"],
 				"row": 2,
 				"column": 5
@@ -226,7 +226,7 @@
 			},
 			{
 				"name": "Permian-Triassic Extinction",
-				"uniques":["[-84]% Production when constructing [All] units [in all cities] <for [10] turns>","Gain a free [Volcano] [in all cities]","Gain [1200] [Science] (modified by game speed)"],
+				"uniques":["Cities are razed [87] times as fast","Earn [38]% of killed [Land] unit's [Strength] as [Culture]","Gain a free [Volcano] [in all cities]"],
 				"row": 1,
 				"column": 5
 			},
@@ -239,18 +239,22 @@
 			},
 			{
 				"name": "Flowering earth singing for Mammals",
-				"uniques": ["[+1 Food] from [Dyes] tiles [in all cities]",
-					"[+1 Food] from [Incense] tiles [in all cities]",
-					"[+1 Food] from [Spices] tiles [in all cities]",
-					"[+1 Food] from [Cotton] tiles [in all cities]",
-					"[+1 Food] from [GrassLand] tiles [in capital]"],
+				"uniques": ["[+10]% Strength <for [Mammal] units> <in [GrassLand] tiles>",
+					"[+1 Gold] from [Dyes] tiles [in all cities]",
+					"[+1 Gold] from [Incense] tiles [in all cities]",
+					"[+1 Gold] from [Spices] tiles [in all cities]",
+					"[+1 Gold] from [Cotton] tiles [in all cities]",
+					"[+1 Gold] from [GrassLand] tiles [in capital]"],
 				"requires": ["Permian-Triassic Extinction"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Ceramics Biome",
-				"uniques": ["[+8 Gold] from [City center] tiles [in all cities]"],
+				"uniques": ["[+8 Gold] from [City center] tiles [in all cities]",
+				"[+4 Gold] from [Outpost] tiles [in all cities]",
+				"[+2 Gold] from [Habitat] tiles [in all cities]",
+				"[+25 Gold] from [Citadel] tiles [in all cities]"],
 				"requires": ["Survival Wisdom","Flowering earth singing for Mammals"],
 				"row": 3,
 				"column": 3
