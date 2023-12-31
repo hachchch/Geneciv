@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+	    "[-50]% [Food] from every [Improvement]",
 	    // SubUnitTypes
 	    "[+20]% Production when constructing [Cretaceous] units [in all cities] <during the [Mesozoic era]>",
 	    "[+20]% XP gained from combat <for [Cretaceous] units> <during the [Mesozoic era]>",
