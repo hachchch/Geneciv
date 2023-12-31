@@ -144,7 +144,7 @@
 		"uniques": ["Bugs <hidden from users>","Get Stick Bugged Lol"]
 	},
 	{
-		"name": "Lepidoptera", // Pieris Rapae my beloved
+		"name": "Lepidoptera", // Pieris Rapae my beloved animal
 		"cityStrength": 1,
                 "cityHealth": 5,
 		"cost": 230,
@@ -543,6 +543,7 @@
 		"food": 4,
 		"gold": 1,
 		"requiredTech": "Primordial Soup",
+		"uniques": ["Requires a [Volcano] in all cities", "Cost increases by [30] per owned city"],
 		"quote": "'The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light (from about 200 nm to 315 nm wavelength), which otherwise would potentially damage exposed life forms near the surface.' -Wikipedia",
 	},
 	{
@@ -551,7 +552,7 @@
 		"isNationalWonder": true,
 		"production": 5,
 		"cost": 300,
-		"uniques": ["[+5]% [Production] [in this city]","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
+		"uniques": ["Requires a [Polychaetes] in all cities", "Cost increases by [30] per owned city","[+5]% [Production] [in this city]","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
 		"quote": "Before early Cambrian diversification, most organisms were relatively simple, composed of individual cells, or small multicellular organisms, occasionally organized into colonies. As the rate of diversification subsequently accelerated, the variety of life became much more complex, and began to resemble that of today.",
 	},
 	{
@@ -560,20 +561,20 @@
 		"isNationalWonder": true,
 		"culture": 10,
 		"cost": 300,
-		"uniques": ["Botomian","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+100]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
+		"uniques": ["Requires a [Polychaetes] in all cities", "Cost increases by [30] per owned city","Botomian","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+100]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
 		"quote": "Volcanic activity, particularly that of large igneous provinces, has been speculated to have been the cause of the environmental crisis. There are several hypotheses for the causes of these extinctions. There is also major changes in the carbon cycle and development of anoxia in the oceans. 50-80% of Sea Species died for ever.",
 	},
 	{
 		"name": "Late Heavy Bombardment",
 		"cost": 100,
 		"isNationalWonder": true,
-		"uniques": ["Enemy [Cell] units must spend [1] extra movement points when inside your territory",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]>"]
+		"uniques": ["Requires a [Meteor] in all cities", "Cost increases by [30] per owned city","Enemy [Cell] units must spend [1] extra movement points when inside your territory",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]>"]
 	},
 	{
 		"name": "End Of Boring Billion",
 		"cost": 200,
 		"science": 1,
-		"uniques": ["[+20]% [Science] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
+		"uniques": ["Requires a [Fungi] in all cities", "Cost increases by [30] per owned city","[+20]% [Science] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
 		"isNationalWonder": true,
 	},
 	// Aquatic Charales
