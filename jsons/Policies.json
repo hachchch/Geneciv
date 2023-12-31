@@ -251,7 +251,8 @@
 			},
 			{
 				"name": "Ceramics Biome",
-				"uniques": ["[+8 Gold] from [City center] tiles [in all cities]",
+				"uniques": ["[+10]% Strength for cities",
+				"[+8 Gold] from [City center] tiles [in all cities]",
 				"[+4 Gold] from [Outpost] tiles [in all cities]",
 				"[+2 Gold] from [Habitat] tiles [in all cities]",
 				"[+25 Gold] from [Citadel] tiles [in all cities]"],
