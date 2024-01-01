@@ -1123,7 +1123,7 @@
 		"name": "Vertebrate",
 		"specialistSlots": {"Creature": 1},
 		"cost": 135,
-		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["Limited to [2] per Civilization","Unbuildable <in cities with a [Palace]> <hidden from users>","[+25]% Production towards any buildings that already exist in the Capital"],
 		"requiredTech": "Vertebrate",
 	},
 	{
