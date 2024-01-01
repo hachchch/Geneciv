@@ -11,31 +11,31 @@
 		"name": "Atmosphere",
 		"resourceType": "Strategic",
 		"revealedBy": "Primordial Soup",
-		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
 	},
 	{
 		"name": "Temperature",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled","Not shown on world screen"],
+		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
 	},
 	{
 		"name": "Water",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
+		"uniques": ["Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
 	},
 	{
 		"name": "Oxygen",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
+		"uniques": ["Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
 	},
 	{
 		"name": "Biomass",
 		"resourceType": "Strategic",
 		"revealedBy": "Chloroplasts",
-		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
+		"uniques": ["Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
 	},
 	// Variable
 	{
