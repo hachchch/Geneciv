@@ -69,7 +69,7 @@
 		"requiredTech": "Insect",
 		"production": 5,
 		"cost": 350,
-		"uniques": ["It's Bugs. Not Musician","Bugs <hidden from users>","[+5]% [Production] [in all cities]"]
+		"uniques": [/*"It's Bugs. Not Musician",*/"Bugs","[+5]% [Production] [in all cities]"]
 	},
 	{
 		"name": "Uniramia",
@@ -153,12 +153,12 @@
 		"uniques": ["Bugs","Coevolution","Must be next to [Tundra]","[+1 Production] from [{Tundra} {GrassLand}] tiles [in this city]"]
 	},
 	{
-		"name": "Hummingbirds",
+		"name": "Hummingbirds", // Is it should include Bugs?
 		"cityStrength": 1,
                 "cityHealth": 5,
 		"maintenance": 3,
 		"cost": 230,
-		"uniques": ["Birds","Bugs <hidden from users>","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
+		"uniques": ["Birds","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
 		"requiredTech": "Flowers",
 	},
 	{
@@ -169,6 +169,14 @@
 		"cost": 230,
 		"uniques": ["Bugs","Coevolution","Must be next to [Grassland]","[+1 Food] from [{Grassland} {GrassLand}] tiles [in this city]"],
 		"requiredTech": "Flowers",
+	},
+	// Fish Age Buildings
+	{
+		"name": "Poikilotherm",
+		"culture": 2,
+		"specialistSlots": {"Creature": 1},
+		"requiredTech": "Cold Blooded",
+		"uniques": ["[-20]% Culture cost of natural border growth [in this city]"]
 	},
 	// Wonders
 	{
