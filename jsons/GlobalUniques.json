@@ -74,7 +74,7 @@
 	    "[-33]% [Science] <for [City-states]>",
 	    "[+33]% [Production] <for [City-states]>",
 
-	    // CPU Enhancement
+	    // Hidden CPU Enhancement
 	    "[+20]% Production when constructing [LUCA] buildings [in all cities] <for [AI player]> <hidden from users>",
 	    "[+100]% Production when constructing [RNA World] buildings [in all cities] <for [AI player]> <hidden from users>"// ,
 
