@@ -468,7 +468,7 @@
 		"name": "Bangiomorpha",
 		"providesFreeBuilding": "Algae",
 		"isWonder": true,
-		"food": 8,
+		"food": 6,
 		"cost": 300,
 		"requiredTech": "Sexual Reproduction",
 		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal","Must be next to [Coast]","Unbuildable <before the [Mesoproterozoic]>"]
@@ -477,7 +477,7 @@
 		"name": "Grenville Orogeny",
 		"cost": 400,
 		"isWonder": true,
-		"uniques": ["[20]% of excess happiness converted to [Production]","Unbuildable <before the [Mesoproterozoic]>"]
+		"uniques": ["[50]% of excess happiness converted to [Gold]","Unbuildable <before the [Mesoproterozoic]>"]
 	},
 	{
 		"name": "Camellia Sinensis",
