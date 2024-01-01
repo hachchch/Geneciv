@@ -147,7 +147,7 @@
 		"startingMilitaryUnitCount": 1,
 		"startingMilitaryUnit": "Tetrapod",
 		"startingGold": 250,
-		"settlerPopulation": 10,
+		"settlerPopulation": 1,
 		"startPercent": 40,
 		"citySound": "Coast",
 		"embarkDefense": 10,
