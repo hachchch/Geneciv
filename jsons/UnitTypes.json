@@ -74,6 +74,8 @@
 	{
 		"name": "Fishes",
 		"movementType": "Water",
+		"uniques": ["Instantly consumes [2] [Oxygen] <before discovering [Gills]> <upon ending a turn in a [Water] tile>",
+		"Instantly consumes [1] [Oxygen] <after discovering [Gills]> <upon ending a turn in a [Water] tile>"]
 	},
 	{
 		"name": "Water Arthropod",
