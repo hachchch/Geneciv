@@ -22,7 +22,7 @@
 	},
 	{
 		"name": "Hunter",
-		"food": 4,
+		"food": 2,
 		"happiness": 2,
 		"gold": 2,
 		"greatPersonPoints": { "Great Chief": 3 },
@@ -35,7 +35,7 @@
 	},
 	{
 		"name": "Creature",
-		"food": 2,
+		"food": 1,
 		"color": [139, 69, 19],
 	}
 ]
