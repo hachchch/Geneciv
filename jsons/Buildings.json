@@ -33,7 +33,7 @@
 	},
 	{
 		"name": "Electrochemical Gradient", // Spontaneous
-		"gold": 7,
+		"gold": 5,
 		"uniqueTo": "Spontaneous",
 		"requiredTech": "Nucleotides",
 		"replaces": "Adenosine Triphosphate",
