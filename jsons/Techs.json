@@ -611,7 +611,7 @@
 				"name": "Gills",
 				"row": 5,
 				"prerequisites": ["Fish"],
-				"uniques": ["[+25]% Production when constructing [Fishes] units [in all cities]"]
+				"uniques": ["Become half of the oxygen consumed by the fish unit.","[-10]% maintenance cost for buildings [in all cities]"]
 			},
 			{
 				"name": "Spore Plant",
@@ -624,25 +624,24 @@
 				"name": "Fins",
 				"row": 4,
 				"prerequisites": ["Fish"],
-				"uniques": ["[+15]% Production when constructing [Fishes] units [in all cities]"]
+				"uniques": ["Improve Fishes Mobility"]
 			},
 			{
 				"name": "Cold Blooded",
 				"row": 6,
 				"prerequisites": ["Fish"],
-				"uniques": ["[+10]% Production when constructing [Water] units [in all cities]"]
 			},
 			{
 				"name": "Jaw",
 				"row": 7,
 				"prerequisites": ["Fish"],
-				"uniques": ["Fish With Jaw Confirmed","[+1 Food] from [Ocean] tiles [in all cities]","[+1 Food] from [Coast] tiles [in all cities]"],
+				"uniques": ["All fish unit become non-Jawless, Improve their Strength","[+1 Food] from [{Coast} {Fish}] tiles [in all cities]"],
 			},
 			{
 				"name": "Fish Egg",
 				"row": 9,
 				"prerequisites": ["Fish","Cocoon"],
-				"uniques": ["[5]% Food is carried over after population increases [in all cities]","[+15]% Production when constructing [Fishes] units [in all cities]","[+1 Food] from [River] tiles [in all cities]"],
+				"uniques": ["[5]% Food is carried over after population increases [in all cities]","[+1 Food] from [{unimproved} {Fresh water}] tiles [in all cities]"]
 			},
 			{
 				"name": "Excretion Opening",
@@ -694,7 +693,7 @@
 				"name": "Predation",
 				"row": 8,
 				"prerequisites": ["Excretion Opening","Jaw"],
-				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]"],
+				"uniques": ["[+1 Food] from [{Ocean} {Fish}] tiles [in all cities]"],
 				"quote": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
 				"civilopediaText": [
 			{
