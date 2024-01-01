@@ -36,6 +36,7 @@
 	{
 		"name": "Creature",
 		"food": 1,
+		"culture": 1,
 		"color": [139, 69, 19],
 	}
 ]
