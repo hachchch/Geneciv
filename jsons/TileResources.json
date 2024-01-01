@@ -111,12 +111,12 @@
                 "terrainsCanBeFoundOn": ["Grassland"]
 		"food": -1,
 		"improvement": "GrassLand",
-                "production": 3,
+                "production": 1,
+		"food": -1
 		"uniques": ["Guaranteed with Strategic Balance resource option","Generated with weight [25]","Generated on every [12] tiles <in [Grassland] tiles>"],
-		"improvementStats": {"food": 2},
+		"improvementStats": {"food": 1, "production": 1},
 		"majorDepositAmount": {"sparse": 20, "default": 30, "abundant": 40},
 		"minorDepositAmount": {"sparse": 10, "default": 15, "abundant": 15},
-		"improvementStats": {"food": 2},
 	},
 	{
 		"name": "Oasis",
@@ -181,8 +181,6 @@
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1},
 		"food": 1,
-		"Gold": 3,
-		"production": 1,
 	},
 	{
 		"name": "Wheat",
