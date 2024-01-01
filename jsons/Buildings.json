@@ -646,7 +646,8 @@
 	{
 		"name": "Otavia Antiqua",
 		"cost": 1,
-		"science": 1,
+		"food": 2,
+		// "science": 1,
 		"gold": 1,
 		"uniques": ["Unbuildable","[+1] population [in this city]","Destroyed when the city is captured"],
 	},
@@ -662,7 +663,7 @@
                 "cost": 25,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Gold, +1 Production] from [Lakes] tiles [in this city]"],
+		// "uniques": ["[+1 Gold, +1 Production] from [Lakes] tiles [in this city]"],
 		"requiredTech": "Primordial Soup",
         },
 	{
@@ -682,7 +683,6 @@
 	},
 	{
 		"name": "Microbiota",
-		"food": 1,
 		"gold": 3,
 		"production": 1,
 		"science": 1,
@@ -832,7 +832,8 @@
 		"requiredBuilding": "Nervous System",
 		"cost": 400,
 		"happiness": 4,
-		"uniques": ["[+10]% [Production] [in this city]"],
+		"gold": 3,
+		"uniques": ["[+15]% [Gold] [in this city]"],
 		"requiredTech": "Medulla Oblongata",
 	},
 	{
@@ -843,7 +844,7 @@
 		"science": 4,
 		"production": 4,
 		"requiredTech": "Neocortex",
-		"uniques": ["New [Mammal] units start with [15] Experience [in this city]","[+15]% [Science] [in this city]","[+10]% [Production] [in this city]"],
+		"uniques": ["New [Mammal] units start with [15] Experience [in this city]","[+15]% [Science] [in this city]"],
 	},
 	{
 		"name": "Big Brain",
@@ -1074,7 +1075,7 @@
 		"specialistSlots": {"Vegetation": 1},
 		"cost": 120,
 		"requiredTech": "Chloroplasts",
-		"uniques": ["Must be next to [Coast]","[+1 Food] from [Coast] tiles [in this city]"]
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"]
 	},
 	{
 		"name": "Fungi",
@@ -1136,8 +1137,9 @@
 		"name": "Limbic System",
 		"requiredBuilding": "Mammal Brain",
 		"cost": 240,
+		"science": 3,
 		"requiredTech": "Learning",
-		"uniques": ["[+50]% XP gained from combat <for [Mammal] units> <in this city>","New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]","[+4 Science] from [City center] tiles [in this city]"],
+		"uniques": ["New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]"],
 	},
 	{
 		"name": "Gamerule",
