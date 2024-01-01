@@ -1146,7 +1146,7 @@
 		"cityStrength": -5,
 		"cityHealth": -5,
 		"happiness": -3,
-		"science": -3,
+		// "science": -3,
 		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured"]
 	},
         {
