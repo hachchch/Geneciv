@@ -411,7 +411,7 @@
 				"name": "Sexual Reproduction",
 				"row": 9,
 				"prerequisites": ["Asexual Reproduction"],
-				"uniques": ["Enables conversion of city production to [Science]","[+1 Science, +1 Culture] from every specialist [in all cities]"],
+				"uniques": ["Enables conversion of city production to [Science]","[+1 Science] from every specialist [in all cities]"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Sexual Reproduction",
