@@ -588,9 +588,9 @@
 	},
 	{
 		"name": "End Of Boring Billion",
-		"cost": 200,
-		"science": 1,
-		"uniques": ["Requires a [Fungi] in all cities", "Cost increases by [30] per owned city","[+20]% [Science] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
+		"cost": 300,
+		"culture": 1,
+		"uniques": ["Cost increases by [30] per owned city","[+50]% [Culture] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
 		"isNationalWonder": true,
 	},
 	// Aquatic Charales
@@ -1018,9 +1018,10 @@
 	{
 		"name": "Polypeptides",
 		"cost": 70,
-		"science": 2,
+		// "science": 2,
 		"maintenance": 1,
-		"uniques": ["[+33]% Production when constructing [Particle] units [in this city]"],
+		// "uniques": ["[+33]% Production when constructing [Particle] units [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Protein",
 	},
 	{
@@ -1047,7 +1048,7 @@
 		"cost": 80,
 		"maintenance": 1,
 		"requiredTech": "Mitosis",
-		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[5]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Phagocytic Cell",
@@ -1061,10 +1062,10 @@
 	{
 		"name": "Oscula",
 		"maintenance": 1,
-		"specialistSlots": {"Creature": 1},
+		// "specialistSlots": {"Creature": 1},
 		"cost": 100,
 		"production": 2,
-		"uniques": ["Must be next to [Coast]","[+1 Production] from [Coast] tiles [in this city]"],
+		"uniques": ["Must be next to [Coast]","[+1 Production] from [Water] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]"],
 		"requiredTech": "Coral",
 	},
 	{
@@ -1088,10 +1089,11 @@
 	{
 		"name": "Fungi",
 		"maintenance": 1,
-		"specialistSlots": {"Meristem": 1},
+		"specialistSlots": {"Meristem": 2},
 		"requiredTech": "Tissue",
 		"cost": 100,
-		"science": 2,
+		"gold": 1,
+		// "science": 2,
 	},
 	{
 		"name": "Muscles",
