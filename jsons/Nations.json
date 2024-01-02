@@ -27,7 +27,7 @@
 		"outerColor": [138,50,70],
 		"innerColor": [255,167,165],
 		"uniqueName": "Germ spread theory",
-		"uniques": ["[+3 Food] [in all cities] <before discovering [Sexual Reproduction]>",
+		"uniques": ["[+2 Food] [in capital] <before discovering [Sexual Reproduction]>",
 		"[+3 Science] [in all cities] <before discovering [Primordial Soup]>",
 		"When spreading religion to a city, gain [13] times the amount of followers of other religions as [Science]"],
 		"cities": ["Granular Zircons","Priscoan","Narryer Gneiss Terrane","Jack Hills","Xenolith","Guiana Shield"],
