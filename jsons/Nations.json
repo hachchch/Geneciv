@@ -7,6 +7,7 @@
 	{
 		"name": "Panspermia",
 		"leaderName": "Anaxagoras",
+		// "leaderName": "",
 		"adjective": ["Panspermian"],
 		"startBias": ["Lakes"],
 		"preferredVictoryType": "Scientific",
@@ -262,11 +263,19 @@
 	},
 	{
 		"name": "Hirnantian",
-		"leaderName": "B.B. Bancroft",
+		// "leaderName": "B.B. Bancroft",
+		"leaderName": "Katia Rainbow", // It's a name I came up with on the fly. Maybe it will change.
 		"adjective": ["Hirnantian"],
 		"preferredVictoryType": "Domination",
-		"startIntroPart1": "",
+		"startIntroPart1": "The Hirnantian is the final internationally recognized stage of the Ordovician Period of the Paleozoic Era. It was of short duration, lasting about 1.4 million years, from 445.2 to 443.8 Ma (million years ago). The early part of the Hirnantian was characterized by cold temperatures, major glaciation, and a severe drop in sea level. In the latter part of the Hirnantian, temperatures rose, the glaciers melted, and sea level returned to the same or to a slightly higher level than it had been prior to the glaciation.", // from wikipedia
 		"startIntroPart2": "",
+		"declaringWar": "All my marine creatures are irritated by your intrusion on their feeding grounds. I have to do for this.",
+		"attacked": "I watched dream of underwater, There was a perfect living. for that, I never die! Protect mother sea, even its foreign evils!",
+		"defeated": "I hope there's a wonderful rainbow to my fossil...",
+		"introduction": "Ooga Booga.",
+		"neutralHello": "How are you doing.",
+		"hateHello": "Hello...?",
+		"tradeRequest": "Is it Reasonably?",
 		"outerColor": [ 112,1,65],
 		"innerColor": [255,188,175],
 		"cities": ["Hirnantian","Bolindian","Porkuni","Wufeng","Gamachian","Ashgill"],
