@@ -148,7 +148,8 @@
 	},
 	{
 		"name": "Ediacara",
-		"leaderName": "Reginald Claude Sprigg",
+		// "leaderName": "Reginald Claude Sprigg", I wonder if it's okay to mention the name of an actual researcher...
+		"leaderName": "Freak the Jellyfish",
 		"adjective": ["Ediacaran"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
@@ -156,13 +157,13 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
+		"declaringWar": "Our jellyfish will destroy your world soon! Yeah, There's no hostility and reason in them, they just float up and down!",
+		"attacked": "Woah, you wanna crush jellyfish? Well, These cute and capricious jellyfish have super deadly poison, isn't it?",
+		"defeated": "Feel sad, Our Polyp has been eradicated for ever!",
+		"introduction": "Howdy! I'm the most genius Jellyfish!",
 
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"neutralHello": "Hi there! how are you doing?",
+		"hateHello": "So?",
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
@@ -178,7 +179,8 @@
 	},
 	{
 		"name": "Burgess",
-		"leaderName": "Reginald Claude Sprigg",
+		// "leaderName": "Reginald Claude Sprigg",
+		"leaderName": "King Trilobite",
 		"adjective": ["Burgessis"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
@@ -186,13 +188,14 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
+		"declaringWar": "The Life and Death of Planet Earth, Massive destruction is certain to come with dominant life and climate change... can you survive with your animal's worst genome?",
+		"attacked": "Well, you will see why I'm called 'Wonderful Life'.",
+		"defeated": "No matter what you do, Our biota will be preserved.",
+		"introduction": "Welcome to the honored arthropoda kingdom.",	
 
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"neutralHello": "Hello.",
+		"hateHello": "Well?",
+		"hateHello": "What are you planning...",
 
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 
@@ -235,31 +238,26 @@
 	},
 	{
 		"name": "Sahelanthropus",
-		"leaderName": "Hominini",
+		"leaderName": "Orrorin",
 		"adjective": ["Sahelanthropus"],
 		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
-		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
-		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
-		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
-		"introduction": "The people of the United States of America welcome you.",
-		"neutralHello": "Good day.",
-		"hateHello": "Well?",
+		"declaringWar": "Ooga BoogaOoga Booga!",
+		"attacked": "Ooga Booga!",
+		"defeated": "Ooga Booga.",
+		"introduction": "Ooga Booga.",
+		"neutralHello": "Ooga Booga.",
+		"hateHello": "Ooga Booga!",
 		"tradeRequest": "Is the following trade of interest to you?",
 
 		"outerColor": [46,0,36],
 		"innerColor": [152,132,114],
 
 		"uniqueName": "Chimpanzee-Human Last Common Ancestor",
-		"uniques": ["Production to [Science] conversion in cities changed by [33]%",
+		"uniques": ["Production to [Science] conversion in cities changed by [+10]%",
 			"[1] additional attacks per turn <for [Thrower] units>","[+200]% to Flank Attack bonuses <for [Hominiae] units>"],// Unique Unit Chimpanzee to replaces the any Hominina 
-		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+		"cities": ["Tugen Hills","Ouranopithecus","Larynx","Pharynx","Lucy","Adam","Eve","Chimp Forest","Savanna of Sapiens","Cavemens Cave"],
 		"spyNames": ["Ooga", "Booga", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
