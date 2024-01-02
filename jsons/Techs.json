@@ -10,7 +10,7 @@
 				"name": "Home Star",
 				"row": 5,
 				"quote": "The Sun is the star at the center of the Solar System. It is a massive, hot ball of plasma, inflated and heated by energy produced by nuclear fusion reactions at its core. Part of this internal energy is emitted from its surface as light, ultraviolet, and infrared radiation, providing most of the energy for life on Earth.",
-				"uniques": ["The Sun","Starting tech","Instantly provides [38000] [Temperature]"],
+				"uniques": ["The Sun","Starting tech","Instantly provides [3800] [Temperature]"],
 			}
                 ]
         },
@@ -53,7 +53,7 @@
 				"name": "Primordial Soup",
 				"row": 5,
 				"prerequisites": ["Planet Earth"],
-				"uniques": ["[+4 Happiness] from [Lakes] tiles [in all cities]","Instantly provides [50000] [Oxygen]","Instantly provides [50000] [Atmosphere]","Instantly provides [50000] [Water]","Instantly provides [50000] [Temperature]"],
+				"uniques": ["Instantly provides [5000] [Oxygen]","Instantly provides [5000] [Atmosphere]","Instantly provides [5000] [Water]","Instantly provides [5000] [Temperature]"],
 				"quote": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
 				"civilopediaText": [
 			{
