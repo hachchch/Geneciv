@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+	    "Nullifies [Faith] [in all cities] <before discovering [Religion]>",
 	    // "[-50]% [Food] from every [Improvement]",
 	    // SubUnitTypes
 	    "[+20]% Production when constructing [Cretaceous] units [in all cities] <during the [Mesozoic era]>",
