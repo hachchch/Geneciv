@@ -554,6 +554,15 @@
 		"quote": "'The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light (from about 200 nm to 315 nm wavelength), which otherwise would potentially damage exposed life forms near the surface.' -Wikipedia",
 	},
 	{
+		"name": "Proteinoid",
+		"isNationalWonder": true,
+		"cost": 250,
+		"science": 3,
+		"requiredTech": "Protein",
+		"uniques": ["Free Technology","Requires a [Polypeptides] in all cities", "Cost increases by [30] per owned city"],
+		"quote": "In trying to uncover the intermediate stages of abiogenesis, scientist Sidney W. Fox in the 1950s and 1960s, studied the spontaneous formation of peptide structures under conditions that might plausibly have existed early in Earth's history. He demonstrated that amino acids could spontaneously form small chains called peptides. In one of his experiments, he allowed amino acids to dry out as if puddled in a warm, dry spot in prebiotic conditions. He found that, as they dried, the amino acids formed long, often cross-linked, thread-like microscopic polypeptide globules, he named 'Proteinoid microspheres'.",
+	},
+	{
 		"name": "Cambrian Explosion",
 		"specialistSlots": {"Creature": 2},
 		"isNationalWonder": true,
