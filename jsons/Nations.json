@@ -56,7 +56,7 @@
 		"outerColor": [128,50,50],
 		"innerColor": [15,0,0],
 		"uniqueName": "Convergent Boundary",
-		"uniques": ["[+100]% [Gold]","[+90]% [Production] [in all cities]","[-90]% [Food] [in all cities]",
+		"uniques": ["[+100]% [Gold]","[-50]% [Food] [in all cities]",
 			"[+1] Sight <for [Cell] units>","[-1] Movement <for [Cell] units>"],
 		"cities": ["Vaalbara","Pongola","Dharwar Craton","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
