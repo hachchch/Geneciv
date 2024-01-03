@@ -81,7 +81,7 @@
 		"cityStrength": 15,
                 "cityHealth": 500,
 		"maintenance": 3,
-		"requiredTech": "Glands",
+		"requiredTech": "Hair",
 	},
 	// Glands
 	{
