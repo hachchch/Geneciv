@@ -22,8 +22,8 @@
 	{
 		"name": "Water",
 		"resourceType": "Strategic",
-		"revealedBy": "Planet Earth",
-		"uniques": ["Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
+		// "revealedBy": "Planet Earth",
+		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
 	},
 	{
 		"name": "Oxygen",
