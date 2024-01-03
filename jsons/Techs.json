@@ -53,7 +53,7 @@
 				"name": "Primordial Soup",
 				"row": 5,
 				"prerequisites": ["Planet Earth"],
-				"uniques": ["Instantly provides [5000] [Oxygen]","Instantly provides [5000] [Atmosphere]","Instantly provides [500000] [Water]","Instantly provides [5000] [Temperature]"],
+				"uniques": ["Instantly provides [5000] [Oxygen]","Instantly provides [5000] [Atmosphere]","Instantly provides [5000] [Water]","Instantly provides [5000] [Temperature]"],
 				"quote": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
 				"civilopediaText": [
 			{
@@ -440,7 +440,7 @@
 				"row": 5,
 				"prerequisites": ["Muscles","Sponge"],
 				"uniques": ["Enables embarkation for land units"],
-				"quote": "Translucent, moving objects have been created from polyps that at first glance look like coral. Yes, this is our ancestor. Lol",
+				"quote": "'Why did it come to this town, what did it come here for? Everyone walking outside are all wearing a helmet. Since when was it there, where was it from? No one knows. this is no illusion or immagination, It definitely is right here.' - One of Missing Song called Kurage", // I like this song too much lol
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Swimming",
@@ -525,7 +525,7 @@
 		"columnNumber": 13,
 		"era": "Cambrian period",
 		"techCost": 245,
-		"buildingCost": 50,
+		"buildingCost": 135,
 		"wonderCost": 100,
 		"techs": [
 			{
@@ -560,7 +560,7 @@
 		"columnNumber": 14,
 		"era": "Silurian period",
 		"techCost": 350,
-		"buildingCost": 50,
+		"buildingCost": 250,
 		"wonderCost": 100,
 		"techs": [
 			{
@@ -604,7 +604,7 @@
 		"columnNumber": 15,
 		"era": "Silurian period",
 		"techCost": 440,
-		"buildingCost": 50,
+		"buildingCost": 325,
 		"wonderCost": 100,
 		"techs": [
 			{
@@ -655,8 +655,8 @@
 		"columnNumber": 16,
 		"era": "Ancient era",
 		"techCost": 480,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 400,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "Medulla Oblongata",
