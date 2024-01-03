@@ -59,11 +59,57 @@
 		"food": 1,
 		"uniques": ["[1] Unit Supply","All newly-trained [Cell] units [in this city] receive the [Crustal Deformation] promotion"]
 	},
+	// Defensive
+	{
+		"name": "Metabolism",
+		"cityStrength": 15,
+                "cityHealth": 200,
+		"maintenance": 2,
+		"requiredTech": "Warm Blooded",
+		"uniques": ["Warm-blooded is an informal term referring to animal species whose bodies maintain a temperature higher than that of their environment. In particular, homeothermic species (including birds and mammals) maintain a stable body temperature by regulating metabolic processes. Other species have various degrees of thermoregulation."]
+	},
+	{
+		"name": "Dermis",
+		"cityStrength": 5,
+                "cityHealth": 100,
+		"maintenance": 1,
+		"requiredTech": "Tissue",
+	},
+	{
+		"name": "Hair Follicle",
+		"requiredBuilding": "Dermis",
+		"cityStrength": 15,
+                "cityHealth": 500,
+		"maintenance": 3,
+		"requiredTech": "Glands",
+	},
+	// Glands
+	{
+		"name": "Sebaceous",
+		"requiredBuilding": "Dermis",
+		"gold": 3,
+		// "maintenance": 1,
+		"requiredTech": "Glands",
+	},
+	{
+		"name": "Sudoriferous",
+		"requiredBuilding": "Dermis",
+		"production": 2,
+		"maintenance": 1,
+		"requiredTech": "Glands",
+	},
+	{
+		"name": "Apocrine",
+		"requiredBuilding": "Dermis",
+		"uniques": ["[+5]% [Production] [in this city]"],
+		"maintenance": 1,
+		"requiredTech": "Glands",
+	},
 	// Land Arthropod
 	{
 		"name": "Beetles",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
@@ -74,7 +120,7 @@
 	{
 		"name": "Uniramia",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
@@ -86,7 +132,7 @@
 	{
 		"name": "Orthoptera",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Insect",
@@ -98,7 +144,7 @@
 	{
 		"name": "Dixidae",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"maintenance": 2,
 		"production": 2,
 		"uniques": ["Bugs","Culicoidea"],
@@ -108,7 +154,7 @@
 	{
 		"name": "Chaoboridae",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"gold": 2,
 		"cost": 200,
 		"uniques": ["Bugs","Culicoidea"],
@@ -118,7 +164,7 @@
 	{
 		"name": "Mosquito",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"science": 2,
 		"cost": 200,
 		"uniques": ["Bugs","Vampire","Culicoidea"],
@@ -128,7 +174,7 @@
 	{
 		"name": "Midge",
 		"cityStrength": 2,
-                "cityHealth": 10,
+                "cityHealth": 100,
 		"food": 1,
 		"maintenance": 1,
 		"uniques": ["Bugs","[+1 Food] from [Jungle] tiles [in this city]"]
@@ -137,7 +183,7 @@
 	{
 		"name": "Phasmatodea",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"maintenance": 2,
 		"happiness": 2,
 		"requiredTech": "Grass",
@@ -146,7 +192,7 @@
 	{
 		"name": "Lepidoptera", // Pieris Rapae my beloved animal
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"cost": 230,
 		"maintenance": 3,
 		"requiredTech": "Flowers",
@@ -155,7 +201,7 @@
 	{
 		"name": "Hummingbirds", // Is it should include Bugs?
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"maintenance": 3,
 		"cost": 230,
 		"uniques": ["Birds","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
@@ -164,7 +210,7 @@
 	{
 		"name": "Bee",
 		"cityStrength": 1,
-                "cityHealth": 5,
+                "cityHealth": 50,
 		"maintenance": 3,
 		"cost": 230,
 		"uniques": ["Bugs","Coevolution","Must be next to [Grassland]","[+1 Food] from [{Grassland} {GrassLand}] tiles [in this city]"],
