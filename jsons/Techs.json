@@ -47,7 +47,7 @@
 		"era": "Hadean eon",
 		"techCost": 50,
 		"buildingCost": 40,
-		"wonderCost": 100,
+		"wonderCost": 200,
 		"techs": [
 			{
 				"name": "Primordial Soup",
@@ -561,7 +561,7 @@
 		"era": "Silurian period",
 		"techCost": 350,
 		"buildingCost": 250,
-		"wonderCost": 100,
+		"wonderCost": 800,
 		"techs": [
 			{
 				"name": "Eye",
@@ -605,7 +605,7 @@
 		"era": "Silurian period",
 		"techCost": 440,
 		"buildingCost": 325,
-		"wonderCost": 100,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Gills",
@@ -715,7 +715,7 @@
 		"era": "Carboniferous period",
 		"techCost": 570,
 		"buildingCost": 500,
-		"wonderCost": 550,
+		"wonderCost": 1050,
 		"techs": [
 			{
 				"name": "Reptile",
@@ -755,8 +755,8 @@
 		"columnNumber": 18,
 		"era": "Permian period",
 		"techCost": 600,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 520,
+		"wonderCost": 1100,
 		"techs": [
 			{
 				"name": "Herbivore",
@@ -792,8 +792,8 @@
 		"columnNumber": 19,
 		"era": "Mesozoic era",
 		"techCost": 780,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 540,
+		"wonderCost": 1200,
 		"techs": [
 			{
 				"name": "Dinosaur",
@@ -817,8 +817,8 @@
 		"columnNumber": 20,
 		"era": "Mesozoic era",
 		"techCost": 850,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 560,
+		"wonderCost": 1400,
 		"techs": [
 			{
 				"name": "Gliding",
@@ -865,8 +865,8 @@
 		"columnNumber": 21,
 		"era": "Paleogene period",
 		"techCost": 900,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 600,
+		"wonderCost": 1800,
 		"techs": [
 			{
 				"name": "Flying",
@@ -890,7 +890,7 @@
 		"era": "Paleogene period",
 		"techCost": 950,
 		"buildingCost": 50,
-		"wonderCost": 100,
+		"wonderCost": 2000,
 		"techs": [
 			{
 				"name": "Bat",
@@ -936,7 +936,7 @@
 		"columnNumber": 23,
 		"era": "Miocene",
 		"techCost": 1000,
-		"buildingCost": 50,
+		"buildingCost": 640,
 		"wonderCost": 100,
 		"techs": [
 			{
@@ -955,7 +955,7 @@
 		"columnNumber": 24,
 		"era": "Miocene",
 		"techCost": 1200,
-		"buildingCost": 50,
+		"buildingCost": 720,
 		"wonderCost": 100,
 		"techs": [
 			{
@@ -987,7 +987,7 @@
 		"columnNumber": 25,
 		"era": "Pliocene",
 		"techCost": 1350,
-		"buildingCost": 50,
+		"buildingCost": 800,
 		"wonderCost": 100,
 		"techs": [
 			{
@@ -1006,7 +1006,7 @@
 		"columnNumber": 26,
 		"era": "Pliocene",
 		"techCost": 1800,
-		"buildingCost": 50,
+		"buildingCost": 900,
 		"wonderCost": 100,
 		"techs": [
 			{
@@ -1030,7 +1030,7 @@
 		"columnNumber": 27,
 		"era": "Pleistocene",
 		"techCost": 2200,
-		"buildingCost": 50,
+		"buildingCost": 1000,
 		"wonderCost": 100,
 		"techs": [
 			{
