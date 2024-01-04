@@ -184,7 +184,7 @@
 		"leaderName": "King Trilobite",
 		"adjective": ["Burgessis"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
