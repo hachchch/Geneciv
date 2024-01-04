@@ -1,0 +1,89 @@
+AbsUnits.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Chiroptera
+  rotate: false
+  xy: 0, 0
+  size: 105, 120
+  orig: 105, 120
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Platypus
+  rotate: false
+  xy: 0, 120
+  size: 114, 109
+  orig: 114, 109
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Kangaroos
+  rotate: false
+  xy: 105, 0
+  size: 95, 92
+  orig: 95, 92
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Koala
+  rotate: false
+  xy: 0, 229
+  size: 89, 91
+  orig: 89, 91
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Pikaia
+  rotate: false
+  xy: 0, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mosasaur
+  rotate: false
+  xy: 0, 384
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Polar Bear
+  rotate: false
+  xy: 0, 448
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Giant Squid
+  rotate: false
+  xy: 0, 512
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Trilobites
+  rotate: false
+  xy: 64, 320
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Dunkleosteus
+  rotate: false
+  xy: 89, 229
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Theropoda
+  rotate: false
+  xy: 114, 92
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Ankylosauria
+  rotate: false
+  xy: 114, 156
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
