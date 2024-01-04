@@ -553,6 +553,7 @@
 		"strength": 24,
 		"movement": 1,
 		"requiredTech": "Lungfish",
+		"attackSound": "crrr",
 		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
 		"civilopediaText": [
 			{
@@ -581,6 +582,7 @@
 		"uniques": ["Devonian","Pennsylvanian","Quadrupedal","[+50]% Strength <after discovering [Lung]>","[+1] Movement <after discovering [Legs]>","Can move after attacking <after discovering [Legs]>"],
 		"strength": 24,
 		"requiredTech": "Reptile",
+		"attackSound": "crrr",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Small Reptile",
@@ -604,6 +606,7 @@
 		"upgradesTo": "Saurischia",
 		"strength": 50,
 		"requiredTech": "Archosauria",
+		"attackSound": "whirrs",
 		"uniques": ["Triassic","Predator","Herbivore","Quadrupedal","Bipedal"],
 		"civilopediaText": [
 			{
@@ -822,6 +825,7 @@
 		"movement": 1,
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
+		"attackSound": "Monster",
 		"uniques": ["Jurassic","Quadrupedal","Armored"],
 		"promotions": ["Ankylosis I"],
 		"civilopediaText": [
@@ -901,6 +905,7 @@
 		"strength": 60,
 		"cost": 860,
 		"movement": 2,
+		"attackSound": "Splash",
 		"uniques": ["Cretaceous","Predator","[+150]% <when fighting in [Fresh water] tiles> <hidden from users>",
 		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
 		"[+1] Movement <in [Fresh water] tiles>","[+1] Movement <in [Coastal] tiles>",
@@ -939,6 +944,7 @@
 		"cost": 500,
 		"requiredTech": "Modern Ocean",
 		"obsoleteTech": "Anthropocene",
+		"attackSound": "whoo",
 		"uniques": ["Cretaceous","Cannot attack"],
 		"promotions": ["Shell"]
 	},
@@ -948,6 +954,7 @@
 		"obsoleteTech": "Eutherians",
 		"cost": 300,
 		"strength": 45,
+		"attackSound": "Slash",
 		"uniques": ["Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
 		"requiredTech": "Mammal",
