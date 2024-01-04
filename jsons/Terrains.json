@@ -103,7 +103,7 @@
 	{
 		"name": "Namakier",
 		"type": "NaturalWonder",
-		"food": 3,
+		"gold": 3,
 		"happiness": 2,
 		"occursOn": ["Plains"],
 		"turnsInto": "Mountain",
@@ -115,7 +115,7 @@
 		"name": "Crater",
 		"type": "NaturalWonder",
 		"food": 1,
-		"science": 2,
+		"science": 3,
 		"occursOn": ["Grassland"],
 		"turnsInto": "Mountain",
 		"impassable": true,
