@@ -1663,6 +1663,20 @@ TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Crater
+  rotate: false
+  xy: 780, 1901
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Namakier
+  rotate: false
+  xy: 880, 1901
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/FaunasG
   rotate: false
   xy: 680, 1801
