@@ -1672,9 +1672,9 @@ TileSets/HexaRealm/Tiles/Crater
   index: -1
 TileSets/HexaRealm/Tiles/Namakier
   rotate: false
-  xy: 880, 1901
-  size: 64, 56
-  orig: 64, 56
+  xy: 880, 1931
+  size: 64, 86
+  orig: 64, 86
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/FaunasG
