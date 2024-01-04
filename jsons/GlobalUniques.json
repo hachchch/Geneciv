@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+	    "[-200]% growth [in all cities]",
 	    "Nullifies [Faith] [in all cities] <before discovering [Religion]>",
 	    // "[-50]% [Food] from every [Improvement]",
 	    // SubUnitTypes
