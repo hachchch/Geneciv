@@ -394,6 +394,7 @@
 				"name": "Sponge",
 				"row": 5,
 				"prerequisites": ["Tissue","Filter Feeding"],
+				"quote": "'Sponges, the members of the phylum Porifera, are a basal animal clade as a sister of the diploblasts. They are multicellular organisms that have bodies full of pores and channels allowing water to circulate through them, consisting of jelly-like mesohyl sandwiched between two thin layers of cells.' - Wikipedia",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Sponge",
@@ -421,7 +422,7 @@
 				"Separator": true
 			},
 			{
-				"text": "1.2 Billion Years Ago",
+				"text": "Sexual Reproduction started from 1.2 Billion Years Ago",
 			},
 				]
 			},
@@ -536,11 +537,13 @@
 			{
 				"name": "Vertebrate",
 				"row": 8,
+				"quote": "Vertebrae are bones that protect the spinal cord.",
 				"prerequisites": ["Articulation"],
 			},
 			{
 				"name": "Heart",
 				"row": 4,
+				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
 				"prerequisites": ["Bilateral Symmetry"],
 			},
 			{
@@ -668,6 +671,7 @@
 			{
 				"name": "Fern",
 				"row": 1,
+				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
 				"prerequisites": ["Spore Plant"],
 				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
