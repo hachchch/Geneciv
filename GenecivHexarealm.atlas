@@ -60,3 +60,58 @@ TileSets/HexaRealm/Units/Small Reptile
   orig: 64, 56
   offset: 0, 0
   index: -1
+
+GenecivHexarealm2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Units/Fish
+  rotate: false
+  xy: 0, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Jellyfish
+  rotate: false
+  xy: 0, 56
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Tamisiocaris
+  rotate: false
+  xy: 0, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Crustacean
+  rotate: false
+  xy: 0, 112
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Flatworm
+  rotate: false
+  xy: 0, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Great General
+  rotate: false
+  xy: 0, 224
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Radiodonta
+  rotate: false
+  xy: 0, 280
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
