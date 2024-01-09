@@ -1078,6 +1078,11 @@
 				"prerequisites": ["Homo Erectus","Homo Heidelbergensis"],
 			},
 			{
+				"name": "Humanization",
+				"row": 6,
+				"prerequisites": ["Homo Erectus"]
+			},
+			{
 				"name": "Advanced Game",
 				"row": 1,
 				"prerequisites": ["Stone Tools"],
@@ -1116,7 +1121,7 @@
 			{
 				"name": "Homo Sapiens Sapiens",
 				"row": 6,
-				"prerequisites": ["Homo Sapiens","Homo Neanderthalensis"],
+				"prerequisites": ["Humanization","Homo Sapiens","Homo Neanderthalensis"],
 				"quote": "It's you.",
 			},
 			{
