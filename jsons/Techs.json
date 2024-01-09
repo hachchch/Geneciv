@@ -216,7 +216,8 @@
 				"name": "Mitochondria",
 				"row": 3,
 				"prerequisites": ["Prokaryotic Cell"],
-				"uniques": ["[+2 Production] [in all cities]"],
+				// "uniques": ["[+2 Production] [in all cities]"],
+				"quote": "'A mitochondrion (mitochondria) is an organelle found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a double membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as a source of chemical energy.' - Wikipedia",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Mitochondria",
