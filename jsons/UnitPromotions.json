@@ -779,12 +779,68 @@
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
+		"name": "Predation",
+		"row": 1433,
+		"column": 4,
+		"unitType": ["Water Arthropod"],
+		"prerequisites": ["Oral Cone III"]
+		"uniques": ["Predator","[1] additional attacks per turn"]
+	},
+	{
 		"name": "Oral Cone III",
 		"row": 1433,
 		"column": 3,
 		"prerequisites": ["Oral Cone II"],
 		"unitType": ["Water Arthropod"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
+	},
+	{
+		"name": "Compound Eye",
+		"row": 1435,
+		"column": 4,
+		"unitType": ["Water Arthropod"],
+		"prerequisites": ["Oral Cone III","Frontal Appendage III"],
+		"uniques": ["[+1] Sight"]
+	},
+	{
+		"name": "Ventral Flap I",
+		"row": 1434,
+		"column": 2,
+		"unitType": ["Water Arthropod"],
+		"prerequisites": ["Oral Cone I","Frontal Appendage I"],
+		"uniques": ["[+1] Movement"]
+	},
+	{
+		"name": "Ventral Flap II",
+		"row": 1434,
+		"column": 3,
+		"unitType": ["Water Arthropod"],
+		"prerequisites": ["Ventral Flap I"],
+		"uniques": ["Can move after attacking"]
+	},
+	{
+		"name": "Setal Blades I",
+		"row": 1436,
+		"column": 2,
+		"unitType": ["Water Arthropod"],
+		"prerequisites": ["Frontal Appendage I"],
+		"uniques": ["[5] HP when healing"]
+	},
+	{
+		"name": "Setal Blades II",
+		"row": 1436,
+		"column": 3,
+		"unitType": ["Water Arthropod"],
+		"prerequisites": ["Setal Blades I"],
+		"uniques": ["[5] HP when healing","May heal outside of friendly territory","[+15] HP when healing <in [Foreign Land] tiles>"]
+	},
+	{
+		"name": "Ecdysis",
+		"row": 1435,
+		"column": 4,
+		"unitType": ["Water Arthropod"],
+		"prerequisites": ["Frontal Appendage III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
 	{
 		"name": "Frontal Appendage I",
