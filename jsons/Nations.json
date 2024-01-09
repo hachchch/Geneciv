@@ -153,7 +153,7 @@
 		"leaderName": "Freak the Jellyfish",
 		"adjective": ["Ediacaran"],
 		"startBias": ["Coast"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -171,7 +171,7 @@
 		"outerColor": [160,160,200],
 		"innerColor": [242,242,255],
 		"uniqueName": "Snowball Earth",
-		"uniques": ["[+2 Science] from [Snow] tiles [in all cities]","[+2 Science] from [Ice] tiles [in all cities]",
+		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]","[+1 Science] from [Ice] tiles [in all cities]",
 			"[+1 Science] from [{Tundra} {non-[Forest]} {non-[Hill]}] tiles [in all cities]",
 			"No Maintenance costs for improvements in [Snow] tiles"],
 		"cities": ["Pannotia","Gaskiers","Baykonurian","Charnia","Cyclomedusa","Tribrachidium","Kimberella","Xenacoelomorpha","Mollusc","Aspidella",
