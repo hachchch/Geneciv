@@ -852,10 +852,10 @@
 	},
 	{
 		"name": "Ecdysis",
-		"row": 1435,
+		"row": 1436,
 		"column": 4,
 		"unitType": ["Water Arthropod"],
-		"prerequisites": ["Frontal Appendage III"],
+		"prerequisites": ["Frontal Appendage III","Setal Blades II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
 	{
