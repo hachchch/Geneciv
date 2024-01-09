@@ -216,6 +216,16 @@
 		"uniques": ["Bugs","Coevolution","Must be next to [Grassland]","[+1 Food] from [{Grassland} {GrassLand}] tiles [in this city]"],
 		"requiredTech": "Flowers",
 	},
+	{
+		"name": "Housefly",
+		"food": 4,
+		"cityStrength": 5,
+                "cityHealth": 100,
+		"maintenance": 4,
+		"cost": 260,
+		"uniques": ["Bugs","Coevolution"],
+		"requiredTech": "Humanization",
+	},
 	// Fish Age Buildings
 	{
 		"name": "Poikilotherm",
@@ -565,8 +575,21 @@
 		"name": "Cauda Recurvata",
 		"cost": 2250,
 		"isWonder": true,
-		"requiredTech": "Advanced Game",
+		"requiredTech": "Humanization",
 		"uniques": ["[+1] Sight <for [Caniform] units> <when adjacent to a [Human] unit>","[1] additional attacks per turn <for [Caniform] units> <when adjacent to a [Human] unit>","+30% Strength when fighting City-State units and cities"]
+	},
+	{
+		"name": "Symbiogenesis",
+		"isWonder": true,
+		"science": 3,
+		"requiredTech": "Mitochondria", 
+		"uniques": ["[+15]% [Science]"]
+	},
+	{
+		"name": "Carapace",
+		"isWonder": true,
+		"Culture": 3,
+		"uniques": ["[+35]% Strength <for [Water Arthropod] units> <when defending>"]
 	},
 	// Invertebrates
 	{
@@ -690,9 +713,22 @@
 	},
 	//Cell Life
 	{
+		"name": "Chemical Synthesis",
+		"gold": 1,
+		"requiredTech": "Primordial Soup"
+	},
+	{
+		"name": "",
+	},
+	{
+		"name": "Biochemical Synthesis",
+		"gold": 2,
+		"requiredTech": "Mitochondria",
+	},
+	{
 		"name": "Endosymbiont",
 		"cost": 50,
-		"gold": 1,
+		"maintenance": 1,
 		"production": 1,
 		"requiredTech": "Mitochondria",
 	},
