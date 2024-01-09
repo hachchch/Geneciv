@@ -764,11 +764,49 @@
 		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land] tiles>"],
 	},
 	{
-		"name": "",
+		"name": "Oral Cone I",
+		"row": 1433,
+		"column": 1,
 		"unitType": ["Water Arthropod"],
+		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
-		"name": "",
+		"name": "Oral Cone II",
+		"row": 1433,
+		"column": 2,
+		"prerequisites": ["Oral Cone I"],
 		"unitType": ["Water Arthropod"],
-	}
+		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
+	},
+	{
+		"name": "Oral Cone III",
+		"row": 1433,
+		"column": 3,
+		"prerequisites": ["Oral Cone II"],
+		"unitType": ["Water Arthropod"],
+		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
+	},
+	{
+		"name": "Frontal Appendage I",
+		"row": 1435,
+		"column": 1,
+		"unitType": ["Water Arthropod"],
+		"uniques": ["[+15]% Strength <when attacking>"]
+	},
+	{
+		"name": "Frontal Appendage II",
+		"row": 1435,
+		"column": 2,
+		"prerequisites": ["Frontal Appendage I"],
+		"unitType": ["Water Arthropod"],
+		"uniques": ["[+15]% Strength <when attacking>"]
+	},
+	{
+		"name": "Frontal Appendage III",
+		"row": 1435,
+		"column": 3,
+		"prerequisites": ["Frontal Appendage II"],
+		"unitType": ["Water Arthropod"],
+		"uniques": ["[+15]% Strength <when attacking>"]
+	},
 ]
