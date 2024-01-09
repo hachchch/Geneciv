@@ -729,9 +729,6 @@
 		"requiredTech": "Primordial Soup"
 	},
 	{
-		"name": "",
-	},
-	{
 		"name": "Biochemical Synthesis",
 		"gold": 2,
 		"requiredTech": "Mitochondria",
