@@ -459,14 +459,14 @@
 		"gold": 4,
 		"isWonder": true,
 		"cost": 800,
-		"uniques": ["Must be next to [Water]","Instantly consumes [10000] [Oxygen]","Resting point for Influence with City-States is increased by [10]","Unbuildable <before the [Silurian period]>"]
+		"uniques": ["Must be next to [Water]","Instantly consumes [1000] [Oxygen]","Resting point for Influence with City-States is increased by [10]","Unbuildable <before the [Silurian period]>"]
 	},
 	{
 		"name": "Lau Event",
 		"gold": 4,
 		"isWonder": true,
 		"cost": 800,
-		"uniques": ["Must be next to [Water]","Provides [100] [Water]","Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","Unbuildable <before the [Silurian period]>"]
+		"uniques": ["Must be next to [Water]","[+1 Food] from [Water] tiles [in this city]","Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","Unbuildable <before the [Silurian period]>"]
 	},
 	{
 		"name": "Sturtian Glaciation",
