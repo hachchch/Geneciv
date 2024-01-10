@@ -246,6 +246,13 @@
 	},
 	// Wonders
 	{
+		"name": "Archaeocyatha",
+		"isWonder": true,
+		"culture": 3,
+		"requiredTech": "Sponge",
+		"uniques": ["Empire enters golden age"]
+	},
+	{
 		"name": "Interstitial Environment",
 		"isWonder": true,
 		"cost": 1200,
@@ -357,8 +364,8 @@
 	},
 	{
 		"name": "Cytoplasm",
-		"cityStrength": 1,
-                "cityHealth": 5,
+		"cityStrength": 8,
+                "cityHealth": 20,
 		"cost": 375,
 		"isWonder": true
 		"requiredTech": "Eukaryotic Cell",
@@ -609,6 +616,13 @@
 	},
 	// Invertebrates
 	{
+		"name": "Helcionelloida",
+		"specialistSlots": {"Creature": 1},
+		"happiness": 2,
+		"maintenance": 1,
+		"requiredTech": "Exoskeleton",
+	},
+	{
 		"name": "Cephalopoda",
 		"culture": 2,
 		"maintenance": 1,
@@ -629,13 +643,13 @@
 	// National Wonders
 	{
 		"name": "Ozone Layer",
-		"specialistSlots": {"Creature": 1},
+		// "specialistSlots": {"Creature": 1},
 		"isNationalWonder": true,
 		"cost": 200,
 		"food": 4,
 		"gold": 1,
 		"requiredTech": "Primordial Soup",
-		"uniques": ["Requires a [Volcano] in all cities", "Cost increases by [30] per owned city"],
+		"uniques": ["Requires a [Volcano] in all cities", "Cost increases by [30] per owned city","Provides [3] [Oxygen]"],
 		"quote": "'The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light (from about 200 nm to 315 nm wavelength), which otherwise would potentially damage exposed life forms near the surface.' -Wikipedia",
 	},
 	{
