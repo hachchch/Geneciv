@@ -323,7 +323,12 @@
 		"isWonder": true,
 		"cost": 100,
 		"requiredTech": "DNA",
-		"uniques": ["[+1 Food] from all [Hadean eon] buildings","Gain a free [RNA] [in all cities]"]
+		"uniques": ["[+1 Food] from all [RNA] buildings",
+			"[+1 Food] from all [Replication] buildings",
+			"[+1 Food] from all [Chromosomes] buildings",
+			"[+1 Food] from all [Polypeptides] buildings",
+			"[+1 Food] from all [Plasma Membrane] buildings",
+			"Gain a free [RNA] [in all cities]"]
 	},
 	{
 		"name": "Old Red Sandstone",
