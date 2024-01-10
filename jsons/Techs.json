@@ -372,7 +372,7 @@
 				"name": "Nervous System",
 				"row": 2,
 				"prerequisites": ["Tissue"],
-				"uniques": ["[+1 Production] [in all cities]","[+2 Happiness] from [City center] tiles [in all cities]"],
+				// "uniques": ["[+1 Production] [in all cities]","[+2 Happiness] from [City center] tiles [in all cities]"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Nervous System",
@@ -460,7 +460,7 @@
 				"name": "Coral",
 				"row": 4,
 				"prerequisites": ["Sponge"],
-				"uniques": ["[+1 Gold, +1 Food] in cities on [Coast] tiles"],
+				"uniques": ["[+3 Gold] in cities on [Coast] tiles"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Coral",
