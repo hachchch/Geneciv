@@ -291,6 +291,13 @@
 			"[1] Unit Supply"]
 	},
 	{
+		"name": "Lichen",
+		"food": 2,
+		"requiredTech": "Spore Plant",
+		"isWonder": true,
+		"uniques": ["[+1 Production] from [GrassLand] tiles [in this city]","[+1 Food] from [Forests] tiles [in this city] <after discovering [Grass]>"]
+	},
+	{
 		"name": "Antarctic Permanent Ice Sheets",
 		"isWonder": true,
 		"cost": 1800,
