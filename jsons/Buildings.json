@@ -667,6 +667,14 @@
 		"uniques": ["Requires a [Meteor] in all cities", "Cost increases by [30] per owned city","Enemy [Cell] units must spend [1] extra movement points when inside your territory",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]>"]
 	},
 	{
+		"name": "Archaeocyatha",
+		"isWonder": true,
+		"culture": 3,
+		"maintenance": 1,
+		"requiredTech": "Sponge",
+		"uniques": ["Empire enters golden age"]
+	},
+	{
 		"name": "End Of Boring Billion",
 		"cost": 300,
 		"culture": 1,
