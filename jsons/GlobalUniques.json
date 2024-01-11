@@ -71,6 +71,13 @@
 	    "[Koala] units gain the [Marsupial] promotion",
 	    "[Kangaroos] units gain the [Marsupial] promotion",
 	    "[Platypus] units gain the [Monotreme] promotion",
+	    
+	    "[{Permian} {Reptiles}] units gain the [Dinosauria Family] promotion",
+	    "[{Triassic} {Reptiles}] units gain the [Dinosauria Family] promotion",
+	    "[{Jurassic} {Reptiles}] units gain the [Dinosauria Family] promotion",
+	    "[{Cretaceous} {Reptiles}] units gain the [Dinosauria Family] promotion",
+
+
 
 
 	    "[-33]% [Science] <for [City-states]>",
