@@ -199,14 +199,14 @@
 		"row": 0,
 		"column": 2,
 		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
-		"uniques": ["Gain [25] [Gold] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
+		"uniques": ["Gain [30] [Gold] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
 	},
 	{
 		"name": "Exchange to Mutation",
 		"row": 0,
 		"column": 3,
 		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
-		"uniques": ["Gain [5] [Science] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
+		"uniques": ["Gain [15] [Science] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
 	},
 	// General
 	{
