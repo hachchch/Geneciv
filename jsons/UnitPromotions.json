@@ -626,7 +626,7 @@
 	},
 	{
 		"name": "Dinosauria Families",
-		"prerequisites": ["Propubic Pelvis III","Hollow Bones III"],
+		// "prerequisites": ["Propubic Pelvis III","Hollow Bones III"],
 		"column": 1,
 		"row": 653,
 		"unitTypes": ["Water Reptiles","Reptiles","Glider"],
