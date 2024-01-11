@@ -90,6 +90,7 @@
 	},
 	{
 		"name": "Clymeniida", // Famenia
+		"requiredTech": "Predation",
 		"uniqueTo": "Famenia",
 		"uniques": ["New [Water] units start with [25] Experience [in this city]"]
 		"replaces": "Actinopterygii",
