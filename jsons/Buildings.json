@@ -60,6 +60,15 @@
 		"uniques": ["[1] Unit Supply","All newly-trained [Cell] units [in this city] receive the [Crustal Deformation] promotion"]
 	},
 	{
+		"name": "Craton", // Rodinia
+		"uniqueTo": "Rodinia",
+		"requiredTech": "Planet Earth",
+		"gold": 1,
+		"percentStatBonus": { "production": 2 },
+		"uniques": ["[+1 Culture, +1 Production, +1 Gold] <in cities with a [Orogenic Belt]>"]
+		"replaces": "Chemical Synthesis"
+	},
+	{
 		"name": "Charnia", // Ediacara
 		"cost": 120,
 		"uniqueTo": "Ediacara",
@@ -68,6 +77,32 @@
 		"replaces": "Algae",
 		"requiredTech": "Chloroplasts",
 		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"/*,"[+1 Food] from [Ocean] tiles [in this city]"*/]
+	},
+	{
+		"name": "Rainforest Formation", // Euramerica
+		"uniqueTo": "Euramerica",
+		"replaces": "Lepidodendron",
+		"science": 1,
+		"production": 3,
+		"maintenance": 3,
+		"requiredTech": "Fern",
+		"uniques": ["Provides [3] [Oxygen]","Free [Vegetation] appears"]
+	},
+	{
+		"name": "Clymeniida", // Famenia
+		"uniqueTo": "Famenia",
+		"uniques": ["New [Water] units start with [25] Experience [in this city]"]
+		"replaces": "Actinopterygii",
+	},
+	{
+		"name": "Graptolite", // Hirnantian
+		"uniqueTo": "Hirnantian",
+		"replaces": "Oscula",
+		"production": 2,
+		"culture": 2,
+		"gold": 2,
+		"requiredTech": "Coral",
+		"uniques": ["Cambrian","[+1 Production] from [Coastal] tiles [in this city]","Must be next to [Coastal]"]
 	},
 	// Defensive
 	{
@@ -243,6 +278,53 @@
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Cold Blooded",
 		"uniques": ["[-20]% Culture cost of natural border growth [in this city]"]
+	},
+	/*{
+		"name": "Durophagy",
+		"requiredTech": "Jaw",
+		"uniques": [""],
+	},*/
+	// Devonian
+	{
+		"name": "Actinopterygii",
+		"science": 1,
+		"requiredTech": "Predation",
+		"uniques": ["Devonian","New [Water] units start with [15] Experience [in this city]"]
+	},
+	{
+		"name": "Elpistostegalia",
+		"requiredTech": "Lungfish",
+		"science": 1,
+		"uniques": ["New [Land] units start with [10] Experience [in this city]"]
+	},
+	{
+		"name": "Ichthyostega",
+		"requiredBuilding": "Elpistostegalia",
+		"science": 1,
+		"requiredTech": "Lungfish",
+		"uniques": ["Devonian","New [Land] units start with [5] Experience [in this city]"]
+	},
+	// Devonian-Carboniferous Flora
+	{
+		"name": "Lycophyte",
+		"requiredTech": "Fern",
+		"production": 2,
+		"maintenance": 2,
+		"requiredBuilding": "Shrub",
+	},
+	{
+		"name": "Equisetidae",
+		"requiredTech": "Fern",
+		"production": 1,
+		"maintenance": 1,
+		"requiredBuilding": "Shrub",
+	},
+	{
+		"name": "Lepidodendron",
+		"requiredTech": "Fern",
+		"production": 3,
+		"maintenance": 3,
+		"requiredBuilding": "Lycophyte",
 	},
 	// Wonders
 	{
