@@ -579,63 +579,78 @@
 		"unitTypes": ["Birds","Glider","Aves"],
 	},
 	{
-		"name": "Horn-Faced",
-		"uniques": ["Only available <when [Herbivore]>","[+10]% Strength <vs [Land] units>"],
-		"unitTypes": ["Reptiles","Glider"],
-	},
-	{
 		"name": "Hollow Bones I",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 302,
-		"row": 1
+		"column": 1,
+		"row": 5650
 	},
 	{
 		"name": "Propubic Pelvis I",
 		"uniques": ["/*Only available <when [Bipedal]>","*/[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 303,
-		"row": 1
+		"column": 1,
+		"row": 5652
 	},
 	{
 		"name": "Hollow Bones II",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 302,
-		"row": 2,
+		"column": 2,
+		"row": 5650,
 		"prerequisites": ["Hollow Bones I"]
 	},
 	{
 		"name": "Propubic Pelvis II",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 303,
-		"row": 2,
+		"column": 2,
+		"row": 5652,
 		"prerequisites": ["Propubic Pelvis I"]
 	},
 	{
 		"name": "Hollow Bones III",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 302,
-		"row": 3,
+		"column": 3,
+		"row": 5650,
 		"prerequisites": ["Hollow Bones II"]
 	},
 	{
 		"name": "Propubic Pelvis III",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 303,
-		"row": 3,
+		"column": 3,
+		"row": 5652,
 		"prerequisites": ["Propubic Pelvis II"]
 	},
 	{
+		"name": "Dinosauria Families",
+		"column": 1,
+		"row": 5656
+		"uniques": ["Dinosauria"]
+	},
+	{
+		"name": "Horn-Faced",
+		"prerequisites": ["Dinosauria Families"],
+		"column": 2,
+		"row": 5653
+		"uniques": ["Only available <when [Herbivore]>","[+10]% Strength <when attacking> <vs [Land] units>"],
+		"unitTypes": ["Reptiles","Glider"],
+	},
+	{
 		"name": "Strong Neck",
+		"prerequisites": ["Dinosauria Families"],
+		"column": 3,
+		"row": 5657,
 		"uniques": ["Only available <when [Predator]>","[+10]% Strength <vs [Land] units>"],
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Large Body",
+		"prerequisites": ["Dinosauria Families"],
+		"column": 2,
+		"row": 5655
 		"uniques": ["Only available <when [Quadrupedal]>","[+10]% Strength <vs [Land] units>"],
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
@@ -645,17 +660,27 @@
 	},
 	{
 		"name": "Ankylosis I",
+		"prerequisites": ["Hollow Bones I","Propubic Pelvis I"],
+		"column": 2,
+		"row": 5651
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
-		"column": 304,
-		"row": 1,
 	},
 	{
 		"name": "Ankylosis II",
+		"prerequisites": ["Ankylosis I"],
+		"column": 3,
+		"row": 5651
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
-		"column": 304,
-		"row": 2,
+	},
+	{
+		"name": "Insectivore",
+		"column": 2,
+		"row": 5659
+		"prerequisites": ["Dinosauria Families"],
+		"uniques": ["Can only heal by pillaging","All healing effects doubled"],
+		"unitTypes": ["Reptiles"],
 	},
 	{
 		"name": "Predentary",
@@ -673,20 +698,18 @@
 		"unitTypes": ["Herbivore"],
 	},
 	{
-		"name": "Insectivore",
-		"uniques": ["Can only heal by pillaging","All healing effects doubled"],
-		"unitTypes": ["Reptiles"],
-	},
-	{
 		"name": "Pinniped",
 		"uniques": ["[+1] Movement <on water maps>","May attack when embarked","[+35]% Strength <on water maps>"],
 		"unitTypes": ["Mammal"],
 	},
 	{
 		"name": "Squamate",
+		"column": 4,
+		"prerequisites": ["Ankylosis II","Propublic Pelvis III","Hollow Bones III"]
+		"row": 5652
 		"uniques": ["Squamates","[+15]% Strength <in [Desert] tiles>",
-		"[+15]% Strength <in [Water] tiles>"],
-		"unitTypes": ["Water Reptiles","Reptiles"],
+		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
+		"unitTypes": [/*"Water Reptiles",*/"Reptiles"],
 	},
 	{
 		"name": "Quadrupedalism",
@@ -779,6 +802,7 @@
 		"name": "Crustal Deformation",
 		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land] tiles>"],
 	},
+	// Radiodonta
 	{
 		"name": "Oral Cone I",
 		"row": 1433,
