@@ -76,6 +76,11 @@
 	    "[{Triassic} {Reptiles}] units gain the [Dinosauria Families] promotion",
 	    "[{Jurassic} {Reptiles}] units gain the [Dinosauria Families] promotion",
 	    "[{Cretaceous} {Reptiles}] units gain the [Dinosauria Families] promotion",
+	    "[{Permian} {Water Reptiles}] units gain the [Dinosauria Families] promotion",
+	    "[{Triassic} {Water Reptiles}] units gain the [Dinosauria Families] promotion",
+	    "[{Jurassic} {Water Reptiles}] units gain the [Dinosauria Families] promotion",
+	    "[{Cretaceous} {Water Reptiles}] units gain the [Dinosauria Families] promotion",
+	    "[Glider] units gain the [Dinosauria Families] promotion",
 
 
 
