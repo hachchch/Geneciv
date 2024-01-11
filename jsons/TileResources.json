@@ -192,7 +192,7 @@
 	},
 	{
 		"name": "Coal",
-		"uniques": ["Not shown on world screen <before discoveing [Steam Engine]>"],
+		"uniques": ["Not shown on world screen <before discovering [Steam Engine]>"],
 		"resourceType": "Strategic",
 		"revealedBy": "Fern",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
