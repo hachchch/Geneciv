@@ -637,7 +637,7 @@
 		"prerequisites": ["Dinosauria Families"],
 		"column": 2,
 		"row": 654,
-		"uniques": ["Only available <when [Herbivore]>","[+10]% Strength <when attacking> <vs [Land] units>"],
+		"uniques": ["[+10]% Strength <when attacking> <vs [non-[Herbivore]] units>"],
 		"unitTypes": ["Reptiles","Glider"],
 	},
 	{
@@ -645,7 +645,7 @@
 		"prerequisites": ["Dinosauria Families"],
 		"column": 3,
 		"row": 655,
-		"uniques": ["Only available <when [Predator]>","[+10]% Strength <vs [Land] units>"],
+		"uniques": ["[+10]% Strength <vs [non-[Predator]] units>"],
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
@@ -653,7 +653,7 @@
 		"prerequisites": ["Dinosauria Families"],
 		"column": 2,
 		"row": 656,
-		"uniques": ["Only available <when [Quadrupedal]>","[+10]% Strength <vs [Land] units>"],
+		"uniques": ["[+10]% Strength <vs [non-[Quadrupedal]] units>"],
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
