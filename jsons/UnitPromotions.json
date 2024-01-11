@@ -587,7 +587,7 @@
 	},
 	{
 		"name": "Propubic Pelvis I",
-		"uniques": ["/*Only available <when [Bipedal]>","*/[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
 		"column": 1,
 		"row": 652
@@ -630,7 +630,7 @@
 		"column": 1,
 		"row": 653,
 		"unitTypes": ["Water Reptiles","Reptiles","Glider"],
-		"uniques": ["Dinosauria"]
+		"uniques": ["Dinosaur","Only available <when [Dinosaur]>"]
 	},
 	{
 		"name": "Horn-Faced",
