@@ -583,21 +583,21 @@
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
 		"column": 1,
-		"row": 5650
+		"row": 650
 	},
 	{
 		"name": "Propubic Pelvis I",
 		"uniques": ["/*Only available <when [Bipedal]>","*/[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
 		"column": 1,
-		"row": 5652
+		"row": 652
 	},
 	{
 		"name": "Hollow Bones II",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
 		"column": 2,
-		"row": 5650,
+		"row": 650,
 		"prerequisites": ["Hollow Bones I"]
 	},
 	{
@@ -605,7 +605,7 @@
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
 		"column": 2,
-		"row": 5652,
+		"row": 652,
 		"prerequisites": ["Propubic Pelvis I"]
 	},
 	{
@@ -613,7 +613,7 @@
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
 		"column": 3,
-		"row": 5650,
+		"row": 650,
 		"prerequisites": ["Hollow Bones II"]
 	},
 	{
@@ -621,38 +621,39 @@
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
 		"column": 3,
-		"row": 5652,
+		"row": 652,
 		"prerequisites": ["Propubic Pelvis II"]
 	},
 	{
 		"name": "Dinosauria Families",
 		"column": 1,
-		"row": 5656
+		"row": 656,
+		"unitTypes": ["Water Reptiles","Reptiles","Glider"],
 		"uniques": ["Dinosauria"]
 	},
 	{
 		"name": "Horn-Faced",
 		"prerequisites": ["Dinosauria Families"],
 		"column": 2,
-		"row": 5653
+		"row": 653
 		"uniques": ["Only available <when [Herbivore]>","[+10]% Strength <when attacking> <vs [Land] units>"],
-		// "unitTypes": ["Reptiles","Glider"],
+		"unitTypes": ["Reptiles","Glider"],
 	},
 	{
 		"name": "Strong Neck",
 		"prerequisites": ["Dinosauria Families"],
 		"column": 3,
-		"row": 5657,
+		"row": 657,
 		"uniques": ["Only available <when [Predator]>","[+10]% Strength <vs [Land] units>"],
-		// "unitTypes": ["Reptiles","Glider","Water Reptiles"],
+		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Large Body",
 		"prerequisites": ["Dinosauria Families"],
 		"column": 2,
-		"row": 5655
+		"row": 655
 		"uniques": ["Only available <when [Quadrupedal]>","[+10]% Strength <vs [Land] units>"],
-		// "unitTypes": ["Reptiles","Glider","Water Reptiles"],
+		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Large Body III", // Only Work for Giganotosaurus
@@ -662,7 +663,7 @@
 		"name": "Ankylosis I",
 		"prerequisites": ["Hollow Bones I","Propubic Pelvis I"],
 		"column": 2,
-		"row": 5651
+		"row": 651
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
 	},
@@ -670,17 +671,17 @@
 		"name": "Ankylosis II",
 		"prerequisites": ["Ankylosis I"],
 		"column": 3,
-		"row": 5651
+		"row": 651
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
 	},
 	{
 		"name": "Insectivore",
 		"column": 2,
-		"row": 5659
+		"row": 659
 		"prerequisites": ["Dinosauria Families"],
 		"uniques": ["Can only heal by pillaging","All healing effects doubled"],
-		// "unitTypes": ["Reptiles"],
+		"unitTypes": ["Reptiles"],
 	},
 	{
 		"name": "Predentary",
@@ -781,7 +782,7 @@
 	{
 		"name": "Skirmish",
 		"unitTypes": ["Reptiles","Mammal","Human","Hominiae","Aves"]
-		"uniques": ["[+35]% to Flank Attack bonuses"]
+		"uniques": ["[+100]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Breeding Pair",
@@ -805,14 +806,14 @@
 	// Radiodonta
 	{
 		"name": "Oral Cone I",
-		"row": 1433,
+		"row": 433,
 		"column": 1,
 		"unitTypes": ["Water Arthropod"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "Oral Cone II",
-		"row": 1433,
+		"row": 433,
 		"column": 2,
 		"prerequisites": ["Oral Cone I"],
 		"unitTypes": ["Water Arthropod"],
@@ -820,7 +821,7 @@
 	},
 	{
 		"name": "Predation",
-		"row": 1433,
+		"row": 433,
 		"column": 4,
 		"unitTypes": ["Water Arthropod"],
 		"prerequisites": ["Oral Cone III"]
@@ -828,7 +829,7 @@
 	},
 	{
 		"name": "Oral Cone III",
-		"row": 1433,
+		"row": 433,
 		"column": 3,
 		"prerequisites": ["Oral Cone II"],
 		"unitTypes": ["Water Arthropod"],
@@ -836,7 +837,7 @@
 	},
 	{
 		"name": "Compound Eye",
-		"row": 1435,
+		"row": 435,
 		"column": 4,
 		"unitTypes": ["Water Arthropod"],
 		"prerequisites": ["Oral Cone III","Frontal Appendage III"],
@@ -844,7 +845,7 @@
 	},
 	{
 		"name": "Ventral Flap I",
-		"row": 1434,
+		"row": 434,
 		"column": 2,
 		"unitTypes": ["Water Arthropod"],
 		"prerequisites": ["Oral Cone I","Frontal Appendage I"],
@@ -852,7 +853,7 @@
 	},
 	{
 		"name": "Ventral Flap II",
-		"row": 1434,
+		"row": 434,
 		"column": 3,
 		"unitTypes": ["Water Arthropod"],
 		"prerequisites": ["Ventral Flap I"],
@@ -860,7 +861,7 @@
 	},
 	{
 		"name": "Setal Blades I",
-		"row": 1436,
+		"row": 436,
 		"column": 2,
 		"unitTypes": ["Water Arthropod"],
 		"prerequisites": ["Frontal Appendage I"],
@@ -868,7 +869,7 @@
 	},
 	{
 		"name": "Setal Blades II",
-		"row": 1436,
+		"row": 436,
 		"column": 3,
 		"unitTypes": ["Water Arthropod"],
 		"prerequisites": ["Setal Blades I"],
@@ -876,7 +877,7 @@
 	},
 	{
 		"name": "Ecdysis",
-		"row": 1436,
+		"row": 436,
 		"column": 4,
 		"unitTypes": ["Water Arthropod"],
 		"prerequisites": ["Frontal Appendage III","Setal Blades II"],
@@ -884,14 +885,14 @@
 	},
 	{
 		"name": "Frontal Appendage I",
-		"row": 1435,
+		"row": 435,
 		"column": 1,
 		"unitTypes": ["Water Arthropod"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
 		"name": "Frontal Appendage II",
-		"row": 1435,
+		"row": 435,
 		"column": 2,
 		"prerequisites": ["Frontal Appendage I"],
 		"unitTypes": ["Water Arthropod"],
@@ -899,7 +900,7 @@
 	},
 	{
 		"name": "Frontal Appendage III",
-		"row": 1435,
+		"row": 435,
 		"column": 3,
 		"prerequisites": ["Frontal Appendage II"],
 		"unitTypes": ["Water Arthropod"],
