@@ -636,7 +636,7 @@
 		"column": 2,
 		"row": 5653
 		"uniques": ["Only available <when [Herbivore]>","[+10]% Strength <when attacking> <vs [Land] units>"],
-		"unitTypes": ["Reptiles","Glider"],
+		// "unitTypes": ["Reptiles","Glider"],
 	},
 	{
 		"name": "Strong Neck",
@@ -644,7 +644,7 @@
 		"column": 3,
 		"row": 5657,
 		"uniques": ["Only available <when [Predator]>","[+10]% Strength <vs [Land] units>"],
-		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+		// "unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Large Body",
@@ -652,7 +652,7 @@
 		"column": 2,
 		"row": 5655
 		"uniques": ["Only available <when [Quadrupedal]>","[+10]% Strength <vs [Land] units>"],
-		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+		// "unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Large Body III", // Only Work for Giganotosaurus
@@ -680,7 +680,7 @@
 		"row": 5659
 		"prerequisites": ["Dinosauria Families"],
 		"uniques": ["Can only heal by pillaging","All healing effects doubled"],
-		"unitTypes": ["Reptiles"],
+		// "unitTypes": ["Reptiles"],
 	},
 	{
 		"name": "Predentary",
@@ -705,7 +705,7 @@
 	{
 		"name": "Squamate",
 		"column": 4,
-		"prerequisites": ["Ankylosis II","Propublic Pelvis III","Hollow Bones III"]
+		"prerequisites": ["Ankylosis II","Propubic Pelvis III","Hollow Bones III"]
 		"row": 5652
 		"uniques": ["Squamates","[+15]% Strength <in [Desert] tiles>",
 		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
