@@ -12,13 +12,15 @@
 	{
 		"name": "Amphibian",
 		"uniques": ["[+30]% Strength <when fighting in [Coastal] tiles>","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
-		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
+		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>",
+		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"],
 	},
 	{
 		"name": "Reptiles",
 		"movementType": "Land",
 		"uniques": ["[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
@@ -30,12 +32,13 @@
 		"name": "Mammal",
 		"movementType": "Land",
 		"uniques": ["[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Herbivore",
 		"movementType": "Land",
-		"uniques": ["All healing effects doubled <in [GrassLand] tiles>","[-60]% Strength <when fighting in [Desert] tiles>","[-35]% Strength <when fighting in [Tundra] tiles>","[-80]% Strength <when fighting in [Snow] tiles>",
+		"uniques": [/*"All healing effects doubled <in [GrassLand] tiles>",*/"[-60]% Strength <when fighting in [Desert] tiles>","[-35]% Strength <when fighting in [Tundra] tiles>","[-80]% Strength <when fighting in [Snow] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
@@ -46,7 +49,7 @@
 	{
 		"name": "Hominiae",
 		"movementType": "Land",
-		"uniques": ["Mammal","[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
+		"uniques": ["Mammal","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
 	},
 	{
 		"name": "Water Mammal",
@@ -83,7 +86,7 @@
 	},
 	{
 		"name": "Aves",
-		"uniques": ["Birds"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
+		"uniques": ["Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Birds"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
 		"movementType": "Land"
 	},
 	{
@@ -97,7 +100,7 @@
 	{
 		"name": "Human",
 		"movementType": "Land",
-		"uniques": ["Mammal","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
+		"uniques": ["Mammal","Unable to pillage tiles <before discovering [Fire]> <in [GrassLand] tiles>","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
 	},
 	{
 		"name": "Sword",
