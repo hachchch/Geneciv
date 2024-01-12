@@ -1547,6 +1547,19 @@
 	},
 	// Great Units
 	{
+		"name": "Anomalocaris",
+		"cost": 250,
+		"unitType": "Water Arthropod",
+		"strength": 38,
+		"movement": 2,
+		"attackSound": "Splash",
+		"promotions": ["Frontal Appendage I"],
+		"uniques": ["Cambrian","Predator","Never appears as a Barbarian unit <hidden from users>"],
+		"requiredResource": "Super Creature Stock",
+		"obsoleteTech": "Predation",
+		"requiredTech": "Articulation",
+	},
+	{
 		"name": "Megalodon",
 		"obsoleteTech": "Plesiosaur",
 		"requiredTech": "Predation",
@@ -1556,7 +1569,7 @@
 		"movement": 4,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
-		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit","Destroys tile improvements when attacking"],
+		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit <hidden from users>","Destroys tile improvements when attacking <hidden from users>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
