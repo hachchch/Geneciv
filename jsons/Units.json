@@ -379,7 +379,7 @@
 		"rangedStrength": 9,
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[+500]% Strength <when attacking> <vs cities>","[-1 Sight]","[+1] Sight <after discovering [Pigment Spot]>"],
+		"uniques": ["Cambrian","Jawless","[+500]% Strength <when attacking> <vs cities>","[-1 Sight]","[+1] Sight <after discovering [Pigment Spot]>","Only available <after adopting [Lobopodians]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
