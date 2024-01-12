@@ -1218,9 +1218,16 @@ NationIcons/Cockroaches Empire
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Crustacean
+UnitIcons/Peytoia
   rotate: false
   xy: 200, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Pikaia
+  rotate: false
+  xy: 200, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
