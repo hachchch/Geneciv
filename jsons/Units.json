@@ -217,11 +217,11 @@
 		"name": "Trilobites",
 		"unitType": "Water Arthropod",
 		"cost": 250,
-		"strength": 40,
+		"strength": 32,
 		"obsoleteTech": "Plesiosaur",
 		"movement": 2,
 		"requiredTech": "Trilobite",
-		"uniques": ["Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
+		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
 			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
@@ -244,7 +244,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -266,7 +266,7 @@
 		"upgradesTo": "Crustacean",
 		"movement": 3,
 		"requiredTech": "Articulation",
-		"uniques": ["Jawless","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>",],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -280,6 +280,50 @@
 		]
 	},
 	{
+		"name": "Amplectobelua",
+		"unitType": "Water Arthropod",
+		"cost": 135,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[+33]% Sttrength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Amplectobelua",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Amplectobelua",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Hurdiidae",
+		"unitType": "Water Arthropod",
+		"cost": 125,
+		"strength": 24,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[+100]% Strength <vs [Cell] units>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hurdiidae",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Hurdiidae",
+				"imageSize": 192
+			},
+		]
+	},
+	{
 		"name": "Tamisiocaris",
 		"unitType": "Water Arthropod",
 		"cost": 115,
@@ -288,7 +332,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"uniques": ["Cambrian","Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -312,7 +356,8 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles","May enter foreign tiles without open borders"],
+		"promotions": ["Oral Cone I"],
+		"uniques": ["Cambrian","Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -321,6 +366,28 @@
 			},
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Hallucigenia",
+		"unitType": "Water Arthropod",
+		"cost": 120,
+		"strength": 17,
+		"range": 1,
+		"rangedStrength": 9,
+		"movement": 2,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian","Jawless","[+500]% Strength <when attacking> <vs cities>","[-1 Sight]","[+1] Sight <after discovering [Pigment Spot]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Hallucigenia",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Hallucigenia",
 				"imageSize": 192
 			},
 		]
