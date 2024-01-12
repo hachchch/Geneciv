@@ -1127,7 +1127,7 @@ CityStateIcons/Wonderful Biosphere
   offset: 0, 0
   index: -1
 
-GenecivGame6.png
+GenecivIcons6.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -1189,7 +1189,7 @@ ImprovementIcons/Outpost
   offset: 0, 0
   index: -1
 
-GenecivGame7.png
+GenecivIcons7.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
