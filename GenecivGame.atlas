@@ -1232,3 +1232,17 @@ UnitIcons/Pikaia
   orig: 200, 200
   offset: 0, 0
   index: -1
+ImprovementIcons/Monument
+  rotate: false
+  xy: 400, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Outpost
+  rotate: false
+  xy: 400, 200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
