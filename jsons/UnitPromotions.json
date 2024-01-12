@@ -180,7 +180,7 @@
 	// Instant
 	{
 		"name": "Heal Instantly",
-		"row": 0,
+		"row": 1,
 		"column": 1,
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Aves","Amphibian","Birds","Cell","Fishes","Glider","Herbivore","Hominiae","Mammal","Particle","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
@@ -196,15 +196,15 @@
 	*/
 	{
 		"name": "Exchange to Energy",
-		"row": 0,
-		"column": 2,
+		"row": 2,
+		"column": 1,
 		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
 		"uniques": ["Gain [30] [Gold] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
 	},
 	{
 		"name": "Exchange to Mutation",
-		"row": 0,
-		"column": 3,
+		"row": 3,
+		"column": 1,
 		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
 		"uniques": ["Gain [15] [Science] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
 	},
