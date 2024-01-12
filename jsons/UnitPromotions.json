@@ -582,77 +582,77 @@
 		"name": "Hollow Bones I",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 1,
-		"row": 650
+		"column": 650,
+		"row": 1
 	},
 	{
 		"name": "Propubic Pelvis I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 1,
-		"row": 652
+		"column": 652,
+		"row": 1
 	},
 	{
 		"name": "Hollow Bones II",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 2,
-		"row": 650,
+		"column": 650,
+		"row": 2,
 		"prerequisites": ["Hollow Bones I"]
 	},
 	{
 		"name": "Propubic Pelvis II",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 2,
-		"row": 652,
+		"column": 652,
+		"row": 2,
 		"prerequisites": ["Propubic Pelvis I"]
 	},
 	{
 		"name": "Hollow Bones III",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 3,
-		"row": 650,
+		"column": 650,
+		"row": 3,
 		"prerequisites": ["Hollow Bones II"]
 	},
 	{
 		"name": "Propubic Pelvis III",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Reptiles"],
-		"column": 3,
-		"row": 652,
+		"column": 652,
+		"row": 3,
 		"prerequisites": ["Propubic Pelvis II"]
 	},
 	{
 		"name": "Dinosauria Families",
 		// "prerequisites": ["Propubic Pelvis III","Hollow Bones III"],
-		"column": 1,
-		"row": 653,
+		"column": 653,
+		"row": 1,
 		"unitTypes": ["Water Reptiles","Reptiles","Glider"],
 		"uniques": ["Dinosaur","Only available <when [Dinosaur]>"]
 	},
 	{
 		"name": "Horn-Faced",
 		"prerequisites": ["Dinosauria Families"],
-		"column": 2,
-		"row": 654,
+		"column": 654,
+		"row": 2,
 		"uniques": ["[+10]% Strength <when attacking> <vs [non-[Herbivore]] units>"],
 		"unitTypes": ["Reptiles","Glider"],
 	},
 	{
 		"name": "Strong Neck",
 		"prerequisites": ["Dinosauria Families"],
-		"column": 3,
-		"row": 655,
+		"column": 655,
+		"row": 3,
 		"uniques": ["[+10]% Strength <vs [non-[Predator]] units>"],
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
 	{
 		"name": "Large Body",
 		"prerequisites": ["Dinosauria Families"],
-		"column": 2,
-		"row": 656,
+		"column": 656,
+		"row": 2,
 		"uniques": ["[+10]% Strength <vs [non-[Quadrupedal]] units>"],
 		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
 	},
@@ -663,25 +663,25 @@
 	{
 		"name": "Ankylosis I",
 		"prerequisites": ["Hollow Bones I","Propubic Pelvis I"],
-		"column": 2,
-		"row": 651
+		"column": 651,
+		"row": 2
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
 	},
 	{
 		"name": "Ankylosis II",
 		"prerequisites": ["Ankylosis I"],
-		"column": 3,
-		"row": 651
+		"column": 651,
+		"row": 3
 		"uniques": ["[+15]% Strength <when defending>"],
 		"unitTypes": ["Reptiles"],
 	},
 	{
 		"name": "Insectivore",
-		"column": 2,
-		"row": 657,
+		"column": 657,
+		"row": 2,
 		"prerequisites": ["Dinosauria Families"],
-		"uniques": ["Can only heal by pillaging","All healing effects doubled"],
+		"uniques": ["Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
 		"unitTypes": ["Reptiles"],
 	},
 	{
