@@ -82,6 +82,8 @@
 	    "[{Cretaceous} {Water Reptiles}] units gain the [Dinosauria Families] promotion",
 	    "[Glider] units gain the [Dinosauria Families] promotion",
 
+	    "[-25]% Strength <when attacking> <for [{Fishes} {Jawless}] units> <before discovering [Jaw]>",
+
 
 
 
