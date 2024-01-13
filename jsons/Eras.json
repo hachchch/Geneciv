@@ -152,8 +152,10 @@
 		"citySound": "Coast",
 		"embarkDefense": 10,
 		"iconRGB": [100, 100, 200],
-		"settlerBuildings": ["Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
-		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind"]
+		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endosymbiont","Ribosomes","Nervous System","Dermis",
+			"Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explosion","Symbiogenesis","Carapace",
+			"Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind"]
 	},
 	/*
 	{
@@ -169,9 +171,9 @@
 		"citySound": "Coast",
 		"embarkDefense": 25,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endsymbiont","Ribosomes","Nervous System","Dermis",
+		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endosymbiont","Ribosomes","Nervous System","Dermis",
 			"Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
-		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explotion","Symbiogenesis","Carapase",
+		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explosion","Symbiogenesis","Carapace",
 			"Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind"]
 	},
 	*/
@@ -188,9 +190,9 @@
 		"citySound": "River",
 		"embarkDefense": 13,
 		"iconRGB": [255, 87, 35],
-		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endsymbiont","Ribosomes","Nervous System","Dermis",
+		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endosymbiont","Ribosomes","Nervous System","Dermis",
 			"Eclipse","Cephalopoda","Land Algae","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
-		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explotion","Symbiogenesis","Carapase",
+		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explosion","Symbiogenesis","Carapace",
 			"Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
 		"White of Eye Cells","Ammonoids","Replaceable Teeth"]
 	},
@@ -207,9 +209,9 @@
 		"citySound": "River",
 		"embarkDefense": 17,
 		"iconRGB": [150, 255, 100],
-		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endsymbiont","Ribosomes","Nervous System","Dermis",
+		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endosymbiont","Ribosomes","Nervous System","Dermis",
 			"Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
-		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explotion","Symbiogenesis","Carapase",
+		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explosion","Symbiogenesis","Carapace",
 			"Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
 		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain"]
 	},
@@ -226,9 +228,9 @@
 		"citySound": "Grass Walk",
 		"embarkDefense": 20,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endsymbiont","Ribosomes","Nervous System","Dermis","Epidermis",
+		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endosymbiont","Ribosomes","Nervous System","Dermis","Epidermis",
 			"Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
-		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explotion","Symbiogenesis","Carapase",
+		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explosion","Symbiogenesis","Carapace",
 			"Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
 		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment"]
 	},
@@ -245,9 +247,9 @@
 		"citySound": "Modern Environment",
 		"embarkDefense": 30,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endsymbiont","Ribosomes","Nervous System","Dermis","Epidermis",
+		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endosymbiont","Ribosomes","Nervous System","Dermis","Epidermis",
 			"Eclipse","Cephalopoda","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
-		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explotion","Symbiogenesis","Carapase",
+		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explosion","Symbiogenesis","Carapace",
 			"Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
 		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment"]
 	},
