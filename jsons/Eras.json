@@ -169,8 +169,10 @@
 		"citySound": "Coast",
 		"embarkDefense": 25,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
-		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind"]
+		"settlerBuildings": ["Chemical Synthesis","Biochemical Synthesis","Endsymbiont","Ribosomes","Nervous System","Dermis","Epidermis",
+			"Eclipse","Polychaetes","Vertebrate","Blood Pump","Radial Symmetry","Bilateral Symmetry","Photosynthesis","Muscles","Oscula","Algae","Nervous System","Plasma Membrane","Phagocytic Cell","Fungi","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["RNA World","Archaeocyatha","Avalon Explotion","Symbiogenesis","Carapase",
+			"Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind"]
 	},
 	*/
 	{
