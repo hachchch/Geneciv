@@ -25,7 +25,7 @@
 				"name": "Planet Earth",
 				"row": 5,
 				"prerequisites": ["Home Star"],
-				"uniques": ["Cannot be hurried","[+100]% growth [in all cities]"],
+				"uniques": ["[+100]% growth [in all cities]"],
 				"quote": "This is the planet we live on. Although it is still a ball of magma, it has already met the miraculous conditions for growing life.",
 				"civilopediaText": [
 			{
@@ -507,13 +507,12 @@
 				"name": "Bilateral Symmetry",
 				"row": 4,
 				"prerequisites": ["Radial Symmetry","Flatworm"],
-				"uniques": ["[+125]% XP gained from combat <for [Flatworm] units>"],
 			},
 			{
 				"name": "Articulation",
 				"row": 6,
 				"prerequisites": ["Flatworm"],
-				"uniques": ["[+25]% XP gained from combat <for [Water Arthropod] units>"],
+				// "uniques": ["[+25]% XP gained from combat <for [Water Arthropod] units>"],
 			},
 			{
 				"name": "Cocoon",
@@ -551,6 +550,7 @@
 				"name": "Nerve Cord",
 				"row": 2,
 				"prerequisites": ["Bilateral Symmetry","Nervous System"],
+				"uniques": ["[+1 Gold] per [5] population [in capital]"]
 			},
 			{
 				"name": "Pigment Spot",
@@ -571,7 +571,7 @@
 				"name": "Eye",
 				"row": 3,
 				"prerequisites": ["Exoskeleton","Pigment Spot"],
-				"uniques": ["[+10]% Production when constructing [Ranged] units [in all cities]"]
+				"uniques": ["+1 sight for Crustacean and Fish"]
 			},
 			{
 				"name": "First Plant",
@@ -581,7 +581,7 @@
 			{
 				"name": "Fish",
 				"row": 6,
-				"uniques": ["Jawless fishes (-25% Attack Strength for Fishes)","[-25]% Strength <when attacking> <for [Jawless] units> <before discovering [Jaw]> <hidden from users>"],
+				"uniques": ["They are still jawless fishes (-25% Attack Strength) but after you discovering Jaw, their debuff will disappear"],
 				"prerequisites": ["Exoskeleton","Vertebrate","Heart"],
 				"civilopediaText": [
 			{
@@ -600,7 +600,7 @@
 				"name": "Trilobite",
 				"row": 8,
 				"prerequisites": ["Exoskeleton"],
-				"uniques": ["[+100]% Production when constructing [Water Arthropod] units [in all cities]"]
+				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
 			}
 		]
 	},
