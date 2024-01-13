@@ -615,7 +615,7 @@
 				"name": "Gills",
 				"row": 5,
 				"prerequisites": ["Fish"],
-				"uniques": ["Become half of the oxygen consumed by the fish unit.","[-10]% maintenance cost for buildings [in all cities]"]
+				"uniques": ["Become half of the oxygen consumed by the fish unit."]
 			},
 			{
 				"name": "Spore Plant",
@@ -639,7 +639,7 @@
 				"name": "Jaw",
 				"row": 7,
 				"prerequisites": ["Fish"],
-				"uniques": ["All fish unit become non-Jawless, Improve their Strength","[+1 Food] from [{Coast} {Fish}] tiles [in all cities]"],
+				"uniques": ["[+1 Food] from [{Coast} {Fish}] tiles [in all cities]"],
 			},
 			{
 				"name": "Fish Egg",
@@ -651,7 +651,7 @@
 				"name": "Excretion Opening",
 				"row": 8,
 				"prerequisites": ["Fish"]
-				"uniques": ["[+1 Food] from [Ocean] tiles [in all cities]","[+1 Food] from [Coast] tiles [in all cities]"],
+				"uniques": ["[+1 Food] from [Water] tiles [in all cities]"],
 			}
 		]
 	},
@@ -666,7 +666,7 @@
 				"name": "Medulla Oblongata",
 				"row": 2,
 				"prerequisites": ["Nerve Cord","Gills","Eye"],
-				"uniques": ["[+1 Gold] from [Water] tiles [in all cities]"],
+				"uniques": ["[+1 Gold] from [Fish] tiles [in all cities]","[+1 Gold] from [Ocean] tiles [in all cities]"],
 				"quote": "medulla oblongata is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing.",
 			},
 			{
