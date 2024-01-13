@@ -108,11 +108,18 @@
 	// Defensive
 	{
 		"name": "Metabolism",
-		"cityStrength": 15,
+		"cityStrength": 10,
                 "cityHealth": 200,
 		"maintenance": 2,
 		"requiredTech": "Warm Blooded",
 		"uniques": ["Warm-blooded is an informal term referring to animal species whose bodies maintain a temperature higher than that of their environment. In particular, homeothermic species (including birds and mammals) maintain a stable body temperature by regulating metabolic processes. Other species have various degrees of thermoregulation."]
+	},
+	{
+		"name": "Epidermis",
+		"cityStrength": 10,
+                "cityHealth": 100,
+		"maintenance": 2,
+		"requiredTech": "Water Tight",
 	},
 	{
 		"name": "Dermis",
