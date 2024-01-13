@@ -115,3 +115,16 @@ TileSets/HexaRealm/Units/Radiodonta
   orig: 64, 56
   offset: 0, 0
   index: -1
+
+GenecivHexarealm3.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Units/Sauropoda
+  rotate: false
+  xy: 0, 0
+  size: 87, 53
+  orig: 87, 53
+  offset: 0, 0
+  index: -1
