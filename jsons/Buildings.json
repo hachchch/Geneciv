@@ -100,7 +100,7 @@
 		"uniqueTo": "Hirnantian",
 		"replaces": "Oscula",
 		"production": 2,
-		"culture": 2,
+		"culture": 1,
 		"gold": 2,
 		"requiredTech": "Coral",
 		"uniques": ["Cambrian","[+1 Production] from [Coastal] tiles [in this city]","Must be next to [Coastal]"]
