@@ -621,7 +621,7 @@
 				"name": "Spore Plant",
 				"row": 1,
 				"prerequisites": ["First Plant"],
-				"uniques": ["[+1 Food] from [Grassland] tiles [in all cities]",
+				"uniques": ["Give sight to settlers","[+1 Food] from [Grassland] tiles [in all cities]",
 				"[+1 Production] from [Plains] tiles [in all cities]"]
 			},
 			{
