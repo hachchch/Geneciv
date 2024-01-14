@@ -1,6 +1,10 @@
 {
     "name": "Global uniques",
     "uniques": [
+	    "[-50]% [Science] [in all cities]",
+	    "[+50]% [Science] [in capital]",
+	    "[-50]% [Culture] [in all cities]",
+	    "[+50]% [Culture] [in capital]",
 	    "[-200]% growth [in all cities]",
 	    "Nullifies [Faith] [in all cities] <before discovering [Religion]>",
 	    // "[-50]% [Food] from every [Improvement]",
