@@ -46,8 +46,8 @@
 		"columnNumber": 2,
 		"era": "Hadean eon",
 		"techCost": 50,
-		"buildingCost": 40,
-		"wonderCost": 200,
+		"buildingCost": 50,
+		"wonderCost": 125,
 		"techs": [
 			{
 				"name": "Primordial Soup",
@@ -93,8 +93,8 @@
 		"columnNumber": 3,
 		"era": "Hadean eon",
 		"techCost": 60,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 60,
+		"wonderCost": 150,
 		"techs": [
 			{
 				"name": "Amino Acid",
@@ -138,8 +138,8 @@
 		"columnNumber": 4,
 		"era": "Hadean eon",
 		"techCost": 60,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 70,
+		"wonderCost": 150,
 		"techs": [
 			{
 				"name": "Protein",
@@ -183,8 +183,8 @@
 		"columnNumber": 5,
 		"era": "Archean eon",
 		"techCost": 80,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 80,
+		"wonderCost": 175,
 		"techs": [
 			{
 				"name": "Prokaryotic Cell",
@@ -209,8 +209,8 @@
 		"columnNumber": 6,
 		"era": "Archean eon",
 		"techCost": 100,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 90,
+		"wonderCost": 175,
 		"techs": [
 			{
 				"name": "Mitochondria",
@@ -272,8 +272,8 @@
 		"columnNumber": 7,
 		"era": "Paleoproterozoic",
 		"techCost": 110,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 100,
+		"wonderCost": 200,
 		"techs": [
 			{
 				"name": "Eukaryotic Cell",
@@ -317,8 +317,8 @@
 		"columnNumber": 8,
 		"era": "Paleoproterozoic",
 		"techCost": 120,
-		"buildingCost": 40,
-		"wonderCost": 100,
+		"buildingCost": 110,
+		"wonderCost": 200,
 		"techs": [
 			{
 				"name": "Tissue",
@@ -348,8 +348,8 @@
 		"columnNumber": 9,
 		"era": "Mesoproterozoic",
 		"techCost": 130,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 120,
+		"wonderCost": 225,
 		"techs": [
 			{
 				"name": "Chloroplasts",
@@ -434,8 +434,8 @@
 		"columnNumber": 10,
 		"era": "Mesoproterozoic",
 		"techCost": 150,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 130,
+		"wonderCost": 250,
 		"techs": [
 			{
 				"name": "Swimming",
@@ -480,8 +480,8 @@
 		"columnNumber": 11,
 		"era": "Neoproterozoic",
 		"techCost": 180,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 140,
+		"wonderCost": 275,
 		"techs": [
 			{
 				"name": "Radial Symmetry",
@@ -500,8 +500,8 @@
 		"columnNumber": 12,
 		"era": "Cambrian period",
 		"techCost": 200,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 150,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Bilateral Symmetry",
@@ -526,8 +526,8 @@
 		"columnNumber": 13,
 		"era": "Cambrian period",
 		"techCost": 245,
-		"buildingCost": 135,
-		"wonderCost": 100,
+		"buildingCost": 175,
+		"wonderCost": 300,
 		"techs": [
 			{
 				"name": "Exoskeleton",
@@ -564,8 +564,8 @@
 		"columnNumber": 14,
 		"era": "Silurian period",
 		"techCost": 350,
-		"buildingCost": 250,
-		"wonderCost": 800,
+		"buildingCost": 200,
+		"wonderCost": 350,
 		"techs": [
 			{
 				"name": "Eye",
@@ -608,8 +608,8 @@
 		"columnNumber": 15,
 		"era": "Silurian period",
 		"techCost": 440,
-		"buildingCost": 325,
-		"wonderCost": 900,
+		"buildingCost": 225,
+		"wonderCost": 350,
 		"techs": [
 			{
 				"name": "Gills",
@@ -659,8 +659,8 @@
 		"columnNumber": 16,
 		"era": "Ancient era",
 		"techCost": 480,
-		"buildingCost": 400,
-		"wonderCost": 1000,
+		"buildingCost": 250,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Medulla Oblongata",
@@ -719,8 +719,8 @@
 		"columnNumber": 17,
 		"era": "Carboniferous period",
 		"techCost": 570,
-		"buildingCost": 500,
-		"wonderCost": 1050,
+		"buildingCost": 300,
+		"wonderCost": 450,
 		"techs": [
 			{
 				"name": "Reptile",
@@ -760,8 +760,8 @@
 		"columnNumber": 18,
 		"era": "Permian period",
 		"techCost": 600,
-		"buildingCost": 520,
-		"wonderCost": 1100,
+		"buildingCost": 325,
+		"wonderCost": 500,
 		"techs": [
 			{
 				"name": "Herbivore",
@@ -797,8 +797,8 @@
 		"columnNumber": 19,
 		"era": "Mesozoic era",
 		"techCost": 780,
-		"buildingCost": 540,
-		"wonderCost": 1200,
+		"buildingCost": 350,
+		"wonderCost": 550,
 		"techs": [
 			{
 				"name": "Dinosaur",
@@ -822,8 +822,8 @@
 		"columnNumber": 20,
 		"era": "Mesozoic era",
 		"techCost": 850,
-		"buildingCost": 560,
-		"wonderCost": 1400,
+		"buildingCost": 375,
+		"wonderCost": 550,
 		"techs": [
 			{
 				"name": "Gliding",
@@ -870,8 +870,8 @@
 		"columnNumber": 21,
 		"era": "Paleogene period",
 		"techCost": 900,
-		"buildingCost": 600,
-		"wonderCost": 1800,
+		"buildingCost": 400,
+		"wonderCost": 800,
 		"techs": [
 			{
 				"name": "Flying",
@@ -894,8 +894,8 @@
 		"columnNumber": 22,
 		"era": "Paleogene period",
 		"techCost": 950,
-		"buildingCost": 50,
-		"wonderCost": 2000,
+		"buildingCost": 400,
+		"wonderCost": 800,
 		"techs": [
 			{
 				"name": "Bat",
@@ -921,13 +921,13 @@
 				"name": "Primate",
 				"row": 6,
 				"prerequisites": ["Eutherians"],
-				"uniques": ["[+3 Science] per [5] population [in all cities]"],
+				// "uniques": ["[+3 Science] per [5] population [in all cities]"],
 			},
 			{
 				"name": "Neocortex",
 				"row": 2,
 				"prerequisites": ["Eutherians"],
-				"uniques": ["[+1 Science] per [10] population [in all cities]"],
+				// "uniques": ["[+1 Science] per [10] population [in all cities]"],
 			},
 			{
 				"name": "Placenta",
@@ -941,8 +941,8 @@
 		"columnNumber": 23,
 		"era": "Miocene",
 		"techCost": 1000,
-		"buildingCost": 640,
-		"wonderCost": 100,
+		"buildingCost": 425,
+		"wonderCost": 850,
 		"techs": [
 			{
 				"name": "Ape",
@@ -960,8 +960,8 @@
 		"columnNumber": 24,
 		"era": "Miocene",
 		"techCost": 1200,
-		"buildingCost": 720,
-		"wonderCost": 100,
+		"buildingCost": 450,
+		"wonderCost": 850,
 		"techs": [
 			{
 				"name": "Modern Ocean",
@@ -992,8 +992,8 @@
 		"columnNumber": 25,
 		"era": "Pliocene",
 		"techCost": 1350,
-		"buildingCost": 800,
-		"wonderCost": 100,
+		"buildingCost": 475,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Australopithecus",
@@ -1011,8 +1011,8 @@
 		"columnNumber": 26,
 		"era": "Pliocene",
 		"techCost": 1800,
-		"buildingCost": 900,
-		"wonderCost": 100,
+		"buildingCost": 500,
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "New Ability",
@@ -1035,8 +1035,8 @@
 		"columnNumber": 27,
 		"era": "Pleistocene",
 		"techCost": 2200,
-		"buildingCost": 1000,
-		"wonderCost": 100,
+		"buildingCost": 525,
+		"wonderCost": 950,
 		"techs": [
 			{
 				"name": "Stone Tools",
@@ -1069,8 +1069,8 @@
 		"columnNumber": 28,
 		"era": "Pleistocene",
 		"techCost": 2500,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 550,
+		"wonderCost": 950,
 		"techs": [
 			{
 				"name": "Homo Neanderthalensis",
@@ -1115,8 +1115,8 @@
 		"columnNumber": 29,
 		"era": "Holocene",
 		"techCost": 3000,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 575,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "Homo Sapiens Sapiens",
@@ -1153,8 +1153,8 @@
 		"columnNumber": 30,
 		"era": "Holocene",
 		"techCost": 3500,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 600,
+		"wonderCost": 1000,
 		"techs": [
 			{
 				"name": "Human Race",
@@ -1188,8 +1188,8 @@
 		"columnNumber": 31,
 		"era": "Holocene",
 		"techCost": 6250,
-		"buildingCost": 50,
-		"wonderCost": 100,
+		"buildingCost": 625,
+		"wonderCost": 1050,
 		"techs": [
 			{
 				"name": "Anthropocene",
