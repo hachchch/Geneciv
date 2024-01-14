@@ -7,7 +7,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Human Race",
 		"uniques": ["Ordovician","Can build [GrassLand] improvements on tiles","Can build [Forests] improvements on tiles","Automation is a primary action","[-1] Sight <hidden from users>"],
-		"cost": 300,
+		"cost": 150,
 		"requiredTech": "First Plant",
 		"civilopediaText": [
 			{
