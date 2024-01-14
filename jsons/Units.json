@@ -868,7 +868,7 @@
 		"requiredTech": "Gliding",
 		"obsoleteTech": "Flying",
 		"upgradesTo": "Archeopteryx",
-		"attackSound": "Whoosh"
+		"attackSound": "Woosh"
 		"uniques": ["Triassic","Predator"],
 		"civilopediaText": [
 			{
@@ -1511,7 +1511,7 @@
 		"requiredTech": "Flying",
 		"obsoleteTech": "Modern Birds",
 		"upgradesTo": "Eagle",
-		"attackSound": "Whoosh",
+		"attackSound": "Woosh",
 		"uniques": ["Jurassic","Predator"],
 		"civilopediaText": [
 			{
@@ -1534,7 +1534,7 @@
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Birds",
-		"attackSound": "Whoosh",
+		"attackSound": "Woosh",
 		"uniques": ["Eocene","Predator","[+25]% Strength <vs [Land] units>"],
 		"civilopediaText": [
 			{
@@ -1554,6 +1554,7 @@
 		"strength": 65,
 		"movement": 2,
 		"cost": 500,
+		"attackSound": "crrr",
 		"requiredTech": "Modern Birds",
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"],
@@ -1574,7 +1575,7 @@
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
-		"attackSound": "Whoosh",
+		"attackSound": "Woosh",
 		"uniques": ["Eocene","Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
 	},
 	{
@@ -1589,7 +1590,7 @@
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
 		"requiredTech": "Modern Birds",
-		"attackSound": "Whoosh",
+		"attackSound": "Woosh",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Crow",
@@ -1608,6 +1609,7 @@
 		"strength": 70,
 		"movement": 2,
 		"cost": 500,
+		"attackSound": "crrr",
 		"requiredTech": "Modern Birds",
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Birds","Bipedal","Holocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","Only available <before the [Medieval era]>"]
