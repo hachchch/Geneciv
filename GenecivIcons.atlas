@@ -1355,7 +1355,7 @@ BuildingIcons/RNA World
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/Protenoid
+BuildingIcons/Proteinoid
   rotate: false
   xy: 1200, 0
   size: 200, 200
