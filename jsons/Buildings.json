@@ -862,8 +862,8 @@
 	{
 		"name": "Endosymbiont",
 		// "cost": 50,
-		"maintenance": 1,
-		"production": 1,
+		"maintenance": 2,
+		"production": 3,
 		"requiredTech": "Mitochondria",
 	},
 	// General
@@ -1205,7 +1205,7 @@
 		"name": "Enzymes",
 		"cost": 70,
 		"maintenance": 1,
-		"production": 1,
+		"production": 2,
 		"uniques": ["[+9]% [Production] [in this city]"],
 		"requiredTech": "Amino Acid",
 	},
@@ -1318,7 +1318,7 @@
 		"requiredTech": "Muscles",
 		// "cost": 120,
 		"cityHealth": 15,
-		"production": 1,
+		"production": 2,
 		"uniques": ["[+5]% [Production] [in this city]"]
 	},
 	{
