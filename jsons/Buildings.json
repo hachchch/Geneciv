@@ -779,8 +779,10 @@
 	{
 		"name": "Late Heavy Bombardment",
 		"cost": 100,
+		"science": 2,
+		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Meteor] in all cities", "Cost increases by [30] per owned city","Enemy [Cell] units must spend [1] extra movement points when inside your territory",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]>"]
+		"uniques": ["Requires a [Meteor] in all cities", "Cost increases by [30] per owned city",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]> <hidden from users>"]
 	},
 	{
 		"name": "Archaeocyatha",
