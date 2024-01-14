@@ -845,7 +845,7 @@
 		"production": 1,
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
-		"uniques": ["Must be next to [Coast]"],
+		"uniques": ["Must be next to [Fresh water]"],
 		"requiredTech": "Spore Plant",
 	},
 	//Cell Life
@@ -856,6 +856,7 @@
 	},
 	{
 		"name": "Biochemical Synthesis",
+		"requiredBuilding": "Chemical Synthesis",
 		"gold": 2,
 		"requiredTech": "Mitochondria",
 	},
@@ -879,6 +880,7 @@
 		"name": "Eclipse",
 		"cost": 30,
 		"happiness": 1,
+		"gold": 1,
 		"requiredTech": "Moon",
 	},
 	{
