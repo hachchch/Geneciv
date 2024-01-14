@@ -39,7 +39,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
-		"production": 1,
+		// "production": 1,
 		"RGB": [232, 198, 104]
 	},
 	{
@@ -69,7 +69,7 @@
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
-		"culture": 1,
+		// "culture": 1,
 		"defenceBonus": -0.1,
 		"uniques": ["Cold"],
 		"RGB": [209, 219, 230]
