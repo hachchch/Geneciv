@@ -90,8 +90,9 @@
 	    "[-33]% [Science] <for [City-states]>",
 	    "[+33]% [Production] <for [City-states]>",
 
-	    // Hidden CPU Enhancement
+	    // Hidden CPU Balance-Machine
 	    "Cannot build [Settler] units <when below [1] Happiness> <for [AI player]>",
+	    "[-30]% Production when constructing [Settler] units [in all cities] <for [AI player]>",
 	    "[+20]% Production when constructing [LUCA] buildings [in all cities] <for [AI player]> <hidden from users>",
 	    "[+100]% Production when constructing [RNA World] buildings [in all cities] <for [AI player]> <hidden from users>"// ,
 
