@@ -871,6 +871,13 @@
 	{
 		"name": "Green Field",
 		"requiredBuilding": "Shrub",
+		"maintenance": 3,
+		"specialistSlots": {"Vegetation": 2},
+		"requiredTech": "Grass",
+	},
+	{
+		"name": "Green Field",
+		"requiredBuilding": "Shrub",
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Grass",
