@@ -297,20 +297,20 @@
 		"name": "Actinopterygii",
 		"science": 1,
 		"requiredTech": "Predation",
-		"uniques": ["Devonian","New [Water] units start with [15] Experience [in this city]"]
+		"uniques": ["Must be next to [Coast]","Devonian","New [Water] units start with [15] Experience [in this city]"]
 	},
 	{
 		"name": "Elpistostegalia",
 		"requiredTech": "Lungfish",
 		"science": 1,
-		"uniques": ["New [Land] units start with [10] Experience [in this city]"]
+		"uniques": ["Must be next to [Coastal]","New [Land] units start with [10] Experience [in this city]"]
 	},
 	{
 		"name": "Ichthyostega",
 		"requiredBuilding": "Elpistostegalia",
 		"science": 1,
 		"requiredTech": "Lungfish",
-		"uniques": ["Devonian","New [Land] units start with [5] Experience [in this city]"]
+		"uniques": ["Must be next to [Coastal]","Devonian","New [Land] units start with [10] Experience [in this city]"]
 	},
 	// Devonian-Carboniferous Flora
 	{
@@ -517,24 +517,24 @@
 		"science": 1,
 		"cost": 150,
 		"isWonder": true,
-		"uniques": ["All Life's Origin",
-		"[+1 Science] <after discovering [Prokaryotic Cell]> <before the [Mesoproterozoic]>",
-		"[+1 Science] <after discovering [Eukaryotic Cell]> <before the [Mesoproterozoic]>",
-		"[+1 Science] <after discovering [Sponge]> <before the [Cambrian period]>",
-		"[+1 Science] <after discovering [Swimming]> <before the [Cambrian period]>",
-		"[+1 Science] <after discovering [Flatworm]> <before the [Cambrian period]>",
-		"[+1 Science] <after discovering [Exoskeleton]> <before the [Ancient era]>",
-		"[+1 Science] <after discovering [Fish]> <before the [Ancient era]>",
-		"[+1 Science] <after discovering [Lungfish]> <before the [Permian period]>",
-		"[+1 Science] <after discovering [Archosauria]> <before the [Paleogene period]>",
-		"[+1 Science] <after discovering [Mammal]> <before the [Paleogene period]>",
-		"[+1 Science] <after discovering [Eutherians]> <before the [Pliocene]>",
-		"[+1 Science] <after discovering [Modern Ocean]> <before the [Pliocene]>",
-		"[+1 Science] <after discovering [Flying]> <before the [Pliocene]>",
-		"[+1 Science] <after discovering [Homo Sapiens Sapiens]> <after discovering [Anthropocene]>",
-		"[+1 Science] <after discovering [Chloroplasts]> <before the [Cambrian period]>",
-		"[+1 Science] <after discovering [Fern]> <before the [Permian period]>",
-		"[+1 Science] <after discovering [Flowers]> <before the [Pliocene]>"
+		"uniques": ["All Life's Origin","Provides 1~4 Science during the each Era after you discovered Evolution(List: Prokaryotic Cell, Eukaryotic Cell, Sponge, Swimming, Flatworm, Exoskeleton, Fish, Lungfish, Archosauria, Mammal, Eutherians, Modern Ocean, Flying, Homo Sapiens Sapiens, Chloroplasts, Fern, Flowers)",
+		"[+1 Science] <after discovering [Prokaryotic Cell]> <before the [Mesoproterozoic]> <hidden from users>",
+		"[+1 Science] <after discovering [Eukaryotic Cell]> <before the [Mesoproterozoic]> <hidden from users>",
+		"[+1 Science] <after discovering [Sponge]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Swimming]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Flatworm]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Exoskeleton]> <before the [Ancient era]> <hidden from users>",
+		"[+1 Science] <after discovering [Fish]> <before the [Ancient era]> <hidden from users>",
+		"[+1 Science] <after discovering [Lungfish]> <before the [Permian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Archosauria]> <before the [Paleogene period]> <hidden from users>",
+		"[+1 Science] <after discovering [Mammal]> <before the [Paleogene period]> <hidden from users>",
+		"[+1 Science] <after discovering [Eutherians]> <before the [Pliocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Modern Ocean]> <before the [Pliocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Flying]> <before the [Pliocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Homo Sapiens Sapiens]> <after discovering [Anthropocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Chloroplasts]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Fern]> <before the [Permian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Flowers]> <before the [Pliocene]> <hidden from users>"
 		],
 		"requiredTech": "Primordial Soup",
 	},
@@ -542,11 +542,13 @@
 		"name": "Eocene-Oligocene Extinction",
 		"isWonder": true,
 		"cost": 800,
-		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be next to [Coast]","[+15]% Strength <for [Water] units>"],
+		"culture": 10,
+		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be next to [Coast]"],
 	},
 	{
 		"name": "Andean-Saharan Glaciation",
 		"isWonder": true,
+		"gold": 3,
 		"uniques": ["Silurian","Must be next to [Cold]","Unbuildable <before the [Silurian period]>","[+1 Gold] from [Tundra] tiles [in this city]","[+1 Gold] from [Snow] tiles [in this city]","City-State Influence recovers at twice the normal rate"],
 		"cost": 350,
 	},
