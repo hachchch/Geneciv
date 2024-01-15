@@ -109,7 +109,7 @@
 	{
 		"name": "Metabolism",
 		"cityStrength": 10,
-                "cityHealth": 200,
+                "cityHealth": 100,
 		"maintenance": 2,
 		"requiredTech": "Warm Blooded",
 		"uniques": ["Warm-blooded is an informal term referring to animal species whose bodies maintain a temperature higher than that of their environment. In particular, homeothermic species (including birds and mammals) maintain a stable body temperature by regulating metabolic processes. Other species have various degrees of thermoregulation."]
@@ -117,14 +117,14 @@
 	{
 		"name": "Epidermis",
 		"cityStrength": 10,
-                "cityHealth": 100,
+                "cityHealth": 50,
 		"maintenance": 2,
 		"requiredTech": "Water Tight",
 	},
 	{
 		"name": "Dermis",
 		"cityStrength": 5,
-                "cityHealth": 100,
+                "cityHealth": 50,
 		"maintenance": 1,
 		"requiredTech": "Tissue",
 	},
@@ -283,9 +283,45 @@
 	{
 		"name": "Poikilotherm",
 		"culture": 2,
+		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Cold Blooded",
-		"uniques": ["[-20]% Culture cost of natural border growth [in this city]"]
+		"uniques": ["Must be next to [Coast]","[-20]% Culture cost of natural border growth [in this city]"]
+	},
+	{
+		"name": "Coelacanth",
+		"sciece": 3,
+		"maintenance": 1,
+		"requiredTech": "Predation",
+		"uniques": ["Must be next to [Coastal]"]
+		"specialistSlots": {"Creature": 1},
+	},
+	{
+		"name": "Entelognathus",
+		"isWonder": true,
+		"culture": 6,
+		// "maintenance": 1,
+		"requiredTech": "Jaw",
+		"quote": "Prior to the discovery of Entelognathus, scientists assumed that the last common ancestor of jawed vertebrates was a shark-like animal, with no distinct jawbones, and that modern jaws evolved in early bony fishes. but Entelognathus shows that modern jaws evolved earlier. It is possible that Chondrichthyes started with distinct jaws and then dispensed with them. Entelognathus has been called the earliest known animal with what looks like a face.",
+		"uniques": ["May buy [{Water} {non-[Jawless]}] units with [Culture] for [3] times their normal Production cost","Must be next to [Coast]"]
+		// "specialistSlots": {"Creature": 1},
+	},
+	{
+		"name": "Placodermi",
+		"isWonder": true,
+		"culture": 2,
+		"science": 2,
+		"uniques": ["[+30]% City Strength from defensive buildings","[Fishes] Units adjacent to this city heal [30] HP per turn when healing"],
+		"requiredTech": "Fin",
+		"quote": "Placoderms were also the first fish to develop pelvic fins, the precursor to hindlimbs in tetrapods, as well as true teeth.(reference thesis 'Development of teeth and jaws in the earliest jawed vertebrates')",
+	},
+	{
+		"name": "Agnatha",
+		"science": 2,
+		"maintenance": 1,
+		"requiredTech": "Fish",
+		"uniques": ["Must be next to [Coast]"]
+		"specialistSlots": {"Creature": 1},
 	},
 	/*{
 		"name": "Durophagy",
@@ -366,7 +402,7 @@
 		"science": 1,
 		"isWonder": true,
 		"cost": 550,
-		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-100]% maintenance cost for buildings [in this city]"]
+		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-50]% maintenance cost for buildings [in this city]"]
 	},
 	{
 		"name": "Paleocene-Eocene Thermal Maximum",
@@ -715,11 +751,20 @@
 	},
 	// Invertebrates
 	{
+		"name": "Monoplacophora",
+		"specialistSlots": {"Creature": 2},
+		"culture": 1,
+		"maintenance": 3,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Only available <in cities without a [Helcionelloida]>","Cambrian"]
+	},
+	{
 		"name": "Helcionelloida",
 		"specialistSlots": {"Creature": 1},
-		"culture": 2,
-		"maintenance": 1,
+		"culture": 3,
+		"maintenance": 3,
 		"requiredTech": "Exoskeleton",
+		"uniques": ["Only available <in cities without a [Monoplacophora]>","Cambrian"]
 	},
 	{
 		"name": "Cephalopoda",
@@ -748,7 +793,7 @@
 		"isNationalWonder": true,
 		"cost": 75,
 		"food": 4,
-		"gold": 1,
+		"gold": 3,
 		"requiredTech": "Primordial Soup",
 		"uniques": ["Requires a [Volcano] in all cities", "Cost increases by [30] per owned city","Provides [3] [Oxygen]"],
 		"quote": "'The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light (from about 200 nm to 315 nm wavelength), which otherwise would potentially damage exposed life forms near the surface.' -Wikipedia",
@@ -800,8 +845,16 @@
 		"name": "End Of Boring Billion",
 		"cost": 300,
 		"culture": 1,
-		"uniques": ["Cost increases by [30] per owned city","[+50]% [Culture] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
+		"uniques": ["Cost increases by [30] per owned city","[+33]% [Culture] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
 		"isNationalWonder": true,
+	},
+	{
+		"name": "Ventral Nerve Cord",
+		"cost": 270,
+		"isNationalWonder": true,
+		"gold": 10,
+		"requiredTech": "Nerve Cord",
+		"uniques": ["Cost increases by [30] per owned city","Requires a [Nervous System] in all cities"]
 	},
 	// Aquatic Charales
 	{
