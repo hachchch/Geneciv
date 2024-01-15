@@ -801,6 +801,11 @@
 		"wonderCost": 550,
 		"techs": [
 			{
+				"name": "Diving",
+				"row": 8,
+				"prerequisites": ["Archosauria","Predation"],
+			},
+			{
 				"name": "Dinosaur",
 				"row": 6,
 				"prerequisites": ["Archosauria","Egg Shell"],
@@ -839,7 +844,7 @@
 			{
 				"name": "Plesiosaur",
 				"row": 8,
-				"prerequisites": ["Dinosaur","Predation"],
+				"prerequisites": ["Dinosaur","Diving"],
 			},
 			{
 				"name": "Feathers"
