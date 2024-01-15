@@ -330,6 +330,12 @@
 	},*/
 	// Devonian
 	{
+		"name": "Silurian-Devonian Terrestrial Revolution",
+		"requiredTech": "Fern",
+		"isWonder": true,
+		"uniques": ["[-40]% maintenance cost for buildings [in all cities]","[+5]% [Production] [in all cities]"]
+	},
+	{
 		"name": "Actinopterygii",
 		"science": 1,
 		"requiredTech": "Predation",
