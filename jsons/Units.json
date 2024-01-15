@@ -832,6 +832,28 @@
 		]
 	},
 	{
+		"name": "Mesosaur",
+		"requiredTech": "Diving",
+		"attackSound": "Splash",
+		"obsoleteTech": "Plesiosaur",
+		"cost": 430,
+		"strength": 55,
+		"movement": 3,
+		"unitType": "Water Reptiles",
+		"uniques": ["Triassic","Quadrupedal"],
+	},
+	{
+		"name": "Ichthyosauria",
+		"requiredTech": "Diving",
+		"attackSound": "Splash",
+		"obsoleteTech": "Plesiosaur",
+		"cost": 430,
+		"strength": 50,
+		"movement": 4,
+		"unitType": "Water Reptiles",
+		"uniques": ["Triassic","Predator","Quadrupedal","[+1] Sight"],
+	},
+	{
 		"name": "Plesiosaur",
 		"unitType": "Water Reptiles",
 		"cost": 450,
