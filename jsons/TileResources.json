@@ -11,16 +11,20 @@
 		"name": "Atmosphere",
 		"resourceType": "Strategic",
 		"revealedBy": "Primordial Soup",
-		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
+		"uniques": [
+			"[-100]% [Production] [in all cities] <when below [1] [Atmosphere]>","[+100]% [Culture] [in all cities] <when below [1] [Atmosphere]>",
+			"Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
 	},
 	{
 		"name": "Temperature",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
+		"uniques": [
+			"[-100]% [Gold] [in all cities] <when below [1] [Temperature]>","[+100]% [Culture] [in all cities] <when below [1] [Temperature]>",
+			"Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
 	},
 	{
-		"name": "Water",
+		"name": "Water", // currentry, it not used and not surrounding environment
 		"resourceType": "Strategic",
 		// "revealedBy": "Planet Earth",
 		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
@@ -29,13 +33,17 @@
 		"name": "Oxygen",
 		"resourceType": "Strategic",
 		"revealedBy": "Planet Earth",
-		"uniques": ["Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
+		"uniques": [
+			"[-100]% [Food] [in all cities] <when below [1] [Oxygen]>","[+100]% [Culture] [in all cities] <when below [1] [Oxygen]>",
+			"Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
 	},
 	{
 		"name": "Biomass",
 		"resourceType": "Strategic",
 		"revealedBy": "Chloroplasts",
-		"uniques": ["Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
+		"uniques": [
+			"[-100]% [Science] [in all cities] <when below [1] [Biomass]>","[+100]% [Culture] [in all cities] <when below [1] [Biomass]>",
+			"Cannot be traded","Stockpiled",/*"Not shown on world screen",*/"Excluded from map editor"],
 	},
 	// Variable
 	{
