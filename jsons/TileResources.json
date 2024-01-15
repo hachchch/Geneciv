@@ -39,7 +39,7 @@
 	},
 	// Variable
 	{
-		"name": "Complex",
+		"name": "Complex", // It will used as a variable
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded","Excluded from map editor","Stockpiled","Not shown on world screen"],
 	},
@@ -52,22 +52,32 @@
 	{
 		"name": "Golden age Bonus", // Maybe change the name
 		"resourceType": "Luxury",
-		"uniques": ["Cannot be traded","Empire enters golden age","Can only be created by Mercantile City-States","City-level resource"]
+		"uniques": ["Cannot be traded","[-4 Happiness] <hidden from users>","Empire enters golden age","Can only be created by Mercantile City-States","City-level resource"]
+	},
+	{
+		"name": "Free Population Bonus", // Maybe change the name
+		"resourceType": "Luxury",
+		"uniques": ["Cannot be traded","[-4 Happiness] <hidden from users>","[+1] population [in capital]","Can only be created by Mercantile City-States","City-level resource"]
+	},
+	{
+		"name": "Free Policy Bonus", // Maybe change the name
+		"resourceType": "Luxury",
+		"uniques": ["Cannot be traded","[-4 Happiness] <hidden from users>","Free Social Policy","Can only be created by Mercantile City-States","City-level resource"]
 	},
 	{
 		"name": "Stalactite",
 		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States","City-level resource"]
+		"uniques": ["[+1 Culture] [in all cities]","Can only be created by Mercantile City-States","City-level resource"]
 	},
 	{
 		"name": "Agrias",
 		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States","City-level resource"]
+		"uniques": ["[+2 Gold] [in all cities]","Can only be created by Mercantile City-States","City-level resource"]
 	},
 	{
 		"name": "Cowry",
 		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States","City-level resource"]
+		"uniques": ["[+1 Science] [in all cities]","Can only be created by Mercantile City-States","City-level resource"]
 	},
 	// SubTerrains
 	{
