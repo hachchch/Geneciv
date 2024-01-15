@@ -1097,6 +1097,7 @@
 				"name": "Fire",
 				"row": 2,
 				"prerequisites": ["Stone Tools"],
+				// "uniques": ["[+100]% construction time for [Remove Forest] improvements"]
 				"quote": "The discovery of fire gave mankind a way to survive the winter, cooked meat and new weapons. Homo ergaster might also have been the earliest hominin to master control of fire.",
 			},
 			{
