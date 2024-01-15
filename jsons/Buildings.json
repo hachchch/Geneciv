@@ -862,6 +862,14 @@
 		"requiredTech": "Nerve Cord",
 		"uniques": ["Cost increases by [30] per owned city","Requires a [Nervous System] in all cities"]
 	},
+	// abyssal life support
+	{
+		"name": "Whale Falls",
+		// "maintenance": none,
+		"gold": 4,
+		"uniques": ["Must be next to [Water]","[+15]% [Gold] [in this city]"]
+		"requiredTech": "Cetaceans",
+	},
 	// Aquatic Charales
 	{
 		"name": "Kelp Forest",
