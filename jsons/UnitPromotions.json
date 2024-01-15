@@ -909,6 +909,6 @@
 	{
 		"name": "Durophagy",
 		"unitType": ["Fishes"],
-		"uniques": ["[+30]% Strength <vs [Water Arthropod]> <when attacking>"],
+		"uniques": ["[+30]% Strength <vs [Water Arthropod] units> <when attacking>"],
 	},
 ]
