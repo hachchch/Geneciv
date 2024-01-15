@@ -905,4 +905,10 @@
 		"unitTypes": ["Water Arthropod"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
+	// Feeding
+	{
+		"name": "Durophagy",
+		"unitType": ["Fishes"],
+		"uniques": ["[+30]% Strength <vs [Water Arthropod]> <when attacking>"],
+	},
 ]
