@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Extinctions",
-		"era": "Archian eon",
+		"era": "Archean eon",
 		"priorities": {"Neutral": 10,"Cultural": 15,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
 		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
 		"uniques": ["[+25]% [Culture] [in capital] <while the empire is happy>"],
