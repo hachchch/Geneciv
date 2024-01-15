@@ -133,7 +133,12 @@
 		"type": "Land",
 		"impassable": true,
 		"RGB": [0, 171, 169]
-		"uniques": ["Rough terrain","Has an elevation of [1] for visibility calculations","Occurs in groups around high elevations","[-1] to Fertility for Map Generation"],
+		"uniques": ["Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "Units ending their turn on this terrain take [50] damage",
+            "Always Fertility [-2] for Map Generation",
+            "Considered [Undesirable] when determining start locations"]
 	},
 	{
 		"name": "Snow",
@@ -141,7 +146,16 @@
 		"movementCost": 1,
 		// "culture": 1,
 		"defenceBonus": -0.1,
-		"uniques": ["Cold"],
+		"uniques": ["Cold","Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Becomes [Tundra] when adjacent to [River]",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Never receives any resources <in [Hill] tiles>"],
 		"RGB": [209, 219, 230]
 	},
 	{
