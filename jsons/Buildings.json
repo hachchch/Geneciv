@@ -312,7 +312,7 @@
 		"culture": 2,
 		"science": 2,
 		"uniques": ["[+30]% City Strength from defensive buildings","[Fishes] Units adjacent to this city heal [30] HP per turn when healing"],
-		"requiredTech": "Fin",
+		"requiredTech": "Fins",
 		"quote": "Placoderms were also the first fish to develop pelvic fins, the precursor to hindlimbs in tetrapods, as well as true teeth.(reference thesis 'Development of teeth and jaws in the earliest jawed vertebrates')",
 	},
 	{
