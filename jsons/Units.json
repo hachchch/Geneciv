@@ -503,6 +503,35 @@
 		]
 	},
 	{
+		"name": "Arthrodira",
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"unitType": "Fishes",
+		"cost": 150,
+		"strength": 40,
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"requiredTech": "Fish",
+		"uniques": ["Cambrian","Predator","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Arthrodira",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Arthrodira",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "during their thriving, the arthrodires were one of the most diverse and numerically successful, if not the most successful, vertebrate orders of the Devonian, occupying a vast spectrum of roles from apex predator to detritus-nibbling bottom dweller. Despite their success, the arthrodires were one of many groups eliminated by the environmental catastrophes of the Late Devonian extinction, allowing other fish such as sharks to diversify into the vacated ecological niches during the Carboniferous period."
+			}
+		]
+	},
+	{
 		"name": "Shark",
 		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
@@ -531,14 +560,16 @@
 	},
 	{
 		"name": "Dunkleosteus",
+		"upgradesTo": "Shark",
 		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
 		"cost": 140,
-		"strength": 55,
+		"strength": 50,
 		"movement": 5,
+		"requiredResource": "Super Creature Stock",
 		"uniqueTo": "Euramerica",
-		"replaces": "Shark",
-		"requiredTech": "Predation",
+		"replaces": "Arthrodira",
+		"requiredTech": "Fish",
 		"uniques": ["Devonian","Predator","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "Splash",
 		"civilopediaText": [
@@ -642,6 +673,7 @@
 	// Reptiles
 	{
 		"name": "Small Reptile",
+		"upgradesTo": "Synapsida",
 		"obsoleteTech": "Mammal",
 		"unitType": "Reptiles",
 		"movement": 2,
