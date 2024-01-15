@@ -26,6 +26,6 @@ well, It's time to beggining the biggest history!
 
 さあ、最も偉大な歴史を始めましょう。
 
-![](/preview.png)
+![](/extraImages/oldpreview.png)
 ## Contributing
 You can help my Project with Issues or Pull Request.
