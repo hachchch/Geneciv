@@ -1792,6 +1792,31 @@
 		]
 	},
 	{
+		"name": "Tiger", // is it should be Panthera?
+		"unitType": "Mammal",
+		"obsoleteTech": "Anthropocene",
+		"cost": 900,
+		"strength": 120,
+		"movement": 4,
+		"requiredTech": "Eutherians",
+		"attackSound": "Lion",
+		"requiredResource": "Super Creature Stock",
+		"uniques": ["Must be on [non-[Warm]] <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tiger",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tiger",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
 		"name": "Lion",
 		"unitType": "Mammal",
 		"obsoleteTech": "Anthropocene",
@@ -1801,7 +1826,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
-		"uniques": ["Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"uniques": ["Must be on [Warm]","Pleistocene","Predator","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
