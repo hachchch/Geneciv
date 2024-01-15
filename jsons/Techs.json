@@ -550,7 +550,7 @@
 				"name": "Nerve Cord",
 				"row": 2,
 				"prerequisites": ["Bilateral Symmetry","Nervous System"],
-				"uniques": ["[+1 Gold] per [5] population [in capital]"]
+				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
 			},
 			{
 				"name": "Pigment Spot",
