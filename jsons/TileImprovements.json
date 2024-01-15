@@ -4,7 +4,7 @@
 		"shortcutKey": "F",
 		"techRequired": "Fern",
 		"turnsToBuild": 3,
-		"uniques": ["Provides [3] [Biomass]","Consumes [3] [Atmosphere]","Provides [3] [Oxygen]","Gives a defensive bonus of [15]% <in [non-[Hill]] tiles>","Can only be built to improve a resource",// "[-1 Production] <in [GrassLand] tiles> <hidden from users>",
+		"uniques": ["Vegetation","Provides [3] [Biomass]","Consumes [3] [Atmosphere]","Provides [3] [Oxygen]","Gives a defensive bonus of [15]% <in [non-[Hill]] tiles>","Can only be built to improve a resource",// "[-1 Production] <in [GrassLand] tiles> <hidden from users>",
 		"[+1 Production] <after discovering [Flowers]>","[+1 Food] <after discovering [Primate]>"],
 		"civilopediaText": [
 			{
@@ -21,7 +21,7 @@
 		"shortcutKey": "G",
 		"techRequired": "Chloroplasts",
 		"food": 1,
-		"uniques": ["Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
+		"uniques": ["Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Plains","Hill"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
