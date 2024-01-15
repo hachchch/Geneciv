@@ -1446,7 +1446,7 @@
 		"cost": 1,
 		"culture": 3,
 		"happiness": 3,
-                "uniques": ["Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock]"],
+                "uniques": ["Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock] <for [non-[City-states]]>"], // Prev, it was easy to create super units by forming an alliance with a city-state.
         },
 	{
 		"name": "Adenosine Triphosphate",
