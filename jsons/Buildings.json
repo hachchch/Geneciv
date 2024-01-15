@@ -869,7 +869,7 @@
 	},
 	// Embryophyte
 	{
-		"name": "Green Field",
+		"name": "Mistletoe",
 		"requiredBuilding": "Shrub",
 		"maintenance": 3,
 		"specialistSlots": {"Vegetation": 2},
