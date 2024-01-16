@@ -1801,7 +1801,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
-		"uniques": ["Must be on [non-[Warm]] <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities without a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tiger",
@@ -1826,7 +1826,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
-		"uniques": ["Must be on [Warm]","Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities with a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
