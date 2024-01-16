@@ -1,8 +1,14 @@
 [
 	{
 		"name": "discover biota",
-		"uniques": ["Free Technology"],
+		"uniques": ["Free Social Policy"],
 		"notification": "We have discovered unknown biota in the ruins!",
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "discover new species",
+		"notification": "We have found new species in the ruins!",
+		"uniques": ["Free Technology"],
 		"color": "#cf8ff7"
 	},
 	{
@@ -29,13 +35,13 @@
         "name": "squatters willing to work for you",
         "notification": "A [Worker] has joined us!",
         "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity"]
+        "excludedDifficulties": ["Prince", "King", "Emperor", "Immortal", "Deity", "Darwin"]
     },
     {
         "name": "squatters wishing to settle under your rule",
         "notification": "A [Settler] has joined us!",
         "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
+        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity", "Darwin"]
     },
     {
         "name": "your exploring unit receives training",
