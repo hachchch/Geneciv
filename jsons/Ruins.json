@@ -1,4 +1,14 @@
 [
+	{
+		"name": "discover new species",
+		"uniques": [""],
+		"color": "#cf8ff7"
+	},
+	// Only work on Darwin
+	{
+		"excludedDifficulties": ["Settler","Warlord","Prince","King","Emperor","Immortal","Deity"]
+	},
+	// Vanila
     {
         "name": "discover cultural artifacts",
         "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
