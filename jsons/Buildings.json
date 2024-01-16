@@ -1456,7 +1456,12 @@
 		"cityHealth": -5,
 		"happiness": -3,
 		// "science": -3,
-		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured"]
+		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured",
+			"Gain a free [Warm Environment] [in this city] <in [Warm] tiles>"]
+	},
+	{
+		"name": "Warm Environment",
+		"uniques": ["Unsellable","Unbuildable","Can Construct Warm Environment Unique in this city"]
 	},
         {
                 "name": "Palace",
