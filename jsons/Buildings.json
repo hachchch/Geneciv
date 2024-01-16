@@ -1451,6 +1451,10 @@
 		"uniques": ["New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]"],
 	},
 	{
+		"name": "Free SCS",
+		"uniques": ["Remove [Free SCS] [in this city]","Unbuildable","Provides [1] [Super Creature Stock] <for [9999] turns>"]
+	},
+	{
 		"name": "Gamerule",
 		"cityStrength": -5,
 		"cityHealth": -5,
