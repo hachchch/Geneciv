@@ -12,14 +12,27 @@
 		"color": "#cf8ff7"
 	},
 	{
-		"name": "discover new species",
-		"notification": "We have found new species in the ruins!",
-		"uniques": ["Free Technology"],
+		"name": "discover cyanobacteria",
+		"notification": "We released the cyanobacteria hidden in the ruins!",
+		"uniques": ["Instantly provides [300] [Oxygen]"],
 		"color": "#cf8ff7"
+	},
+	{
+		"name": "time machine",
+		"notification": "Our unit finds time machine hidden in the ruins!",
+		"uniques": ["This Unit upgrades for free including special upgrades"],
+		"color": "#cf8ff7"
+	},
+	{
+		"name": "discover fossil",
+		"uniques": ["Provides [1] [Super Creature Stock] <for [9999] turns>"],
+		"color": "#cf8ff7",
+		"notification": "we have discovered thrived predators fossil!"
 	},
 	// Only for Darwin
 	{
-		"name": "",
+		"name": "OOPARTS",
+		"notification": "We have discovered the paper about evolutionism in the ancient ruins!",
 		"color": "#cf8ff7",
 		"excludedDifficulties": ["Settler","Warlord","Prince","King","Emperor","Immortal","Deity"]
 	}
