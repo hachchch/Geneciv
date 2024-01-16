@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "discover fossil",
-		"uniques": ["Provides [1] [Super Creature Stock] <for [9999] turns>"],
+		"uniques": ["Gain a free [Free SCS] [in capital]"],
 		"color": "#cf8ff7",
 		"notification": "we have discovered thrived predators fossil!"
 	},
@@ -44,7 +44,7 @@
 	// Only for Darwin
 	{
 		"name": "ooparts",
-		"uniques": ["[+20]% [Science] <for [9999] turns>"],
+		"uniques": ["Gain [80] [Science]"],
 		"notification": "We have discovered the paper about evolutionism in the ancient ruins!",
 		"color": "#cf8ff7",
 		"excludedDifficulties": ["Settler","Warlord","Prince","King","Emperor","Immortal","Deity"]
