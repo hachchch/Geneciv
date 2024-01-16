@@ -1,13 +1,23 @@
 [
 	{
-		"name": "discover new species",
-		"uniques": [""],
+		"name": "discover biota",
+		"uniques": ["Free Technology"],
+		"notification": "We have discovered unknown biota in the ruins!",
 		"color": "#cf8ff7"
 	},
-	// Only work on Darwin
 	{
-		"excludedDifficulties": ["Settler","Warlord","Prince","King","Emperor","Immortal","Deity"]
+		"name": "discover new species",
+		"notification": "We have found new species in the ruins!",
+		"uniques": ["Free Technology"],
+		"color": "#cf8ff7"
 	},
+	// Only for Darwin
+	{
+		"name": "",
+		"color": "#cf8ff7",
+		"excludedDifficulties": ["Settler","Warlord","Prince","King","Emperor","Immortal","Deity"]
+	}
+	/*
 	// Vanila
     {
         "name": "discover cultural artifacts",
@@ -78,4 +88,5 @@
             "Only available <after founding a Pantheon>", "Only available <after [20] turns>"],
 		"color": "#CDDDF4"
     }
+	*/
 ]
