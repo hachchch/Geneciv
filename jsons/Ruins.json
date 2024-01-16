@@ -44,6 +44,7 @@
 	// Only for Darwin
 	{
 		"name": "ooparts",
+		"uniques": ["[+20]% [Science] <for [9999] turns>"],
 		"notification": "We have discovered the paper about evolutionism in the ancient ruins!",
 		"color": "#cf8ff7",
 		"excludedDifficulties": ["Settler","Warlord","Prince","King","Emperor","Immortal","Deity"]
