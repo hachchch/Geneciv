@@ -29,9 +29,21 @@
 		"color": "#cf8ff7",
 		"notification": "we have discovered thrived predators fossil!"
 	},
+	{
+		"name": "aámbaro figures",
+		"uniques": ["Gain [20] [Culture]"],
+		"color": "#cf8ff7",
+		"notification": "we have found dinosaurs clay figure in the ruins!"
+	},
+	{
+		"name": "cambrian bolt",
+		"uniques": ["Gain [20] [Science]"],
+		"color": "#cf8ff7",
+		"notification": "we have found artifact in the ruins!"
+	},
 	// Only for Darwin
 	{
-		"name": "OOPARTS",
+		"name": "ooparts",
 		"notification": "We have discovered the paper about evolutionism in the ancient ruins!",
 		"color": "#cf8ff7",
 		"excludedDifficulties": ["Settler","Warlord","Prince","King","Emperor","Immortal","Deity"]
