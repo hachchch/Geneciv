@@ -31,3 +31,6 @@ well, It's time to beggining the biggest history!
 ![](/extraImages/oldpreview.png)
 ## Contributing
 You can help my Project with Issues or Pull Request.
+
+# Extension mods
+[Geneciv-Extension AkashicRecords](https://github.com/hachchch/-Geneciv-Extension-AkashicRecords)
