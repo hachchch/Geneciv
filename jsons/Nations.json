@@ -228,7 +228,7 @@
 
 		"favoredReligion": "Rationalism",
 		"uniqueName": "Advanced Evolution of Humans",
-		"uniques": ["[+12]% [Science] [in all cities] <after discovering [Anthropocene]>","[+1] Sight <for [Human] units>", "[-50]% Gold cost of acquiring tiles [in all cities] <after discovering [Human Race]>","[+45]% Strength <vs [Human] units> <after discovering [Anthropocene]> <for [Human] units>"],
+		"uniques": ["Provides [1] [Atmosphere]","[+12]% [Science] [in all cities] <after discovering [Anthropocene]>","[+1] Sight <for [Human] units>", "[-50]% Gold cost of acquiring tiles [in all cities] <after discovering [Human Race]>","[+45]% Strength <vs [Human] units> <after discovering [Anthropocene]> <for [Human] units>"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
 			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
