@@ -32,5 +32,5 @@ well, It's time to beggining the biggest history!
 ## Contributing
 You can help my Project with Issues or Pull Request.
 
-# Extension mods
-[Geneciv-Extension AkashicRecords](https://github.com/hachchch/-Geneciv-Extension-AkashicRecords)
+# Extension mods list
+・[Geneciv-Extension AkashicRecords](https://github.com/hachchch/-Geneciv-Extension-AkashicRecords) created by hachchch
