@@ -87,3 +87,114 @@ TileSets/AbsoluteUnits/Units/Ankylosauria
   orig: 64, 64
   offset: 0, 0
   index: -1
+
+AbsUnits2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Giganotosaurus
+  rotate: false
+  xy: 0, 0
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Tiger
+  rotate: false
+  xy: 0, 150
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Raphus
+  rotate: false
+  xy: 0, 220
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Amplectobelua
+  rotate: false
+  xy: 0, 284
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Arthrodira
+  rotate: false
+  xy: 0, 348
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Chelonioidea
+  rotate: false
+  xy: 0, 412
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Mesosaur
+  rotate: false
+  xy: 0, 476
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Galliform
+  rotate: false
+  xy: 0, 540
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cryptodira
+  rotate: false
+  xy: 0, 604
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Ichthyosauria
+  rotate: false
+  xy: 0, 668
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Therocephalia
+  rotate: false
+  xy: 0, 732
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Eutheriodontia
+  rotate: false
+  xy: 64, 220
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Anomalocaris
+  rotate: false
+  xy: 70, 150
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Hurdiidae
+  rotate: false
+  xy: 64, 284
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Hallucigenia
+  rotate: false
+  xy: 64, 348
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
