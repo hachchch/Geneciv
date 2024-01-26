@@ -492,7 +492,7 @@
 		"name": "Last Glacial Maximum",
 		"isWonder": true,
 		"cost": 900,
-		"uniques": ["Unbuildable <before the [Pliocene]>","Enemy [{non-[Mammal]}] units must spend [1] extra movement points when inside your territory"]
+		"uniques": ["Unbuildable <before the [Pliocene]>","Enemy [All] units must spend [1] extra movement points when inside your territory <before discovering [Urbanization]>"]
 	},
 	{
 		"name": "Smithian-Spathian Boundary",
@@ -522,7 +522,7 @@
 		"name": "Giant-Impact",
 		"cost": 175,
 		"isWonder": true,
-		"uniques": ["Gain a free [Eclipse] [in all cities]"],
+		"uniques": ["Provides [3] [Atmosphere]","Gain a free [Eclipse] [in all cities]"],
 		"requiredTech": "Moon",
 		"quote": "'The giant-impact hypothesis, sometimes called the Big Splash, or the Theia Impact, suggests that the Moon was formed from the ejecta of a collision between the early Earth and a Mars-sized planet, approximately 4.5 billion years ago in the Hadean eon (about 20 to 100 million years after the Solar System coalesced).' -Free Web Dictionary Wikipedia",
 	},
@@ -883,6 +883,12 @@
 	},
 	// Embryophyte
 	{
+		"name": "Vascular",
+		"requiredBuilding": "Land Algae",
+		"requiredTech": "Fern",
+		"gold": 3,
+	},
+	{
 		"name": "Mistletoe",
 		"requiredBuilding": "Shrub",
 		"maintenance": 3,
@@ -895,7 +901,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Grass",
-		"food": 4,
+		"uniques": ["Provides [8] [Oxygen]"]
 		// "cost": 750,
 	},
 	{
