@@ -105,6 +105,17 @@
 		"requiredTech": "Coral",
 		"uniques": ["Cambrian","[+1 Production] from [Coastal] tiles [in this city]","Must be next to [Coastal]"]
 	},
+	{
+		"name": "Thylacocephala", // Hirnantian
+		"uniqueTo": "Hirnantian",
+		"replaces": "Agnatha",
+		"science": 3,
+		"culture": 2,
+		"maintenance": 1,
+		"requiredTech": "Coral",
+		"uniques": ["Only available <starting from [Silurian period]>","Must be next to [Coast]"]
+		"specialistSlots": {"Creature": 1},
+	},
 	// Defensive
 	{
 		"name": "Metabolism",
