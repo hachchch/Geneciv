@@ -81,7 +81,7 @@
 		"Instantly consumes [1] [Oxygen] <after discovering [Gills]> <upon ending a turn in a [Water] tile>"]
 	},
 	{
-		"name": "Water Arthropod",
+		"name": "Water Arthropod", // Renamed to Dinocaridida in English Translation
 		"movementType": "Water",
 	},
 	{
