@@ -165,8 +165,8 @@
 		"name": "Adaptation",
 		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
 		"era": "Archean eon",
-		"effect": "",
-		"uniques": [""],
+		"effect": "+2 Production to capital",
+		"uniques": ["[+2 Production] [in capital]"],
 		"policies": [
 			{
 				"name": "Pasteur Point",
