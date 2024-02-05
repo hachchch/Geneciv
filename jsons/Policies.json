@@ -130,8 +130,8 @@
 		"name": "Abiogenesis",
 		"priorities": {"Neutral": 3,"Cultural": 3,"Diplomatic": 3,"Domination": 3,"Scientific": 3},
 		"era": "Hadean eon",
-		"effect": "Enable to Construct Late Heavy Bombardment",
-		"uniques": ["Enable Late Heavy Bombardment"],
+		"effect": "Enable to Construct Late Heavy Bombardment and +2 Food to capital",
+		"uniques": ["Enable Late Heavy Bombardment","[+2 Food] [in capital]"],
 		"policies": [
 			{
 				"name": "Habitable World",
