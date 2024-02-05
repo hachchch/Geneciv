@@ -186,7 +186,7 @@
 	{
 		"name": "Burgess",
 		// "leaderName": "Reginald Claude Sprigg",
-		"leaderName": "King Trilobite",
+		"leaderName": "Anomalocaris",
 		"adjective": ["Burgessis"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
