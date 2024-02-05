@@ -153,19 +153,19 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
-		"name": "Ediacara", // Reference https://web.archive.org/web/20101010035019/http://www.peripatus.gen.nz/paleontology/Ediacara.html
-		"leaderName": "Aurelia Aurita", // why it's not Cyclomedusa? Yeah, It's because I like Aurelia. only it is the reason
+		"name": "Ediacara", // reference to see: https://web.archive.org/web/20101010035019/http://www.peripatus.gen.nz/paleontology/Ediacara.html
+		"leaderName": "Aurelia Aurita", // why it's not Cyclomedusa? Yeah, It's because I like Aurelia. only it is the personal reason...
 		"adjective": ["Ediacaran"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "The Snowballed Earth was melt on 635 MYA(million years ago), then The life on earth is awaken. In Ediacaran Biota, There are enigmatic and simpler life such a sea pen(looks like a Charnia), Xenophyophore, Jellyfish, Dickinsonia",
-		"startIntroPart2": "Behold the wonders of the Ediacaran Biota, there are so many advantage on us! we can swim well![float up and down] The evolution led by Cambrians? Or will you take the place you deserve, as the leading edge of Jellyfish surive into the all period?!", // 考え中
+		"startIntroPart2": "Behold the wonders of the Ediacaran Biota, there are so many advantage on us! we can swim well![float up and down] The evolution led by Cambrians? Or will you take the place you deserve, as the leading edge of evolution into the all period?!", // 考え中
 
-		"declaringWar": "Our jellyfish will attack your biota soon for some reason! Yeah, There's no hostility and reason in us, we just only float up and down!",
-		"attacked": "Woah, you wanna kill jellyfish? Well, These cute and capricious jellyfish have super deadly poison, right?",
-		"defeated": "Feel sad, Our Polyp has been eradicated for ever!",
-		"introduction": "Howdy! I'm the most genius Jellyfish. Nice to meet you!",
+		"declaringWar": "Our jellyfish will attack your biota soon for some reason! Oh right, There is no hostility and reason in us, we just only float up and down!",
+		"attacked": "Woah, you wanna clear our biota? Well, These cute and capricious jellyfish have super deadly poison, right?",
+		"defeated": "Feel sad, Our Polyp has tear down!",
+		"introduction": "Howdy! I'm the cutest and dominant Jellyfish. Nice to meet you!",
 
 		"neutralHello": "Hi there! how are you doing?",
 		"hateHello": "Hmph!",
@@ -175,7 +175,7 @@
 		"outerColor": [160,160,200],
 		"innerColor": [242,242,255],
 		
-		"uniqueName": "The Dawn of Aquarium", // another Idea: 'We can Swim well!','Common Ancestor','Charnia Forest','First Earth Colonist','Life on Proterozoic'
+		"uniqueName": "The Dawn of Aquarium", // another Idea: 'Common Ancestor','Charnia Forest','First Earth Colonist','Life on Proterozoic','Life on before god create Eden'
 		"uniques": ["[+1] Movement <for [Jellyfish] units>","[+1 Science] <before the [Cambrian period]>",
 		"[+1 Culture] from every [{unimproved} {Water}]"]
 		
@@ -186,7 +186,7 @@
 	{
 		"name": "Burgess",
 		// "leaderName": "Reginald Claude Sprigg",
-		"leaderName": "Anomalocaris",
+		"leaderName": "Opabinia",
 		"adjective": ["Burgessis"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
@@ -194,16 +194,15 @@
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 
-		"declaringWar": "The Life and Death of Planet Earth, Massive destruction is certain to come with dominant life and climate change... can you survive with your animal's worst genome?",
-		"attacked": "Well, you will see why I'm called 'Wonderful Life'.",
-		"defeated": "No matter what you do, Our biota will be preserved.",
-		"introduction": "Welcome to the honored arthropoda kingdom.",	
+		"declaringWar": "The Life and Death of Planet Earth, sometimes, massive destruction is come with dominant life and climate change... can you survive this era with their genome?",
+		"attacked": "Well, you will see why we are called 'Wonderful Life'.",
+		"defeated": "No matter what you do, Our biota will be preserved with fossils. Anyways, I congratulate you for your victory.",
+		"introduction": "Welcome to the honored dinocaridida kingdom.",
 
-		"neutralHello": "Hello.",
-		"hateHello": "Well?",
-		"hateHello": "What are you planning...",
+		"neutralHello": "Good day. The earth is full of vitality today.",
+		"hateHello": "Unfortunately, The earth is full of blood today...",
 
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		"tradeRequest": "Is the following trade of interest to you?",
 
 		"outerColor": [108,94,202],
 		"innerColor": [176,195,260],
@@ -211,15 +210,15 @@
 		"uniques": ["[+1 Gold] per every [10] [Science]","[+1 Science] from [Water] tiles [in all cities] <during the [Cambrian period]>","[+1 Science] from [Atoll] tiles [in all cities]"],
 		"cities": ["Marrella","Yohoia","Naraoia","Waptia","Canadaspis","Plenocaris","Molaria","Pikaia","Myllokunmingia","Haikouichthys",
 			"Opabinia","Anomalocaris","Hallucigenia","Odontogriphus"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+        "spyNames": ["Stanleycaris", "Cambroraster", "Titanokorys", "Waptia", "Canadaspis", "Fibulacaris", "Balhuticaris", "Loricicaris", "Odaraia", "Burgessia"]
 	},
 	{
 		"name": "United States",
 		"leaderName": "Abraham Lincoln",
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "America is the most great mammal nest in history. Although their history is extremely short from an evolutionary anthropological perspective, they are a h.sapiens society that has achieved tremendous growth from the European colonial era to the present. The U.S. army and FBI (professional defenders of their nest) always have the upper power even in organized battle between their homogenus, and are at the apex predator of present earth (it needs 100 polar bear to beat 1 American fighting man).",
+		"startIntroPart2": "Apparently, this strange world will someday be Earth, and we, as a civilization of sapiens, need to led this world.",
 		"declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
 		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
 		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
