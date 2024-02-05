@@ -2179,5 +2179,13 @@
 		"[+700]% Strength <for [Synapsida] units>",
 		"[+400]% Strength <for [Archeopteryx] units>",
 		"[+2] Range <for [Archeopteryx] units>"],
-	}
+	},
+	// Science Like Victory
+	{
+		"name": "Universe Beta 1.10",
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
+			"Hidden when [Next Universe] Victory is disabled", "Cannot be hurried"],
+		"requiredTech": "Homo Deus"
+	},
 ]
