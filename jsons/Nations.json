@@ -142,42 +142,46 @@
 
 		"outerColor": [26,62,78],
 		"innerColor": [172,152,223],
-		"uniqueName": "The Supercontinent",
-		"uniques": ["[+1 Production, +1 Gold, +1 Happiness, +1 Culture] [in all cities]","[+44]% Production when constructing [Settler] units [in all cities]",
-		"[-25]% Culture cost of natural border growth [in all cities]"],
-		"cities": ["Laurentia","Consensus","Amazonia","SWEAT","AUSWUS","AUSMEX","Missing-Link"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
-	{
-		"name": "Ediacara",
-		// "leaderName": "Reginald Claude Sprigg", I wonder if it's okay to mention the name of an actual researcher...
-		"leaderName": "Freak the Jellyfish",
-		"adjective": ["Ediacaran"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Scientific",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "Our jellyfish will destroy your world soon! Yeah, There's no hostility and reason in them, they just float up and down!",
-		"attacked": "Woah, you wanna crush jellyfish? Well, These cute and capricious jellyfish have super deadly poison, isn't it?",
-		"defeated": "Feel sad, Our Polyp has been eradicated for ever!",
-		"introduction": "Howdy! I'm the most genius Jellyfish!",
-
-		"neutralHello": "Hi there! how are you doing?",
-		"hateHello": "So?",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
-		"outerColor": [160,160,200],
-		"innerColor": [242,242,255],
 		"uniqueName": "Snowball Earth",
 		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]","[+1 Science] from [Ice] tiles [in all cities]",
 			"[+1 Science] from [{Tundra} {non-[Forest]} {non-[Hill]}] tiles [in all cities]",
 			"No Maintenance costs for improvements in [Snow] tiles"],
-		"cities": ["Pannotia","Gaskiers","Baykonurian","Charnia","Cyclomedusa","Tribrachidium","Kimberella","Xenacoelomorpha","Mollusc","Aspidella",
-			"Namesake","Laplandian Tillites","Acanthomorph"],
+		// "uniqueName": "The Supercontinent",
+		// "uniques": ["[+1 Production, +1 Gold, +1 Happiness, +1 Culture] [in all cities]","[+44]% Production when constructing [Settler] units [in all cities]",
+		// "[-25]% Culture cost of natural border growth [in all cities]"],
+		"cities": ["Laurentia","Consensus","Amazonia","SWEAT","AUSWUS","AUSMEX","Missing-Link"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
+	},
+	{
+		"name": "Ediacara", // Reference https://web.archive.org/web/20101010035019/http://www.peripatus.gen.nz/paleontology/Ediacara.html
+		"leaderName": "Aurelia Aurita", // why it's not Cyclomedusa? Yeah, It's because I like Aurelia. only it is the reason
+		"adjective": ["Ediacaran"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+
+		"startIntroPart1": "The Snowballed Earth was melt on 635 MYA(million years ago), then The life on earth is awaken. In Ediacaran Biota, There are enigmatic and simpler life such a sea pen(looks like a Charnia), Xenophyophore, Jellyfish, Dickinsonia",
+		"startIntroPart2": "Behold the wonders of the Ediacaran Biota, there are so many advantage on us! we can swim well![float up and down] The evolution led by Cambrians? Or will you take the place you deserve, as the leading edge of Jellyfish surive into the all period?!", // 考え中
+
+		"declaringWar": "Our jellyfish will attack your biota soon for some reason! Yeah, There's no hostility and reason in us, we just only float up and down!",
+		"attacked": "Woah, you wanna kill jellyfish? Well, These cute and capricious jellyfish have super deadly poison, right?",
+		"defeated": "Feel sad, Our Polyp has been eradicated for ever!",
+		"introduction": "Howdy! I'm the most genius Jellyfish. Nice to meet you!",
+
+		"neutralHello": "Hi there! how are you doing?",
+		"hateHello": "Hmph!",
+
+		"tradeRequest": "It would be great if you agree to this...",
+
+		"outerColor": [160,160,200],
+		"innerColor": [242,242,255],
+		
+		"uniqueName": "The Dawn of Aquarium", // another Idea: 'We can Swim well!','Common Ancestor','Charnia Forest','First Earth Colonist','Life on Proterozoic'
+		"uniques": ["[+1] Movement <for [Jellyfish] units>","[+1 Science] <before the [Cambrian period]>",
+		"[+1 Culture] from every [{unimproved} {Water}]"]
+		
+		"cities": ["Pannotia","Gaskiers","Baykonurian","Charnia Forest","Cyclomedusa","Tribrachidium","Kimberella","Xenacoelomorpha","Mollusc","Aspidella",
+		"Laplandian Tillites","Acanthomorph"],
+        	"spyNames": ["Aequorea victoria","Cyclomedusa","Chironex","Carukia barnesi"]
 	},
 	{
 		"name": "Burgess",
