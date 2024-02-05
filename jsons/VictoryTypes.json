@@ -31,4 +31,11 @@
         "victoryString": "",
         "defeatString": "",
     },
+    {
+	"name": "Next Universe",
+	"victoryScreenHeader": "Complete all the Universe parts\nto win!",
+	"milestones": [
+            "Build [Universe Beta 1.10]", "Add all [Universe parts] in capital"
+        ],
+    },
 ]
