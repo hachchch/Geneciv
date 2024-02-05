@@ -290,6 +290,34 @@
 		"uniques": ["Bugs","Coevolution"],
 		"requiredTech": "Humanization",
 	},
+	// Pre Fish Buildings
+	{
+		"name": "Opabinia",
+		"food": 6,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+		"quote": "One of the most distinctive characters of Opabinia is the hollow proboscis, whose total length was about one-third that of the body, and projected down from under the head. It looked so strange that the audience at the first presentation of Whittington's analysis laughed. Also, Opabinia has 5 compound eyes.",
+	},
+	{
+		"name": "Kerygmachela",
+		"food": 2,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+	},
+	{
+		"name": "Kylinxia",
+		"science": 2,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+	},
+	{
+		"name": "Nektonic Predation",
+		"production": 3,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+	},
 	// Fish Age Buildings
 	{
 		"name": "Poikilotherm",
@@ -339,6 +367,11 @@
 		"requiredTech": "Jaw",
 		"uniques": [""],
 	},*/
+	{
+		"name": "Neuston",
+		"production": 2,
+		"uniques": ["Must be on [Fresh water]"]
+	},
 	// Devonian
 	{
 		"name": "Silurian-Devonian Terrestrial Revolution",
