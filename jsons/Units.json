@@ -2664,5 +2664,42 @@
 		"strength": 8000,
 		"requiredTech": "Anthropocene Extinction",
 		"uniques": ["Cretaceous","AI","Bugs","Hexabipedal"],
-	}
+	},
+	// Next Universe Program
+	{
+		"name": "Universe Calculator",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Homo Deus",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Universe Beta 1.10] is constructed>", "Uncapturable", "Can be added to [The Universe] in the Capital", "Limited to [3] per Civilization"]
+	},
+	{
+		"name": "Particle Projector",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Homo Deus",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Universe Beta 1.10] is constructed>", "Uncapturable", "Can be added to [The Universe] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Heliophysics Calculator",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Homo Deus",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Universe Beta 1.10] is constructed>", "Uncapturable", "Can be added to [The Universe] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "Abiogenesis Simulator",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 750,
+		"requiredTech": "Homo Deus",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Universe Beta 1.10] is constructed>", "Uncapturable", "Can be added to [The Universe] in the Capital", "Limited to [1] per Civilization"]
+	},
 ]
