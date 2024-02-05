@@ -292,7 +292,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[+33]% Sttrength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"uniques": ["Cambrian","Jawless","[+33]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -1031,8 +1031,8 @@
 		"cost": 660,
 		"movement": 2,
 		"attackSound": "Splash",
-		"uniques": ["Cretaceous","Predator","[+150]% <when fighting in [Fresh water] tiles> <hidden from users>",
-		"[+120]% Strength <in [Coastal] tiles>","[+120]% <when fighting in [Coastal] tiles> <hidden from users>",
+		"uniques": ["Cretaceous","Predator","[+150]% Strength <when fighting in [Fresh water] tiles> <hidden from users>",
+		"[+120]% Strength <in [Coastal] tiles>","[+120]% Strength <when fighting in [Coastal] tiles> <hidden from users>",
 		"[+1] Movement <in [Fresh water] tiles>","[+1] Movement <in [Coastal] tiles>",
 		"[+500]% Strength <when defending> <when [Embarked]>"],
 		"requiredTech": "Modern Ocean",
