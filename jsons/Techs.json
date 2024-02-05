@@ -2200,7 +2200,7 @@
 			{
 				"name": "Technocene",
 				"row": 9,
-				"uniques": ["Only available <after discovering [Machine Rights]>","Only available <after discovering [Humans]>","Cannot be hurried","Enable to Construct Humans"],
+				"uniques": ["Only available <after discovering [Machine Rights]>","Only available <after discovering [Humans]>","Cannot be hurried","Enable to Construct Advanced AI Units"],
 			},
 		]
 	}
