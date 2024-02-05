@@ -113,7 +113,7 @@
 		"culture": 2,
 		"maintenance": 1,
 		"requiredTech": "Coral",
-		"uniques": ["Only available <starting from [Silurian period]>","Must be next to [Coast]"]
+		"uniques": ["Only available <starting from the [Silurian period]>","Must be next to [Coast]"]
 		"specialistSlots": {"Creature": 1},
 	},
 	// Defensive
