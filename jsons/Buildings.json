@@ -960,7 +960,7 @@
 	},
 	{
 		"name": "Land Algae",
-		"requiredBuilding": "Soil",
+		// "requiredBuilding": "Soil",
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		// "cost": 250,
