@@ -1215,7 +1215,7 @@ BuildingIcons/Lycophyte
   orig: 200, 200
   offset: 0, 0
   index: -1
-PromotionIcons/Oral Cone
+UnitPromotionIcons/Oral Cone
   rotate: false
   xy: 0, 600
   size: 200, 200
@@ -1390,21 +1390,21 @@ BuildingIcons/Symbiogenesis
   orig: 200, 200
   offset: 0, 0
   index: -1
-PromotionIcons/Exchange to Energy
+UnitPromotionIcons/Exchange to Energy
   rotate: false
   xy: 1400, 200
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PromotionIcons/Exchange to Mutation
+UnitPromotionIcons/Exchange to Mutation
   rotate: false
   xy: 1600, 0
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-PromotionIcons/Frontal Appendage
+UnitPromotionIcons/Frontal Appendage
   rotate: false
   xy: 1800, 0
   size: 200, 200
