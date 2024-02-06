@@ -177,7 +177,7 @@
 		
 		"uniqueName": "The Dawn of Aquarium", // another Idea: 'Common Ancestor','Charnia Forest','First Earth Colonist','Life on Proterozoic','Life on before god create Eden'
 		"uniques": ["[+1] Movement <for [Jellyfish] units>","[+1 Science] <before the [Cambrian period]>",
-		"[+1 Culture] from every [{unimproved} {Water}]"]
+		"[+1 Culture] from every [{Featureless} {Water}] <starting from the [Mesoproterozoic]>"]
 		
 		"cities": ["Pannotia","Gaskiers","Baykonurian","Charnia Forest","Cyclomedusa","Tribrachidium","Kimberella","Xenacoelomorpha","Mollusc","Aspidella",
 		"Laplandian Tillites","Acanthomorph"],
