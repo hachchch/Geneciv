@@ -122,7 +122,7 @@
 			{
 				"name": "Extinctions Complete",
 				"effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
-				"uniques": ["Gain a free [Extinction Complete] [in capital]","[+100]% growth in all cities","[+10 Science] in all cities"]
+				"uniques": ["Gain a free [Extinction Complete] [in capital]","[+100]% growth [in all cities]","[+10 Science] [in all cities]"]
 			},
 		]
 	},
@@ -247,7 +247,7 @@
 		"era": "Ancient era",
 		"priorities": {"Neutral": 10,"Cultural": 1,"Diplomatic": 2,"Domination": 15,"Scientific": 2},
 		"effect": "+3 culture in capital and increased rate of border expansion",
-		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
+		"uniques": ["[+3 Culture] [in capital]", "Increased rate of border expansion"],
 		"policies": [
 			{
 				"name": "Survival of the fittest",
@@ -353,12 +353,12 @@
 		"name": "Tribalism",
 		"era": "Pleistocene",
 		"effect": "+3 culture in capital and increased rate of border expansion",
-		"uniques": ["[+3 Culture] in capital", "Increased rate of border expansion"],
+		"uniques": ["[+3 Culture] [in capital]", "Increased rate of border expansion"],
 		"policies": [
 			{
 				"name": "Tribal Chief",
 				"effect": "+15% production when constructing wonders, +1 happiness for every 10 citizens in a city",
-				"uniques": ["[+15]% Production when constructing [Wonders] buildings [in all cities]", "[+1 Happiness] per [10] population in all cities"],
+				"uniques": ["[+15]% Production when constructing [Wonders] buildings [in all cities]", "[+1 Happiness] per [10] population [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
@@ -372,14 +372,14 @@
 			{
 				"name": "Deffensive Warrior",
 				"effect": "Units in cities cost no Maintenance, garrisoned city +50% attacking strength",
-				"uniques": ["Units in cities cost no Maintenance", "[+50%] Strength for cities <with garrison> <when attacking>"],
+				"uniques": ["Units in cities cost no Maintenance", "[+50]% Strength for cities <with garrison> <when attacking>"],
 				"row": 1,
 				"column": 5
 			},
 			{
 				"name": "Tribal Elders",
 				"effect": "+10% food growth and +2 food in capital",
-				"uniques": ["+[10]% growth in capital", "[+2 Food] in capital"],
+				"uniques": ["[+10]% growth [in capital]", "[+2 Food] [in capital]"],
 				"requires": ["Festival"],
 				"row": 2,
 				"column": 2
@@ -395,7 +395,7 @@
 			{
 				"name": "Tribalism Complete",
 				"effect": "+15% growth and +2 food in all cities",
-				"uniques": ["+[15]% growth in all cities","[+2 Food] in all cities"]
+				"uniques": ["[+15]% growth [in all cities]","[+2 Food] [in all cities]"]
 			}
 		]
 	},
@@ -492,7 +492,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-25]% tile improvement construction time",
+                    "[-25]% construction time for [All] improvements",
                     "Free [Worker] appears"
                 ],
                 "row": 1,
