@@ -913,7 +913,6 @@
 	// abyssal life support
 	{
 		"name": "Whale Falls",
-		// "maintenance": none,
 		"gold": 4,
 		"uniques": ["Must be next to [Water]","[+15]% [Gold] [in this city]"]
 		"requiredTech": "Cetaceans",
@@ -921,13 +920,11 @@
 	// Aquatic Charales
 	{
 		"name": "Kelp Forest",
-		// "requiredBuilding": "Algae",
 		"maintenance": 3,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Modern Ocean",
 		"production": 4,
 		"uniques": ["Must be next to [Coast]"],
- 		// "cost": 750,
 	},
 	// Embryophyte
 	{
@@ -950,20 +947,20 @@
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Grass",
 		"uniques": ["Provides [8] [Oxygen]"]
-		// "cost": 750,
 	},
 	{
 		"name": "Soil",
 		"maintenance": 1,
 		"requiredTech": "Tissue",
-		"uniques": ["Must not be next to [Coastal]","Costs [100] [Oxygen]","[+1 Food] from [Land] tiles [in this city]","Only available <when above [99] [Oxygen]> <hidden from users>"]
+		"uniques": ["Must not be next to [Coastal]",
+			"Costs [100] [Oxygen]",
+			"[+1 Food] from [Land] tiles [in this city]",
+			"Only available <when above [99] [Oxygen]> <hidden from users>"]
 	},
 	{
 		"name": "Land Algae",
-		// "requiredBuilding": "Soil",
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
-		// "cost": 250,
 		"maintenance": 1,
 		"food": 2,
 		"requiredTech": "First Plant",
