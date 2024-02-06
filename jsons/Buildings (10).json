@@ -1,0 +1,2237 @@
+[
+	// Victory Milestone
+        {
+		"name": "Extinction Complete",
+		"isNationalWonder": true,
+		"uniques": ["Unbuildable","Unsellable"],
+	},
+	{
+		"name": "The Anthropocene era",
+		"cost": 3500,
+		"uniques": ["Triggers the following global alert: [!Humans are Changing the World!]","Triggers victory"],
+		"requiredTech": "Anthropocene",
+		"isWonder": true,
+	},
+	// Nation Unique Buildings
+	{
+		"name": "Feed the World", // Panspermia
+		"replaces": "Meteor",
+		"science": 2,
+		"cost": 20,
+		"uniqueTo": "Panspermia",
+		"uniques": ["Free [Amino Acid] appears"]
+	},
+	{
+		"name": "Plate Tectonics", // Vaalbara
+		"uniqueTo": "Vaalbara",
+		"replaces": "Volcano",
+		"requiredTech": "Primordial Soup",
+		"cost": 25,
+		"food": 1,
+		"gold": 3,
+		"production": 3,
+	},
+	{
+		"name": "Electrochemical Gradient", // Spontaneous
+		"gold": 5,
+		"uniqueTo": "Spontaneous",
+		"requiredTech": "Nucleotides",
+		"replaces": "Adenosine Triphosphate",
+		"cost": 60,
+		"uniques": ["[+10]% [Gold] [in this city]"]
+	},
+	{
+		"name": "Cyanobacteria", // Stromatolite
+		"requiredTech": "Mitochondria",
+		"uniqueTo": "Stromatolite",
+		"replaces": "Endosymbiont",
+		"cost": 50,
+		"maintenance": 1,
+		"production": 3,
+		"uniques": ["[+5]% [Production] [in this city]","Provides [1] [Oxygen]"]
+	},
+	{
+		"name": "Orogenic Belt", // Rodinia
+		"requiredTech": "Primordial Soup",
+		"cost": 25,
+		"replaces": "Volcano",
+		"uniqueTo": "Rodinia",
+		"food": 1,
+		"uniques": ["[1] Unit Supply","All newly-trained [Cell] units [in this city] receive the [Crustal Deformation] promotion"]
+	},
+	{
+		"name": "Craton", // Rodinia
+		"uniqueTo": "Rodinia",
+		"requiredTech": "Planet Earth",
+		"gold": 1,
+		"percentStatBonus": { "production": 2 },
+		"uniques": ["[+1 Culture, +1 Production, +1 Gold] <in cities with a [Orogenic Belt]>"]
+		"replaces": "Chemical Synthesis"
+	},
+	/*
+	{
+		"name": "Charnia", // Ediacara
+		// "cost": 120,
+		"uniqueTo": "Ediacara",
+		"culture": 1,
+		"maintenance": 1,
+		"replaces": "Algae",
+		"requiredTech": "Chloroplasts",
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"/*,"[+1 Food] from [Ocean] tiles [in this city]"*/]
+	},
+	*/
+	{
+		"name": "Rainforest Formation", // Euramerica
+		"uniqueTo": "Euramerica",
+		"replaces": "Lepidodendron",
+		"science": 1,
+		"production": 3,
+		"maintenance": 3,
+		"requiredTech": "Fern",
+		"uniques": ["Provides [3] [Oxygen]","Free [Vegetation] appears"]
+	},
+	{
+		"name": "Clymeniida", // Famenia
+		"requiredTech": "Predation",
+		"uniqueTo": "Famenia",
+		"uniques": ["New [Water] units start with [25] Experience [in this city]"]
+		"replaces": "Actinopterygii",
+	},
+	{
+		"name": "Graptolite", // Hirnantian
+		"uniqueTo": "Hirnantian",
+		"replaces": "Oscula",
+		"production": 2,
+		"culture": 1,
+		"gold": 2,
+		"requiredTech": "Coral",
+		"uniques": ["Cambrian","[+1 Production] from [Coastal] tiles [in this city]","Must be next to [Coastal]"]
+	},
+	{
+		"name": "Thylacocephala", // Hirnantian
+		"uniqueTo": "Hirnantian",
+		"replaces": "Agnatha",
+		"science": 3,
+		"culture": 2,
+		"maintenance": 1,
+		"requiredTech": "Coral",
+		"uniques": ["Only available <starting from the [Silurian period]>","Must be next to [Coast]"]
+		"specialistSlots": {"Creature": 1},
+	},
+	// Defensive
+	{
+		"name": "Metabolism",
+		"cityStrength": 10,
+                "cityHealth": 100,
+		"maintenance": 2,
+		"requiredTech": "Warm Blooded",
+		"uniques": ["Warm-blooded is an informal term referring to animal species whose bodies maintain a temperature higher than that of their environment. In particular, homeothermic species (including birds and mammals) maintain a stable body temperature by regulating metabolic processes. Other species have various degrees of thermoregulation."]
+	},
+	{
+		"name": "Epidermis",
+		"cityStrength": 10,
+                "cityHealth": 50,
+		"maintenance": 2,
+		"requiredTech": "Water Tight",
+	},
+	{
+		"name": "Dermis",
+		"cityStrength": 5,
+                "cityHealth": 50,
+		"maintenance": 1,
+		"requiredTech": "Tissue",
+	},
+	{
+		"name": "Hair Follicle",
+		"requiredBuilding": "Dermis",
+		"cityStrength": 15,
+                "cityHealth": 500,
+		"maintenance": 3,
+		"requiredTech": "Hair",
+	},
+	// Glands
+	{
+		"name": "Sebaceous",
+		"requiredBuilding": "Dermis",
+		"gold": 3,
+		// "maintenance": 1,
+		"requiredTech": "Glands",
+	},
+	{
+		"name": "Sudoriferous",
+		"requiredBuilding": "Dermis",
+		"production": 2,
+		"maintenance": 1,
+		"requiredTech": "Glands",
+	},
+	{
+		"name": "Apocrine",
+		"requiredBuilding": "Dermis",
+		"uniques": ["[+5]% [Production] [in this city]"],
+		"maintenance": 1,
+		"requiredTech": "Glands",
+	},
+	// Land Arthropod
+	{
+		"name": "Beetles",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 1,
+		"specialistSlots": {"Creature": 1},
+		"requiredTech": "Insect",
+		"production": 3,
+		// "cost": 350,
+		"uniques": [/*"It's Bugs. Not Musician",*/"Bugs","[+5]% [Production] [in all cities]"]
+	},
+	{
+		"name": "Uniramia",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 1,
+		"specialistSlots": {"Creature": 1},
+		"requiredTech": "Insect",
+		"food": 1,
+		"production": 1,
+		"uniques": ["Bugs","[+10]% Production when constructing [{Land} {Military}] units [in this city]"],
+		// "cost": 350,
+	},
+	{
+		"name": "Orthoptera",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 1,
+		"specialistSlots": {"Creature": 1},
+		"requiredTech": "Insect",
+		"food": 1,
+		"production": 1,
+		// "cost": 350,
+		"uniques": ["Bugs","[+20]% Production when constructing [{Land} {Civilian}] units [in this city]"],
+	},
+	{
+		"name": "Dixidae",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 2,
+		"production": 2,
+		"uniques": ["Bugs","Culicoidea"],
+		"requiredTech": "Grass",
+		// "cost": 200,
+	},
+	{
+		"name": "Chaoboridae",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"gold": 2,
+		// "cost": 200,
+		"uniques": ["Bugs","Culicoidea"],
+		"maintenance": 2,
+		"requiredTech": "Grass",
+	},
+	{
+		"name": "Mosquito",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"science": 2,
+		// "cost": 200,
+		"uniques": ["Bugs","Vampire","Culicoidea"],
+		"maintenance": 2,
+		"requiredTech": "Grass",
+	},
+	{
+		"name": "Midge",
+		"cityStrength": 2,
+                "cityHealth": 100,
+		"food": 1,
+		"maintenance": 1,
+		"uniques": ["Bugs","[+1 Food] from [Jungle] tiles [in this city]"]
+		"requiredTech": "Insect",
+	},
+	{
+		"name": "Phasmatodea",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 2,
+		"happiness": 2,
+		"requiredTech": "Grass",
+		"uniques": ["Bugs <hidden from users>","Get Stick Bugged Lol"]
+	},
+	{
+		"name": "Lepidoptera", // Pieris Rapae my beloved animal
+		"cityStrength": 1,
+                "cityHealth": 50,
+		// "cost": 230,
+		"maintenance": 3,
+		"requiredTech": "Flowers",
+		"uniques": ["Bugs","Coevolution","Must be next to [Tundra]","[+1 Production] from [{Tundra} {GrassLand}] tiles [in this city]"]
+	},
+	{
+		"name": "Hummingbirds", // Is it should include Bugs?
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 3,
+		// "cost": 230,
+		"uniques": ["Birds","Coevolution","Must be next to [Plains]","[+1 Production] from [{Plains} {GrassLand}] tiles [in this city]"],
+		"requiredTech": "Flowers",
+	},
+	{
+		"name": "Bee",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 3,
+		// "cost": 230,
+		"uniques": ["Bugs","Coevolution","Must be next to [Grassland]","[+1 Food] from [{Grassland} {GrassLand}] tiles [in this city]"],
+		"requiredTech": "Flowers",
+	},
+	{
+		"name": "Housefly",
+		"food": 4,
+		"cityStrength": 5,
+                "cityHealth": 100,
+		"maintenance": 4,
+		// "cost": 260,
+		"uniques": ["Bugs","Coevolution"],
+		"requiredTech": "Humanization",
+	},
+	// Pre Fish Buildings
+	{
+		"name": "Opabinia",
+		"food": 6,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+		"quote": "One of the most distinctive characters of Opabinia is the hollow proboscis, whose total length was about one-third that of the body, and projected down from under the head. It looked so strange that the audience at the first presentation of Whittington's analysis laughed. Also, Opabinia has 5 compound eyes.",
+	},
+	{
+		"name": "Kerygmachela",
+		"food": 2,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+	},
+	{
+		"name": "Kylinxia",
+		"science": 2,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+	},
+	{
+		"name": "Nektonic Predation",
+		"production": 3,
+		"requiredTech": "Vertebrate",
+		"uniques": ["Cambrian"],
+	},
+	// Fish Age Buildings
+	{
+		"name": "Poikilotherm",
+		"culture": 2,
+		"maintenance": 1,
+		"specialistSlots": {"Creature": 1},
+		"requiredTech": "Cold Blooded",
+		"uniques": ["Must be next to [Coast]","[-20]% Culture cost of natural border growth [in this city]"]
+	},
+	{
+		"name": "Coelacanth",
+		"sciece": 3,
+		"maintenance": 1,
+		"requiredTech": "Predation",
+		"uniques": ["Must be next to [Coastal]"]
+		"specialistSlots": {"Creature": 1},
+	},
+	{
+		"name": "Entelognathus",
+		"isWonder": true,
+		"culture": 6,
+		// "maintenance": 1,
+		"requiredTech": "Jaw",
+		"quote": "Prior to the discovery of Entelognathus, scientists assumed that the last common ancestor of jawed vertebrates was a shark-like animal, with no distinct jawbones, and that modern jaws evolved in early bony fishes. but Entelognathus shows that modern jaws evolved earlier. It is possible that Chondrichthyes started with distinct jaws and then dispensed with them. Entelognathus has been called the earliest known animal with what looks like a face.",
+		"uniques": ["May buy [{Water} {non-[Jawless]}] units with [Culture] for [3] times their normal Production cost","Must be next to [Coast]"]
+		// "specialistSlots": {"Creature": 1},
+	},
+	{
+		"name": "Placodermi",
+		"isWonder": true,
+		"culture": 2,
+		"science": 2,
+		"uniques": ["[+30]% City Strength from defensive buildings","[Fishes] Units adjacent to this city heal [30] HP per turn when healing"],
+		"requiredTech": "Fins",
+		"quote": "Placoderms were also the first fish to develop pelvic fins, the precursor to hindlimbs in tetrapods, as well as true teeth.(reference thesis 'Development of teeth and jaws in the earliest jawed vertebrates')",
+	},
+	{
+		"name": "Agnatha",
+		"science": 2,
+		"maintenance": 1,
+		"requiredTech": "Fish",
+		"uniques": ["Must be next to [Coast]"]
+		"specialistSlots": {"Creature": 1},
+	},
+	/*{
+		"name": "Durophagy",
+		"requiredTech": "Jaw",
+		"uniques": [""],
+	},*/
+	{
+		"name": "Neuston",
+		"maintenance": 1,
+		"production": 2,
+		"requiredTech": "Swimming",
+		"uniques": ["Must be on [Fresh water]"]
+	},
+	// Devonian
+	{
+		"name": "Silurian-Devonian Terrestrial Revolution",
+		"requiredTech": "Fern",
+		"isWonder": true,
+		"uniques": ["[-40]% maintenance cost for buildings [in all cities]","[+5]% [Production] [in all cities]"]
+	},
+	{
+		"name": "Actinopterygii",
+		"science": 1,
+		"requiredTech": "Predation",
+		"uniques": ["Must be next to [Coast]","Devonian","New [Water] units start with [15] Experience [in this city]"]
+	},
+	{
+		"name": "Elpistostegalia",
+		"requiredTech": "Lungfish",
+		"science": 1,
+		"uniques": ["Must be next to [Coastal]","New [Land] units start with [10] Experience [in this city]"]
+	},
+	{
+		"name": "Ichthyostega",
+		"requiredBuilding": "Elpistostegalia",
+		"science": 1,
+		"requiredTech": "Lungfish",
+		"uniques": ["Must be next to [Coastal]","Devonian","New [Land] units start with [10] Experience [in this city]"]
+	},
+	// Devonian-Carboniferous Flora
+	{
+		"name": "Lycophyte",
+		"requiredTech": "Fern",
+		"production": 2,
+		"maintenance": 2,
+		"requiredBuilding": "Shrub",
+	},
+	{
+		"name": "Equisetidae",
+		"requiredTech": "Fern",
+		"production": 1,
+		"maintenance": 1,
+		"requiredBuilding": "Shrub",
+	},
+	{
+		"name": "Lepidodendron",
+		"requiredTech": "Fern",
+		"production": 3,
+		"maintenance": 3,
+		"requiredBuilding": "Lycophyte",
+	},
+	// Wonders
+	{
+		"name": "Archaeocyatha",
+		"isWonder": true,
+		"culture": 3,
+		"requiredTech": "Sponge",
+		"uniques": ["Empire enters golden age"]
+	},
+	{
+		"name": "Interstitial Environment",
+		"isWonder": true,
+		// "cost": 1200,
+		"requiredTech": "Insect",
+		"uniques": ["[+30]% Production when constructing [Bugs] buildings [in all cities]",
+			"Gain a free [Beetles] [in this city]",
+			"Gain a free [Midge] [in this city]",
+			"Gain a free [Uniramia] [in this city]",
+			"Gain a free [Orthoptera] [in this city]"
+		],
+	},
+	{
+		"name": "Carnian Pluvial Episode",
+		"isWonder": true,
+		"cost": 550,
+		"uniques": ["Unbuildable <before the [Mesozoic era]>","Empire enters a [2]-turn Golden Age","[1] free [Saurischia] units appear","[2] free [Synapsida] units appear","Free Social Policy"],
+	},
+	{
+		"name": "Manicouagan Reservoir",
+		"gold": 2,
+		"science": 1,
+		"isWonder": true,
+		"cost": 550,
+		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-50]% maintenance cost for buildings [in this city]"]
+	},
+	{
+		"name": "Paleocene-Eocene Thermal Maximum",
+		"isWonder": true,
+		"cost": 800,
+		"uniques": ["Unbuildable <before the [Paleogene period]>",
+			"[+20]% Production when constructing [Mammal] units [in this city]",
+			"[+20]% Production when constructing [Paleocene] units [in this city]",
+			"[+20]% Production when constructing [Eocene] units [in this city]",
+			"[+1 Food] from [Snow] tiles [in this city]",
+			"[1] units cost no maintenance",
+			"[1] Unit Supply"]
+	},
+	{
+		"name": "Lichen",
+		"food": 2,
+		"requiredTech": "Spore Plant",
+		"isWonder": true,
+		"uniques": ["[+1 Production] from [GrassLand] tiles [in this city]","[+1 Food] from [Forests] tiles [in this city] <after discovering [Grass]>"]
+	},
+	{
+		"name": "Antarctic Permanent Ice Sheets",
+		"isWonder": true,
+		"cost": 800,
+		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be on [Snow]",
+		"[-98]% Culture cost of natural border growth [in this city]"]
+	},
+	{
+		"name": "North American Prairie expands",
+		"isWonder": true,
+		"cost": 800,
+		"requiredTech": "Grass",
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-75]% construction time for [GrassLand] improvements","Unbuildable <before the [Paleogene period]>"]
+	},
+	{
+		"name": "Messinian Salinity Crisis",
+		"isWonder": true,
+		"cost": 800,
+		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[+50]% Production when constructing [Land] units [in this city]","[-50]% Production when constructing [Water] units [in this city]"],
+		"quote": "Sediment samples from below the deep seafloor of the Mediterranean Sea, which include evaporite minerals, soils, and fossil plants, show that the precursor of the Strait of Gibraltar closed about 5.96 million years ago, sealing the Mediterranean off from the Atlantic. If the Strait of Gibraltar closes again, the Mediterranean would mostly evaporate in about a thousand years, after which continued northward movement of Africa may obliterate the Mediterranean altogether...Atlantropa is Possible?",
+	},
+	{
+		"name": "Hangenberg Crisis",
+		"isWonder": true,
+		"cost": 400,
+		"uniques": ["[Gold] cost of purchasing items in cities [-25]%","Unbuildable <before the [Ancient era]>"],
+		"quote": "Mass extinction called the Hangenberg event, also known as the end-Devonian extinction, occurred 359 million years ago, bringing an end to the Famennian and Devonian, as the world transitioned into the Carboniferous Period.",
+	},
+	{
+		"name": "Old Red Sandstone",
+		"isWonder": true,
+		"cost": 400,
+		"uniques": ["Must be next to [Desert]","[+2 Gold] from [Desert] tiles [in this city]","[+50]% [Gold] [in this city]","Unbuildable <before the [Ancient era]>"],
+		"quote": "Old Red Sandstone, thick sequence of Devonian rocks (formed from 416 million to 359.2 million years ago) that are continental rather than marine in origin and occur in northwestern Europe, Scandinavia, Greenland, and northeastern Canada. Deposits of Old Red Sandstone have been extensively studied in Great Britain, where local and regional stage names have been applied.",
+	},
+	{
+		"name": "RNA World",
+		"isWonder": true,
+		// "cost": 150,
+		"requiredTech": "DNA",
+		"uniques": ["[+1 Food] from all [RNA] buildings",
+			"[+1 Food] from all [Replication] buildings",
+			"[+1 Food] from all [Chromosomes] buildings",
+			"[+1 Food] from all [Polypeptides] buildings",
+			"[+1 Food] from all [Plasma Membrane] buildings",
+			"Gain a free [RNA] [in all cities]"]
+	},
+	{
+		"name": "Old Red Sandstone",
+		"isWonder": true,
+		"cost": 400,
+		"uniques": ["Must be next to [Desert]","[+2 Gold] from [Desert] tiles [in this city]","[+50]% [Gold] [in this city]","Unbuildable <before the [Ancient era]>"],
+	},
+	{
+		"name": "Zanclean Flood",
+		"isWonder": true,
+		"cost": 800,
+		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[-50]% Production when constructing [Land] units [in this city]","[+50]% Production when constructing [Water] units [in this city]"]
+	},
+	{
+		"name": "Last Glacial Maximum",
+		"isWonder": true,
+		"cost": 900,
+		"uniques": ["Unbuildable <before the [Pliocene]>","Enemy [All] units must spend [1] extra movement points when inside your territory <before discovering [Urbanization]>"]
+	},
+	{
+		"name": "Smithian-Spathian Boundary",
+		"isWonder": true,
+		"cost": 550,
+		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-50]% Strength <for [Cambrian] units>","Free Technology"],
+		"quote": "An important extinction event occurred during the Olenekian age of the Early Triassic, near the Smithian and Spathian subage boundary. The main victims of this Smithian-Spathian boundary event, often called the Smithian-Spathian extinction, were 'disaster taxa': Palaeozoic species that survived the Permian-Triassic extinction event and flourished in the immediate aftermath of the extinction; ammonoids, conodonts, and radiolarians in particular suffered drastic biodiversity losses, which is accentuated, among others, by the cosmopolitan distribution of the ammonoid Anasibirites. Marine reptiles, such as ichthyopterygians and sauropterygians, diversified after the extinction.",
+	},
+	{
+		"name": "Cytoplasm",
+		"cityStrength": 8,
+                "cityHealth": 20,
+		// "cost": 375,
+		"isWonder": true
+		"requiredTech": "Eukaryotic Cell",
+		"uniques": ["New [Land] units start with [15] Experience [in all cities]"],
+		"quote": "In cell biology, the cytoplasm describes all material within a eukaryotic cell, enclosed by the cell membrane, except for the cell nucleus. The material inside the nucleus and contained within the nuclear membrane is termed the nucleoplasm. The main components of the cytoplasm are the cytosol, the organelles, and various cytoplasmic inclusions. The cytoplasm is about 80% water and is usually colorless.",
+	},
+	{
+		"name": "Nuclear Fusion",
+		"cost": 100,
+		"isWonder": true,
+		"uniques": ["[+100]% [Gold] [in this city] <for [50] turns>","gain 4000000000000 Energy after 170000 turns"],
+		"quote": "Every second, the Sun's core fuses about 600 million tons of hydrogen into helium, and in the process converts 4 million tons of matter into energy.",
+	},
+	{
+		"name": "Giant-Impact",
+		"cost": 175,
+		"isWonder": true,
+		"uniques": ["Provides [3] [Atmosphere]","Gain a free [Eclipse] [in all cities]"],
+		"requiredTech": "Moon",
+		"quote": "'The giant-impact hypothesis, sometimes called the Big Splash, or the Theia Impact, suggests that the Moon was formed from the ejecta of a collision between the early Earth and a Mars-sized planet, approximately 4.5 billion years ago in the Hadean eon (about 20 to 100 million years after the Solar System coalesced).' -Free Web Dictionary Wikipedia",
+	},
+	{
+		"name": "Gobekli Tepe",
+		// "cost": 1000,
+		"culture": 2,
+		"faith": 2,
+		"uniques": ["[+5 Faith, +1 Culture] from [Monument] tiles [in all cities]"],
+		"isWonder": true,
+		"quote": "Göbekli Tepe was built and occupied during the earliest part of the Southwest Asian Neolithic, known as the Pre-Pottery Neolithic (9600–7000 BCE). Beginning at the end of the last Ice Age, the PPN marks 'the beginnings of village life', producing the earliest evidence for permanent human settlements in the world. Elements of village life appeared as early as 10,000 years before the Neolithic in places, and the transition to agriculture took thousands of years, with different paces and trajectories in different regions.",
+		"requiredTech": "The Culture",
+	},
+	{
+		"name": "Hōryū Ji",
+		// "cost": 9000,
+		"isWonder": true,
+		"culture": 16,
+		"uniques": ["[+1 Culture] per every [8] [Faith]"],
+		"requiredTech": "Philosophy",
+		"quote": "Hōryū Ji was originally commissioned by Shōtokutaishi at the time it was called Wakakusadera, a name that is still sometimes used. This first temple is believed to have been completed by 607. Hōryū-ji was dedicated to Yakushi Nyorai, the Buddha of healing and in honor of the prince's father.",
+	},
+	{
+		"name": "Ammonoids",
+		// "cost": 1000,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Excretion Opening",
+		"uniques": ["Devonian","Ammonoidea","Gain a free [Cephalopoda] [in all cities]","[+25]% [Culture] [in this city]","[+25]% [Culture] [in capital]"],
+		"quote": "Ammonoids are a group of extinct marine mollusc animals in the subclass Ammonoidea of the class Cephalopoda. These molluscs, commonly referred to as ammonites, are more closely related to living coleoids than they are to shelled nautiloids such as the living Nautilus species. The earliest ammonites appeared during the Devonian, with the last species vanishing during or soon after the K-Pg mass extinction event.",
+	},
+	{
+		"name": "LUCA",
+		"science": 1,
+		"cost": 150,
+		"isWonder": true,
+		"uniques": ["All Life's Origin","Provides 1~4 Science during the each Era after you discovered Evolution(List: Prokaryotic Cell, Eukaryotic Cell, Sponge, Swimming, Flatworm, Exoskeleton, Fish, Lungfish, Archosauria, Mammal, Eutherians, Modern Ocean, Flying, Homo Sapiens Sapiens, Chloroplasts, Fern, Flowers)",
+		"[+1 Science] <after discovering [Prokaryotic Cell]> <before the [Mesoproterozoic]> <hidden from users>",
+		"[+1 Science] <after discovering [Eukaryotic Cell]> <before the [Mesoproterozoic]> <hidden from users>",
+		"[+1 Science] <after discovering [Sponge]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Swimming]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Flatworm]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Exoskeleton]> <before the [Ancient era]> <hidden from users>",
+		"[+1 Science] <after discovering [Fish]> <before the [Ancient era]> <hidden from users>",
+		"[+1 Science] <after discovering [Lungfish]> <before the [Permian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Archosauria]> <before the [Paleogene period]> <hidden from users>",
+		"[+1 Science] <after discovering [Mammal]> <before the [Paleogene period]> <hidden from users>",
+		"[+1 Science] <after discovering [Eutherians]> <before the [Pliocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Modern Ocean]> <before the [Pliocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Flying]> <before the [Pliocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Homo Sapiens Sapiens]> <after discovering [Anthropocene]> <hidden from users>",
+		"[+1 Science] <after discovering [Chloroplasts]> <before the [Cambrian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Fern]> <before the [Permian period]> <hidden from users>",
+		"[+1 Science] <after discovering [Flowers]> <before the [Pliocene]> <hidden from users>"
+		],
+		"requiredTech": "Primordial Soup",
+	},
+	{
+		"name": "Eocene-Oligocene Extinction",
+		"isWonder": true,
+		"cost": 800,
+		"culture": 10,
+		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be next to [Coast]"],
+	},
+	{
+		"name": "Andean-Saharan Glaciation",
+		"isWonder": true,
+		"gold": 3,
+		"uniques": ["Silurian","Must be next to [Cold]","Unbuildable <before the [Silurian period]>","[+1 Gold] from [Tundra] tiles [in this city]","[+1 Gold] from [Snow] tiles [in this city]","City-State Influence recovers at twice the normal rate"],
+		"cost": 350,
+	},
+	/*
+	{
+		"name": "Earliest Known Life Forms",
+		"cost": 100,
+		"isWonder": true,
+		"uniques": ["Unbuildable <before the [Archean eon]>"],
+	},
+	*/
+	{
+		"name": "Carboniferous Rainforest Collapse",
+		"requiredTech": "Fern",
+		"science": 3,
+		"isWonder": true,
+		"uniques": ["Must be next to [Forests]","[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Carboniferous period]>"],
+		"quote": "The Carboniferous rainforest collapse was a minor extinction event that occurred around 305 million years ago in the Carboniferous period. It altered the vast coal forests that covered the equatorial region of Euramerica. This event may have fragmented the forests into isolated refugia or ecological 'islands', which in turn encouraged dwarfism and, shortly after, extinction of many plant and animal species. Following the event, coal-forming tropical forests continued in large areas of the Earth, but their extent and composition were changed.",
+	},
+	{
+		"name": "Ireviken Event",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 350,
+		"uniques": ["Must be next to [Water]","Influence of all other civilizations with all city-states degrades [80]% faster <for [19] turns>","Unbuildable <before the [Silurian period]>"]
+	},
+	{
+		"name": "Mulde Event",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 350,
+		"uniques": ["Must be next to [Water]","Instantly consumes [1000] [Oxygen]","Resting point for Influence with City-States is increased by [10]","Unbuildable <before the [Silurian period]>"]
+	},
+	{
+		"name": "Lau Event",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 350,
+		"uniques": ["Must be next to [Water]","[+1 Food] from [Water] tiles [in this city]","Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","Unbuildable <before the [Silurian period]>"]
+	},
+	{
+		"name": "Sturtian Glaciation",
+		"gold": 4,
+		"isWonder": true,
+		"cost": 275,
+		"uniques": ["Must be next to [Cold]","[+2 Gold, +1 Food] from [Snow] tiles [in all cities]","Unbuildable <before the [Neoproterozoic]>"]
+	},
+	{
+		"name": "Avalon Explosion",
+		"isWonder": true,
+		"cost": 275,
+		"uniques": ["[2] free [Radiodonta] units appear","[+1 Gold] from [Water] tiles [in this city]","Unbuildable <before the [Neoproterozoic]>"]
+	},
+	{
+		"name": "Great Ordovician Biodiversification Event",
+		"isWonder": true,
+		"gold": 4,
+		"culture": 1,
+		"cost": 325,
+		"uniques": ["[+100]% growth [in this city]","Unbuildable <before the [Ordovician period]>"]
+	},
+	{
+		"name": "Banded Iron Formation",
+		"isWonder": true,
+		"cost": 325,
+		"uniques": ["Each city founded increases culture cost of policies [-50]% less than normal","Double quantity of [Iron] produced","Unbuildable <before the [Ordovician period]>"]
+	},
+	{
+		"name": "Mesozoic-Cenozoic Radiation",
+		"isWonder": true,
+		"cost": 800,
+		"gold": 4,
+		"production": 4,
+		"food": 4,
+		"culture": 1,
+		"uniques": ["[+15]% [Food] [in this city]","Unbuildable <before the [Paleogene period]>"],
+	},
+	{
+		"name": "Romer's Gap",
+		"cost": 450,
+		"isWonder": true,
+		"uniques": ["Free [Tetrapod] appears","[+50]% Strength <for [Tetrapod] units>","Unbuildable <before the [Carboniferous period]>"],
+		"quote": "This time is known for having very few fossils. The reason for this may be that the environment was not favorable for the formation of fossils.",
+	},
+	{
+		"name": "Capitanian Mass Extinction Event",
+		"science": 7,
+		"cost": 500,
+		"isWonder": true,
+		"uniques": ["[+47]% Strength <for [Jawless] units>","Must be next to [Coast]","Unbuildable <before the [Permian period]>"],
+	},
+	{
+		"name": "Bangiomorpha",
+		"providesFreeBuilding": "Algae",
+		"isWonder": true,
+		"food": 4,
+		// "cost": 300,
+		"requiredTech": "Sexual Reproduction",
+		"uniques": ["Bangiomorpha is Red Algae that Earliest Sexual Reproduction Animal","Must be next to [Coast]","Unbuildable <before the [Mesoproterozoic]>"]
+	},
+	{
+		"name": "Grenville Orogeny",
+		"cost": 250,
+		"isWonder": true,
+		"uniques": ["[50]% of excess happiness converted to [Gold]","Unbuildable <before the [Mesoproterozoic]>"]
+	},
+	{
+		"name": "Camellia Sinensis",
+		"providesFreeBuilding": "Shrub",
+		"isWonder": true,
+		// "cost": 1400,
+		"gold": 3,
+		"requiredTech": "Flowers",
+		"uniques": ["Gifts of Gold to City-States generate [33]% more Influence","Empire enters golden age"]
+	},
+	{
+		"name": "Secondary Palate",
+		// "cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+15]% Strength <for [Caniform] units>","[+15]% Strength <for [Feliform] units>"]
+	},
+	{
+		"name": "Hooves",
+		// "cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+33]% Strength <for [Horse] units> <when defending>","[+1] Movement <for [Horse] units>","[+1] Sight <for [Horse] units>"]
+	},
+	{
+		"name": "Zoonosis",
+		// "cost": 2250,
+		"isWonder": true,
+		"requiredTech": "Ape",
+		"uniques": ["[+50]% Strength <for [Glires] units> <vs cities> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Hominiae] units> <when attacking>","[+150]% Strength <for [Glires] units> <vs [Human] units> <when attacking>"]
+	},
+	{
+		"name": "Carnassials",
+		// "cost": 2000,
+		"isWonder": true,
+		"requiredTech": "Eutherians",
+		"uniques": ["[+30]% Strength <for [Lion] units> <when attacking>"]
+	},
+	{
+		"name": "Cauda Recurvata",
+		// "cost": 2250,
+		"isWonder": true,
+		"requiredTech": "Humanization",
+		"uniques": ["[+1] Sight <for [Caniform] units> <when adjacent to a [Human] unit>","[1] additional attacks per turn <for [Caniform] units> <when adjacent to a [Human] unit>","+30% Strength when fighting City-State units and cities"]
+	},
+	{
+		"name": "Symbiogenesis",
+		"isWonder": true,
+		"science": 3,
+		"requiredTech": "Mitochondria", 
+		"uniques": ["[+15]% [Science]"]
+	},
+	{
+		"name": "Carapace",
+		"requiredTech": "Exoskeleton",
+		"isWonder": true,
+		"Culture": 2,
+		"uniques": ["[+35]% Strength <for [Water Arthropod] units> <when defending>"]
+	},
+	// Invertebrates
+	{
+		"name": "Monoplacophora",
+		"specialistSlots": {"Creature": 2},
+		"culture": 1,
+		"maintenance": 3,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Only available <in cities without a [Helcionelloida]>","Cambrian"]
+	},
+	{
+		"name": "Helcionelloida",
+		"specialistSlots": {"Creature": 1},
+		"culture": 3,
+		"maintenance": 3,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Only available <in cities without a [Monoplacophora]>","Cambrian"]
+	},
+	{
+		"name": "Cephalopoda",
+		"specialistSlots": {"Creature": 1},
+		"culture": 2,
+		"maintenance": 1,
+		"requiredTech": "Exoskeleton",
+		"uniques": ["Cambrian"]
+	},
+	{
+		"name": "Polychaetes",
+		"specialistSlots": {"Vegetation": 1},
+		"cityStrength": 7,
+                "cityHealth": 10,
+		"maintenance": 2,
+		"replaces": "Cephalopoda",
+		"uniqueTo": "Burgess",
+		"culture": 2,
+		"requiredTech": "Flatworm",
+		"uniques": ["Cambrian","There are many entities looks like our image of alien bugs"]
+	},
+	// National Wonders
+	{
+		"name": "Ozone Layer",
+		// "specialistSlots": {"Creature": 1},
+		"isNationalWonder": true,
+		"cost": 75,
+		"food": 4,
+		"gold": 3,
+		"requiredTech": "Primordial Soup",
+		"uniques": ["Requires a [Volcano] in all cities", "Cost increases by [30] per owned city","Provides [3] [Oxygen]"],
+		"quote": "'The ozone layer absorbs 97 to 99 percent of the Sun's medium-frequency ultraviolet light (from about 200 nm to 315 nm wavelength), which otherwise would potentially damage exposed life forms near the surface.' -Wikipedia",
+	},
+	{
+		"name": "Proteinoid",
+		"isNationalWonder": true,
+		"cost": 135,
+		"science": 3,
+		"requiredTech": "Protein",
+		"uniques": ["Free Technology","Requires a [Polypeptides] in all cities", "Cost increases by [30] per owned city"],
+		"quote": "In trying to uncover the intermediate stages of abiogenesis, scientist Sidney W. Fox in the 1950s and 1960s, studied the spontaneous formation of peptide structures under conditions that might plausibly have existed early in Earth's history. He demonstrated that amino acids could spontaneously form small chains called peptides. In one of his experiments, he allowed amino acids to dry out as if puddled in a warm, dry spot in prebiotic conditions. He found that, as they dried, the amino acids formed long, often cross-linked, thread-like microscopic polypeptide globules, he named 'Proteinoid microspheres'.",
+	},
+	{
+		"name": "Cambrian Explosion",
+		"specialistSlots": {"Creature": 2},
+		"isNationalWonder": true,
+		"production": 5,
+		"cost": 270,
+		"uniques": ["Requires a [Cephalopoda] in all cities", "Cost increases by [30] per owned city","[+5]% [Production] [in this city]","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
+		"quote": "Before early Cambrian diversification, most organisms were relatively simple, composed of individual cells, or small multicellular organisms, occasionally organized into colonies. As the rate of diversification subsequently accelerated, the variety of life became much more complex, and began to resemble that of today.",
+	},
+	{
+		"name": "Cambrian Extinction",
+		"specialistSlots": {"Meristem": 2},
+		"isNationalWonder": true,
+		"culture": 10,
+		"cost": 270,
+		"uniques": ["Requires a [Cephalopoda] in all cities", "Cost increases by [30] per owned city","Botomian","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+100]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
+		"quote": "Volcanic activity, particularly that of large igneous provinces, has been speculated to have been the cause of the environmental crisis. There are several hypotheses for the causes of these extinctions. There is also major changes in the carbon cycle and development of anoxia in the oceans. 50-80% of Sea Species died for ever.",
+	},
+	{
+		"name": "Late Heavy Bombardment",
+		"cost": 50,
+		"science": 1,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Meteor] in all cities", "Cost increases by [30] per owned city",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]> <hidden from users>"]
+	},
+	{
+		"name": "Archaeocyatha",
+		"isWonder": true,
+		"culture": 3,
+		"maintenance": 1,
+		"requiredTech": "Sponge",
+		"uniques": ["Empire enters golden age"]
+	},
+	{
+		"name": "End Of Boring Billion",
+		"cost": 300,
+		"culture": 1,
+		"uniques": ["Cost increases by [30] per owned city","[+33]% [Culture] [in this city]","Only available <after adopting [Abiogenesis Complete]>"],
+		"isNationalWonder": true,
+	},
+	{
+		"name": "Ventral Nerve Cord",
+		"cost": 270,
+		"isNationalWonder": true,
+		"gold": 10,
+		"requiredTech": "Nerve Cord",
+		"uniques": ["Cost increases by [30] per owned city","Requires a [Nervous System] in all cities"]
+	},
+	// abyssal life support
+	{
+		"name": "Whale Falls",
+		// "maintenance": none,
+		"gold": 4,
+		"uniques": ["Must be next to [Water]","[+15]% [Gold] [in this city]"]
+		"requiredTech": "Cetaceans",
+	},
+	// Aquatic Charales
+	{
+		"name": "Kelp Forest",
+		// "requiredBuilding": "Algae",
+		"maintenance": 3,
+		"specialistSlots": {"Vegetation": 1},
+		"requiredTech": "Modern Ocean",
+		"production": 4,
+		"uniques": ["Must be next to [Coast]"],
+ 		// "cost": 750,
+	},
+	// Embryophyte
+	{
+		"name": "Vascular",
+		"requiredBuilding": "Land Algae",
+		"requiredTech": "Fern",
+		"gold": 3,
+	},
+	{
+		"name": "Mistletoe",
+		"requiredBuilding": "Shrub",
+		"maintenance": 3,
+		"specialistSlots": {"Vegetation": 2},
+		"requiredTech": "Grass",
+	},
+	{
+		"name": "Green Field",
+		"requiredBuilding": "Shrub",
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"requiredTech": "Grass",
+		"uniques": ["Provides [8] [Oxygen]"]
+		// "cost": 750,
+	},
+	{
+		"name": "Soil",
+		"maintenance": 1,
+		"requiredTech": "Tissue",
+		"uniques": ["Must not be next to [Coastal]","Costs [100] [Oxygen]","[+1 Food] from [Land] tiles [in this city]","Only available <when above [99] [Oxygen]> <hidden from users>"]
+	},
+	{
+		"name": "Land Algae",
+		// "requiredBuilding": "Soil",
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		// "cost": 250,
+		"maintenance": 1,
+		"food": 2,
+		"requiredTech": "First Plant",
+		"uniques": ["[+1 Food] from [Fresh Water] tiles [in this city]"]
+	},
+	{
+		"name": "Shrub",
+		"requiredBuilding": "Land Algae",
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"production": 1,
+		"requiredTech": "Fern",
+	},
+	{
+		"name": "Fenestrida",
+		"requiredBuilding": "Land Algae",
+		"food": 1,
+		"production": 1,
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"uniques": ["Must be next to [Fresh water]"],
+		"requiredTech": "Spore Plant",
+	},
+	//Cell Life
+	{
+		"name": "Chemical Synthesis",
+		"gold": 1,
+		"requiredTech": "Primordial Soup"
+	},
+	{
+		"name": "Biochemical Synthesis",
+		"requiredBuilding": "Chemical Synthesis",
+		"gold": 2,
+		"requiredTech": "Mitochondria",
+	},
+	{
+		"name": "Endosymbiont",
+		// "cost": 50,
+		"maintenance": 2,
+		"production": 3,
+		"requiredTech": "Mitochondria",
+	},
+	{
+		"name": "Enzymes",
+		"cost": 70,
+		"maintenance": 1,
+		"production": 2,
+		"uniques": ["[+9]% [Production] [in this city]"],
+		"requiredTech": "Amino Acid",
+	},
+	{
+		"name": "RNA",
+		// "cost": 60,
+		"food": 1,
+		"maintenance": 1,
+		"requiredTech": "DNA",
+	},
+	{
+		"name": "Replication",
+		// "cost": 65,
+		"maintenance": 1,
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "DNA",
+	},
+	{
+		"name": "Plasma Membrane",
+		// "cost": 70,
+		"maintenance": 1,
+		"cityStrength": 5,
+                "cityHealth": 40,
+		"requiredTech": "Protein",
+	},
+	{
+		"name": "Polypeptides",
+		// "cost": 70,
+		"science": 1,
+		"maintenance": 1,
+		// "uniques": ["[+33]% Production when constructing [Particle] units [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Protein",
+	},
+	{
+		"name": "Chromosomes",
+		// "cost": 75,
+		"science": 1,
+		"maintenance": 1,
+		"percentStatBonus": {"science": 5},
+		"uniques": ["[+25]% Production when constructing [Cell] units [in this city]"],
+		"requiredTech": "DNA",
+	},
+	{
+		"name": "Flagellum",
+		// "cost": 85,
+		"maintenance": 1,
+		"science": 1,
+		"percentStatBonus": {"science": 5},
+		"uniques": ["New [Cell] units start with [15] Experience [in this city]"],
+		"requiredTech": "Nucleus",
+	},
+	{
+		"name": "Ribosomes",
+		"requiredBuilding": "Replication",
+		// "cost": 80,
+		"maintenance": 1,
+		"requiredTech": "Mitosis",
+		"uniques": ["[5]% Food is carried over after population increases [in this city]"],
+	},
+	{
+		"name": "Phagocytic Cell",
+		"requiredBuilding": "Plasma Membrane",
+		// "cost": 90,
+		"maintenance": 1,
+		"requiredTech": "Filter Feeding",
+		"cityStrength": 5,
+                "cityHealth": 35,
+	},
+	{
+		"name": "Oscula",
+		"maintenance": 1,
+		// "specialistSlots": {"Creature": 1},
+		// "cost": 100,
+		"production": 2,
+		"uniques": ["Must be next to [Coast]","[+1 Production] from [Water] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]"],
+		"requiredTech": "Coral",
+	},
+	{
+		"name": "Photosynthesis",
+		// "cost": 120,
+		"maintenance": 2,
+		"specialistSlots": {"Vegetation": 1},
+		"requiredTech": "Chloroplasts",
+		"production": 1,
+		"uniques": ["[+1 Production, +1 Gold] from [Atoll] tiles [in this city]"],
+	},
+	/*
+	{
+		"name": "Algae",
+		"requiredBuilding": "Photosynthesis",
+		"maintenance": 1,
+		"specialistSlots": {"Vegetation": 1},
+		// "cost": 120,
+		"requiredTech": "Chloroplasts",
+		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"]
+	},
+	*/
+	{
+		"name": "Fungi",
+		"maintenance": 1,
+		"specialistSlots": {"Meristem": 2},
+		"requiredTech": "Tissue",
+		// "cost": 100,
+		"gold": 1,
+		// "science": 2,
+	},
+	{
+		"name": "Muscles",
+		"maintenance": 1,
+		"specialistSlots": {"Meristem": 2},
+		"requiredTech": "Muscles",
+		// "cost": 120,
+		"cityHealth": 15,
+		"production": 2,
+		"uniques": ["[+5]% [Production] [in this city]"]
+	},
+	{
+		"name": "Nervous System",
+		"requiredBuilding": "Adenosine Triphosphate",
+		"requiredTech": "Nervous System",
+		"cityStrength": 3,
+		"gold": 3,
+		"percentStatBonus": {"gold": 15},
+		// "cost": 120,
+	},
+	// After Jellyfish
+	{
+		"name": "Radial Symmetry",
+		// "cost": 125,
+		"science": 1,
+		"gold": 2,
+		"uniques": ["Limited to [2] per Civilization","Only available <in cities without a [Bilateral Symmetry]>","[+20]% Production when constructing [Jellyfish] units [in this city]","[+20]% Production when constructing [Civilian] units [in this city]"],
+		"requiredTech": "Radial Symmetry",
+	},
+	{
+		"name": "Blood Pump",
+		"requiredBuilding": "Muscles",
+		// "cost": 135,
+		"uniques": ["[+10]% [Production] [in this city]","Destroyed when the city is captured"],
+		"production": 2,
+		"requiredTech": "Heart",
+	},
+	{
+		"name": "Vertebrate",
+		"specialistSlots": {"Creature": 1},
+		// "cost": 135,
+		"uniques": ["Limited to [2] per Civilization","Unbuildable <in cities with a [Palace]> <hidden from users>","[+25]% Production towards any buildings that already exist in the Capital"],
+		"requiredTech": "Vertebrate",
+	},
+	{
+		"name": "Bilateral Symmetry",
+		// "cost": 130,
+		"science": 1,
+		"gold": 2,
+		"uniques": ["Limited to [2] per Civilization","Only available <in cities without a [Radial Symmetry]>","[+20]% Production when constructing [Water Arthropod] units [in this city]","[+20]% Production when constructing [Fish] units [in this city]"],
+		"requiredTech": "Bilateral Symmetry",
+	},
+	// General
+	{
+		"name": "Otavia Antiqua",
+		"cost": 1,
+		"food": 2,
+		// "science": 1,
+		"gold": 1,
+		"uniques": ["Unbuildable","[+1] population [in this city]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Eclipse",
+		"cost": 30,
+		"happiness": 1,
+		"gold": 1,
+		"requiredTech": "Moon",
+	},
+	{
+                "name": "Volcano",
+                "food": 1,
+                "cost": 25,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		// "uniques": ["[+1 Gold, +1 Production] from [Lakes] tiles [in this city]"],
+		"requiredTech": "Primordial Soup",
+        },
+	{
+		"name": "Universal Language",
+		"isWonder": true,
+		"requiredTech": "Speaking",
+		// "cost": 2250,
+		"uniques": ["Provides [1] [Negotiation Skill]"]
+	},
+	{
+		"name": "The Predator's Food Chain",
+		"isWonder": true,
+		// "cost": 550,
+		"food": 2,
+		"requiredTech": "Predation",
+		"uniques": ["Must be next to [Coast]","[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
+	},
+	{
+		"name": "Microbiota",
+		"gold": 3,
+		"production": 1,
+		"science": 1,
+		"requiredTech": "Lung"
+	},
+	{
+		"name": "Neuron Activation",
+		// "cost": 220,
+		"isWonder": true,
+		"requiredTech": "Nerve Cord",
+		"uniques": ["[+1 Gold] from [Coast] tiles [in all cities]","[+1 Gold] from [Ocean] tiles [in all cities]"]
+	},
+	{
+		"name": "White of Eye Cells",
+		// "cost": 500,
+		"science": 3,
+		"isWonder": true,
+		"requiredTech": "Eye",
+		"uniques": ["[+10]% Production when constructing [{non-[Predator]} {Water}] units [in all cities]","[+10]% Production when constructing [Ranged] units [in all cities]"]
+	},
+	{
+		"name": "Three Bone Ear",
+		// "cost": 1150,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Mammal",
+		"uniques": ["[+25]% Golden Age length"]
+	},
+	{
+		"name": "Foraminifera",
+		// "cost": 800,
+		"gold": 8,
+		"requiredTech": "Grass"
+	},
+	{
+		"name": "Domed Cranium",
+		// "cost": 1000,
+		"gold": 4,
+		"science": 4,
+		"culture": 2,
+		"isWonder": true,
+		"requiredTech": "Ape Brain",
+		"uniques": ["[+10]% [Gold] [in this city]","[+10]% [Science] [in this city]"]
+	},
+	{
+		"name": "Winged Threat",
+		// "cost": 750,
+		"science": 1,
+		"isWonder": true,
+		"requiredTech": "Wings",
+		"uniques": ["[+20]% Strength <for [Theropoda] units>","[+14]% Strength <for [Avemetatarsalia] units>"]
+	},
+	{
+		"name": "Replaceable Teeth",
+		"maintenance": 4,
+		// "cost": 400,
+		"isWonder": true,
+		"requiredTech": "Jaw",
+		"uniques": ["Provides [1] [Super Creature Stock]"]
+	},
+	{
+		"name": "Polyp",
+		// "cost": 325,
+		"food": 1,
+		"isWonder": true,
+		"requiredTech": "Radial Symmetry",
+		"uniques": ["Must be next to [Coast]","[6] free [Jellyfish] units appear"]
+	},
+	{
+		"name": "Lascaux Cave",
+		// "cost": 2500,
+		"requiredTech": "Cave Painting",
+		"isWonder": true,
+		"uniques": ["[+1 Culture] per [2] population [in this city]","Gain a free [Bulletin Wall] [in all cities]"]
+	},
+	{
+		"name": "Çatalhöyük",
+		// "cost": 4000,
+		"production": 1,
+		"food": 2,
+		"isWonder": true,
+		"requiredTech": "Urbanization",
+		"uniques": ["[+50]% [Production] [in all cities] <for [10] turns>"]
+	},
+	{
+		"name": "Hurrian Hymn",
+		// "cost": 4500,
+		"culture": 1,
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["[+33]% [Culture] [in this city]"]
+	},
+	{
+		"name": "Early Chemistry",
+		// "cost": 3000,
+		"maintenance": 10,
+		"science": 30,
+		"requiredTech": "Alchemy",
+	},
+	{
+		"name": "Scleractinia",
+		"requiredBuilding": "Oscula",
+		"gold": 2,
+		"happiness": 2,
+		"cost": 350,
+		"uniques": ["Also known as Stony Coral","Must be next to [Coast]","Unbuildable <before the [Mesozoic era]>"]
+	},
+	{
+		"name": "Chrysopoeia",
+		// "cost": 6000,
+		"gold": 200,
+		"isWonder": true,
+		"requiredTech": "Alchemy",
+	},
+	{
+		"name": "Fireworks Entertainment!",
+		"happiness": 3,
+		"maintenance": 20,
+		// "cost": 3400,
+		"requiredTech": "Gunpowder"
+	},
+	{
+		"name": "Sputnik",
+		"uniques": ["[2] Free Technologies"],
+		// "cost": 17000,
+		"requiredTech": "Satellites"
+	},
+	{
+		"name": "Moon Base",
+		"production": 170,
+		"science": 360,
+		"food": 30,
+		"gold": 1200,
+		"culture": 90,
+		// "cost": 15000,
+		"requiredTech": "Space Adaptation"
+	},
+	{
+		"name": "Hive Mind",
+		"isWonder": true,
+		// "cost": 400,
+		"requiredTech": "Nerve Cord",
+		"uniques": ["[+10]% Strength <for [Water] units> <when adjacent to a [non-[Enemy]] unit>"]
+	},
+	{
+		"name": "Emotions",
+		"requiredBuilding": "Nervous System",
+		// "cost": 400,
+		"happiness": 4,
+		"gold": 3,
+		"uniques": ["[+15]% [Gold] [in this city]"],
+		"requiredTech": "Medulla Oblongata",
+	},
+	{
+		"name": "Mammal Brain",
+		"requiredBuilding": "Emotions",
+		"maintenance": 3,
+		// "cost": 750,
+		"science": 4,
+		"production": 4,
+		"requiredTech": "Neocortex",
+		"uniques": ["New [Mammal] units start with [15] Experience [in this city]","[+15]% [Science] [in this city]"],
+	},
+	{
+		"name": "Big Brain",
+		"requiredBuilding": "Limbic System",
+		// "cost": 1000,
+		"maintenance": 3,
+		"science": 5,
+		"happiness": 1,
+		"uniques": ["[+20]% [Science] [in this city]","New [Human] units start with [15] Experience [in this city]"],
+		"requiredTech": "Homo Heidelbergensis",
+	},
+	{
+		"name": "Hunting",
+		// "cost": 1000,
+		"maintenance": 1,
+		"specialistSlots": {"Hunter": 1},
+		"requiredTech": "Homo Ergaster",
+	},
+	{
+		"name": "Clay Work",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"greatPersonPoints": {"Great Craftsman": 1},
+		"specialistSlots": {"Craftsman": 2},
+		"culture": 8,
+		// "cost": 1550,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["[+1 Culture] from [Monument] tiles [in this city]"]
+	},
+	{
+		"name": "Logical Thinking",
+		"requiredBuilding": "Big Brain",
+		// "cost": 1130,
+		"maintenance": 1,
+		"requiredTech": "Human Brain",
+		"science": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+	},
+	{
+		"name": "Fishing",
+		"food": 1,
+		"maintenance": 1,
+		// "cost": 1200,
+		"uniques": ["[+1 Food] from [Coast] tiles [in this city]","[+3 Food] from [Lakes] tiles [in this city]","[+3 Food] from [River] tiles [in this city]"],
+		"requiredTech": "Stone Tools",
+		"specialistSlots": {"Hunter": 1},
+	},
+	{
+		"name": "Sociality",
+		// "cost": 700,
+		"maintenance": 1,
+		"happiness": 1,
+		"requiredTech": "Ape Brain",
+		"specialistSlots": {"Elder": 1},
+		"uniques": ["[25]% [Production] [in this city]","[25]% [Culture] [in this city]","[12]% [Food] [in this city]"],
+	},
+	{
+		"name": "Stone Work",
+		"specialistSlots": {"Craftsman": 1},
+		// "cost": 1000,
+		"production": 8,
+		"maintenance": 1,
+		"requiredTech": "Stone Tools",
+		"uniques": ["[+20]% Production when constructing [Human] units [in this city]"],
+	},
+	{
+		"name": "Count",
+		// "cost": 700,
+		"maintenance": 1,
+		"production": 2,
+		"gold": 3,
+		"requiredTech": "Five Fingers",
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
+	},
+	{
+		"name": "Gathering",
+		// "cost": 750,
+		"production": 6,
+		"maintenance": 1,
+		"gold": 1,
+		"food": 4,
+		"requiredTech": "Opposable Thumb",
+		"uniques": ["[+15]% Production when constructing [All] buildings [in this city]"],
+	},
+	{
+		"name": "Campfire",
+		"specialistSlots": {"Hunter": 3},
+		"culture": 5,
+		"maintenance": 1,
+		"happiness": 5,
+		"food": 5,
+		"production": 1,
+		"science": 1,
+		// "cost": 1300,
+		"requiredTech": "Fire",
+		"uniques": ["[10]% [Food] [in this city]","[+1 Food] from [Hunting Spot] tiles [in this city]"],
+	},
+	{
+		"name": "Bulletin Wall",
+		"specialistSlots": {"Elder": 1},
+		"requiredTech": "Cave Painting",
+		// "cost": 1000,
+		"maintenance": 1,
+		"gold": 6,
+		"culture": 5,
+		"happiness": 2,
+		"uniques": ["[+1 Food] from [Hunting Spot] tiles [in this city]"],
+	},
+	{
+		"name": "Cemetery",
+		// "cost": 1200,
+		"maintenance": 3,
+		"happiness": 1,
+		"requiredTech": "Burial",
+		"uniques": ["Excess Food converted to Production when under construction","Destroyed when the city is captured","Remove extra unhappiness from annexed cities"],
+	},
+	{
+		"name": "Sacred Place",
+		"specialistSlots": {"Elder": 2},
+		// "cost": 1000,
+		"maintenance": 1,
+		"faith": 5,
+		"requiredTech": "Religion",
+		"uniques": ["[+1 Faith] from every specialist [in this city]"],
+	},
+	{
+		"name": "Meteor",
+		"cost": 20,
+		"science": 1,
+	},
+	{
+		"name": "Limbic System",
+		"requiredBuilding": "Mammal Brain",
+		// "cost": 240,
+		"science": 3,
+		"requiredTech": "Learning",
+		"uniques": ["New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]"],
+	},
+	{
+		"name": "Free SCS",
+		"uniques": ["Remove [Free SCS] [in this city]","Unbuildable","Provides [1] [Super Creature Stock] <for [9999] turns>"]
+	},
+	{
+		"name": "Gamerule",
+		"cityStrength": -5,
+		"cityHealth": -5,
+		"happiness": -3,
+		// "science": -3,
+		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured",
+			"Gain a free [Warm Environment] [in this city] <in [Warm] tiles>"]
+	},
+	{
+		"name": "Warm Environment",
+		"uniques": ["Unsellable","Unbuildable","Can Construct Warm Environment Unique in this city"]
+	},
+        {
+                "name": "Palace",
+                "isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"cost": 1,
+		"culture": 3,
+		"happiness": 3,
+                "uniques": ["Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock] <for [non-[City-states]]>"], // Prev, it was easy to create super units by forming an alliance with a city-state.
+        },
+	{
+		"name": "Adenosine Triphosphate",
+		"gold": 3,
+		// "cost": 60,
+		"uniques": ["[+10]% [Gold] [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Nucleotides",
+	},
+	// Meghalayan
+	{
+		"name": "Granary",
+		"cost": 1000,
+		"food": 10,
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Stonehenge",
+		"faith": 25,
+		"cost": 3000,
+		"isWonder": true,
+		"requiredTech": "Calendar",
+		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Library",
+		"cost": 1000,
+		"hurryCostModifier": 25,
+		"maintenance": 5,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Paper"
+	},
+	{
+		"name": "Water Mill",
+		"cost": 1500,
+		"maintenance": 10,
+		"food": 20,
+		"production": 20,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Gear"
+	},
+	{
+		"name": "Workshop",
+		"cost": 1500,
+		"maintenance": 10,
+		"production": 20,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Nail"
+	},
+	{
+		"name": "Bank",
+		"cost": 1500,
+		"gold": 50,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Factory",
+		"cost": 3600,
+		"production": 40,
+		"percentStatBonus": {"production": 10},
+		"requiredBuilding": "Workshop",
+		"maintenance": 30,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Newspaper",
+		"cost": 1000,
+		"hurryCostModifier": 25,
+		"maintenance": 5,
+		"uniques": ["[33]% of excess happiness converted to [Science]"],
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 100,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "The Pyramids",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear"],
+		"requiredTech": "Masonry",
+		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 9,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Lighthouse",
+		"cost": 1500,
+		"hurryCostModifier": 25,
+		"maintenance": 5,
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Temple",
+		"faith": 20,
+		"cost": 1500,
+		"maintenance": 10,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Market",
+		"cost": 1000,
+		"gold": 30,
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mint",
+		"cost": 1000,
+		"percentStatBonus": {"gold": 25},
+		"maintenance": 5,
+		"hurryCostModifier": 25,
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Garden",
+		"cost": 1500,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Hagia Sophia",
+		"faith": 3,
+		"cost": 3000,
+		"isWonder": true,
+		"uniques": ["Gain a free [Temple] [in this city]","Hidden when religion is disabled"],
+		"requiredTech": "Theology",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
+	{
+		"name": "Forge",
+		"cost": 1000,
+		"percentStatBonus": {"production": 20},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Metal Casting",
+	},
+	{
+		"name": "Harbor",
+		"cost": 2400,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"],
+		"requiredTech": "Ranged Trading"
+	},
+	{
+		"name": "University",
+		"maintenance": 20,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Ironworks",
+		"cost": 2500,
+		"production": 80,
+		"culture": 10,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 800,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"requiredTech": "The Culture",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Shrine",
+		"faith": 3,
+		"cost": 800,
+		"maintenance": 1,
+		"requiredTech": "Urbanization",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Temple of Artemis",
+		"culture": 1,
+		"isWonder": true,
+        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
+		"requiredTech": "Urbanization",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "Stone Works",
+		"happiness": 2,
+		"production": 20,
+		"requiredNearbyImprovedResources": ["Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[+10 Production] from [Stone] tiles [in this city]"],
+		"requiredTech": "Urbanization"
+	},
+	{
+		"name": "The Great Library",
+		"science": 3,
+		"culture": 1,
+		"isWonder": true,
+		"requiredTech": "Paper",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{
+		"name": "Circus",
+		"requiredNearbyImprovedResources": ["Ivory"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Plow"
+	},
+	{
+		"name": "Advanced Water Mill",
+		"maintenance": 2,
+		"food": 10,
+		"production": 20,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "Turbine"
+	},
+	{
+		"name": "Mausoleum of Halicarnassus",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+		 "[+2 Gold] from [Stone] tiles [in this city]"],
+		"requiredTech": "Masonry",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
+	{
+		"name": "Statue of Zeus",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Bronze Working",
+		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+	},
+	{
+		"name": "The Great Lighthouse",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Human Water}] units>",
+			"[+1] Sight <for [{Military} {Human Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"requiredTech": "Optics",
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+	},
+	{
+		"name": "Stable",
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Husbandried] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Animal Husbandry"
+	},
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"happiness": 3,
+		"hurryCostModifier": 50,
+		"uniques": ["Can only be built [in annexed cities]"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Hanging Gardens",
+		"food": 24,
+		"culture": 5,
+		"isWonder": true,
+		"requiredTech": "Mathematics",
+		"uniques": ["Gain a free [Garden] [in this city]"],
+		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+	},
+	{
+		"name": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Terracotta Army",
+		"culture": 20,
+		"isWonder": true,
+		"requiredTech": "Construction",
+		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+	},
+	{
+		"name": "National College",
+		"science": 30,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Requires a [Library] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "The Oracle",
+		"culture": 3,
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Philosophy",
+		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+	},
+	{
+		"name": "Amphitheater",
+		"culture": 3,
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Geometry"
+	},
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Pronounceable Writes"
+	},
+	{
+		"name": "Petra",
+		"culture": 10,
+		"gold": 5,
+		"food": 5,
+		"isWonder": true,
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]"],
+		"requiredTech": "Currency",
+		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+	},
+	{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Great Wall",
+		"culture": 3,
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]>",
+			"Gain a free [Walls] [in this city]"],
+		"requiredTech": "Masonry",
+		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
+	},
+	{
+		"name": "Heroic Epic",
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Barracks] in all cities","[+10]% Strength <for [All] units>",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Military"
+	},
+	{
+		"name": "Colossus",
+		"culture": 1,
+		"gold": 10,
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Military",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
+	{
+		"name": "Great Mosque of Djenne",
+		"culture": 10,
+		"faith": 60,
+		"isWonder": true,
+		"requiredTech": "Theology",
+		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
+	},
+	{
+		"name": "Grand Temple",
+		"culture": 1,
+		"faith": 30,
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	{
+		"name": "National Treasury",
+		"gold": 160,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Market] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Machu Picchu",
+		"gold": 100,
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] from Trade Routes","Must have an owned [Mountain] within [2] tiles"],
+		"requiredTech": "Guilds",
+		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
+	},
+	{
+		"name": "Oxford University",
+		"science": 30,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [University] in all cities", "Free Technology", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Castle",
+		"cityStrength": 100,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Notre Dame",
+		"faith": 40,
+		"happiness": 10,
+		"isWonder": true,
+		"requiredTech": "Organized Religion",
+		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 10,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Observatory",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Opera House",
+		"culture": 8,
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 20,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Sistine Chapel",
+		"culture": 10,
+		"isWonder": true,
+		"uniques": ["[+25]% [Culture] [in all cities]"],
+		"requiredTech": "Organized Religion",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
+	{
+		"name": "Forbidden Palace",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
+		"requiredTech": "Paper Money",
+		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+	},
+	{
+		"name": "Theatre",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 10,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "Leaning Tower of Pisa",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
+		"requiredTech": "Physics",
+		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
+	},
+	{
+		"name": "Himeji Castle",
+		"culture": 3,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Musket Arms",
+		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
+	},
+	{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 30,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Human Water] units [in this city]"],
+		"requiredTech": "Colonization"
+	},
+	{
+		"name": "Hermitage",
+		"percentStatBonus": {"culture": 50},
+		"culture": 5,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Opera House] in all cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Taj Mahal",
+		"culture": 10,
+		"happiness": 4,
+		"isWonder": true,
+		"uniques": ["Empire enters golden age"],
+		"requiredTech": "Architecture",
+		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+	},
+	{
+		"name": "Porcelain Tower",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["Science gained from research agreements [+250]%"],
+		"requiredTech": "Architecture",
+		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
+	},
+	{
+		"name": "Windmill",
+		"production": 40,
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
+		"requiredTech": "Mechanics"
+	},
+	{
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 100,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Castle",
+		"requiredTech": "Manufacture",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Kremlin",
+		"culture": 3,
+		"cityStrength": 12,
+		"isWonder": true,
+		"uniques": ["[+25]% City Strength from defensive buildings"],
+		"requiredTech": "Military Science",
+		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
+	},
+	{
+		"name": "Museum",
+		"culture": 25,
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "The Louvre",
+		"culture": 100,
+		"happiness": 4,
+		"isWonder": true,
+		"requiredTech": "Biology",
+		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+	},
+	{
+		"name": "Public School",
+		"science": 20,
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Law of Gravity"
+	},
+	{
+		"name": "Big Ben",
+		"culture": 10,
+		"gold": 80,
+		"isWonder": true,
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
+		"requiredTech": "Industrialization",
+		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+	},
+	{
+		"name": "Military Academy",
+		"hurryCostModifier": 0,
+		"maintenance": 10,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Brandenburg Gate",
+		"culture": 7,
+		"isWonder": true,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Military Science",
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+	},
+	{
+		"name": "Hospital",
+		"food": 100,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredTech": "Medical Institution"
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 100,
+		"percentStatBonus": {"gold": 25},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Telephone"
+	},
+	{
+		"name": "Broadcast Tower",
+		"culture": 30,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Mass Communication",
+		"culture": 19,
+		"isNationalWonder": true,
+		"requiredTech": "Television",
+		"uniques": ["Requires a [Broadcast Tower] in all cities","[-1] Unit Supply per city <when not at war>","[1] Unit Supply per city <when at war>","[-50]% Culture cost of adopting new Policies","[+20]% of excess happiness converted to [Culture]","[-100]% [Happiness] <when below [0] Happiness>"],
+	},
+	{
+		"name": "Big Media",
+		"culture": 100,
+		"percentStatBonus": {"culture": 10},
+		"requiredBuilding": "Broadcast Tower",
+		"maintenance": 3,
+		"requiredTech": "Social Media",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Evolutionalism",
+		"science": 10,
+		"isWonder": true,
+		"requiredTech": "Biology",
+		"uniques": ["Free [Archeopteryx] appears",
+		"Free [Synapsida] appears",
+			"Free [Tetrapod] appears",
+		"[+1300]% Strength <for [Tetrapod] units>",
+		"[+700]% Strength <for [Synapsida] units>",
+		"[+400]% Strength <for [Archeopteryx] units>",
+		"[+2] Range <for [Archeopteryx] units>"],
+	},
+	// Science Like Victory
+	{
+		"name": "Universe Beta 1.10",
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
+			"Hidden when [Next Universe] Victory is disabled", "Cannot be hurried"],
+		"requiredTech": "Homo Deus"
+	},
+]
