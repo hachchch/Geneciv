@@ -1367,13 +1367,13 @@
 				"name": "Nail",
 				"row": 8,
 				"prerequisites": ["Masonry","Bronze Working"],
-				"uniques": ["[-10]% tile improvement construction time"],
+				"uniques": ["[-10]% construction time for [All] improvements"],
 			},
 			{
 				"name": "Construction",
 				"row": 9,
 				"prerequisites": ["Mathematics","Masonry"],
-				"uniques": ["[-15]% tile improvement construction time"]
+				"uniques": ["[-10]% construction time for [All] improvements"]
 			},
 			{
 				"name": "Zero",
