@@ -372,7 +372,7 @@
 			{
 				"name": "Deffensive Warrior",
 				"effect": "Units in cities cost no Maintenance, garrisoned city +50% attacking strength",
-				"uniques": ["Units in cities cost no Maintenance", "[+50]% Strength for cities <with garrison> <when attacking>"],
+				"uniques": ["Units in cities cost no Maintenance", "[+50]% Strength for cities <with a garrison> <when attacking>"],
 				"row": 1,
 				"column": 5
 			},
