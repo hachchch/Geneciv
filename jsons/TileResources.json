@@ -126,10 +126,9 @@
 		"revealedBy": "Sponge",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Coast"],
-		"improvement": "Fishing Boats",
+		"improvement": "Stony Coral",
 		"improvementStats": {"food": 1},
 		"food": 1,
-                "gold": 1,
         },
 	{
 		"name": "Marsh",
