@@ -42,19 +42,19 @@
 		"startBias": ["Plains"]
 		"preferredVictoryType": "Diplomatic",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "In 2.7 billion years ago(GYA), The Kaapvaal Craton (Eastern south Africa) and Pilbara Craton (North-western western Australia) formed Vaalbara which is one of the earliest supercontinent. In Abyssal plains, mass amount of Cyanobacteria carry out photosynthesis, breaking down clouds of toxic methane into carbon dioxide and water, The earth will become colder and Habitable from now on with great oxidation",
+		"startIntroPart2": "Vaalbara, the earliest supercontinent is still barren land, and the planet provides you chance to cause animal genesis with oxidation and tectonics. Will you develop this barren land into thriving paradise? Can you build a proto animal that stands the test of time?",
 
 		"declaringWar": "The demon wants the blood of soldiers!",
 		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"defeated": "Aw, messed up! Vaalbara has split.",
 		"introduction": "Are you real or a phantom?",
 
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
+		"neutralHello": "Hi.",
+		"hateHello": "Oh, it you...",
 
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
+		"tradeRequest": "It appears that you do have a reason for existing - to make this deal with me.",
+		
 		"outerColor": [128,50,50],
 		"innerColor": [15,0,0],
 		"uniqueName": "Convergent Boundary",
@@ -75,7 +75,7 @@
 
 		"declaringWar": "The demon wants the blood of soldiers!",
 		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
+		"defeated": "As a result of natural selection, Adapted  were preserved, having been appropriately constituted by an internal spontaneity, and whatsoever things were not thus constituted, perished, and still perish.",
 		"introduction": "Are you real or a phantom?",
 
 		"neutralHello": "Greetings.",
