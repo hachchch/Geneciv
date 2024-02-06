@@ -1544,56 +1544,56 @@ ImprovementIcons/Charnia Forest
   index: -1
 ImprovementIcons/Brown Algae
   rotate: false
-  xy: 0, 100
+  xy: 0, 200
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Algae
   rotate: false
-  xy: 0, 200
+  xy: 0, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Green Algae
   rotate: false
-  xy: 0, 300
+  xy: 0, 600
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Red Algae
   rotate: false
-  xy: 100, 0
+  xy: 200, 0
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Stromatolites
   rotate: false
-  xy: 100, 100
+  xy: 200, 200
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Cyanobacterium
   rotate: false
-  xy: 100, 200
+  xy: 200, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Soil
   rotate: false
-  xy: 100, 300
+  xy: 200, 600
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Stony Coral
   rotate: false
-  xy: 200, 0
+  xy: 400, 0
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
