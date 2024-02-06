@@ -1,4 +1,5 @@
 [
+	/*
 	// Domain
 	{
 		"name": "Eukaryota", // These Classification Promotion are not used in game because fucn visual problem:l
@@ -149,6 +150,7 @@
 	{
 		"name": "E.ferus",
 	},
+	*/
 	// Mammal Types
 	{
 		"name": "Carnivora",
@@ -188,7 +190,7 @@
 	},
 	/*
 	{
-		"name": "Sprint Instantly",
+		"name": "Sprint Instantly", // It works OP for some reason
 		"uniques": ["+1 Movement for 3 turns","[+1] Movement <hidden from users>","[-1] Movement <after [3] turns> <hidden from users>","Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Amphibian","Fishes","Herbivore","Hominiae","Mammal","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
 	},
@@ -198,14 +200,14 @@
 		"row": 2,
 		"column": 0,
 		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
-		"uniques": ["Gain [30] [Gold] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
+		"uniques": ["Gain [30] [Gold] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion","Only available <before the [Silurian period]>"]
 	},
 	{
 		"name": "Exchange to Mutation",
 		"row": 3,
 		"column": 0,
 		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
-		"uniques": ["Gain [15] [Science] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion"]
+		"uniques": ["Gain [15] [Science] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion","Only available <before the [Silurian period]>"]
 	},
 	// General
 	{
