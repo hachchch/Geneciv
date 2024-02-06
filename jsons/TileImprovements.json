@@ -74,7 +74,7 @@
 		"production": 2,
 		"techRequired": "Chloroplasts",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["Cambrian","Provides [1] [Oxygen]"],
+		"uniques": ["Algae","Cambrian","Provides [1] [Oxygen]"],
 	},
 	{
 		"name": "Pennatulacean Forest",
@@ -84,7 +84,7 @@
 		"turnsToBuild": 5,
 		"techRequired": "Chloroplasts",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["Ediacaran","Proterozoic","Provides [1] [Oxygen]"],
+		"uniques": ["Algae","Proterozoic","Provides [1] [Oxygen]"],
 	},
 	{
 		"name": "Stromatolites",
@@ -96,7 +96,7 @@
 		"techRequired": "Mitochondria",
 		"uniques": ["Archean","Provides [1] [Oxygen]"],
 	},
-	
+	// Others
 	{
 		"name": "Industry",
 		"shortcutKey": "I",
