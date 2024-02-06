@@ -919,7 +919,7 @@
 	// Aquatic Charales
 	{
 		"name": "Kelp Forest",
-		"requiredBuilding": "Algae",
+		// "requiredBuilding": "Algae",
 		"maintenance": 3,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Modern Ocean",
@@ -951,7 +951,14 @@
 		// "cost": 750,
 	},
 	{
+		"name": "Soil",
+		"maintenance": 1,
+		"requiredTech": "Tissue",
+		"unqiues": ["Must not be next to [Coastal]","Costs [100] [Oxygen]","[+1 Food] from [Land] tiles [in this city]","Only available <when above [99] [Oxygen]> <hidden from users>"]
+	},
+	{
 		"name": "Land Algae",
+		"requiredBuilding": "Soil",
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		// "cost": 250,
@@ -1089,6 +1096,7 @@
 		"production": 1,
 		"uniques": ["[+1 Production, +1 Gold] from [Atoll] tiles [in this city]"],
 	},
+	/*
 	{
 		"name": "Algae",
 		"requiredBuilding": "Photosynthesis",
@@ -1098,6 +1106,7 @@
 		"requiredTech": "Chloroplasts",
 		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"]
 	},
+	*/
 	{
 		"name": "Fungi",
 		"maintenance": 1,
