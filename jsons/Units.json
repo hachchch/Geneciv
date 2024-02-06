@@ -24,7 +24,7 @@
 	{
 		"name": "Cyanobacterium",
 		"replaces": "Algae",
-		"uniqueTo": "Stromatolites",
+		"uniqueTo": "Stromatolite",
 		"unitType": "Civilian Water",
 		"movement": 2,
 		"hurryCostModifier": 20,
