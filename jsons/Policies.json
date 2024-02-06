@@ -476,6 +476,7 @@
             }
         ]
     },
+	// Extinction Events
     {
 	"name": "Proterozoic Extinctions",
 		"era": "Archean eon",
@@ -511,7 +512,7 @@
 			},
 			{
 				"name": "Proterozoic Extinctions Complete",
-				"effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
+				// "effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
 				"uniques": ["Adopt [Phanerozoic Extinctions]","[+25]% growth [in all cities]","[+3 Science] [in all cities]"]
 			},
 		]
@@ -526,40 +527,40 @@
 			{
 				"name": "Siberian Traps",
 				"uniques": ["90% Species Will be died","Cannot build [Water Arthropod] units","Cannot build [P-T] units","[+50]% [Culture] [in capital]","[-1000]% XP gained from combat <for [Water Arthropod] units>"],
-				"row": 5,
+				"row": 1,
 				"column": 2,
 			},
 			{
 				"name": "Hypoxic Environment",
 				"uniques": ["[-50]% Production when constructing [All] units [in all cities] <for [7] turns>","[+100]% Yield from every [Forests] <for [7] turns>","[+50]% XP gained from combat <for [Reptiles] units>"],
-				"row": 5,
+				"row": 1,
 				"column": 4,
 			},
 			{
 				"name": "Meteorite Impact",
-				"row": 6,
+				"row": 2,
 				"column": 3,
 				"uniques": ["[+25]% [Science] <for [15] turns>","[-25]% Production when constructing [Reptiles] units [in all cities] <for [30] turns>","[-20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
 				"requires": ["Hypoxic Environment","Siberian Traps"],
 			},
 			{
 				"name": "Impact winter",
-				"row": 7,
+				"row": 3,
 				"column": 2,
 				"uniques": ["[-50]% Production when constructing [Reptiles] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
 				"requires": ["Meteorite Impact"],
 			},
 			{
 				"name": "Deccan Traps",
-				"row": 7,
+				"row": 3,
 				"column": 4,
 				"uniques": ["[-50]% Production when constructing [Reptiles] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
 				"requires": ["Meteorite Impact"],
 			},
 			{
 				"name": "Phanerozoic Extinctions Complete",
-				"effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
-				"uniques": ["Adopt [Phanerozoic Extinctions]","[+25]% growth [in all cities]","[+3 Science] [in all cities]"]
+				// "effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
+				"uniques": ["Adopt [Holocene Extinctions]","[+25]% growth [in all cities]","[+3 Science] [in all cities]"]
 			},
 		]
 	},
@@ -573,7 +574,7 @@
 			{
 				"name": "Ice Age",
 				"row": 1,
-				"column": 3,
+				"column": 4,
 				// "requires": ["Impact winter","Deccan Traps"],
 				"uniques": ["[-30]% Production when constructing [Mammal] units [in all cities] <during the [Pleistocene]>","[+40]% [Science] <during the [Pleistocene]>",
 					"[+40]% [Science] <during the [Pliocene]>"],
@@ -589,16 +590,16 @@
 			{
 				"name": "Overfishing",
 				"uniques": ["[-30]% Production when constructing [Mammal] units [in all cities]","[+1 Food] from [Hunting Spot] tiles [in all cities]","[-1 Food] from [Forests] tiles [in all cities]"],
-				"row": 3,
-				"column": 3,
-				"requires": ["Ice Age"],
+				"row": 1,
+				"column": 2,
+				// "requires": ["Ice Age"],
 			},
 			{
 				"name": "Nuclear Apocalypse",
 				"uniques": ["Everything is Estrasted to USA and USSR, or Most Animals died forever","[+10]% Strength <for [Gunpowder] units> <when attacking>","Free [Nuclear Missile] appears"],
 				"row": 2,
 				"column": 4,
-				"requires": ["Overfishing"],
+				"requires": ["Ice Age"],
 			},
 			{
 				"name": "Nibiru Cataclysm",
@@ -626,7 +627,7 @@
 			{
 				"name": "Holocene Extinctions Complete",
 				"effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
-				"uniques": ["Adopt [Phanerozoic Extinctions]","[+25]% growth [in all cities]","[+3 Science] [in all cities]"]
+				"uniques": ["Gain a free [Extinction Complete] [in capital]","Adopt [Phanerozoic Extinctions]","[+100]% growth [in all cities]","[+10 Science] [in all cities]"]
 			}
 		]
 	}
