@@ -37,7 +37,7 @@
 	},
 	{
 		"name": "Vaalbara",
-		"leaderName": "E. S. Cheney",
+		"leaderName": "Cyano Biont",
 		"adjective": ["Vaalbaran"],
 		"startBias": ["Plains"]
 		"preferredVictoryType": "Diplomatic",
@@ -60,7 +60,7 @@
 		"uniqueName": "Convergent Boundary",
 		"uniques": ["[+100]% [Gold]","[-50]% [Food] [in all cities]",
 			"[+1] Sight <for [Cell] units>","[-1] Movement <for [Cell] units>"],
-		"cities": ["Vaalbara","Pongola","Dharwar Craton","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State"],
+		"cities": ["Vaalbara","Pongola","Dharwar Craton","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State","Endolith","Hypolith"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
@@ -95,13 +95,13 @@
 	},
 	{
 		"name": "Stromatolite",
-		"leaderName": "James Hall",
+		"leaderName": "Laguna Negra",
 		"adjective": ["Stromatolite"],
 		"startBias": ["Plains","Flesh water"],
 		"preferredVictoryType": "Cultural",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "2.1 billion years ago...the first cyanobacteria were born on Earth, which was full of water. It is the first oxygenic photosynthesis and the common ancestor of plants and algae. Cyanobacteria spread efficiently through photosynthesis, causing one of the most important oxidative events in Earth's history. also, when the cyanobacteria dies, Stromatolites are formed with cyanobacterial remains accumulate. This is the only structure made by life during the Boring Billion.",
+		"startIntroPart2": "We, Cyanobacteria, can transform this barren earth into a planet that is habitable for life. By enveloping the Earth with stromatolites and purifying the atmosphere of this planet, we can advance our evolution quickly. Expand the Stromatolite all over the world!",
 
 		"declaringWar": "The demon wants the blood of soldiers!",
 		"attacked": "Oh well, I presume you know what you're doing.",
@@ -117,7 +117,7 @@
 		"innerColor": [213,249,255],
 		"uniqueName": "Life in Hadean",
 		"uniques": ["[+1 Culture, +1 Science] from [Stone] tiles [in all cities]"],
-		"cities": ["Collenia","Shark Bay","Lagoa Salgada","Laguna de Bacalar","Lake Salda"],
+		"cities": ["Collenia","Shark Bay","Lagoa Salgada","Lake Salda","Gunflint Range","Ojos de Mar"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
