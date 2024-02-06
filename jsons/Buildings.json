@@ -1305,7 +1305,7 @@
 		"gold": 2,
 		"happiness": 2,
 		"cost": 350,
-		"uniques": ["Must be next to [Coast]","Unbuildable <before the [Mesozoic era]>"]
+		"uniques": ["Also known as Stony Coral","Must be next to [Coast]","Unbuildable <before the [Mesozoic era]>"]
 	},
 	{
 		"name": "Chrysopoeia",
@@ -1400,7 +1400,7 @@
 		"maintenance": 1,
 		"requiredTech": "Human Brain",
 		"science": 2,
-		"uniques": ["[+1 Science] per [2] population"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 	},
 	{
 		"name": "Fishing",
@@ -1487,7 +1487,7 @@
 		"maintenance": 1,
 		"faith": 5,
 		"requiredTech": "Religion",
-		"uniques": ["[+4 Faith] from every Elder [in this city]"],
+		"uniques": ["[+1 Faith] from every specialist [in this city]"],
 	},
 	{
 		"name": "Meteor",
@@ -1534,7 +1534,7 @@
 		"name": "Adenosine Triphosphate",
 		"gold": 3,
 		// "cost": 60,
-		"uniques": ["[+10%] [Gold] [in this city]","Destroyed when the city is captured"],
+		"uniques": ["[+10]% [Gold] [in this city]","Destroyed when the city is captured"],
 		"requiredTech": "Nucleotides",
 	},
 	// Meghalayan
