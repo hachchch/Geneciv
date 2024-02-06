@@ -1,6 +1,50 @@
 [
 	// Civilians
 	{
+		"name": "Algae",
+		"unitType": "Civilian Water",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Sailing",
+		"uniques": ["Ordovician","Can design water environment (such a Green Algae)",
+			"Can build [Algae] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>"],
+		"cost": 100,
+		"requiredTech": "Chloroplasts",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Green Algae",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Tiles/Green Algae",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Cyanobacterium",
+		"replaces": "Algae",
+		"uniqueTo": "Stromatolites",
+		"unitType": "Civilian Water",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Sailing",
+		"uniques": ["Ordovician","Can design water environment (such a Stromatolites)",
+			"Can build [Algae] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Can build [Stromatolites] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>"],
+		"cost": 50,
+		"requiredTech": "Chloroplasts",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Green Algae",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Tiles/Green Algae",
+				"imageSize": 192
+			},
+		]
+	},
+	{
 		"name": "Vegetation",
 		"unitType": "Civilian",
 		"movement": 2,
