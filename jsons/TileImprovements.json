@@ -90,7 +90,7 @@
 	*/
 	{
 		"name": "Stromatolites",
-		"uniqueTo": "Stromatolites",
+		"uniqueTo": "Stromatolite",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"production": 1,
 		"replaces": "Stony Coral",
