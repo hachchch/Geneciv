@@ -302,7 +302,7 @@
 		"innerColor": [176,159,250],
 		"cities": ["Laurentia","Baltica","Avalonia","Carolinia","Armorica","Iapetus","Rheic","Antler","Innuitian-Lomonosov","Benthos"],
 		"uniqueName": "River transportation network",
-		"uniques": ["[+1] movement <for [Land] units> <in [Fresh water] tiles>",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Fresh water] tiles>",
 			"[+1 Science] from [{Flesh water} {GrassLand}] tiles [in all cities]",
 		"[+2 Science] from [{Flesh water} {Forests}] tiles [in all cities]"],
 	},
