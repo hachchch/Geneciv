@@ -11,8 +11,9 @@
 	// Kingdom
 	{
 		"name": "Animalia",
-		"uniques": ["Animal",
-		"[+20]% Strength <vs [{non-[Air]} {non-air} {Air}] units> <for [non-[non-air]]> units"], // Test
+		"uniques": ["Animal"
+		//	,"[+20]% Strength <vs [{non-[Air]} {non-air} {Air}] units> <for [non-[non-air]]> units"
+		], // Test
 	},
 	{
 		"name": "Machina",
