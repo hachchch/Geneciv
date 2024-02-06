@@ -782,9 +782,18 @@
 		"uniques": ["Cambrian","[+33]% Strength <for [Eumycetozoa] units> <vs [Wounded] units> <when defending> <in [Ocean] tiles>"]
 	},
 	{
-		"name": "Skirmish",
+		"name": "Pack Hunting I",
+		"column": 658,
+		"row": 1,
 		"unitTypes": ["Reptiles","Mammal","Human","Hominiae","Aves"]
-		"uniques": ["[+100]% to Flank Attack bonuses"]
+		"uniques": ["[+33]% to Flank Attack bonuses"]
+	},
+	{
+		"name": "Pack Hunting II",
+		"column": 658,
+		"row": 1,
+		"unitTypes": ["Reptiles","Mammal","Human","Hominiae","Aves"]
+		"uniques": ["[+33]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Breeding Pair",
