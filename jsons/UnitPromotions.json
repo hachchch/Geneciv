@@ -785,14 +785,15 @@
 		"name": "Pack Hunting I",
 		"column": 658,
 		"row": 1,
-		"unitTypes": ["Reptiles","Mammal","Human","Hominiae","Aves"]
+		"unitTypes": ["Modern Fishes","Reptiles","Mammal","Human","Hominiae","Aves"]
 		"uniques": ["[+33]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Pack Hunting II",
+		"prerequisites": ["Pack Hunting I"]
 		"column": 658,
-		"row": 1,
-		"unitTypes": ["Reptiles","Mammal","Human","Hominiae","Aves"]
+		"row": 2,
+		"unitTypes": ["Modern Fishes","Reptiles","Mammal","Human","Hominiae","Aves"]
 		"uniques": ["[+33]% to Flank Attack bonuses"]
 	},
 	{
