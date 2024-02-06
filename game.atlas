@@ -1978,6 +1978,13 @@ TileSets/HexaRealm/Tiles/Tundra+Forest+City center
   orig: 64, 73
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Charnia Forest
+  rotate: false
+  xy: 1780, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Tundra+City center
   rotate: false
   xy: 1680, 1884
