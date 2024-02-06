@@ -819,7 +819,7 @@
 				"name": "Wings",
 				"row": 4,
 				"prerequisites": ["Archosauria"],
-				"uniques": ["[+10]% Strength <for [Herbivore] units>","[+1] movement <for [Avemetatarsalia] units>"],
+				"uniques": ["[+10]% Strength <for [Herbivore] units>","[+1] Movement <for [Avemetatarsalia] units>"],
 			},
 		]
 	},
