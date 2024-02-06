@@ -956,7 +956,7 @@
 		"name": "Soil",
 		"maintenance": 1,
 		"requiredTech": "Tissue",
-		"unqiues": ["Must not be next to [Coastal]","Costs [100] [Oxygen]","[+1 Food] from [Land] tiles [in this city]","Only available <when above [99] [Oxygen]> <hidden from users>"]
+		"uniques": ["Must not be next to [Coastal]","Costs [100] [Oxygen]","[+1 Food] from [Land] tiles [in this city]","Only available <when above [99] [Oxygen]> <hidden from users>"]
 	},
 	{
 		"name": "Land Algae",
