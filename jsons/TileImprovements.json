@@ -68,14 +68,15 @@
 	},
 	{
 		"name": "Charnia Forest",
-		"uniqueTo": "Burgess",
+		"uniqueTo": "Ediacara",
 		"turnsToBuild": 7,
-		"replaces": "Brown Algae",
-		"production": 2,
+		"replaces": "Green Algae",
+		"food": 2,
 		"techRequired": "Chloroplasts",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["Algae","Cambrian","Provides [1] [Oxygen]"],
+		"uniques": ["Algae","Proterozoic","Provides [1] [Oxygen]"],
 	},
+	/*
 	{
 		"name": "Pennatulacean Forest",
 		"uniqueTo": "Ediacara",
@@ -86,6 +87,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"uniques": ["Algae","Proterozoic","Provides [1] [Oxygen]"],
 	},
+	*/
 	{
 		"name": "Stromatolites",
 		"uniqueTo": "Stromatolites",
