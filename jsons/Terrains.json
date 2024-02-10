@@ -21,7 +21,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Photic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Photic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	{
 		"name": "Epipelagic zone", // 0~200
@@ -29,7 +29,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Epipelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Epipelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	{
 		"name": "Aphotic zone", // Nonlighted deep
@@ -37,7 +37,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Aphotic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Aphotic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	// Deep Sea
 	{
@@ -46,7 +46,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Mesopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Mesopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	{
 		"name": "Bathypelagic zone", // 1000~4000
@@ -54,7 +54,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Bathypelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Bathypelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	{
 		"name": "Abyssopelagic zone", // 4000~6000
@@ -62,7 +62,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Abyssopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Abyssopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	{
 		"name": "Hadopelagic zone", // 6000~11000
@@ -70,7 +70,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Hadopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Hadopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	// benthos
 	{
@@ -79,7 +79,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Hadopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Hadopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	{
 		"name": "Benthic zone", // Abyssal plain
@@ -87,7 +87,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Benthic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Benthic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	// Lands
 	{
