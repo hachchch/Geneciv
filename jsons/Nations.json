@@ -245,15 +245,15 @@
 		"leaderName": "Orrorin",
 		"adjective": ["Sahelanthropus"],
 		"preferredVictoryType": "Scientific",
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Introducing Sahelanthropus, the Chimpanzee-Human Divergence(hypothetical). He was the first primate to walk bipedalism(but not perfect), and is morphologically closer to panina than hominina. (the use of stone tools is yet to come)",
+		"startIntroPart2": "Orrorin, the primates evolved to be weakest creatures are eager to uncover the predominance of Intelligent and Creativity on this wildly planet ruled by the survive of strongs. Will you reach a new pinnacle of mammalians? Can you build a tribes that stands the test of time? Behold the rock weapon we created, It obvious describe how intelligent works for us!",
 		"declaringWar": "Ooga BoogaOoga Booga!",
 		"attacked": "Ooga Booga!",
 		"defeated": "Ooga Booga.",
 		"introduction": "Ooga Booga.",
 		"neutralHello": "Ooga Booga.",
 		"hateHello": "Ooga Booga!",
-		"tradeRequest": "Is the following trade of interest to you?",
+		"tradeRequest": "Ooga Booga?",
 
 		"outerColor": [46,0,36],
 		"innerColor": [152,132,114],
@@ -265,19 +265,18 @@
 		"spyNames": ["Ooga", "Booga", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		"name": "Hirnantian",
-		// "leaderName": "B.B. Bancroft",
-		"leaderName": "Katia Rainbow", // It's a name I came up with on the fly. Maybe it will change.
+		"name": "Hirnantian", // Journal: https://www.sciencedirect.com/topics/earth-and-planetary-sciences/hirnantian
+		"leaderName": "Cameroceras",
 		"adjective": ["Hirnantian"],
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "The Hirnantian is the final internationally recognized stage of the Ordovician Period of the Paleozoic Era. It was of short duration, lasting about 1.4 million years, from 445.2 to 443.8 Ma (million years ago). The early part of the Hirnantian was characterized by cold temperatures, major glaciation, and a severe drop in sea level. In the latter part of the Hirnantian, temperatures rose, the glaciers melted, and sea level returned to the same or to a slightly higher level than it had been prior to the glaciation.", // from wikipedia
-		"startIntroPart2": "",
-		"declaringWar": "All my marine creatures are irritated by your intrusion on their feeding grounds. I have to do for this.",
-		"attacked": "I watched dream of underwater, There was a perfect living. for that, I never die! Protect mother sea, even its foreign evils!",
-		"defeated": "I hope there's a wonderful rainbow to my fossil...",
-		"introduction": "Ooga Booga.",
+		"startIntroPart2": "Cameroceras, your prosperity will save species from extinction, survive the Ordovician extinction, create a gigantic marine invertebrate animal empire, and dominant biota entire of the planet?",
+		"declaringWar": "You are not supposed in our coral zone!", // All my marine creatures are irritated by your intrusion on their feeding grounds. I have to do for this.
+		"attacked": "Protect mother sea, against the adventive evils!",
+		"defeated": "I hope our fossils preserved to future...",
+		"introduction": "Welcome, welcome! Hirnantian is here. I am Cameroceras, the greatest predator of this biota.",
 		"neutralHello": "How are you doing.",
-		"hateHello": "Hello...?",
+		"hateHello": "You're disgusting!",
 		"tradeRequest": "Is it Reasonably?",
 		"outerColor": [ 112,1,65],
 		"innerColor": [255,188,175],
