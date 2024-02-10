@@ -159,16 +159,16 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 
-		"startIntroPart1": "The Snowballed Earth was melt on 635 MYA(million years ago), then The life on earth is awaken. In Ediacaran Biota, There are enigmatic and simpler life such a sea pen(looks like a Charnia), Xenophyophore, Jellyfish, Dickinsonia",
+		"startIntroPart1": "The Snowballed Earth was melt on 635 MYA(million years ago), then The life on earth is awaken. In Ediacaran Biota, There are enigmatic and simpler life such a Charnia, Xenophyophore, Jellyfish, Dickinsonia",
 		"startIntroPart2": "Behold the wonders of the Ediacaran Biota, there are so many advantage on us! we can swim well![float up and down] The evolution led by Cambrians? Or will you take the place you deserve, as the leading edge of evolution into the all period?!", // 考え中
 
-		"declaringWar": "Our jellyfish will attack your biota soon for some reason! Oh right, There is no hostility and reason in us, we just only float up and down!",
-		"attacked": "Woah, you wanna clear our biota? Well, These cute and capricious jellyfish have super deadly poison, right?",
+		"declaringWar": "Our jellyfish will attack your biota soon for some reason! Ya right, There is no hostility and reason in us, we just only float up and down!",
+		"attacked": "Eek! you wanna clear our biota? Well, These cute and capricious jellyfish have super deadly poison, right?",
 		"defeated": "Feel sad, Our Polyp has tear down!",
 		"introduction": "Howdy! I'm the cutest and dominant Jellyfish. Nice to meet you!",
 
 		"neutralHello": "Hi there! how are you doing?",
-		"hateHello": "Hmph!",
+		"hateHello": "Humph!",
 
 		"tradeRequest": "It would be great if you agree to this...",
 
@@ -185,16 +185,15 @@
 	},
 	{
 		"name": "Burgess",
-		// "leaderName": "Reginald Claude Sprigg",
 		"leaderName": "Opabinia",
 		"adjective": ["Burgessis"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 
 		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart2": "The Life and Death of Planet Earth, sometimes, massive destruction is come with climate change and Medea... can you led us to survive this era with our genome?",
 
-		"declaringWar": "The Life and Death of Planet Earth, sometimes, massive destruction is come with dominant life and climate change... can you survive this era with their genome?",
+		"declaringWar": "",
 		"attacked": "Well, you will see why we are called 'Wonderful Life'.",
 		"defeated": "No matter what you do, Our biota will be preserved with fossils. Anyways, I congratulate you for your victory.",
 		"introduction": "Welcome to the honored dinocaridida kingdom.",
