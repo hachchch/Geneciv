@@ -16,6 +16,14 @@
 	},
 	// Pelagic Sea
 	{
+		"name": "Neritic zone",
+		"type": "TerrainFeature",
+        	"movementCost": 1,
+        	"RGB": [59,61,30],
+        	"occursOn": ["Coast"],
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Neritic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
+	},
+	{
 		"name": "Photic zone", // surface
         	"type": "TerrainFeature",
         	"movementCost": 1,
@@ -74,12 +82,12 @@
 	},
 	// benthos
 	{
-		"name": "Hadopelagic zone", // almost seabed
+		"name": "Demersal zone", // almost seabed
         	"type": "TerrainFeature",
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Hadopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Demersal zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
 	},
 	{
 		"name": "Benthic zone", // Abyssal plain
@@ -88,6 +96,41 @@
         	"RGB": [59,61,30],
         	"occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Benthic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
+	},
+	// profitable water features
+	{
+		"name": "Intertidal zone",
+		"type": "TerrainFeature",
+        	"movementCost": 1,
+        	"RGB": [59,61,30],
+        	"occursOn": ["Coast"],
+		"uniques": ["[+1 Production] <after discovering [Chloroplasts]>","[+1 Food] <after discovering [First Plant]>","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Intertidal zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
+	},
+	{
+		"name": "Estuaries",
+		"type": "TerrainFeature",
+        	"movementCost": 1,
+        	"RGB": [59,61,30],
+        	"occursOn": ["Coast"],
+		"uniques": ["[+1 Production] <after discovering [Chloroplasts]>","[+2 Production] <after discovering [First Plant]>","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Estuaries] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Fresh water","Rare feature"]
+	},
+	{
+		"name": "Hydrothermal vent",
+		"type": "TerrainFeature",
+		"production": 1,
+        	"movementCost": 1,
+        	"RGB": [59,61,30],
+        	"occursOn": ["Ocean","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone","Hadopelagic zone","Demersal zone","Benthic zone"],
+		"uniques": ["[+1 Production, +1 Food] <after discovering [Amino Acid]>","[+1 Food] <after discovering [Prokaryotic Cell]>","Rough water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Hydrothermal vent] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Fresh water","Rare feature"]
+	},
+	{
+		"name": "Brine pool",
+		"type": "TerrainFeature",
+		"production": 2,
+		"gold": 2,
+        	"movementCost": 1,
+        	"RGB": [59,61,30],
+		"occursOn": ["Ocean","Demersal zone","Benthic zone"],
 	},
 	// Lands
 	{
@@ -282,104 +325,16 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	}
-	/*
-	{
-		"name": "Old Faithful",
-		"type": "NaturalWonder",
-		"science": 2,
-		"happiness": 3,
-		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
 	},
 	{
-		"name": "El Dorado",
+		"name": "Continental shelf",
 		"type": "NaturalWonder",
-		"culture": 5,
-		"occursOn": ["Plains"],
-		"turnsInto": "Plains",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Grants 500 Gold to the first civilization to discover it"],
-		"weight": 2
-	},
-	{ // This will count as "Fresh water" in civ 6
-		"name": "Fountain of Youth",
-		"type": "NaturalWonder",
-		"happiness": 10,
-		"occursOn": ["Plains"],
-		"turnsInto": "Plains",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Grants Rejuvenation (all healing effects doubled) to adjacent military land units for the rest of the game"],
-		"weight": 1
-	},
-	{
-		"name": "Grand Mesa",
-		"type": "NaturalWonder",
-		"production": 2,
-		"gold": 3,
-		"occursOn": ["Plains","Desert","Tundra"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Mount Fuji",
-		"type": "NaturalWonder",
-		"gold": 1,
-		"culture": 5,
-		"occursOn": ["Grassland","Plains"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Krakatoa",
-		"type": "NaturalWonder",
-		"science": 5,
+		"culture": 3,
+		"food": 3,
 		"occursOn": ["Ocean"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Rock of Gibraltar",
-		"type": "NaturalWonder",
-		"food": 2,
-		"gold": 5,
-		"occursOn": ["Grassland"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Cerro de Potosi",
-		"type": "NaturalWonder",
-		"gold": 10,
-		"occursOn": ["Plains","Mountain"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 5
-	},
-	{
-		"name": "Barringer Crater",
-		"type": "NaturalWonder",
-		"gold": 2,
-		"science": 3,
-		"occursOn": ["Desert","Tundra"],
-		"turnsInto": "Mountain",
+		"turnsInto": "Ocean",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
 	}
-	*/
 ]	
