@@ -67,6 +67,23 @@
 		"uniques": ["Algae","Proterozoic","[+1 Production] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
 	},
 	{
+		"name": "Seagrass Meadows",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"turnsToBuild": 7,
+		"food": 2,
+		"techRequired": "Grass",
+		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
+	},
+	{
+		"name": "Mangrove Forests",
+		"terrainsCanBeBuiltOn": ["Estuaries","Intertidal zone"],
+		"turnsToBuild": 7,
+		"food": 1,
+		"production": 2,
+		"techRequired": "Fern",
+		"uniques": ["Algae","Proterozoic","[+1 Food, +1 Production] <after discovering [Modern Ocean]>","Provides [2] [Oxygen]"],
+	},
+	{
 		"name": "Charnia Forest",
 		"uniqueTo": "Ediacara",
 		"turnsToBuild": 7,
@@ -97,23 +114,6 @@
 		"turnsToBuild": 7,
 		"techRequired": "Mitochondria",
 		"uniques": ["Archean","Provides [1] [Oxygen]"],
-	},
-	{
-		"name": "Seagrass Meadows",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"turnsToBuild": 7,
-		"food": 2,
-		"techRequired": "Grass",
-		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
-	},
-	{
-		"name": "Mangrove Forests",
-		"terrainsCanBeBuiltOn": ["Estuaries","Intertidal zone"],
-		"turnsToBuild": 7,
-		"food": 1,
-		"production": 2,
-		"techRequired": "Fern",
-		"uniques": ["Algae","Proterozoic","[+1 Food, +1 Production] <after discovering [Modern Ocean]>","Provides [2] [Oxygen]"],
 	},
 	// Others
 	{
