@@ -112,7 +112,7 @@
 		"turnsToBuild": 7,
 		"food": 1,
 		"production": 2,
-		"techRequired": "Coral",
+		"techRequired": "Fern",
 		"uniques": ["Algae","Proterozoic","[+1 Food, +1 Production] <after discovering [Modern Ocean]>","Provides [2] [Oxygen]"],
 	},
 	// Others
