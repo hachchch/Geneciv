@@ -43,7 +43,7 @@
 		"revealedBy": "Chloroplasts",
 		"uniques": [
 			"[-100]% [Science] [in all cities] <when below [1] [Biomass]>","[+100]% [Culture] [in all cities] <when below [1] [Biomass]>",
-			"Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
+			"Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/,"Excluded from map editor"],
 	},
 	// Variable
 	{
