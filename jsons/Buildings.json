@@ -1509,11 +1509,16 @@
 		"happiness": -3,
 		// "science": -3,
 		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured",
-			"Gain a free [Warm Environment] [in this city] <in [Warm] tiles>"]
+			"Gain a free [Warm Environment] [in this city] <in [Warm] tiles>",
+		"Gain a free [Littoral Environment] [in this city] <in [Coastal] tiles>"]
 	},
 	{
 		"name": "Warm Environment",
 		"uniques": ["Unsellable","Unbuildable","Can Construct Warm Environment Unique in this city"]
+	},
+	{
+		"name": "Littoral Environment",
+		"uniques": ["Unsellable","Unbuildable","Can Construct Littoral Environment Unique in this city","Provides [1] [Algae Limit]"]
 	},
         {
                 "name": "Palace",
