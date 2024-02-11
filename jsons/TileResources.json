@@ -21,7 +21,7 @@
 		"revealedBy": "Planet Earth",
 		"uniques": [
 			"[-100]% [Gold] [in all cities] <when below [1] [Temperature]>","[+100]% [Culture] [in all cities] <when below [1] [Temperature]>",
-			"Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
+			"Excluded from map editor","Cannot be traded","Stockpiled","Not shown on world screen"],
 	},
 	{
 		"name": "Water", // currentry, it not used and not surrounding environment
