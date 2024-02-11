@@ -4,7 +4,8 @@
 		"type": "Water",
 		"movementCost": 1,
 		"RGB": [100,100,255],
-		"uniques": ["Becomes [Photic zone] when adjacent to [Coast]"]
+		"uniques": ["Becomes [Photic zone] when adjacent to [Coast]",
+		"Becomes [Epipelagic zone] when adjacent to [Photic zone]"]
 	},
 	{
 		"name": "Coast",
