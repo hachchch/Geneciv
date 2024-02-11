@@ -44,7 +44,9 @@
 	},
 	{
 		"name": "Green Algae",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Estuaries","Intertidal zone","Neritic zone","Coast","Photic zone","Epipelagic zone",
+			"Aphotic zone","Mesopelagic zone" // In these tiles, +50% excess time to construct
+		],
 		"turnsToBuild": 7,
 		"food": 1,
 		"techRequired": "Chloroplasts",
@@ -52,23 +54,28 @@
 	},
 	{
 		"name": "Red Algae",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone"],
 		"turnsToBuild": 7,
 		"gold": 1,
 		"techRequired": "Coral",
-		"uniques": ["Algae","Proterozoic","[+1 Gold] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
+		"uniques": ["Algae","Proterozoic","[+1 Gold] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]",
+		"[+2 Gold] <in [Atoll] tiles>",
+		"[+1 Gold] <in [Neritic zone] tiles>"],
 	},
 	{
 		"name": "Brown Algae",
-		"terrainsCanBeBuiltOn": ["Coast","Photic zone","Ice","Epipelagic zone","Aphotic zone","Mesopelagic zone",
+		"terrainsCanBeBuiltOn": ["Neritic zone","Coast","Photic zone","Ice","Epipelagic zone","Aphotic zone","Mesopelagic zone",
 			"Bathypelagic zone"], // Super Build Speed Debuff in Bathypelagic zone
 		"turnsToBuild": 7,
 		"production": 1,
 		"techRequired": "Coral",
-		"uniques": ["Algae","Proterozoic","[+1 Production] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]",
-		"[+1 Production] <in tiles adjacent to [Warm]>",
-		"[+1 Production] <in [Photic zone] tiles> <within [3] tiles of a [Warm]>",
-		"[+1 Production] <in [Epipelagic zone] tiles> <within [4] tiles of a [Warm]>"],
+		"uniques": ["Algae","Proterozoic","[+1 Production] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]","Provides [1] [Biomass]",
+		"[+1 Production] <in tiles adjacent to [Desert]>",
+		"[+1 Production] <in [Photic zone] tiles> <within [3] tiles of a [Desert]>",
+		"[+1 Production] <in [Epipelagic zone] tiles> <within [4] tiles of a [Desert]>",
+		"[+1 Production] <in tiles adjacent to [Snow]>",
+		"[+1 Production] <in [Photic zone] tiles> <within [3] tiles of a [Snow]>",
+		"[+1 Production] <in [Epipelagic zone] tiles> <within [4] tiles of a [Snow]>"]
 	},
 	{
 		"name": "Seagrass Meadows",
@@ -85,7 +92,7 @@
 		"food": 1,
 		"production": 2,
 		"techRequired": "Fern",
-		"uniques": ["Algae","Proterozoic","[+1 Food, +1 Production] <after discovering [Modern Ocean]>","Provides [2] [Oxygen]"],
+		"uniques": ["Algae","Proterozoic","[+1 Food, +1 Production] <after discovering [Modern Ocean]>","Provides [2] [Oxygen]","Provides [3] [Biomass]"],
 	},
 	{
 		"name": "Charnia Forest",
@@ -94,7 +101,7 @@
 		"replaces": "Green Algae",
 		"food": 2,
 		"techRequired": "Chloroplasts",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone"],
 		"uniques": ["Algae","Proterozoic","Provides [1] [Oxygen]"],
 	},
 	/*
@@ -112,7 +119,7 @@
 	{
 		"name": "Stromatolites",
 		"uniqueTo": "Stromatolite",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone","Epipelagic zone"],
 		"production": 1,
 		"replaces": "Stony Coral",
 		"turnsToBuild": 7,
