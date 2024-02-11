@@ -3,7 +3,8 @@
 		"name": "Ocean",
 		"type": "Water",
 		"movementCost": 1,
-		"RGB": [100,100,255]
+		"RGB": [100,100,255],
+		"uniques": ["Becomes [Photic zone] when adjacent to [Coast]"]
 	},
 	{
 		"name": "Coast",
@@ -12,8 +13,7 @@
 		"RGB": [150,150,255],
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
-            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-		"Becomes [Photic zone] when adjacent to [Ocean]"]
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	// Pelagic Sea
 	{
