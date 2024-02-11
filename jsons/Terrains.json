@@ -5,7 +5,14 @@
 		"movementCost": 1,
 		"RGB": [100,100,255],
 		"uniques": ["Becomes [Photic zone] when adjacent to [Coast]",
-		"Becomes [Epipelagic zone] when adjacent to [Photic zone]"]
+		"Becomes [Epipelagic zone] when adjacent to [Photic zone]",
+		"Becomes [Aphotic zone] when adjacent to [Epipelagic zone]",
+		"Becomes [Mesopelagic zone] when adjacent to [Aphotic zone]",
+		"Becomes [Bathypelagic zone] when adjacent to [Mesopelagic zone]",
+		"Becomes [Abyssopelagic zone] when adjacent to [Bathypelagic zone]",
+		"Becomes [Hadopelagic zone] when adjacent to [Abyssopelagic zone]",
+		"Becomes [Demersal zone] when adjacent to [Hadopelagic zone]",
+		"Becomes [Benthic zone] when adjacent to [Demersal zone]"]
 	},
 	{
 		"name": "Coast",
