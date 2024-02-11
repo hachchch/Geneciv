@@ -13,7 +13,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Photic zone]"]
+		"Neighboring tiles except [Land] will convert to [Photic zone]"]
 	},
 	// Pelagic Sea
 	{
@@ -31,7 +31,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Photic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Epipelagic zone]"]
+		"Neighboring tiles except [Coast] will convert to [Epipelagic zone]"]
 	},
 	{
 		"name": "Epipelagic zone", // 0~200
@@ -40,7 +40,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Epipelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Aphotic zone]"]
+		"Neighboring tiles except [Photic zone] will convert to [Aphotic zone]"]
 	},
 	{
 		"name": "Aphotic zone", // Nonlighted deep
@@ -49,7 +49,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Aphotic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Mesopelagic zone]"]
+		"Neighboring tiles except [Epipelagic zone] will convert to [Mesopelagic zone]"]
 	},
 	// Deep Sea
 	{
@@ -59,7 +59,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Mesopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Bathypelagic zone]"]
+		"Neighboring tiles except [Aphotic zone] will convert to [Bathypelagic zone]"]
 	},
 	{
 		"name": "Bathypelagic zone", // 1000~4000
@@ -68,7 +68,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Bathypelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Abyssopelagic zone]"]
+		"Neighboring tiles except [Mesopelagic zone] will convert to [Abyssopelagic zone]"]
 	},
 	{
 		"name": "Abyssopelagic zone", // 4000~6000
@@ -77,7 +77,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Abyssopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Hadopelagic zone]"]
+		"Neighboring tiles except [Bathypelagic zone] will convert to [Hadopelagic zone]"]
 	},
 	{
 		"name": "Hadopelagic zone", // 6000~11000
@@ -86,7 +86,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Hadopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Demersal zone]"]
+		"Neighboring tiles except [Abyssopelagic zone] will convert to [Demersal zone]"]
 	},
 	// benthos
 	{
@@ -96,7 +96,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Demersal zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [non-[Ocean]] will convert to [Benthic zone]"]
+		"Neighboring tiles except [Hadopelagic zone] will convert to [Benthic zone]"]
 	},
 	{
 		"name": "Benthic zone", // Abyssal plain
