@@ -1985,6 +1985,104 @@ TileSets/HexaRealm/Tiles/Charnia Forest
   orig: 64, 73
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Photic zone
+  rotate: false
+  xy: 1880, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Epipelagic zone
+  rotate: false
+  xy: 1880, 1784
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Neritic zone
+  rotate: false
+  xy: 1780, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Intertidal zone
+  rotate: false
+  xy: 1780, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Estuaries
+  rotate: false
+  xy: 1780, 1384
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Estuaries-Ancient era
+  rotate: false
+  xy: 1780, 1284
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mangrove Forest
+  rotate: false
+  xy: 1780, 1184
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Aphotic zone
+  rotate: false
+  xy: 1880, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mesopelagic zone
+  rotate: false
+  xy: 1880, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bathypelagic zone
+  rotate: false
+  xy: 1880, 1384
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Abyssopelagic zone
+  rotate: false
+  xy: 1880, 1284
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hadopelagic zone
+  rotate: false
+  xy: 1880, 1184
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Demersal zone
+  rotate: false
+  xy: 1880, 1084
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Benthic zone
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Tundra+City center
   rotate: false
   xy: 1680, 1884
