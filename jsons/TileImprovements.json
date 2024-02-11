@@ -75,7 +75,7 @@
 		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
 	},
 	{
-		"name": "Mangrove Forests",
+		"name": "Mangrove Forest",
 		"terrainsCanBeBuiltOn": ["Estuaries","Intertidal zone"],
 		"turnsToBuild": 7,
 		"food": 1,
