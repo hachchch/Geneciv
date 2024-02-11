@@ -120,7 +120,14 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
-        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Benthic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination"]
+        	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Benthic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
+		"Becomes [Epipelagic zone] when adjacent to [Photic zone]",
+		"Becomes [Aphotic zone] when adjacent to [Epipelagic zone]",
+		"Becomes [Mesopelagic zone] when adjacent to [Aphotic zone]",
+		"Becomes [Bathypelagic zone] when adjacent to [Mesopelagic zone]",
+		"Becomes [Abyssopelagic zone] when adjacent to [Bathypelagic zone]",
+		"Becomes [Hadopelagic zone] when adjacent to [Abyssopelagic zone]",
+		"Becomes [Demersal zone] when adjacent to [Hadopelagic zone]"]
 	},
 	// profitable water features
 	{
