@@ -1075,10 +1075,11 @@
 		"cost": 660,
 		"movement": 2,
 		"attackSound": "Splash",
-		"uniques": ["Cretaceous","Predator","[+150]% Strength <when fighting in [Fresh water] tiles> <hidden from users>",
-		"[+120]% Strength <in [Coastal] tiles>","[+120]% Strength <when fighting in [Coastal] tiles> <hidden from users>",
+		"promotions": ["Death Roll"],
+		"uniques": ["Cretaceous","Predator","[+100]% Strength <when fighting in [Fresh water] tiles> <hidden from users>",
+		"[+100]% Strength <in [Coastal] tiles>","[+100]% Strength <when fighting in [Coastal] tiles> <hidden from users>",
 		"[+1] Movement <in [Fresh water] tiles>","[+1] Movement <in [Coastal] tiles>",
-		"[+500]% Strength <when defending> <when [Embarked]>"],
+		"[+200]% Strength <when defending> <when [Embarked]>"],
 		"requiredTech": "Modern Ocean",
 		"civilopediaText": [
 			{
