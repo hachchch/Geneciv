@@ -45,11 +45,11 @@
 			"[-100]% [Science] [in all cities] <when below [1] [Biomass]>","[+100]% [Culture] [in all cities] <when below [1] [Biomass]>",
 			"Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/,"Excluded from map editor"],
 	},
-	// Variable
+	// Functions
 	{
-		"name": "Complex", // It will used as a variable
+		"name": "Algae Limit",
 		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded","Excluded from map editor","Stockpiled","Not shown on world screen"],
+		"uniques": ["Cannot be traded","Excluded from map editor","Not shown on world screen"],
 	},
 	{
 		"name": "Super Creature Stock",
