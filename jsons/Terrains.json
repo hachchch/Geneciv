@@ -13,13 +13,14 @@
 		"Becomes [Hadopelagic zone] when adjacent to [Abyssopelagic zone]",
 		"Becomes [Demersal zone] when adjacent to [Hadopelagic zone]",
 		"Becomes [Benthic zone] when adjacent to [Demersal zone]",
+			"Becomes [Benthic zone] when adjacent to [Benthic zone]",
 		// Switch!
-		"Becomes [Demersal zone] when adjacent to [Benthic zone]",
-		"Becomes [Hadopelagic zone] when adjacent to [Demersal zone]",
-		"Becomes [Abyssopelagic zone] when adjacent to [Hadopelagic zone]",
-		"Becomes [Bathypelagic zone] when adjacent to [Abyssopelagic zone]",
-		"Becomes [Mesopelagic zone] when adjacent to [Bathypelagic zone]",
-		"Becomes [Aphotic zone] when adjacent to [Mesopelagic zone]"]
+		// "Becomes [Demersal zone] when adjacent to [Benthic zone]",
+		// "Becomes [Hadopelagic zone] when adjacent to [Demersal zone]",
+		// "Becomes [Abyssopelagic zone] when adjacent to [Hadopelagic zone]",
+		// "Becomes [Bathypelagic zone] when adjacent to [Abyssopelagic zone]",
+		// "Becomes [Mesopelagic zone] when adjacent to [Bathypelagic zone]",
+		// "Becomes [Aphotic zone] when adjacent to [Mesopelagic zone]"]
 	},
 	{
 		"name": "Coast",
