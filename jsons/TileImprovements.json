@@ -60,15 +60,19 @@
 	},
 	{
 		"name": "Brown Algae",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Coast","Photic zone","Ice","Epipelagic zone","Aphotic zone","Mesopelagic zone",
+			"Bathypelagic zone"], // Super Build Speed Debuff in Bathypelagic zone
 		"turnsToBuild": 7,
 		"production": 1,
 		"techRequired": "Coral",
-		"uniques": ["Algae","Proterozoic","[+1 Production] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
+		"uniques": ["Algae","Proterozoic","[+1 Production] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]",
+		"[+1 Production] <in tiles adjacent to [Warm]>",
+		"[+1 Production] <in [Photic zone] tiles> <within [3] tiles of a [Warm]>",
+		"[+1 Production] <in [Epipelagic zone] tiles> <within [4] tiles of a [Warm]>"],
 	},
 	{
 		"name": "Seagrass Meadows",
-		"terrainsCanBeBuiltOn": ["Neritic zone"],
+		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 7,
 		"food": 2,
 		"techRequired": "Grass",
