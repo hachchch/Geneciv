@@ -681,7 +681,7 @@
 		"name": "Insectivore",
 		"column": 657,
 		"row": 1,
-		"prerequisites": ["Dinosauria Families"],
+		// "prerequisites": ["Dinosauria Families"],
 		"uniques": ["Only available <when [Dinosaur]>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
 		"unitTypes": ["Reptiles"],
 	},
