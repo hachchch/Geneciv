@@ -815,6 +815,10 @@
 		"name": "Crustal Deformation",
 		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land] tiles>"],
 	},
+	{
+		"name": "Death Roll",
+		"uniques": ["[+50]% Strength <when attacking> <vs [non-[Wounded]] units>"]
+	},
 	// Radiodonta
 	{
 		"name": "Oral Cone I",
