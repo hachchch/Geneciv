@@ -68,7 +68,7 @@
 	},
 	{
 		"name": "Seagrass Meadows",
-		"terrainsCanBeBuiltOn": ["Coast"],
+		"terrainsCanBeBuiltOn": ["Neritic zone"],
 		"turnsToBuild": 7,
 		"food": 2,
 		"techRequired": "Grass",
