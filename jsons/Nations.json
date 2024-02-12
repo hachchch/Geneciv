@@ -206,7 +206,7 @@
 		"outerColor": [108,94,202],
 		"innerColor": [176,195,260],
 		"uniqueName": "Cambrian explosion",
-		"uniques": ["[+1 Gold] per every [10] [Science]","[+1 Science] from [Water] tiles [in all cities] <during the [Cambrian period]>","[+1 Science] from [Atoll] tiles [in all cities]"],
+		"uniques": ["[+1 Science] from [Water] tiles [in all cities] <during the [Cambrian period]>","[+1 Science] from [Atoll] tiles [in all cities]"],
 		"cities": ["Marrella","Yohoia","Naraoia","Waptia","Canadaspis","Plenocaris","Molaria","Pikaia","Myllokunmingia","Haikouichthys",
 			"Opabinia","Anomalocaris","Hallucigenia","Odontogriphus"],
         "spyNames": ["Stanleycaris", "Cambroraster", "Titanokorys", "Waptia", "Canadaspis", "Fibulacaris", "Balhuticaris", "Loricicaris", "Odaraia", "Burgessia"]
