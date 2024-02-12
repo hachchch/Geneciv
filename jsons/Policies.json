@@ -36,7 +36,7 @@
 	{
 		"name": "Adaptation",
 		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
-		"era": "Archean eon",
+		"era": "Hadean eon",
 		"effect": "+2 Production to capital",
 		"uniques": ["[+2 Production] [in capital]"],
 		"policies": [
@@ -58,7 +58,6 @@
 				"uniques": ["Gain [10] [Culture] <upon founding a city>"],
 				"row": 1,
 				"column": 5,
-				"requires": ["Habitable World"],
 			},
 			{
 				"name": "Medea Hypothesis",
@@ -79,7 +78,6 @@
 				],
 				"row": 1,
 				"column": 3,
-				"requires": ["Evolutionary Trap"],
 			},
 			{
 				"name": "Adaptation Complete",
