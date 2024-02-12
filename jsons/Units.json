@@ -1515,7 +1515,8 @@
 	{
 		"name": "Tribesman",
 		"unitType": "Human",
-		"uniques": ["Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>"],
+		"uniques": ["Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>",
+		"Can build [Hunting Spot] improvements on tiles"],
 		"strength": 50,
 		"movement": 2,
 		"attackSound": "nonmetalhit",
@@ -1538,7 +1539,8 @@
 		"attackSound": "arrow",
 		"strength": 100,
 		"movement": 2,
-		"uniques": ["Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"uniques": ["Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
+		"Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Archer",
@@ -1554,7 +1556,8 @@
 		"requiredTech": "Homo Sapiens",
 		"strength": 135,
 		"movement": 2,
-		"uniques": ["Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>"],
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
+		"Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Sapiens Warrior",
@@ -1570,7 +1573,7 @@
 		"requiredTech": "Homo Neanderthalensis",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["Holocene","[-80]% Strength <vs [Human] units>"],
+		"uniques": ["Holocene","[-80]% Strength <vs [Human] units>","Can build [Hunting Spot] improvements on tiles"],
 		"obsoleteTech": "Homo Sapiens Sapiens",
 		"civilopediaText": [
 			{
@@ -1592,7 +1595,7 @@
 		"unitType": "Human",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]"],
+		"uniques": ["Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]","Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Spearman",
