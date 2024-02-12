@@ -88,7 +88,6 @@
 			},
 		]
 	},
-	*/
 	{
 		"name": "Diversity",
 		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
