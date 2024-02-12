@@ -33,7 +33,6 @@
 			},
 		]
 	},
-	/*
 	{
 		"name": "Adaptation",
 		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
@@ -43,20 +42,44 @@
 		"policies": [
 			{
 				"name": "Pasteur Point",
-				"uniques": ["[+5]% [Production] [in all cities]"]
+				"uniques": ["[+10]% [Production] [in all cities] <when above [5000] [Oxygen]>"],
+				"row": 2,
+				"column": 1,
+				"requires": ["Purple Earth"],
 			},
 			{
 				"name": "Purple Earth",
-				"uniques": ["[+1 Culture] from every [Production]"]
+				"uniques": ["[+1 Culture] from [{Photic zone} {Algae}] tiles [in all cities]"],
+				"row": 1,
+				"column": 1,
 			},
 			{
 				"name": "Evolutionary Trap",
-				"uniques": [""]
+				"uniques": ["Gain [10] [Culture] <upon founding a city>"],
+				"row": 1,
+				"column": 5,
+				"requires": ["Habitable World"],
 			},
 			{
 				"name": "Medea Hypothesis",
 				"uniques": ["[+33]% [Culture] [in capital]",
-				"[+10]% [Culture] [in all cities] <after adopting [Extinctions]>"]
+				"[+10]% [Culture] [in all cities] <after adopting [Extinctions]>"],
+				"row": 2,
+				"column": 5,
+				"requires": ["Evolutionary Trap"],
+			},
+			{
+				"name": "Rare Earth",
+				"uniques": ["[+10]% [Food] [in all cities] <when above [4500] [Atmosphere]> <when below [5500] [Atmosphere]>",
+					"[+10]% [Food] [in all cities] <when above [4500] [Temperature]> <when below [5500] [Temperature]>",
+					"[+10]% [Food] [in all cities] <when above [4500] [Oxygen]> <when below [5500] [Oxygen]>",
+					"[+5]% [Food] [in all cities] <when above [2999] [Biomass]>",
+					"[+5]% [Food] [in all cities] <when above [5999] [Biomass]>",
+					"[+5]% [Food] [in all cities] <when above [8999] [Biomass]>"
+				],
+				"row": 1,
+				"column": 3,
+				"requires": ["Evolutionary Trap"],
 			},
 			{
 				"name": "Adaptation Complete",
