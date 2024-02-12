@@ -201,32 +201,41 @@
 		"era": "Cambrian period",
 		"priorities": {"Neutral": 5,"Cultural": 5,"Diplomatic": 5,"Domination": 5,"Scientific": 5},
 		"effect": "+15% Strength vs non-Land units for Cambrian units",
-		"uniques": ["[+15]% Strength <for [Cambrian] units> <vs [non-[Land]] units>"],
+		"uniques": ["[+15]% Strength <for [Cambrian] units> <vs [non-[Land]] units>","[+1 Gold] from [Coast] tiles [in all cities]"],
 		"policies": [
 			{
 				"name": "Multicellular on Abyssal Plains",
 				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion",
-				"[+1 Gold] from every [Cambrian]","[+1 Gold] from every [Paleoproterozoic]"],
+				"[+1 Gold] from [Abyssopelagic zone] tiles [in all cities]",
+				"[+1 Gold] from [Hadopelagic zone] tiles [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
 			{
 				"name": "Lobopodians",
 				"requires": ["Multicellular on Abyssal Plains"],
-				"uniques":["Enable to Construct Hallucigenia"],
+				"uniques":["Enable to Construct Hallucigenia",
+				"[+2 Gold] from [Demersal zone] tiles [in all cities]",
+				"[+2 Gold] from [Benthic zone] tiles [in all cities]"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Jawless Warfare",
 				"requires": ["Multicellular on Abyssal Plains"],
-				"uniques": ["[+25]% Strength <for [Jawless] units> <vs [Jawless] units>"],
+				"uniques": ["[+25]% Strength <for [Jawless] units> <vs [Jawless] units>",
+				"[+1 Food] from [Demersal zone] tiles [in all cities]",
+				"[+1 Food] from [Hadopelagic zone] tiles [in all cities]",
+				"[+1 Food] from [Abyssopelagic zone] tiles [in all cities]"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Law of Underwater",
-				"uniques": ["[+15]% Strength <for [{Water} {non-[Jawless]}] units>","[+1 Gold, +1 Culture] from [Atoll] tiles [in all cities]"],
+				"uniques": ["[+15]% Strength <for [{Water} {non-[Jawless]}] units>",
+				"[+1 Food] from [Bathypelagic zone] tiles [in all cities]",
+				"[+1 Food] from [Aphotic zone] tiles [in all cities]",
+				"[+1 Food] from [Epipelagic zone] tiles [in all cities]"],
 				"requires": ["Jawless Warfare"],
 				"row": 3,
 				"column": 1
@@ -234,7 +243,9 @@
 			{
 				"name": "Battle of Landing Race",
 				"uniques": ["[{Tournaisian} {Amphibian}] units gain the [Battle of Landing Race I] promotion",
-				"[{Devonian} {Amphibian}] units gain the [Battle of Landing Race I] promotion"],
+				"[{Devonian} {Amphibian}] units gain the [Battle of Landing Race I] promotion",
+				"[+1 Science, +1 Gold] from [Neritic zone] tiles [in all cities]",
+				"[+1 Science, +1 Gold] from [Intertidal zone] tiles [in all cities]"],
 				"requires": ["Lobopodians"],
 				"row": 3,
 				"column": 5
@@ -243,7 +254,7 @@
 				"name": "Wonderful Life Complete",
 				"effect": "+1 Gold from all Cambrian Silurian Devonian Buildings",
 				"uniques": ["[+1 Gold] from all [Cambrian period] buildings",
-				"[+1 Gold] from all [Silurian period] buildings","[+1 Gold] from all [Devonian period] buildings"]
+				"[+1 Gold] from all [Silurian] buildings","[+1 Gold] from all [Devonian] buildings"]
 			}
 		]
 	},
