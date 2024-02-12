@@ -83,6 +83,8 @@
 			},
 			{
 				"name": "Adaptation Complete",
+				"uniques": ["[+1 Culture] [in all cities]",
+					"[+66]% Production when constructing [Culture] buildings [in all cities]"]
 			},
 		]
 	},
