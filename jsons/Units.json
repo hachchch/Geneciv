@@ -7,13 +7,10 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Sailing",
 		"uniques": ["Ordovician","Can design water environment (such a Green Algae)",
-			"Can build [Algae] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>",
+			"Can build [Algae] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <for [AI player]> <before discovering [Pigment Spot]> <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>",
 			"[+50]% construction time for [Green Algae] improvements <in [Aphotic zone] tiles> <hidden from users>",
 			"[+75]% construction time for [Green Algae] improvements <in [Mesopelagic zone] tiles> <hidden from users>",
-			"[+75]% construction time for [Brown Algae] improvements <in [Bathypelagic zone] tiles> <hidden from users>",
-		// hidden Ai behave enhancement
-			"Consumes [1] [Algae Limit]"
-		],
+			"[+75]% construction time for [Brown Algae] improvements <in [Bathypelagic zone] tiles> <hidden from users>"],
 		"cost": 100,
 		"requiredTech": "Chloroplasts",
 		"civilopediaText": [
@@ -36,9 +33,7 @@
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Sailing",
 		"uniques": ["Ordovician","Can design water environment (such a Stromatolites)",
-			"Can build [Algae] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Can build [Stromatolites] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>",
-			// hidden Ai behave enhancement
-			"Consumes [1] [Algae Limit]"],
+			"Can build [Algae] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Can build [Stromatolites] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>"],
 		"cost": 50,
 		"requiredTech": "Chloroplasts",
 		"civilopediaText": [
