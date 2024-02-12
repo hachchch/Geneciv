@@ -63,7 +63,7 @@
 			{
 				"name": "Medea Hypothesis",
 				"uniques": ["[+33]% [Culture] [in capital]",
-				"[+10]% [Culture] [in all cities] <after adopting [Extinctions]>"],
+				"[+10]% [Culture] [in all cities] <after adopting [Proterozoic Extinctions]>"],
 				"row": 2,
 				"column": 5,
 				"requires": ["Evolutionary Trap"],
