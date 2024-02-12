@@ -2083,6 +2083,20 @@ TileSets/HexaRealm/Tiles/Benthic zone
   orig: 64, 73
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Continental shelf
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ocean
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Tundra+City center
   rotate: false
   xy: 1680, 1884
