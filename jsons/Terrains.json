@@ -364,9 +364,9 @@
 		"type": "NaturalWonder",
 		"culture": 3,
 		"food": 3,
-		"occursOn": ["Ocean"],
-		"turnsInto": "Ocean",
-		"impassable": true,
+		"occursOn": ["Aphotic zone"],
+		"turnsInto": "Benthic zone",
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	}
