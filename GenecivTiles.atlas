@@ -6,8 +6,22 @@ repeat: none
 TileSets/FantasyHex/Units/Sauropoda
   rotate: false
   xy: 0, 0
-  size: 101, 60
-  orig: 101, 60
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Theropoda
+  rotate: false
+  xy: 32, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Radiodonta
+  rotate: false
+  xy: 64, 0
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 
