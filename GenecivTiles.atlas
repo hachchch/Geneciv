@@ -190,3 +190,17 @@ TileSets/FantasyHex/Tiles/Brown Algae2
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Charnia Forest
+  rotate: false
+  xy: 0, 256
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Charnia Forest2
+  rotate: false
+  xy: 0, 288
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
