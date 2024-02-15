@@ -1685,7 +1685,7 @@
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
 		"attackSound": "Woosh",
-		"uniques": ["Eocene","Predator","[+33]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
+		"uniques": ["Eocene","Predator","[+200]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
 	},
 	{
 		"name": "Crow",
@@ -1697,7 +1697,7 @@
 		"movement": 1,
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [10]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>"],
+		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [30]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>","Can perform Air Sweep"],
 		"requiredTech": "Modern Birds",
 		"attackSound": "Woosh",
 		"civilopediaText": [
