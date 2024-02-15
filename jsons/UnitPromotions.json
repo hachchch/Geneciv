@@ -209,7 +209,7 @@
 		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
 		"uniques": ["Gain [15] [Science] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion","Only available <before the [Silurian period]>"]
 	},
-	// General
+	// Water Animals
 	{
 		"name": "Nematocyst I",
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
@@ -264,29 +264,30 @@
 		"row": 3,
 		"column": 2,
 	},
+	// Fishes
 	{
 		"name": "Jaw I",
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>",
 			"[+15]% Strength <vs [Jawless] units> <when attacking>","Only available <after discovering [Jaw]>"],
 		"unitTypes": ["Fishes"],
-		"row": 10,
-		"column": 0,
+		"row": 1,
+		"column": 5,
 	},
 	{
 		"name": "Jaw II",
 		"prerequisites": ["Jaw I"],
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking> <after discovering [Jaw]>"],
 		"unitTypes": ["Fishes"],
-		"row": 10,
-		"column": 1,
+		"row": 2,
+		"column": 5,
 	},
 	{
 		"name": "Jaw III",
 		"prerequisites": ["Jaw II"],
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking> <after discovering [Jaw]>"],
 		"unitTypes": ["Fishes"],
-		"row": 10,
-		"column": 2,
+		"row": 3,
+		"column": 5,
 	},
 	{
 		"name": "Deep Sea Fish",
@@ -299,48 +300,49 @@
 		"[+50]% Strength <when fighting in [Demersal zone] tiles>",
 		"[+50]% Strength <when fighting in [Benthic zone] tiles>"],
 		"unitTypes": ["Fishes"],
-		"row": 12,
-		"column": 2,
+		"row": 3,
+		"column": 6,
 	},
 	{
 		"name": "Mega Eyeball",
 		"prerequisites": ["Deep Sea Fish"],
 		"uniques": ["[+1] Sight","[+40]% Strength <vs [Jellyfish] units>"],
 		"unitTypes": ["Fishes"],
-		"row": 12,
-		"column": 3,
+		"row": 4,
+		"column": 6,
 	},
 	{
 		"name": "Predation I",
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>","Only available <after discovering [Predation]>"],
 		"unitTypes": ["Fishes"],
-		"row": 13,
-		"column": 0,
+		"row": 1,
+		"column": 7,
 	},
 	{
 		"name": "Predation II",
 		"prerequisites": ["Predation I"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Fishes"],
-		"row": 13,
-		"column": 1,
+		"row": 2,
+		"column": 7,
 	},
 	{
 		"name": "Predation III",
 		"prerequisites": ["Predation II"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking> <after discovering [Predation]>"],
 		"unitTypes": ["Fishes"],
-		"row": 13,
-		"column": 2,
+		"row": 3,
+		"column": 7,
 	},
 	{
 		"name": "Fin",
 		"prerequisites": ["Predation I","Jaw I"],
 		"uniques": ["[+1] Movement","Only available <after discovering [Fins]>"],
 		"unitTypes": ["Fishes"],
-		"row": 11,
-		"column": 2,
+		"row": 2,
+		"column": 6,
 	},
+	// Amphibian
 	{
 		"name": "Amphibious",
 		"uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","May attack when embarked"],
@@ -349,6 +351,8 @@
 		"row": 299,
 		"column": 1
 	},
+	// Reptiles
+	// Mammals
 	{
 		"name": "Herd I",
 		"uniques": ["[+15]% Strength <when adjacent to a [All] unit>"],
@@ -372,6 +376,7 @@
 		"column": 2,
 		"unitTypes": ["Modern Fishes","Mammal"],
 	},
+	// Teleost
 	{
 		"name": "Emotions I",
 		"uniques": ["[+15]% Strength <while the empire is happy>"],
