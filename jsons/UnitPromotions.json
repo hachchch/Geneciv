@@ -708,11 +708,11 @@
 	{
 		"name": "Squamate",
 		"column": 4,
-		"prerequisites": ["Ankylosis II","Propubic Pelvis III","Hollow Bones III"]
+		"prerequisites": ["Propubic Pelvis III","Hollow Bones III"]
 		"row": 5652
-		"uniques": ["Squamates","[+15]% Strength <in [Desert] tiles>",
+		"uniques": ["Squamates","[+15]% Strength <in [Warm] tiles> <for [Land] units>",
 		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
-		"unitTypes": [/*"Water Reptiles",*/"Reptiles"],
+		"unitTypes": ["Water Reptiles","Reptiles"],
 	},
 	{
 		"name": "Quadrupedalism",
@@ -726,7 +726,7 @@
 	},
 	{
 		"name": "Marathon",
-		"uniques": ["[+1] Movement <during a Golden Age>","Only available <after discovering [Homo Ergaster]>"],
+		"uniques": ["[+1] Movement <in [Open terrain] tiles>","Only available <after discovering [Homo Ergaster]>"],
 		"unitTypes": ["Human"],
 	},
 	{
@@ -736,22 +736,22 @@
 	},
 	{
 		"name": "DNA Replication",
-		"uniques": ["Free [Amino Acid] appears <upon being promoted>","Only available <after discovering [DNA]>"],
+		"uniques": ["[10] HP when healing","Only available <after discovering [DNA]>"],
 		"unitTypes": ["Particle"],
 	},
 	{
 		"name": "Bacterium",
-		"uniques": ["[+10]% Strength","[-100]% maintenance costs"],
+		"uniques": ["[+25]% Strength","[-100]% maintenance costs"],
 		"unitTypes": ["Cell"],
 	},
 	{
 		"name": "Ecosystem Engineer",
-		"uniques": ["Can build [Habitat] improvements on tiles","[300]% maintenance costs"],
+		"uniques": ["Can build [Habitat] improvements on tiles","[+300]% maintenance costs"],
 		"unitTypes": ["Mammal","Human","Hominiae"],
 	},
 	{
 		"name": "Anti-Predator",
-		"uniques": ["[+38]% Strength <vs [Predator] units> <when attacking>","Only available <when [non-[Predator]]>"],
+		"uniques": ["[+33]% Strength <vs [Predator] units> <when attacking>","Only available <when [non-[Predator]]>"],
 		"unitTypes": ["Reptiles","Mammal"]
 	},
 	{
@@ -923,6 +923,11 @@
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	// Feeding
+	{
+		"name": "Filter Feeding",
+		"unitType": ["Water Arthropod","Water Animal"],
+		"uniques": ["[+30]% Strength <vs [Cell] units> <when attacking>"],
+	},
 	{
 		"name": "Durophagy",
 		"unitType": ["Fishes"],
