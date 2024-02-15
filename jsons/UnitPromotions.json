@@ -234,8 +234,8 @@
 		"name": "Quadrupedalism",
 		"uniques": ["[+1] Movement","Quadrupedal","Only available <after discovering [Legs]>"],
 		"unitTypes": ["Amphibian"],
-		"column": 10,
-		"row": 3
+		"column": 11,
+		"row": 1
 	},
 	// Reptiles
 	{
@@ -420,7 +420,7 @@
 		"prerequisites": ["Bioluminescence II"],
 		"uniques": ["[+15]% Strength <when fighting in [Aphotic zone] tiles>",
 		"[+20]% Strength <when fighting in [Mesopelagic zone] tiles>",
-		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>""],
+		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>"],
 		"row": 3,
 		"column": 30,
 		"unitTypes": ["Modern Fishes"],
