@@ -1666,7 +1666,7 @@
 		"attackSound": "crrr",
 		"requiredTech": "Modern Birds",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>"],
+		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>","[75]% chance to intercept air attacks"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/HexaRealm/Units/Galliform",
@@ -1721,7 +1721,7 @@
 		"attackSound": "crrr",
 		"requiredTech": "Modern Birds",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Birds","Bipedal","Holocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","Only available <before the [Medieval era]>"]
+		"uniques": ["Birds","Bipedal","Holocene","Only available <before the [Medieval era]>","[75]% chance to intercept air attacks"]
 	},
 	// Great Units
 	{
