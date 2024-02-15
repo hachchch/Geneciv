@@ -714,7 +714,7 @@
 	{
 		"name": "Squamate",
 		"column": 651,
-		"prerequisites": ["Propubic Pelvis III","Hollow Bones III","Ankylosis III"]
+		"prerequisites": ["Propubic Pelvis III","Hollow Bones III","Ankylosis II"]
 		"row": 4
 		"uniques": ["Squamates","[+15]% Strength <in [Warm] tiles> <for [Land] units>",
 		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
