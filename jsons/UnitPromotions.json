@@ -1,156 +1,4 @@
 [
-	/*
-	// Domain
-	{
-		"name": "Eukaryota", // These Classification Promotion are not used in game because fucn visual problem:l
-		"uniques": ["Eukaryote"],
-	},
-	{
-		"name": "Tecnologia",
-		"uniques": ["AI"],
-	},
-	// Kingdom
-	{
-		"name": "Animalia",
-		"uniques": ["Animal"
-		//	,"[+20]% Strength <vs [{non-[Air]} {non-air} {Air}] units> <for [non-[non-air]]> units"
-		], // Test
-	},
-	{
-		"name": "Machina",
-		"uniques": ["Machine"]
-	},
-	// Phylum
-	{
-		"name": "Chordata",
-		"uniques": ["Chordate"],
-	},
-	// Class
-	{
-		"name": "Mammalia",
-		"uniques": ["Mammal"],
-	},
-	// Order
-	{
-		"name": "Primates",
-		"uniques": ["Primate"],
-	},
-	{
-		"name": "Carnivora",
-		"uniques": ["Carnivora"],
-	},
-	{
-		"name": "Artiodactyla",
-		"uniques": ["Artiodactyl"],
-	},
-	{
-		"name": "Perissodactyla",
-		"uniques": ["Perissodactyla"],
-	},
-	// Magnorder
-	{
-		"name": "Boreoeutheria",
-		"uniques": ["Boreoeutheria"],
-	},
-	// Superorder
-	{
-		"name": "Euarchontoglires",
-		"uniques": ["Euarchontoglires"],
-	},
-	// Clade
-	{
-		"name": "Gliriformes",
-		"uniques": ["Gliriformes"],
-	},
-	// Grandorder
-	{
-		"name": "Glires",
-		"uniques": ["Glires"],
-	},
-	// Suborder
-	{
-		"name": "Haplorhini",
-		"uniques": ["Haplorhini"],
-	},
-	{
-		"name": "Feliformia",
-		"uniques": ["Feliform"],
-	},
-	{
-		"name": "Caniformia",
-		"uniques": ["Caniform"],
-	},
-	// Infraorder
-	{
-		"name": "Simiiformes",
-		"uniques": ["Simian"],
-	},
-	// Family
-	{
-		"name": "Hominidae",
-		"uniques": ["Hominidae"],
-	},
-	{
-		"name": "Suidae",
-		"uniques": ["Suidae"],
-	},
-	{
-		"name": "Felidae",
-		"uniques": ["Felidae"],
-	},
-	{
-		"name": "Equidae",
-		"uniques": ["Equidae"],
-	},
-	// Subfamily
-	{
-		"name": "Homininae",
-		"uniques": ["Homininae"],
-	},
-	{
-		"name": "Pantherinae",
-		"uniques": ["Pantherinae"],
-	},
-	// Tribe
-	{
-		"name": "Hominini",
-		"uniques": ["Hominini"],
-	},
-	// Genus
-	{
-		"name": "Homo",
-		"uniques": ["Homo"],
-	},
-	{
-		"name": "Sus",
-		"uniques": ["Hmmm...sus"],
-	},
-	{
-		"name": "Panthera",
-		"uniques": ["Not Panzer"],
-	},
-	{
-		"name": "Equus",
-		"uniques": ["Equus"],
-	},
-	// Species
-	{
-		"name": "H.sapiens",
-		"uniques": ["You"],
-	},
-	{
-		"name": "H.neanderthalensis",
-	},
-	{
-		"name": "S.scrofa",
-	},
-	{
-		"name": "P.leo",
-	},
-	{
-		"name": "E.ferus",
-	},
-	*/
 	// Mammal Types
 	{
 		"name": "Carnivora",
@@ -348,70 +196,277 @@
 		"uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","May attack when embarked"],
 		"unitTypes": ["Amphibian"],
 		"prerequisites": ["Battle of Landing Race I"],
-		"row": 299,
-		"column": 1
+		"row": 2,
+		"column": 10
+	},
+	{
+		"name": "Battle of Landing Race I",
+		"row": 1,
+		"column": 8,
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Battle of Landing Race II",
+		"prerequisites": ["Battle of Landing Race I"],
+		"row": 2,
+		"column": 8,
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Battle of Landing Race III",
+		"prerequisites": ["Battle of Landing Race II"],
+		"row": 3,
+		"column": 8,
+		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>","[+15]% Strength <when fighting in [Coast] tiles>"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Perivitelline",
+		"prerequisites": ["Battle of Landing Race I"],
+		"row": 2,
+		"column": 9,
+		"uniques": ["[+10] HP when healing <in [Fresh water] tiles>","[+5] HP when healing"],
+		"unitTypes": ["Amphibian"],
+	},
+	{
+		"name": "Quadrupedalism",
+		"uniques": ["[+1] Movement","Quadrupedal","Only available <after discovering [Legs]>"],
+		"unitTypes": ["Amphibian"],
+		"column": 10,
+		"row": 3
 	},
 	// Reptiles
+	{
+		"name": "Hollow Bones",
+		"uniques": ["[+1] Movement","[+1] Range"],
+		"unitTypes": ["Birds","Glider","Aves"],
+		"column": 12,
+		"row": 1
+	},
+	{
+		"name": "Hollow Bones I",
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Reptiles","Herbivore"],
+		"column": 13,
+		"row": 1
+	},
+	{
+		"name": "Propubic Pelvis I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Reptiles","Herbivore"],
+		"column": 15,
+		"row": 1
+	},
+	{
+		"name": "Hollow Bones II",
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Reptiles","Herbivore"],
+		"column": 13,
+		"row": 2,
+		"prerequisites": ["Hollow Bones I"]
+	},
+	{
+		"name": "Propubic Pelvis II",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Reptiles","Herbivore"],
+		"column": 15,
+		"row": 2,
+		"prerequisites": ["Propubic Pelvis I"]
+	},
+	{
+		"name": "Hollow Bones III",
+		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Reptiles","Herbivore"],
+		"column": 13,
+		"row": 3,
+		"prerequisites": ["Hollow Bones II"]
+	},
+	{
+		"name": "Propubic Pelvis III",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Reptiles","Herbivore"],
+		"column": 15,
+		"row": 3,
+		"prerequisites": ["Propubic Pelvis II"]
+	},
+	{
+		"name": "Ankylosis I",
+		"prerequisites": ["Hollow Bones I","Propubic Pelvis I"],
+		"column": 14,
+		"row": 2
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Reptiles"],
+	},
+	{
+		"name": "Ankylosis II",
+		"prerequisites": ["Ankylosis I"],
+		"column": 14,
+		"row": 3
+		"uniques": ["[+15]% Strength <when defending>"],
+		"unitTypes": ["Reptiles"],
+	},
+	{
+		"name": "Squamate",
+		"column": 14,
+		"prerequisites": ["Propubic Pelvis III","Hollow Bones III","Ankylosis II"],
+		"row": 4,
+		"uniques": ["Squamates","[+15]% Strength <in [Warm] tiles> <for [Land] units>",
+		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
+		"unitTypes": ["Water Reptiles","Reptiles"],
+	},
+	// Herbivore
+	{
+		"name": "Predentary I",
+		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>"],
+		"prerequisites": ["Propubic Pelvis I","Hollow Bones I"],
+		"unitTypes": ["Herbivore"],
+		"column": 17,
+		"row": 2
+	},
+	{
+		"name": "Predentary II",
+		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>"],
+		"prerequisites": ["Predentary I"],
+		"unitTypes": ["Herbivore"],
+		"column": 17,
+		"row": 3
+	},
+	{
+		"name": "Molar",
+		"uniques": ["Heal this unit by [5] HP <upon ending a turn in a [GrassLand] tile>"],
+		"prerequisites": ["Predentary I"],
+		"unitTypes": ["Herbivore"],
+		"column": 18,
+		"row": 3
+	},
+	{
+		"name": "Herd",
+		"uniques": ["[+15]% Strength <when adjacent to a [Herbivore] unit>"],
+		"unitTypes": ["Herbivore"],
+		"column": 18,
+		"row": 1
+	},
 	// Mammals
 	{
 		"name": "Herd I",
 		"uniques": ["[+15]% Strength <when adjacent to a [All] unit>"],
-		"row": 23,
-		"column": 0,
+		"row": 1,
+		"column": 21,
 		"unitTypes": ["Modern Fishes","Mammal"],
 	},
 	{
 		"name": "Herd II",
 		"prerequisites": ["Herd I"],
 		"uniques": ["[+15]% Strength <when adjacent to a [All] unit>"],
-		"row": 23,
-		"column": 1,
+		"row": 2,
+		"column": 21,
 		"unitTypes": ["Modern Fishes","Mammal"],
 	},
 	{
 		"name": "Herd III",
 		"prerequisites": ["Herd II"],
 		"uniques": ["[+15]% Strength <when adjacent to a [All] unit>"],
-		"row": 23,
-		"column": 2,
+		"row": 3,
+		"column": 21,
 		"unitTypes": ["Modern Fishes","Mammal"],
+	},
+	{
+		"name": "Rodent",
+		"uniques": ["Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>","Only available <when [Glires]>"],
+		"unitTypes": ["Mammal"]
+	},
+	{
+		"name": "Lagomorpha",
+		"uniques": ["They have four incisors in the upper jaw.","Only available <when [Glires]>","All healing effects doubled <in [GrassLand] tiles>","Can only heal by pillaging"],
+		"unitTypes": ["Mammal"]
+	},
+	{
+		"name": "Pinniped",
+		"uniques": ["[+1] Movement <on water maps>","May attack when embarked","[+35]% Strength <on water maps>"],
+		"unitTypes": ["Mammal"],
+	},
+	{
+		"name": "Estrus",
+		"row": 3,
+		"prerequisites": ["Herd II"],
+		"column": 22,
+		"uniques": ["[+10] HP when healing","Only available <after discovering [Uterus]>"],
+		"unitTypes": ["Mammal"],
 	},
 	// Teleost
 	{
-		"name": "Emotions I",
-		"uniques": ["[+15]% Strength <while the empire is happy>"],
-		"row": 25,
-		"column": 0,
+		"name": "Bioluminescence I",
+		"uniques": ["[+15]% Strength <when fighting in [Aphotic zone] tiles>",
+		"[+20]% Strength <when fighting in [Mesopelagic zone] tiles>",
+		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>"],
+		"row": 1,
+		"column": 30,
 		"unitTypes": ["Modern Fishes"],
 	},
 	{
-		"name": "Emotions II",
-		"prerequisites": ["Emotions I"],
-		"uniques": ["[+15]% Strength <while the empire is happy>"],
-		"row": 25,
-		"column": 1,
+		"name": "Bioluminescence II",
+		"prerequisites": ["Bioluminescence I"],
+		"uniques": ["[+15]% Strength <when fighting in [Aphotic zone] tiles>",
+		"[+20]% Strength <when fighting in [Mesopelagic zone] tiles>",
+		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>"],
+		"row": 2,
+		"column": 30,
 		"unitTypes": ["Modern Fishes"],
 	},
 	{
-		"name": "Emotions III",
-		"prerequisites": ["Emotions II"],
-		"uniques": ["[+15]% Strength <while the empire is happy>"],
-		"row": 25,
-		"column": 2,
+		"name": "Bioluminescence III",
+		"prerequisites": ["Bioluminescence II"],
+		"uniques": ["[+15]% Strength <when fighting in [Aphotic zone] tiles>",
+		"[+20]% Strength <when fighting in [Mesopelagic zone] tiles>",
+		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>""],
+		"row": 3,
+		"column": 30,
 		"unitTypes": ["Modern Fishes"],
 	},
+	{
+		"name": "Firmness Bone I",
+		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles>",
+		"[+20]% Strength <when fighting in [Photic zone] tiles>",
+		"[+15]% Strength <when fighting in [Epipelagic zone] tiles>"],
+		"row": 1,
+		"column": 31,
+		"unitTypes": ["Modern Fishes"],
+	},
+	{
+		"name": "Firmness Bone II",
+		"prerequisites": ["Firmness Bone I"],
+		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles>",
+		"[+20]% Strength <when fighting in [Photic zone] tiles>",
+		"[+15]% Strength <when fighting in [Epipelagic zone] tiles>"],
+		"row": 2,
+		"column": 31,
+		"unitTypes": ["Modern Fishes"],
+	},
+	{
+		"name": "Firmness Bone III",
+		"prerequisites": ["Firmness Bone II"],
+		"uniques": ["[+15]% Strength <when fighting in [Coast] tiles>",
+		"[+20]% Strength <when fighting in [Photic zone] tiles>",
+		"[+15]% Strength <when fighting in [Epipelagic zone] tiles>"],
+		"row": 3,
+		"column": 31,
+		"unitTypes": ["Modern Fishes"],
+	},
+	// Water Mammal
 	{
 		"name": "Experience",
 		"uniques": ["[+15]% Strength <vs [Water] units> <upon defeating a [Water] unit> <for [3] turns>"],
-		"row": 51,
-		"column": 0,
+		"row": 1,
+		"column": 35,
 		"unitTypes": ["Water Mammal","Modern Fishes"],
 	},
 	{
 		"name": "Intelligence",
 		"uniques": ["May withdraw before melee ([33]%)"],
-		"row": 52,
-		"column": 0,
+		"row": 1,
+		"column": 36,
 		"unitTypes": ["Water Mammal","Hominiae"],
 	},
 	{
@@ -443,6 +498,7 @@
 		"column": 0,
 		"unitTypes": ["Water Mammal","Air Mammal"],
 	},
+	// Cells
 	{
 		"name": "Cell Division",
 		"uniques": ["Heal this unit by [33] HP <upon defeating a [All] unit>"],
@@ -450,9 +506,10 @@
 		"column": 0,
 		"unitTypes": ["Cell"],
 	},
+	// Humana
 	{
 		"name": "Assult Strategy",
-		"uniques": ["[+15]% to Flank Attack bonuses <vs [Land] units>"],
+		"uniques": ["[+33]% Strength <vs [non-[Wounded]] units>"],
 		"row": 99,
 		"column": 0,
 		"unitTypes": ["Human"],
@@ -516,6 +573,7 @@
 		"column": 0,
 		"unitTypes": ["Human"],
 	},
+	// Ape(Except Sapiens)
 	{
 		"name": "Counter Attack I",
 		"row": 205,
@@ -555,187 +613,6 @@
 		"unitTypes": ["Hominiae"],
 	},
 	{
-		"name": "Battle of Landing Race I",
-		"row": 300,
-		"column": 0,
-		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
-		"unitTypes": ["Amphibian"],
-	},
-	{
-		"name": "Battle of Landing Race II",
-		"prerequisites": ["Battle of Landing Race I"],
-		"row": 300,
-		"column": 1,
-		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
-		"unitTypes": ["Amphibian"],
-	},
-	{
-		"name": "Battle of Landing Race III",
-		"prerequisites": ["Battle of Landing Race II"],
-		"row": 300,
-		"column": 2,
-		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>","[+15]% Strength <when fighting in [Coast] tiles>"],
-		"unitTypes": ["Amphibian"],
-	},
-	{
-		"name": "Spawn Egg in Water",
-		"prerequisites": ["Battle of Landing Race I"],
-		"row": 301,
-		"column": 1,
-		"uniques": ["[+29] HP when healing <in [Fresh water] tiles>","[+5] HP when healing"],
-		"unitTypes": ["Amphibian"],
-	},
-	{
-		"name": "Hollow Bones",
-		"uniques": ["[+1] Movement","[+1] Range"],
-		"unitTypes": ["Birds","Glider","Aves"],
-	},
-	{
-		"name": "Hollow Bones I",
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Reptiles"],
-		"column": 650,
-		"row": 1
-	},
-	{
-		"name": "Propubic Pelvis I",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Reptiles"],
-		"column": 652,
-		"row": 1
-	},
-	{
-		"name": "Hollow Bones II",
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Reptiles"],
-		"column": 650,
-		"row": 2,
-		"prerequisites": ["Hollow Bones I"]
-	},
-	{
-		"name": "Propubic Pelvis II",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Reptiles"],
-		"column": 652,
-		"row": 2,
-		"prerequisites": ["Propubic Pelvis I"]
-	},
-	{
-		"name": "Hollow Bones III",
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Reptiles"],
-		"column": 650,
-		"row": 3,
-		"prerequisites": ["Hollow Bones II"]
-	},
-	{
-		"name": "Propubic Pelvis III",
-		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Reptiles"],
-		"column": 652,
-		"row": 3,
-		"prerequisites": ["Propubic Pelvis II"]
-	},
-	{
-		"name": "Dinosauria Families",
-		// "prerequisites": ["Propubic Pelvis III","Hollow Bones III"],
-		"column": 653,
-		"row": 1,
-		"unitTypes": ["Water Reptiles","Reptiles","Glider"],
-		"uniques": ["Dinosaur","Only available <when [Dinosaur]>"]
-	},
-	{
-		"name": "Horn-Faced",
-		// "prerequisites": ["Dinosauria Families"],
-		"column": 654,
-		"row": 1,
-		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <when attacking> <vs [non-[Herbivore]] units>"],
-		"unitTypes": ["Reptiles","Glider"],
-	},
-	{
-		"name": "Strong Neck",
-		// "prerequisites": ["Dinosauria Families"],
-		"column": 655,
-		"row": 1,
-		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <vs [non-[Predator]] units>"],
-		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
-	},
-	{
-		"name": "Large Body",
-		// "prerequisites": ["Dinosauria Families"],
-		"column": 656,
-		"row": 1,
-		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <vs [non-[Quadrupedal]] units>"],
-		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
-	},
-	{
-		"name": "Large Body III", // Only Work for Giganotosaurus
-		"uniques": ["Only available <when [Quadrupedal]>","[+30]% Strength <vs [Land] units>"],
-	},
-	{
-		"name": "Ankylosis I",
-		"prerequisites": ["Hollow Bones I","Propubic Pelvis I"],
-		"column": 651,
-		"row": 2
-		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Reptiles"],
-	},
-	{
-		"name": "Ankylosis II",
-		"prerequisites": ["Ankylosis I"],
-		"column": 651,
-		"row": 3
-		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Reptiles"],
-	},
-	{
-		"name": "Insectivore",
-		"column": 657,
-		"row": 1,
-		// "prerequisites": ["Dinosauria Families"],
-		"uniques": ["Only available <when [Dinosaur]>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
-		"unitTypes": ["Reptiles"],
-	},
-	{
-		"name": "Predentary",
-		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>","This Unit gains [1] XP <upon ending a turn in a [GrassLand] tile>"],
-		"unitTypes": ["Herbivore"],
-	},
-	{
-		"name": "Molar",
-		"uniques": ["Heal this unit by [5] HP <upon ending a turn in a [GrassLand] tile>"],
-		"unitTypes": ["Herbivore","Mammal"],
-	},
-	{
-		"name": "Herd",
-		"uniques": ["[+15]% Strength <when adjacent to a [Herbivore] unit>"],
-		"unitTypes": ["Herbivore"],
-	},
-	{
-		"name": "Pinniped",
-		"uniques": ["[+1] Movement <on water maps>","May attack when embarked","[+35]% Strength <on water maps>"],
-		"unitTypes": ["Mammal"],
-	},
-	{
-		"name": "Squamate",
-		"column": 651,
-		"prerequisites": ["Propubic Pelvis III","Hollow Bones III","Ankylosis II"]
-		"row": 4
-		"uniques": ["Squamates","[+15]% Strength <in [Warm] tiles> <for [Land] units>",
-		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
-		"unitTypes": ["Water Reptiles","Reptiles"],
-	},
-	{
-		"name": "Quadrupedalism",
-		"uniques": ["[+1] Movement","Quadrupedal","Only available <after discovering [Legs]>"],
-		"unitTypes": ["Amphibian"],
-	},
-	{
-		"name": "Estrus",
-		"uniques": ["[+10] HP when healing","Only available <after discovering [Uterus]>"],
-		"unitTypes": ["Mammal"],
-	},
-	{
 		"name": "Marathon",
 		"uniques": ["[+1] Movement <in [Open terrain] tiles>","Only available <after discovering [Homo Ergaster]>"],
 		"unitTypes": ["Human"],
@@ -761,24 +638,9 @@
 		"unitTypes": ["Mammal","Human","Hominiae"],
 	},
 	{
-		"name": "Anti-Predator",
-		"uniques": ["[+33]% Strength <vs [Predator] units> <when attacking>","Only available <when [non-[Predator]]>"],
-		"unitTypes": ["Reptiles","Mammal"]
-	},
-	{
 		"name": "Best Friends",
 		"uniques": ["Free [Feliform] appears <upon defeating a [Feliform] unit> <with [15]% chance>","Free [Caniform] appears <upon defeating a [Caniform] unit> <with [15]% chance>","[+200]% maintenance costs"],
 		"unitTypes": ["Human"],
-	},
-	{
-		"name": "Rodent",
-		"uniques": ["Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>","Only available <when [Glires]>"],
-		"unitTypes": ["Mammal"]
-	},
-	{
-		"name": "Lagomorpha",
-		"uniques": ["They have four incisors in the upper jaw.","Only available <when [Glires]>","All healing effects doubled <in [GrassLand] tiles>","Can only heal by pillaging"],
-		"unitTypes": ["Mammal"]
 	},
 	{
 		"name": "Survival Instinct",
@@ -814,23 +676,7 @@
 		"[+5] HP when healing <when [{Air} {Birds}]>",
 		"[+5] HP when healing <when adjacent to a [Mammal] unit> <when [Mammal]>"]
 	},
-	{
-		"name": "Ordovician Experience",
-		"uniques": ["[+75]% XP gained from combat"]
-	},
-	{
-		"name": "Late Ordovician Climate Change",
-		"uniques": ["Ordovician","This Unit takes [100] damage <upon entering the [Silurian period]>"]
-	},
-	{
-		"name": "Crustal Deformation",
-		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land] tiles>"],
-	},
-	{
-		"name": "Death Roll",
-		"uniques": ["[+50]% Strength <when attacking> <vs [non-[Wounded]] units> <when attacking>"]
-	},
-	// Radiodonta
+	// Dinocaridida(恐蟹類)
 	{
 		"name": "Oral Cone I",
 		"row": 433,
@@ -933,7 +779,7 @@
 		"unitTypes": ["Water Arthropod"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
-	// Feeding
+	// Anti-Something
 	{
 		"name": "Filter Feeding",
 		"unitType": ["Water Arthropod","Water Animal"],
@@ -944,4 +790,70 @@
 		"unitType": ["Fishes"],
 		"uniques": ["[+30]% Strength <vs [Water Arthropod] units> <when attacking>"],
 	},
+	{
+		"name": "Anti-Predator",
+		"uniques": ["[+30]% Strength <vs [Predator] units> <when attacking>","Only available <when [non-[Predator]]>"],
+		"unitTypes": ["Reptiles","Mammal"]
+	},
+	// Dinosauria(恐竜)
+	{
+		"name": "Dinosauria Families",
+		"column": 116,
+		"row": 1,
+		"unitTypes": ["Water Reptiles","Reptiles","Glider"],
+		"uniques": ["Dinosaur","Only available <when [Dinosaur]>"]
+	},
+	{
+		"name": "Horn-Faced",
+		// "prerequisites": ["Dinosauria Families"],
+		"column": 117,
+		"row": 1,
+		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <when attacking> <vs [non-[Herbivore]] units>"],
+		"unitTypes": ["Reptiles","Glider"],
+	},
+	{
+		"name": "Strong Neck",
+		// "prerequisites": ["Dinosauria Families"],
+		"column": 118,
+		"row": 1,
+		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <vs [non-[Predator]] units>"],
+		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+	},
+	{
+		"name": "Large Body",
+		// "prerequisites": ["Dinosauria Families"],
+		"column": 119,
+		"row": 1,
+		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <vs [non-[Quadrupedal]] units>"],
+		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+	},
+	{
+		"name": "Large Body III", // Only Work for Giganotosaurus
+		"uniques": ["Only available <when [Quadrupedal]>","[+30]% Strength <vs [Land] units>"],
+	},
+	{
+		"name": "Insectivore",
+		"column": 120,
+		"row": 1,
+		// "prerequisites": ["Dinosauria Families"],
+		"uniques": ["Only available <when [Dinosaur]>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
+		"unitTypes": ["Reptiles"],
+	},
+	// Uniques
+	{
+		"name": "Ordovician Experience",
+		"uniques": ["[+75]% XP gained from combat"]
+	},
+	{
+		"name": "Late Ordovician Climate Change",
+		"uniques": ["Ordovician","This Unit takes [100] damage <upon entering the [Silurian period]>"]
+	},
+	{
+		"name": "Crustal Deformation",
+		"uniques": ["[+15]% Strength <when attacking>","[+3] Sight <in [Friendly Land] tiles>"],
+	},
+	{
+		"name": "Death Roll",
+		"uniques": ["[+50]% Strength <when attacking> <vs [non-[Wounded]] units> <when attacking>"]
+	}
 ]
