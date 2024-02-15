@@ -68,7 +68,7 @@
 	{
 		"name": "Birds",
 		"movementType": "Air",
-		"uniques": ["[+3] Sight", "Can perform Air Sweep"],
+		"uniques": ["[+3] Sight"],
 	},
 	{
 		"name": "Water Animal",
