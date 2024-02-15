@@ -291,7 +291,13 @@
 	{
 		"name": "Deep Sea Fish",
 		"prerequisites": ["Jaw II","Predation II"],
-		"uniques": ["[+30]% Strength <when fighting in [Ocean] tiles>"],
+		"uniques": ["[+10]% Strength <when fighting in [Aphotic zone] tiles>",
+		"[+20]% Strength <when fighting in [Mesopelagic zone] tiles>",
+		"[+30]% Strength <when fighting in [Bathypelagic zone] tiles>",
+		"[+40]% Strength <when fighting in [Abyssopelagic zone] tiles>",
+		"[+50]% Strength <when fighting in [Hadopelagic zone] tiles>",
+		"[+50]% Strength <when fighting in [Demersal zone] tiles>",
+		"[+50]% Strength <when fighting in [Benthic zone] tiles>"],
 		"unitTypes": ["Fishes"],
 		"row": 12,
 		"column": 2,
@@ -663,7 +669,7 @@
 	},
 	{
 		"name": "Ankylosis I",
-		// "prerequisites": ["Hollow Bones I","Propubic Pelvis I"],
+		"prerequisites": ["Hollow Bones I","Propubic Pelvis I"],
 		"column": 651,
 		"row": 2
 		"uniques": ["[+15]% Strength <when defending>"],
@@ -707,9 +713,9 @@
 	},
 	{
 		"name": "Squamate",
-		"column": 4,
-		"prerequisites": ["Propubic Pelvis III","Hollow Bones III"]
-		"row": 5652
+		"column": 651,
+		"prerequisites": ["Propubic Pelvis III","Hollow Bones III","Ankylosis III"]
+		"row": 4
 		"uniques": ["Squamates","[+15]% Strength <in [Warm] tiles> <for [Land] units>",
 		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
 		"unitTypes": ["Water Reptiles","Reptiles"],
@@ -721,7 +727,7 @@
 	},
 	{
 		"name": "Estrus",
-		"uniques": ["[+20] HP when healing <during a Golden Age>","Only available <after discovering [Uterus]>"],
+		"uniques": ["[+10] HP when healing","Only available <after discovering [Uterus]>"],
 		"unitTypes": ["Mammal"],
 	},
 	{
@@ -756,7 +762,7 @@
 	},
 	{
 		"name": "Best Friends",
-		"uniques": ["Free [Feliform] appears <upon defeating a [Feliform] unit> <with [15]% chance>","Free [Caniform] appears <upon defeating a [Caniform] unit> <with [15]% chance>","[200]% maintenance costs"],
+		"uniques": ["Free [Feliform] appears <upon defeating a [Feliform] unit> <with [15]% chance>","Free [Caniform] appears <upon defeating a [Caniform] unit> <with [15]% chance>","[+200]% maintenance costs"],
 		"unitTypes": ["Human"],
 	},
 	{
@@ -771,7 +777,7 @@
 	},
 	{
 		"name": "Survival Instinct",
-		"uniques": ["[+1] Movement <when below [20] HP>","[+1] Sight <when below [20] HP>"]
+		"uniques": ["[+1] Movement <when below [25] HP>","[+1] Sight <when below [25] HP>"]
 	},
 	{
 		"name": "Shell",
@@ -786,7 +792,7 @@
 		"column": 658,
 		"row": 1,
 		"unitTypes": ["Modern Fishes","Reptiles","Mammal","Human","Hominiae","Aves"]
-		"uniques": ["[+33]% to Flank Attack bonuses"]
+		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Pack Hunting II",
@@ -794,7 +800,7 @@
 		"column": 658,
 		"row": 2,
 		"unitTypes": ["Modern Fishes","Reptiles","Mammal","Human","Hominiae","Aves"]
-		"uniques": ["[+33]% to Flank Attack bonuses"]
+		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Breeding Pair",
