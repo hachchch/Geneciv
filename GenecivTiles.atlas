@@ -93,6 +93,13 @@ TileSets/FantasyHex/Tiles/Benthic zone
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Ocean
+  rotate: false
+  xy: 0, 256
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Neritic zone
   rotate: false
   xy: 0, 288
