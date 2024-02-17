@@ -869,6 +869,17 @@
 		"uniques": ["Only available <when [Dinosaur]>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
 		"unitTypes": ["Reptiles"],
 	},
+	// Aquatic Organisms Swimming Types
+	{
+		"name": "Nekton",
+		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>"]
+	},
+	{
+		"name": "Benthos",
+		"uniques": ["[+10]% Strength <when fighting in [Demersal zone] tiles>",
+	    	"[+10]% Strength <when fighting in [Benthic zone] tiles>",
+		"[+10]% Strength <when fighting in [Ocean] tiles>"]
+	},
 	// Uniques
 	{
 		"name": "Ordovician Experience",
