@@ -885,6 +885,7 @@
 	{
 		"name": "Plankton",
 		"uniques": ["[+30]% Strength <when fighting in [Estuaries] tiles>",
+		"[+30]% Strength <when fighting in [{Photic zone} {non-[Algae]}] tiles>",
 	    	"[+30]% Strength <when fighting in [Algae] tiles>"]
 	},
 	{
