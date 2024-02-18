@@ -871,14 +871,31 @@
 	},
 	// Aquatic Organisms Swimming Types
 	{
+		"name": "Neuston",
+		"uniques": ["[+30]% Strength <when fighting in [Intertidal zone] tiles>",
+	    	"[+30]% Strength <when fighting in [Neritic zone] tiles>"]
+	},
+	/*
+	{
+		"name": "Pleuston",
+		"uniques": ["[+30]% Strength <when fighting in [Photic zone] tiles>",
+	    	"[+30]% Strength <when fighting in [Neritic zone] tiles>"]
+	},
+	*/
+	{
+		"name": "Plankton",
+		"uniques": ["[+30]% Strength <when fighting in [Estuaries] tiles>",
+	    	"[+30]% Strength <when fighting in [Algae] tiles>"]
+	},
+	{
 		"name": "Nekton",
-		"uniques": ["[+10]% Strength <vs [Water] units> <when attacking>"]
+		"uniques": ["[+30]% Strength <vs [Water] units> <when attacking>"]
 	},
 	{
 		"name": "Benthos",
-		"uniques": ["[+10]% Strength <when fighting in [Demersal zone] tiles>",
-	    	"[+10]% Strength <when fighting in [Benthic zone] tiles>",
-		"[+10]% Strength <when fighting in [Ocean] tiles>"]
+		"uniques": ["[+30]% Strength <when fighting in [Demersal zone] tiles>",
+	    	"[+30]% Strength <when fighting in [Benthic zone] tiles>",
+		"[+30]% Strength <when fighting in [Ocean] tiles>"]
 	},
 	// Uniques
 	{
