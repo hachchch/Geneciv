@@ -302,11 +302,55 @@
 		"requiredTech": "Vertebrate",
 		"uniques": ["Cambrian"],
 	},
+	// Swimming Types
+	{
+		"name": "Milky Sea",
+		"production": 2,
+		"gold": 2,
+		"requiredTech": "Swimming",
+		"uniques": ["WIP!",
+			"All newly-trained [Jellyfish] units [in this city] receive the [Plankton] promotion",
+		"All newly-trained [Flatworm] units [in this city] receive the [Plankton] promotion"],
+	},
+	{
+		"name": "A Variety of Marine Worms",
+		"culture": 2,
+		"science": 2,
+		"requiredTech": "Swimming",
+		"uniques": ["WIP!",
+		"All newly-trained [Hallucigenia] units [in this city] receive the [Benthos] promotion"],
+	},
+	{
+		"name": "Neuston",
+		"requiredTech": "Modern Ocean",
+		"uniques": ["WIP!",
+			"[+1 Production] from [{Photic zone} {Algae}] tiles [in this city]",
+			"[+1 Production] from [{Coast} {Algae}] tiles [in this city]",
+			"[+1 Production] from [{Neritic zone} {Algae}] tiles [in this city]",
+			"[+5]% [Production] [in this city] <in cities with a [Bugs]>",
+		"All newly-trained [Modern Jellyfish] units [in this city] receive the [Neuston] promotion"],
+	},
+	{
+		"name": "Milky Sea",
+		"production": 2,
+		"gold": 2,
+		"requiredTech": "Swimming",
+		"uniques": ["WIP!",
+			"All newly-trained [Jellyfish] units [in this city] receive the [Plankton] promotion",
+		"All newly-trained [Flatworm] units [in this city] receive the [Plankton] promotion"],
+	},
 	{
 		"name": "Nektonic Predation",
-		"production": 3,
+		"gold": 1,
 		"requiredTech": "Vertebrate",
-		"uniques": ["Cambrian"],
+		"uniques": ["WIP!","All newly-trained [Fishes] units [in this city] receive the [Nekton] promotion",
+		"All newly-trained [Modern Fishes] units [in this city] receive the [Nekton] promotion",
+		"All newly-trained [Water Arthropod] units [in this city] receive the [Nekton] promotion",
+		"All newly-trained [Trilobites] units [in this city] receive the [Nekton] promotion",
+		"All newly-trained [Giant Squid] units [in this city] receive the [Nekton] promotion",
+		"All newly-trained [Chelonioidea] units [in this city] receive the [Nekton] promotion",
+		"All newly-trained [Water Reptiles] units [in this city] receive the [Nekton] promotion",
+		"All newly-trained [Water Mammal] units [in this city] receive the [Nekton] promotion"],
 	},
 	// Fish Age Buildings
 	{
@@ -554,6 +598,19 @@
 		"uniques": ["[+100]% [Gold] [in this city] <for [50] turns>","gain 4000000000000 Energy after 170000 turns"],
 		"quote": "Every second, the Sun's core fuses about 600 million tons of hydrogen into helium, and in the process converts 4 million tons of matter into energy.",
 	},
+	{
+		"name": "Devonian Nekton Revolution",
+		"isWonder": true,
+		"cost": 400,
+		"uniques": ["[+15]% Production when constructing [Fishes] units [in all cities]",
+		"[+10]% Strength <for [Nekton] units>","Only available <starting from the [Ancient era]>"],
+		"quote": "Nekton filled the empty place left after the Ordovician mass extinction and dead macro-planktons. It time for Fishes.",
+	},
+	/*
+	{
+		"name": "Fish Age",
+	},
+	*/
 	{
 		"name": "Giant-Impact",
 		"cost": 175,
