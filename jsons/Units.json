@@ -92,7 +92,7 @@
 	// WIP
 	{
                 "name": "Marine Settler",
-		"unitType": "Civilian Water",
+		"unitType": "Amphibian",
 		"movement": 2,
 		"cost": 102,
 		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","No sight before discovering Insect","No Sight <hidden from users> <for [Human player]> <before discovering [Spore Plant]>","[-1] Sight <hidden from users> <before discovering [Spore Plant]>"],
