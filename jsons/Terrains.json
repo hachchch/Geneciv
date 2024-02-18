@@ -30,7 +30,7 @@
 		"RGB": [150,150,255],
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
-            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Tropical <within [1] tiles of a [Warm]>"]
 	},
 	// Pelagic Sea
 	{
@@ -48,7 +48,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Photic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [Coast] will convert to [Epipelagic zone]"]
+		"Neighboring tiles except [Coast] will convert to [Epipelagic zone]","Tropical <within [3] tiles of a [Warm]>"]
 	},
 	{
 		"name": "Epipelagic zone", // 0~200
@@ -57,7 +57,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Epipelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [Photic zone] will convert to [Aphotic zone]"]
+		"Neighboring tiles except [Photic zone] will convert to [Aphotic zone]","Tropical <within [4] tiles of a [Warm]>"]
 	},
 	{
 		"name": "Aphotic zone", // Nonlighted deep
@@ -66,7 +66,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Aphotic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [Epipelagic zone] will convert to [Mesopelagic zone]"]
+		"Neighboring tiles except [Epipelagic zone] will convert to [Mesopelagic zone]","Tropical <within [5] tiles of a [Warm]>"]
 	},
 	// Deep Sea
 	{
@@ -76,7 +76,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Mesopelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [Aphotic zone] will convert to [Bathypelagic zone]"]
+		"Neighboring tiles except [Aphotic zone] will convert to [Bathypelagic zone]","Tropical <within [6] tiles of a [Warm]>"]
 	},
 	{
 		"name": "Bathypelagic zone", // 1000~4000
@@ -85,7 +85,7 @@
         	"RGB": [59,61,30],
         	// "occursOn": ["Ocean"],
         	"uniques": ["Open water","[+3] to Fertility for Map Generation","A Region is formed with at least [20]% [Bathypelagic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination",
-		"Neighboring tiles except [Mesopelagic zone] will convert to [Abyssopelagic zone]"]
+		"Neighboring tiles except [Mesopelagic zone] will convert to [Abyssopelagic zone]","Tropical <within [7] tiles of a [Warm]>"]
 	},
 	{
 		"name": "Abyssopelagic zone", // 4000~6000
