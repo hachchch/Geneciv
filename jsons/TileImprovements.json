@@ -269,7 +269,7 @@
 	},
 	{
 		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Land","Coast","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone","Hadopelagic zone","Demersal zone","Benthic zone","Algal Beds"],
+		"terrainsCanBeBuiltOn": ["Land"/*,"Coast","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone","Hadopelagic zone","Demersal zone","Benthic zone","Algal Beds"*/],
 		"uniques": ["Provides [1] [Biomass]","Provides [1] [Atmosphere]","Provides [1] [Oxygen]","Excluded from map editor","Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
 		"civilopediaText": [
 			{
