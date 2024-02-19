@@ -53,7 +53,7 @@
 				"name": "Primordial Soup",
 				"row": 5,
 				"prerequisites": ["Planet Earth"],
-				"uniques": ["Instantly provides [5000] [Oxygen]","Instantly provides [5000] [Atmosphere]","Instantly provides [500000] [Water]","Instantly provides [5000] [Temperature]"],
+				"uniques": ["Instantly provides [1500] [Oxygen]","Instantly provides [6000] [Atmosphere]","Instantly provides [500000] [Water]","Instantly provides [1500] [Temperature]"],
 				"quote": "The primitive Earth's surface layers, carbon, hydrogen, water vapour, and ammonia reacted to form the first organic compounds.",
 				"civilopediaText": [
 			{
