@@ -388,7 +388,7 @@
 		"outerColor": [44,214,130],
 		"cities": ["Palaeonisciformes","Aegeridae","Anisaeger","Ptycholepiformes","Acipenseriformes","Perleidiformes","Polzbergiiformes","Parasemionotiformes","Claraia"],
 		"uniqueName": "Fishy World",
-		"uniques": ["Damage is ignored when determining unit Strength <for [Fishes] units> <in [Photic zone]>","[+1 Science, +1 Food] from [Photic zone] tiles [in all cities]","[+25]% Strength <vs cities> <for [Fishes] units>"]
+		"uniques": ["Damage is ignored when determining unit Strength <for [Fishes] units> <in [Photic zone] tiles>","[+1 Science, +1 Food] from [Photic zone] tiles [in all cities]","[+25]% Strength <vs cities> <for [Fishes] units>"]
 	},
 	{
 		"name": "Realm of Great Apes", // Personality Plan: Creepy but clever, dislike war but always hate others https://www.nationalgeographic.com/animals/article/chimpanzees-murder-cannibalism-senegal Great apes(even it not include humans), have a high propensity for violence, and on rare occasions they engage in planned group violence against their homogenus. It is often for the purpose of cannibalism, but frighteningly, violence can also be used for purposes other than cannibalism for them.
