@@ -11,7 +11,7 @@
 			"[+50]% construction time for [Green Algae] improvements <in [Aphotic zone] tiles> <hidden from users>",
 			"[+75]% construction time for [Green Algae] improvements <in [Mesopelagic zone] tiles> <hidden from users>",
 			"[+75]% construction time for [Brown Algae] improvements <in [Bathypelagic zone] tiles> <hidden from users>",
-			"Can build [Mangrove Forest] improvements on tiles <in [Tropical] tiles>"],
+			"Can build [Mangrove Forest] improvements on tiles <within [3] tiles of a [Warm]>"],
 		"cost": 100,
 		"requiredTech": "Chloroplasts",
 		"civilopediaText": [
