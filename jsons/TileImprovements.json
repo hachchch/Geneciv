@@ -40,7 +40,7 @@
 		"name": "Stony Coral",
 		"turnsToBuild": 7,
 		"techRequired": "Coral",
-		"uniques": ["Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Coral","Triassic","[+1 Food] <after discovering [Modern Ocean]>"],
+		"uniques": ["Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Coral","Triassic","[+1 Food] <after discovering [Modern Ocean]>","Provides [4] [Biomass]"],
 	},
 	{
 		"name": "Green Algae",
@@ -78,7 +78,7 @@
 		"turnsToBuild": 7,
 		"food": 2,
 		"techRequired": "Grass",
-		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
+		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]","Provides [1] [Biomass]"],
 	},
 	{
 		"name": "Mangrove Forest",
@@ -87,7 +87,7 @@
 		"food": 1,
 		"production": 2,
 		"techRequired": "Fern",
-		"uniques": ["Algae","Proterozoic","[+1 Food, +1 Production] <after discovering [Modern Ocean]>","Provides [2] [Oxygen]","Provides [3] [Biomass]"],
+		"uniques": ["Algae","Proterozoic","[+1 Food, +1 Production] <after discovering [Modern Ocean]>","Consumes [2] [Atmosphere]","Provides [2] [Oxygen]","Provides [3] [Biomass]"],
 	},
 	{
 		"name": "Charnia Forest",
@@ -119,7 +119,7 @@
 		"replaces": "Stony Coral",
 		"turnsToBuild": 7,
 		"techRequired": "Mitochondria",
-		"uniques": ["Archean","Provides [1] [Oxygen]"],
+		"uniques": ["Archean","Provides [2] [Oxygen]"],
 	},
 	// Others
 	{
@@ -148,7 +148,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
 		"turnsToBuild": 20,
 		"production": 10,
-		"uniques": ["Provides [1] [Temperature]","Provides [10] [Atmosphere]","Consumes [3] [Biomass]","Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
+		"uniques": ["Provides [10] [Atmosphere]","Consumes [3] [Biomass]","Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Factory",
@@ -255,7 +255,7 @@
 		"food": 5,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["Consumes [1] [Water]","Consumes [2] [Biomass]","Consumes [2] [Atmosphere]","Provides [2] [Oxygen]","Can also be built on tiles adjacent to fresh water",
+		"uniques": ["Consumes [2] [Biomass]","Consumes [2] [Atmosphere]","Provides [2] [Oxygen]","Can also be built on tiles adjacent to fresh water",
 			"[+5 Food] from [River] tiles",
 			"[+5 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+5 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
@@ -270,7 +270,7 @@
 	{
 		"name": "City center",
 		"terrainsCanBeBuiltOn": ["Land","Coast","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone","Hadopelagic zone","Demersal zone","Benthic zone","Algal Beds"],
-		"uniques": ["Provides [1] [Biomass]","Provides [1] [Atmosphere]","Provides [1] [Temperature]","Provides [1] [Oxygen]","Excluded from map editor","Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
+		"uniques": ["Provides [1] [Biomass]","Provides [1] [Atmosphere]","Provides [1] [Oxygen]","Excluded from map editor","Unpillagable","Irremovable","Unbuildable","Ensures a minimum tile yield of [+2 Food, +1 Production]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/City center-Cryptic era",
