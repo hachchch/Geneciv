@@ -17,12 +17,31 @@
 		]
 	},
 	{
+		"name": "Lichen",
+		"shortcutKey": "L",
+		"techRequired": "Chloroplasts",
+		"production": 1,
+		"uniques": ["Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
+		"terrainsCanBeBuiltOn": ["Desert","Tundra","Grassland","Plains","Hill"],
+		"defenceBonus": -0.1,
+		"turnsToBuild": 2,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/GrassLand",
+				"imageSize": 192,
+			},
+			{
+				"text": "Grasslands serve as food for land animals, but they can also provide oxygen. This is very important because the oxygen concentration affects not only the land, but also the sea.",
+			},
+		]
+	},
+	{
 		"name": "GrassLand",
 		"shortcutKey": "G",
 		"techRequired": "Chloroplasts",
 		"food": 1,
 		"uniques": ["Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
-		"terrainsCanBeBuiltOn": ["Tundra","Grassland","Plains","Hill"],
+		"terrainsCanBeBuiltOn": ["Flood plains","Tundra","Grassland","Plains","Hill"],
 		"defenceBonus": -0.1,
 		"turnsToBuild": 2,
 		"civilopediaText": [
