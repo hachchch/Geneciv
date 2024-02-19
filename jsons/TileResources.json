@@ -15,6 +15,7 @@
 			"[-100]% [Production] [in all cities] <when below [1] [Atmosphere]>","[+100]% [Culture] [in all cities] <when below [1] [Atmosphere]>",
 			"Excluded from map editor","Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/],
 	},
+	/*
 	{
 		"name": "Temperature",
 		"resourceType": "Strategic",
@@ -29,6 +30,7 @@
 		// "revealedBy": "Planet Earth",
 		"uniques": ["Cannot be traded","Stockpiled","Not shown on world screen","Excluded from map editor"],
 	},
+	*/
 	{
 		"name": "Oxygen",
 		"resourceType": "Strategic",
