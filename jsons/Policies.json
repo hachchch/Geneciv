@@ -8,7 +8,7 @@
 		"policies": [
 			{
 				"name": "Habitable World",
-				"uniques": ["[+20]% growth [in all cities]","Double quantity of [Water] produced"]
+				"uniques": ["[+20]% growth [in all cities]"]
 				"row": 1,
 				"column": 3
 			},
@@ -84,7 +84,6 @@
 			{
 				"name": "Rare Earth",
 				"uniques": ["[+10]% [Food] [in all cities] <when above [4500] [Atmosphere]> <when below [5500] [Atmosphere]>",
-					"[+10]% [Food] [in all cities] <when above [4500] [Temperature]> <when below [5500] [Temperature]>",
 					"[+10]% [Food] [in all cities] <when above [4500] [Oxygen]> <when below [5500] [Oxygen]>",
 					"[+5]% [Food] [in all cities] <when above [2999] [Biomass]>",
 					"[+5]% [Food] [in all cities] <when above [5999] [Biomass]>",
