@@ -372,6 +372,44 @@
 	},
 	*/
 	{
+		"name": "Guiyang", // Personality Plan: Warlike and Cold Blooded Personality, then prefer Fish than aquatic reptiles
+		"leaderName": "Palaeoniscoid",
+		"adjective": ["Guiyangian"],
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "Whatsoever, I just want to blooding with you.",
+		"attacked": "I'll grab your gill and crush them.",
+		"introduction": "Greetings. we are triassic marine ecosystem with primary consumers to apex predators, and the presence of a complete ecosystem of them.",
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's just you.",
+		"tradeRequest": "This deal is profitable for you, not fishy. I promise.",
+		"outerColor": [121,74,52],
+		"innerColor": [44,214,130],
+		"cities": ["Palaeonisciformes","Aegeridae","Anisaeger","Ptycholepiformes","Acipenseriformes","Perleidiformes","Polzbergiiformes","Parasemionotiformes","Claraia"],
+		"uniqueName": "Fishy World",
+		"uniques": ["Damage is ignored when determining unit Strength <for [Fishes] units> <in [Photic zone]>","[+1 Science, +1 Food] from [Photic zone] tiles [in all cities]","[+25]% Strength <vs cities> <for [Fishes] units>"]
+	},
+	{
+		"name": "Realm of Great Apes", // Personality Plan: Creepy but clever, dislike war but always hate others https://www.nationalgeographic.com/animals/article/chimpanzees-murder-cannibalism-senegal Great apes(even it not include humans), have a high propensity for violence, and on rare occasions they engage in planned group violence against their homogenus. It is often for the purpose of cannibalism, but frighteningly, violence can also be used for purposes other than cannibalism for them.
+		"leaderName": "Pan Troglodytes", // I'm wondering whether I should introduce humans(Homo Sapiens) as a representative species of Great Ape or Traditional Apes like Chimpanzee(Pan Troglodytes).
+		"adjective": ["Apes"],
+		"preferredVictoryType": "Scientific",
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		"declaringWar": "It is time for war with social advantage.",
+		"attacked": "Hahah, how barbarian you are!",
+		"introduction": "Nice to meet you.",
+		"neutralHello": "Good to see you! Would you like some Insect Soup?",
+		"hateHello": "(Screech)!",
+		"tradeRequest": "Our colony overflows with items, and we would like to sharing them with you!",
+		"outerColor": [121,74,52],
+		"innerColor": [44,214,130],
+		"cities": ["Archaeopteris","Pertica","Rhacophytales","Tetraxylopteris","Aneurophyton","Hicklingia","Taeniocrada","Metzgeriothallus","Thursophyton","Stockmansella","Runcaria","Orestovia","Dutoitea","Leclercqia","Drepanophycus"],
+		"uniqueName": "Planet of the Apes",
+		"uniques": ["New [Land] units start with [15] Experience [in capital]","Science gained from research agreements [+100]%"]
+	},
+	{
 		"name": "Cockroaches Empire",
 		"leaderName": "Fallout Cockroaches",
 		"adjective": ["Cockroaches"],
