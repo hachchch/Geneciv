@@ -62,6 +62,14 @@
 		"uniques": ["Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Coral","Triassic","[+1 Food] <after discovering [Modern Ocean]>","Provides [4] [Biomass]"],
 	},
 	{
+		"name": "Soft Coral",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"food": -1
+		"techRequired": "Coral",
+		"uniques": ["Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Coral","Triassic","[+1 Gold] <after discovering [Modern Ocean]>","Provides [2] [Biomass]"],
+	},
+	{
 		"name": "Green Algae",
 		"terrainsCanBeBuiltOn": ["Estuaries","Intertidal zone","Neritic zone","Coast","Photic zone","Epipelagic zone",
 			"Aphotic zone","Mesopelagic zone" // In these tiles, +50% excess time to construct
