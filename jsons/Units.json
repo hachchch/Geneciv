@@ -1995,8 +1995,8 @@
 		"replaces": "Eumycetozoa",
 		"uniqueTo": "Barbarians",
 		"requiredTech": "Tissue",
-		"obsoleteTech": "Lungfish",
-		"upgradesTo": "Tetrapod",
+		"obsoleteTech": "Chloroplasts",
+		"upgradesTo": "Protozoa",
 		"uniques": ["[+60]% Strength <vs cities> <when attacking>"]
 		"attackSound": "Cell",
 		"civilopediaText": [
