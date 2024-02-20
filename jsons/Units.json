@@ -36,7 +36,7 @@
 		"uniques": ["Ordovician","Can design water environment (such a Stromatolites)",
 			"Can build [Algae] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Can build [Stromatolites] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>"],
 		"cost": 50,
-		"requiredTech": "Chloroplasts",
+		"requiredTech": "Mitochondria",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Green Algae",
