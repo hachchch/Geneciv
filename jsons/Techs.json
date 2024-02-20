@@ -764,6 +764,11 @@
 		"wonderCost": 500,
 		"techs": [
 			{
+				"name": "Earthworm",
+				"row": 1,
+				"prerequisites": ["Insect"]
+			},
+			{
 				"name": "Herbivore",
 				"row": 3,
 				"prerequisites": ["Insect","Reptile"],
@@ -800,6 +805,11 @@
 		"buildingCost": 350,
 		"wonderCost": 550,
 		"techs": [
+			{
+				"name": "Angiosperm",
+				"row": 1,
+				"prerequisites": ["Earthworm"]
+			},
 			{
 				"name": "Diving",
 				"row": 8,
@@ -847,6 +857,11 @@
 				"prerequisites": ["Dinosaur","Diving"],
 			},
 			{
+				"name": "Ocean Reform",
+				"row": 1,
+				"prerequisites": ["Angiosperm"]
+			},
+			{
 				"name": "Feathers"
 				"row": 4,
 				"prerequisites": ["Wings"],
@@ -886,7 +901,7 @@
 			{
 				"name": "Grass",
 				"row": 1,
-				"prerequisites": ["Insect","Gliding"],
+				"prerequisites": ["Ocean Reform"],
 			},
 			{
 				"name": "Eutherians",
@@ -950,14 +965,23 @@
 		"wonderCost": 850,
 		"techs": [
 			{
+				"name": "Meadow",
+				"row": 1,
+				"prerequisites": ["Flowers"],
+				"uniques": ["[+1 Production] from [GrassLand] tiles [in all cities]"],
+				"quote": "During the Miocene, rainforests were invaded by Poaceae many places(especially North America). Around this time, the forest area began to decrease, and open areas became dominated by grasslands. In addition, ungulates coevolved with grasslands and spread as prey throughout the world.",
+			},
+			{
 				"name": "Ape",
 				"row": 6,
 				"prerequisites": ["Primate","Neocortex"],
+				"quote": "The Miocene was marked by many important divergences for Great Apes. Great apes branched into gorillas, which further branched into human ancestors and chimpanzee ancestors. The Adam and Eve are here.",
 			},
 			{
 				"name": "Learning",
 				"row": 2,
 				"prerequisites": ["Neocortex"],
+				"quote": "",
 			}
 		]
 	},
