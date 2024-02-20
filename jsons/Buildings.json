@@ -1000,7 +1000,7 @@
 		"maintenance": 1,
 		"food": 2,
 		"requiredTech": "First Plant",
-		"uniques": ["[+1 Food] from [Fresh Water] tiles [in this city]"]
+		"uniques": ["Free [Vegetation] appears <in cities with a [Littoral Environment]>","[+1 Food] from [Fresh Water] tiles [in this city]"]
 	},
 	{
 		"name": "Shrub",
