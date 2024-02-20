@@ -2,18 +2,18 @@
 	{
 		"name": "Particle",
 		"movementType": "Land",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking","Can enter ice tiles"],
 	},
 	{
 		"name": "Cell",
 		"movementType": "Land",
-		"uniques": ["No defensive terrain bonus"],
+		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking","Can enter ice tiles"],
 	},
 	{
 		"name": "Amphibian",
 		"uniques": ["[+30]% Strength <when fighting in [Coastal] tiles>","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>",
-		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"],
+		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Can enter ice tiles"],
 	},
 	{
 		"name": "Reptiles",
@@ -26,7 +26,7 @@
 	{
 		"name": "Water Reptiles",
 		"movementType": "Water",
-		"uniques": ["Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
+		"uniques": ["Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Can enter ice tiles"],
 	},
 	{
 		"name": "Mammal",
@@ -44,7 +44,7 @@
 	{
 		"name": "Modern Fishes",
 		"movementType": "Water",
-		"uniques": ["Fishes"]
+		"uniques": ["Fishes","Can enter ice tiles"]
 	},
 	{
 		"name": "Hominiae",
@@ -53,7 +53,7 @@
 	},
 	{
 		"name": "Water Mammal",
-		"uniques": ["Mammal"],
+		"uniques": ["Mammal","Can enter ice tiles"],
 		"movementType": "Water",
 	},
 	{
@@ -73,16 +73,18 @@
 	{
 		"name": "Water Animal",
 		"movementType": "Water",
+		"uniques": ["Can enter ice tiles"]
 	},
 	{
 		"name": "Fishes",
 		"movementType": "Water",
 		"uniques": ["Instantly consumes [2] [Oxygen] <before discovering [Gills]> <upon ending a turn in a [Water] tile>",
-		"Instantly consumes [1] [Oxygen] <after discovering [Gills]> <upon ending a turn in a [Water] tile>"]
+		"Instantly consumes [1] [Oxygen] <after discovering [Gills]> <upon ending a turn in a [Water] tile>","Can enter ice tiles"]
 	},
 	{
 		"name": "Water Arthropod", // Renamed to Dinocaridida in English Translation
 		"movementType": "Water",
+		"uniques": ["Can enter ice tiles"]
 	},
 	{
 		"name": "Aves",
@@ -95,7 +97,8 @@
 	},
 	{
 		"name": "Civilian Water",
-		"movementType": "Water"
+		"movementType": "Water",
+		"uniques": ["Can enter ice tiles"]
 	},
 	{
 		"name": "Human",
