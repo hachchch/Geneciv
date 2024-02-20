@@ -94,7 +94,7 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
-		"name": "Stromatolite",
+		"name": "Stromatolite", // Personality Plan: ambitious, Prefer Production Buildings
 		"leaderName": "Laguna Negra",
 		"adjective": ["Stromatolite"],
 		"startBias": ["Plains","Flesh water"],
@@ -121,7 +121,7 @@
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
-		"name": "Rodinia",
+		"name": "Rodinia", // Personality Plan: Emphasis on military power and Production.
 		"leaderName": "McMenamin",
 		"adjective": ["Rodinian"],
 		"startBias": ["Avoid [Coastal]"]
@@ -184,7 +184,7 @@
         	"spyNames": ["Aequorea victoria","Cyclomedusa","Chironex","Carukia barnesi"]
 	},
 	{
-		"name": "Burgess",
+		"name": "Burgess", // Personality Plan: love Science and Culture
 		"leaderName": "Opabinia",
 		"adjective": ["Burgessis"],
 		"startBias": ["Coast"],
@@ -212,7 +212,7 @@
         "spyNames": ["Stanleycaris", "Cambroraster", "Titanokorys", "Waptia", "Canadaspis", "Fibulacaris", "Balhuticaris", "Loricicaris", "Odaraia", "Burgessia"]
 	},
 	{
-		"name": "United States",
+		"name": "United States", // Personality Plan: Hamburgernized
 		"leaderName": "Abraham Lincoln",
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
@@ -241,7 +241,7 @@
 		"spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		"name": "Sahelanthropus",
+		"name": "Sahelanthropus", // prefer wisdom than money, and Adventurous.
 		"leaderName": "Orrorin",
 		"adjective": ["Sahelanthropus"],
 		"preferredVictoryType": "Scientific",
