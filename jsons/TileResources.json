@@ -49,11 +49,6 @@
 	},
 	// Functions
 	{
-		"name": "Algae Limit",
-		"resourceType": "Strategic",
-		"uniques": ["Cannot be traded","Excluded from map editor","Not shown on world screen"],
-	},
-	{
 		"name": "Super Creature Stock",
 		"resourceType": "Strategic",
 		"uniques": ["Cannot be traded <before discovering [Genome Mapping]>","Excluded from map editor"],
@@ -125,13 +120,36 @@
 	},
         {
                 "name": "Atoll",
-		"revealedBy": "Sponge",
+		"revealedBy": "Coral",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Coast","Neritic zone","Intertidal zone","Photic zone","Epipelagic zone"],
-		"improvement": "Stony Coral",
+		"improvedBy": ["Soft Coral","Blue Coral","Stony Coral"],
 		"improvementStats": {"food": 1},
-		"food": 1,
         },
+	{
+		"name": "Sea Pen",
+		"revealedBy": "Sponge",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Aphotic zone","Mesopelagic zone","Bathypelagic zone"],
+		"improvedBy": ["Soft Coral","Charnia Forest"],
+		"improvementStats": {"food": 1},
+	},
+	{
+		"name": "Sea Pen",
+		"revealedBy": "Sponge",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Aphotic zone","Mesopelagic zone","Bathypelagic zone"],
+		"improvedBy": ["Soft Coral","Charnia Forest"],
+		"improvementStats": {"food": 1},
+	},
+	{
+		"name": "Glass Sponge",
+		"revealedBy": "Sponge",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Abyssopelagic zone","Hadopelagic zone","Demersal zone","Benthic zone"],
+		"improvedBy": ["Soft Coral"],
+		"improvementStats": {"food": 1},
+	},
 	{
 		"name": "Marsh",
 		"revealedBy": "Spore Plant",
