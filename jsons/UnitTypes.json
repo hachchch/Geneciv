@@ -2,17 +2,17 @@
 	{
 		"name": "Particle",
 		"movementType": "Land",
-		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking","Can enter ice tiles"],
+		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles"],
 	},
 	{
 		"name": "Cell",
 		"movementType": "Land",
-		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking","Can enter ice tiles",
+		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
 		"Reveal up to [100] [All] within a [1] tile radius <by consuming this unit> <when above [99] HP>"],
 	},
 	{
 		"name": "Amphibian",
-		"uniques": ["Metazoan","[+30]% Strength <when fighting in [Coastal] tiles>","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+		"uniques": ["Metazoan","[+30]% Strength <when fighting in [{Land} {Coastal}] tiles>","[+30]% Strength <when fighting in [Estuaries] tiles>","[+30]% Strength <when fighting in [Intertidal zone] tiles>","[+30]% Strength <when fighting in [{non-[Coastal]} {Fresh water}] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>","[-30]% Strength <when fighting in [{non-[Coastal]} {Desert}] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>",
 		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Can enter ice tiles"],
 	},
@@ -32,7 +32,7 @@
 	{
 		"name": "Mammal",
 		"movementType": "Land",
-		"uniques": ["Metazoan","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
