@@ -11,14 +11,14 @@
 	},
 	{
 		"name": "Amphibian",
-		"uniques": ["[+30]% Strength <when fighting in [Coastal] tiles>","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+		"uniques": ["Metazoan","[+30]% Strength <when fighting in [Coastal] tiles>","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>",
 		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Can enter ice tiles"],
 	},
 	{
 		"name": "Reptiles",
 		"movementType": "Land",
-		"uniques": ["[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 			"[-10]% Strength <when fighting in [Coastal] tiles>",
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
@@ -26,69 +26,70 @@
 	{
 		"name": "Water Reptiles",
 		"movementType": "Water",
-		"uniques": ["Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Can enter ice tiles"],
+		"uniques": ["Metazoan","Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Can enter ice tiles"],
 	},
 	{
 		"name": "Mammal",
 		"movementType": "Land",
-		"uniques": ["[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+		"uniques": ["Metazoan","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Herbivore",
 		"movementType": "Land",
-		"uniques": [/*"All healing effects doubled <in [GrassLand] tiles>",*/"[-60]% Strength <when fighting in [Desert] tiles>","[-35]% Strength <when fighting in [Tundra] tiles>","[-80]% Strength <when fighting in [Snow] tiles>",
+		"uniques": ["Metazoan",/*"All healing effects doubled <in [GrassLand] tiles>",*/"[-60]% Strength <when fighting in [Desert] tiles>","[-35]% Strength <when fighting in [Tundra] tiles>","[-80]% Strength <when fighting in [Snow] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"],
 	},
 	{
 		"name": "Modern Fishes",
 		"movementType": "Water",
-		"uniques": ["Fishes","Can enter ice tiles"]
+		"uniques": ["Metazoan","Fishes","Can enter ice tiles"]
 	},
 	{
 		"name": "Hominiae",
 		"movementType": "Land",
-		"uniques": ["Mammal","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
+		"uniques": ["Metazoan","Mammal","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>"],
 	},
 	{
 		"name": "Water Mammal",
-		"uniques": ["Mammal","Can enter ice tiles"],
+		"uniques": ["Metazoan","Mammal","Can enter ice tiles"],
 		"movementType": "Water",
 	},
 	{
 		"name": "Air Mammal",
 		"movementType": "Land",
-		"uniques": ["Mammal","May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control"],
+		"uniques": ["Metazoan","Mammal","May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control"],
 	},
 	{
 		"name": "Glider",
 		"movementType": "Air",
+		"uniques": ["Metazoan"]
 	},
 	{
 		"name": "Birds",
 		"movementType": "Air",
-		"uniques": ["[+3] Sight"],
+		"uniques": ["Metazoan","[+3] Sight"],
 	},
 	{
 		"name": "Water Animal",
 		"movementType": "Water",
-		"uniques": ["Can enter ice tiles"]
+		"uniques": ["Metazoan","Can enter ice tiles"]
 	},
 	{
 		"name": "Fishes",
 		"movementType": "Water",
-		"uniques": ["Instantly consumes [2] [Oxygen] <before discovering [Gills]> <upon ending a turn in a [Water] tile>",
+		"uniques": ["Metazoan","Instantly consumes [2] [Oxygen] <before discovering [Gills]> <upon ending a turn in a [Water] tile>",
 		"Instantly consumes [1] [Oxygen] <after discovering [Gills]> <upon ending a turn in a [Water] tile>","Can enter ice tiles"]
 	},
 	{
 		"name": "Water Arthropod", // Renamed to Dinocaridida in English Translation
 		"movementType": "Water",
-		"uniques": ["Can enter ice tiles"]
+		"uniques": ["Metazoan","Can enter ice tiles"]
 	},
 	{
 		"name": "Aves",
-		"uniques": ["Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Birds"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
+		"uniques": ["Metazoan","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Birds"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
 		"movementType": "Land"
 	},
 	{
@@ -103,7 +104,7 @@
 	{
 		"name": "Human",
 		"movementType": "Land",
-		"uniques": ["Mammal","Unable to pillage tiles <before discovering [Fire]> <in [GrassLand] tiles>","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
+		"uniques": ["Metazoan","Mammal","Unable to pillage tiles <before discovering [Fire]> <in [GrassLand] tiles>","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>"],
 	},
 	{
 		"name": "Sword",
