@@ -7,7 +7,8 @@
 	{
 		"name": "Cell",
 		"movementType": "Land",
-		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking","Can enter ice tiles"],
+		"uniques": ["No defensive terrain bonus","May travel on Water tiles without embarking","Can enter ice tiles",
+		"Reveal up to [100] [All] within a [1] tile radius <by consuming this unit> <when above [99] HP>"],
 	},
 	{
 		"name": "Amphibian",
