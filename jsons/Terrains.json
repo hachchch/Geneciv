@@ -133,6 +133,7 @@
 	// profitable water features
 	{
 		"name": "Intertidal zone",
+		"defenceBonus": -0.25,
 		"type": "TerrainFeature",
         	"movementCost": 1,
         	"RGB": [59,61,30],
@@ -141,6 +142,7 @@
 	},
 	{
 		"name": "Estuaries",
+		"defenceBonus": 0.25,
 		"type": "TerrainFeature",
         	"movementCost": 1,
         	"RGB": [59,61,30],
@@ -149,6 +151,7 @@
 	},
 	{
 		"name": "Hydrothermal vent",
+		"defenceBonus": 0.15,
 		"type": "TerrainFeature",
 		"production": 1,
         	"movementCost": 1,
@@ -361,6 +364,7 @@
 	},
 	{
 		"name": "Continental shelf",
+		"defenceBonus": 1,
 		"type": "NaturalWonder",
 		"culture": 3,
 		"food": 3,
