@@ -808,7 +808,7 @@
 			{
 				"name": "Angiosperm",
 				"row": 1,
-				"prerequisites": ["Earthworm"]
+				"prerequisites": ["Earthworm","Herbivore"]
 			},
 			{
 				"name": "Diving",
