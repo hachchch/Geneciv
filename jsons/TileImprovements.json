@@ -59,7 +59,7 @@
 		"name": "Stony Coral",
 		"turnsToBuild": 7,
 		"techRequired": "Coral",
-		"uniques": ["Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Coral","Triassic","[+1 Food] <after discovering [Modern Ocean]>","Provides [4] [Biomass]"],
+		"uniques": ["Coral","Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Triassic","[+1 Food] <after discovering [Modern Ocean]>","Provides [4] [Biomass]"],
 	},
 	{
 		"name": "Soft Coral",
@@ -67,7 +67,15 @@
 		"gold": 1,
 		"food": -1
 		"techRequired": "Coral",
-		"uniques": ["Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Coral","Triassic","[+1 Gold] <after discovering [Modern Ocean]>","Provides [2] [Biomass]"],
+		"uniques": ["Coral","Can only be built to improve a resource","Cambrian","[+1 Gold] <after discovering [Modern Ocean]>","Provides [4] [Biomass]"],
+	},
+	{
+		"name": "Blue Coral",
+		"turnsToBuild": 6,
+		"culture": 1,
+		"food": -1
+		"techRequired": "Coral",
+		"uniques": ["Coral","Can only be built to improve a resource","Only available <starting from the [Mesozoic era]>","Cretaceous","[+1 Culture] <after discovering [Modern Ocean]>","Provides [4] [Biomass]"],
 	},
 	{
 		"name": "Green Algae",
