@@ -1189,11 +1189,11 @@
 		"uniques": ["Permian","P-T","Predator","Quadrupedal"],
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"extraImage": "TileSets/FantasyHex/Units/Cynodontia",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cynodontia",
 				"imageSize": 192
 			},
 			{
@@ -1215,11 +1215,11 @@
 		"uniques": ["Permian","P-T","Predator","Quadrupedal","[+30]% Strength <when attacking>"],
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
+				"extraImage": "TileSets/FantasyHex/Units/Therocephalia",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Big Reptile",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Therocephalia",
 				"imageSize": 192
 			},
 			{
@@ -1240,18 +1240,18 @@
 		"unitType": "Mammal",
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
+				"extraImage": "TileSets/FantasyHex/Units/Eutheriodontia",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Synapsida",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Eutheriodontia",
 				"imageSize": 192
 			},
 			{
 				"Separator": true
 			},
 			{
-				"text": "The most advanced vertebrates have warm blood, glands and hair. Their birth rate was low, but they were able to survive in most environments. Also, even if a mass extinction were to occur, they would quickly discover new food due to their high brain ability.",
+				"text": ".",
 			},
 		]
 	},
