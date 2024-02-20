@@ -164,7 +164,7 @@
 		"strength": 2,
 		"movement": 2,
 		"cost": 30,
-		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"requiredTech": "Prokaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eukaryote",
@@ -195,7 +195,7 @@
 		"requiredTech": "Eukaryotic Cell",
 		"obsoleteTech": "Tissue",
 		"upgradesTo": "Eumycetozoa",
-		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>","May travel on Water tiles without embarking <hidden from users>"],
+		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
 			{
@@ -274,7 +274,7 @@
 		"movement": 2,
 		"requiredTech": "Trilobite",
 		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
-			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
 			{
@@ -296,7 +296,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -318,7 +318,7 @@
 		"upgradesTo": "Crustacean",
 		"movement": 3,
 		"requiredTech": "Articulation",
-		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles <hidden from users>",],
+		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -340,7 +340,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[+33]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"uniques": ["Cambrian","Jawless","[+33]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -362,7 +362,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[+100]% Strength <vs [Cell] units>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"uniques": ["Cambrian","Jawless","[+200]% Strength <vs [Cell] units>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -384,7 +384,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"uniques": ["Cambrian","Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -409,7 +409,7 @@
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
 		"promotions": ["Oral Cone I"],
-		"uniques": ["Cambrian","Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"uniques": ["Cambrian","Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -456,7 +456,7 @@
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Modern Ocean",
 		"upgradesTo": "Modern Jellyfish",
-		"uniques": ["[-2] Sight","Can move after attacking","Can enter ice tiles"],
+		"uniques": ["[-2] Sight","Can move after attacking"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
