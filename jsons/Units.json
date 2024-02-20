@@ -365,7 +365,7 @@
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[+33]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
+		"uniques": ["Cambrian","Jawless","[+35]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -434,7 +434,7 @@
 		"movement": 2,
 		"requiredTech": "Exoskeleton",
 		"promotions": ["Oral Cone I"],
-		"uniques": ["Cambrian","Jawless","[+25]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
+		"uniques": ["Cambrian","Jawless","[+50]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
