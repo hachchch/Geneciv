@@ -704,7 +704,7 @@
 		"movement": 1,
 		"requiredTech": "Lungfish",
 		"attackSound": "crrr",
-		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"uniques": ["Only available <in cities with a [Littoral Environment]> <after discovering [Reptile]> <hidden from users>","Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
@@ -1068,7 +1068,7 @@
 		"cost": 500,
 		"requiredTech": "Grass",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
+		"uniques": ["Only available <in cities without a [Cold Environment]> <hidden from users>","Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
 		"promotions": ["Poison I"]
 	},
 	{
@@ -1080,7 +1080,7 @@
 		"movement": 2,
 		"attackSound": "Splash",
 		"promotions": ["Death Roll"],
-		"uniques": ["Cretaceous","Predator","[+100]% Strength <when fighting in [Fresh water] tiles> <hidden from users>",
+		"uniques": ["Only available <in cities with a [Fresh water Environment]> <hidden from users>","Cretaceous","Predator","[+100]% Strength <when fighting in [Fresh water] tiles> <hidden from users>",
 		"[+100]% Strength <in [Coastal] tiles>","[+100]% Strength <when fighting in [Coastal] tiles> <hidden from users>",
 		"[+1] Movement <in [Fresh water] tiles>","[+1] Movement <in [Coastal] tiles>",
 		"[+200]% Strength <when defending> <when [Embarked]>"],
@@ -1107,7 +1107,7 @@
 		"cost": 500,
 		"requiredTech": "Modern Ocean",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
+		"uniques": ["Only available <in cities with a [Fresh water Environment]> <hidden from users>","Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
 		"promotions": ["Shell"]
 	},
 	{
@@ -1259,7 +1259,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
+		"uniques": ["Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Feliform",
@@ -1290,7 +1290,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Only available <in cities without a [Warm Environment]> <hidden from users>","Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Caniform",
@@ -1311,7 +1311,7 @@
 		"strength": 60,
 		"movement": 3,
 		"unitType": "Mammal",
-		"uniques": ["Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Horse",
@@ -1384,7 +1384,7 @@
 		"movement": 2,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
+		"uniques": ["Only available <in cities with a [Fresh water Environment]> <hidden from users>","Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
 	},
 	{
 		"name": "Boar",
@@ -1686,7 +1686,7 @@
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
 		"attackSound": "Woosh",
-		"uniques": ["Eocene","Predator","[+200]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
+		"uniques": ["Only available <in cities with a [Littoral Environment]> <hidden from users>","Eocene","Predator","[+200]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
 	},
 	{
 		"name": "Crow",
@@ -1762,7 +1762,7 @@
 	},
 	{
 		"name": "Mosasaur",
-		"unitType": "Reptiles",
+		"unitType": "Water Reptiles",
 		"cost": 940,
 		"strength": 100,
 		"requiredTech": "Plesiosaur",
@@ -1902,7 +1902,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
-		"uniques": ["Pleistocene","Predator","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities with a [Cold Environment]> <hidden from users>","Pleistocene","Predator","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
