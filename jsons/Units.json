@@ -268,11 +268,11 @@
 		"name": "Protozoa",
 		"unitType": "Cell",
 		"movement": 2,
-		"strength": 20,
+		"strength": 18,
 		"cost": 120,
 		"requiredTech": "Chloroplasts",
 		"obsoleteTech": "Lungfish",
-		"upgradesTo": "Tetrapod",
+		// "upgradesTo": "Tetrapod",
 		"uniques": ["[-50]% Strength <vs [Water] units>","Only available <in cities without a [Littoral Environment]>","Can move after attacking","[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
