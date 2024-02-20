@@ -965,6 +965,11 @@
 		"wonderCost": 850,
 		"techs": [
 			{
+				"name": "Powered Flight",
+				"row": 4,
+				"prerequisites": ["Modern Birds","Bat"]
+			},
+			{
 				"name": "Meadow",
 				"row": 1,
 				"prerequisites": ["Flowers"],
@@ -995,7 +1000,7 @@
 			{
 				"name": "Modern Ocean",
 				"row": 8,
-				"prerequisites": ["Cetaceans","Meadow"],
+				"prerequisites": ["Placenta","Powered Flight","Cetaceans","Meadow"],
 				"quote": "Once upon a time, the Planet Earth was really simple. there are only one Continents there, and lives was only eating or moving. but nowaday, there are many continents, diversity of lives, and unbelievable complex of their colony sociality.",
 			},
 			{
