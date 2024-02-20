@@ -481,7 +481,7 @@
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Modern Ocean",
 		"upgradesTo": "Modern Jellyfish",
-		"uniques": ["[-2] Sight","Can move after attacking","Limited to [1] per Civilization <for [Ai players]> <starting from the [Silurian period]>"],
+		"uniques": ["[-2] Sight","Can move after attacking","Limited to [1] per Civilization <for [AI player]> <hidden from users> <starting from the [Silurian period]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
