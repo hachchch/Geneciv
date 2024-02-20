@@ -1017,6 +1017,7 @@
 				"prerequisites": ["Ape","Learning"],
 				"uniques": ["N e u r o n   A c t i v a t e d",
 					"[+1 Science] per [2] population [in all cities]"],
+				"quote": "Apes are capable of high levels of cognition; some make tools and use them to acquire foods and for social displays, some have sophisticated hunting strategies requiring cooperation, influence and rank. they are status conscious, manipulative and capable of deception. they can recognise kin and conspecifics. they can learn to use symbols and understand aspects of human language including some relational syntax, concepts of number and numerical sequence."
 			},
 		]
 	},
@@ -1031,6 +1032,7 @@
 				"name": "Australopithecus",
 				"row": 6,
 				"prerequisites": ["Upright Bipedal Walk","Five Fingers","Ape Brain"],
+				"quote": "",
 			},
 			{
 				"name": "Opposable Thumb",
@@ -1059,7 +1061,7 @@
 			{
 				"name": "Abstract Thinking",
 				"row": 10,
-				"prerequisites": ["Australopithecus"],
+				"prerequisites": ["Australopithecus","Modern Ocean"],
 			},
 		]
 	},
