@@ -1575,7 +1575,7 @@
 	},
 	{
 		"name": "Littoral Environment",
-		"uniques": ["Unsellable","Unbuildable","Can Construct Littoral Environment Unique in this city","Provides [1] [Algae Limit]"]
+		"uniques": ["Unsellable","Unbuildable","Can Construct Littoral Environment Unique in this city"]
 	},
         {
                 "name": "Palace",
