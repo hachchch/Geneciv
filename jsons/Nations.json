@@ -385,7 +385,7 @@
 		"hateHello": "Oh, it's just you.",
 		"tradeRequest": "This deal is profitable for you, not fishy or selfish. I promise.",
 		"innerColor": [244,255,251],
-		"outerColor": [44,214,130],
+		"outerColor": [79,86,59],
 		"cities": ["Palaeonisciformes","Aegeridae","Anisaeger","Ptycholepiformes","Acipenseriformes","Perleidiformes","Polzbergiiformes","Parasemionotiformes","Claraia"],
 		"uniqueName": "Fishy World",
 		"uniques": ["Damage is ignored when determining unit Strength <for [Fishes] units> <in [Photic zone] tiles>","[+1 Science, +1 Food] from [Photic zone] tiles [in all cities]","[+25]% Strength <vs cities> <for [Fishes] units>"]
@@ -403,8 +403,8 @@
 		"neutralHello": "Good to see you! Would you like some Insect Soup?",
 		"hateHello": "(Screech)!",
 		"tradeRequest": "Our colony overflows with items, and we would like to sharing them with you!",
-		"outerColor": [221,190,0],
-		"innerColor": [44,214,130],
+		"outerColor": [79,86,124],
+		"innerColor": [255,255,255],
 		"cities": ["Archaeopteris","Pertica","Rhacophytales","Tetraxylopteris","Aneurophyton","Hicklingia","Taeniocrada","Metzgeriothallus","Thursophyton","Stockmansella","Runcaria","Orestovia","Dutoitea","Leclercqia","Drepanophycus"],
 		"uniqueName": "Planet of the Apes",
 		"uniques": ["New [Land] units start with [15] Experience [in capital]","Science gained from research agreements [+100]%"]
