@@ -246,8 +246,8 @@
 		"strength": 12,
 		"cost": 80,
 		"requiredTech": "Tissue",
-		"obsoleteTech": "Lungfish",
-		"upgradesTo": "Tetrapod",
+		"obsoleteTech": "Chloroplasts",
+		"upgradesTo": "Protozoa",
 		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
@@ -257,6 +257,31 @@
 			},
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Eumycetozoa",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Protozoa",
+		"unitType": "Cell",
+		"movement": 2,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chloroplasts",
+		"obsoleteTech": "Lungfish",
+		"upgradesTo": "Tetrapod",
+		"uniques": ["[-50]% Strength <vs [Water] units>","Only available <in cities without a [Littoral Environment]>","Can move after attacking","[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
+		"attackSound": "Cell",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Protozoa",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Protozoa",
 				"imageSize": 192
 			},
 			{
