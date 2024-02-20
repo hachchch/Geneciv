@@ -975,13 +975,13 @@
 				"name": "Ape",
 				"row": 6,
 				"prerequisites": ["Primate","Neocortex"],
-				"quote": "The Miocene was marked by many important divergences for Great Apes. Great apes branched into gorillas, which further branched into human ancestors and chimpanzee ancestors. The Adam and Eve are here.",
+				"quote": "The Miocene was marked by many important divergences for Primates. Great apes branched into gorillas, which further branched into human ancestors and chimpanzee ancestors. The Adam and Eve are here.",
 			},
 			{
 				"name": "Learning",
 				"row": 2,
 				"prerequisites": ["Neocortex"],
-				"quote": "",
+				"quote": "The Limbic System expands area of cognition in many ways. Now, Mammal can cognitive the Sociality, Group working, Learning, Spatial memorization, and Remember from Episodes.",
 			}
 		]
 	},
@@ -995,18 +995,21 @@
 			{
 				"name": "Modern Ocean",
 				"row": 8,
-				"prerequisites": ["Cetaceans"],
+				"prerequisites": ["Cetaceans","Meadow"],
+				"quote": "Once upon a time, the Planet Earth was really simple. there are only one Continents there, and lives was only eating or moving. but nowaday, there are many continents, diversity of lives, and unbelievable complex of their colony sociality.",
 			},
 			{
 				"name": "Five Fingers",
 				"row": 5,
 				"prerequisites": ["Ape"],
+				"quote": "Great apes developed digits on their limbs to adapt to arboreal life.",
 			},
 			{
 				"name": "Upright Bipedal Walk",
 				"row": 6,
 				"prerequisites": ["Ape"],
 				"uniques": ["[-1] Movement <for [Ape] units>","[+2] Sight <for [Ape] units>"],
+				"quote": "The Bipedalism of Ape was start from 4MYA(or hypothetically 7MYA). There are various theories as to why human ancester developed bipedal gait upright, but the main ones are that they are more energy efficient when walking, or that by growing taller they can see far away without having to climb trees is said that it is because. As a result, upright bipedalism freed up the frontal legs and helped them gathering food.",
 			},
 			{
 				"name": "Ape Brain",
