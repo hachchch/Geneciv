@@ -10,7 +10,9 @@ body{
 }
 </style>
 </head>
+
 <body>
+
 # Geneciv
 <h1 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/preview.png"　width="640" height="640"></h1>
 <p align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/PlanetEarth.png">
