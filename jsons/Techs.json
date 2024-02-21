@@ -577,22 +577,10 @@
 				"name": "Metamorphosis",
 				"row": 8,
 				"quote": "Vertebrae are bones that protect the spinal cord.",
-				"prerequisites": ["Vertebrate"],
+				"prerequisites": ["Exoskeleton","Vertebrate"],
 			},
 			{
-				"name": "",
-				"row": 4,
-				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
-				"prerequisites": ["Heart"],
-			},
-			{
-				"name": "",
-				"row": 2,
-				"prerequisites": ["Nerve Cord"],
-				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
-			},
-			{
-				"name": "Compound Eyes",
+				"name": "Compound Eye",
 				"row": 3,
 				"prerequisites": ["Pigment Spot"],
 				"uniques": ["+1 sight for Water Animals"]
@@ -618,22 +606,16 @@
 				"prerequisites": ["Articulation"],
 			},
 			{
-				"name": "Heart",
+				"name": "Cephalization",
 				"row": 4,
 				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
-				"prerequisites": ["Bilateral Symmetry"],
+				"prerequisites": ["Heart"],
 			},
 			{
-				"name": "Nerve Cord",
-				"row": 2,
-				"prerequisites": ["Bilateral Symmetry","Nervous System"],
-				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
-			},
-			{
-				"name": "Pigment Spot",
+				"name": "Eye",
 				"row": 3,
-				"prerequisites": ["Bilateral Symmetry"],
-				"uniques": ["+1 sight for Water Animals"]
+				"prerequisites": ["Compound Eye"],
+				"uniques": ["+1 sight for Crustacean and Fish"]
 			},
 		]
 	},
@@ -645,12 +627,6 @@
 		"buildingCost": 200,
 		"wonderCost": 350,
 		"techs": [
-			{
-				"name": "Eye",
-				"row": 3,
-				"prerequisites": ["Exoskeleton","Pigment Spot"],
-				"uniques": ["+1 sight for Crustacean and Fish"]
-			},
 			{
 				"name": "First Plant",
 				"row": 1,
