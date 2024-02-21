@@ -1,6 +1,10 @@
 <style>
 body{
-background-color: #1f1e29;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 20px;
+                background-color: #1f1e29;
+                color: #51baf4;
 }
 </style>
 
