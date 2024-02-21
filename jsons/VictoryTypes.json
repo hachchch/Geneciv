@@ -26,12 +26,6 @@
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
-        "name": "Total Extinction (Hardest Mode)",
-        "milestones": ["Build [Extinction Complete]","Add all [Extinction] in capital","Destroy all players"],
-        "victoryString": "",
-        "defeatString": "",
-    },
-    {
 	"name": "Next Universe",
 	"victoryScreenHeader": "Complete all the Universe parts\nto win!",
 	"milestones": [
