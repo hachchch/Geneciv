@@ -401,13 +401,6 @@
 		"requiredTech": "Jaw",
 		"uniques": [""],
 	},*/
-	{
-		"name": "Neuston",
-		"maintenance": 1,
-		"production": 2,
-		"requiredTech": "Swimming",
-		"uniques": ["Must be on [Fresh water]"]
-	},
 	// Devonian
 	{
 		"name": "Silurian-Devonian Terrestrial Revolution",
@@ -1211,7 +1204,6 @@
 		"uniques": ["Limited to [2] per Civilization","Only available <in cities without a [Radial Symmetry]>","[+20]% Production when constructing [Water Arthropod] units [in this city]","[+20]% Production when constructing [Fish] units [in this city]"],
 		"requiredTech": "Bilateral Symmetry",
 	},
-	/*
 	{
 		"name": "Radiodonta",
 		"cost": 95,
@@ -1227,7 +1219,6 @@
 		"cost": 150,
 		"uniques": ["Remove [Fish] [in this city] <before discovering [Predation]>","Only available <for [AI player]> <after discovering [Fish]> <in cities with a [Littoral Environment]>","Free [Fish] appears <for [AI player]> <hidden from users>"]
 	},
-	*/
 	// General
 	{
 		"name": "Otavia Antiqua",
