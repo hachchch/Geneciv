@@ -1,3 +1,4 @@
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <style>
 body{
@@ -8,7 +9,7 @@ body{
                 color: #51baf4;
 }
 </style>
-
+</head>
 <body>
 # Geneciv
 <h1 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/preview.png"　width="640" height="640"></h1>
