@@ -1,3 +1,4 @@
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <style>
@@ -38,3 +39,4 @@ You can help my Project with Issues or Pull Request.
 <p>・<a href="https://github.com/hachchch/-Geneciv-Extension-AkashicRecords">Geneciv-Extension AkashicRecords</a> created by hachchch</p>
 
 </body>
+</html>
