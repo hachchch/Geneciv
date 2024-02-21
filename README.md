@@ -1,14 +1,14 @@
 # Geneciv
 <h1 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/preview.png"></h1>
 
-![](/extraImages/PlanetEarth.png)
-![](/extraImages/Moon.png)
-![](/extraImages/OrganicCompound.png)
-![](/extraImages/AsexualReproduction.png)
-![](/extraImages/Nucleus.png)
-![](/extraImages/Jellyfishes.png)
-![](/extraImages/FishAges.png)
-![](/extraImages/Landing.png)
+<p align="center">![](/extraImages/PlanetEarth.png)
+<img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/Moon.png">
+<img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/OrganicCompound.png">
+<img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/AsexualReproduction.png">
+<img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/Nucleus.png"><br>
+<img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/Jellyfishes.png">
+<img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/FishAges.png">
+<img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/Landing.png"></p>
 
 <p align="center">4.5 billion years ago, there was no life on Earth.<br>
 However, for some reason, biogenesis occurs.<br>
