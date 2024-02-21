@@ -878,6 +878,32 @@
 		"requiredTech": "Flatworm",
 		"uniques": ["Cambrian","There are many entities looks like our image of alien bugs"]
 	},
+	// Pedogenesis
+	{
+		"name": "Humus",
+		"requiredTech": "Earthworm",
+		"uniques": ["[-35]% maintenance cost for buildings [in this city]","No Maintenance costs for improvements in [Land] tiles"]
+	},
+	{
+		"name": "Bioturbation",
+		"food": 3,
+		"requiredTech": "Earthworm",
+		"uniques": ["[+1 Food] from [{GrassLand} {Fresh water}] tiles [in this city]"]
+	},
+	// Dinosaur age's Vegetation
+	{
+		"name": "Fruit",
+		"food": 2,
+		"happiness": 3,
+		"requiredTech": "Angiosperm",
+		"maintenance": 2,
+	},
+	{
+		"name": "Diatom",
+		"requiredTech": "Ocean Reform",
+		"maintenance": 2,
+		"uniques": ["[+1 Food] from [Green Algae] tiles [in this city]"]
+	},
 	// National Wonders
 	{
 		"name": "Ozone Layer",
