@@ -1000,7 +1000,7 @@
 		"maintenance": 1,
 		"food": 2,
 		"requiredTech": "First Plant",
-		"uniques": ["Free [Vegetation] appears <in cities with a [Littoral Environment]>","[+1 Food] from [Fresh Water] tiles [in this city]"]
+		"uniques": ["Free [Vegetation] appears <in cities with a [Littoral Environment]> <for [AI player]> <hidden from users>","[+1 Food] from [Fresh Water] tiles [in this city]"]
 	},
 	{
 		"name": "Shrub",
@@ -1129,7 +1129,7 @@
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Chloroplasts",
 		"production": 1,
-		"uniques": ["[+1 Production, +1 Gold] from [Atoll] tiles [in this city]"],
+		"uniques": ["Free [Algae] appears <in cities with a [Littoral Environment]> <for [AI player]> <hidden from users>","[+1 Production, +1 Gold] from [Atoll] tiles [in this city]"],
 	},
 	/*
 	{
@@ -1210,6 +1210,21 @@
 		"gold": 2,
 		"uniques": ["Limited to [2] per Civilization","Only available <in cities without a [Radial Symmetry]>","[+20]% Production when constructing [Water Arthropod] units [in this city]","[+20]% Production when constructing [Fish] units [in this city]"],
 		"requiredTech": "Bilateral Symmetry",
+	},
+	{
+		"name": "Radiodonta",
+		"cost": 95,
+		"uniques": ["Remove [Radiodonta] [in this city] <before discovering [Exoskeleton]>","Only available <for [AI player]> <after discovering [Articulation]> <in cities with a [Littoral Environment]>","Free [Radiodonta] appears <for [AI player]> <hidden from users>"]
+	},
+	{
+		"name": "Crustacean",
+		"cost": 115,
+		"uniques": ["Remove [Crustacean] [in this city] <before discovering [Fish]>","Only available <for [AI player]> <after discovering [Exoskeleton]> <in cities with a [Littoral Environment]>","Free [Crustacean] appears <for [AI player]> <hidden from users>"]
+	},
+	{
+		"name": "Fish",
+		"cost": 150,
+		"uniques": ["Remove [Fish] [in this city] <before discovering [Predation]>","Only available <for [AI player]> <after discovering [Fish]> <in cities with a [Littoral Environment]>","Free [Fish] appears <for [AI player]> <hidden from users>"]
 	},
 	// General
 	{
