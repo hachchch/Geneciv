@@ -1,0 +1,10 @@
+[
+        {
+                "name": "Aggressive",
+                "military": 7,
+        },
+        {
+                "name": "Peaceful",
+                "military": 3,
+        }
+]
