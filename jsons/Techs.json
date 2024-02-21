@@ -628,6 +628,12 @@
 		"wonderCost": 350,
 		"techs": [
 			{
+				"name": "Eye",
+				"row": 3,
+				"prerequisites": ["Pigment Spot"],
+				"uniques": ["+1 sight for Crustacean and Fish"]
+			},
+			{
 				"name": "First Plant",
 				"row": 1,
 				"prerequisites": ["Chloroplasts","Exoskeleton"],
