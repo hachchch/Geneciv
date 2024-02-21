@@ -748,6 +748,13 @@ UnitIcons/Fish
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Fish
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitTypeIcons/Fishes
   rotate: false
   xy: 800, 0
@@ -804,7 +811,7 @@ UnitIcons/Crustacean
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitTypeIcons/Water Arthropod
+BuildingIcons/Crustacean
   rotate: false
   xy: 1200, 0
   size: 100, 100
