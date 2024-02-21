@@ -1,10 +1,16 @@
 [
         {
                 "name": "Aggressive",
+		"priorities": {
+			"Order of Earth": 30,
+		}
                 "military": 7,
         },
         {
                 "name": "Peaceful",
+		"priorities": {
+			"Order of Earth": 10,
+		}
                 "military": 3,
         }
 ]
