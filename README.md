@@ -15,7 +15,9 @@ This mod uses Unciv to transform the that process into a strategy game.<br>
 It is probably one of the few efforts to create a strategy game on a geological time scale.</p>
 <p align="center">well, It's time to beggining the biggest history!</p>
 <h2 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/oldpreview.png"></h2>
-## Contributing
+
+## Contributin
 You can help my Project with Issues or Pull Request.
 # Extension mods list
-<p><a href="https://github.com/hachchch/-Geneciv-Extension-AkashicRecords">・Geneciv-Extension AkashicRecords</a> created by hachchch</p>
+
+<p>・<a href="https://github.com/hachchch/-Geneciv-Extension-AkashicRecords">Geneciv-Extension AkashicRecords</a> created by hachchch</p>
