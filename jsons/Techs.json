@@ -560,6 +560,84 @@
 			},
 		]
 	},
+	/*
+	{
+		"columnNumber": 14,
+		"era": "Ordovician period",
+		"techCost": 245,
+		"buildingCost": 175,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Metamorphosis",
+				"row": 6,
+				"prerequisites": ["Exoskeleton"],
+			},
+			{
+				"name": "Vertebrate",
+				"row": 8,
+				"quote": "Vertebrae are bones that protect the spinal cord.",
+				"prerequisites": ["Vertebrate"],
+			},
+			{
+				"name": "",
+				"row": 4,
+				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
+				"prerequisites": ["Heart"],
+			},
+			{
+				"name": "",
+				"row": 2,
+				"prerequisites": ["Nerve Cord"],
+				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
+			},
+			{
+				"name": "Pigment Spot",
+				"row": 3,
+				"prerequisites": ["Bilateral Symmetry"],
+				"uniques": ["+1 sight for Water Animals"]
+			},
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Ordovician period",
+		"techCost": 245,
+		"buildingCost": 175,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Exoskeleton",
+				"row": 6,
+				"prerequisites": ["Articulation","Bilateral Symmetry"],
+			},
+			{
+				"name": "Vertebrate",
+				"row": 8,
+				"quote": "Vertebrae are bones that protect the spinal cord.",
+				"prerequisites": ["Articulation"],
+			},
+			{
+				"name": "Heart",
+				"row": 4,
+				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
+				"prerequisites": ["Bilateral Symmetry"],
+			},
+			{
+				"name": "Nerve Cord",
+				"row": 2,
+				"prerequisites": ["Bilateral Symmetry","Nervous System"],
+				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
+			},
+			{
+				"name": "Pigment Spot",
+				"row": 3,
+				"prerequisites": ["Bilateral Symmetry"],
+				"uniques": ["+1 sight for Water Animals"]
+			},
+		]
+	},
+	\*
 	{
 		"columnNumber": 14,
 		"era": "Silurian period",
