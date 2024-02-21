@@ -569,12 +569,12 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Metamorphosis",
+				"name": "Cephalopod",
 				"row": 6,
 				"prerequisites": ["Exoskeleton"],
 			},
 			{
-				"name": "Vertebrate",
+				"name": "Metamorphosis",
 				"row": 8,
 				"quote": "Vertebrae are bones that protect the spinal cord.",
 				"prerequisites": ["Vertebrate"],
@@ -592,9 +592,9 @@
 				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
 			},
 			{
-				"name": "Pigment Spot",
+				"name": "Compound Eyes",
 				"row": 3,
-				"prerequisites": ["Bilateral Symmetry"],
+				"prerequisites": ["Pigment Spot"],
 				"uniques": ["+1 sight for Water Animals"]
 			},
 		]
