@@ -142,6 +142,13 @@ UnitIcons/Radiodonta
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Radiodonta
+  rotate: false
+  xy: 200, 600
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Bilateral Symmetry
   rotate: false
   xy: 200, 800
@@ -1446,6 +1453,13 @@ UnitIcons/Amplectobelua
   offset: 0, 0
   index: -1
 UnitIcons/Anomalocaris
+  rotate: false
+  xy: 200, 0
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitTypeIcons/Water Arthropod
   rotate: false
   xy: 200, 0
   size: 200, 200
