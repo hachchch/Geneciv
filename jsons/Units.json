@@ -58,7 +58,7 @@
 			"[+75]% tile improvement construction time <in [Hill] tiles> <hidden from users>",
 			// "[-50]% tile improvement construction time <with [1] to [1] neighboring [Vegetation] tiles>", // it should not hidden # not working
 			"[-75]% tile improvement construction time <in [Fresh water] tiles> <hidden from users>",
-			"Can build [GrassLand] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Forests] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>"],
+			"Can build [Lichen] improvements on tiles <hidden from users>","Can build [GrassLand] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Forests] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>"],
 		"cost": 150,
 		"requiredTech": "First Plant",
 		"civilopediaText": [
@@ -87,6 +87,15 @@
 		"movement": 2,
 		"cost": 102,
 		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","No sight before discovering Insect","No Sight <hidden from users> <for [Human player]> <before discovering [Spore Plant]>","[-1] Sight <hidden from users> <before discovering [Spore Plant]>"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Worm",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 250,
+		"uniques": ["Can build [GrassLand] improvements on tiles","Can build [Forests] improvements on tiles","Can build [Lichen] improvements on tiles","[-50]% tile improvement construction time","Uncapturable <before discovering [Human Race]>","No Sight for ever","No Sight <hidden from users> <for [Human player]>",
+		"Turn this tile into a [Plains] tile <in [Desert] tiles> <by consuming this unit>"],
 		"hurryCostModifier": 20
 	},
 	// Special Units
