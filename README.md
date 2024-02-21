@@ -18,7 +18,7 @@ It is probably one of the few efforts to create a strategy game on a geological 
 
 <p align="center">well, It's time to beggining the biggest history!</p>
 
-![](/extraImages/oldpreview.png)
+<h2 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/oldpreview.png"></h2>
 ## Contributing
 You can help my Project with Issues or Pull Request.
 
