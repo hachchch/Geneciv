@@ -568,6 +568,11 @@
 		"wonderCost": 300,
 		"techs": [
 			{
+				"name": "Brain",
+				"row": 4,
+				"prerequisites": ["Nerve Cord","Heart"]
+			},
+			{
 				"name": "Cephalopod",
 				"row": 6,
 				"prerequisites": ["Exoskeleton"],
@@ -607,7 +612,7 @@
 				"name": "Cephalization",
 				"row": 4,
 				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
-				"prerequisites": ["Cephalopod","Heart"],
+				"prerequisites": ["Compound Eye","Cephalopod","Brain"],
 			},
 			{
 				"name": "Eye",
@@ -627,13 +632,13 @@
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Chloroplasts","Exoskeleton"],
+				"prerequisites": ["Chloroplasts","Trilobite"],
 			},
 			{
 				"name": "Fish",
 				"row": 6,
 				"uniques": ["They are still jawless fishes (-25% Attack Strength) but after you discovering Jaw, their debuff will disappear"],
-				"prerequisites": ["Plated Armour","Cephalization"],
+				"prerequisites": ["Eye","Plated Armour","Cephalization"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Fish",
