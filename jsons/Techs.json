@@ -983,7 +983,7 @@
 				"prerequisites": ["Eutherians","Flying"],
 			},
 			{
-				"name": "Modern Birds",
+				"name": "Ratite Birds",
 				"row": 3,
 				"prerequisites": ["Flying"]
 			},
@@ -1025,9 +1025,9 @@
 		"wonderCost": 850,
 		"techs": [
 			{
-				"name": "Powered Flight",
+				"name": "Neoaves",
 				"row": 4,
-				"prerequisites": ["Modern Birds","Bat"]
+				"prerequisites": ["Ratite Birds","Bat"]
 			},
 			{
 				"name": "Meadow",
@@ -1060,7 +1060,7 @@
 			{
 				"name": "Modern Ocean",
 				"row": 8,
-				"prerequisites": ["Placenta","Powered Flight","Cetaceans","Meadow"],
+				"prerequisites": ["Placenta","Neoaves","Cetaceans","Meadow"],
 				"quote": "Once upon a time, the Planet Earth was really simple. there are only one Continents there, and lives was only eating or moving. but nowaday, there are many continents, diversity of lives, and unbelievable complex of their colony sociality.",
 			},
 			{
