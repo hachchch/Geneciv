@@ -611,7 +611,7 @@
 		"isWonder": true,
 		"requiredTech": "Primate",
 		"culture": 2,
-		"uniques": ["All newly-trained [Ape] units [in this city] receive the [Brachiation] promotion",
+		"uniques": ["All newly-trained [Ape] units [in this city] receive the [Arboreal] promotion",
 		"[+1] Movement <for [{non-[Human]} {Primate}] units> <in [Forests] tiles>"]
 	},
 	{
