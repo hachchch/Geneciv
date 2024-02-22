@@ -2,31 +2,31 @@
 	// Mammal Types
 	{
 		"name": "Carnivora",
-		"uniques": ["[+10]% Strength <when attacking> <when adjacent to a [{Enemy} {Wounded}] unit>"],
+		"uniques": ["[+15]% Strength <when attacking> <vs [non-[Predator]] units>"],
 	},
 	{
 		"name": "Monotreme",
-		"uniques": ["[+10]% Strength <when fighting in [Coastal] tiles>","Gain [30] [Gold] <upon being promoted>"],
+		"uniques": ["[+15]% Strength <when fighting in [Fresh water] tiles>"],
 	},
 	{
 		"name": "Cetacea",
-		"uniques": ["[+10]% Strength <when fighting in [Ocean] tiles>"],
+		"uniques": ["[+15]% Strength <when fighting in [Saline water] tiles>"],
 	},
 	{
 		"name": "Primate",
-		"uniques": ["May withdraw before melee ([15]%)"],
+		"uniques": ["[+15]% Strength <when fighting in [Forests] tiles>"],
 	},
 	{
 		"name": "Ungulate",
-		"uniques": ["[+1] Movement <when adjacent to a [Enemy] unit>"],
+		"uniques": ["[+15]% Strength <when fighting in [GrassLand] tiles>"],
 	},
 	{
 		"name": "Marsupial",
-		"uniques": ["Heal this unit by [10] HP <upon being promoted>"],
+		"uniques": ["[+15]% Strength <when fighting in [Warm] tiles>"],
 	},
 	{
 		"name": "Rodentia",
-		"uniques": ["Heal this unit by [5] HP <when below [30] HP> <for [1] movement>"],
+		"uniques": ["[+15]% Strength <when fighting in [City center] tiles>"],
 	},
 	// Instant
 	{
