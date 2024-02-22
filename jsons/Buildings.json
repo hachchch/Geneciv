@@ -249,7 +249,7 @@
                 "cityHealth": 50,
 		// "cost": 230,
 		"maintenance": 3,
-		"requiredTech": "Flowers",
+		"requiredTech": "Angiosperm",
 		"uniques": ["Bugs","Coevolution","Must be next to [Tundra]","[+1 Production] from [{Tundra} {GrassLand}] tiles [in this city]"]
 	},
 	{
@@ -268,7 +268,7 @@
 		"maintenance": 3,
 		// "cost": 230,
 		"uniques": ["Bugs","Coevolution","Must be next to [Grassland]","[+1 Food] from [{Grassland} {GrassLand}] tiles [in this city]"],
-		"requiredTech": "Flowers",
+		"requiredTech": "Angiosperm",
 	},
 	{
 		"name": "Housefly",
@@ -454,6 +454,7 @@
 		"name": "Archaeocyatha",
 		"isWonder": true,
 		"culture": 3,
+		"gold": 3,
 		"requiredTech": "Sponge",
 		"uniques": ["Empire enters golden age"]
 	},
@@ -462,7 +463,7 @@
 		"isWonder": true,
 		// "cost": 1200,
 		"requiredTech": "Insect",
-		"uniques": ["[+30]% Production when constructing [Bugs] buildings [in all cities]",
+		"uniques": ["[+50]% Production when constructing [Bugs] buildings [in all cities]",
 			"Gain a free [Beetles] [in this city]",
 			"Gain a free [Midge] [in this city]",
 			"Gain a free [Uniramia] [in this city]",
@@ -495,6 +496,7 @@
 			"[1] units cost no maintenance",
 			"[1] Unit Supply"]
 	},
+	/*
 	{
 		"name": "Lichen",
 		"food": 2,
@@ -502,10 +504,11 @@
 		"isWonder": true,
 		"uniques": ["[+1 Production] from [GrassLand] tiles [in this city]","[+1 Food] from [Forests] tiles [in this city] <after discovering [Grass]>"]
 	},
+	*/
 	{
 		"name": "Antarctic Permanent Ice Sheets",
 		"isWonder": true,
-		"cost": 800,
+		"requiredTech": "Modern Ocean",
 		"uniques": ["Unbuildable <before the [Paleogene period]>","Must be on [Snow]",
 		"[-98]% Culture cost of natural border growth [in this city]"]
 	},
@@ -513,8 +516,9 @@
 		"name": "North American Prairie expands",
 		"isWonder": true,
 		"cost": 800,
-		"requiredTech": "Grass",
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-75]% construction time for [GrassLand] improvements","Unbuildable <before the [Paleogene period]>"]
+		"requiredTech": "Meadow",
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-75]% construction time for [GrassLand] improvements","Unbuildable <before the [Paleogene period]>"],
+		"quote": "Prairie expansion begins with the uplift of the Rocky Mountains. Rain shadows from the uplift reduced precipitation, and subsequent ice sheets from the north flattened the landscape. When the ice sheets retreated, rich grassland soils were formed."
 	},
 	{
 		"name": "Messinian Salinity Crisis",
@@ -547,25 +551,22 @@
 			"[+1 Food] from all [Chromosomes] buildings",
 			"[+1 Food] from all [Polypeptides] buildings",
 			"[+1 Food] from all [Plasma Membrane] buildings",
-			"Gain a free [RNA] [in all cities]"]
-	},
-	{
-		"name": "Old Red Sandstone",
-		"isWonder": true,
-		"cost": 400,
-		"uniques": ["Must be next to [Desert]","[+2 Gold] from [Desert] tiles [in this city]","[+50]% [Gold] [in this city]","Unbuildable <before the [Ancient era]>"],
+			"Gain a free [RNA] [in all cities]"],
+		"quote": "The RNA world is a hypothetical stage in the evolutionary history of life on Earth, in which self-replicating RNA molecules proliferated before the evolution of DNA and proteins."
 	},
 	{
 		"name": "Zanclean Flood",
 		"isWonder": true,
 		"cost": 800,
-		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[-50]% Production when constructing [Land] units [in this city]","[+50]% Production when constructing [Water] units [in this city]"]
+		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[-50]% Production when constructing [Land] units [in this city]","[+50]% Production when constructing [Water] units [in this city]"],
+		"quote": "The Zanclean flood or Zanclean deluge is theorized to have refilled the Mediterranean Sea 5.33 million years ago. This flooding ended the Messinian salinity crisis and reconnected the Mediterranean Sea to the Atlantic Ocean, although it is possible that even before the flood there were partial connections to the Atlantic Ocean, water from the Atlantic Ocean refilled the dried up basin through the modern-day Strait of Gibraltar. Ninety percent of the Mediterranean Basin flooding occurred abruptly during a period estimated to have been between several months and two years, following low water discharges that could have lasted for several thousand years. Sea level rise in the basin have reached rates at times greater than ten metres per day (thirty feet per day).",
 	},
 	{
 		"name": "Last Glacial Maximum",
 		"isWonder": true,
 		"cost": 900,
-		"uniques": ["Unbuildable <before the [Pliocene]>","Enemy [All] units must spend [1] extra movement points when inside your territory <before discovering [Urbanization]>"]
+		"uniques": ["Unbuildable <before the [Pliocene]>","Enemy [All] units must spend [1] extra movement points when inside your territory <before discovering [Urbanization]>"],
+		"quote": "The Last Glacial Maximum (LGM), also referred to as the Last Glacial Coldest Period, was the most recent time during the Last Glacial Period where ice sheets were at their greatest extent 26,000 and 20,000 years ago. Ice sheets covered much of Northern North America, Northern Europe, and Asia and profoundly affected Earth's climate by causing a major expansion of deserts, along with a large drop in sea levels."
 	},
 	{
 		"name": "Smithian-Spathian Boundary",
@@ -573,6 +574,15 @@
 		"cost": 550,
 		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-50]% Strength <for [Cambrian] units>","Free Technology"],
 		"quote": "An important extinction event occurred during the Olenekian age of the Early Triassic, near the Smithian and Spathian subage boundary. The main victims of this Smithian-Spathian boundary event, often called the Smithian-Spathian extinction, were 'disaster taxa': Palaeozoic species that survived the Permian-Triassic extinction event and flourished in the immediate aftermath of the extinction; ammonoids, conodonts, and radiolarians in particular suffered drastic biodiversity losses, which is accentuated, among others, by the cosmopolitan distribution of the ammonoid Anasibirites. Marine reptiles, such as ichthyopterygians and sauropterygians, diversified after the extinction.",
+	},
+	{
+		"name": "Behavioral Modernity",
+		"requiredTech": "Abstract Thinking",
+		"uniques": ["[+30]% [Culture] [in this city]","[+30]% [Faith] [in this city]"],
+		"quote": "Behavioral modernity is a suite of behavioral and cognitive traits that distinguishes current Homo sapiens from other anatomically modern humans, hominins, and primates. Most scholars agree that modern human behavior can be characterized by abstract thinking, planning depth, symbolic behavior (e.g., art, ornamentation), music and dance, exploitation of large game, and blade technology, among others. Underlying these behaviors and technological innovations are cognitive and cultural foundations that have been documented experimentally and ethnographically by evolutionary and cultural anthropologists. These human universal patterns include cumulative cultural adaptation, social norms, language, and extensive help and cooperation beyond close kin."
+	},
+	{
+		"name": "",
 	},
 	{
 		"name": "Cytoplasm",
