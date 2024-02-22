@@ -568,11 +568,6 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Brain",
-				"row": 4,
-				"prerequisites": ["Nerve Cord","Heart"]
-			},
-			{
 				"name": "Cephalopod",
 				"row": 6,
 				"prerequisites": ["Exoskeleton"],
@@ -612,7 +607,7 @@
 				"name": "Cephalization",
 				"row": 4,
 				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
-				"prerequisites": ["Compound Eye","Cephalopod","Brain"],
+				"prerequisites": ["Compound Eye","Cephalopod","Heart"],
 			},
 			{
 				"name": "Eye",
@@ -629,6 +624,11 @@
 		"buildingCost": 200,
 		"wonderCost": 350,
 		"techs": [
+			{
+				"name": "Brain",
+				"row": 2,
+				"prerequisites": ["Eye","Cephalization","Nerve Cord"]
+			},
 			{
 				"name": "First Plant",
 				"row": 1,
@@ -715,7 +715,7 @@
 			{
 				"name": "Medulla Oblongata",
 				"row": 2,
-				"prerequisites": ["Nerve Cord","Gills","Eye"],
+				"prerequisites": ["Brain"],
 				"uniques": ["[+1 Gold] from [Fish] tiles [in all cities]","[+1 Gold] from [Ocean] tiles [in all cities]"],
 				"quote": "medulla oblongata is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing.",
 			},
