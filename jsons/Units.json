@@ -1654,7 +1654,7 @@
 		"movement": 1,
 		"cost": 450,
 		"requiredTech": "Flying",
-		"obsoleteTech": "Modern Birds",
+		"obsoleteTech": "Neoaves",
 		"upgradesTo": "Eagle",
 		"attackSound": "Woosh",
 		"uniques": ["Jurassic","Predator"],
@@ -1678,7 +1678,7 @@
 		"movement": 1,
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
-		"requiredTech": "Modern Birds",
+		"requiredTech": "Neoaves",
 		"attackSound": "Woosh",
 		"uniques": ["Eocene","Predator","[+25]% Strength <vs [Land] units>"],
 		"civilopediaText": [
@@ -1700,7 +1700,7 @@
 		"movement": 2,
 		"cost": 500,
 		"attackSound": "crrr",
-		"requiredTech": "Modern Birds",
+		"requiredTech": "Ratite Birds",
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>","[75]% chance to intercept air attacks"],
 		"civilopediaText": [
@@ -1709,19 +1709,6 @@
 				"imageSize": 192
 			},
 		]
-	},
-	{
-		"name": "Charadriiformes",
-		"unitType": "Birds",
-		"range": 7,
-		"rangedStrength": 70,
-		"strength": 70,
-		"movement": 1,
-		"cost": 500,
-		"obsoleteTech": "Anthropocene",
-		"requiredTech": "Modern Ocean",
-		"attackSound": "Woosh",
-		"uniques": ["Only available <in cities with a [Littoral Environment]> <hidden from users>","Eocene","Predator","[+200]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
 	},
 	{
 		"name": "Crow",
@@ -1734,7 +1721,7 @@
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [30]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>","Can perform Air Sweep"],
-		"requiredTech": "Modern Birds",
+		"requiredTech": "Neoaves",
 		"attackSound": "Woosh",
 		"civilopediaText": [
 			{
@@ -1748,6 +1735,19 @@
 		]
 	},
 	{
+		"name": "Charadriiformes",
+		"unitType": "Birds",
+		"range": 7,
+		"rangedStrength": 75,
+		"strength": 75,
+		"movement": 1,
+		"cost": 500,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Neoaves",
+		"attackSound": "Splash",
+		"uniques": ["Can only attack [Water] tiles","Only available <in cities with a [Littoral Environment]> <hidden from users>","Eocene","Predator","[+200]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
+	},
+	{
 		"name": "Raphus",
 		"unitType": "Aves",
 		"interceptRange": 2,
@@ -1755,7 +1755,7 @@
 		"movement": 2,
 		"cost": 500,
 		"attackSound": "crrr",
-		"requiredTech": "Modern Birds",
+		"requiredTech": "Ratite Birds",
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Birds","Bipedal","Holocene","Only available <before the [Medieval era]>","[75]% chance to intercept air attacks"]
 	},
@@ -1951,6 +1951,20 @@
 				"Separator": true
 			},
 		]
+	},
+	{
+		"name": "Great Skua",
+		"unitType": "Birds",
+		"range": 8,
+		"rangedStrength": 100,
+		"strength": 100,
+		"movement": 1,
+		"cost": 1000,
+		"obsoleteTech": "Anthropocene",
+		"requiredTech": "Neoaves",
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Splash",
+		"uniques": ["Can only attack [Water] tiles","Only available <in cities with a [Littoral Environment]> <hidden from users>","Eocene","Predator","[+200]% Strength <vs [Embarked] units>","[+100]% Strength <vs [Fishes] units>","[+100]% Strength <vs [Modern Fishes] units>"],
 	},
 	// General
 	{
