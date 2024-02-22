@@ -696,7 +696,17 @@
 	},
 	{
 		"name": "Bacterium",
-		"uniques": ["[+25]% Strength","[-100]% maintenance costs"],
+		"uniques": ["[+25]% Strength <when attacking>","[-100]% maintenance costs"],
+		"unitTypes": ["Cell"],
+	},
+	{
+		"name": "Zooplankton",
+		"uniques": ["[+15]% Strength <in [Water] tiles>"],
+		"unitTypes": ["Cell"],
+	},
+	{
+		"name": "Phytoplankton",
+		"uniques": ["[+25]% Strength <in [Algae] tiles>"],
 		"unitTypes": ["Cell"],
 	},
 	{
