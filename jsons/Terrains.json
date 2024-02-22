@@ -330,6 +330,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"defenceBonus": -0.1,
+		"uniques": ["Doesn't generate naturally"],
 		"occursOn": ["Desert"]
 	},
 	{
@@ -338,7 +339,7 @@
 		"impassable": true,
 		"overrideStats": true,
 		"uniques": ["Cold"],
-		"occursOn": ["Ocean", "Coast"]
+		"occursOn": ["Ocean","Coast","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone","Hadopelagic zone","Demersal zone","Benthic zone"]
 	},
 	// Natural Wonders
 	{
