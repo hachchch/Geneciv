@@ -95,6 +95,7 @@
 	},
 	{
 		"name": "Stromatolite", // Personality Plan: ambitious, Prefer Production Buildings
+		"personality": "Peaceful",
 		"leaderName": "Laguna Negra",
 		"adjective": ["Stromatolite"],
 		"startBias": ["Plains","Flesh water"],
@@ -122,6 +123,7 @@
 	},
 	{
 		"name": "Rodinia", // Personality Plan: Emphasis on military power and Production.
+		"personality": "Aggressive",
 		"leaderName": "McMenamin",
 		"adjective": ["Rodinian"],
 		"startBias": ["Avoid [Coastal]"]
@@ -266,6 +268,7 @@
 	},
 	{
 		"name": "Hirnantian", // Journal: https://www.sciencedirect.com/topics/earth-and-planetary-sciences/hirnantian
+		"personality": "Aggressive",
 		"leaderName": "Cameroceras",
 		"adjective": ["Hirnantian"],
 		"preferredVictoryType": "Domination",
@@ -394,6 +397,7 @@
 		"name": "Realm of Great Apes", // Personality Plan: Creepy but clever, dislike war but always hate others https://www.nationalgeographic.com/animals/article/chimpanzees-murder-cannibalism-senegal Great apes(even it not include humans), have a high propensity for violence, and on rare occasions they engage in planned group violence against their homogenus. It is often for the purpose of cannibalism, but frighteningly, violence can also be used for purposes other than cannibalism for them.
 		"leaderName": "Pan Troglodytes", // I'm wondering whether I should introduce humans(Homo Sapiens) as a representative species of Great Ape or Traditional Apes like Chimpanzee(Pan Troglodytes).
 		"adjective": ["Apes"],
+		"personality": "Aggressive",
 		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
@@ -411,6 +415,7 @@
 	},
 	{
 		"name": "Cockroaches Empire",
+		"personality": "Peaceful",
 		"leaderName": "Fallout Cockroaches",
 		"adjective": ["Cockroaches"],
 		"preferredVictoryType": "Domination",
