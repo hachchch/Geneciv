@@ -678,7 +678,7 @@
 		"unitTypes": ["Hominiae"],
 	},
 	{
-		"name": "Athletic",
+		"name": "Arboreal",
 		"row": 206,
 		"column": 0,
 		"uniques": ["[+35]% Strength <when fighting in [Forests] tiles>"],
