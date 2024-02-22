@@ -564,7 +564,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Ordovician period",
-		"techCost": 245,
+		"techCost": 270,
 		"buildingCost": 175,
 		"wonderCost": 300,
 		"techs": [
@@ -576,7 +576,6 @@
 			{
 				"name": "Metamorphosis",
 				"row": 8,
-				"quote": "Vertebrae are bones that protect the spinal cord.",
 				"prerequisites": ["Exoskeleton","Vertebrate"],
 			},
 			{
@@ -590,26 +589,26 @@
 	{
 		"columnNumber": 15,
 		"era": "Ordovician period",
-		"techCost": 245,
+		"techCost": 315,
 		"buildingCost": 175,
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Exoskeleton",
+				"name": "Trilobite",
 				"row": 6,
-				"prerequisites": ["Articulation","Bilateral Symmetry"],
+				"prerequisites": ["Cephalopod"],
+				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
 			},
 			{
-				"name": "Vertebrate",
+				"name": "Plated Armour",
 				"row": 8,
-				"quote": "Vertebrae are bones that protect the spinal cord.",
-				"prerequisites": ["Articulation"],
+				"prerequisites": ["Metamorphosis"],
 			},
 			{
 				"name": "Cephalization",
 				"row": 4,
 				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
-				"prerequisites": ["Heart"],
+				"prerequisites": ["Cephalopod","Heart"],
 			},
 			{
 				"name": "Eye",
@@ -619,20 +618,13 @@
 			},
 		]
 	},
-	*/
 	{
-		"columnNumber": 14,
+		"columnNumber": 16,
 		"era": "Silurian period",
 		"techCost": 350,
 		"buildingCost": 200,
 		"wonderCost": 350,
 		"techs": [
-			{
-				"name": "Eye",
-				"row": 3,
-				"prerequisites": ["Pigment Spot"],
-				"uniques": ["+1 sight for Crustacean and Fish"]
-			},
 			{
 				"name": "First Plant",
 				"row": 1,
@@ -642,7 +634,7 @@
 				"name": "Fish",
 				"row": 6,
 				"uniques": ["They are still jawless fishes (-25% Attack Strength) but after you discovering Jaw, their debuff will disappear"],
-				"prerequisites": ["Exoskeleton","Vertebrate","Heart"],
+				"prerequisites": ["Plated Armour","Cephalization"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Fish",
@@ -656,16 +648,10 @@
 			},
 				]
 			},
-			{
-				"name": "Trilobite",
-				"row": 8,
-				"prerequisites": ["Exoskeleton"],
-				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
-			}
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 17,
 		"era": "Silurian period",
 		"techCost": 440,
 		"buildingCost": 225,
@@ -716,7 +702,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 18,
 		"era": "Ancient era",
 		"techCost": 480,
 		"buildingCost": 250,
@@ -776,7 +762,7 @@
 		]
 	},
 	{
-		"columnNumber": 17,
+		"columnNumber": 19,
 		"era": "Carboniferous period",
 		"techCost": 570,
 		"buildingCost": 300,
@@ -817,7 +803,7 @@
 		]
 	},
 	{
-		"columnNumber": 18,
+		"columnNumber": 20,
 		"era": "Permian period",
 		"techCost": 600,
 		"buildingCost": 325,
@@ -859,7 +845,7 @@
 		]
 	},
 	{
-		"columnNumber": 19,
+		"columnNumber": 21,
 		"era": "Mesozoic era",
 		"techCost": 780,
 		"buildingCost": 350,
@@ -894,7 +880,7 @@
 		]
 	},
 	{
-		"columnNumber": 20,
+		"columnNumber": 22,
 		"era": "Mesozoic era",
 		"techCost": 850,
 		"buildingCost": 375,
@@ -947,7 +933,7 @@
 		]
 	},
 	{
-		"columnNumber": 21,
+		"columnNumber": 23,
 		"era": "Paleogene period",
 		"techCost": 900,
 		"buildingCost": 400,
@@ -971,7 +957,7 @@
 		]
 	},
 	{
-		"columnNumber": 22,
+		"columnNumber": 24,
 		"era": "Paleogene period",
 		"techCost": 950,
 		"buildingCost": 400,
@@ -1018,7 +1004,7 @@
 		]
 	},
 	{
-		"columnNumber": 23,
+		"columnNumber": 25,
 		"era": "Miocene",
 		"techCost": 1000,
 		"buildingCost": 425,
@@ -1051,7 +1037,7 @@
 		]
 	},
 	{
-		"columnNumber": 24,
+		"columnNumber": 26,
 		"era": "Miocene",
 		"techCost": 1200,
 		"buildingCost": 450,
@@ -1087,7 +1073,7 @@
 		]
 	},
 	{
-		"columnNumber": 25,
+		"columnNumber": 27,
 		"era": "Pliocene",
 		"techCost": 1350,
 		"buildingCost": 475,
@@ -1107,7 +1093,7 @@
 		]
 	},
 	{
-		"columnNumber": 26,
+		"columnNumber": 28,
 		"era": "Pliocene",
 		"techCost": 1800,
 		"buildingCost": 500,
@@ -1131,7 +1117,7 @@
 		]
 	},
 	{
-		"columnNumber": 27,
+		"columnNumber": 29,
 		"era": "Pleistocene",
 		"techCost": 2200,
 		"buildingCost": 525,
@@ -1165,7 +1151,7 @@
 		]
 	},
 	{
-		"columnNumber": 28,
+		"columnNumber": 30,
 		"era": "Pleistocene",
 		"techCost": 2500,
 		"buildingCost": 550,
@@ -1212,7 +1198,7 @@
 		]
 	},
 	{
-		"columnNumber": 29,
+		"columnNumber": 31,
 		"era": "Holocene",
 		"techCost": 3000,
 		"buildingCost": 575,
@@ -1250,7 +1236,7 @@
 		]
 	},
 	{
-		"columnNumber": 30,
+		"columnNumber": 32,
 		"era": "Holocene",
 		"techCost": 3500,
 		"buildingCost": 600,
@@ -1285,7 +1271,7 @@
 		]
 	},
 	{
-		"columnNumber": 31,
+		"columnNumber": 33,
 		"era": "Holocene",
 		"techCost": 6250,
 		"buildingCost": 625,
@@ -1301,7 +1287,7 @@
 		]
 	},
 	{
-		"columnNumber": 32,
+		"columnNumber": 34,
 		"era": "Neolithic",
 		"techCost": 6250,
 		"buildingCost": 50,
@@ -1316,7 +1302,7 @@
 		]
 	},
 	{
-		"columnNumber": 33,
+		"columnNumber": 35,
 		"era": "Neolithic",
 		"techCost": 6250,
 		"buildingCost": 800,
@@ -1345,7 +1331,7 @@
 		]
 	},
 	{
-		"columnNumber": 34,
+		"columnNumber": 36,
 		"era": "Neolithic",
 		"techCost": 6250,
 		"buildingCost": 900,
@@ -1390,7 +1376,7 @@
 		]
 	},
 	{
-		"columnNumber": 35,
+		"columnNumber": 37,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1000,
@@ -1430,7 +1416,7 @@
 		]
 	},
 	{
-		"columnNumber": 36,
+		"columnNumber": 38,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1100,
@@ -1489,7 +1475,7 @@
 		]
 	},
 	{
-		"columnNumber": 37,
+		"columnNumber": 39,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1200,
@@ -1524,7 +1510,7 @@
 		]
 	},
 	{
-		"columnNumber": 38,
+		"columnNumber": 40,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1300,
@@ -1561,7 +1547,7 @@
 		]
 	},
 	{
-		"columnNumber": 39,
+		"columnNumber": 41,
 		"era": "Medieval era",
 		"techCost": 6250,
 		"buildingCost": 1400,
@@ -1607,7 +1593,7 @@
 		]
 	},
 	{
-		"columnNumber": 40,
+		"columnNumber": 42,
 		"era": "Medieval era",
 		"techCost": 6250,
 		"buildingCost": 1500,
@@ -1646,7 +1632,7 @@
 		]
 	},
 	{
-		"columnNumber": 41,
+		"columnNumber": 43,
 		"era": "Discovery era",
 		"techCost": 6250,
 		"buildingCost": 1600,
@@ -1681,7 +1667,7 @@
 		]
 	},
 	{
-		"columnNumber": 42,
+		"columnNumber": 44,
 		"era": "Discovery era",
 		"techCost": 6350,
 		"buildingCost": 1700,
@@ -1731,7 +1717,7 @@
 		]
 	},
 	{
-		"columnNumber": 43,
+		"columnNumber": 45,
 		"era": "Scientific era",
 		"techCost": 6350,
 		"buildingCost": 1800,
@@ -1786,7 +1772,7 @@
 		]
 	},
 	{
-		"columnNumber": 44,
+		"columnNumber": 46,
 		"era": "Scientific era",
 		"techCost": 6350,
 		"buildingCost": 1900,
@@ -1825,7 +1811,7 @@
 		]
 	},
 	{
-		"columnNumber": 45,
+		"columnNumber": 47,
 		"era": "Industrial era",
 		"techCost": 6350,
 		"buildingCost": 2000,
@@ -1875,7 +1861,7 @@
 		]
 	},
 	{
-		"columnNumber": 46,
+		"columnNumber": 48,
 		"era": "Industrial era",
 		"techCost": 6350,
 		"buildingCost": 2100,
@@ -1930,7 +1916,7 @@
 		]
 	},
 	{
-		"columnNumber": 47,
+		"columnNumber": 49,
 		"era": "Atomic era",
 		"techCost": 6350,
 		"buildingCost": 2200,
@@ -1975,7 +1961,7 @@
 		]
 	},
 	{
-		"columnNumber": 48,
+		"columnNumber": 50,
 		"era": "Atomic era",
 		"techCost": 6350,
 		"buildingCost": 2300,
@@ -2016,7 +2002,7 @@
 		]
 	},
 	{
-		"columnNumber": 49,
+		"columnNumber": 51,
 		"era": "Information era",
 		"techCost": 6350,
 		"buildingCost": 2400,
@@ -2050,7 +2036,7 @@
 		]
 	},
 	{
-		"columnNumber": 50,
+		"columnNumber": 52,
 		"era": "Information era",
 		"techCost": 6350,
 		"buildingCost": 2500,
@@ -2090,7 +2076,7 @@
 		]
 	},
 	{
-		"columnNumber": 51,
+		"columnNumber": 53,
 		"era": "Contemporary era",
 		"techCost": 6350,
 		"buildingCost": 2600,
@@ -2134,7 +2120,7 @@
 		]
 	},
 	{
-		"columnNumber": 52,
+		"columnNumber": 54,
 		"era": "Contemporary era",
 		"techCost": 6350,
 		"buildingCost": 2700,
@@ -2178,7 +2164,7 @@
 		]
 	},
 	{
-		"columnNumber": 53,
+		"columnNumber": 55,
 		"era": "Pre Future era",
 		"techCost": 6350,
 		"buildingCost": 2800,
@@ -2212,7 +2198,7 @@
 		]
 	},
 	{
-		"columnNumber": 54,
+		"columnNumber": 56,
 		"era": "Pre Future era",
 		"techCost": 6350,
 		"buildingCost": 2900,
@@ -2256,7 +2242,7 @@
 		]
 	},
 	{
-		"columnNumber": 55,
+		"columnNumber": 57,
 		"era": "Future era",
 		"techCost": 6350,
 		"buildingCost": 3000,
@@ -2275,7 +2261,7 @@
 		]
 	},
 	{
-		"columnNumber": 56,
+		"columnNumber": 58,
 		"era": "Future era",
 		"techCost": 10000,
 		"buildingCost": 3000,
