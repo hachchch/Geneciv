@@ -90,7 +90,7 @@
 		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone"],
 		"turnsToBuild": 7,
 		"gold": 1,
-		"techRequired": "Coral",
+		"techRequired": "Radial Algae",
 		"uniques": ["Algae","Proterozoic","[+1 Gold] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]",
 		"[+2 Gold] <in [Atoll] tiles>",
 		"[+1 Gold] <in [Neritic zone] tiles>"],
