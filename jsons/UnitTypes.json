@@ -8,7 +8,7 @@
 		"name": "Cell",
 		"movementType": "Land",
 		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
-		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit> <when above [99] HP>"],
+		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
 	},
 	{
 		"name": "Amphibian",
