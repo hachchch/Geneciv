@@ -106,6 +106,19 @@
 		"uniques": ["Only available <starting from the [Silurian period]>","Must be next to [Coast]"]
 		"specialistSlots": {"Creature": 1},
 	},
+	// Neuroanatomy
+	{
+		"name": "Pallium",
+		"requiredTech": "Brain",
+		"gold": 2,
+		"uniques": ["[+15]% [Gold] [in this city]"]
+	},
+	{
+		"name": "Neural Network",
+		"isNationalWonder": true,
+		"requiredTech": "Brain",
+		"uniques": ["Requires a [Pallium] in all cities","Cost increases by [30] per owned city","[+50]% [Gold] [in this city]"]
+	},
 	// Defensive
 	{
 		"name": "Metabolism",
@@ -161,6 +174,17 @@
 	},
 	// Land Arthropod
 	{
+		"name": "Myriapod",
+		"cityStrength": 1,
+                "cityHealth": 50,
+		"maintenance": 1,
+		"specialistSlots": {"Creature": 1},
+		"requiredTech": "Land Arthropod",
+		"production": 3,
+		// "cost": 350,
+		"uniques": ["Bugs","[+5]% [Production] [in all cities]"]
+	},
+	{
 		"name": "Beetles",
 		"cityStrength": 1,
                 "cityHealth": 50,
@@ -169,7 +193,7 @@
 		"requiredTech": "Insect",
 		"production": 3,
 		// "cost": 350,
-		"uniques": [/*"It's Bugs. Not Musician",*/"Bugs","[+5]% [Production] [in all cities]"]
+		"uniques": ["Bugs","[+5]% [Production] [in all cities]"]
 	},
 	{
 		"name": "Uniramia",
@@ -316,7 +340,7 @@
 		"name": "A Variety of Marine Worms",
 		"culture": 2,
 		"science": 2,
-		"requiredTech": "Swimming",
+		"requiredTech": "Flatworm",
 		"uniques": ["WIP!",
 		"All newly-trained [Hallucigenia] units [in this city] receive the [Benthos] promotion"],
 	},
