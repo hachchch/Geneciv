@@ -643,6 +643,11 @@
 		"wonderCost": 350,
 		"techs": [
 			{
+				"name": "Land Arthropod",
+				"row": 1,
+				"prerequisites": ["Spore Plant","Trilobite"]
+			},
+			{
 				"name": "Brain",
 				"row": 2,
 				"prerequisites": ["Eye","Cephalization","Nerve Cord"]
@@ -677,7 +682,7 @@
 			{
 				"name": "Charophyte",
 				"row": 1,
-				"prerequisites": ["Spore Plant"]
+				"prerequisites": ["Land Arthropod"]
 			},
 			{
 				"name": "Gills",
