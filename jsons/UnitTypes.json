@@ -65,12 +65,12 @@
 	{
 		"name": "Glider",
 		"movementType": "Air",
-		"uniques": ["Metazoan","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"]
+		"uniques": ["Metazoan","Instantly consumes [1] [Oxygen] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end> <after discovering [Lung]>"]
 	},
 	{
 		"name": "Birds",
 		"movementType": "Air",
-		"uniques": ["Metazoan","[+3] Sight","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
+		"uniques": ["Metazoan","[+3] Sight","Instantly consumes [1] [Oxygen] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end> <after discovering [Lung]>"],
 	},
 	{
 		"name": "Water Animal",
