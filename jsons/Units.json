@@ -283,8 +283,8 @@
 		"strength": 18,
 		"cost": 120,
 		"requiredTech": "Chloroplasts",
-		"obsoleteTech": "Lungfish",
-		// "upgradesTo": "Tetrapod",
+		"obsoleteTech": "Land Arthropod",
+		"upgradesTo": "Chelicerate",
 		"uniques": ["[-50]% Strength <vs [Water] units>"/*,"Only available <in cities without a [Littoral Environment]>"*/,"Can move after attacking","[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
@@ -294,6 +294,57 @@
 			},
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Protozoa",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	// Land Arthropod
+	{
+		"name": "Chelicerate",
+		"unitType": "Land Arthropod",
+		"movement": 2,
+		"strength": 18,
+		"cost": 150,
+		"requiredTech": "Land Arthropod",
+		"obsoleteTech": "Lungfish",
+		"upgradesTo": "Tetrapod",
+		"uniques": ["[+25]% Strength <vs cities>","[+100]% Strength <vs [Cell] units>","Can move after attacking","[-1] Sight"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Chelicerate",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Chelicerate",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Mandibulate",
+		"unitType": "Land Arthropod",
+		"movement": 2,
+		"strength": 18,
+		"cost": 125,
+		"requiredTech": "Land Arthropod",
+		"obsoleteTech": "Lungfish",
+		"upgradesTo": "Tetrapod",
+		"uniques": ["[+25]% Strength <vs cities>","Can move after attacking","[-1] Sight"],
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Mandibulate",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Mandibulate",
 				"imageSize": 192
 			},
 			{
