@@ -575,7 +575,7 @@
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Streptophyta"],
+				"prerequisites": ["Radial Algae"],
 			},
 			{
 				"name": "Cephalopod",
