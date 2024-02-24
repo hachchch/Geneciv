@@ -32,7 +32,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Aves","Amphibian","Birds","Cell","Fishes","Glider","Herbivore","Hominiae","Mammal","Particle","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
+		"unitTypes": ["Aves","Amphibian","Birds","Cell","Fishes","Glider","Herbivore","Hominiae","Mammal","Particle","Reptiles","Water Animal","Water Arthropod","Land Arthropod","Water Mammal","Water Reptiles","Human"],
 		"row": 1,
 		"column": 0,
 	},
@@ -789,7 +789,7 @@
 		"name": "Compound Eye",
 		"row": 435,
 		"column": 4,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Water Arthropod","Land Arthropod"],
 		"prerequisites": ["Oral Cone III","Frontal Appendage III"],
 		"uniques": ["[+1] Sight"]
 	},
@@ -830,14 +830,14 @@
 		"row": 436,
 		"column": 4,
 		"unitTypes": ["Water Arthropod"],
-		"prerequisites": ["Frontal Appendage III","Setal Blades II"],
+		"prerequisites": ["Frontal Appendage III","Setal Blades II","Land Arthropod"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
 	{
 		"name": "Frontal Appendage I",
 		"row": 435,
 		"column": 1,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Water Arthropod","Land Arthropod"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
@@ -845,14 +845,14 @@
 		"row": 435,
 		"column": 2,
 		"prerequisites": ["Frontal Appendage I"],
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Water Arthropod","Land Arthropod"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
 		"name": "Frontal Appendage III",
 		"row": 435,
 		"column": 3,
-		"prerequisites": ["Frontal Appendage II"],
+		"prerequisites": ["Frontal Appendage II","Land Arthropod"],
 		"unitTypes": ["Water Arthropod"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
