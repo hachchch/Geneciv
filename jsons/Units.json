@@ -311,7 +311,7 @@
 		"cost": 150,
 		"requiredTech": "Land Arthropod",
 		"obsoleteTech": "Lungfish",
-		"upgradesTo": "Tetrapod",
+		// "upgradesTo": "Tetrapod",
 		"uniques": ["[+25]% Strength <vs cities>","[+100]% Strength <vs [Cell] units>","Can move after attacking","[-1] Sight"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -336,7 +336,7 @@
 		"cost": 125,
 		"requiredTech": "Land Arthropod",
 		"obsoleteTech": "Lungfish",
-		"upgradesTo": "Tetrapod",
+		// "upgradesTo": "Tetrapod",
 		"uniques": ["[+25]% Strength <vs cities>","Can move after attacking","[-1] Sight"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
