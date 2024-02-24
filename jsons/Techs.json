@@ -504,9 +504,9 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Sea Pen",
+				"name": "Cambrian Flora",
 				"row": 1,
-				"prerequisites": ["Coral","Chloroplasts"]
+				"prerequisites": ["Chloroplasts"]
 			},
 			{
 				"name": "Bilateral Symmetry",
@@ -575,7 +575,7 @@
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Sea Pen"],
+				"prerequisites": ["Cambrian Flora"],
 			},
 			{
 				"name": "Cephalopod",
@@ -675,7 +675,7 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Sporophyte",
+				"name": "Charophyte",
 				"row": 1,
 				"prerequisites": ["Spore Plant"]
 			},
@@ -734,7 +734,7 @@
 				"name": "Fern",
 				"row": 1,
 				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
-				"prerequisites": ["Sporophyte"],
+				"prerequisites": ["Charophyte"],
 				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
 			{
