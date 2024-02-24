@@ -802,7 +802,7 @@
 				"name": "Lung",
 				"row": 5,
 				"prerequisites": ["Lungfish"],
-				"uniques": ["Comment [[Atmosphere] production from [Amphibian], [Reptiles], [Mammal] increases by +100% ([Oxygen] consumption does not increase)]"]
+				"uniques": ["Comment [[Atmosphere] production from [Amphibian], [Reptiles], [Mammal], [Birds] increases by +100% ([Oxygen] consumption does not increase)]"]
 			},
 		]
 	},
