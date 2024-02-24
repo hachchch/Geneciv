@@ -35,9 +35,27 @@
 		]
 	},
 	{
+		"name": "Liverworts",
+		"shortcutKey": "L",
+		"techRequired": "First Plant",
+		"food": 1,
+		"uniques": ["Costs [1] [Gold] per turn","Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
+		"turnsToBuild": 5,
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/GrassLand",
+				"imageSize": 192,
+			},
+			{
+				"text": "",
+			},
+		]
+	},
+	{
 		"name": "GrassLand",
 		"shortcutKey": "G",
-		"techRequired": "First Plant",
+		"techRequired": "Charophyte",
 		"food": 1,
 		"uniques": ["Costs [1] [Gold] per turn","Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 		"terrainsCanBeBuiltOn": ["Flood plains","Tundra","Grassland","Plains","Hill"],
