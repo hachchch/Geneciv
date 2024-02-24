@@ -325,33 +325,11 @@
 		]
 	},
 	{
-		"name": "Crustacean",
-		"unitType": "Water Arthropod",
-		"cost": 115,
-		"strength": 28,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
-		"movement": 2,
-		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
-		"attackSound": "whoo",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
-				"imageSize": 192
-			},
-		]
-	},
-	{
 		"name": "Radiodonta",
 		"unitType": "Water Arthropod",
 		"cost": 95,
-		"strength": 24,
-		"obsoleteTech": "Exoskeleton",
+		"strength": 28,
+		"obsoleteTech": "Metamorphosis",
 		"upgradesTo": "Crustacean",
 		"movement": 3,
 		"requiredTech": "Articulation",
@@ -371,12 +349,12 @@
 	{
 		"name": "Amplectobelua",
 		"unitType": "Water Arthropod",
-		"cost": 135,
+		"cost": 95,
 		"strength": 24,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
+		"obsoleteTech": "Metamorphosis",
+		"upgradesTo": "Crustacean",
 		"movement": 2,
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Articulation",
 		"uniques": ["Cambrian","Jawless","[+35]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -393,12 +371,12 @@
 	{
 		"name": "Hurdiidae",
 		"unitType": "Water Arthropod",
-		"cost": 125,
+		"cost": 95,
 		"strength": 24,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
+		"obsoleteTech": "Metamorphosis",
+		"upgradesTo": "Crustacean",
 		"movement": 2,
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Articulation",
 		"uniques": ["Cambrian","Jawless","[+200]% Strength <vs [Cell] units>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -415,12 +393,12 @@
 	{
 		"name": "Tamisiocaris",
 		"unitType": "Water Arthropod",
-		"cost": 115,
+		"cost": 95,
 		"strength": 24,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
+		"obsoleteTech": "Metamorphosis",
+		"upgradesTo": "Crustacean",
 		"movement": 2,
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Articulation",
 		"uniques": ["Cambrian","Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -439,12 +417,12 @@
 		"uniqueTo": "Burgess",
 		"replaces": "Crustacean",
 		"unitType": "Water Arthropod",
-		"cost": 120,
+		"cost": 95,
 		"strength": 28,
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
+		"obsoleteTech": "Metamorphosis",
+		"upgradesTo": "Crustacean",
 		"movement": 2,
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Articulation",
 		"promotions": ["Oral Cone I"],
 		"uniques": ["Cambrian","Jawless","[+50]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
@@ -462,12 +440,12 @@
 	{
 		"name": "Hallucigenia",
 		"unitType": "Water Arthropod",
-		"cost": 120,
+		"cost": 100,
 		"strength": 17,
 		"range": 1,
 		"rangedStrength": 9,
 		"movement": 2,
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Articulation",
 		"uniques": ["Cambrian","Jawless","[+500]% Strength <when attacking> <vs cities>","[-1] Sight","[+1] Sight <after discovering [Pigment Spot]>","Only available <after adopting [Lobopodians]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -491,9 +469,9 @@
 		"range": 1,
 		"movement": 1,
 		"requiredTech": "Swimming",
-		"obsoleteTech": "Modern Ocean",
-		"upgradesTo": "Modern Jellyfish",
-		"uniques": ["[-2] Sight","Can move after attacking","Limited to [1] per Civilization <for [AI player]> <hidden from users> <starting from the [Silurian period]>"],
+		"obsoleteTech": "Cephalopod",
+		"upgradesTo": "Cephalopod",
+		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -521,7 +499,7 @@
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
 		"requiredTech": "Flatworm",
-		"uniques": ["Cambrian","Ordovician","Devonian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"uniques": ["Cambrian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -548,7 +526,7 @@
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
 		"requiredTech": "Flatworm",
-		"uniques": ["Cambrian","Ordovician","Devonian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"uniques": ["Cambrian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -565,11 +543,63 @@
 		]
 	},
 	{
+		"name": "Cephalopod",
+		"unitType": "Water Animal",
+		"strength": 30,
+		"rangedStrenth": 32,
+		"range": 1,
+		"cost": 125,
+		"movement": 2,
+		"obsoleteTech": "Modern Ocean",
+		"upgradesTo": "Modern Jellyfish",
+		"requiredTech": "Cephalopod",
+		"attackSound": "whoo",
+		"uniques": ["Ordvician","[-1] Sight <before discovering [Pigment Spot]>","Limited to [4] per Civilization <for [AI player]> <hidden from users>"],
+	},
+	{
+		"name": "Orthoceras",
+		"replaces": "Cephalopod",
+		"uniqueTo": "Hirnantian",
+		"unitType": "Water Animal",
+		"strength": 45,
+		"rangedStrenth": 32,
+		"range": 1,
+		"cost": 125,
+		"movement": 2,
+		"obsoleteTech": "Modern Ocean",
+		"upgradesTo": "Modern Jellyfish",
+		"requiredTech": "Cephalopod",
+		"attackSound": "whoo",
+		"uniques": ["Ordvician","[-1] Sight <before discovering [Pigment Spot]>","Limited to [4] per Civilization <for [AI player]> <hidden from users>"],
+	},
+	{
+		"name": "Crustacean",
+		"unitType": "Water Arthropod",
+		"cost": 115,
+		"strength": 32,
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"movement": 2,
+		"requiredTech": "Metamorphosis",
+		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
+				"imageSize": 192
+			},
+		]
+	},
+	{
 		"name": "Fish",
 		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
 		"cost": 150,
-		"strength": 32,
+		"strength": 48,
 		"movement": 2,
 		"requiredTech": "Fish",
 		"uniques": ["Cambrian","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
@@ -592,40 +622,11 @@
 		]
 	},
 	{
-		"name": "Arthrodira",
-		"obsoleteTech": "Predation",
-		"upgradesTo": "Shark",
-		"unitType": "Fishes",
-		"cost": 300,
-		"strength": 40,
-		"movement": 2,
-		"requiredResource": "Super Creature Stock",
-		"requiredTech": "Fish",
-		"uniques": ["Cambrian","Predator","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
-		"attackSound": "Splash",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Arthrodira",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Arthrodira",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "during their thriving, the arthrodires were one of the most diverse and numerically successful, if not the most successful, vertebrate orders of the Devonian, occupying a vast spectrum of roles from apex predator to detritus-nibbling bottom dweller. Despite their success, the arthrodires were one of many groups eliminated by the environmental catastrophes of the Late Devonian extinction, allowing other fish such as sharks to diversify into the vacated ecological niches during the Carboniferous period."
-			}
-		]
-	},
-	{
 		"name": "Shark",
 		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
 		"cost": 340,
-		"strength": 45,
+		"strength": 60,
 		"movement": 5,
 		"requiredTech": "Predation",
 		"attackSound": "Splash",
@@ -653,7 +654,7 @@
 		"obsoleteTech": "Modern Ocean",
 		"unitType": "Fishes",
 		"cost": 280,
-		"strength": 50,
+		"strength": 75,
 		"movement": 5,
 		"requiredResource": "Super Creature Stock",
 		"uniqueTo": "Euramerica",
@@ -683,8 +684,8 @@
 		"obsoleteTech": "Sailing",
 		"unitType": "Water Animal",
 		"cost": 840,
-		"strength": 50,
-		"rangedStrength": 75,
+		"strength": 75,
+		"rangedStrength": 112,
 		"range": 2,
 		"movement": 2,
 		"requiredTech": "Modern Ocean",
@@ -708,7 +709,7 @@
 		"obsoleteTech": "Sailing",
 		"unitType": "Modern Fishes",
 		"cost": 860,
-		"strength": 70,
+		"strength": 105,
 		"movement": 5,
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
@@ -1766,7 +1767,7 @@
 		"name": "Anomalocaris",
 		"cost": 250,
 		"unitType": "Water Arthropod",
-		"strength": 38,
+		"strength": 35,
 		"movement": 2,
 		"attackSound": "Splash",
 		"promotions": ["Frontal Appendage I"],
@@ -1776,12 +1777,55 @@
 		"requiredTech": "Articulation",
 	},
 	{
+		"name": "Endoceras",
+		"strength": 40,
+		"unitType": "Water Animal",
+		"rangedStrength": 50,
+		"range": 1,
+		"movement": 2,
+		"uniques": ["Ordvician","Predator","Never appears as a Barbarian unit <hidden from users>"],
+		"requiredResource": "Super Creature Stock",
+		"obsoleteTech": "Predation",
+		"requiredTech": "Cephalopod",
+		"attackSound": "Whoo",
+		"uniques": ["Predator"]
+	},
+	{
+		"name": "Arthrodira",
+		"obsoleteTech": "Predation",
+		"upgradesTo": "Shark",
+		"unitType": "Fishes",
+		"cost": 300,
+		"strength": 60,
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"requiredTech": "Fish",
+		"uniques": ["Cambrian","Predator","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Arthrodira",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Arthrodira",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "during their thriving, the arthrodires were one of the most diverse and numerically successful, if not the most successful, vertebrate orders of the Devonian, occupying a vast spectrum of roles from apex predator to detritus-nibbling bottom dweller. Despite their success, the arthrodires were one of many groups eliminated by the environmental catastrophes of the Late Devonian extinction, allowing other fish such as sharks to diversify into the vacated ecological niches during the Carboniferous period."
+			}
+		]
+	},
+	{
 		"name": "Megalodon",
 		"obsoleteTech": "Plesiosaur",
 		"requiredTech": "Predation",
 		"unitType": "Fishes",
 		"cost": 500,
-		"strength": 65,
+		"strength": 95,
 		"movement": 4,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
@@ -1801,7 +1845,7 @@
 		"name": "Mosasaur",
 		"unitType": "Water Reptiles",
 		"cost": 940,
-		"strength": 100,
+		"strength": 150,
 		"requiredTech": "Plesiosaur",
 		"movement": 2,
 		"requiredResource": "Super Creature Stock",
