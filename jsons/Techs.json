@@ -504,9 +504,9 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Cambrian Flora",
+				"name": "Radial Algae",
 				"row": 1,
-				"prerequisites": ["Chloroplasts"]
+				"prerequisites": ["Radial Symmetry","Chloroplasts"]
 			},
 			{
 				"name": "Bilateral Symmetry",
@@ -575,7 +575,7 @@
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Cambrian Flora"],
+				"prerequisites": ["Streptophyta"],
 			},
 			{
 				"name": "Cephalopod",
