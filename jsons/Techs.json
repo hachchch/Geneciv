@@ -504,6 +504,11 @@
 		"wonderCost": 300,
 		"techs": [
 			{
+				"name": "Sea Pen",
+				"row": 1,
+				"prerequisites": ["Coral","Chloroplasts"]
+			},
+			{
 				"name": "Bilateral Symmetry",
 				"row": 4,
 				"prerequisites": ["Radial Symmetry","Flatworm"],
@@ -568,6 +573,11 @@
 		"wonderCost": 300,
 		"techs": [
 			{
+				"name": "First Plant",
+				"row": 1,
+				"prerequisites": ["Sea Pen"],
+			},
+			{
 				"name": "Cephalopod",
 				"row": 6,
 				"prerequisites": ["Exoskeleton"],
@@ -592,6 +602,13 @@
 		"buildingCost": 175,
 		"wonderCost": 300,
 		"techs": [
+			{
+				"name": "Spore Plant",
+				"row": 1,
+				"prerequisites": ["First Plant"],
+				"uniques": ["Give sight to settlers","[+1 Food] from [Grassland] tiles [in all cities]",
+				"[+1 Production] from [Plains] tiles [in all cities]"]
+			},
 			{
 				"name": "Trilobite",
 				"row": 6,
@@ -631,11 +648,6 @@
 				"prerequisites": ["Eye","Cephalization","Nerve Cord"]
 			},
 			{
-				"name": "First Plant",
-				"row": 1,
-				"prerequisites": ["Chloroplasts","Trilobite"],
-			},
-			{
 				"name": "Fish",
 				"row": 6,
 				"uniques": ["They are still jawless fishes (-25% Attack Strength) but after you discovering Jaw, their debuff will disappear"],
@@ -663,17 +675,15 @@
 		"wonderCost": 350,
 		"techs": [
 			{
+				"name": "Sporophyte",
+				"row": 1,
+				"prerequisites": ["Spore Plant"]
+			},
+			{
 				"name": "Gills",
 				"row": 5,
 				"prerequisites": ["Fish"],
 				"uniques": ["Comment [[Atmosphere] production from [Fishes] increases by +100% ([Oxygen] consumption does not increase)]"]
-			},
-			{
-				"name": "Spore Plant",
-				"row": 1,
-				"prerequisites": ["First Plant"],
-				"uniques": ["Give sight to settlers","[+1 Food] from [Grassland] tiles [in all cities]",
-				"[+1 Production] from [Plains] tiles [in all cities]"]
 			},
 			{
 				"name": "Fins",
@@ -724,7 +734,7 @@
 				"name": "Fern",
 				"row": 1,
 				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
-				"prerequisites": ["Spore Plant"],
+				"prerequisites": ["Sporophyte"],
 				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
 			{
