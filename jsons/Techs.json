@@ -665,7 +665,7 @@
 				"name": "Gills",
 				"row": 5,
 				"prerequisites": ["Fish"],
-				"uniques": ["Become half of the oxygen consumed by the fish unit."]
+				"uniques": ["Comment [[Atmosphere] production from [Fishes] increases by +100% ([Oxygen] consumption does not increase)]"]
 			},
 			{
 				"name": "Spore Plant",
@@ -802,7 +802,7 @@
 				"name": "Lung",
 				"row": 5,
 				"prerequisites": ["Lungfish"],
-				"uniques": ["[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"]
+				"uniques": ["Comment [[Atmosphere] production from [Amphibian], [Reptiles], [Mammal] increases by +100% ([Oxygen] consumption does not increase)]"]
 			},
 		]
 	},
