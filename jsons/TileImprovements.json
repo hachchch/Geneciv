@@ -130,7 +130,7 @@
 		"food": 2,
 		"techRequired": "Chloroplasts",
 		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone"],
-		"uniques": ["Algae","Proterozoic","Provides [1] [Oxygen]"],
+		"uniques": ["Coral","Proterozoic","Provides [1] [Oxygen]"],
 	},
 	/*
 	{
