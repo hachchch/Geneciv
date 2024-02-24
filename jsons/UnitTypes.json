@@ -89,6 +89,11 @@
 		"uniques": ["Metazoan","Can enter ice tiles","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Water] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Water] tile>"]
 	},
 	{
+		"name": "Land Arthropod",
+		"movementType": "Land",
+		"uniques": ["Metazoan","This Unit takes [35] damage <upon ending a turn in a [Water] tile>","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Land] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Land] tile>"]
+	},
+	{
 		"name": "Aves",
 		"uniques": ["Metazoan","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Birds","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <after discovering [Lung]> <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
 		"movementType": "Land"
