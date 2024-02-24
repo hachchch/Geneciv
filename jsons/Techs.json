@@ -581,7 +581,7 @@
 				"name": "Compound Eye",
 				"row": 3,
 				"prerequisites": ["Pigment Spot"],
-				"uniques": ["+1 sight for Water Animals"]
+				"uniques": ["[+1] Sight <for [Water Arthropod] units>"]
 			},
 		]
 	},
@@ -595,13 +595,14 @@
 			{
 				"name": "Trilobite",
 				"row": 6,
-				"prerequisites": ["Cephalopod"],
+				"prerequisites": ["Cephalopod","Metamorphosis"],
 				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
 			},
 			{
 				"name": "Plated Armour",
 				"row": 8,
 				"prerequisites": ["Metamorphosis"],
+				"uniques": ["[+25]% Strength <when defending> <vs [Jawless] units> <for [All] units>"]
 			},
 			{
 				"name": "Cephalization",
