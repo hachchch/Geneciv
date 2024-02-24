@@ -829,8 +829,8 @@
 		"name": "Ecdysis",
 		"row": 436,
 		"column": 4,
-		"unitTypes": ["Water Arthropod"],
-		"prerequisites": ["Frontal Appendage III","Setal Blades II","Land Arthropod"],
+		"unitTypes": ["Water Arthropod","Land Arthropod"],
+		"prerequisites": ["Frontal Appendage III","Setal Blades II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
 	{
@@ -852,8 +852,8 @@
 		"name": "Frontal Appendage III",
 		"row": 435,
 		"column": 3,
-		"prerequisites": ["Frontal Appendage II","Land Arthropod"],
-		"unitTypes": ["Water Arthropod"],
+		"prerequisites": ["Frontal Appendage II"],
+		"unitTypes": ["Water Arthropod","Land Arthropod"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	// Anti-Something
@@ -913,7 +913,7 @@
 		"column": 120,
 		"row": 1,
 		// "prerequisites": ["Dinosauria Families"],
-		"uniques": ["Only available <when [Dinosaur]>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
+		"uniques": ["Only available <when [Dinosaur]>","[+100]% Strength <vs [Land Arthropod] units>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
 		"unitTypes": ["Reptiles"],
 	},
 	// Aquatic Organisms Swimming Types
