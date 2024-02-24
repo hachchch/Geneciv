@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "Mangrove Forest",
-		"terrainsCanBeBuiltOn": ["Estuaries","Intertidal zone"],
+		"terrainsCanBeBuiltOn": ["Estuaries","Intertidal zone","Lakes"],
 		"turnsToBuild": 7,
 		"food": 1,
 		"production": 1,
