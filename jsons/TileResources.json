@@ -128,7 +128,7 @@
         },
 	{
 		"name": "Sea Pen",
-		"revealedBy": "Sponge",
+		"revealedBy": "Sea Pen",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Aphotic zone","Mesopelagic zone","Bathypelagic zone"],
 		"improvedBy": ["Soft Coral","Charnia Forest"],
