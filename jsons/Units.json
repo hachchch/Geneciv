@@ -794,7 +794,7 @@
 		"movement": 1,
 		"requiredTech": "Lungfish",
 		"attackSound": "crrr",
-		"uniques": ["Only available <in cities with a [Littoral Environment]> <after discovering [Reptile]> <hidden from users>","Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"uniques": ["Only available <in cities with a [Littoral Environment]> <hidden from users>","Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
