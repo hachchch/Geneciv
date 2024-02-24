@@ -95,6 +95,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 250,
+		"obsoleteTech": "Human Race",
 		"requiredTech": "Earthworm",
 		"uniques": ["Can build [GrassLand] improvements on tiles","Can build [Forests] improvements on tiles","Can build [Lichen] improvements on tiles","[-50]% tile improvement construction time","Uncapturable <before discovering [Human Race]>","No Sight for ever","No Sight <hidden from users> <for [Human player]>",
 		"Turn this tile into a [Plains] tile <in [Desert] tiles> <by consuming this unit>"],
