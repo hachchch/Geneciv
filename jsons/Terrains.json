@@ -147,7 +147,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Coast"],
-		"uniques": ["Brackish water","[+1 Production] <after discovering [Chloroplasts]>","[+2 Production] <after discovering [First Plant]>","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Estuaries] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Fresh water","Rare feature"]
+		"uniques": ["Brackish water","[+1 Production] <after discovering [Chloroplasts]>","[+1 Production] <after discovering [First Plant]>","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Estuaries] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Fresh water","Rare feature"]
 	},
 	{
 		"name": "Hydrothermal vent",
