@@ -1740,6 +1740,62 @@ TileSets/HexaRealm/Tiles/Jungle+City center-Pleistocene
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill-Paleogene period
+  rotate: false
+  xy: 580, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand-Paleogene period
+  rotate: false
+  xy: 580, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill-Paleogene period2
+  rotate: false
+  xy: 580, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand-Paleogene period2
+  rotate: false
+  xy: 580, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill
+  rotate: false
+  xy: 480, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill2
+  rotate: false
+  xy: 480, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand
+  rotate: false
+  xy: 380, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand2
+  rotate: false
+  xy: 380, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests
   rotate: false
   xy: 780, 1593
@@ -1964,21 +2020,14 @@ TileSets/HexaRealm/Tiles/Tundra+GrassLand2
   orig: 64, 73
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Tundra+Forest+City center-Carboniferous period
-  rotate: false
-  xy: 1580, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+City center-Carboniferous period
+TileSets/HexaRealm/Tiles/Snow+City center
   rotate: false
   xy: 1680, 1884
   size: 64, 73
   orig: 64, 73
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Tiles/Tundra+Forest+City center
+TileSets/HexaRealm/Tiles/Tundra+City center
   rotate: false
   xy: 1580, 1884
   size: 64, 73
@@ -2009,6 +2058,27 @@ TileSets/HexaRealm/Tiles/Epipelagic zone
 TileSets/HexaRealm/Tiles/Neritic zone
   rotate: false
   xy: 1780, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Green Algae
+  rotate: false
+  xy: 1680, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Brown Algae
+  rotate: false
+  xy: 1680, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Stromatolites
+  rotate: false
+  xy: 1680, 1184
   size: 64, 73
   orig: 64, 73
   offset: 0, 0
