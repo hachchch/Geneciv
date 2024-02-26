@@ -100,7 +100,7 @@
 		"movement": 2,
 		"cost": 102,
 		"uniques": ["Unbuildable","Founds a new city","Cannot move",
-		"This Unit takes [40] damage <upon ending a turn in a [All] tile>","Turn this tile into a [Photic zone] tile <upon being defeated>","Free [Settler] appears <upon being defeated>","Revert to Settler when die"],
+		"This Unit takes [50] damage <upon ending a turn in a [All] tile>","This Unit takes [50] damage <when below [51] HP>","Turn this tile into a [Photic zone] tile <when below [51] HP>","Free [Settler] appears <when below [51] HP>","Revert to Settler after 1 turns"],
 		"hurryCostModifier": 20
 	},
 	{
