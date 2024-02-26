@@ -1275,17 +1275,17 @@
 	{
 		"name": "Radiodonta",
 		"cost": 95,
-		"uniques": ["Remove [Radiodonta] [in this city] <before discovering [Exoskeleton]>","Only available <for [AI player]> <after discovering [Articulation]> <in cities with a [Littoral Environment]>","Free [Radiodonta] appears <for [AI player]> <hidden from users>"]
+		"uniques": ["Remove [Radiodonta] [in this city] <before discovering [Exoskeleton]>","Only available <after discovering [Articulation]> <in cities with a [Aphotic Environment]>","Free [Radiodonta] appears <for [AI player]> <hidden from users>"]
 	},
 	{
 		"name": "Crustacean",
 		"cost": 115,
-		"uniques": ["Remove [Crustacean] [in this city] <before discovering [Fish]>","Only available <for [AI player]> <after discovering [Exoskeleton]> <in cities with a [Littoral Environment]>","Free [Crustacean] appears <for [AI player]> <hidden from users>"]
+		"uniques": ["Remove [Crustacean] [in this city] <before discovering [Fish]>","Only available <after discovering [Metamorphosis]> <in cities with a [Aphotic Environment]>","Free [Crustacean] appears <for [AI player]> <hidden from users>"]
 	},
 	{
 		"name": "Fish",
 		"cost": 150,
-		"uniques": ["Remove [Fish] [in this city] <before discovering [Predation]>","Only available <for [AI player]> <after discovering [Fish]> <in cities with a [Littoral Environment]>","Free [Fish] appears <for [AI player]> <hidden from users>"]
+		"uniques": ["Remove [Fish] [in this city] <before discovering [Predation]>","Only available <after discovering [Fish]> <in cities with a [Aphotic Environment]>","Free [Fish] appears <for [AI player]> <hidden from users>"]
 	},
 	// General
 	{
