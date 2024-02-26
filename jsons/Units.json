@@ -89,8 +89,8 @@
 		"movement": 2,
 		"cost": 102,
 		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","No sight before discovering Insect","No Sight <hidden from users> <for [Human player]> <before discovering [Spore Plant]>","[-1] Sight <hidden from users> <before discovering [Spore Plant]>",
-		"This Unit gains the [Founds a new city] promotion <by consuming this unit> <in tiles not adjacent to [Friendly Land]> <in tiles not adjacent to [Foreign Land]> <in [Water] tiles>",
-		"This Unit gains the [Founds a new city] promotion <upon ending a turn in a [Water] tile> <in tiles not adjacent to [Friendly Land]> <in tiles not adjacent to [Foreign Land]> <for [AI player]> <with [20]% chance>" // Recognition Aquatic Settling for AI
+		"This Unit gains the [Founds a new city] promotion <by consuming this unit> <in tiles not adjacent to [Friendly Land]> <in tiles not adjacent to [Enemy Land]> <in [Water] tiles>",
+		"This Unit gains the [Founds a new city] promotion <upon ending a turn in a [Water] tile> <in tiles not adjacent to [Friendly Land]> <in tiles not adjacent to [Enemy Land]> <for [AI player]> <with [20]% chance>" // Recognition Aquatic Settling for AI
 		],
 		"hurryCostModifier": 20
 	},
@@ -1841,6 +1841,7 @@
 	},
 	{
 		"name": "Endoceras",
+		"cost": 300,
 		"strength": 40,
 		"unitType": "Water Animal",
 		"rangedStrength": 50,
@@ -1858,7 +1859,7 @@
 		"obsoleteTech": "Predation",
 		"upgradesTo": "Shark",
 		"unitType": "Fishes",
-		"cost": 300,
+		"cost": 400,
 		"strength": 60,
 		"movement": 2,
 		"requiredResource": "Super Creature Stock",
