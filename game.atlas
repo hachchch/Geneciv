@@ -2048,6 +2048,20 @@ TileSets/HexaRealm/Tiles/Photic zone
   orig: 64, 73
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Nutrient Pool
+  rotate: false
+  xy: 1880, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Nutrient Pool+City center
+  rotate: false
+  xy: 1880, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Epipelagic zone
   rotate: false
   xy: 1880, 1784
