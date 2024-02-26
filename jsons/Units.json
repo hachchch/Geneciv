@@ -55,7 +55,7 @@
 		"movement": 2,
 		"hurryCostModifier": 20,
 		"obsoleteTech": "Human Race",
-		"uniques": ["Ordovician","Can design terrestrial environment (such a GrassLand)",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Ordovician","Can design terrestrial environment (such a GrassLand)",
 			"Can build [Liverworts] improvements on tiles <in [Fresh water] tiles> <hidden from users>",
 			"[+75]% tile improvement construction time <in [Hill] tiles> <hidden from users>",
 			// "[-50]% tile improvement construction time <with [1] to [1] neighboring [Vegetation] tiles>", // it should not hidden # not working
@@ -109,7 +109,7 @@
 		"cost": 250,
 		"obsoleteTech": "Human Race",
 		"requiredTech": "Earthworm",
-		"uniques": ["Can build [GrassLand] improvements on tiles","Can build [Forests] improvements on tiles","Can build [Lichen] improvements on tiles","[-50]% tile improvement construction time","Uncapturable <before discovering [Human Race]>","No Sight for ever","No Sight <hidden from users> <for [Human player]>",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Can build [GrassLand] improvements on tiles","Can build [Forests] improvements on tiles","Can build [Lichen] improvements on tiles","[-50]% tile improvement construction time","Uncapturable <before discovering [Human Race]>","No Sight for ever","No Sight <hidden from users> <for [Human player]>",
 		"Turn this tile into a [Plains] tile <in [Desert] tiles> <by consuming this unit>"],
 		"hurryCostModifier": 20
 	},
@@ -323,7 +323,7 @@
 		"requiredTech": "Land Arthropod",
 		"obsoleteTech": "Lungfish",
 		// "upgradesTo": "Tetrapod",
-		"uniques": ["[+25]% Strength <vs cities>","[+100]% Strength <vs [Cell] units>","Can move after attacking","[-1] Sight"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","[+25]% Strength <vs cities>","[+100]% Strength <vs [Cell] units>","Can move after attacking","[-1] Sight"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -348,7 +348,7 @@
 		"requiredTech": "Land Arthropod",
 		"obsoleteTech": "Lungfish",
 		// "upgradesTo": "Tetrapod",
-		"uniques": ["[+25]% Strength <vs cities>","Can move after attacking","[-1] Sight"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","[+25]% Strength <vs cities>","Can move after attacking","[-1] Sight"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
@@ -831,7 +831,7 @@
 		"unitType": "Reptiles",
 		"movement": 2,
 		"cost": 225,
-		"uniques": ["Devonian","Pennsylvanian","Quadrupedal","[+50]% Strength <after discovering [Lung]>","[+1] Movement <after discovering [Legs]>","Can move after attacking <after discovering [Legs]>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Devonian","Pennsylvanian","Quadrupedal","[+50]% Strength <after discovering [Lung]>","[+1] Movement <after discovering [Legs]>","Can move after attacking <after discovering [Legs]>"],
 		"strength": 24,
 		"requiredTech": "Reptile",
 		"attackSound": "crrr",
@@ -859,7 +859,7 @@
 		"strength": 50,
 		"requiredTech": "Archosauria",
 		"attackSound": "whirrs",
-		"uniques": ["Triassic","Predator","Herbivore","Quadrupedal","Bipedal"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Predator","Herbivore","Quadrupedal","Bipedal"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Big Reptile",
@@ -883,7 +883,7 @@
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Triassic","Predator","Bipedal"]
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Predator","Bipedal"]
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Saurischia",
@@ -908,7 +908,7 @@
 		"strength": 50,
 		"cost": 280,
 		"movement": 2,
-		"uniques": ["Triassic","Avemetatarsalia","Predator","Bipedal","[+40]% Strength <when adjacent to a [Theropoda] unit>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Avemetatarsalia","Predator","Bipedal","[+40]% Strength <when adjacent to a [Theropoda] unit>"],
 		"requiredTech": "Dinosaur",
 		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
@@ -925,7 +925,7 @@
 		"strength": 50,
 		"cost": 300,
 		"movement": 2,
-		"uniques": ["Triassic","Bipedal","[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Bipedal","[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
 		"requiredTech": "Dinosaur",
 		"upgradesTo": "Eusuchia",
 		"attackSound": "Slash",
@@ -944,7 +944,7 @@
 		"strength": 50,
 		"cost": 280,
 		"movement": 2,
-		"uniques": ["Triassic","Quadrupedal","Ignores terrain cost","[+1] Sight"/*,"[+2] Movement <in [Hill] tiles>"*/],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Quadrupedal","Ignores terrain cost","[+1] Sight"/*,"[+2] Movement <in [Hill] tiles>"*/],
 		"requiredTech": "Dinosaur",
 		"attackSound": "Slash",
 		"obsoleteTech": "Eutherians",
@@ -968,7 +968,7 @@
 		"strength": 45,
 		"rangedStrength": 50,
 		"range": 1,
-		"uniques": ["Triassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action"],
 		"movement": 2,
 		"obsoleteTech": "Eutherians",
 		"requiredTech": "Dinosaur",
@@ -1045,7 +1045,7 @@
 		"strength": 35,
 		// "rangedStrength": 40,
 		// "range": 1,
-		"uniques": ["Jurassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
 		"movement": 2,
 		"requiredTech": "Herbivore",
 		"unitType": "Herbivore",
@@ -1076,7 +1076,7 @@
 		"obsoleteTech": "Flying",
 		"upgradesTo": "Archeopteryx",
 		"attackSound": "Woosh"
-		"uniques": ["Triassic","Predator"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Predator"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Pterosaur",
@@ -1100,7 +1100,7 @@
 		"requiredTech": "Dinosaur",
 		"obsoleteTech": "Eutherians",
 		"attackSound": "Monster",
-		"uniques": ["Jurassic","Quadrupedal","Armored"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Quadrupedal","Armored"],
 		"promotions": ["Ankylosis I"],
 		"civilopediaText": [
 			{
@@ -1125,7 +1125,7 @@
 		"movement": 1,
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Herbivore","Quadrupedal"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Cretaceous","Herbivore","Quadrupedal"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Triceratops",
@@ -1146,7 +1146,7 @@
 		"attackSound": "Monster",
 		"requiredTech": "Cretaceous Reptiles",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Bipedal","[+30]% Strength <when attacking>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Cretaceous","Bipedal","[+30]% Strength <when attacking>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cretaceous Dinosaur",
@@ -1169,7 +1169,7 @@
 		"cost": 500,
 		"requiredTech": "Grass",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Only available <in cities without a [Cold Environment]> <hidden from users>","Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Cold Environment]> <hidden from users>","Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
 		"promotions": ["Poison I"]
 	},
 	{
@@ -1181,7 +1181,7 @@
 		"movement": 2,
 		"attackSound": "Splash",
 		"promotions": ["Death Roll"],
-		"uniques": ["Only available <in cities with a [Fresh water Environment]> <hidden from users>","Cretaceous","Predator","[+100]% Strength <when fighting in [Fresh water] tiles> <hidden from users>",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities with a [Fresh water Environment]> <hidden from users>","Cretaceous","Predator","[+100]% Strength <when fighting in [Fresh water] tiles> <hidden from users>",
 		"[+100]% Strength <in [Coastal] tiles>","[+100]% Strength <when fighting in [Coastal] tiles> <hidden from users>",
 		"[+1] Movement <in [Fresh water] tiles>","[+1] Movement <in [Coastal] tiles>",
 		"[+200]% Strength <when defending> <when [Embarked]>"],
@@ -1208,7 +1208,7 @@
 		"cost": 500,
 		"requiredTech": "Modern Ocean",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Only available <in cities with a [Fresh water Environment]> <hidden from users>","Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities with a [Fresh water Environment]> <hidden from users>","Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
 		"promotions": ["Shell"]
 	},
 	{
@@ -1230,7 +1230,7 @@
 		"cost": 280,
 		"strength": 45,
 		"attackSound": "Slash",
-		"uniques": ["Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
@@ -1262,7 +1262,7 @@
 		"upgradesTo": "Eutheriodontia",
 		"strength": 55,
 		"requiredTech": "Archosauria",
-		"uniques": ["Permian","P-T","Predator","Quadrupedal"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","P-T","Predator","Quadrupedal"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Cynodontia",
@@ -1288,7 +1288,7 @@
 		"upgradesTo": "Eutheriodontia",
 		"strength": 50,
 		"requiredTech": "Archosauria",
-		"uniques": ["Permian","P-T","Predator","Quadrupedal","[+30]% Strength <when attacking>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","P-T","Predator","Quadrupedal","[+30]% Strength <when attacking>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Therocephalia",
@@ -1310,7 +1310,7 @@
 		"obsoleteTech": "Eutherians",
 		"cost": 280,
 		"strength": 50,
-		"uniques": ["Permian","Quadrupedal","[+1] Sight","[75]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","Quadrupedal","[+1] Sight","[75]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
@@ -1335,7 +1335,7 @@
 		"name": "Glires",
 		"unitType": "Mammal",
 		"strength": 45,
-		"uniques": ["Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
 		"cost": 400,
 		"movement": 3,
 		"obsoleteTech": "Anthropocene",
@@ -1360,7 +1360,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Predator","[+50]% Strength <when attacking>","[-50]% Strength <vs [Air] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Feliform",
@@ -1391,7 +1391,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Only available <in cities without a [Warm Environment]> <hidden from users>","Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Warm Environment]> <hidden from users>","Eocene","Predator","[+50]% Strength <when defending>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Caniform",
@@ -1412,7 +1412,7 @@
 		"strength": 60,
 		"movement": 3,
 		"unitType": "Mammal",
-		"uniques": ["Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Horse",
@@ -1429,7 +1429,7 @@
 		"unitType": "Air Mammal",
 		"strength": 66,
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
 		"cost": 420,
 		"movement": 3,
 		"requiredTech": "Bat",
@@ -1474,7 +1474,7 @@
 		"movement": 2,
 		"requiredTech": "Placenta",
 		"attackSound": "throw",
-		"uniques": ["Miocene","[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Miocene","[25]% Strength when stacked with [Land]","[+150]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Platypus",
@@ -1485,7 +1485,7 @@
 		"movement": 2,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
-		"uniques": ["Only available <in cities with a [Fresh water Environment]> <hidden from users>","Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities with a [Fresh water Environment]> <hidden from users>","Miocene","Transfer Movement to [Embarked]","May attack when embarked","[+50]% Strength <when attacking> <vs [Embarked] units>"]
 	},
 	{
 		"name": "Boar",
@@ -1498,7 +1498,7 @@
 		"movement": 4,
 		"obsoleteTech": "Anthropocene",
 		"unitType": "Mammal",
-		"uniques": ["Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Boar",
@@ -1519,7 +1519,7 @@
 		"movement": 1,
 		"requiredTech": "Placenta",
 		"attackSound": "Slash",
-		"uniques": ["Pleistocene","All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","All healing effects doubled <in [Forests] tiles>","All healing effects doubled <in [Forests] tiles>"]
 	},
 	// Wise Animals
 	{
@@ -1530,7 +1530,7 @@
 		"movement": 3,
 		"requiredTech": "Ape",
 		"obsoleteTech": "Homo Habilis",
-		"uniques": ["Miocene","All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Miocene","All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Ape",
@@ -1579,7 +1579,7 @@
 		"movement": 2,
 		"strength": 50,
 		"attackSound": "nonmetalhit",
-		"uniques": ["Pliocene","[500]% Strength <vs [Glires] units>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pliocene","[500]% Strength <vs [Glires] units>"],
 		"requiredTech": "Australopithecus",
 		"civilopediaText": [
 			{
@@ -1600,7 +1600,7 @@
 		"range": 2,
 		"strength": 50,
 		"rangedStrength": 90,
-		"uniques": ["Pleistocene","[350]% Strength <vs [Glires] units>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","[350]% Strength <vs [Glires] units>"],
 		"requiredTech": "Stone Tools",
 		"attackSound": "Stone",
 		"civilopediaText": [
@@ -1617,7 +1617,7 @@
 	{
 		"name": "Tribesman",
 		"unitType": "Human",
-		"uniques": ["Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>",
 		"Can build [Hunting Spot] improvements on tiles"],
 		"strength": 50,
 		"movement": 2,
@@ -1641,7 +1641,7 @@
 		"attackSound": "arrow",
 		"strength": 100,
 		"movement": 2,
-		"uniques": ["Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
 		"Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
 			{
@@ -1658,7 +1658,7 @@
 		"requiredTech": "Homo Sapiens",
 		"strength": 135,
 		"movement": 2,
-		"uniques": ["Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
 		"Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
 			{
@@ -1675,7 +1675,7 @@
 		"requiredTech": "Homo Neanderthalensis",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["Holocene","[-80]% Strength <vs [Human] units>","Can build [Hunting Spot] improvements on tiles"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[-80]% Strength <vs [Human] units>","Can build [Hunting Spot] improvements on tiles"],
 		"obsoleteTech": "Homo Sapiens Sapiens",
 		"civilopediaText": [
 			{
@@ -1697,7 +1697,7 @@
 		"unitType": "Human",
 		"strength": 170,
 		"movement": 2,
-		"uniques": ["Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]","Can build [Hunting Spot] improvements on tiles"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]","Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Spearman",
@@ -1723,7 +1723,7 @@
 		"obsoleteTech": "Neoaves",
 		"upgradesTo": "Eagle",
 		"attackSound": "Woosh",
-		"uniques": ["Jurassic","Predator"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Predator"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Archeopteryx",
@@ -1746,7 +1746,7 @@
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Neoaves",
 		"attackSound": "Woosh",
-		"uniques": ["Eocene","Predator","[+25]% Strength <vs [Land] units>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Eocene","Predator","[+25]% Strength <vs [Land] units>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Eagle",
@@ -1768,7 +1768,7 @@
 		"attackSound": "crrr",
 		"requiredTech": "Ratite Birds",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>","[75]% chance to intercept air attacks"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>","[75]% chance to intercept air attacks"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/HexaRealm/Units/Galliform",
@@ -1786,7 +1786,7 @@
 		"movement": 1,
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [30]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>","Can perform Air Sweep"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [30]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>","Can perform Air Sweep"],
 		"requiredTech": "Neoaves",
 		"attackSound": "Woosh",
 		"civilopediaText": [
@@ -1823,7 +1823,7 @@
 		"attackSound": "crrr",
 		"requiredTech": "Ratite Birds",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["Birds","Bipedal","Holocene","Only available <before the [Medieval era]>","[75]% chance to intercept air attacks"]
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Birds","Bipedal","Holocene","Only available <before the [Medieval era]>","[75]% chance to intercept air attacks"]
 	},
 	// Great Units
 	{
@@ -1927,7 +1927,7 @@
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Cretaceous","Predator","Bipedal","[+50]% Strength <vs [Armored] units> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Strong Neck","Large Body"],
 		"civilopediaText": [
 			{
@@ -1949,7 +1949,7 @@
 		"movement": 2,
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
-		"uniques": ["Cretaceous","Predator","Bipedal","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Cretaceous","Predator","Bipedal","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
 		"promotions": ["Large Body III"],
 		"civilopediaText": [
 			{
@@ -1997,7 +1997,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
-		"uniques": ["Only available <in cities without a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tiger",
@@ -2022,7 +2022,7 @@
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
 		"requiredResource": "Super Creature Stock",
-		"uniques": ["Only available <in cities with a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities with a [Warm Environment]> <hidden from users>","Pleistocene","Predator","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
@@ -2046,7 +2046,7 @@
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Lion",
-		"uniques": ["Only available <in cities with a [Cold Environment]> <hidden from users>","Pleistocene","Predator","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities with a [Cold Environment]> <hidden from users>","Pleistocene","Predator","Consumes [3] [Super Creature Stock]","Never appears as a Barbarian unit"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Lion",
