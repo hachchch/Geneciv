@@ -90,7 +90,7 @@
 		"cost": 102,
 		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","No sight before discovering Insect","No Sight <hidden from users> <for [Human player]> <before discovering [Spore Plant]>","[-1] Sight <hidden from users> <before discovering [Spore Plant]>",
 		"This Unit gains the [Founds a new city] promotion <by consuming this unit> <within [3] tiles of a [non-[City center]]> <in [Water] tiles>",
-		"This Unit gains the [Founds a new city] promotion <upon ending a turn in a [Water] tile> <within [3] tiles of a [non-[City center]]> <for [AI player]> <with [20]% chances>" // Recognition Aquatic Settling for AI
+		"This Unit gains the [Founds a new city] promotion <upon ending a turn in a [Water] tile> <within [3] tiles of a [non-[City center]]> <for [AI player]> <with [20]% chance>" // Recognition Aquatic Settling for AI
 		],
 		"hurryCostModifier": 20
 	},
