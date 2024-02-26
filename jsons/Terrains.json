@@ -130,6 +130,14 @@
 		"Becomes [Hadopelagic zone] when adjacent to [Abyssopelagic zone]",
 		"Becomes [Demersal zone] when adjacent to [Hadopelagic zone]"]
 	},
+	// Water Related
+	{
+		"name": "Nutrient Pool",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water"],
+		"RGB": [209, 219, 230]
+	},
 	// profitable water features
 	{
 		"name": "Intertidal zone",
