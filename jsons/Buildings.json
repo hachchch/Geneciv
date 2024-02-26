@@ -1646,7 +1646,7 @@
 		"Gain a free [Littoral Environment] [in this city] <in [Coastal] tiles>",
 		"Gain a free [Cold Environment] [in this city] <in [Cold] tiles>",
 		"Gain a free [Fresh water Environment] [in this city] <in [Fresh water] tiles>",
-		"Gain a free [Fresh water Environment] [in this city] <in [Nutrient Pool] tiles>"]
+		"Gain a free [Sea Environment] [in this city] <in [Nutrient Pool] tiles>"]
 	},
 	{
 		"name": "Warm Environment",
