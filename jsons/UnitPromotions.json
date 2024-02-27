@@ -8,6 +8,10 @@
 		"name": "Asexual Reproduction", // Jellyfish
 		"uniques": ["This Unit takes [100] damage","Free [Strobila] appears","Doing so will consume this opportunity to choose a Promotion"]
 	},
+	{
+		"name": "Asexual Reproduction II", // Modern Jellyfish
+		"uniques": ["This Unit takes [100] damage","Free [Modern Strobila] appears","Doing so will consume this opportunity to choose a Promotion"]
+	},
 	// Mammal Types
 	{
 		"name": "Carnivora",
