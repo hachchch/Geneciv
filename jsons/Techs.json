@@ -955,7 +955,7 @@
 			{
 				"name": "Dinosaur",
 				"row": 6,
-				"prerequisites": ["Archosauria","Egg Shell"],
+				"prerequisites": ["Archosauria"],
 			},
 			{
 				"name": "Herbivore",
