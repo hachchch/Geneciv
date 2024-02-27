@@ -89,7 +89,7 @@
 		"movement": 2,
 		"cost": 102,
 		"uniques": ["Founds a new city","Uncapturable <before discovering [Human Race]>","Comment [No sight before discovering [Spore Plant]]","No Sight <hidden from users> <for [Human player]> <before discovering [Spore Plant]>","[-1] Sight <hidden from users> <before discovering [Spore Plant]>",
-		"This Unit gains the [Founds a new city] promotion <by consuming this unit> <in tiles not adjacent to [Friendly Land]> <in tiles not adjacent to [Enemy Land]> <in [Water] tiles>",
+		"This Unit gains the [Founds a new city] promotion <once> <in tiles not adjacent to [Friendly Land]> <in tiles not adjacent to [Enemy Land]> <in [Water] tiles>",
 		"This Unit gains the [Founds a new city] promotion <upon ending a turn in a [Water] tile> <in tiles not adjacent to [Friendly Land]> <in tiles not adjacent to [Enemy Land]> <for [AI player]> <with [40]% chance>" // Recognition Aquatic Settling for AI
 		],
 		"hurryCostModifier": 20
@@ -535,7 +535,7 @@
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Cephalopod",
 		"upgradesTo": "Cephalopod",
-		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <by consuming this unit> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
+		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <when below [100] HP> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
