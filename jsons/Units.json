@@ -535,7 +535,7 @@
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Cephalopod",
 		"upgradesTo": "Cephalopod",
-		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <when below [100] HP> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
+		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
