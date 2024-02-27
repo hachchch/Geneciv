@@ -850,7 +850,6 @@
 				"name": "Rainforest",
 				"row": 2,
 				"prerequisites": ["Spore Tree"],
-				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
 			},
 			{
 				"name": "Egg Shell",
