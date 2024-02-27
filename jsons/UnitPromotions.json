@@ -2,7 +2,17 @@
 	// UnitAbilities
 	{
 		"name": "Founds a new city", // Settler
-		"uniques": ["Turn this tile into a [Nutrient Pool] tile","This Unit takes [100] damage","Free [Marine Bacteria] appears","Doing so will consume this opportunity to choose a Promotion"]
+		"uniques": ["Turn this tile into a [Coast (Nutrient Pool)] tile <in [Coast] tiles>",
+			"Turn this tile into a [Photic zone (Nutrient Pool)] tile <in [Photic zone] tiles>",
+			"Turn this tile into a [Epipelagic zone (Nutrient Pool)] tile <in [Epipelagic zone] tiles>",
+			"Turn this tile into a [Aphotic zone (Nutrient Pool)] tile <in [Aphotic zone] tiles>",
+			"Turn this tile into a [Mesopelagic zone (Nutrient Pool)] tile <in [Mesopelagic zone] tiles>",
+			"Turn this tile into a [Bathypelagic zone (Nutrient Pool)] tile <in [Bathypelagic zone] tiles>",
+			"Turn this tile into a [Hadopelagic zone (Nutrient Pool)] tile <in [Hadopelagic zone] tiles>",
+			"Turn this tile into a [Demersal zone (Nutrient Pool)] tile <in [Demersal zone] tiles>",
+			"Turn this tile into a [Benthic zone (Nutrient Pool)] tile <in [Benthic zone] tiles>",
+			"Turn this tile into a [Benthic zone (Nutrient Pool)] tile <in [Ocean zone] tiles>",
+			"This Unit takes [100] damage","Free [Marine Bacteria] appears","Doing so will consume this opportunity to choose a Promotion"]
 	},
 	{
 		"name": "Asexual Reproduction", // Jellyfish
