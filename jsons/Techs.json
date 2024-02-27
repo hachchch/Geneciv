@@ -818,6 +818,11 @@
 				"row": 2,
 				"prerequisites": ["Vascular Plant"]
 			},
+			{
+				"name": "Neoselachii",
+				"row": 8,
+				"prerequisites": ["Predator"]
+			},
 		]
 	},
 	{
@@ -860,12 +865,6 @@
 				"name": "Gymnosperm",
 				"row": 2,
 				"prerequisites": ["Insect","Rainforest"]
-			},
-			{
-				"name": "Reptile",
-				"row": 6,
-				"prerequisites": ["Lungfish","Medulla Oblongata"],
-				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
 			}
 		]
 	},
@@ -876,6 +875,12 @@
 		"buildingCost": 325,
 		"wonderCost": 500,
 		"techs": [
+			{
+				"name": "Reptile",
+				"row": 6,
+				"prerequisites": ["Lungfish","Medulla Oblongata"],
+				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
+			},
 			{
 				"name": "Conifer",
 				"row": 2,
@@ -891,17 +896,6 @@
 				"row": 9,
 				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
 				"prerequisites": ["Reptile","Fish Egg"],
-			},
-			{
-				"name": "Archosauria",
-				"row": 6,
-				"prerequisites": ["Reptile","Legs","Lung"],
-			},
-			{
-				"name": "Warm Blooded",
-				"row": 4,
-				"prerequisites": ["Lung","Legs","Water Tight"],
-				"uniques": ["[+20]% Strength for cities <when defending>"],
 			},
 			{
 				"name": "Ear",
@@ -921,8 +915,19 @@
 			{
 				"name": "Forest Cycle", // Earliest Agaricomycetes (Mushrooms Group) Appear in Permian
 				"row": 1,
-				"prerequisites": ["Conifer","Earthworm","Herbivore"]
-			}
+				"prerequisites": ["Conifer","Earthworm"]
+			},
+			{
+				"name": "Archosauria",
+				"row": 6,
+				"prerequisites": ["Reptile"],
+			},
+			{
+				"name": "Warm Blooded",
+				"row": 4,
+				"prerequisites": ["Reptile","Water Tight"],
+				"uniques": ["[+20]% Strength for cities <when defending>"],
+			},
 		]
 	},
 	{
@@ -940,7 +945,7 @@
 			{
 				"name": "Diving",
 				"row": 8,
-				"prerequisites": ["Archosauria","Predation"],
+				"prerequisites": ["Archosauria","Neoselachii"],
 			},
 			{
 				"name": "Dinosaur",
