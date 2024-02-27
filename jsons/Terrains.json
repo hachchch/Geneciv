@@ -4,7 +4,7 @@
 		"type": "Water",
 		"movementCost": 1,
 		"RGB": [100,100,255],
-		"uniques": ["Saline water","Becomes [Photic zone] when adjacent to [Coast]",
+		"uniques": ["Saline water","Benthic zone","Becomes [Photic zone] when adjacent to [Coast]",
 		"Becomes [Epipelagic zone] when adjacent to [Photic zone]",
 		"Becomes [Aphotic zone] when adjacent to [Epipelagic zone]",
 		"Becomes [Mesopelagic zone] when adjacent to [Aphotic zone]",
@@ -132,10 +132,73 @@
 	},
 	// Water Related
 	{
-		"name": "Nutrient Pool",
+		"name": "Coast (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water"],
+		"uniques": ["Water","Coast"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Photic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Photic zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Epipelagic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Epipelagic zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Aphotic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Aphotic zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Mesopelagic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Mesopelagic zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Bathypelagic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Bathypelagic zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Abyssopelagic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Abyssopelagic zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Hadopelagic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Hadopelagic zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Demersal zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Demersal zone"],
+		"RGB": [209, 219, 230]
+	},
+	{
+		"name": "Benthic zone (Nutrient Pool)",
+		"type": "Land",
+		"movementCost": 1,
+		"uniques": ["Water","Benthic zone"],
 		"RGB": [209, 219, 230]
 	},
 	// profitable water features
