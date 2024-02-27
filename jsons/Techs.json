@@ -487,7 +487,7 @@
 				"name": "Radial Symmetry",
 				"row": 4,
 				"prerequisites": ["Swimming"],
-				"uniques": ["[+250]% XP gained from combat <for [Jellyfish] units>"],
+				"uniques": ["Comment [Available [Jellyfish]'s ability]"],
 			},
 			{
 				"name": "Flatworm",
