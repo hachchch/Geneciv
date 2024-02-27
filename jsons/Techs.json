@@ -136,7 +136,7 @@
 	},
 	{
 		"columnNumber": 4,
-		"era": "Hadean eon",
+		"era": "Archean eon",
 		"techCost": 60,
 		"buildingCost": 70,
 		"wonderCost": 150,
@@ -207,7 +207,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "Archean eon",
+		"era": "Paleoproterozoic",
 		"techCost": 100,
 		"buildingCost": 90,
 		"wonderCost": 175,
@@ -315,7 +315,7 @@
 	},
 	{
 		"columnNumber": 8,
-		"era": "Paleoproterozoic",
+		"era": "Mesoproterozoic",
 		"techCost": 120,
 		"buildingCost": 110,
 		"wonderCost": 200,
@@ -729,18 +729,17 @@
 		"wonderCost": 400,
 		"techs": [
 			{
+				"name": "Vascular Plant",
+				"row": 1,
+				"uniques": ["[+1] Movement <for [Land Arthropod] units>","[+30]% Strength <for [Land Arthropod] units> <when attacking>"]
+				"prerequisites": ["Charophyte"]
+			},
+			{
 				"name": "Medulla Oblongata",
 				"row": 2,
 				"prerequisites": ["Brain"],
 				"uniques": ["[+1 Gold] from [Fish] tiles [in all cities]","[+1 Gold] from [Ocean] tiles [in all cities]"],
 				"quote": "medulla oblongata is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing.",
-			},
-			{
-				"name": "Fern",
-				"row": 1,
-				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
-				"prerequisites": ["Charophyte"],
-				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
 			{
 				"name": "Lungfish",
@@ -783,6 +782,27 @@
 	},
 	{
 		"columnNumber": 19,
+		"era": "Ancient era",
+		"techCost": 545,
+		"buildingCost": 280,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Fern",
+				"row": 1,
+				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
+				"prerequisites": ["Vascular Plant"],
+				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
+			},
+			{
+				"name": "Spore Tree",
+				"row": 2,
+				"prerequisites": ["Vascular Plant"]
+			},
+		]
+	},
+	{
+		"columnNumber": 20,
 		"era": "Carboniferous period",
 		"techCost": 570,
 		"buildingCost": 300,
@@ -797,9 +817,15 @@
 			{
 				"name": "Insect",
 				"row": 1,
-				"prerequisites": ["Fern","Lungfish"],
+				"prerequisites": ["Fern"],
 				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
 				"quote": "Once invertebrates were brought to land, they rapidly evolved at a rate unmatched by vertebrates. The secret lies in their low metabolism and high birth rate. And because the lungs are not used, the blood is not red. They account for 53% of all living creatures in terms of the number of discovered species that exist today.",
+			},
+			{
+				"name": "Rainforest",
+				"row": 2,
+				"prerequisites": ["Spore Tree"],
+				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
 			},
 			{
 				"name": "Legs",
@@ -823,12 +849,33 @@
 		]
 	},
 	{
-		"columnNumber": 20,
+		"columnNumber": 21,
+		"era": "Carboniferous period",
+		"techCost": 585,
+		"buildingCost": 300,
+		"wonderCost": 450,
+		"techs": [
+			{
+				"name": "Gymnosperm",
+				"row": 2,
+				"prerequisites": ["Insect","Rainforest"]
+			},
+			{
+			}
+		]
+	},
+	{
+		"columnNumber": 22,
 		"era": "Permian period",
 		"techCost": 600,
 		"buildingCost": 325,
 		"wonderCost": 500,
 		"techs": [
+			{
+				"name": "Conifer",
+				"row": 2,
+				"prerequisites": ["Gymnosperm"]
+			},
 			{
 				"name": "Earthworm",
 				"row": 1,
@@ -865,10 +912,26 @@
 		]
 	},
 	{
-		"columnNumber": 21,
+		"columnNumber": 23,
+		"era": "Permian period",
+		"techCost": 700,
+		"buildingCost": 345,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Forest Cycle", // Earliest Agaricomycetes (Mushrooms Group) Appear in Permian
+				"row": 1,
+				"prerequisites": ["Conifer","Earthworm"]
+			},
+			{
+			}
+		]
+	},
+	{
+		"columnNumber": 24,
 		"era": "Mesozoic era",
 		"techCost": 780,
-		"buildingCost": 350,
+		"buildingCost": 360,
 		"wonderCost": 550,
 		"techs": [
 			{
@@ -900,7 +963,7 @@
 		]
 	},
 	{
-		"columnNumber": 22,
+		"columnNumber": 25,
 		"era": "Mesozoic era",
 		"techCost": 850,
 		"buildingCost": 375,
@@ -953,7 +1016,7 @@
 		]
 	},
 	{
-		"columnNumber": 23,
+		"columnNumber": 26,
 		"era": "Paleogene period",
 		"techCost": 900,
 		"buildingCost": 400,
@@ -977,7 +1040,7 @@
 		]
 	},
 	{
-		"columnNumber": 24,
+		"columnNumber": 27,
 		"era": "Paleogene period",
 		"techCost": 950,
 		"buildingCost": 400,
@@ -1024,7 +1087,7 @@
 		]
 	},
 	{
-		"columnNumber": 25,
+		"columnNumber": 28,
 		"era": "Miocene",
 		"techCost": 1000,
 		"buildingCost": 425,
@@ -1057,7 +1120,7 @@
 		]
 	},
 	{
-		"columnNumber": 26,
+		"columnNumber": 29,
 		"era": "Miocene",
 		"techCost": 1200,
 		"buildingCost": 450,
@@ -1093,7 +1156,7 @@
 		]
 	},
 	{
-		"columnNumber": 27,
+		"columnNumber": 30,
 		"era": "Pliocene",
 		"techCost": 1350,
 		"buildingCost": 475,
@@ -1113,7 +1176,7 @@
 		]
 	},
 	{
-		"columnNumber": 28,
+		"columnNumber": 31,
 		"era": "Pliocene",
 		"techCost": 1800,
 		"buildingCost": 500,
@@ -1137,7 +1200,7 @@
 		]
 	},
 	{
-		"columnNumber": 29,
+		"columnNumber": 32,
 		"era": "Pleistocene",
 		"techCost": 2200,
 		"buildingCost": 525,
@@ -1171,7 +1234,7 @@
 		]
 	},
 	{
-		"columnNumber": 30,
+		"columnNumber": 33,
 		"era": "Pleistocene",
 		"techCost": 2500,
 		"buildingCost": 550,
@@ -1218,7 +1281,7 @@
 		]
 	},
 	{
-		"columnNumber": 31,
+		"columnNumber": 34,
 		"era": "Holocene",
 		"techCost": 3000,
 		"buildingCost": 575,
@@ -1256,7 +1319,7 @@
 		]
 	},
 	{
-		"columnNumber": 32,
+		"columnNumber": 35,
 		"era": "Holocene",
 		"techCost": 3500,
 		"buildingCost": 600,
@@ -1291,7 +1354,7 @@
 		]
 	},
 	{
-		"columnNumber": 33,
+		"columnNumber": 36,
 		"era": "Holocene",
 		"techCost": 6250,
 		"buildingCost": 625,
@@ -1307,7 +1370,7 @@
 		]
 	},
 	{
-		"columnNumber": 34,
+		"columnNumber": 37,
 		"era": "Neolithic",
 		"techCost": 6250,
 		"buildingCost": 50,
@@ -1322,7 +1385,7 @@
 		]
 	},
 	{
-		"columnNumber": 35,
+		"columnNumber": 38,
 		"era": "Neolithic",
 		"techCost": 6250,
 		"buildingCost": 800,
@@ -1351,7 +1414,7 @@
 		]
 	},
 	{
-		"columnNumber": 36,
+		"columnNumber": 39,
 		"era": "Neolithic",
 		"techCost": 6250,
 		"buildingCost": 900,
@@ -1396,7 +1459,7 @@
 		]
 	},
 	{
-		"columnNumber": 37,
+		"columnNumber": 40,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1000,
@@ -1436,7 +1499,7 @@
 		]
 	},
 	{
-		"columnNumber": 38,
+		"columnNumber": 41,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1100,
@@ -1495,7 +1558,7 @@
 		]
 	},
 	{
-		"columnNumber": 39,
+		"columnNumber": 42,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1200,
@@ -1530,7 +1593,7 @@
 		]
 	},
 	{
-		"columnNumber": 40,
+		"columnNumber": 43,
 		"era": "Classical era",
 		"techCost": 6250,
 		"buildingCost": 1300,
@@ -1567,7 +1630,7 @@
 		]
 	},
 	{
-		"columnNumber": 41,
+		"columnNumber": 44,
 		"era": "Medieval era",
 		"techCost": 6250,
 		"buildingCost": 1400,
@@ -1613,7 +1676,7 @@
 		]
 	},
 	{
-		"columnNumber": 42,
+		"columnNumber": 45,
 		"era": "Medieval era",
 		"techCost": 6250,
 		"buildingCost": 1500,
@@ -1652,7 +1715,7 @@
 		]
 	},
 	{
-		"columnNumber": 43,
+		"columnNumber": 46,
 		"era": "Discovery era",
 		"techCost": 6250,
 		"buildingCost": 1600,
@@ -1687,7 +1750,7 @@
 		]
 	},
 	{
-		"columnNumber": 44,
+		"columnNumber": 47,
 		"era": "Discovery era",
 		"techCost": 6350,
 		"buildingCost": 1700,
@@ -1737,7 +1800,7 @@
 		]
 	},
 	{
-		"columnNumber": 45,
+		"columnNumber": 48,
 		"era": "Scientific era",
 		"techCost": 6350,
 		"buildingCost": 1800,
@@ -1792,7 +1855,7 @@
 		]
 	},
 	{
-		"columnNumber": 46,
+		"columnNumber": 49,
 		"era": "Scientific era",
 		"techCost": 6350,
 		"buildingCost": 1900,
@@ -1831,7 +1894,7 @@
 		]
 	},
 	{
-		"columnNumber": 47,
+		"columnNumber": 50,
 		"era": "Industrial era",
 		"techCost": 6350,
 		"buildingCost": 2000,
@@ -1881,7 +1944,7 @@
 		]
 	},
 	{
-		"columnNumber": 48,
+		"columnNumber": 51,
 		"era": "Industrial era",
 		"techCost": 6350,
 		"buildingCost": 2100,
@@ -1936,7 +1999,7 @@
 		]
 	},
 	{
-		"columnNumber": 49,
+		"columnNumber": 52,
 		"era": "Atomic era",
 		"techCost": 6350,
 		"buildingCost": 2200,
@@ -1981,7 +2044,7 @@
 		]
 	},
 	{
-		"columnNumber": 50,
+		"columnNumber": 53,
 		"era": "Atomic era",
 		"techCost": 6350,
 		"buildingCost": 2300,
@@ -2022,7 +2085,7 @@
 		]
 	},
 	{
-		"columnNumber": 51,
+		"columnNumber": 54,
 		"era": "Information era",
 		"techCost": 6350,
 		"buildingCost": 2400,
@@ -2056,7 +2119,7 @@
 		]
 	},
 	{
-		"columnNumber": 52,
+		"columnNumber": 55,
 		"era": "Information era",
 		"techCost": 6350,
 		"buildingCost": 2500,
@@ -2096,7 +2159,7 @@
 		]
 	},
 	{
-		"columnNumber": 53,
+		"columnNumber": 56,
 		"era": "Contemporary era",
 		"techCost": 6350,
 		"buildingCost": 2600,
@@ -2140,7 +2203,7 @@
 		]
 	},
 	{
-		"columnNumber": 54,
+		"columnNumber": 57,
 		"era": "Contemporary era",
 		"techCost": 6350,
 		"buildingCost": 2700,
@@ -2184,7 +2247,7 @@
 		]
 	},
 	{
-		"columnNumber": 55,
+		"columnNumber": 58,
 		"era": "Pre Future era",
 		"techCost": 6350,
 		"buildingCost": 2800,
@@ -2218,7 +2281,7 @@
 		]
 	},
 	{
-		"columnNumber": 56,
+		"columnNumber": 59,
 		"era": "Pre Future era",
 		"techCost": 6350,
 		"buildingCost": 2900,
@@ -2262,7 +2325,7 @@
 		]
 	},
 	{
-		"columnNumber": 57,
+		"columnNumber": 60,
 		"era": "Future era",
 		"techCost": 6350,
 		"buildingCost": 3000,
@@ -2281,7 +2344,7 @@
 		]
 	},
 	{
-		"columnNumber": 58,
+		"columnNumber": 61,
 		"era": "Future era",
 		"techCost": 10000,
 		"buildingCost": 3000,
