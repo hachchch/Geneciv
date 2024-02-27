@@ -145,7 +145,8 @@
 		"outerColor": [26,62,78],
 		"innerColor": [172,152,223],
 		"uniqueName": "Snowball Earth",
-		"uniques": ["[+1 Science] from [Snow] tiles [in all cities]","[+1 Science] from [Ice] tiles [in all cities]",
+		"uniques": ["Comment [[Cell] Units can make [Snow] tile and [Ice] tile with consuming unit and 300 [Biomass]]",
+			"[+1 Science] from [Snow] tiles [in all cities]","[+1 Science] from [Ice] tiles [in all cities]",
 			"[+1 Science] from [{Tundra} {non-[Forest]} {non-[Hill]}] tiles [in all cities]",
 			"No Maintenance costs for improvements in [Snow] tiles"],
 		// "uniqueName": "The Supercontinent",
@@ -160,7 +161,7 @@
 		"adjective": ["Ediacaran"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
-// personality plan: always haphazard and reckless, baka personality. Also, they doesn't have feelings for or dislike others, they just fluffs only. In other words, they are freaking mindless pacifist.
+// personality plan: always haphazard and reckless, baka personality. Also, they doesn't have feelings for or dislike others, they just fluffs only. Abstract, they are freaking mindless pacifist.
 		"startIntroPart1": "The Snowballed Earth was melt on 635 MYA(million years ago), then The life on earth is awaken. In Ediacaran Biota, There are enigmatic and simpler life such a Charnia, Xenophyophore, Jellyfish, Dickinsonia",
 		"startIntroPart2": "Behold the wonders of the Ediacaran Biota, there are so many advantage on us! we can swim well!(fluffing) The evolution led by Cambrians? Or will you take the place you deserve, as the leading edge of evolution into the all period?!", // 考え中
 
@@ -172,7 +173,7 @@
 		"neutralHello": "Hi there! how are you doing?",
 		"hateHello": "Humph!",
 
-		"tradeRequest": "It would be great if you agree to this...",
+		"tradeRequest": "",
 
 		"outerColor": [160,160,200],
 		"innerColor": [242,242,255],
