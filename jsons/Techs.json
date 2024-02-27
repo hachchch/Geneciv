@@ -859,8 +859,6 @@
 				"name": "Gymnosperm",
 				"row": 2,
 				"prerequisites": ["Insect","Rainforest"]
-			},
-			{
 			}
 		]
 	},
@@ -922,8 +920,6 @@
 				"name": "Forest Cycle", // Earliest Agaricomycetes (Mushrooms Group) Appear in Permian
 				"row": 1,
 				"prerequisites": ["Conifer","Earthworm"]
-			},
-			{
 			}
 		]
 	},
