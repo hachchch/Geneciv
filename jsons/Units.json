@@ -535,7 +535,7 @@
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Cephalopod",
 		"upgradesTo": "Cephalopod",
-		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
+		"uniques": ["[-1] Sight <hidden from users>","Only 1 Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -559,7 +559,7 @@
 		"unitType": "Civilian Water",
 		"cost": 49,
 		"requiredTech": "Radial Symmetry",
-		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-2] Sight","Free [Jellyfish] appears <upon turn end>","This Unit takes [100] damage <upon turn end>"],
+		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Jellyfish] appears <upon turn end>","This Unit takes [100] damage <upon turn end>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Strobila",
@@ -582,7 +582,7 @@
 		"unitType": "Civilian Water",
 		"cost": 49,
 		"requiredTech": "Radial Symmetry",
-		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-2] Sight","Free [Modern Jellyfish] appears <upon turn end>","This Unit takes [100] damage <upon turn end>"],
+		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Modern Jellyfish] appears <upon turn end>","This Unit takes [100] damage <upon turn end>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Modern Strobila",
@@ -800,7 +800,7 @@
 		"movement": 2,
 		"requiredTech": "Modern Ocean",
 		"obsoleteTech": "Anthropocene",
-		"uniques": ["[-2] Sight","Can move after attacking","This Unit gains the [Asexual Reproduction II] promotion <once> <hidden from users>","Comment [When activate the ability, [Modern Jellyfish] will become [Modern Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion).]"],
+		"uniques": ["[-1] Sight <hidden from users>","Only 1 Sight","Can move after attacking","This Unit gains the [Asexual Reproduction II] promotion <once> <hidden from users>","Comment [When activate the ability, [Modern Jellyfish] will become [Modern Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion).]"],
 		"attackSound": "whoo",
 		"promotions": ["Nematocyst I","Poison I"],
 		"civilopediaText": [
@@ -823,7 +823,7 @@
 		"movement": 5,
 		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
-		"uniques": ["[1] Sight","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
+		"uniques": ["[2] Sight","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "Splash",
 		"civilopediaText": [
 			{
