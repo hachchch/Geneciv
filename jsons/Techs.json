@@ -729,6 +729,13 @@
 		"wonderCost": 400,
 		"techs": [
 			{
+				"name": "Legs",
+				"row": 4,
+				"prerequisites": ["Fins"],
+				"uniques": ["Improve Lungfishes Move Speed","Enables Open Borders agreements","[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
+				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins have deep homology.",
+			},
+			{
 				"name": "Vascular Plant",
 				"row": 1,
 				"uniques": ["[+1] Movement <for [Land Arthropod] units>","[+30]% Strength <for [Land Arthropod] units> <when attacking>"]
@@ -788,10 +795,10 @@
 		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "Reptile",
+				"name": "Terrestrial Transition",
 				"row": 6,
-				"prerequisites": ["Lungfish","Medulla Oblongata"],
-				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
+				"prerequisites": ["Legs","Lungfish"],
+				"quote": "Look! One of freshwater lungfish is landing using their front flippers! It's Tiktaalik!",
 			},
 			{
 				"name": "Fern",
@@ -799,19 +806,6 @@
 				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
 				"prerequisites": ["Vascular Plant"],
 				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
-			},
-			{
-				"name": "Legs",
-				"row": 4,
-				"prerequisites": ["Fins","Lungfish"],
-				"uniques": ["Improve Lungfishes Move Speed","Enables Open Borders agreements","[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
-				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins are very similar.",
-			},
-			{
-				"name": "Water Tight",
-				"prerequisites": ["Lungfish"]
-				"row": 3,
-				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
 			},
 			{
 				"name": "Lung",
@@ -833,6 +827,13 @@
 		"buildingCost": 300,
 		"wonderCost": 450,
 		"techs": [
+			{
+				"name": "Water Tight",
+				"prerequisites": ["Terrestrial Transition"]
+				"row": 4,
+				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
+				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so I decided to escape to the water."
+			},
 			{
 				"name": "Insect",
 				"row": 1,
@@ -859,6 +860,12 @@
 				"name": "Gymnosperm",
 				"row": 2,
 				"prerequisites": ["Insect","Rainforest"]
+			},
+			{
+				"name": "Reptile",
+				"row": 6,
+				"prerequisites": ["Lungfish","Medulla Oblongata"],
+				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
 			}
 		]
 	},
@@ -878,11 +885,6 @@
 				"name": "Earthworm",
 				"row": 1,
 				"prerequisites": ["Insect"]
-			},
-			{
-				"name": "Herbivore",
-				"row": 3,
-				"prerequisites": ["Insect","Reptile"],
 			},
 			{
 				"name": "Egg Shell",
@@ -946,9 +948,14 @@
 				"prerequisites": ["Archosauria","Egg Shell"],
 			},
 			{
-				"name": "Mammal",
+				"name": "Herbivore",
 				"row": 3,
-				"prerequisites": ["Warm Blooded","Ear","Herbivore"]
+				"prerequisites": ["Forest Cycle","Archosauria"],
+			},
+			{
+				"name": "Mammal",
+				"row": 7,
+				"prerequisites": ["Warm Blooded","Ear"]
 			},
 			{
 				"name": "Wings",
@@ -968,7 +975,7 @@
 			{
 				"name": "Gliding",
 				"row": 3,
-				"prerequisites": ["Wings","Dinosaur"],
+				"prerequisites": ["Wings","Herbivore"],
 			},
 			{
 				"name": "Uterus",
