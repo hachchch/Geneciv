@@ -810,7 +810,7 @@
 			{
 				"name": "Lung",
 				"row": 5,
-				"prerequisites": ["Lungfish"],
+				"prerequisites": ["Lungfish","Gills"],
 				"uniques": ["Comment [[Atmosphere] production from [Amphibian], [Reptiles], [Mammal], [Birds] increases by +100% ([Oxygen] consumption does not increase)]"]
 			},
 			{
@@ -852,6 +852,12 @@
 				"prerequisites": ["Spore Tree"],
 				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
 			},
+			{
+				"name": "Egg Shell",
+				"row": 9,
+				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
+				"prerequisites": ["Terrestrial Transition","Fish Egg"],
+			},
 		]
 	},
 	{
@@ -865,6 +871,11 @@
 				"name": "Gymnosperm",
 				"row": 2,
 				"prerequisites": ["Insect","Rainforest"]
+			},
+			{
+				"name": "Eardrum",
+				"row": 7,
+				"prerequisites": ["Terrestrial Transition"]
 			}
 		]
 	},
@@ -878,7 +889,7 @@
 			{
 				"name": "Reptile",
 				"row": 6,
-				"prerequisites": ["Lungfish","Medulla Oblongata"],
+				"prerequisites": ["Terrestrial Transition"],
 				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
 			},
 			{
@@ -890,19 +901,7 @@
 				"name": "Earthworm",
 				"row": 1,
 				"prerequisites": ["Insect"]
-			},
-			{
-				"name": "Egg Shell",
-				"row": 9,
-				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
-				"prerequisites": ["Reptile","Fish Egg"],
-			},
-			{
-				"name": "Ear",
-				"row": 7,
-				"prerequisites": ["Reptile"],
-				"uniques": ["[+25]% Golden Age length","[+25]% XP gained from combat <for [Land] units>"],
-			},
+			}
 		]
 	},
 	{
@@ -928,6 +927,12 @@
 				"prerequisites": ["Reptile","Water Tight"],
 				"uniques": ["[+20]% Strength for cities <when defending>"],
 			},
+			{
+				"name": "Ear",
+				"row": 7,
+				"prerequisites": ["Eardrum","Reptile"],
+				"uniques": ["[+25]% Golden Age length","[+25]% XP gained from combat <for [Land] units>"],
+			}
 		]
 	},
 	{
