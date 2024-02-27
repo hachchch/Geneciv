@@ -788,44 +788,17 @@
 		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "Fern",
-				"row": 1,
-				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
-				"prerequisites": ["Vascular Plant"],
-				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
-			},
-			{
-				"name": "Spore Tree",
-				"row": 2,
-				"prerequisites": ["Vascular Plant"]
-			},
-		]
-	},
-	{
-		"columnNumber": 20,
-		"era": "Carboniferous period",
-		"techCost": 570,
-		"buildingCost": 300,
-		"wonderCost": 450,
-		"techs": [
-			{
 				"name": "Reptile",
 				"row": 6,
 				"prerequisites": ["Lungfish","Medulla Oblongata"],
 				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
 			},
 			{
-				"name": "Insect",
+				"name": "Fern",
 				"row": 1,
-				"prerequisites": ["Fern"],
-				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
-				"quote": "Once invertebrates were brought to land, they rapidly evolved at a rate unmatched by vertebrates. The secret lies in their low metabolism and high birth rate. And because the lungs are not used, the blood is not red. They account for 53% of all living creatures in terms of the number of discovered species that exist today.",
-			},
-			{
-				"name": "Rainforest",
-				"row": 2,
-				"prerequisites": ["Spore Tree"],
-				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
+				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
+				"prerequisites": ["Vascular Plant"],
+				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
 			{
 				"name": "Legs",
@@ -845,6 +818,33 @@
 				"row": 5,
 				"prerequisites": ["Lungfish"],
 				"uniques": ["Comment [[Atmosphere] production from [Amphibian], [Reptiles], [Mammal], [Birds] increases by +100% ([Oxygen] consumption does not increase)]"]
+			},
+			{
+				"name": "Spore Tree",
+				"row": 2,
+				"prerequisites": ["Vascular Plant"]
+			},
+		]
+	},
+	{
+		"columnNumber": 20,
+		"era": "Carboniferous period",
+		"techCost": 570,
+		"buildingCost": 300,
+		"wonderCost": 450,
+		"techs": [
+			{
+				"name": "Insect",
+				"row": 1,
+				"prerequisites": ["Fern"],
+				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
+				"quote": "Once invertebrates were brought to land, they rapidly evolved at a rate unmatched by vertebrates. The secret lies in their low metabolism and high birth rate. And because the lungs are not used, the blood is not red. They account for 53% of all living creatures in terms of the number of discovered species that exist today.",
+			},
+			{
+				"name": "Rainforest",
+				"row": 2,
+				"prerequisites": ["Spore Tree"],
+				"uniques": ["[+33]% [Food] from every [GrassLand]","[+20]% Yield from every [Forests]"],
 			},
 		]
 	},
@@ -919,7 +919,7 @@
 			{
 				"name": "Forest Cycle", // Earliest Agaricomycetes (Mushrooms Group) Appear in Permian
 				"row": 1,
-				"prerequisites": ["Conifer","Earthworm"]
+				"prerequisites": ["Conifer","Earthworm","Herbivore"]
 			}
 		]
 	},
@@ -933,7 +933,7 @@
 			{
 				"name": "Angiosperm",
 				"row": 1,
-				"prerequisites": ["Earthworm","Herbivore"]
+				"prerequisites": ["Forest Cycle"]
 			},
 			{
 				"name": "Diving",
