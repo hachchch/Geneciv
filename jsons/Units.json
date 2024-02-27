@@ -535,7 +535,31 @@
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Cephalopod",
 		"upgradesTo": "Cephalopod",
-		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>"],
+		"uniques": ["[-2] Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <by consuming this unit>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Something like a coral that wandered the ocean was the first animal. They have poisonous nematocysts like sea anemones.",
+			},
+		]
+	},
+	{
+		"name": "Strobila",
+		"unitType": "Civilian Water",
+		"cost": 49,
+		"requiredTech": "Radial Symmetry",
+		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-2] Sight","Free [Jellyfish] appears <upon ending a turn in a [All] tile>","This Unit takes [100] damage <upon ending a turn in a [All] tile>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
