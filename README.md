@@ -17,7 +17,13 @@ It is probably one of the few efforts to create a strategy game on a geological 
 <h2 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/oldpreview.png"></h2>
 
 ## Contribution
-You can help my Project with Issues or Pull Request.
+
+<p>You can help my Project with Issues or Pull Request.</p>
+
 # Extension mods list
 
 <p>・<a href="https://github.com/hachchch/-Geneciv-Extension-AkashicRecords">Geneciv-Extension AkashicRecords</a> created by hachchch</p>
+
+## Note
+
+<p>This mod may have tests that introduce bugs in the main repository accidentary. Please acknowledge it</p>
