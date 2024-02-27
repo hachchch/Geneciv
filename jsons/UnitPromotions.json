@@ -1,7 +1,12 @@
 [
+	// UnitAbilities
 	{
-		"name": "Founds a new city",
+		"name": "Founds a new city", // Settler
 		"uniques": ["Turn this tile into a [Nutrient Pool] tile","This Unit takes [100] damage","Free [Marine Bacteria] appears","Doing so will consume this opportunity to choose a Promotion"]
+	},
+	{
+		"name": "Asexual Reproduction", // Jellyfish
+		"uniques": ["This Unit takes [100] damage","Free [Strobila] appears","Doing so will consume this opportunity to choose a Promotion"]
 	},
 	// Mammal Types
 	{
