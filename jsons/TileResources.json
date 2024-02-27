@@ -87,7 +87,7 @@
 	// SubTerrains
 	{
 		"name": "Forest",
-		"revealedBy": "Fern",
+		"revealedBy": "Spore Tree",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill"]
 		"improvedBy": ["Forests", "Lumber mill"],
@@ -104,7 +104,7 @@
 	},
 	{
 		"name": "Jungle",
-		"revealedBy": "Fern",
+		"revealedBy": "Spore Tree",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Hill"]
 		"improvement": "Forests",
@@ -165,7 +165,7 @@
 	},
 	{
 		"name": "Oasis",
-		"revealedBy": "Fern",
+		"revealedBy": "Spore Tree",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Desert"]
 		"food": 3,
