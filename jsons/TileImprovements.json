@@ -101,7 +101,7 @@
 		"turnsToBuild": 7,
 		"food": 1,
 		"techRequired": "Chloroplasts",
-		"uniques": ["Algae","Proterozoic","[+1 Food] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]"],
+		"uniques": ["Algae","Proterozoic","[+1 Food] <after discovering [Modern Ocean]>","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 	},
 	{
 		"name": "Red Algae",
@@ -109,7 +109,7 @@
 		"turnsToBuild": 7,
 		"gold": 1,
 		"techRequired": "Radial Algae",
-		"uniques": ["Algae","Proterozoic","[+1 Gold] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]",
+		"uniques": ["Algae","Proterozoic","[+1 Gold] <after discovering [Modern Ocean]>","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]",
 		"[+2 Gold] <in [Atoll] tiles>",
 		"[+1 Gold] <in [Neritic zone] tiles>"],
 	},
@@ -120,8 +120,16 @@
 		"turnsToBuild": 7,
 		"production": 1,
 		"techRequired": "Ocean Reform",
-		"uniques": ["Algae","Proterozoic","[+1 Production] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]","Provides [1] [Biomass]",
+		"uniques": ["Algae","Proterozoic","[+1 Production] <after discovering [Modern Ocean]>","Consumes [2] [Atmosphere]","Provides [2] [Oxygen]","Provides [2] [Biomass]",
 		"[+1 Production] <within [1] tiles of a [Warm]>","[+1 Production] <within [1] tiles of a [Cold]>"]
+	},
+	{
+		"name": "Charales", // Only available on Fresh water tiles
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"turnsToBuild": 7,
+		"food": 2,
+		"techRequired": "Charophyte",
+		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]","Provides [1] [Biomass]"],
 	},
 	{
 		"name": "Seagrass Meadows",
@@ -129,7 +137,7 @@
 		"turnsToBuild": 7,
 		"food": 2,
 		"techRequired": "Grass",
-		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Provides [1] [Oxygen]","Provides [1] [Biomass]"],
+		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]","Provides [1] [Biomass]"],
 	},
 	{
 		"name": "Mangrove Forest",
