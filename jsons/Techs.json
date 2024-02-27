@@ -821,7 +821,7 @@
 			{
 				"name": "Neoselachii",
 				"row": 8,
-				"prerequisites": ["Predator"]
+				"prerequisites": ["Predation"]
 			},
 		]
 	},
