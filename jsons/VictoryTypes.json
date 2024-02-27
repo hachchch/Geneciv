@@ -8,7 +8,7 @@
     },
     {
         "name": "Extinction Complete",
-        "milestones": ["Build [Extinction Complete]","Add all [Extinction] in capital"],
+        "milestones": ["Build [Extinction Complete]"],
         "victoryString": "",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
