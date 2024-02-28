@@ -832,6 +832,11 @@
 		"wonderCost": 450,
 		"techs": [
 			{
+				"name": "Amphibian",
+				"row": 6,
+				"prerequisites": ["Terrestrial Transition"]
+			},
+			{
 				"name": "Rib Cage",
 				"row": 5,
 				"prerequisites": ["Lung"]
@@ -872,7 +877,7 @@
 			{
 				"name": "Reptile",
 				"row": 6,
-				"prerequisites": ["Rib Cage","Keratinized Skin","Terrestrial Transition"],
+				"prerequisites": ["Rib Cage","Keratinized Skin","Amphibian"],
 				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
 			},
 			{
@@ -907,7 +912,7 @@
 		"techs": [
 			{
 				"name": "Water Tight",
-				"prerequisites": ["Mimicry"]
+				"prerequisites": ["Reptile","Mimicry"]
 				"row": 4,
 				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
 				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so I decided to escape to the water."
@@ -944,7 +949,7 @@
 			{
 				"name": "Warm Blooded",
 				"row": 4,
-				"prerequisites": ["Reptile","Water Tight"],
+				"prerequisites": ["Water Tight"],
 				"uniques": ["[+20]% Strength for cities <when defending>"],
 			},
 			{
@@ -1103,13 +1108,13 @@
 			{
 				"name": "Cetaceans",
 				"row": 8,
+				"uniques": ["[+1] Sight <for [Embarked] units>"],
 				"prerequisites": ["Plesiosaur","Eutherians"],
 			},
 			{
 				"name": "Primate",
 				"row": 6,
 				"prerequisites": ["Eutherians"],
-				// "uniques": ["[+3 Science] per [5] population [in all cities]"],
 			},
 			{
 				"name": "Neocortex",
