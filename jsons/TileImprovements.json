@@ -3,6 +3,7 @@
 		"name": "Spore Tree",
 		"shortcutKey": "F",
 		"techRequired": "Progymnosperm",
+		"food": -2,
 		"turnsToBuild": 6,
 		"uniques": ["Costs [1] [Gold] per turn",/*"Rough terrain",*/"Vegetation","Provides [2] [Biomass]","Consumes [2] [Atmosphere]","Provides [2] [Oxygen]","Gives a defensive bonus of [10]% <in [non-[Hill]] tiles>","Can only be built to improve a resource",
 		"[+1 Production] <after discovering [Flowers]>","[+1 Food] <after discovering [Primate]>"],
