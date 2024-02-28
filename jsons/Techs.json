@@ -893,7 +893,7 @@
 			{
 				"name": "Eardrum",
 				"row": 7,
-				"prerequisites": ["Terrestrial Transition"]
+				"prerequisites": ["Amphibian"]
 			},
 			{
 				"name": "Chorion",
@@ -910,6 +910,11 @@
 		"buildingCost": 325,
 		"wonderCost": 500,
 		"techs": [
+			{
+				"name": "Therapsid",
+				"row": 5,
+				"prerequisites": ["Reptile"]
+			},
 			{
 				"name": "Water Tight",
 				"prerequisites": ["Reptile","Mimicry"]
@@ -949,7 +954,7 @@
 			{
 				"name": "Warm Blooded",
 				"row": 4,
-				"prerequisites": ["Water Tight"],
+				"prerequisites": ["Water Tight","Therapsid"],
 				"uniques": ["[+20]% Strength for cities <when defending>"],
 			},
 			{
