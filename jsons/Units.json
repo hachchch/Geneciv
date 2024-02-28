@@ -858,14 +858,68 @@
 	// Amphibian
 	{
 		"name": "Tetrapod",
-		"obsoleteTech": "Anthropocene",
+		"obsoleteTech": "Amphibian",
 		"unitType": "Amphibian",
 		"cost": 180,
 		"strength": 24,
 		"movement": 1,
-		"requiredTech": "Lungfish",
+		"requiredTech": "Terrestrial Transition",
 		"attackSound": "crrr",
 		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+			},
+		]
+	},
+	{
+		"name": "Embolomeri",
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Amphibian",
+		"cost": 180,
+		"strength": 28,
+		"movement": 1,
+		"requiredTech": "Amphibian",
+		"attackSound": "crrr",
+		"uniques": ["[+1] Movement <in [Water] tiles>","[+50]% Strength <when fighting in [Water] tiles>","Carboniferous","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Tetrapod",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Some fish gradually adapted to living on land by changing their fins to crawl on the dried ground. The reason for this is that early terrestrial life had no enemies there.",
+			},
+		]
+	},
+	{
+		"name": "Batrachosauria",
+		"obsoleteTech": "Anthropocene",
+		"unitType": "Amphibian",
+		"cost": 180,
+		"strength": 28,
+		"movement": 1,
+		"requiredTech": "Amphibian",
+		"attackSound": "crrr",
+		"uniques": ["[+50]% Strength <when fighting in [Land] tiles>","Carboniferous","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
@@ -892,7 +946,7 @@
 		"movement": 2,
 		"cost": 225,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Devonian","Pennsylvanian","Quadrupedal","[+50]% Strength <after discovering [Lung]>","[+1] Movement <after discovering [Legs]>","Can move after attacking <after discovering [Legs]>"],
-		"strength": 24,
+		"strength": 40,
 		"requiredTech": "Reptile",
 		"attackSound": "crrr",
 		"civilopediaText": [
@@ -916,7 +970,7 @@
 		"cost": 275,
 		"obsoleteTech": "Dinosaur",
 		"upgradesTo": "Saurischia",
-		"strength": 50,
+		"strength": 60,
 		"requiredTech": "Archosauria",
 		"attackSound": "whirrs",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Predator","Herbivore","Quadrupedal","Bipedal"],
@@ -937,7 +991,7 @@
 	{
 		"name": "Saurischia",
 		"unitType": "Reptiles",
-		"strength": 66,
+		"strength": 80,
 		"cost": 300,
 		"movement": 2,
 		"requiredTech": "Dinosaur",
@@ -965,7 +1019,7 @@
 	{
 		"name": "Theropoda",
 		"unitType": "Reptiles",
-		"strength": 50,
+		"strength": 70,
 		"cost": 280,
 		"movement": 2,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Avemetatarsalia","Predator","Bipedal","[+40]% Strength <when adjacent to a [Theropoda] unit>"],
@@ -982,7 +1036,7 @@
 	/*{
 		"name": "Pseudosuchia",
 		"unitType": "Reptiles",
-		"strength": 50,
+		"strength": 70,
 		"cost": 300,
 		"movement": 2,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Bipedal","[+33]% Strength <when defending>","[+80]% <when fighting in [River] tiles>"],
@@ -1001,7 +1055,7 @@
 	{
 		"name": "Avemetatarsalia",
 		"unitType": "Reptiles",
-		"strength": 50,
+		"strength": 70,
 		"cost": 280,
 		"movement": 2,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Quadrupedal","Ignores terrain cost","[+1] Sight"/*,"[+2] Movement <in [Hill] tiles>"*/],
@@ -1025,7 +1079,7 @@
 	{
 		"name": "Sauropoda",
 		"cost": 330,
-		"strength": 45,
+		"strength": 65,
 		"rangedStrength": 50,
 		"range": 1,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action"],
@@ -1102,8 +1156,8 @@
 		"cost": 280,
 		// "obsoleteTech": "Dinosaur",
 		// "upgradesTo": "Sauropoda",
-		"strength": 35,
-		// "rangedStrength": 40,
+		"strength": 70,
+		// "rangedStrength": 75,
 		// "range": 1,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
 		"movement": 2,
@@ -1154,7 +1208,7 @@
 	{
 		"name": "Ankylosauria",
 		"unitType": "Reptiles",
-		"strength": 60,
+		"strength": 80,
 		"cost": 320,
 		"movement": 1,
 		"requiredTech": "Dinosaur",
@@ -1180,7 +1234,7 @@
 		"name": "Triceratops",
 		"unitType": "Reptiles",
 		"cost": 380,
-		"strength": 90,
+		"strength": 100,
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 1,
 		"attackSound": "Monster",
@@ -1201,7 +1255,7 @@
 		"name": "Cretaceous Dinosaur",
 		"unitType": "Reptiles",
 		"cost": 360,
-		"strength": 75,
+		"strength": 100,
 		"movement": 2,
 		"attackSound": "Monster",
 		"requiredTech": "Cretaceous Reptiles",
@@ -1982,7 +2036,7 @@
 		"name": "Tyrannosaurus",
 		"unitType": "Reptiles",
 		"cost": 950,
-		"strength": 100,
+		"strength": 135,
 		"requiredTech": "Cretaceous Reptiles",
 		"movement": 2,
 		"requiredResource": "Super Creature Stock",
