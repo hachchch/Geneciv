@@ -738,7 +738,6 @@
 			{
 				"name": "Vascular Plant",
 				"row": 1,
-				"uniques": ["[+1] Movement <for [Land Arthropod] units>","[+30]% Strength <for [Land Arthropod] units> <when attacking>"]
 				"prerequisites": ["Charophyte"]
 			},
 			{
