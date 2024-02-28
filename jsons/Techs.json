@@ -959,7 +959,7 @@
 			{
 				"name": "Archosauria",
 				"row": 6,
-				"prerequisites": ["Reptile","Egg Shell"],
+				"prerequisites": ["Egg Shell"],
 			},
 			{
 				"name": "Warm Blooded",
