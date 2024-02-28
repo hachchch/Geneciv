@@ -1,857 +1,4 @@
 
-game001.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TileSets/HexaRealm/Tiles/JungleG
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/AbsoluteUnits/Units/Vegetation
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/JungleP
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Jungle
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland
-  rotate: false
-  xy: 980, 1601
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Silurian period
-  rotate: false
-  xy: 880, 1701
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Forest+City center-Silurian period
-  rotate: false
-  xy: 880, 1701
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Jungle+City center-Silurian period
-  rotate: false
-  xy: 880, 1701
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Ancient era
-  rotate: false
-  xy: 880, 1701
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Forest+City center-Ancient era
-  rotate: false
-  xy: 880, 1701
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Jungle+City center-Ancient era
-  rotate: false
-  xy: 880, 1701
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Carboniferous period
-  rotate: false
-  xy: 880, 1577
-  size: 64, 80
-  orig: 64, 80
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Forest+City center-Carboniferous period
-  rotate: false
-  xy: 880, 1577
-  size: 64, 80
-  orig: 64, 80
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Jungle+City center-Carboniferous period
-  rotate: false
-  xy: 880, 1577
-  size: 64, 80
-  orig: 64, 80
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center
-  rotate: false
-  xy: 880, 1801
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
-  rotate: false
-  xy: 780, 1801
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Crater
-  rotate: false
-  xy: 780, 1901
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Namakier
-  rotate: false
-  xy: 880, 1871
-  size: 64, 86
-  orig: 64, 86
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/FaunasG
-  rotate: false
-  xy: 680, 1801
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Faunas
-  rotate: false
-  xy: 580, 1801
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Mammoth
-  rotate: false
-  xy: 480, 1801
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Mountain
-  rotate: false
-  xy: 380, 1577
-  size: 64, 80
-  orig: 64, 80
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Mountain2
-  rotate: false
-  xy: 380, 1577
-  size: 64, 80
-  orig: 64, 80
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/City center-Pleistocene
-  rotate: false
-  xy: 880, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Forest+City center-Pleistocene
-  rotate: false
-  xy: 880, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Jungle+City center-Pleistocene
-  rotate: false
-  xy: 880, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill-Paleogene period
-  rotate: false
-  xy: 580, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand-Paleogene period
-  rotate: false
-  xy: 580, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill-Paleogene period2
-  rotate: false
-  xy: 580, 1401
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand-Paleogene period2
-  rotate: false
-  xy: 580, 1401
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill
-  rotate: false
-  xy: 480, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill2
-  rotate: false
-  xy: 480, 1401
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand
-  rotate: false
-  xy: 380, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand2
-  rotate: false
-  xy: 380, 1401
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests
-  rotate: false
-  xy: 780, 1593
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Jungle+Forests
-  rotate: false
-  xy: 780, 1693
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Hill+Jungle+Forests
-  rotate: false
-  xy: 680, 1593
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Hill+Jungle+Forests
-  rotate: false
-  xy: 680, 1693
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland2
-  rotate: false
-  xy: 1080, 1601
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland3
-  rotate: false
-  xy: 1180, 1601
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestPG
-  rotate: false
-  xy: 1080, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestPG2
-  rotate: false
-  xy: 1080, 1390
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestPG3
-  rotate: false
-  xy: 1080, 1290
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestPGH
-  rotate: false
-  xy: 1280, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestPPH
-  rotate: false
-  xy: 1280, 1790
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestG
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestP
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestT
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Outpost
-  rotate: false
-  xy: 880, 1401
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Hunting Spot
-  rotate: false
-  xy: 680, 1501
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Habitat
-  rotate: false
-  xy: 880, 1301
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Monument
-  rotate: false
-  xy: 980, 1301
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Productive Site
-  rotate: false
-  xy: 980, 1401
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Factory
-  rotate: false
-  xy: 780, 1487
-  size: 64, 70
-  orig: 64, 70
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestTH
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestGH
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestPH
-  rotate: false
-  xy: 980, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/ForestPP
-  rotate: false
-  xy: 980, 1784
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra
-  rotate: false
-  xy: 980, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra2
-  rotate: false
-  xy: 1080, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra3
-  rotate: false
-  xy: 980, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra4
-  rotate: false
-  xy: 1080, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Forest+Forests
-  rotate: false
-  xy: 1180, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+Forest+Forests2
-  rotate: false
-  xy: 1280, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+GrassLand
-  rotate: false
-  xy: 1380, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+GrassLand2
-  rotate: false
-  xy: 1480, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Snow+City center
-  rotate: false
-  xy: 1680, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Tundra+City center
-  rotate: false
-  xy: 1580, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Charnia Forest
-  rotate: false
-  xy: 1780, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Photic zone
-  rotate: false
-  xy: 1880, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Photic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Photic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1884
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Epipelagic zone
-  rotate: false
-  xy: 1880, 1784
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Epipelagic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1784
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Epipelagic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1784
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Neritic zone
-  rotate: false
-  xy: 1780, 1584
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Green Algae
-  rotate: false
-  xy: 1680, 1584
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Brown Algae
-  rotate: false
-  xy: 1680, 1484
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Stromatolites
-  rotate: false
-  xy: 1680, 1184
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Intertidal zone
-  rotate: false
-  xy: 1780, 1484
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Estuaries
-  rotate: false
-  xy: 1780, 1384
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Estuaries-Ancient era
-  rotate: false
-  xy: 1780, 1284
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Mangrove Forest
-  rotate: false
-  xy: 1780, 1184
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Aphotic zone
-  rotate: false
-  xy: 1880, 1584
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Aphotic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1584
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Aphotic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1584
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Mesopelagic zone
-  rotate: false
-  xy: 1880, 1484
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Mesopelagic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1484
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Mesopelagic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1484
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Bathypelagic zone
-  rotate: false
-  xy: 1880, 1384
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Bathypelagic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1384
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Bathypelagic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1384
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Abyssopelagic zone
-  rotate: false
-  xy: 1880, 1284
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Abyssopelagic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1284
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Abyssopelagic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1284
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Hadopelagic zone
-  rotate: false
-  xy: 1880, 1184
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Hadopelagic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1184
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Hadopelagic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1184
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Demersal zone
-  rotate: false
-  xy: 1880, 1084
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Demersal zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 1084
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Demersal zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 1084
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Benthic zone
-  rotate: false
-  xy: 1880, 984
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Benthic zone (Nutrient Pool)
-  rotate: false
-  xy: 1880, 984
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Benthic zone (Nutrient Pool)+City center
-  rotate: false
-  xy: 1880, 984
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Continental shelf
-  rotate: false
-  xy: 1880, 984
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Ocean
-  rotate: false
-  xy: 1880, 984
-  size: 64, 73
-  orig: 64, 73
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Desert
-  rotate: false
-  xy: 1678, 1703
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Desert2
-  rotate: false
-  xy: 1750, 1705
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Desert3
-  rotate: false
-  xy: 1822, 1713
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains
-  rotate: false
-  xy: 980, 1690
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains2
-  rotate: false
-  xy: 1080, 1690
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains3
-  rotate: false
-  xy: 1180, 1690
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Hill
-  rotate: false
-  xy: 1280, 1690
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+GrassLand
-  rotate: false
-  xy: 1380, 1690
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand
-  rotate: false
-  xy: 1380, 1790
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Plains+Hill2
-  rotate: false
-  xy: 1280, 1690
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Hill
-  rotate: false
-  xy: 1280, 1590
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+GrassLand
-  rotate: false
-  xy: 1380, 1590
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand
-  rotate: false
-  xy: 1480, 1590
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+GrassLand2
-  rotate: false
-  xy: 1380, 1490
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Tiles/Grassland+Hill2
-  rotate: false
-  xy: 1280, 1590
-  size: 64, 67
-  orig: 64, 67
-  offset: 0, 0
-  index: -1
-
 game0.png
 size: 2048, 2048
 format: RGBA8888
@@ -2808,5 +1955,858 @@ SecretImages/Monkey Dance!
   xy: 0, 0
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+
+game001.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/HexaRealm/Tiles/JungleG
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Vegetation
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/JungleP
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland
+  rotate: false
+  xy: 980, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Silurian period
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Ancient era
+  rotate: false
+  xy: 880, 1701
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Carboniferous period
+  rotate: false
+  xy: 880, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Carboniferous period
+  rotate: false
+  xy: 880, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center
+  rotate: false
+  xy: 880, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Mesoproterozoic
+  rotate: false
+  xy: 780, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Crater
+  rotate: false
+  xy: 780, 1901
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Namakier
+  rotate: false
+  xy: 880, 1871
+  size: 64, 86
+  orig: 64, 86
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/FaunasG
+  rotate: false
+  xy: 680, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Faunas
+  rotate: false
+  xy: 580, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mammoth
+  rotate: false
+  xy: 480, 1801
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain
+  rotate: false
+  xy: 380, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mountain2
+  rotate: false
+  xy: 380, 1577
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Forest+City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Jungle+City center-Pleistocene
+  rotate: false
+  xy: 880, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill-Paleogene period
+  rotate: false
+  xy: 580, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand-Paleogene period
+  rotate: false
+  xy: 580, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill-Paleogene period2
+  rotate: false
+  xy: 580, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand-Paleogene period2
+  rotate: false
+  xy: 580, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill
+  rotate: false
+  xy: 480, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill2
+  rotate: false
+  xy: 480, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand
+  rotate: false
+  xy: 380, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Hill+GrassLand2
+  rotate: false
+  xy: 380, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Jungle+Forests
+  rotate: false
+  xy: 780, 1593
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Jungle+Forests
+  rotate: false
+  xy: 780, 1693
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+Jungle+Forests
+  rotate: false
+  xy: 680, 1593
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+Jungle+Forests
+  rotate: false
+  xy: 680, 1693
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland2
+  rotate: false
+  xy: 1080, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland3
+  rotate: false
+  xy: 1180, 1601
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG
+  rotate: false
+  xy: 1080, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG2
+  rotate: false
+  xy: 1080, 1390
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPG3
+  rotate: false
+  xy: 1080, 1290
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPGH
+  rotate: false
+  xy: 1280, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPPH
+  rotate: false
+  xy: 1280, 1790
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestG
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestP
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestT
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Outpost
+  rotate: false
+  xy: 880, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hunting Spot
+  rotate: false
+  xy: 680, 1501
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Habitat
+  rotate: false
+  xy: 880, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Monument
+  rotate: false
+  xy: 980, 1301
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Productive Site
+  rotate: false
+  xy: 980, 1401
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Factory
+  rotate: false
+  xy: 780, 1487
+  size: 64, 70
+  orig: 64, 70
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestTH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestGH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPH
+  rotate: false
+  xy: 980, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/ForestPP
+  rotate: false
+  xy: 980, 1784
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra
+  rotate: false
+  xy: 980, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra2
+  rotate: false
+  xy: 1080, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra3
+  rotate: false
+  xy: 980, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra4
+  rotate: false
+  xy: 1080, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests
+  rotate: false
+  xy: 1180, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+Forest+Forests2
+  rotate: false
+  xy: 1280, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand
+  rotate: false
+  xy: 1380, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+GrassLand2
+  rotate: false
+  xy: 1480, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Snow+City center
+  rotate: false
+  xy: 1680, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Tundra+City center
+  rotate: false
+  xy: 1580, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Charnia Forest
+  rotate: false
+  xy: 1780, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Photic zone
+  rotate: false
+  xy: 1880, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Photic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Photic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1884
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Epipelagic zone
+  rotate: false
+  xy: 1880, 1784
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Epipelagic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1784
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Epipelagic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1784
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Neritic zone
+  rotate: false
+  xy: 1780, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Green Algae
+  rotate: false
+  xy: 1680, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Brown Algae
+  rotate: false
+  xy: 1680, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Stromatolites
+  rotate: false
+  xy: 1680, 1184
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Intertidal zone
+  rotate: false
+  xy: 1780, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Estuaries
+  rotate: false
+  xy: 1780, 1384
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Estuaries-Ancient era
+  rotate: false
+  xy: 1780, 1284
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mangrove Forest
+  rotate: false
+  xy: 1780, 1184
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Aphotic zone
+  rotate: false
+  xy: 1880, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Aphotic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Aphotic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1584
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mesopelagic zone
+  rotate: false
+  xy: 1880, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mesopelagic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mesopelagic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1484
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bathypelagic zone
+  rotate: false
+  xy: 1880, 1384
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bathypelagic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1384
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Bathypelagic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1384
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Abyssopelagic zone
+  rotate: false
+  xy: 1880, 1284
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Abyssopelagic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1284
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Abyssopelagic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1284
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hadopelagic zone
+  rotate: false
+  xy: 1880, 1184
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hadopelagic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1184
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Hadopelagic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1184
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Demersal zone
+  rotate: false
+  xy: 1880, 1084
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Demersal zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 1084
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Demersal zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 1084
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Benthic zone
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Benthic zone (Nutrient Pool)
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Benthic zone (Nutrient Pool)+City center
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Continental shelf
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Ocean
+  rotate: false
+  xy: 1880, 984
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert
+  rotate: false
+  xy: 1678, 1703
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert2
+  rotate: false
+  xy: 1750, 1705
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Desert3
+  rotate: false
+  xy: 1822, 1713
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains
+  rotate: false
+  xy: 980, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains2
+  rotate: false
+  xy: 1080, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains3
+  rotate: false
+  xy: 1180, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill
+  rotate: false
+  xy: 1280, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+GrassLand
+  rotate: false
+  xy: 1380, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill+GrassLand
+  rotate: false
+  xy: 1380, 1790
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Hill2
+  rotate: false
+  xy: 1280, 1690
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill
+  rotate: false
+  xy: 1280, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand
+  rotate: false
+  xy: 1380, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill+GrassLand
+  rotate: false
+  xy: 1480, 1590
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+GrassLand2
+  rotate: false
+  xy: 1380, 1490
+  size: 64, 67
+  orig: 64, 67
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Grassland+Hill2
+  rotate: false
+  xy: 1280, 1590
+  size: 64, 67
+  orig: 64, 67
   offset: 0, 0
   index: -1
