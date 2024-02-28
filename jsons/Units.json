@@ -964,6 +964,31 @@
 		]
 	},
 	{
+		"name": "Eupelycosauria",
+		"upgradesTo": "Synapsida",
+		"obsoleteTech": "Mammal",
+		"unitType": "Reptiles",
+		"movement": 2,
+		"cost": 250,
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Only available <in cities without a [Sea Environment]> <hidden from users>","Carboniferous","Quadrupedal","Can move after attacking"],
+		"strength": 45,
+		"requiredTech": "Therapsid",
+		"attackSound": "whirrs",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
 		"name": "Big Reptile",
 		"unitType": "Reptiles",
 		"movement": 2,
@@ -1342,9 +1367,9 @@
 		"name": "Synapsida",
 		"obsoleteTech": "Eutherians",
 		"cost": 280,
-		"strength": 45,
+		"strength": 60,
 		"attackSound": "Slash",
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pennsylvanian","Quadrupedal","[+1] Sight","[60]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pennsylvanian","Quadrupedal","[+1] Sight","[100]% Strength <when attacking> <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
 		"requiredTech": "Mammal",
 		"unitType": "Mammal",
