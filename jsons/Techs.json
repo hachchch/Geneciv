@@ -893,7 +893,8 @@
 			{
 				"name": "Eardrum",
 				"row": 7,
-				"prerequisites": ["Amphibian"]
+				"prerequisites": ["Amphibian"],
+				"uniques": ["[+75]% Golden Age length"]
 			},
 			{
 				"name": "Chorion",
@@ -931,6 +932,12 @@
 				"name": "Earthworm",
 				"row": 1,
 				"prerequisites": ["Insect"]
+			},
+			{
+				"name": "Egg Shell",
+				"row": 9,
+				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
+				"prerequisites": ["Reptile","Chorion"],
 			}
 		]
 	},
@@ -949,7 +956,7 @@
 			{
 				"name": "Archosauria",
 				"row": 6,
-				"prerequisites": ["Reptile"],
+				"prerequisites": ["Reptile","Egg Shell"],
 			},
 			{
 				"name": "Warm Blooded",
@@ -962,12 +969,6 @@
 				"row": 7,
 				"prerequisites": ["Eardrum","Reptile"],
 				"uniques": ["[+25]% Golden Age length","[+25]% XP gained from combat <for [Land] units>"],
-			},
-			{
-				"name": "Egg Shell",
-				"row": 9,
-				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
-				"prerequisites": ["Reptile","Chorion"],
 			}
 		]
 	},
@@ -991,7 +992,7 @@
 			{
 				"name": "Dinosaur",
 				"row": 6,
-				"prerequisites": ["Archosauria","Egg Shell"],
+				"prerequisites": ["Archosauria"],
 			},
 			{
 				"name": "Herbivore",
