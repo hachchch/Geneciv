@@ -22,6 +22,10 @@
 		"name": "Asexual Reproduction II", // Modern Jellyfish
 		"uniques": ["This Unit takes [100] damage","Free [Modern Strobila] appears","Doing so will consume this opportunity to choose a Promotion"]
 	},
+	{
+		"name": "Mimicry", // Small Reptile
+		"uniques": ["Instantly consumes [10] [Biomass]","This Unit loses the [Mimicry] promotion <upon turn end>","Invisible to non-adjacent units"]
+	},
 	// Mammal Types
 	{
 		"name": "Carnivora",
