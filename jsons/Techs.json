@@ -814,7 +814,7 @@
 				"uniques": ["Comment [[Atmosphere] production from [Amphibian], [Reptiles], [Mammal], [Birds] increases by +100% ([Oxygen] consumption does not increase)]"]
 			},
 			{
-				"name": "Spore Tree",
+				"name": "Progymnosperm",
 				"row": 2,
 				"prerequisites": ["Vascular Plant"]
 			},
@@ -849,7 +849,7 @@
 			{
 				"name": "Rainforest",
 				"row": 2,
-				"prerequisites": ["Spore Tree"],
+				"prerequisites": ["Progymnosperm"],
 			},
 			{
 				"name": "Egg Shell",
