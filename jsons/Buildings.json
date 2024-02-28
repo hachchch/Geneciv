@@ -473,6 +473,18 @@
 		"maintenance": 3,
 		"requiredBuilding": "Lycophyte",
 	},
+	{
+		"name": "Moss",
+		"requiredTech": "Rainforest",
+		"uniques": ["[-25]% maintenance cost for buildings [in this city]"],
+		"maintenance": 2,
+	},
+	{
+		"name": "Mushrooms",
+		"requiredTech": "Forest Cycle",
+		"uniques": ["[-25]% maintenance cost for buildings [in this city]"],
+		"maintenance": 2,
+	},
 	// Wonders
 	{
 		"name": "Archaeocyatha",
@@ -732,7 +744,7 @@
 	*/
 	{
 		"name": "Carboniferous Rainforest Collapse",
-		"requiredTech": "Fern",
+		"requiredTech": "Rainforest",
 		"science": 3,
 		"isWonder": true,
 		"uniques": ["Must be next to [Forests]","[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Carboniferous period]>"],
