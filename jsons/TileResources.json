@@ -87,7 +87,7 @@
 	// SubTerrains
 	{
 		"name": "Forest",
-		"revealedBy": "Spore Tree",
+		"revealedBy": "Progymnosperm",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill"]
 		"improvedBy": ["Forests", "Lumber mill"],
@@ -104,7 +104,7 @@
 	},
 	{
 		"name": "Jungle",
-		"revealedBy": "Spore Tree",
+		"revealedBy": "Rainforest",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Hill"]
 		"improvement": "Forests",
@@ -126,14 +126,6 @@
 		"improvedBy": ["Soft Coral","Blue Coral","Stony Coral"],
 		"improvementStats": {"food": 1},
         },
-	{
-		"name": "Sea Pen",
-		"revealedBy": "Sea Pen",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Aphotic zone","Mesopelagic zone","Bathypelagic zone"],
-		"improvedBy": ["Soft Coral","Charnia Forest"],
-		"improvementStats": {"food": 1},
-	},
 	{
 		"name": "Sea Pen",
 		"revealedBy": "Sponge",
