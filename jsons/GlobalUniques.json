@@ -1,6 +1,7 @@
 {
     "name": "Global uniques",
     "uniques": [
+	    "[-1] Sight <for [Embarked] units>",
 	    "[-50]% [Science] [in all cities]",
 	    "[+50]% [Science] [in capital]",
 	    "[-50]% [Culture] [in all cities]",
