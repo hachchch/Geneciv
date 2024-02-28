@@ -428,7 +428,7 @@
 	// Devonian
 	{
 		"name": "Silurian-Devonian Terrestrial Revolution",
-		"requiredTech": "Fern",
+		"requiredTech": "Vascular Plant",
 		"isWonder": true,
 		"uniques": ["[-40]% maintenance cost for buildings [in all cities]","[+5]% [Production] [in all cities]"]
 	},
@@ -454,21 +454,21 @@
 	// Devonian-Carboniferous Flora
 	{
 		"name": "Lycophyte",
-		"requiredTech": "Fern",
+		"requiredTech": "Vascular Plant",
 		"production": 2,
 		"maintenance": 2,
-		"requiredBuilding": "Shrub",
+		// "requiredBuilding": "Shrub",
 	},
 	{
 		"name": "Equisetidae",
 		"requiredTech": "Fern",
 		"production": 1,
 		"maintenance": 1,
-		"requiredBuilding": "Shrub",
+		// "requiredBuilding": "Shrub",
 	},
 	{
 		"name": "Lepidodendron",
-		"requiredTech": "Fern",
+		"requiredTech": "Gymnosperm",
 		"production": 3,
 		"maintenance": 3,
 		"requiredBuilding": "Lycophyte",
@@ -1036,8 +1036,8 @@
 	{
 		"name": "Vascular",
 		"requiredBuilding": "Land Algae",
-		"requiredTech": "Fern",
-		"gold": 3,
+		"requiredTech": "Vascular Plant",
+		"gold": 4,
 	},
 	{
 		"name": "Mistletoe",
@@ -1073,7 +1073,7 @@
 	},
 	{
 		"name": "Fenestrida",
-		"requiredBuilding": "Land Algae",
+		// "requiredBuilding": "Land Algae",
 		"food": 1,
 		"production": 1,
 		"maintenance": 2,
