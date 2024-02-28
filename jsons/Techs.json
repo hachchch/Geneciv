@@ -870,11 +870,15 @@
 		"wonderCost": 450,
 		"techs": [
 			{
-				"name": "Water Tight",
+				"name": "Reptile",
+				"row": 6,
+				"prerequisites": ["Rib Cage","Keratinized Skin","Terrestrial Transition"],
+				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
+			},
+			{
+				"name": "Mimicry",
 				"prerequisites": ["Keratinized Skin"]
-				"row": 4,
-				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
-				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so I decided to escape to the water."
+				"row": 4
 			},
 			{
 				"name": "Gymnosperm",
@@ -902,10 +906,11 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Reptile",
-				"row": 6,
-				"prerequisites": ["Terrestrial Transition"],
-				"quote": "Life for landed lungfishes without natural enemies was inconvenient. This is because life on land is different from the underwater, with no use of fins, obstacles such as trees, fire, limited water sources, and rough terrain. And as a result of evolving to overcome this, cool reptiles are born. They will rise as rulers of the earth for a long time.",
+				"name": "Water Tight",
+				"prerequisites": ["Mimicry"]
+				"row": 4,
+				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
+				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so I decided to escape to the water."
 			},
 			{
 				"name": "Conifer",
