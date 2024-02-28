@@ -1093,6 +1093,12 @@
 		"uniques": ["Must be next to [Fresh water]"],
 		"requiredTech": "Spore Plant",
 	},
+	{
+		"name": "Thorax",
+		"maintenance": 1,
+		"science": 3,
+		"requiredTech": "Rib Cage",
+	},
 	//Cell Life
 	{
 		"name": "Chemical Synthesis",
