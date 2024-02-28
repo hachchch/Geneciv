@@ -732,7 +732,7 @@
 				"name": "Legs",
 				"row": 4,
 				"prerequisites": ["Fins"],
-				"uniques": ["Improve Lungfishes Move Speed","Enables Open Borders agreements","[+5]% Production when constructing [Land] units [in all cities]","[+5]% Production when constructing [Amphibian] units [in all cities]"],
+				"uniques": ["Improve Lungfishes Move Speed","Enables Open Borders agreements"],
 				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins have deep homology.",
 			},
 			{
