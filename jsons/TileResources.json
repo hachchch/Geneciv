@@ -157,7 +157,7 @@
 	},
 	{
 		"name": "Oasis",
-		"revealedBy": "Spore Tree",
+		"revealedBy": "Progymnosperm",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Desert"]
 		"food": 3,
