@@ -832,11 +832,15 @@
 		"wonderCost": 450,
 		"techs": [
 			{
-				"name": "Water Tight",
-				"prerequisites": ["Terrestrial Transition"]
+				"name": "Rib Cage",
+				"row": 5,
+				"prerequisites": ["Lung"]
+			},
+			{
+				"name": "Keratinized Skin",
 				"row": 4,
-				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
-				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so I decided to escape to the water."
+				"prerequisites": ["Terrestrial Transition"],
+				"quote": "Their fish-like slimy bodies are not suitable for dried ground. It has to be thicker and wilder...",
 			},
 			{
 				"name": "Insect",
@@ -851,9 +855,9 @@
 				"prerequisites": ["Progymnosperm"],
 			},
 			{
-				"name": "Egg Shell",
+				"name": "Amnion",
 				"row": 9,
-				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
+				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
 				"prerequisites": ["Terrestrial Transition","Fish Egg"],
 			},
 		]
@@ -866,6 +870,13 @@
 		"wonderCost": 450,
 		"techs": [
 			{
+				"name": "Water Tight",
+				"prerequisites": ["Keratinized Skin"]
+				"row": 4,
+				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
+				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so I decided to escape to the water."
+			},
+			{
 				"name": "Gymnosperm",
 				"row": 2,
 				"prerequisites": ["Insect","Rainforest"]
@@ -874,7 +885,13 @@
 				"name": "Eardrum",
 				"row": 7,
 				"prerequisites": ["Terrestrial Transition"]
-			}
+			},
+			{
+				"name": "Chorion",
+				"row": 9,
+				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
+				"prerequisites": ["Amnion"],
+			},
 		]
 	},
 	{
@@ -930,6 +947,12 @@
 				"row": 7,
 				"prerequisites": ["Eardrum","Reptile"],
 				"uniques": ["[+25]% Golden Age length","[+25]% XP gained from combat <for [Land] units>"],
+			},
+			{
+				"name": "Egg Shell",
+				"row": 9,
+				"uniques": ["Enables Research agreements","[5]% Food is carried over after population increases [in all cities]"],
+				"prerequisites": ["Reptile","Chorion"],
 			}
 		]
 	},
@@ -953,7 +976,7 @@
 			{
 				"name": "Dinosaur",
 				"row": 6,
-				"prerequisites": ["Archosauria"],
+				"prerequisites": ["Archosauria","Egg Shell"],
 			},
 			{
 				"name": "Herbivore",
