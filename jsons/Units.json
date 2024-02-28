@@ -572,7 +572,7 @@
 		"unitType": "Civilian Water",
 		"cost": 49,
 		"requiredTech": "Radial Symmetry",
-		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage Free [Jellyfish] appears <upon ending a turn in a [Water] tile>"],
+		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage <upon ending a turn in a [Water] tile>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Strobila",
@@ -595,7 +595,7 @@
 		"unitType": "Civilian Water",
 		"cost": 49,
 		"requiredTech": "Radial Symmetry",
-		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Modern Jellyfish] appears Free [Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage Free [Jellyfish] appears <upon ending a turn in a [Water] tile>"],
+		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Modern Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage <upon ending a turn in a [Water] tile>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Modern Strobila",
