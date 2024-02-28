@@ -846,6 +846,7 @@
 				"row": 4,
 				"prerequisites": ["Terrestrial Transition"],
 				"quote": "Their fish-like slimy bodies are not suitable for dried ground. It has to be thicker and wilder...",
+				"uniques": ["[+15]% Strength <when defending> <in [Warm] tiles> <for [Land] units>"]
 			},
 			{
 				"name": "Insect",
@@ -883,7 +884,8 @@
 			{
 				"name": "Mimicry",
 				"prerequisites": ["Keratinized Skin"]
-				"row": 4
+				"row": 4,
+				"uniques": ["Comment [Available [Small Reptile]'s Ability]"]
 			},
 			{
 				"name": "Gymnosperm",
@@ -926,6 +928,7 @@
 			{
 				"name": "Conifer",
 				"row": 2,
+				"uniques": ["[+1 Food, +1 Production] from [Forests] tiles [in all cities]"],
 				"prerequisites": ["Gymnosperm"]
 			},
 			{
