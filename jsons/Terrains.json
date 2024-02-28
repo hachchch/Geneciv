@@ -135,70 +135,70 @@
 		"name": "Coast (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Coast"],
+		"uniques": ["Water","Coast","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Photic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Photic zone"],
+		"uniques": ["Water","Photic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Epipelagic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Epipelagic zone"],
+		"uniques": ["Water","Epipelagic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Aphotic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Aphotic zone"],
+		"uniques": ["Water","Aphotic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Mesopelagic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Mesopelagic zone"],
+		"uniques": ["Water","Mesopelagic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Bathypelagic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Bathypelagic zone"],
+		"uniques": ["Water","Bathypelagic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Abyssopelagic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Abyssopelagic zone"],
+		"uniques": ["Water","Abyssopelagic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Hadopelagic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Hadopelagic zone"],
+		"uniques": ["Water","Hadopelagic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Demersal zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Demersal zone"],
+		"uniques": ["Water","Demersal zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	{
 		"name": "Benthic zone (Nutrient Pool)",
 		"type": "Land",
 		"movementCost": 1,
-		"uniques": ["Water","Benthic zone"],
+		"uniques": ["Water","Benthic zone","Excluded from map editor"],
 		"RGB": [209, 219, 230]
 	},
 	// profitable water features
