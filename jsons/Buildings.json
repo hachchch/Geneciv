@@ -8,7 +8,7 @@
 	{
 		"name": "The Anthropocene era",
 		"cost": 3500,
-		"uniques": ["Triggers the following global alert: [!Humans are Changing the World!]","Triggers victory"],
+		"uniques": ["Triggers the following global alert: [!Humans are Changing the World!]"],
 		"requiredTech": "Anthropocene",
 		"isWonder": true,
 	},
