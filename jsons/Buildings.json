@@ -3,7 +3,7 @@
         {
 		"name": "Extinction Complete",
 		"isNationalWonder": true,
-		"uniques": ["Unbuildable","Unsellable","Hidden when [Extinction Complete] Victory is disabled"],
+		"uniques": ["Unbuildable","Unsellable","Hidden when [Extinction] Victory is disabled"],
 	},
 	{
 		"name": "The Anthropocene era",
