@@ -22,7 +22,7 @@
         "name": "Dawn of Civilization",
         "hiddenInVictoryScreen": true,
         "milestones": ["Build [The Anthropocene era]"],
-        "victoryString": "This planet has been completely conquered by humans. Humans have completely changed the look of this planet.A new biome of concrete and plastic was born,Iron Lumps are Flying there, and the forest was cleared. Now human action could easily destroy the earth.",
+        "victoryString": "This planet has been completely conquered by humans. Humans have completely changed the look of this planet.A new biome of concrete and plastic was born,Iron Lumps are Flying there, and the land was lit up. Now human action could easily destroy the earth.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
@@ -31,5 +31,7 @@
 	"milestones": [
             "Build [Universe Beta 1.10]", "Add all [Universe parts] in capital"
         ],
+	    "victoryString": "Humans have constructed a perfect replica of the pseudo-universe. It will be possible to observe the moment of biological development, and all the mysteries that were unknown until now will be discovered...!",
+	    "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
 ]
