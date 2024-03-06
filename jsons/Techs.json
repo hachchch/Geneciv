@@ -809,7 +809,7 @@
 			{
 				"name": "Lung",
 				"row": 5,
-				"prerequisites": ["Lungfish"],
+				"prerequisites": ["Lungfish","Medulla Oblongata"],
 				"uniques": ["Comment [[Atmosphere] production from [Amphibian], [Reptiles], [Mammal], [Birds] increases by +100% ([Oxygen] consumption does not increase)]"]
 			},
 			{
