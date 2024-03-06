@@ -11,7 +11,7 @@
 		"startPercent": 1,
 		"citySound": "Void",
 		"embarkDefense": 1,
-		"iconRGB": [100, 100, 200],
+		"iconRGB": [10, 10, 20],
 	},
         {
                 "name": "Hadean eon",
