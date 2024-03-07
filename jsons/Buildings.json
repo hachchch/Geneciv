@@ -695,6 +695,34 @@
 		"quote": "Ammonoids are a group of extinct marine mollusc animals in the subclass Ammonoidea of the class Cephalopoda. These molluscs, commonly referred to as ammonites, are more closely related to living coleoids than they are to shelled nautiloids such as the living Nautilus species. The earliest ammonites appeared during the Devonian, with the last species vanishing during or soon after the K-Pg mass extinction event.",
 	},
 	{
+		"name": "Psilophyton",
+		"isWonder": true,
+		"requiredTech": "Vascular Plant",
+		"uniques": ["Provides [29] [Biomass]","[+20]% [Science] from every [Vascular]"]
+	},
+	{
+		"name": "Meganeura",
+		"isWonder": true,
+		"requiredTech": "Insect",
+		"science": 2,
+		"uniques": ["[+20]% [Science] [in this city]"]
+	},
+	{
+		"name": "Brontoscorpio",
+		"requiredTech": "Land Arthropod",
+		"isWonder": true,
+		"science": 3,
+		"gold": 3,
+		"uniques": ["Gain [3000] [gold]"]
+	},
+	{
+		"name": "Arthropleura",
+		"isWonder": true,
+		"science": 2,
+		"requiredTech": "Insect",
+		"uniques": ["Provides [1] [Super Creature Stock]"]
+	},
+	{
 		"name": "LUCA",
 		"science": 1,
 		"cost": 150,
