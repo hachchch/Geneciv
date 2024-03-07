@@ -714,7 +714,7 @@
 		"isWonder": true,
 		"science": 3,
 		"gold": 3,
-		"uniques": ["Gain [3000] [gold]"]
+		"uniques": ["Gain [3000] [Gold]"]
 	},
 	{
 		"name": "Arthropleura",
