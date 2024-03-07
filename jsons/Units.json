@@ -489,6 +489,7 @@
 			},
 		]
 	},
+	/*
 	{
 		"name": "Peytoia",
 		"uniqueTo": "Burgess",
@@ -514,16 +515,37 @@
 			},
 		]
 	},
+	*/
 	{
-		"name": "Hallucigenia",
-		"unitType": "Water Arthropod",
+		"name": "Diania",
+		"unitType": "Water Animal",
 		"cost": 100,
-		"strength": 17,
-		"range": 1,
-		"rangedStrength": 9,
+		"strength": 15,
 		"movement": 2,
 		"requiredTech": "Flatworm",
-		"uniques": ["Cambrian","Jawless","[+500]% Strength <when attacking> <vs cities>","[-1] Sight","[+1] Sight <after discovering [Pigment Spot]>","Only available <after adopting [Lobopodians]>"],
+		"uniques": ["Cambrian","Jawless","[+150]% Strength <when attacking> <vs cities>","[-1] Sight"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Diania",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Diania",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Hallucigenia",
+		"replaces": "Diania",
+		"uniqueTo": "Burgess",
+		"unitType": "Water Animal",
+		"cost": 100,
+		"strength": 19,
+		"movement": 2,
+		"requiredTech": "Flatworm",
+		"uniques": ["Cambrian","Jawless","[+150]% Strength <when attacking> <vs cities>","[-1] Sight"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
