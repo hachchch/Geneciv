@@ -622,7 +622,34 @@
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
 		"requiredTech": "Flatworm",
-		"uniques": ["Cambrian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"uniques": ["Cambrian","[-1] Sight <before discovering [Pigment Spot]>"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Flatworm",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Flatworm",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	{
+		"name": "Spriggina",
+		"uniqueTo": "Ediacara",
+		"replaces": "Flatworm",
+		"unitType": "Water Animal",
+		"cost": 60,
+		"strength": 20,
+		"movement": 2,
+		"obsoleteTech": "Fish",
+		"upgradesTo": "Fish",
+		"requiredTech": "Flatworm",
+		"uniques": ["Neoproterozoic","[+50]% Strength <vs [Neoproterozoic] units>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -649,7 +676,7 @@
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
 		"requiredTech": "Flatworm",
-		"uniques": ["Cambrian","[-1] Sight <before discovering [Pigment Spot]>","Can enter ice tiles"],
+		"uniques": ["Cambrian","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
