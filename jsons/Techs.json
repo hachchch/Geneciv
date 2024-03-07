@@ -705,19 +705,18 @@
 				"name": "Jaw",
 				"row": 7,
 				"prerequisites": ["Fish"],
-				"uniques": ["[+1 Food] from [{Coast} {Fish}] tiles [in all cities]"],
 			},
 			{
 				"name": "Fish Egg",
 				"row": 9,
 				"prerequisites": ["Fish","Cocoon"],
-				"uniques": ["[5]% Food is carried over after population increases [in all cities]","[+1 Food] from [{unimproved} {Fresh water}] tiles [in all cities]"]
+				"uniques": ["[+1 Food] from [Fresh water] tiles [in all cities]","[5]% Food is carried over after population increases [in all cities]"]
 			},
 			{
 				"name": "Excretion Opening",
 				"row": 8,
 				"prerequisites": ["Fish"]
-				"uniques": ["[+1 Food] from [Water] tiles [in all cities]"],
+				"uniques": ["[+1 Food] from [Saline water] tiles [in all cities]"],
 			}
 		]
 	},
@@ -744,7 +743,7 @@
 				"name": "Medulla Oblongata",
 				"row": 2,
 				"prerequisites": ["Brain"],
-				"uniques": ["[+1 Gold] from [Fish] tiles [in all cities]","[+1 Gold] from [Ocean] tiles [in all cities]"],
+				"uniques": ["[+1 Gold] from [Fish] tiles [in all cities]"],
 				"quote": "medulla oblongata is anterior and partially inferior to the cerebellum. It is a cone-shaped neuronal mass responsible for autonomic (involuntary) functions, ranging from vomiting to sneezing.",
 			},
 			{
@@ -922,8 +921,8 @@
 				"name": "Water Tight",
 				"prerequisites": ["Reptile","Mimicry"]
 				"row": 4,
-				"uniques": ["Enables [Embarked] units to enter ocean tiles","[+5]% Production when constructing [Amphibian] units [in all cities]","[+5]% Production when constructing [Water Animal] units [in all cities]"],
-				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so I decided to escape to the water."
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
+				"quote": "Why would you go to the water after adapt to terrestrial? ...There were too many enemies there, so you decided to escape to the water. I guess."
 			},
 			{
 				"name": "Conifer",
