@@ -509,22 +509,22 @@
 	{
 		"name": "Carnian Pluvial Episode",
 		"isWonder": true,
-		"cost": 550,
-		"uniques": ["Unbuildable <before the [Mesozoic era]>","Empire enters a [2]-turn Golden Age","[1] free [Saurischia] units appear","[2] free [Synapsida] units appear","Free Social Policy"],
+		"requiredTech": "Angiosperm",
+		"uniques": ["Empire enters a [2]-turn Golden Age","Free Social Policy"],
 	},
 	{
 		"name": "Manicouagan Reservoir",
-		"gold": 2,
+		"gold": 9,
 		"science": 1,
 		"isWonder": true,
-		"cost": 550,
-		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-50]% maintenance cost for buildings [in this city]"]
+		"requiredTech": "Ocean Reform",
+		// "uniques": ["[-50]% maintenance cost for buildings [in this city]"]
 	},
 	{
 		"name": "Paleocene-Eocene Thermal Maximum",
 		"isWonder": true,
-		"cost": 800,
-		"uniques": ["Unbuildable <before the [Paleogene period]>",
+		"requiredTech": "Primate",
+		"uniques": [
 			"[+20]% Production when constructing [Mammal] units [in this city]",
 			"[+20]% Production when constructing [Paleocene] units [in this city]",
 			"[+20]% Production when constructing [Eocene] units [in this city]",
@@ -559,22 +559,22 @@
 	{
 		"name": "Messinian Salinity Crisis",
 		"isWonder": true,
-		"cost": 800,
-		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[+50]% Production when constructing [Land] units [in this city]","[-50]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Meadow",
+		"uniques": ["Must be next to [Coast]","[+50]% Production when constructing [Land] units [in this city]","[-50]% Production when constructing [Water] units [in this city]"],
 		"quote": "Sediment samples from below the deep seafloor of the Mediterranean Sea, which include evaporite minerals, soils, and fossil plants, show that the precursor of the Strait of Gibraltar closed about 5.96 million years ago, sealing the Mediterranean off from the Atlantic. If the Strait of Gibraltar closes again, the Mediterranean would mostly evaporate in about a thousand years, after which continued northward movement of Africa may obliterate the Mediterranean altogether...Atlantropa is Possible?",
 	},
 	{
 		"name": "Hangenberg Crisis",
 		"isWonder": true,
-		"cost": 400,
-		"uniques": ["[Gold] cost of purchasing items in cities [-25]%","Unbuildable <before the [Ancient era]>"],
+		"requiredTech": "Neoselachii",
+		"uniques": ["[Gold] cost of purchasing items in cities [-25]%"],
 		"quote": "Mass extinction called the Hangenberg event, also known as the end-Devonian extinction, occurred 359 million years ago, bringing an end to the Famennian and Devonian, as the world transitioned into the Carboniferous Period.",
 	},
 	{
 		"name": "Old Red Sandstone",
 		"isWonder": true,
-		"cost": 400,
-		"uniques": ["Must be next to [Desert]","[+2 Gold] from [Desert] tiles [in this city]","[+50]% [Gold] [in this city]","Unbuildable <before the [Ancient era]>"],
+		"requiredTech": "Lungfish",
+		"uniques": ["Must be next to [Estuaries]","[+3 Gold] from [Estuaries] tiles [in this city]","[+50]% [Gold] [in this city]","Unbuildable <before the [Ancient era]>"],
 		"quote": "Old Red Sandstone, thick sequence of Devonian rocks (formed from 416 million to 359.2 million years ago) that are continental rather than marine in origin and occur in northwestern Europe, Scandinavia, Greenland, and northeastern Canada. Deposits of Old Red Sandstone have been extensively studied in Great Britain, where local and regional stage names have been applied.",
 	},
 	{
@@ -593,22 +593,22 @@
 	{
 		"name": "Zanclean Flood",
 		"isWonder": true,
-		"cost": 800,
-		"uniques": ["Unbuildable <before the [Miocene]>","Must be next to [Coast]","[-50]% Production when constructing [Land] units [in this city]","[+50]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Modern Ocean",
+		"uniques": ["Must be next to [Coast]","[-50]% Production when constructing [Land] units [in this city]","[+50]% Production when constructing [Water] units [in this city]"],
 		"quote": "The Zanclean flood or Zanclean deluge is theorized to have refilled the Mediterranean Sea 5.33 million years ago. This flooding ended the Messinian salinity crisis and reconnected the Mediterranean Sea to the Atlantic Ocean, although it is possible that even before the flood there were partial connections to the Atlantic Ocean, water from the Atlantic Ocean refilled the dried up basin through the modern-day Strait of Gibraltar. Ninety percent of the Mediterranean Basin flooding occurred abruptly during a period estimated to have been between several months and two years, following low water discharges that could have lasted for several thousand years. Sea level rise in the basin have reached rates at times greater than ten metres per day (thirty feet per day).",
 	},
 	{
 		"name": "Last Glacial Maximum",
 		"isWonder": true,
-		"cost": 900,
-		"uniques": ["Unbuildable <before the [Pliocene]>","Enemy [All] units must spend [1] extra movement points when inside your territory <before discovering [Urbanization]>"],
+		"requiredTech": "The Culture",
+		"uniques": ["Enemy [All] units must spend [1] extra movement points when inside your territory <before discovering [Urbanization]>"],
 		"quote": "The Last Glacial Maximum (LGM), also referred to as the Last Glacial Coldest Period, was the most recent time during the Last Glacial Period where ice sheets were at their greatest extent 26,000 and 20,000 years ago. Ice sheets covered much of Northern North America, Northern Europe, and Asia and profoundly affected Earth's climate by causing a major expansion of deserts, along with a large drop in sea levels."
 	},
 	{
 		"name": "Smithian-Spathian Boundary",
 		"isWonder": true,
-		"cost": 550,
-		"uniques": ["Unbuildable <before the [Mesozoic era]>","[-50]% Strength <for [Cambrian] units>","Free Technology"],
+		"requiredTech": "Dinosaur",
+		"uniques": ["[-50]% Strength <for [Cambrian] units>","Free Technology"],
 		"quote": "An important extinction event occurred during the Olenekian age of the Early Triassic, near the Smithian and Spathian subage boundary. The main victims of this Smithian-Spathian boundary event, often called the Smithian-Spathian extinction, were 'disaster taxa': Palaeozoic species that survived the Permian-Triassic extinction event and flourished in the immediate aftermath of the extinction; ammonoids, conodonts, and radiolarians in particular suffered drastic biodiversity losses, which is accentuated, among others, by the cosmopolitan distribution of the ammonoid Anasibirites. Marine reptiles, such as ichthyopterygians and sauropterygians, diversified after the extinction.",
 	},
 	{
@@ -631,15 +631,16 @@
 		"name": "Nuclear Fusion",
 		"cost": 100,
 		"isWonder": true,
+		"requiredTech": "Home Star",
 		"uniques": ["[+100]% [Gold] [in this city] <for [50] turns>","gain 4000000000000 Energy after 170000 turns"],
 		"quote": "Every second, the Sun's core fuses about 600 million tons of hydrogen into helium, and in the process converts 4 million tons of matter into energy.",
 	},
 	{
 		"name": "Devonian Nekton Revolution",
 		"isWonder": true,
-		"cost": 400,
+		"requiredTech": "Predation",
 		"uniques": ["[+15]% Production when constructing [Fishes] units [in all cities]",
-		"[+10]% Strength <for [Nekton] units>","Only available <starting from the [Ancient era]>"],
+		"[+10]% Strength <for [Nekton] units>"],
 		"quote": "Nekton filled the empty place left after the Ordovician mass extinction and dead macro-planktons. It time for Fishes.",
 	},
 	/*
@@ -690,7 +691,7 @@
 		// "cost": 1000,
 		"culture": 2,
 		"isWonder": true,
-		"requiredTech": "Excretion Opening",
+		"requiredTech": "Cephalopod",
 		"uniques": ["Devonian","Ammonoidea","Gain a free [Cephalopoda] [in all cities]","[+25]% [Culture] [in this city]","[+25]% [Culture] [in capital]"],
 		"quote": "Ammonoids are a group of extinct marine mollusc animals in the subclass Ammonoidea of the class Cephalopoda. These molluscs, commonly referred to as ammonites, are more closely related to living coleoids than they are to shelled nautiloids such as the living Nautilus species. The earliest ammonites appeared during the Devonian, with the last species vanishing during or soon after the K-Pg mass extinction event.",
 	},
@@ -721,6 +722,11 @@
 		"science": 2,
 		"requiredTech": "Insect",
 		"uniques": ["Provides [1] [Super Creature Stock]"]
+	},
+	{
+		"name": "Alveolate",
+		"requiredTech": "Eukaryotic Cell",
+		"science": 4,
 	},
 	{
 		"name": "LUCA",
