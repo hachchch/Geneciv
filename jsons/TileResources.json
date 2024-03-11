@@ -106,8 +106,8 @@
 		"name": "Jungle",
 		"revealedBy": "Rainforest",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Spore Tree","Grassland","Plains","Hill"]
-		"improvement": "Forests",
+                "terrainsCanBeFoundOn": ["Grassland","Plains","Hill"]
+		"improvedBy": ["Forests","Spore Tree"],
 		"uniques": [// "Generated with weight [25]",
 			"Generated on every [8] tiles <in [Featureless] [Plains] tiles>",
 			"Generated on every [14] tiles <in [Fresh water] [Plains] tiles>",
