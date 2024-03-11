@@ -908,13 +908,14 @@
 	{
 		"name": "Tetrapod",
 		"obsoleteTech": "Amphibian",
+		"upgradesTo": "Batrachosauria",
 		"unitType": "Amphibian",
 		"cost": 180,
-		"strength": 24,
+		"strength": 28,
 		"movement": 1,
 		"requiredTech": "Terrestrial Transition",
 		"attackSound": "crrr",
-		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
@@ -941,7 +942,7 @@
 		"movement": 1,
 		"requiredTech": "Amphibian",
 		"attackSound": "crrr",
-		"uniques": ["[+1] Movement <in [Water] tiles>","[+50]% Strength <when fighting in [Water] tiles>","Carboniferous","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"uniques": ["[+1] Movement <in [Water] tiles>","[+50]% Strength <when fighting in [Water] tiles>","Carboniferous","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
@@ -961,14 +962,15 @@
 	},
 	{
 		"name": "Batrachosauria",
-		"obsoleteTech": "Anthropocene",
+		"obsoleteTech": "Therapsid",
+		"upgradesTo": "Eupelycosauria",
 		"unitType": "Amphibian",
 		"cost": 180,
 		"strength": 28,
 		"movement": 1,
 		"requiredTech": "Amphibian",
 		"attackSound": "crrr",
-		"uniques": ["[+50]% Strength <when fighting in [Land] tiles>","Carboniferous","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]","Double movement in [Land] <after discovering [Legs]>"],
+		"uniques": ["[+50]% Strength <when fighting in [Land] tiles>","Carboniferous","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Tetrapod",
