@@ -90,7 +90,7 @@
 		"revealedBy": "Progymnosperm",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill"]
-		"improvedBy": ["Forests", "Lumber mill"],
+		"improvedBy": ["Spore Tree","Forests","Lumber mill"],
 		"improvementStats": {"production": 2, "food": 1},
 		"uniques": ["Generated on every [8] tiles <in [Featureless] [Plains] tiles>", // Savanna Forest
 			"Generated on every [14] tiles <in [Fresh water] [Plains] tiles>",
@@ -106,7 +106,7 @@
 		"name": "Jungle",
 		"revealedBy": "Rainforest",
 		"resourceType": "Bonus",
-                "terrainsCanBeFoundOn": ["Grassland","Plains","Hill"]
+                "terrainsCanBeFoundOn": ["Spore Tree","Grassland","Plains","Hill"]
 		"improvement": "Forests",
 		"uniques": [// "Generated with weight [25]",
 			"Generated on every [8] tiles <in [Featureless] [Plains] tiles>",
