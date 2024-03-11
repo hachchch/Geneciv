@@ -211,3 +211,37 @@ TileSets/FantasyHex/Tiles/Charnia Forest2
   orig: 32, 32
   offset: 0, 0
   index: -1
+
+GenecivTiles4.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Grassland+GrassLand-Carboniferous period
+  rotate: false
+  xy: 0, 0
+  size: 32, 32
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Ancient era
+  rotate: false
+  xy: 0, 28
+  size: 32, 32
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grassland+Forest+Spore Tree
+  rotate: false
+  xy: 0, 56
+  size: 32, 32
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Plains+Forest+Spore Tree
+  rotate: false
+  xy: 0, 84
+  size: 32, 32
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
