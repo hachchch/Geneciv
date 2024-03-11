@@ -1329,7 +1329,7 @@
 	{
 		"name": "Ophidia",
 		"unitType": "Reptiles",
-		"strength": 65,
+		"strength": 90,
 		"movement": 2,
 		"cost": 500,
 		"requiredTech": "Grass",
@@ -1341,7 +1341,7 @@
 		"name": "Eusuchia",
 		"obsoleteTech": "Anthropocene",
 		"unitType": "Reptiles",
-		"strength": 60,
+		"strength": 100,
 		"cost": 660,
 		"movement": 2,
 		"attackSound": "Splash",
@@ -1368,7 +1368,7 @@
 	{
 		"name": "Cryptodira",
 		"unitType": "Reptiles",
-		"strength": 35,
+		"strength": 50,
 		"movement": 1,
 		"cost": 500,
 		"requiredTech": "Modern Ocean",
@@ -1379,7 +1379,7 @@
 	{
 		"name": "Chelonioidea",
 		"unitType": "Water Reptiles",
-		"strength": 40,
+		"strength": 60,
 		"movement": 2,
 		"cost": 500,
 		"requiredTech": "Modern Ocean",
