@@ -989,8 +989,8 @@
 	// Reptiles
 	{
 		"name": "Small Reptile",
-		"upgradesTo": "Synapsida",
-		"obsoleteTech": "Mammal",
+		"upgradesTo": "Big Reptile",
+		"obsoleteTech": "Archosauria",
 		"unitType": "Reptiles",
 		"movement": 3,
 		"cost": 225,
@@ -1476,8 +1476,8 @@
 		"unitType": "Mammal",
 		"movement": 3,
 		"cost": 250,
-		"obsoleteTech": "Mammal",
-		"upgradesTo": "Eutheriodontia",
+		"obsoleteTech": "Canine Tooth",
+		"upgradesTo": "Cynodont",
 		"strength": 50,
 		"requiredTech": "Therapsid",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","P-T","Predator","Quadrupedal","[+100]% Strength <vs cities> <when attacking>","[+30]% Strength <when attacking>","Can move after attacking"],
