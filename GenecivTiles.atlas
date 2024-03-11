@@ -238,16 +238,16 @@ TileSets/FantasyHex/Tiles/City center-Ancient era
   orig: 28, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Grassland+Forest+Spore Tree
+TileSets/FantasyHex/Tiles/Spore Tree
   rotate: false
-  xy: 0, 84
+  xy: 0, 112
   size: 32, 28
   orig: 28, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Plains+Forest+Spore Tree
+TileSets/FantasyHex/Tiles/Grassland+Forest+Spore Tree
   rotate: false
-  xy: 0, 112
+  xy: 0, 84
   size: 32, 28
   orig: 28, 28
   offset: 0, 0
