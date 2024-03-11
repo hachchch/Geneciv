@@ -1015,31 +1015,6 @@
 		]
 	},
 	{
-		"name": "Eupelycosauria",
-		"upgradesTo": "Synapsida",
-		"obsoleteTech": "Mammal",
-		"unitType": "Reptiles",
-		"movement": 2,
-		"cost": 250,
-		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Only available <in cities without a [Sea Environment]> <hidden from users>","Carboniferous","Quadrupedal","Can move after attacking"],
-		"strength": 45,
-		"requiredTech": "Therapsid",
-		"attackSound": "whirrs",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Small Reptile",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Small Reptile",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-		]
-	},
-	{
 		"name": "Big Reptile",
 		"unitType": "Reptiles",
 		"movement": 2,
@@ -1415,6 +1390,32 @@
 	},
 	// Mammals
 	{
+		"name": "Eupelycosauria",
+		"upgradesTo": "Cynodont",
+		"obsoleteTech": "Canine Teeth",
+		"unitType": "Mammal",
+		"movement": 2,
+		"cost": 250,
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Only available <in cities without a [Sea Environment]> <hidden from users>","Carboniferous","Quadrupedal","Can move after attacking"],
+		"strength": 45,
+		"requiredTech": "Therapsid",
+		"attackSound": "whirrs",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Small Reptile",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+		]
+	},
+	/*
+	{
 		"name": "Synapsida",
 		"obsoleteTech": "Eutherians",
 		"cost": 280,
@@ -1422,7 +1423,8 @@
 		"attackSound": "Slash",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pennsylvanian","Quadrupedal","[+1] Sight","[100]% Strength <when attacking> <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
-		"requiredTech": "Mammal",
+		"requiredTech": "Canine Teeth",
+		"upgradesTo": "Cynodont",
 		"unitType": "Mammal",
 		"civilopediaText": [
 			{
@@ -1441,25 +1443,25 @@
 			},
 		]
 	},
+	*/
 	{
-		"name": "Cynodontia",
-		"uniqueTo": "The Pangaea",
-		"replaces": "Big Reptile",
+		"name": "Cynodont"
 		"unitType": "Mammal",
 		"movement": 2,
-		"cost": 275,
-		"obsoleteTech": "Mammal",
-		"upgradesTo": "Eutheriodontia",
-		"strength": 55,
-		"requiredTech": "Archosauria",
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","P-T","Predator","Quadrupedal"],
+		"cost": 280,
+		"strength": 60,
+		"attackSound": "Slash",
+		"requiredTech": "Canine Teeth",
+		"obsoleteTech": "Eutherians",
+		"upgradesTo": "Glires",
+		"uniques": ["[+1] Sight","[+100]% Strength <when attacking> <vs cities>","[-50]% Strength <vs [Reptiles] units>","Can move after attacking","Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","Predator","Quadrupedal"],
 		"civilopediaText": [
 			{
-				"extraImage": "TileSets/FantasyHex/Units/Cynodontia",
+				"extraImage": "TileSets/FantasyHex/Units/Cynodont",
 				"imageSize": 192
 			},
 			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Cynodontia",
+				"extraImage": "TileSets/AbsoluteUnits/Units/Cynodont",
 				"imageSize": 192
 			},
 			{
@@ -1470,15 +1472,15 @@
 	{
 		"name": "Therocephalia",
 		"uniqueTo": "The Pangaea",
-		"replaces": "Big Reptile",
+		"replaces": "Eupelycosauria",
 		"unitType": "Mammal",
-		"movement": 2,
-		"cost": 275,
+		"movement": 3,
+		"cost": 250,
 		"obsoleteTech": "Mammal",
 		"upgradesTo": "Eutheriodontia",
 		"strength": 50,
-		"requiredTech": "Archosauria",
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","P-T","Predator","Quadrupedal","[+30]% Strength <when attacking>"],
+		"requiredTech": "Therapsid",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","P-T","Predator","Quadrupedal","[+100]% Strength <vs cities> <when attacking>","[+30]% Strength <when attacking>","Can move after attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Therocephalia",
@@ -1493,6 +1495,7 @@
 			},
 		]
 	},
+	/*
 	{
 		"replaces": "Synapsida",
 		"name": "Eutheriodontia",
@@ -1521,10 +1524,11 @@
 			},
 		]
 	},
+	*/
 	{
 		"name": "Glires",
 		"unitType": "Mammal",
-		"strength": 45,
+		"strength": 90,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
 		"cost": 400,
 		"movement": 3,
@@ -1546,7 +1550,7 @@
 		"unitType": "Mammal",
 		"obsoleteTech": "Anthropocene",
 		"cost": 450,
-		"strength": 80,
+		"strength": 120,
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
@@ -1577,7 +1581,7 @@
 		"unitType": "Mammal",
 		"cost": 450,
 		"obsoleteTech": "Anthropocene",
-		"strength": 80,
+		"strength": 120,
 		"movement": 3,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
@@ -1599,7 +1603,7 @@
 		"requiredTech": "Eutherians",
 		"obsoleteTech": "Anthropocene",
 		"attackSound": "horse"
-		"strength": 60,
+		"strength": 100,
 		"movement": 3,
 		"unitType": "Mammal",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
@@ -1617,7 +1621,7 @@
 	{
 		"name": "Chiroptera",
 		"unitType": "Air Mammal",
-		"strength": 66,
+		"strength": 105,
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
 		"cost": 420,
@@ -1660,7 +1664,7 @@
 		"unitType": "Mammal",
 		"obsoleteTech": "Anthropocene",
 		"cost": 460,
-		"strength": 75,
+		"strength": 112,
 		"movement": 2,
 		"requiredTech": "Placenta",
 		"attackSound": "throw",
@@ -1671,7 +1675,7 @@
 		"unitType": "Mammal",
 		"obsoleteTech": "Anthropocene",
 		"cost": 460,
-		"strength": 60,
+		"strength": 95,
 		"movement": 2,
 		"requiredTech": "Eutherians",
 		"attackSound": "Slash",
@@ -1682,7 +1686,7 @@
 		"cost": 450,
 		"requiredTech": "Eutherians",
 		"attackSound": "Boar",
-		"strength": 70,
+		"strength": 100,
 		"range": 1,
 		"rangedStrength": 70,
 		"movement": 4,
@@ -1705,7 +1709,7 @@
 		"unitType": "Mammal",
 		"obsoleteTech": "Anthropocene",
 		"cost": 460,
-		"strength": 80,
+		"strength": 112,
 		"movement": 1,
 		"requiredTech": "Placenta",
 		"attackSound": "Slash",
@@ -1716,11 +1720,11 @@
 		"name": "Ape",
 		"unitType": "Hominiae",
 		"cost": 450,
-		"strength": 50,
+		"strength": 100,
 		"movement": 3,
 		"requiredTech": "Ape",
 		"obsoleteTech": "Homo Habilis",
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Miocene","All adjacent units heal [10] HP when healing","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","All tiles cost 1 movement","Ignores terrain cost","Ignores Zone of Control","Can pass through impassable tiles","May enter foreign tiles without open borders","Can move after attacking"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Miocene","[1] Sight","Invisible to non-adjacent units","Can see invisible [Land] units","Ignores terrain cost","Ignores Zone of Control","May enter foreign tiles without open borders","Can move after attacking"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Ape",
@@ -1767,9 +1771,9 @@
 		"unitType": "Hominiae",
 		"cost": 500,
 		"movement": 2,
-		"strength": 50,
+		"strength": 100,
 		"attackSound": "nonmetalhit",
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pliocene","[500]% Strength <vs [Glires] units>"],
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pliocene","[+100]% Strength <when attacking>"],
 		"requiredTech": "Australopithecus",
 		"civilopediaText": [
 			{
@@ -1788,9 +1792,9 @@
 		"cost": 590,
 		"movement": 2,
 		"range": 2,
-		"strength": 50,
-		"rangedStrength": 90,
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","[350]% Strength <vs [Glires] units>"],
+		"strength": 100,
+		"rangedStrength": 145,
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene"],
 		"requiredTech": "Stone Tools",
 		"attackSound": "Stone",
 		"civilopediaText": [
@@ -1809,7 +1813,7 @@
 		"unitType": "Human",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>",
 		"Can build [Hunting Spot] improvements on tiles"],
-		"strength": 50,
+		"strength": 150,
 		"movement": 2,
 		"attackSound": "nonmetalhit",
 		"cost": 650,
@@ -1827,9 +1831,9 @@
 		"requiredTech": "Advanced Game",
 		"cost": 800,
 		"Range": 2,
-		"rangedStrength": 135,
+		"rangedStrength": 200,
 		"attackSound": "arrow",
-		"strength": 100,
+		"strength": 170,
 		"movement": 2,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
 		"Can build [Hunting Spot] improvements on tiles"],
@@ -1846,9 +1850,9 @@
 		"attackSound": "nonmetalhit",
 		"cost": 700,
 		"requiredTech": "Homo Sapiens",
-		"strength": 135,
+		"strength": 180,
 		"movement": 2,
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
+		"uniques": ["[+50]% Strength <when adjacent to a [Sapiens Warrior] unit>","[+50]% Strength <when adjacent to a [Archer] unit>","Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[-80]% Strength <vs [Human] units> <before discovering [Religion]>","Earn [100]% of killed [Human] unit's [Strength] as [Science] <after discovering [War]>",
 		"Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
 			{
@@ -1861,9 +1865,9 @@
 		"name": "Neanderthalensis Warrior",
 		"unitType": "Human",
 		"attackSound": "nonmetalhit",
-		"cost": 750,
+		"cost": 700,
 		"requiredTech": "Homo Neanderthalensis",
-		"strength": 170,
+		"strength": 200,
 		"movement": 2,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[-80]% Strength <vs [Human] units>","Can build [Hunting Spot] improvements on tiles"],
 		"obsoleteTech": "Homo Sapiens Sapiens",
@@ -1885,7 +1889,7 @@
 		"requiredTech": "War",
 		"obsoleteTech": "Urbanization",
 		"unitType": "Human",
-		"strength": 170,
+		"strength": 280,
 		"movement": 2,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]","Can build [Hunting Spot] improvements on tiles"],
 		"civilopediaText": [
@@ -1952,7 +1956,7 @@
 		"name": "Galliform",
 		"unitType": "Aves",
 		"interceptRange": 2,
-		"strength": 65,
+		"strength": 80,
 		"movement": 2,
 		"cost": 500,
 		"attackSound": "crrr",
@@ -1971,8 +1975,8 @@
 		"unitType": "Birds",
 		"interceptRange": 5,
 		"range": 5,
-		"rangedStrength": 65,
-		"strength": 65,
+		"rangedStrength": 80,
+		"strength": 80,
 		"movement": 1,
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
@@ -1994,8 +1998,8 @@
 		"name": "Charadriiformes",
 		"unitType": "Birds",
 		"range": 7,
-		"rangedStrength": 75,
-		"strength": 75,
+		"rangedStrength": 80,
+		"strength": 80,
 		"movement": 1,
 		"cost": 500,
 		"obsoleteTech": "Anthropocene",
@@ -2007,7 +2011,7 @@
 		"name": "Raphus",
 		"unitType": "Aves",
 		"interceptRange": 2,
-		"strength": 70,
+		"strength": 90,
 		"movement": 2,
 		"cost": 500,
 		"attackSound": "crrr",
@@ -2075,15 +2079,14 @@
 	},
 	{
 		"name": "Megalodon",
-		"obsoleteTech": "Plesiosaur",
-		"requiredTech": "Neoselachii",
+		"obsoleteTech": "Cetaceans",
+		"requiredTech": "Ocean Reform",
 		"unitType": "Fishes",
-		"cost": 500,
-		"strength": 95,
+		"cost": 1250,
+		"strength": 300,
 		"movement": 4,
-		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
-		"uniques": ["Miocene","Predator","Never appears as a Barbarian unit <hidden from users>","Destroys tile improvements when attacking <hidden from users>"],
+		"uniques": ["Consumes [2] [Super Creature Stock]","Miocene","Predator","Never appears as a Barbarian unit","Destroys tile improvements when attacking <hidden from users>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Megalodon",
@@ -2094,6 +2097,17 @@
 				"imageSize": 192
 			},
 		]
+	},
+	{
+		"name": "Dimetrodon",
+		"unitType": "Mammal",
+		"cost": 750,
+		"strength": 90,
+		"movement": 2,
+		"requiredResource": "Super Creature Stock",
+		"uniques": ["Permian","Predator","Never appears as a Barbarian unit"],
+		"requiredTech": "Therapsid",
+		"obsoleteTech": "Archosauria"
 	},
 	{
 		"name": "Mosasaur",
