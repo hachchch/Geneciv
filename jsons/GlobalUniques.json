@@ -1,6 +1,11 @@
 {
     "name": "Global uniques",
     "uniques": [
+	    **Event Def**
+	    // P-T Boundary
+	    "Triggers a [] event",
+	    "",
+	    // Others
 	    "[-1] Sight <for [Embarked] units>",
 	    "[-50]% [Science] [in all cities]",
 	    "[+50]% [Science] [in capital]",
