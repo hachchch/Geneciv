@@ -743,7 +743,7 @@
 		"[+1 Science] <after discovering [Fish]> <before the [Ancient era]> <hidden from users>",
 		"[+1 Science] <after discovering [Lungfish]> <before the [Permian period]> <hidden from users>",
 		"[+1 Science] <after discovering [Archosauria]> <before the [Paleogene period]> <hidden from users>",
-		"[+1 Science] <after discovering [Mammal]> <before the [Paleogene period]> <hidden from users>",
+		"[+1 Science] <after discovering [Therapsid]> <before the [Mesozoic era]> <hidden from users>",
 		"[+1 Science] <after discovering [Eutherians]> <before the [Pliocene]> <hidden from users>",
 		"[+1 Science] <after discovering [Modern Ocean]> <before the [Pliocene]> <hidden from users>",
 		"[+1 Science] <after discovering [Flying]> <before the [Pliocene]> <hidden from users>",
@@ -835,12 +835,12 @@
 	{
 		"name": "Mesozoic-Cenozoic Radiation",
 		"isWonder": true,
-		"cost": 800,
 		"gold": 4,
 		"production": 4,
 		"food": 4,
 		"culture": 1,
-		"uniques": ["[+15]% [Food] [in this city]","Unbuildable <before the [Paleogene period]>"],
+		"requiredTech": "Eutherians",
+		"uniques": ["[+15]% [Food] [in this city]"],
 	},
 	{
 		"name": "Romer's Gap",
@@ -1065,8 +1065,8 @@
 	// abyssal life support
 	{
 		"name": "Whale Falls",
-		"gold": 4,
-		"uniques": ["Must be next to [Water]","[+15]% [Gold] [in this city]"]
+		"gold": 6,
+		"uniques": ["Only available <in cities with a [Benthic Environment]>","[+15]% [Gold] [in this city]"]
 		"requiredTech": "Cetaceans",
 	},
 	// Aquatic Charales
@@ -1076,7 +1076,7 @@
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Modern Ocean",
 		"production": 4,
-		"uniques": ["Must be next to [Coast]"],
+		"uniques": ["Only available <in cities with a [Sea Environment]>"],
 	},
 	// Embryophyte
 	{
@@ -1084,6 +1084,7 @@
 		"requiredBuilding": "Land Algae",
 		"requiredTech": "Vascular Plant",
 		"gold": 4,
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>"]
 	},
 	{
 		"name": "Mistletoe",
@@ -1107,7 +1108,7 @@
 		"maintenance": 1,
 		"food": 2,
 		"requiredTech": "First Plant",
-		"uniques": ["Free [Vegetation] appears <in cities with a [Littoral Environment]> <for [AI player]> <hidden from users>","[+1 Food] from [Fresh Water] tiles [in this city]"]
+		"uniques": ["Free [Vegetation] appears <in cities with a [Littoral Environment]> <for [AI player]> <hidden from users>","[+1 Food] from [Fresh Water] tiles [in this city]","Only available <in cities without a [Sea Environment]> <hidden from users>"]
 	},
 	{
 		"name": "Shrub",
@@ -1116,6 +1117,7 @@
 		"specialistSlots": {"Vegetation": 1},
 		"production": 1,
 		"requiredTech": "Fern",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>"]
 	},
 	{
 		"name": "Fenestrida",
@@ -1287,7 +1289,7 @@
 		"name": "Soil",
 		"maintenance": 1,
 		"requiredTech": "Tissue",
-		"uniques": ["Must not be next to [Coastal]",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Must not be next to [Coastal]",
 			"Costs [100] [Oxygen]",
 			"[+1 Food] from [Land] tiles [in this city]",
 			"Only available <when above [99] [Oxygen]> <hidden from users>"]
@@ -1361,7 +1363,7 @@
                 "cost": 25,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		// "uniques": ["[+1 Gold, +1 Production] from [Lakes] tiles [in this city]"],
+		// "uniques": ["[+1 Gold, +1 Production] from [Lakes] tiles [in this city]"/*,"Only available <in cities without a [Sea Environment]> <hidden from users>"*/],
 		"requiredTech": "Primordial Soup",
         },
 	{
@@ -1377,7 +1379,7 @@
 		// "cost": 550,
 		"food": 2,
 		"requiredTech": "Predation",
-		"uniques": ["Must be next to [Coast]","[+15]% Strength <for [Fishes]> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
+		"uniques": ["Underwater Building","Only available <in cities with a [Sea Environment]> <hidden from users>","Must be next to [Coast]","[+15]% Strength <for [Predator] units> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
 	},
 	{
 		"name": "Microbiota",
@@ -1406,7 +1408,7 @@
 		// "cost": 1150,
 		"culture": 2,
 		"isWonder": true,
-		"requiredTech": "Mammal",
+		"requiredTech": "Ear",
 		"uniques": ["[+25]% Golden Age length"]
 	},
 	{
@@ -2434,10 +2436,10 @@
 		"isWonder": true,
 		"requiredTech": "Biology",
 		"uniques": ["Free [Archeopteryx] appears",
-		"Free [Synapsida] appears",
+		"Free [Cynodont] appears",
 			"Free [Tetrapod] appears",
 		"[+1300]% Strength <for [Tetrapod] units>",
-		"[+700]% Strength <for [Synapsida] units>",
+		"[+700]% Strength <for [Cynodont] units>",
 		"[+400]% Strength <for [Archeopteryx] units>",
 		"[+2] Range <for [Archeopteryx] units>"],
 	},
