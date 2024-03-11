@@ -1747,6 +1747,11 @@
 		"name": "Aphotic Environment",
 		"uniques": ["Unsellable","Unbuildable","Can Construct Aphotic Environment Unique in this city"]
 	},
+	{
+		"name": "Anoxic Environment",
+		"food": -20,
+		"uniques": ["Unsellable","Unbuildable"]
+	},
         {
                 "name": "Palace",
                 "isNationalWonder": true,
