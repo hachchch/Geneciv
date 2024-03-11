@@ -1451,7 +1451,7 @@
 		"cost": 280,
 		"strength": 60,
 		"attackSound": "Slash",
-		"requiredTech": "Canine Teeth",
+		"requiredTech": "Canine Tooth",
 		"obsoleteTech": "Eutherians",
 		"upgradesTo": "Glires",
 		"uniques": ["[+1] Sight","[+100]% Strength <when attacking> <vs cities>","[-50]% Strength <vs [Reptiles] units>","Can move after attacking","Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","Predator","Quadrupedal"],
