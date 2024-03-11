@@ -1002,7 +1002,7 @@
 				"prerequisites": ["Forest Cycle","Archosauria"],
 			},
 			{
-				"name": "Mammal",
+				"name": "Canine Tooth",
 				"row": 7,
 				"prerequisites": ["Warm Blooded","Ear"]
 			},
@@ -1029,7 +1029,7 @@
 			{
 				"name": "Uterus",
 				"row": 9,
-				"prerequisites": ["Mammal","Egg Shell"],
+				"prerequisites": ["Canine Tooth","Egg Shell"],
 				"uniques": ["Enables Defensive Pacts","Production to [Science] conversion in cities changed by [+10]%"],
 			},
 			{
@@ -1052,7 +1052,7 @@
 				"name": "Hair",
 				"row": 5,
 				"uniques": ["[+10]% Strength <when fighting in [Snow] tiles> <for [Mammal] units>"],
-				"prerequisites": ["Mammal"]
+				"prerequisites": ["Canine Tooth"]
 			},
 			{
 				"name": "Cretaceous Reptiles",
@@ -1063,7 +1063,7 @@
 				"name": "Glands",
 				"row": 7,
 				"uniques": ["[+10]% Strength <when fighting in [Desert] tiles>","[+10]% Strength <when fighting in [Jungle] tiles>"],
-				"prerequisites": ["Mammal"],
+				"prerequisites": ["Canine Tooth"],
 			},
 		]
 	},
