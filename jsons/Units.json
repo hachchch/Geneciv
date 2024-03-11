@@ -1388,11 +1388,11 @@
 		"uniques": ["Cretaceous","Cannot attack"],
 		"promotions": ["Shell"]
 	},
-	// Mammals
+	// Synapsids
 	{
 		"name": "Eupelycosauria",
 		"upgradesTo": "Cynodont",
-		"obsoleteTech": "Canine Teeth",
+		"obsoleteTech": "Canine Tooth",
 		"unitType": "Mammal",
 		"movement": 2,
 		"cost": 250,
@@ -1495,36 +1495,7 @@
 			},
 		]
 	},
-	/*
-	{
-		"replaces": "Synapsida",
-		"name": "Eutheriodontia",
-		"uniqueTo": "The Pangaea",
-		"obsoleteTech": "Eutherians",
-		"cost": 280,
-		"strength": 50,
-		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Permian","Quadrupedal","[+1] Sight","[75]% Strength <vs cities>","Can move immediately once bought","Can move after attacking"],
-		"movement": 3,
-		"requiredTech": "Mammal",
-		"unitType": "Mammal",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Eutheriodontia",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Eutheriodontia",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": ".",
-			},
-		]
-	},
-	*/
+	// Mammals
 	{
 		"name": "Glires",
 		"unitType": "Mammal",
