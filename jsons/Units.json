@@ -1423,7 +1423,7 @@
 		"attackSound": "Slash",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pennsylvanian","Quadrupedal","[+1] Sight","[100]% Strength <when attacking> <vs cities>","Can move immediately once bought","Can move after attacking"],
 		"movement": 3,
-		"requiredTech": "Canine Teeth",
+		"requiredTech": "Canine Tooth",
 		"upgradesTo": "Cynodont",
 		"unitType": "Mammal",
 		"civilopediaText": [
