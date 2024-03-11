@@ -161,7 +161,7 @@
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Desert"]
 		"food": 3,
-		"improvement": "Forests",
+		"improvedBy": ["Forests","Spore Tree"],
                 "production": 1,
 		"improvementStats": {"food": 2},
 	},
