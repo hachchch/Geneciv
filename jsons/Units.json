@@ -62,7 +62,7 @@
 			"[+75]% tile improvement construction time <in [Hill] tiles> <hidden from users>",
 			// "[-50]% tile improvement construction time <with [1] to [1] neighboring [Vegetation] tiles>", // it should not hidden # not working
 			"[-75]% tile improvement construction time <in [Fresh water] tiles> <hidden from users>",
-			"Can build [Lichen] improvements on tiles <hidden from users>","Can build [GrassLand] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Forests] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>"],
+			"Can build [Lichen] improvements on tiles <hidden from users>","Can build [GrassLand] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Forests] improvements on tiles <hidden from users>","Can build [Spore Tree] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>"],
 		"cost": 150,
 		"requiredTech": "First Plant",
 		"civilopediaText": [
