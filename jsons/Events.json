@@ -5,7 +5,7 @@
                 "choices":[
                         {
                                 "text": "It's time to natural selection...",
-                                "triggeredUniques": ["Suppress warning [You will lost 20 food for 10 turns and instantly lost 600 Mutation due to it.]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities]","Remove [Anoxic Environment] [in all cities] <after [10] turns>"]
+                                "triggeredUniques": ["Suppress warning [You will lost 20 food for 10 turns and instantly lost 600 Mutation due to it.]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>","Remove [Anoxic Environment] [in all cities] <after [10] turns> <hidden from users>"]
                         },
                         {
                                 "text": "I'll Pay 1000 Oxygen and Energy.",
