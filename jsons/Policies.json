@@ -1,1 +1,680 @@
-
+[
+	{
+		"name": "Abiogenesis",
+		"priorities": {"Neutral": 3,"Cultural": 3,"Diplomatic": 3,"Domination": 3,"Scientific": 3},
+		"era": "Hadean eon",
+		"effect": "Enable to Construct Late Heavy Bombardment and +2 Food to capital",
+		"uniques": ["Enable Late Heavy Bombardment","[+2 Food] [in capital]"],
+		"policies": [
+			{
+				"name": "Habitable World",
+				"uniques": ["[+20]% growth [in all cities]"]
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Prebiotic Synthesis",
+				"uniques": ["Empire enters golden age","[+35]% [Culture] <before the [Cambrian period]>"],
+				"row": 2,
+				"column": 5,
+				"requires": ["Habitable World"],
+			},
+			{
+				"name": "Great Oxidation Event",
+				"uniques": ["[+1 Production] from [Photic zone] tiles [in capital]","Double quantity of [Oxygen] produced"],
+				"row": 2,
+				"column": 1,
+				"requires": ["Habitable World"],
+			},
+			{
+				"name": "Central Dogma",
+				"uniques": ["[3] units cost no maintenance"],
+				"row": 3,
+				"column": 5,
+				"requires": ["Prebiotic Synthesis"],
+			},
+			{
+				"name": "Blue Marble",
+				"uniques": ["[+1 Culture] from [Water] tiles [in all cities]"],
+				"row": 3,
+				"column": 1,
+				"requires": ["Great Oxidation Event"],
+			},
+			{
+				"name": "Abiogenesis Complete",
+				"effect": "Free Otavia antiqua in all cities",
+				"uniques": ["Gain a free [Otavia Antiqua] [in all cities]"]
+			},
+		]
+	},
+	{
+		"name": "Adaptation",
+		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
+		"era": "Hadean eon",
+		"effect": "+2 Production to capital",
+		"uniques": ["[+2 Production] [in capital]"],
+		"policies": [
+			{
+				"name": "Pasteur Point",
+				"uniques": ["[+10]% [Production] [in all cities] <when above [5000] [Oxygen]>"],
+				"row": 2,
+				"column": 1,
+				"requires": ["Purple Earth"],
+			},
+			{
+				"name": "Purple Earth",
+				"uniques": ["[+1 Culture] from [{Photic zone} {Algae}] tiles [in all cities]"],
+				"row": 1,
+				"column": 1,
+			},
+			{
+				"name": "Evolutionary Trap",
+				"uniques": ["Gain [10] [Culture] <upon founding a city>"],
+				"row": 1,
+				"column": 5,
+			},
+			{
+				"name": "Medea Hypothesis",
+				"uniques": ["[+33]% [Culture] [in capital]",
+				"[+10]% [Culture] [in all cities] <after adopting [Proterozoic Extinctions]>"],
+				"row": 2,
+				"column": 5,
+				"requires": ["Evolutionary Trap"],
+			},
+			{
+				"name": "Rare Earth",
+				"uniques": ["[+10]% [Food] [in all cities] <when above [4500] [Atmosphere]> <when below [5500] [Atmosphere]>",
+					"[+10]% [Food] [in all cities] <when above [4500] [Oxygen]> <when below [5500] [Oxygen]>",
+					"[+5]% [Food] [in all cities] <when above [2999] [Biomass]>",
+					"[+5]% [Food] [in all cities] <when above [5999] [Biomass]>",
+					"[+5]% [Food] [in all cities] <when above [8999] [Biomass]>"
+				],
+				"row": 1,
+				"column": 3,
+			},
+			{
+				"name": "Adaptation Complete",
+				"uniques": ["[+1 Culture] [in all cities]",
+					"[+66]% Production when constructing [Culture] buildings [in all cities]"]
+			},
+		]
+	},
+	{
+		"name": "Diversity",
+		"priorities": {"Neutral": 5,"Cultural": 10,"Diplomatic": 5,"Domination": 10,"Scientific": 15},
+		"era": "Cambrian period",
+		"effect": "Enable To Construct Trilobites",
+		"uniques": ["Enable To Construct Trilobites"],
+		"policies": [
+			{
+				"name": "Parallel Evolution",
+				"effect": "+3 Science per Wonder from foreign continent tiles",
+				"uniques": ["[+2 Culture] from every [Wonder] <on foreign continents>","[+1 Culture] from every [Wonder]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Phylogenetic Trees",
+				"effect": "Gain Tech Boost when you built Wonders",
+				"uniques":["[+10]% Production when constructing [All] wonders [in capital]","Gain [20] [Culture] <upon constructing [Wonders]>"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Coevolution",
+				"effect": "+1 Science from Bug Buildings",
+				"uniques": ["Sometimes called Symbiont","[+1 Culture] from every [Bugs]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Bio Feudalism",
+				"effect": "+20% Production when constructing Herbivore and Small Reptiles, 30% growth in capital",
+				"uniques": ["[+5 Culture] [in capital]","[+10]% Food is carried over after population increases [in capital]","[+10]% Production when constructing [non-[Predator]] units [in all cities]"],
+				"requires": ["Phylogenetic Trees"],
+				"row": 2,
+				"column": 3
+			},
+			{
+				"name": "Evolvability",
+				"effect": "Reduces Upgrade cost 50% for all units",
+				"uniques": ["[-25]% Gold cost of upgrading"],
+				"requires": ["Coevolution"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Diversity Complete",
+				"effect": "+2 Culture from Wonders in all cities",
+				"uniques": ["[+2 Culture] from every [Wonders]"]
+			},
+		]
+	},
+	{
+		"name": "Wonderful Life",
+		"era": "Cambrian period",
+		"priorities": {"Neutral": 5,"Cultural": 5,"Diplomatic": 5,"Domination": 5,"Scientific": 5},
+		"effect": "+15% Strength vs non-Land units for Cambrian units",
+		"uniques": ["[+15]% Strength <for [Cambrian] units> <vs [non-[Land]] units>","[+1 Gold] from [Coast] tiles [in all cities]"],
+		"policies": [
+			{
+				"name": "Multicellular on Abyssal Plains",
+				"uniques": ["[Cell] units gain the [Cambrian Multicellular] promotion",
+				"[+1 Gold] from [Abyssopelagic zone] tiles [in all cities]",
+				"[+1 Gold] from [Hadopelagic zone] tiles [in all cities]"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Lobopodians",
+				"requires": ["Multicellular on Abyssal Plains"],
+				"uniques":["Enable to Construct Hallucigenia",
+				"[+2 Gold] from [Demersal zone] tiles [in all cities]",
+				"[+2 Gold] from [Benthic zone] tiles [in all cities]"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Jawless Warfare",
+				"requires": ["Multicellular on Abyssal Plains"],
+				"uniques": ["[+25]% Strength <for [Jawless] units> <vs [Jawless] units>",
+				"[+1 Food] from [Demersal zone] tiles [in all cities]",
+				"[+1 Food] from [Hadopelagic zone] tiles [in all cities]",
+				"[+1 Food] from [Abyssopelagic zone] tiles [in all cities]"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Law of Underwater",
+				"uniques": ["[+15]% Strength <for [{Water} {non-[Jawless]}] units>",
+				"[+1 Food] from [Bathypelagic zone] tiles [in all cities]",
+				"[+1 Food] from [Aphotic zone] tiles [in all cities]",
+				"[+1 Food] from [Epipelagic zone] tiles [in all cities]"],
+				"requires": ["Jawless Warfare"],
+				"row": 3,
+				"column": 1
+			},
+			{
+				"name": "Battle of Landing Race",
+				"uniques": ["[{Tournaisian} {Amphibian}] units gain the [Battle of Landing Race I] promotion",
+				"[{Devonian} {Amphibian}] units gain the [Battle of Landing Race I] promotion",
+				"[+1 Science, +1 Gold] from [Neritic zone] tiles [in all cities]",
+				"[+1 Science, +1 Gold] from [Intertidal zone] tiles [in all cities]"],
+				"requires": ["Lobopodians"],
+				"row": 3,
+				"column": 5
+			},
+			{
+				"name": "Wonderful Life Complete",
+				"effect": "+1 Gold from all Cambrian Silurian Devonian Buildings",
+				"uniques": ["[+1 Gold] from all [Cambrian period] buildings",
+				"[+1 Gold] from all [Silurian] buildings","[+1 Gold] from all [Devonian] buildings"]
+			}
+		]
+	},
+	{
+		"name": "Order of Earth",
+		"era": "Ancient era",
+		"priorities": {"Neutral": 10,"Cultural": 1,"Diplomatic": 2,"Domination": 15,"Scientific": 2},
+		"effect": "+3 culture in capital and increased rate of border expansion",
+		"uniques": ["[+3 Culture] [in capital]", "Increased rate of border expansion"],
+		"policies": [
+			{
+				"name": "Survival of the fittest",
+				"uniques": ["[non-[Predator]] units gain the [Survival Instinct] promotion","[+10]% Strength <for [Predator] units> <vs [{Wounded} {non-[Predator]}] units> <when attacking>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Permian-Triassic Extinction",
+				"uniques":["Cities are razed [87] times as fast","Earn [38]% of killed [Land] unit's [Strength] as [Culture]","Gain a free [Volcano] [in all cities]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Survival Wisdom",
+				"requires": ["Survival of the fittest"],
+				"uniques": ["[+50]% XP gained from combat <for [Military] units>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Flowering earth singing for Mammals",
+				"uniques": ["[+10]% Strength <for [Mammal] units> <in [GrassLand] tiles>",
+					"[+1 Gold] from [Dyes] tiles [in all cities]",
+					"[+1 Gold] from [Incense] tiles [in all cities]",
+					"[+1 Gold] from [Spices] tiles [in all cities]",
+					"[+1 Gold] from [Cotton] tiles [in all cities]",
+					"[+1 Gold] from [GrassLand] tiles [in capital]"],
+				"requires": ["Permian-Triassic Extinction"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Ceramics Biome",
+				"uniques": ["[+10]% Strength for cities",
+				"[+8 Gold] from [City center] tiles [in all cities]",
+				"[+4 Gold] from [Outpost] tiles [in all cities]",
+				"[+2 Gold] from [Habitat] tiles [in all cities]",
+				"[+25 Gold] from [Citadel] tiles [in all cities]"],
+				"requires": ["Survival Wisdom","Flowering earth singing for Mammals"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Order of Earth Complete",
+				"effect": "+30% Strength to Predator vs Wounded for 50 turn and +100% Strength for Trilobites when attacking",
+				"uniques": ["[+30]% Strength <for [Predator] units> <vs [Wounded] units> <for [50] turns>","[+100]% Strength <for [Trilobites] units> <when attacking>"]
+			}
+		]
+	},
+	{
+		"name": "Tribalism",
+		"era": "Pleistocene",
+		"effect": "+3 culture in capital and increased rate of border expansion",
+		"uniques": ["[+3 Culture] [in capital]", "Increased rate of border expansion"],
+		"policies": [
+			{
+				"name": "Tribal Chief",
+				"effect": "+15% production when constructing wonders, +1 happiness for every 10 citizens in a city",
+				"uniques": ["[+15]% Production when constructing [Wonders] buildings [in all cities]", "[+1 Happiness] per [10] population [in all cities]"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Festival",
+				"effect": "Immediately creates a cheapest available cultural building in each of your first 4 cities for free",
+				"uniques":["Immediately creates a cheapest available cultural building in each of your first 4 cities for free"],
+				"row": 1,
+				"column": 3
+			},
+			{
+				"name": "Deffensive Warrior",
+				"effect": "Units in cities cost no Maintenance, garrisoned city +50% attacking strength",
+				"uniques": ["Units in cities cost no Maintenance", "[+50]% Strength for cities <with a garrison> <when attacking>"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Tribal Elders",
+				"effect": "+10% food growth and +2 food in capital",
+				"uniques": ["[+10]% growth [in capital]", "[+2 Food] [in capital]"],
+				"requires": ["Festival"],
+				"row": 2,
+				"column": 2
+			},
+			{
+				"name": "Tribal Sciality",
+				"effect": "+1 gold and -1 unhappiness for every 2 citizens in capital",
+				"uniques": ["+1 gold and -1 unhappiness for every 2 citizens in capital"],
+				"requires": ["Tribal Chief"],
+				"row": 2,
+				"column": 4
+			},
+			{
+				"name": "Tribalism Complete",
+				"effect": "+15% growth and +2 food in all cities",
+				"uniques": ["[+15]% growth [in all cities]","[+2 Food] [in all cities]"]
+			}
+		]
+	},
+	{
+		"name": "Tradition",
+		"era": "Neolithic",
+		"priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legalism",
+                "uniques": [
+                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Landed Elite",
+                "uniques": [
+                    "[+10]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Legalism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Monarchy",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                ],
+                "requires": ["Legalism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Cemetery] in your first [9] cities for free"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Liberty",
+        "era": "Neolithic",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 20,
+            "Scientific": 20
+        },
+        "uniques": ["[+1 Culture] [in all cities]"],
+        "policies": [
+            {
+                "name": "Republic",
+                "uniques": [
+                    "[+10 Production] [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Citizenship",
+                "uniques": [
+                    "[-25]% construction time for [All] improvements",
+                    "Free [Worker] appears"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Collective Rule",
+                "uniques": [
+                    "[+25]% Production when constructing [Civilian] units [in capital]",
+                    "Free [Settler] appears"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Meritocracy",
+                "uniques": [
+                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": ["Free Great Person"]
+            }
+        ]
+    },
+    {
+        "name": "Honor",
+        "era": "Neolithic",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+33]% Strength <vs [Barbarian] units>",
+            "Earn [20]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Notified of new Barbarian encampments"
+        ],
+        "policies": [
+            {
+                "name": "Warrior Code",
+                "uniques": [
+                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                    "Free [Swordsman] appears"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Discipline",
+                "uniques": [
+                    "[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Military Tradition",
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Military] units>"
+                ],
+                "requires": ["Warrior Code"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Military Caste",
+                "uniques": [
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+                ],
+                "requires": ["Discipline"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Professional Army",
+                "uniques": [
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[+25]% Strength for cities <with a garrison> <when defending>"
+                ],
+                "requires": ["Military Caste"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Honor Complete",
+                "uniques": [
+                    "Earn [30]% of killed [Military] unit's [Cost] as [Gold]"
+                ]
+            }
+        ]
+    },
+	// Extinction Events
+    {
+	"name": "Proterozoic Extinctions",
+		"era": "Archean eon",
+		"priorities": {"Neutral": 10,"Cultural": 15,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
+		"uniques": ["[+25]% [Culture] [in capital] <while the empire is happy>"],
+		"policies": [
+			{
+				"name": "Super Plume",
+				"row": 1,
+				"column": 2,
+				"uniques": ["Gain [-100] [Gold]","[+10]% [Gold] [in all cities]","[+10 Gold] [in capital] <for [10] turns>"],
+			},
+			{
+				"name": "Great Volcanic Activity",
+				"row": 1,
+				"column": 4,
+				"uniques": ["[+1000]% Strength <for [Cell] units> <for [5] turns>","[+5]% [Production] [in all cities]","[+110 Production] from every [Volcano] <for [2] turns>"],
+			},
+			{
+				"name": "Global Cooling",
+				"row": 2,
+				"column": 3,
+				"uniques": ["Nullifies [Food] [in all cities] <for [2] turns>","[+8]% [Science] [in all cities]","[+3 Science] from [Ice] tiles [in all cities]"],
+				"requires": ["Super Plume","Great Volcanic Activity"],
+			},
+			{
+				"name": "Oceanic Anoxic Events",
+				"uniques": ["Comment [You can avoid the Oceanic Anoxic Event]"],
+				"row": 3,
+				"column": 3,
+				"requires": ["Global Cooling"],
+			},
+			{
+				"name": "Proterozoic Extinctions Complete",
+				// "effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
+				"uniques": ["Adopt [Phanerozoic Extinctions]","[+25]% growth [in all cities]","[+3 Science] [in all cities]"]
+			},
+		]
+	},
+	{
+		"name": "Phanerozoic Extinctions",
+		"era": "Archean eon",
+		"priorities": {"Neutral": 10,"Cultural": 15,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
+		"uniques": ["Only available <after adopting [Proterozoic Extinctions Complete]>"],
+		"policies": [
+			{
+				"name": "Siberian Traps",
+				"uniques": ["90% Species Will be died","Cannot build [Water Arthropod] units","Cannot build [P-T] units","[+50]% [Culture] [in capital]","[-1000]% XP gained from combat <for [Water Arthropod] units>"],
+				"row": 1,
+				"column": 2,
+			},
+			{
+				"name": "Ultraviolet Attack",
+				"uniques": ["[-50]% Production when constructing [All] units [in all cities] <for [7] turns>","[+100]% Yield from every [Forests] <for [7] turns>","[+50]% XP gained from combat <for [Reptiles] units>"],
+				"row": 1,
+				"column": 4,
+			},
+			{
+				"name": "Meteorite Impact",
+				"row": 2,
+				"column": 3,
+				"uniques": ["[+25]% [Science] <for [15] turns>","[-25]% Production when constructing [Reptiles] units [in all cities] <for [30] turns>","[-20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
+				"requires": ["Ultraviolet Attack","Siberian Traps"],
+			},
+			{
+				"name": "Impact winter",
+				"row": 3,
+				"column": 2,
+				"uniques": ["[-50]% Production when constructing [Reptiles] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
+				"requires": ["Meteorite Impact"],
+			},
+			{
+				"name": "Deccan Traps",
+				"row": 3,
+				"column": 4,
+				"uniques": ["[-50]% Production when constructing [Reptiles] units [in all cities] <for [15] turns>","[+20]% Strength <when defending> <for [Mammal] units> <for [15] turns>"],
+				"requires": ["Meteorite Impact"],
+			},
+			{
+				"name": "Phanerozoic Extinctions Complete",
+				// "effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
+				"uniques": ["Adopt [Holocene Extinctions]","[+25]% growth [in all cities]","[+3 Science] [in all cities]"]
+			},
+		]
+	},
+	{
+		"name": "Holocene Extinctions",
+		"era": "Archean eon",
+		"priorities": {"Neutral": 10,"Cultural": 15,"Diplomatic": 10,"Domination": 10,"Scientific": 10},
+		"effect": "In Extinction, You lose Everything. But, also come Everything. This process is of paramount importance in natural selection.",
+		"uniques": ["Only available <after adopting [Phanerozoic Extinctions Complete]>"],
+		"policies": [
+			{
+				"name": "Ice Age",
+				"row": 1,
+				"column": 4,
+				// "requires": ["Impact winter","Deccan Traps"],
+				"uniques": ["[-30]% Production when constructing [Mammal] units [in all cities] <during the [Pleistocene]>","[+40]% [Science] <during the [Pleistocene]>",
+					"[+40]% [Science] <during the [Pliocene]>"],
+			},
+			{
+				"name": "Industrial Revolution",
+				"uniques": ["Human Activities causing the Recent Holocene Extinction Event, Natural Extinction Speed increasing by 100000% than the past","[+25]% [Gold] [in capital] <after discovering [Anthropocene]>","[+15]% [Production] [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Anthropocene]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Anthropocene]>",
+				"[+25]% [Gold] [in capital] <after discovering [Industrialization]>","[+15]% [Production] [in all cities] <after discovering [Industrialization]>","[-1 Food] from [Ocean] tiles [in all cities] <after discovering [Industrialization]>","[-1 Production] from [GrassLand] tiles [in all cities] <after discovering [Industrialization]>","[-1 Food] from [Forest] tiles [in all cities] <after discovering [Industrialization]>"],
+				"row": 2,
+				"column": 2,
+				"requires": ["Overfishing"],
+			},
+			{
+				"name": "Overfishing",
+				"uniques": ["[-30]% Production when constructing [Mammal] units [in all cities]","[+1 Food] from [Hunting Spot] tiles [in all cities]","[-1 Food] from [Forests] tiles [in all cities]"],
+				"row": 1,
+				"column": 2,
+				// "requires": ["Ice Age"],
+			},
+			{
+				"name": "Nuclear Apocalypse",
+				"uniques": ["Everything is Estrasted to USA and USSR, or Most Animals died forever","[+10]% Strength <for [Gunpowder] units> <when attacking>","Free [Nuclear Missile] appears"],
+				"row": 2,
+				"column": 4,
+				"requires": ["Ice Age"],
+			},
+			{
+				"name": "Nibiru Cataclysm",
+				"uniques": ["Is Solar System will be destroy by Zeta Reticulians?","Enable Conversation with Aliens after discovering Space Station (with 0.000000001% Chances)"],
+				"row": 3,
+				"column": 2,
+				"requires": ["Industrial Revolution"],
+			},
+			{
+				"name": "End of Daylight",
+				"uniques": ["The Sun converted to Red Giants 5 billion years from now. The expanding Sun is expected to vaporize Mercury as well as Venus, and render Earth uninhabitable. 100% Species will be Died Forever."],
+				"row": 3,
+				"column": 4,
+				"requires": ["Nuclear Apocalypse"],
+			},
+			/*
+			{
+				"name": "Entropy Maximum",
+				"row": 12,
+				"column": 3,
+				"uniques": ["Final Extinction Event"],
+				"requires": ["End of Daylight","Nibiru Cataclysm"],
+			},
+			*/
+			{
+				"name": "Holocene Extinctions Complete",
+				"effect": "Conglaturations! You Adopted all Extinction Events.+100% growth and +10 science in all cities",
+				"uniques": ["Gain a free [Extinction Complete] [in capital]","Adopt [Phanerozoic Extinctions]","[+100]% growth [in all cities]","[+10 Science] [in all cities]"]
+			}
+		]
+	}
+]
