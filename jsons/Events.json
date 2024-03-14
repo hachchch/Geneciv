@@ -1,4 +1,4 @@
-[
+
 	/*
 	// Diversifications
 	{
@@ -74,6 +74,7 @@
                 ]
         }
 	*/
+[
 	{
 		"name": "Anoxic Event [Permian]",
                 "text": "It happened suddenly. The Siberian Trap erupted, depositing large amounts of organic-rich sediment into the ocean. As a result, the ocean was depleted of oxygen, creating a wide dead zone and 60~70% of ozon layer destroyed.",
@@ -94,5 +95,4 @@
                         }
                 ]
 	}
-	// Others
 ]
