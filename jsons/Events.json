@@ -16,7 +16,6 @@
 	},
 	**Deaths**
 	// O-S Boundary
-	/*
 	{
 		"name": "Hirnantian Gamma-Ray Burst",
                 "text": "A gamma-ray burst from a supernova near the Milky Way galaxy destroyed half of the ozone from Earth's atmosphere during 10 seconds, killing 20-60% of phytoplankton with ultraviolet radiation. In addition, the effects of ultraviolet rays had a significant impact on planktonic organisms.",
@@ -52,7 +51,6 @@
                         }
                 ]
 	},
-	*/
 	// P-T Boundary
         {
                 "name": "Anoxic Event [Permian]",
@@ -73,6 +71,6 @@
                                 "triggeredUniques": ["Suppress warning [!You will lost 20 [Food] for 10 turns and instantly lost 600 [Science] due to it!]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
                         }
                 ]
-        }
+        },
 	**Others**
 ]
