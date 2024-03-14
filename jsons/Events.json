@@ -14,6 +14,7 @@
 			}
                 ]
 	},
+	/*
 	**Deaths**
 	// O-S Boundary
 	{
@@ -43,7 +44,7 @@
 			{
                                 "text": "Let's release oxygen.",
                                 "triggeredUniques": ["Instantly consumes [500] [Oxygen]","Gain [-100] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [99] [Gold]"],
+                                "conditions": ["when above [0] [Oxygen]","when above [99] [Gold]"]
                         },
                         {
                                 "text": "This is tough",
@@ -72,5 +73,6 @@
                         }
                 ]
         },
+	*/
 	**Others**
 ]
