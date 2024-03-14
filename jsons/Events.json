@@ -10,11 +10,11 @@
                         {
                                 "text": "I'll Pay 1000 Oxygen and Energy.",
                                 "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-1000] [Gold]"],
-                                "conditions": ["<when above [5999] [Oxygen]>","<when above [999] [Gold]>"],
+                                "conditions": ["when above [5999] [Oxygen]","when above [999] [Gold]"],
                         },
                         {
-                                "text": "It expected, I can avoid it.",
-                                "conditions": ["<after adopting [Oceanic Anoxic Events]>","<after adopting [Siberian Traps]>"]
+                                "text": "It expected.",
+                                "conditions": ["after adopting [Oceanic Anoxic Events]","after adopting [Siberian Traps]"]
                         }
                 ]
         }
