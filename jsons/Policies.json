@@ -151,62 +151,6 @@
 		]
 	},
 	{
-		"name": "Order of Earth",
-		"era": "Ancient era",
-		"priorities": {"Neutral": 10,"Cultural": 1,"Diplomatic": 2,"Domination": 15,"Scientific": 2},
-		"effect": "+3 culture in capital and increased rate of border expansion",
-		"uniques": ["[+3 Culture] [in capital]", "Increased rate of border expansion"],
-		"policies": [
-			{
-				"name": "Survival of the fittest",
-				"uniques": ["[non-[Predator]] units gain the [Survival Instinct] promotion","[+10]% Strength <for [Predator] units> <vs [{Wounded} {non-[Predator]}] units> <when attacking>"],
-				"row": 1,
-				"column": 1
-			},
-			{
-				"name": "Permian-Triassic Extinction",
-				"uniques":["Cities are razed [87] times as fast","Earn [38]% of killed [Land] unit's [Strength] as [Culture]","Gain a free [Volcano] [in all cities]"],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Survival Wisdom",
-				"requires": ["Survival of the fittest"],
-				"uniques": ["[+50]% XP gained from combat <for [Military] units>"],
-				"row": 2,
-				"column": 1
-			},
-			{
-				"name": "Flowering earth singing for Mammals",
-				"uniques": ["[+10]% Strength <for [Mammal] units> <in [GrassLand] tiles>",
-					"[+1 Gold] from [Dyes] tiles [in all cities]",
-					"[+1 Gold] from [Incense] tiles [in all cities]",
-					"[+1 Gold] from [Spices] tiles [in all cities]",
-					"[+1 Gold] from [Cotton] tiles [in all cities]",
-					"[+1 Gold] from [GrassLand] tiles [in capital]"],
-				"requires": ["Permian-Triassic Extinction"],
-				"row": 2,
-				"column": 5
-			},
-			{
-				"name": "Ceramics Biome",
-				"uniques": ["[+10]% Strength for cities",
-				"[+8 Gold] from [City center] tiles [in all cities]",
-				"[+4 Gold] from [Outpost] tiles [in all cities]",
-				"[+2 Gold] from [Habitat] tiles [in all cities]",
-				"[+25 Gold] from [Citadel] tiles [in all cities]"],
-				"requires": ["Survival Wisdom","Flowering earth singing for Mammals"],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Order of Earth Complete",
-				"effect": "+30% Strength to Predator vs Wounded for 50 turn and +100% Strength for Trilobites when attacking",
-				"uniques": ["[+30]% Strength <for [Predator] units> <vs [Wounded] units> <for [50] turns>","[+100]% Strength <for [Trilobites] units> <when attacking>"]
-			}
-		]
-	},
-	{
 		"name": "Wonderful Life",
 		"era": "Cambrian period",
 		"priorities": {"Neutral": 5,"Cultural": 5,"Diplomatic": 5,"Domination": 5,"Scientific": 5},
@@ -265,6 +209,62 @@
 				"effect": "+1 Gold from all Cambrian Silurian Devonian Buildings",
 				"uniques": ["[+1 Gold] from all [Cambrian period] buildings",
 				"[+1 Gold] from all [Silurian] buildings","[+1 Gold] from all [Devonian] buildings"]
+			}
+		]
+	},
+	{
+		"name": "Order of Earth",
+		"era": "Ancient era",
+		"priorities": {"Neutral": 10,"Cultural": 1,"Diplomatic": 2,"Domination": 15,"Scientific": 2},
+		"effect": "+3 culture in capital and increased rate of border expansion",
+		"uniques": ["[+3 Culture] [in capital]", "Increased rate of border expansion"],
+		"policies": [
+			{
+				"name": "Survival of the fittest",
+				"uniques": ["[non-[Predator]] units gain the [Survival Instinct] promotion","[+10]% Strength <for [Predator] units> <vs [{Wounded} {non-[Predator]}] units> <when attacking>"],
+				"row": 1,
+				"column": 1
+			},
+			{
+				"name": "Permian-Triassic Extinction",
+				"uniques":["Cities are razed [87] times as fast","Earn [38]% of killed [Land] unit's [Strength] as [Culture]","Gain a free [Volcano] [in all cities]"],
+				"row": 1,
+				"column": 5
+			},
+			{
+				"name": "Survival Wisdom",
+				"requires": ["Survival of the fittest"],
+				"uniques": ["[+50]% XP gained from combat <for [Military] units>"],
+				"row": 2,
+				"column": 1
+			},
+			{
+				"name": "Flowering earth singing for Mammals",
+				"uniques": ["[+10]% Strength <for [Mammal] units> <in [GrassLand] tiles>",
+					"[+1 Gold] from [Dyes] tiles [in all cities]",
+					"[+1 Gold] from [Incense] tiles [in all cities]",
+					"[+1 Gold] from [Spices] tiles [in all cities]",
+					"[+1 Gold] from [Cotton] tiles [in all cities]",
+					"[+1 Gold] from [GrassLand] tiles [in capital]"],
+				"requires": ["Permian-Triassic Extinction"],
+				"row": 2,
+				"column": 5
+			},
+			{
+				"name": "Ceramics Biome",
+				"uniques": ["[+10]% Strength for cities",
+				"[+8 Gold] from [City center] tiles [in all cities]",
+				"[+4 Gold] from [Outpost] tiles [in all cities]",
+				"[+2 Gold] from [Habitat] tiles [in all cities]",
+				"[+25 Gold] from [Citadel] tiles [in all cities]"],
+				"requires": ["Survival Wisdom","Flowering earth singing for Mammals"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Order of Earth Complete",
+				"effect": "+30% Strength to Predator vs Wounded for 50 turn and +100% Strength for Trilobites when attacking",
+				"uniques": ["[+30]% Strength <for [Predator] units> <vs [Wounded] units> <for [50] turns>","[+100]% Strength <for [Trilobites] units> <when attacking>"]
 			}
 		]
 	},
