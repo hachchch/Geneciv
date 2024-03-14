@@ -3,18 +3,18 @@
                 "name": "Anoxic Event [Permian]",
                 "text": "It happened suddenly. The Siberian Trap erupted, depositing large amounts of organic-rich sediment into the ocean. As a result, the ocean was depleted of oxygen, creating a wide dead zone and 60~70% of ozon layer destroyed.",
                 "choices":[
-                        {
-                                "text": "Well...",
-                                "triggeredUniques": ["Suppress warning [You will lost 20 food for 10 turns and instantly lost 600 Mutation due to it.]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
+			{
+                                "text": "It expected.",
+                                "conditions": ["after adopting [Oceanic Anoxic Events]","after adopting [Siberian Traps]"]
                         },
-                        {
-                                "text": "I'll Pay 1000 Oxygen and Energy.",
+			{
+                                "text": "Let's release oxygen.",
                                 "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-1000] [Gold]"],
                                 "conditions": ["when above [5999] [Oxygen]","when above [999] [Gold]"],
                         },
                         {
-                                "text": "It expected.",
-                                "conditions": ["after adopting [Oceanic Anoxic Events]","after adopting [Siberian Traps]"]
+                                "text": "Well...",
+                                "triggeredUniques": ["Suppress warning [You will lost 20 food for 10 turns and instantly lost 600 Mutation due to it.]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
                         }
                 ]
         }
