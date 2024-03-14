@@ -1122,7 +1122,6 @@
 	},
 	{
 		"name": "Fenestrida",
-		// "requiredBuilding": "Land Algae",
 		"food": 1,
 		"production": 1,
 		"maintenance": 2,
@@ -1139,18 +1138,20 @@
 	//Cell Life
 	{
 		"name": "Chemical Synthesis",
-		"gold": 1,
+		"cost": 20,
+		"gold": 2,
 		"requiredTech": "Primordial Soup"
 	},
 	{
 		"name": "Biochemical Synthesis",
+		"cost": 50,
 		"requiredBuilding": "Chemical Synthesis",
-		"gold": 2,
+		"gold": 3,
 		"requiredTech": "Mitochondria",
 	},
 	{
 		"name": "Endosymbiont",
-		// "cost": 50,
+		"requiredBuilding": "Enzymes",
 		"maintenance": 2,
 		"production": 3,
 		"requiredTech": "Mitochondria",
@@ -1159,27 +1160,23 @@
 		"name": "Enzymes",
 		"cost": 70,
 		"maintenance": 1,
-		"production": 2,
-		"uniques": ["[+9]% [Production] [in this city]"],
+		"production": 3,
 		"requiredTech": "Amino Acid",
 	},
 	{
 		"name": "RNA",
-		// "cost": 60,
 		"food": 1,
 		"maintenance": 1,
 		"requiredTech": "DNA",
 	},
 	{
 		"name": "Replication",
-		// "cost": 65,
 		"maintenance": 1,
 		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "DNA",
 	},
 	{
 		"name": "Plasma Membrane",
-		// "cost": 70,
 		"maintenance": 1,
 		"cityStrength": 5,
                 "cityHealth": 40,
@@ -1187,20 +1184,16 @@
 	},
 	{
 		"name": "Polypeptides",
-		// "cost": 70,
 		"science": 1,
 		"maintenance": 1,
-		// "uniques": ["[+33]% Production when constructing [Particle] units [in this city]"],
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Protein",
 	},
 	{
 		"name": "Chromosomes",
-		// "cost": 75,
-		"science": 1,
+		"requiredBuilding": "RNA",
+		"food": 2,
 		"maintenance": 1,
-		"percentStatBonus": {"science": 5},
-		"uniques": ["[+25]% Production when constructing [Cell] units [in this city]"],
 		"requiredTech": "DNA",
 	},
 	{
@@ -1216,9 +1209,10 @@
 		"name": "Ribosomes",
 		"requiredBuilding": "Replication",
 		// "cost": 80,
+		"food": 1,
 		"maintenance": 1,
 		"requiredTech": "Mitosis",
-		"uniques": ["[5]% Food is carried over after population increases [in this city]"],
+		"uniques": ["[10]% Food is carried over after population increases [in this city]"],
 	},
 	{
 		"name": "Phagocytic Cell",
@@ -1231,21 +1225,18 @@
 	},
 	{
 		"name": "Oscula",
-		"maintenance": 1,
-		// "specialistSlots": {"Creature": 1},
-		// "cost": 100,
+		"maintenance": 2,
 		"production": 2,
-		"uniques": ["Must be next to [Coast]","[+1 Production] from [Water] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]"],
+		"uniques": ["Must be next to [Coast]","[+1 Production] from [Atoll] tiles [in this city]"],
 		"requiredTech": "Coral",
 	},
 	{
 		"name": "Photosynthesis",
-		// "cost": 120,
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"requiredTech": "Chloroplasts",
-		"production": 1,
-		"uniques": ["Free [Algae] appears <in cities with a [Littoral Environment]> <for [AI player]> <hidden from users>","[+1 Production, +1 Gold] from [Atoll] tiles [in this city]"],
+		"production": 2,
+		"uniques": ["[+1 Production] from [Atoll] tiles [in this city]"],
 	},
 	/*
 	{
@@ -1261,21 +1252,19 @@
 	{
 		"name": "Fungi",
 		"maintenance": 1,
-		"specialistSlots": {"Meristem": 2},
+		"specialistSlots": {"Meristem": 1},
 		"requiredTech": "Tissue",
-		// "cost": 100,
-		"gold": 1,
-		// "science": 2,
+		"gold": 2,
+		"food": 1
 	},
 	{
 		"name": "Muscles",
 		"maintenance": 1,
 		"specialistSlots": {"Meristem": 2},
 		"requiredTech": "Muscles",
-		// "cost": 120,
 		"cityHealth": 15,
 		"production": 2,
-		"uniques": ["[+5]% [Production] [in this city]"]
+		"uniques": ["[+15]% [Production] [in this city]"]
 	},
 	{
 		"name": "Nervous System",
@@ -1284,7 +1273,6 @@
 		"cityStrength": 3,
 		"gold": 3,
 		"percentStatBonus": {"gold": 15},
-		// "cost": 120,
 	},
 	{
 		"name": "Soil",
@@ -1298,17 +1286,15 @@
 	// After Jellyfish
 	{
 		"name": "Radial Symmetry",
-		// "cost": 125,
-		"science": 1,
-		"gold": 2,
-		"uniques": ["Limited to [2] per Civilization","Only available <in cities without a [Bilateral Symmetry]>","[+20]% Production when constructing [Jellyfish] units [in this city]","[+20]% Production when constructing [Civilian] units [in this city]"],
+		"requiredBuilding": "Polypeptides",
+		"science": 2,
+		"percentStatBonus": {"Science": 25},
 		"requiredTech": "Radial Symmetry",
 	},
 	{
 		"name": "Blood Pump",
 		"requiredBuilding": "Muscles",
-		// "cost": 135,
-		"uniques": ["[+10]% [Production] [in this city]","Destroyed when the city is captured"],
+		"uniques": ["[+15]% [Production] [in this city]","Destroyed when the city is captured"],
 		"production": 2,
 		"requiredTech": "Heart",
 	},
@@ -1321,10 +1307,9 @@
 	},
 	{
 		"name": "Bilateral Symmetry",
-		// "cost": 130,
-		"science": 1,
-		"gold": 2,
-		"uniques": ["Limited to [2] per Civilization","Only available <in cities without a [Radial Symmetry]>","[+20]% Production when constructing [Water Arthropod] units [in this city]","[+20]% Production when constructing [Fish] units [in this city]"],
+		"requiredBuilding": "Radial Symmetry",
+		"science": 3,
+		"percentStatBonus": {"Science": 25},
 		"requiredTech": "Bilateral Symmetry",
 	},
 	{
@@ -1755,9 +1740,9 @@
 		"uniques": ["Unsellable","Unbuildable","Remove [Anoxic Environment] [in this city] <after [10] turns>"]
 	},
 	{
-		"name": "Anoxic Environment (Paleozoic)",
+		"name": "Anoxic Environment Paleozoic",
 		"food": -5,
-		"uniques": ["Unsellable","Unbuildable","Remove [Anoxic Environment (Paleozoic)] [in this city] <after [10] turns>"]
+		"uniques": ["Unsellable","Unbuildable","Remove [Anoxic Environment Paleozoic] [in this city] <after [10] turns>"]
 	},
 	*/
         {
