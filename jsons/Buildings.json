@@ -1,4 +1,3 @@
-
 [
 		// Victory Milestone
         {
@@ -1329,17 +1328,17 @@
 		"requiredTech": "Bilateral Symmetry",
 	},
 	{
-		"name": "Radiodonta",
+		"name": "Unit Radiodonta",
 		"cost": 95,
 		"uniques": ["Remove [Radiodonta] [in this city] <before discovering [Exoskeleton]>","Only available <after discovering [Articulation]> <in cities with a [Aphotic Environment]>","Free [Radiodonta] appears <hidden from users>"]
 	},
 	{
-		"name": "Crustacean",
+		"name": "Unit Crustacean",
 		"cost": 115,
 		"uniques": ["Remove [Crustacean] [in this city] <before discovering [Fish]>","Only available <after discovering [Metamorphosis]> <in cities with a [Aphotic Environment]>","Free [Crustacean] appears <hidden from users>"]
 	},
 	{
-		"name": "Fish",
+		"name": "Unit Fish",
 		"cost": 150,
 		"uniques": ["Remove [Fish] [in this city] <before discovering [Predation]>","Only available <after discovering [Fish]> <in cities with a [Aphotic Environment]>","Free [Fish] appears <hidden from users>"]
 	},
@@ -1749,6 +1748,7 @@
 		"name": "Aphotic Environment",
 		"uniques": ["Unsellable","Unbuildable","Can Construct Aphotic Environment Unique in this city"]
 	},
+	/*
 	{
 		"name": "Anoxic Environment",
 		"food": -20,
@@ -1759,6 +1759,7 @@
 		"food": -5,
 		"uniques": ["Unsellable","Unbuildable","Remove [Anoxic Environment (Paleozoic)] [in this city] <after [10] turns>"]
 	},
+	*/
         {
                 "name": "Palace",
                 "isNationalWonder": true,
