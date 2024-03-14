@@ -1,5 +1,5 @@
 [
-	**Diversifications**
+	// Diversifications
 	{
 		"name": "Cambrian Explosion",
                 "text": "Cambrian Explosion Event! 538.8 million years ago, multicellular organisms increased dramatically in a short period of time and became as diverse as they are today. This sudden diversification phenomenon seems to be related to competition of life due to predation. Congratulations, it's beginning of the complex life like we know.",
@@ -14,8 +14,7 @@
 			}
                 ]
 	},
-	/*
-	**Deaths**
+	// Deaths
 	// O-S Boundary
 	{
 		"name": "Hirnantian Gamma-Ray Burst",
@@ -73,6 +72,5 @@
                         }
                 ]
         }
-	*/
-	**Others**
+	// Others
 ]
