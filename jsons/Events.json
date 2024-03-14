@@ -4,7 +4,7 @@
                 "text": "It happened suddenly. The Siberian Trap erupted, depositing large amounts of organic-rich sediment into the ocean. As a result, the ocean was depleted of oxygen, creating a wide dead zone and 60~70% of ozon layer destroyed.",
                 "choices":[
                         {
-                                "text": "It's time to natural selection...",
+                                "text": "Well...",
                                 "triggeredUniques": ["Suppress warning [You will lost 20 food for 10 turns and instantly lost 600 Mutation due to it.]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>","Remove [Anoxic Environment] [in all cities] <after [10] turns> <hidden from users>"]
                         },
                         {
