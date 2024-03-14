@@ -1,21 +1,4 @@
-/*
-	{
-        "name": "Test",
-        "text": "Something happened!",
-        "choices": [
-            {
-                "text": "Tough it out",
-                "triggeredUniques": ["Empire enters golden age"]
-            },
-            {
-                "text": "Whine about it",
-                "triggeredUniques": ["Free [Great Artist] appears"],
-                "conditions": ["after discovering [Writing]"]
-            }
-        ]
-    }
-*/
-[
+/*[
 	// Diversifications
 	{
 		"name": "Cambrian Explosion",
@@ -30,7 +13,8 @@
 				"triggeredUniques": ["Free Technology"]
 			}
                 ]
-	},
+	},*/
+[
 	// Deaths
 	// O-S Boundary
 	{
