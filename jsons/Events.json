@@ -1,4 +1,4 @@
-[
+/*[
 	**Diversifications**
 	{
 		"name": "Cambrian Explosion",
@@ -14,7 +14,6 @@
 			}
                 ]
 	},
-	/*
 	**Deaths**
 	// O-S Boundary
 	{
@@ -73,6 +72,6 @@
                         }
                 ]
         },
-	*/
 	**Others**
 ]
+*/
