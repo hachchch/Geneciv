@@ -5,6 +5,7 @@
                 "choices":[
 			{
                                 "text": "It expected.",
+				"triggeredUniques": ["Suppress warning [If you adopted policy [Siberian Traps] and [Oceanic Anoxic Events], you can avoid serious times.]"],
                                 "conditions": ["after adopting [Oceanic Anoxic Events]","after adopting [Siberian Traps]"]
                         },
 			{
