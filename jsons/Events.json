@@ -1,4 +1,48 @@
 [
+	*Diversifications*
+	*Deaths*
+	// O-S Boundary
+	{
+		"name": "Hirnantian Gamma-Ray Burst",
+                "text": "A gamma-ray burst from a supernova near the Milky Way galaxy destroyed half of the ozone from Earth's atmosphere during 10 seconds, killing 20-60% of phytoplankton with ultraviolet radiation. In addition, the effects of ultraviolet rays had a significant impact on planktonic organisms.",
+                "choices":[
+			{
+                                "text": "It expected.",
+				"triggeredUniques": ["Suppress warning [If you adopted policy [Oceanic Anoxic Events], you can avoid this serious times.]"],
+                                "conditions": ["after adopting [Oceanic Anoxic Events]"]
+                        },
+			{
+                                "text": "Let's release oxygen.",
+                                "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-1000] [Gold]"],
+                                "conditions": ["when above [5999] [Oxygen]","when above [999] [Gold]"],
+                        },
+                        {
+                                "text": "Well...",
+                                "triggeredUniques": ["Suppress warning [!You will lost 20 [Food] for 10 turns and instantly lost 600 [Science] due to it!]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
+                        }
+                ]
+	},
+	{
+		"name": "Ordovician-Silurian Extinction",
+                "text": "Volcanic ash from large-scale volcanic activity reduced atmospheric carbon dioxide, leading to ocean anoxic events and global warming, and the collapse of ocean life.",
+                "choices":[
+			{
+                                "text": "It expected.",
+				"triggeredUniques": ["Suppress warning [If you adopted policy [Oceanic Anoxic Events], you can avoid this serious times.]"],
+                                "conditions": ["after adopting [Oceanic Anoxic Events]"]
+                        },
+			{
+                                "text": "Let's release oxygen.",
+                                "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-1000] [Gold]"],
+                                "conditions": ["when above [5999] [Oxygen]","when above [999] [Gold]"],
+                        },
+                        {
+                                "text": "Well...",
+                                "triggeredUniques": ["Suppress warning [!You will lost 20 [Food] for 10 turns and instantly lost 600 [Science] due to it!]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
+                        }
+                ]
+	},
+	// P-T Boundary
         {
                 "name": "Anoxic Event [Permian]",
                 "text": "It happened suddenly. The Siberian Trap erupted, depositing large amounts of organic-rich sediment into the ocean. As a result, the ocean was depleted of oxygen, creating a wide dead zone and 60~70% of ozon layer destroyed.",
@@ -19,4 +63,5 @@
                         }
                 ]
         }
+	*Others*
 ]
