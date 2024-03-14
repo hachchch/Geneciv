@@ -1,75 +1,15 @@
-
-	**Diversifications**
-	{
-		"name": "Cambrian Explosion",
-                "text": "Cambrian Explosion Event! 538.8 million years ago, multicellular organisms increased dramatically in a short period of time and became as diverse as they are today. This sudden diversification phenomenon seems to be related to competition of life due to predation. Congratulations, it's beginning of the complex life like we know.",
-                "choices":[
-			{
-                                "text": "Praise them",
-                                "triggeredUniques": ["Empire enters golden age"]
-                        },
-			{
-				"text": "Put pressure on them to genetic selection",
-				"triggeredUniques": ["Free Technology"]
-			}
-                ]
-	},
-	**Deaths**
-	// O-S Boundary
-	{
-		"name": "Hirnantian Gamma-Ray Burst",
-                "text": "A gamma-ray burst from a supernova near the Milky Way galaxy destroyed half of the ozone from Earth's atmosphere during 10 seconds, killing 20-60% of phytoplankton with ultraviolet radiation. In addition, the effects of ultraviolet rays had a significant impact on planktonic organisms.",
-                "choices":[
-			{
-                                "text": "It expected.",
-				"triggeredUniques": ["Suppress warning [If you adopted policy [Ultraviolet Attack], you can avoid this serious times.]"],
-                                "conditions": ["after adopting [Ultraviolet Attack]"]
-                        },
-                        {
-                                "text": "This is tough",
-                                "triggeredUniques": ["Suppress warning [!You will instantly lost 270 [Science] due to it!]","Gain [-270] [Science] <hidden from users>"]
-                        }
-                ]
-	},
-	{
-		"name": "Ordovician-Silurian Extinction",
-                "text": "Ordvician Mass Extinction! Volcanic ash from large-scale volcanic activity reduced atmospheric carbon dioxide, leading to ocean anoxic events and global warming, and the collapse of ocean life.",
-                "choices":[
-			{
-                                "text": "It expected.",
-				"triggeredUniques": ["Suppress warning [If you adopted policy [Oceanic Anoxic Events], you can avoid this serious times.]"],
-                                "conditions": ["after adopting [Oceanic Anoxic Events]"]
-                        },
-			{
-                                "text": "Let's release oxygen.",
-                                "triggeredUniques": ["Instantly consumes [500] [Oxygen]","Gain [-100] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [99] [Gold]"]
-                        },
-                        {
-                                "text": "This is tough",
-                                "triggeredUniques": ["Suppress warning [!You will lost 5 [Food] for 10 turns and instantly lost 270 [Science] due to it!]","Gain [-270] [Science] <hidden from users>","Gain a free [Anoxic Environment [Paleozoic]] [in all cities] <hidden from users>"]
-                        }
-                ]
-	},
-	// P-T Boundary
-        {
-                "name": "Anoxic Event [Permian]",
-                "text": "Permian Mass Extinction! It happened suddenly. The Siberian Trap erupted, depositing large amounts of organic-rich sediment into the ocean. As a result, the ocean was depleted of oxygen, creating a wide dead zone and 60~70% of ozon layer destroyed.",
-                "choices":[
-			{
-                                "text": "It expected.",
-				"triggeredUniques": ["Suppress warning [If you adopted policy [Siberian Traps] and [Oceanic Anoxic Events], you can avoid this serious times.]"],
-                                "conditions": ["after adopting [Oceanic Anoxic Events]","after adopting [Siberian Traps]"]
-                        },
-			{
-                                "text": "Let's release oxygen.",
-                                "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-499] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [499] [Gold]"]
-                        },
-                        {
-                                "text": "This is tough",
-                                "triggeredUniques": ["Suppress warning [!You will lost 20 [Food] for 10 turns and instantly lost 600 [Science] due to it!]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
-                        }
-                ]
-        }
-	**Others**
+    {
+        "name": "Cambrian Explosion",
+        "text": "Something happened!",
+        "choices": [
+            {
+                "text": "Tough it out",
+                "triggeredUniques": ["Empire enters golden age"]
+            },
+            {
+                "text": "Whine about it",
+                "triggeredUniques": ["Free [Great Artist] appears"],
+                "conditions": ["after discovering [Writing]"]
+            }
+        ]
+    }
