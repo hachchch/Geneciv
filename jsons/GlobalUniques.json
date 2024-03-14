@@ -3,7 +3,7 @@
     "uniques": [
 	    **Event Def**
 	    // P-T Boundary
-	    // "Triggers a [Anoxic Event [Permian]] event <upon entering the [Mesozoic era]>",
+	    "Triggers a [Anoxic Event [Permian]] event <upon entering the [Mesozoic era]>",
 	    **Others**
 	    "[-1] Sight <for [Embarked] units>",
 	    "[-50]% [Science] [in all cities]",
