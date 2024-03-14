@@ -1,4 +1,5 @@
-    {
+[
+	{
         "name": "Cambrian Explosion",
         "text": "Something happened!",
         "choices": [
@@ -13,3 +14,4 @@
             }
         ]
     }
+]
