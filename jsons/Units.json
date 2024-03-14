@@ -1152,6 +1152,36 @@
 		]
 	},
 	{
+		"name": "Spinosaurus",
+                "replaces": "Tyrannosaurus",
+		"uniqueTo": "Wild Africa",
+		"unitType": "Reptiles",
+		"cost": 895,
+		"strength": 135,
+		"requiredTech": "Cretaceous Reptiles",
+		"movement": 3,
+		"requiredResource": "Super Creature Stock",
+		"attackSound": "Monster",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Cretaceous","Predator","Bipedal","[+60]% Strength <vs [Embarked] units>","[+60]% Strength <vs [Fishes] units>","Never appears as a Barbarian unit"],
+		"promotions": ["Large Body","Amphibious"]
+	},
+	{
+		"name": "African Elephant",
+		"replaces": "Horse",
+		"uniqueTo": "Wild Africa",
+		"unitType": "Mammal",
+		"cost": 900,
+		"strength": 100,
+		"requiredTech": "Eutherians",
+		"movement": 2,
+		// "requiredResource": "Ivory",
+		"attackSound": "elephant",
+		"obsoleteTech": "Eutherians",
+		"uniques": ["Miocene","Quadrupedal","[+100]% Strength <vs [Predator] units>","Never appears as a Barbarian unit"],
+		"promotions": ["Herd I"]
+	},
+	{
 		"name": "Mesosaur",
 		"requiredTech": "Diving",
 		"attackSound": "Splash",
