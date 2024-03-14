@@ -551,7 +551,7 @@
 			},
 			{
 				"name": "Oceanic Anoxic Events",
-				"uniques": ["[-25]% Production when constructing [Fishes] units [in all cities]","[-50]% Production when constructing [Arthropod] units [in all cities]","[+20]% Production when constructing [Amphibian] units [in all cities]"],
+				"uniques": ["Comment [You can avoid the Oceanic Anoxic Event]"],
 				"row": 3,
 				"column": 3,
 				"requires": ["Global Cooling"],
@@ -577,7 +577,7 @@
 				"column": 2,
 			},
 			{
-				"name": "Hypoxic Environment",
+				"name": "Ultraviolet Attack",
 				"uniques": ["[-50]% Production when constructing [All] units [in all cities] <for [7] turns>","[+100]% Yield from every [Forests] <for [7] turns>","[+50]% XP gained from combat <for [Reptiles] units>"],
 				"row": 1,
 				"column": 4,
@@ -587,7 +587,7 @@
 				"row": 2,
 				"column": 3,
 				"uniques": ["[+25]% [Science] <for [15] turns>","[-25]% Production when constructing [Reptiles] units [in all cities] <for [30] turns>","[-20]% Production when constructing [Mammal] units [in all cities] <for [30] turns>"],
-				"requires": ["Hypoxic Environment","Siberian Traps"],
+				"requires": ["Ultraviolet Attack","Siberian Traps"],
 			},
 			{
 				"name": "Impact winter",
