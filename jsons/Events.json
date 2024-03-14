@@ -1,4 +1,4 @@
-/*[
+/*
 	{
         "name": "Test",
         "text": "Something happened!",
@@ -14,9 +14,7 @@
             }
         ]
     }
-]
 */
-[
 	**Diversifications**
 	{
 		"name": "Cambrian Explosion",
@@ -91,4 +89,3 @@
                 ]
 	}
 	**Others**
-]
