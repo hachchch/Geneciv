@@ -996,7 +996,6 @@
 	// National Wonders
 	{
 		"name": "Ozone Layer",
-		// "specialistSlots": {"Creature": 1},
 		"isNationalWonder": true,
 		"cost": 75,
 		"food": 4,
