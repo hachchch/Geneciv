@@ -44,7 +44,7 @@
 			{
                                 "text": "Let's release oxygen.",
                                 "triggeredUniques": ["Instantly consumes [500] [Oxygen]","Gain [-100] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [99] [Gold]"]
+                                "conditions": ["when above [499] [Oxygen]","when above [99] [Gold]"]
                         },
                         {
                                 "text": "This is tough",
@@ -66,7 +66,7 @@
 			{
                                 "text": "Let's release oxygen.",
                                 "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-499] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [499] [Gold]"]
+                                "conditions": ["when above [999] [Oxygen]","when above [499] [Gold]"]
                         },
                         {
                                 "text": "This is tough",
