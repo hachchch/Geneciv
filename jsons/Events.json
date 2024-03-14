@@ -1,4 +1,4 @@
-/*[
+[
 	**Diversifications**
 	{
 		"name": "Cambrian Explosion",
@@ -64,14 +64,13 @@
 			{
                                 "text": "Let's release oxygen.",
                                 "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-499] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [499] [Gold]"],
+                                "conditions": ["when above [0] [Oxygen]","when above [499] [Gold]"]
                         },
                         {
                                 "text": "This is tough",
                                 "triggeredUniques": ["Suppress warning [!You will lost 20 [Food] for 10 turns and instantly lost 600 [Science] due to it!]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
                         }
                 ]
-        },
+        }
 	**Others**
 ]
-*/
