@@ -1750,7 +1750,12 @@
 	{
 		"name": "Anoxic Environment",
 		"food": -20,
-		"uniques": ["Unsellable","Unbuildable"]
+		"uniques": ["Unsellable","Unbuildable","Remove [Anoxic Environment] [in this city] <after [10] turns>"]
+	},
+	{
+		"name": "Anoxic Environment [Paleozoic]",
+		"food": -5,
+		"uniques": ["Unsellable","Unbuildable","Remove [Anoxic Environment [Paleozoic]] [in this city] <after [10] turns>"]
 	},
         {
                 "name": "Palace",
