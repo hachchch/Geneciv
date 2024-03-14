@@ -1,10 +1,10 @@
 {
     "name": "Global uniques",
     "uniques": [
-	    ***Event Def***
-	    **Diversifications**
+	    // Event Def
+	    // Diversifications
 	    "Triggers a [Cambrian Explosion] event <upon entering the [Cambrian period]>",
-	    **Deaths**
+	    // Deaths
 	    // O-S Boundary
 	    "Triggers a [Hirnantian Gamma-Ray Burst] event <upon entering the [Silurian period]>",
 	    "Triggers a [Ordovician-Silurian Extinction] event <upon entering the [Silurian period]>",
@@ -14,14 +14,14 @@
 	    // "Triggers a [Anoxic Event [Cretaceous]] event <upon entering the [Paleogene period]>",
 	    // "Triggers a [Chicxulub Attack] event <upon entering the [Paleogene period]>",
 	    // "Triggers a [Dinosaur Dead] event <upon entering the [Paleogene period]>",
-	    **Other Events**
+	    // Other Events
 	    // "Triggers a [Great Oxidation] event <during the [Paleoproterozoic]>",
 	    // "Triggers a [] event <during the [Paleoproterozoic]>",
 	    // "Triggers a [TBXT Mutation] event <upon discovering [Ape] technology>",
 	    // "Triggers a [Gorilla Split] event <during the [Miocene]> <after discovering [Ape]>",
 	    // "Triggers a [Chimpanzee Split] event <during the [Miocene]> <after discovering [Ape]>",
 	    // "Triggers a [Out of Africa] event <during the [Pleistocene]> <upon conquering a city>",
-	    ***Global Effects***
+	    // Global Effects
 	    "[-1] Sight <for [Embarked] units>",
 	    "[-150]% growth [in all cities]",
 	    "Nullifies [Faith] [in all cities] <before discovering [Religion]>",
