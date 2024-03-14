@@ -5,7 +5,8 @@
 	    *Diversifications*
 	    *Deaths*
 	    // O-S Boundary
-	    // "Triggers a [Anoxic Event [Ordvician]] event <upon entering the [Silurian period]>",
+	    "Triggers a [Hirnantian Gamma-Ray Burst] event <upon entering the [Silurian period]>",
+	    "Triggers a [Ordovician-Silurian Extinction] event <upon entering the [Silurian period]>",
 	    // P-T Boundary
 	    "Triggers a [Anoxic Event [Permian]] event <upon entering the [Mesozoic era]>",
 	    // K-Pg Boundary
@@ -25,9 +26,8 @@
 	    "[+50]% [Science] [in capital]",
 	    "[-50]% [Culture] [in all cities]",
 	    "[+50]% [Culture] [in capital]",
-	    "[-200]% growth [in all cities]",
+	    "[-150]% growth [in all cities]",
 	    "Nullifies [Faith] [in all cities] <before discovering [Religion]>",
-	    // "[-50]% [Food] from every [Improvement]",
 	    // SubUnitTypes
 	    "[+20]% Production when constructing [Cretaceous] units [in all cities] <during the [Mesozoic era]>",
 	    "[+20]% XP gained from combat <for [Cretaceous] units> <during the [Mesozoic era]>",
