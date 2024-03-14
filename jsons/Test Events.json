@@ -64,7 +64,7 @@
                         },
                         {
                                 "text": "This is tough",
-                                "triggeredUniques": ["Suppress warning [!You will lost 5 [Food] for 10 turns and instantly lost 270 [Science] due to it!]","Gain [-270] [Science] <hidden from users>","Gain a free [Anoxic Environment [Paleozoic]] [in all cities] <hidden from users>"]
+                                "triggeredUniques": ["Suppress warning [!You will lost 5 [Food] for 10 turns and instantly lost 270 [Science] due to it!]","Gain [-270] [Science] <hidden from users>","Gain a free [Anoxic Environment (Paleozoic)] [in all cities] <hidden from users>"]
                         }
                 ]
 	},
