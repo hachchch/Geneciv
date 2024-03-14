@@ -32,6 +32,7 @@
 	},
 	// Deaths
 	// O-S Boundary
+[
 	{
 		"name": "Hirnantian Gamma-Ray Burst",
                 "text": "A gamma-ray burst from a supernova near the Milky Way galaxy destroyed half of the ozone from Earth's atmosphere during 10 seconds, killing 20-60% of phytoplankton with ultraviolet radiation. In addition, the effects of ultraviolet rays had a significant impact on planktonic organisms.",
@@ -88,4 +89,5 @@
                         }
                 ]
 	}
+]
 	// Others
