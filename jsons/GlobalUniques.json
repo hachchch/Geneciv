@@ -6,7 +6,7 @@
 	    "Triggers a [Cambrian Explosion Event] event <upon entering the [Cambrian period]>",
 	    /*Deaths*/
 	    // O-S Boundary
-	    "Triggers a [Hirnantian Gamma-Ray Burst] event <upon turn end> <with [50]% chance> <during the [Ordovician period]>",
+	    "Triggers a [Hirnantian Gamma-Ray Burst] event <upon turn end> <with [1]% chance> <during the [Ordovician period]>",
 	    "Triggers a [Ordovician-Silurian Extinction] event <upon entering the [Silurian period]>",
 	    // P-T Boundary
 	    "Triggers a [Anoxic Event [Permian]] event <upon entering the [Mesozoic era]>",
