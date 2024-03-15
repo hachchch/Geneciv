@@ -86,7 +86,7 @@
 		"outerColor": [133,118,126],
 		"innerColor": [255,255,255],
 		"uniqueName": "The Embryo of Life",
-		"uniques": ["Free Social Policy <upon entering a new era>"],
+		"uniques": ["Gain [75] [Culture] <upon entering a new era>"],
 		"cities": ["Chaotian","Baltic Shield","Rhodope Massif","Pilbara Craton","Kaapvaal Craton","Transvaal Basin"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
