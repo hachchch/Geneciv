@@ -14,6 +14,34 @@
 			}
                 ]
 	},
+	{
+		"name": "Silurian-Devonian Terrestrial Revolution",
+		"text": "Silurian-Devonian Terrestrial Revolution! The adaptation of Silurian freshwater vascular plants to land led to a revolutionary radiation of Devonian terrestrial flora. These land plants can receive direct sunlight and play an important role in photosynthesis.",
+		"choices":[
+			{
+                                "text": "Give importance to support herbivore.",
+                                "triggeredUniques": ["Discover [Fern]"]
+                        },
+			{
+				"text": "Give importance to photosynthesis.",
+				"triggeredUniques": ["Discover [Progymnosperm]"]
+			}
+                ]
+	},
+	{
+		"name": "Nekton Revolution",
+		"text": "Nekton Revolution! As competition for habitat intensified, jawed fishes dominated the seas. The era of cephalopods and crustaceans is over. Use those fins to hunt, Use those jaw to bite!",
+		"choices":[
+			{
+                                "text": "Give importance to swim.",
+                                "triggeredUniques": ["Discover [Fins]"]
+                        },
+			{
+				"text": "Give importance to bite.",
+				"triggeredUniques": ["Discover [Jaw]"]
+			}
+                ]
+	},
 	// Deaths
 	// O-S Boundary
 	{
@@ -48,6 +76,44 @@
                         {
                                 "text": "This is tough",
                                 "triggeredUniques": ["[-2] population [in all cities]"]
+                        }
+                ]
+	},
+	// Silurian
+	{
+		"name": "Ireviken Event",
+                "text": "Ireviken Event. 50% of trilobites and 80% of conodonts extinct during this period.",
+                "choices":[
+			/*
+			{
+                                "text": "It expected.",
+                                "triggeredUniques": ["Suppress warning [If you adopted policy [Global Cooling], you can avoid this serious times.]"],
+				"conditions": ["after adopting [Global Cooling]"]
+                        },
+			*/
+                        {
+                                "text": "This is tough",
+                                "triggeredUniques": ["[-1] population [in all cities]"]
+                        }
+                ]
+	},
+	{
+		"name": "Mulde Event",
+                "text": "Ireviken Event. Extinction occurred due to global sea level decline and ocean anoxic events.",
+                "choices":[
+			{
+                                "text": "This is tough",
+                                "triggeredUniques": ["[-1] population [in all cities]"]
+                        }
+                ]
+	},
+	{
+		"name": "Lau Event",
+                "text": "Lau Event. Severe sedimentary changes and sea level rise caused the extinction.",
+                "choices":[
+			{
+                                "text": "This is tough",
+                                "triggeredUniques": ["[-1] population [in all cities]"]
                         }
                 ]
 	},
