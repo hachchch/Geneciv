@@ -71,6 +71,66 @@
                                 "triggeredUniques": ["[-4] population [in all cities]"]
                         }
                 ]
+	},
+	// K-Pg Boundary
+	{
+		"name": "Chicxulub Attack",
+		"text": "A gigantic meteorite 10-15 km in diameter crashed into the Yucatan Peninsula. The impact energy was 300,000 times greater than that of the Tsar Bomba, causing a magnitude 11 earthquake and a 300m tsunami.",
+                "choices":[
+			{
+                                "text": "It expected.",
+				"triggeredUniques": ["Suppress warning [If you adopted policy [Meteorite Impact], you can avoid this serious times.]"],
+                                "conditions": ["after adopting [Meteorite Impact]"]
+                        },
+                        {
+                                "text": "This is tough",
+                                "triggeredUniques": ["Suppress warning [Dinosaur is endangered!]","[Dinosaur] units gain the [Death] promotion"]
+                        }
+                ]
+	},
+	{
+		"name": "Anoxic Event [Cretaceous]",
+		"text": "Cretaceous Mass Extinction! The Deccan Traps suddenly erupted, releasing large amounts of carbon dioxide into the atmosphere. As a result, a mass extinction occurred due to the lack of oxygen in the ocean and the inhibition of photosynthesis on land.",
+                "choices":[
+			{
+                                "text": "It expected.",
+				"triggeredUniques": ["Suppress warning [If you adopted policy [Deccan Traps] and [Oceanic Anoxic Events], you can avoid this serious times.]"],
+                                "conditions": ["after adopting [Oceanic Anoxic Events]","after adopting [Deccan Traps]"]
+                        },
+			{
+                                "text": "Let's release oxygen.",
+                                "triggeredUniques": ["Instantly consumes [1000] [Oxygen]"],
+                                "conditions": ["when above [999] [Oxygen]"]
+                        },
+                        {
+                                "text": "This is tough",
+                                "triggeredUniques": ["[-3] population [in all cities]"]
+                        }
+                ]
+	},
+	/*Others*/
+	{
+		"name": "Late Heavy Bombardment",
+                "text": "Due to the change in the orbit of the gas giant planet, many small bodies attacked from the asteroid belt and Kuiper belt, threatening the rocky planet.",
+                "choices":[
+			{
+                                "text": "Well",
+                                "triggeredUniques": ["Instantly provides [7500] [Atmosphere]"],
+                        }
+                ]
+	},
+	{
+		"name": "Great Oxidation",
+                "text": "Cyanobacterial photosynthesis has significantly changed the Earth's atmosphere. Organisms went from anaerobic to aerobic, which had a major impact on later evolutionary history.",
+                "choices":[
+			{
+                                "text": "Get Oxygen",
+                                "triggeredUniques": ["Instantly provides [1500] [Oxygen]"],
+                        },
+                        {
+                                "text": "Get 2x Oxygen with consume atmosphere",
+                                "triggeredUniques": ["Instantly provides [3000] [Oxygen]","Instantly consumes [2000] [Atmosphere]"]
+                        }
+                ]
 	}
 ]
-	// Others
