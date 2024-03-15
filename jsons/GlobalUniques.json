@@ -4,10 +4,16 @@
 	    // Event Def
 	    /*Diversifications*/
 	    "Triggers a [Cambrian Explosion Event] event <upon entering the [Cambrian period]>",
+	    "Triggers a [Silurian-Devonian Terrestrial Revolution] event <upon discovering [Vascular Plant] technology>",
+	    "Triggers a [Nekton Revolution] event <upon discovering [Fish] technology>",
 	    /*Deaths*/
 	    // O-S Boundary
 	    "Triggers a [Hirnantian Gamma-Ray Burst] event <upon turn end> <with [1]% chance> <during the [Ordovician period]>",
 	    "Triggers a [Ordovician-Silurian Extinction] event <upon entering the [Silurian period]>",
+	    // Silurian
+	    "Triggers a [Ireviken Event] event <upon turn end> <with [1]% chance> <during the [Silurian period]>",
+	    "Triggers a [Mulde Event] event <upon turn end> <with [1]% chance> <during the [Silurian period]>",
+	    "Triggers a [Lau Event] event <upon turn end> <with [1]% chance> <during the [Silurian period]>",
 	    // P-T Boundary
 	    "Triggers a [Anoxic Event [Permian]] event <upon entering the [Mesozoic era]>",
 	    // K-Pg Boundary
