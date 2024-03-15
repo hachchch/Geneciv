@@ -111,7 +111,7 @@
 	/*Others*/
 	{
 		"name": "Late Heavy Bombardment",
-                "text": "Due to the change in the orbit of the gas giant planet, many small bodies attacked from the asteroid belt and Kuiper belt, threatening the rocky planet.",
+                "text": "Late Heavy Bombardment. Due to the change in the orbit of the gas giant planet, many small bodies attacked from the asteroid belt and Kuiper belt, threatening the rocky planet.",
                 "choices":[
 			{
                                 "text": "Well",
@@ -121,7 +121,7 @@
 	},
 	{
 		"name": "Great Oxidation",
-                "text": "Cyanobacterial photosynthesis has significantly changed the Earth's atmosphere. Organisms went from anaerobic to aerobic, which had a major impact on later evolutionary history.",
+                "text": "Great Oxidation. Cyanobacterial photosynthesis has significantly changed the Earth's atmosphere. Organisms went from anaerobic to aerobic, which had a major impact on later evolutionary history.",
                 "choices":[
 			{
                                 "text": "Get Oxygen",
