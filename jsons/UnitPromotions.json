@@ -972,6 +972,10 @@
 	    	"[+30]% Strength <when fighting in [Benthic zone] tiles>",
 		"[+30]% Strength <when fighting in [Ocean] tiles>"]
 	},
+	{
+		"name": "Death",
+		"uniques": ["This Unit takes [100] damage"]
+	},
 	// Uniques
 	{
 		"name": "Ordovician Experience",
