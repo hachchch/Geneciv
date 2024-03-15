@@ -4,7 +4,8 @@
 		"type": "Water",
 		"movementCost": 1,
 		"RGB": [100,100,255],
-		"uniques": ["Saline water","Benthic zone","Becomes [Photic zone] when adjacent to [Coast]",
+		"uniques": ["Saline water","Benthic zone",
+		"Becomes [Photic zone] when adjacent to [Coast]",
 		"Becomes [Epipelagic zone] when adjacent to [Photic zone]",
 		"Becomes [Aphotic zone] when adjacent to [Epipelagic zone]",
 		"Becomes [Mesopelagic zone] when adjacent to [Aphotic zone]",
@@ -13,15 +14,7 @@
 		"Becomes [Hadopelagic zone] when adjacent to [Abyssopelagic zone]",
 		"Becomes [Demersal zone] when adjacent to [Hadopelagic zone]",
 		"Becomes [Benthic zone] when adjacent to [Demersal zone]",
-			"Becomes [Benthic zone] when adjacent to [Benthic zone]"
-		// Switch!
-		// "Becomes [Demersal zone] when adjacent to [Benthic zone]",
-		// "Becomes [Hadopelagic zone] when adjacent to [Demersal zone]",
-		// "Becomes [Abyssopelagic zone] when adjacent to [Hadopelagic zone]",
-		// "Becomes [Bathypelagic zone] when adjacent to [Abyssopelagic zone]",
-		// "Becomes [Mesopelagic zone] when adjacent to [Bathypelagic zone]",
-		// "Becomes [Aphotic zone] when adjacent to [Mesopelagic zone]"
-		]
+		"Becomes [Benthic zone] when adjacent to [Benthic zone]"]
 	},
 	{
 		"name": "Coast",
@@ -39,7 +32,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Coast"],
-        	"uniques": ["Saline water","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Neritic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
+        	"uniques": ["Saline water","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Neritic zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation"]
 	},
 	{
 		"name": "Photic zone", // surface
@@ -209,7 +202,7 @@
         	"movementCost": 1,
         	"RGB": [59,61,30],
         	"occursOn": ["Coast"],
-		"uniques": ["Saline water","[+1 Production] <after discovering [Chloroplasts]>","[+1 Food] <after discovering [First Plant]>","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Intertidal zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation <hidden from users>"]
+		"uniques": ["Saline water","[+1 Production] <after discovering [Chloroplasts]>","[+1 Food] <after discovering [First Plant]>","Open water","[+2] to Fertility for Map Generation","A Region is formed with at least [20]% [Intertidal zone] tiles, with priority [5]","Base Terrain on this tile is not counted for Region determination","Vegetation"]
 	},
 	{
 		"name": "Estuaries",
@@ -237,7 +230,7 @@
 		"gold": 2,
         	"movementCost": 1,
         	"RGB": [59,61,30],
-		"uniques": ["Saline water"],
+		"uniques": ["Saline water","Vegetation"],
 		"occursOn": ["Ocean","Demersal zone","Benthic zone"],
 	},
 	// Lands
