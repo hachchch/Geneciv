@@ -27,6 +27,8 @@
 	    // "Triggers a [Chimpanzee Split] event <during the [Miocene]> <after discovering [Ape]>",
 	    // "Triggers a [Out of Africa] event <during the [Pleistocene]> <upon conquering a city>",
 	    // Global Effects
+	    "Instantly provides [7500] [Atmosphere] <starting from the [Hadean eon]> <if [Palace] is constructed>",
+	    "Instantly provides [2500] [Oxygen] <starting from the [Hadean eon]> <if [Palace] is constructed>",
 	    "[-1] Sight <for [Embarked] units>",
 	    "[-150]% growth [in all cities]",
 	    "Nullifies [Faith] [in all cities] <before discovering [Religion]>",
