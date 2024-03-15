@@ -1012,14 +1012,13 @@
 		"uniques": ["Free Technology","Requires a [Polypeptides] in all cities", "Cost increases by [30] per owned city"],
 		"quote": "In trying to uncover the intermediate stages of abiogenesis, scientist Sidney W. Fox in the 1950s and 1960s, studied the spontaneous formation of peptide structures under conditions that might plausibly have existed early in Earth's history. He demonstrated that amino acids could spontaneously form small chains called peptides. In one of his experiments, he allowed amino acids to dry out as if puddled in a warm, dry spot in prebiotic conditions. He found that, as they dried, the amino acids formed long, often cross-linked, thread-like microscopic polypeptide globules, he named 'Proteinoid microspheres'.",
 	},
-	/*
 	{
 		"name": "Cambrian Explosion",
 		"specialistSlots": {"Creature": 2},
 		"isNationalWonder": true,
 		"production": 5,
 		"cost": 270,
-		"uniques": ["Requires a [Cephalopoda] in all cities", "Cost increases by [30] per owned city","[+5]% [Production] [in this city]","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[2] population [in all cities]","Empire enters golden age","Unbuildable <in cities with a [Cambrian Extinction]>"],
+		"uniques": ["Unbuildable"],
 		"quote": "Before early Cambrian diversification, most organisms were relatively simple, composed of individual cells, or small multicellular organisms, occasionally organized into colonies. As the rate of diversification subsequently accelerated, the variety of life became much more complex, and began to resemble that of today.",
 	},
 	{
@@ -1028,7 +1027,7 @@
 		"isNationalWonder": true,
 		"culture": 10,
 		"cost": 270,
-		"uniques": ["Requires a [Cephalopoda] in all cities", "Cost increases by [30] per owned city","Botomian","Can only be built [in capital]","Unbuildable <before the [Cambrian period]>","[+100]% [Science] [in all cities] <during the [Cambrian period]>","Free Social Policy","Unbuildable <in cities with a [Cambrian Explosion]>"],
+		"uniques": ["Unbuildable"],
 		"quote": "Volcanic activity, particularly that of large igneous provinces, has been speculated to have been the cause of the environmental crisis. There are several hypotheses for the causes of these extinctions. There is also major changes in the carbon cycle and development of anoxia in the oceans. 50-80% of Sea Species died for ever.",
 	},
 	{
@@ -1037,9 +1036,8 @@
 		"science": 1,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Meteor] in all cities", "Cost increases by [30] per owned city",/*"Free [Comet] appears",*/"Only available <after adopting [Abiogenesis]> <hidden from users>"]
+		"uniques": ["Unbuildable"]
 	},
-	*/
 	{
 		"name": "Archaeocyatha",
 		"isWonder": true,
