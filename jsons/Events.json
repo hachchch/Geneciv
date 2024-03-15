@@ -129,7 +129,7 @@
                         },
                         {
                                 "text": "Get 2x Oxygen with consume atmosphere",
-                                "triggeredUniques": ["Instantly provides [3000] [Oxygen]","Instantly consumes [2000] [Atmosphere]"]
+                                "triggeredUniques": ["Instantly provides [3000] [Oxygen]","Instantly consumes [3000] [Atmosphere]"]
                         }
                 ]
 	}
