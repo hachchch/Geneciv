@@ -11,12 +11,11 @@
 	    // P-T Boundary
 	    "Triggers a [Anoxic Event [Permian]] event <upon entering the [Mesozoic era]>",
 	    // K-Pg Boundary
-	    // "Triggers a [Anoxic Event [Cretaceous]] event <upon entering the [Paleogene period]>",
-	    // "Triggers a [Chicxulub Attack] event <upon entering the [Paleogene period]>",
-	    // "Triggers a [Dinosaur Dead] event <upon entering the [Paleogene period]>",
+	    "Triggers a [Anoxic Event [Cretaceous]] event <upon entering the [Paleogene period]>",
+	    "Triggers a [Chicxulub Attack] event <upon entering the [Paleogene period]>",
 	    /*Other Events*/
-	    // "Triggers a [Great Oxidation] event <during the [Paleoproterozoic]>",
-	    // "Triggers a [] event <during the [Paleoproterozoic]>",
+	    "Triggers a [Great Oxidation] event <upon entering the [Paleoproterozoic]>",
+	    "Triggers a [Late Heavy Bombardment] event <upon entering the [Hadean eon]>",
 	    // "Triggers a [TBXT Mutation] event <upon discovering [Ape] technology>",
 	    // "Triggers a [Gorilla Split] event <during the [Miocene]> <after discovering [Ape]>",
 	    // "Triggers a [Chimpanzee Split] event <during the [Miocene]> <after discovering [Ape]>",
