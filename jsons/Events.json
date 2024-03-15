@@ -27,7 +27,7 @@
                         },
                         {
                                 "text": "This is tough",
-                                "triggeredUniques": ["Suppress warning [!You will instantly lost 270 [Science] due to it!]","Gain [-270] [Science] <hidden from users>"]
+                                "triggeredUniques": ["Gain [-270] [Science] <hidden from users>"]
                         }
                 ]
 	},
@@ -42,12 +42,12 @@
                         },
 			{
                                 "text": "Let's release oxygen.",
-                                "triggeredUniques": ["Instantly consumes [500] [Oxygen]","Gain [-100] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [99] [Gold]"]
+                                "triggeredUniques": ["Instantly consumes [500] [Oxygen]"],
+                                "conditions": ["when above [499] [Oxygen]"]
                         },
                         {
                                 "text": "This is tough",
-                                "triggeredUniques": ["Suppress warning [!You will lost 5 [Food] for 10 turns and instantly lost 270 [Science] due to it!]","Gain [-270] [Science] <hidden from users>","Gain a free [Anoxic Environment (Paleozoic)] [in all cities] <hidden from users>"]
+                                "triggeredUniques": ["[-2] population [in all cities]"]
                         }
                 ]
 	},
@@ -63,12 +63,12 @@
                         },
 			{
                                 "text": "Let's release oxygen.",
-                                "triggeredUniques": ["Instantly consumes [1000] [Oxygen]","Gain [-499] [Gold]"],
-                                "conditions": ["when above [0] [Oxygen]","when above [499] [Gold]"]
+                                "triggeredUniques": ["Instantly consumes [1000] [Oxygen]"],
+                                "conditions": ["when above [999] [Oxygen]"]
                         },
                         {
                                 "text": "This is tough",
-                                "triggeredUniques": ["Suppress warning [!You will lost 20 [Food] for 10 turns and instantly lost 600 [Science] due to it!]","Gain [-600] [Science] <hidden from users>","Gain a free [Anoxic Environment] [in all cities] <hidden from users>"]
+                                "triggeredUniques": ["[-4] population [in all cities]"]
                         }
                 ]
 	}
