@@ -2,9 +2,9 @@
     "name": "Global uniques",
     "uniques": [
 	    // Event Def
-	    // Diversifications
-	    "Triggers a [Cambrian Explosion] event <upon entering the [Cambrian period]>",
-	    // Deaths
+	    /*Diversifications*/
+	    "Triggers a [Cambrian Explosion Event] event <upon entering the [Cambrian period]>",
+	    /*Deaths*/
 	    // O-S Boundary
 	    "Triggers a [Hirnantian Gamma-Ray Burst] event <upon entering the [Silurian period]>",
 	    "Triggers a [Ordovician-Silurian Extinction] event <upon entering the [Silurian period]>",
@@ -14,7 +14,7 @@
 	    // "Triggers a [Anoxic Event [Cretaceous]] event <upon entering the [Paleogene period]>",
 	    // "Triggers a [Chicxulub Attack] event <upon entering the [Paleogene period]>",
 	    // "Triggers a [Dinosaur Dead] event <upon entering the [Paleogene period]>",
-	    // Other Events
+	    /*Other Events*/
 	    // "Triggers a [Great Oxidation] event <during the [Paleoproterozoic]>",
 	    // "Triggers a [] event <during the [Paleoproterozoic]>",
 	    // "Triggers a [TBXT Mutation] event <upon discovering [Ape] technology>",
