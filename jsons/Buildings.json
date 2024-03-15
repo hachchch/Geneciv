@@ -427,12 +427,6 @@
 	},*/
 	// Devonian
 	{
-		"name": "Silurian-Devonian Terrestrial Revolution",
-		"requiredTech": "Vascular Plant",
-		"isWonder": true,
-		"uniques": ["[-40]% maintenance cost for buildings [in all cities]","[+5]% [Production] [in all cities]"]
-	},
-	{
 		"name": "Actinopterygii",
 		"science": 1,
 		"requiredTech": "Predation",
@@ -725,6 +719,7 @@
 	},
 	{
 		"name": "Alveolate",
+		"isWonder": true,
 		"requiredTech": "Eukaryotic Cell",
 		"science": 4,
 	},
@@ -784,6 +779,7 @@
 		"uniques": ["Must be next to [Forests]","[+1 Culture] from [Coal] tiles [in all cities]","[-50]% Food consumption by specialists [in this city]","Unbuildable <before the [Carboniferous period]>"],
 		"quote": "The Carboniferous rainforest collapse was a minor extinction event that occurred around 305 million years ago in the Carboniferous period. It altered the vast coal forests that covered the equatorial region of Euramerica. This event may have fragmented the forests into isolated refugia or ecological 'islands', which in turn encouraged dwarfism and, shortly after, extinction of many plant and animal species. Following the event, coal-forming tropical forests continued in large areas of the Earth, but their extent and composition were changed.",
 	},
+	/*
 	{
 		"name": "Ireviken Event",
 		"gold": 4,
@@ -805,6 +801,7 @@
 		"cost": 350,
 		"uniques": ["Must be next to [Water]","[+1 Food] from [Water] tiles [in this city]","Allied City-States provide [Gold] equal to [15]% of what they produce for themselves","Unbuildable <before the [Silurian period]>"]
 	},
+	*/
 	{
 		"name": "Sturtian Glaciation",
 		"gold": 4,
@@ -818,6 +815,7 @@
 		"cost": 275,
 		"uniques": ["[2] free [Radiodonta] units appear","[+1 Gold] from [Water] tiles [in this city]","Unbuildable <before the [Neoproterozoic]>"]
 	},
+	/*
 	{
 		"name": "Great Ordovician Biodiversification Event",
 		"isWonder": true,
@@ -826,6 +824,7 @@
 		"cost": 325,
 		"uniques": ["[+100]% growth [in this city]","Unbuildable <before the [Ordovician period]>"]
 	},
+	*/
 	{
 		"name": "Banded Iron Formation",
 		"isWonder": true,
