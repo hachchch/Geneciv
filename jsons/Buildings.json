@@ -2424,7 +2424,7 @@
 		"name": "Universe Beta 1.10",
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion",
-			"Hidden when [Next Universe] Victory is disabled", "Cannot be hurried"],
+			"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
 		"requiredTech": "Homo Deus"
 	},
 ]
