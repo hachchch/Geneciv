@@ -1123,18 +1123,20 @@
 				"name": "Primate",
 				"row": 6,
 				"prerequisites": ["Eutherians"],
+				"quote": "Primates are animals that can climb trees and hold branch using their five opposable fingers."
 			},
 			{
 				"name": "Neocortex",
 				"row": 2,
 				"prerequisites": ["Eutherians"],
-				// "uniques": ["[+1 Science] per [10] population [in all cities]"],
+				"quote": "The neocortex is responsible for rational, analytical thinking and language functions. It seems that lower organisms tend to be smaller, while higher organisms tend to be larger."
 			},
 			{
 				"name": "Placenta",
 				"row": 9,
 				"prerequisites": ["Uterus","Eutherians"],
-				"uniques": ["[+5]% Strength <for [Mammal] units> <when defending>","Production to [Science] conversion in cities changed by [+10]%"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"quote": "Most extant mammals are placentalia. Having a placenta could protect an immature from kidnappers."
 			},
 		]
 	},
@@ -1148,7 +1150,8 @@
 			{
 				"name": "Neoaves",
 				"row": 4,
-				"prerequisites": ["Ratite Birds","Bat"]
+				"prerequisites": ["Ratite Birds","Bat"],
+				"quote": "After the Late Cretaceous extinction, birds diversification rapidly accelerated. Neoaves are birds that belong to the neognathic order, and 95% of existing bird species are neoaves. Also they can fly, except penguin like.",
 			},
 			{
 				"name": "Meadow",
@@ -1201,8 +1204,6 @@
 				"name": "Ape Brain",
 				"row": 2,
 				"prerequisites": ["Ape","Learning"],
-				"uniques": ["N e u r o n   A c t i v a t e d",
-					"[+1 Science] per [2] population [in all cities]"],
 				"quote": "Apes are capable of high levels of cognition; some make tools and use them to acquire foods and for social displays, some have sophisticated hunting strategies requiring cooperation, influence and rank. they are status conscious, manipulative and capable of deception. they can recognise kin and conspecifics. they can learn to use symbols and understand aspects of human language including some relational syntax, concepts of number and numerical sequence."
 			},
 		]
@@ -1218,12 +1219,13 @@
 				"name": "Australopithecus",
 				"row": 6,
 				"prerequisites": ["Upright Bipedal Walk","Five Fingers","Ape Brain"],
-				"quote": "",
+				"quote": "Australopithecus was an early Hominina that originated in Africa and appears to have walked upright. The brain volume is about 500ml, which is almost the same as that of gorillas and chimpanzees.",
 			},
 			{
 				"name": "Opposable Thumb",
 				"row": 5,
 				"prerequisites": ["Upright Bipedal Walk","Five Fingers"],
+				"quote": "Most primates have opposable thumbs in hand and legs. However, with bipedalism, human legs lost the ability that opposable thumbs."
 			},
 		]
 	},
@@ -1238,6 +1240,7 @@
 				"name": "New Ability",
 				"row": 1,
 				"prerequisites": ["Australopithecus"],
+				"quote": "The first innovations occurred with the use of stone tools. Now they understanding ranged attack glitches."
 			},
 			{
 				"name": "Homo Habilis",
