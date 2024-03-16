@@ -8,7 +8,6 @@
 	{
 		"name": "Panspermia",
 		"leaderName": "Anaxagoras",
-		// "leaderName": "",
 		"adjective": ["Panspermian"],
 		"startBias": ["Lakes"],
 		"preferredVictoryType": "Scientific",
@@ -158,9 +157,8 @@
 		"adjective": ["Ediacaran"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
-// personality plan: always haphazard and reckless, baka personality. Also, they doesn't have feelings for or dislike others, they just fluffs only. Abstract, they are freaking mindless pacifist.
 		"startIntroPart1": "The Snowballed Earth was melt on 635 MYA(million years ago), then The life on earth is awaken. In Ediacaran Biota, There are enigmatic and simpler life such a Charnia, Xenophyophore, Jellyfish, Dickinsonia",
-		"startIntroPart2": "Behold the wonders of the Ediacaran Biota, there are so many advantage on us! we can swim well!(fluffing) The evolution led by Cambrians? Or will you take the place you deserve, as the leading edge of evolution into the all period?!", // 考え中
+		"startIntroPart2": "Behold the wonders of the Ediacaran Biota, there are so many advantage on us! we can swim well!(fluffing) The evolution led by Cambrians? Or will you take the place you deserve, as the leading edge of evolution into the all period?!",
 
 		"declaringWar": "Our jellyfish will attack your biota soon for some reason! Ya right, There is no hostility and reason in us, we just only float up and down!",
 		"attacked": "Eek! you wanna clear our biota? Well, These cute and capricious jellyfish have super deadly poison, right?",
