@@ -121,9 +121,37 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/HexaRealm/Units/Sauropoda
+TileSets/HexaRealm/Units/Spinosaurus
   rotate: false
   xy: 0, 0
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Eupelycosauria
+  rotate: false
+  xy: 64, 0
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Embolomeri
+  rotate: false
+  xy: 128, 0
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Batrachosauria
+  rotate: false
+  xy: 192, 0
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Sauropoda
+  rotate: false
+  xy: 256, 0
   size: 87, 53
   orig: 87, 53
   offset: 0, 0
