@@ -338,7 +338,7 @@
 		"citySound": "cityAncient",
 		"embarkDefense": 80,
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Eclipse","Cephalopoda","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
 		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
 			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
@@ -358,7 +358,7 @@
 		"startPercent": 10,
 		"citySound": "cityClassical",
 		"iconRGB": [233, 31, 99],
-		"settlerBuildings": ["Eclipse","Cephalopoda","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Eclipse","Cephalopoda","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
 		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
 			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
@@ -378,7 +378,7 @@
 		"startPercent": 10,
 		"citySound": "cityMedieval",
 		"iconRGB": [157, 39, 176],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
 		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
 			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
@@ -398,7 +398,7 @@
 		"startPercent": 10,
 		"citySound": "cityRenaissance",
 		"iconRGB": [104, 39, 176],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Scientific era",
@@ -415,7 +415,7 @@
 		"startPercent": 10,
 		"citySound": "cityRenaissance",
 		"iconRGB": [104, 58, 183],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Industrial era",
@@ -432,7 +432,7 @@
 		"startPercent": 10,
 		"citySound": "cityIndustrial",
 		"iconRGB": [63, 81, 182],
-		"settlerBuildings": ["Barracks","Walls","Granary","Library","Temple","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Barracks","Walls","Granary","Library","Temple","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Atomic era",
@@ -449,7 +449,7 @@
 		"startPercent": 10,
 		"citySound": "cityModern",
 		"iconRGB": [33, 150, 243],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Information era",
@@ -466,7 +466,7 @@
 		"startPercent": 10,
 		"citySound": "cityAtomic",
 		"iconRGB": [0, 150, 136],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Contemporary era",
@@ -483,7 +483,7 @@
 		"startPercent": 10,
 		"citySound": "cityAtomic",
 		"iconRGB": [0, 150, 136],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Pre Future era",
@@ -500,7 +500,7 @@
 		"startPercent": 10,
 		"citySound": "cityInformation",
 		"iconRGB": [76, 176, 81],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	{
 		"name": "Future era",
@@ -517,7 +517,7 @@
 		"startPercent": 10,
 		"citySound": "cityFuture",
 		"iconRGB": [86, 186, 61],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	/*
 	{
@@ -535,7 +535,7 @@
 		"startPercent": 10,
 		"citySound": "cityFuture",
 		"iconRGB": [86, 186, 61],
-		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Emotions","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"settlerBuildings": ["Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
 	},
 	*/
 ]
