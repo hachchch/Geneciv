@@ -1503,7 +1503,7 @@
 	},
 	{
 		"name": "Mammal Brain",
-		"requiredBuilding": "Emotions",
+		"requiredBuilding": "Feelings",
 		"maintenance": 3,
 		"science": 3,
 		"percentStatBonus": {"science": 33},
