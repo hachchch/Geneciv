@@ -69,7 +69,7 @@
 		"replaces": "Chemical Synthesis"
 	},
 	{
-		"name": "Rainforest Formation", // Euramerica
+		"name": "Laurussian Rainforest", // Euramerica
 		"uniqueTo": "Euramerica",
 		"replaces": "Lepidodendron",
 		"science": 1,
@@ -79,9 +79,10 @@
 		"uniques": ["Provides [3] [Oxygen]","Free [Vegetation] appears"]
 	},
 	{
-		"name": "Clymeniida", // Famenia
+		"name": "Sarcopterygii", // Famenia
 		"requiredTech": "Predation",
 		"uniqueTo": "Famenia",
+		""
 		"uniques": ["New [Water] units start with [25] Experience [in this city]"]
 		"replaces": "Actinopterygii",
 	},
@@ -1205,7 +1206,6 @@
 	{
 		"name": "Ribosomes",
 		"requiredBuilding": "Replication",
-		// "cost": 80,
 		"food": 1,
 		"maintenance": 1,
 		"requiredTech": "Mitosis",
@@ -1214,7 +1214,6 @@
 	{
 		"name": "Phagocytic Cell",
 		"requiredBuilding": "Plasma Membrane",
-		// "cost": 90,
 		"maintenance": 1,
 		"requiredTech": "Filter Feeding",
 		"cityStrength": 5,
@@ -1285,13 +1284,14 @@
 		"name": "Radial Symmetry",
 		"requiredBuilding": "Polypeptides",
 		"science": 2,
-		"percentStatBonus": {"Science": 25},
+		"percentStatBonus": {"science": 25},
 		"requiredTech": "Radial Symmetry",
 	},
 	{
 		"name": "Blood Pump",
 		"requiredBuilding": "Muscles",
-		"uniques": ["[+15]% [Production] [in this city]","Destroyed when the city is captured"],
+		"percentStatBonus": {"production": 15},
+		"uniques": ["Destroyed when the city is captured"],
 		"production": 2,
 		"requiredTech": "Heart",
 	},
@@ -1306,7 +1306,7 @@
 		"name": "Bilateral Symmetry",
 		"requiredBuilding": "Radial Symmetry",
 		"science": 3,
-		"percentStatBonus": {"Science": 25},
+		"percentStatBonus": {"science": 25},
 		"requiredTech": "Bilateral Symmetry",
 	},
 	{
@@ -1342,11 +1342,10 @@
 	},
 	{
                 "name": "Volcano",
-                "food": 1,
+                "food": 2,
                 "cost": 25,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		// "uniques": ["[+1 Gold, +1 Production] from [Lakes] tiles [in this city]"/*,"Only available <in cities without a [Sea Environment]> <hidden from users>"*/],
 		"requiredTech": "Primordial Soup",
         },
 	{
@@ -1396,23 +1395,20 @@
 	},
 	{
 		"name": "Foraminifera",
-		// "cost": 800,
 		"gold": 8,
 		"requiredTech": "Grass"
 	},
 	{
 		"name": "Domed Cranium",
-		// "cost": 1000,
 		"gold": 4,
 		"science": 4,
 		"culture": 2,
 		"isWonder": true,
 		"requiredTech": "Ape Brain",
-		"uniques": ["[+10]% [Gold] [in this city]","[+10]% [Science] [in this city]"]
+		"percentStatBonus": {"science": 10, "gold": 10},
 	},
 	{
 		"name": "Winged Threat",
-		// "cost": 750,
 		"science": 1,
 		"isWonder": true,
 		"requiredTech": "Wings",
@@ -1420,47 +1416,40 @@
 	},
 	{
 		"name": "Replaceable Teeth",
-		"maintenance": 4,
-		// "cost": 400,
 		"isWonder": true,
 		"requiredTech": "Jaw",
 		"uniques": ["Provides [1] [Super Creature Stock]"]
 	},
 	{
 		"name": "Polyp",
-		// "cost": 325,
 		"food": 1,
 		"isWonder": true,
 		"requiredTech": "Radial Symmetry",
-		"uniques": ["Must be next to [Coast]","[6] free [Jellyfish] units appear"]
+		"uniques": ["Must be next to [Coast]","[4] free [Strobila] units appear"]
 	},
 	{
 		"name": "Lascaux Cave",
-		// "cost": 2500,
 		"requiredTech": "Cave Painting",
 		"isWonder": true,
 		"uniques": ["[+1 Culture] per [2] population [in this city]","Gain a free [Bulletin Wall] [in all cities]"]
 	},
 	{
 		"name": "Çatalhöyük",
-		// "cost": 4000,
 		"production": 1,
 		"food": 2,
 		"isWonder": true,
 		"requiredTech": "Urbanization",
-		"uniques": ["[+50]% [Production] [in all cities] <for [10] turns>"]
+		"uniques": ["[+50]% [Production] [in all cities] <for [30] turns>"]
 	},
 	{
 		"name": "Hurrian Hymn",
-		// "cost": 4500,
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Writing",
-		"uniques": ["[+33]% [Culture] [in this city]"]
+		"percentStatBonus": {"culture": 33},
 	},
 	{
 		"name": "Early Chemistry",
-		// "cost": 3000,
 		"maintenance": 10,
 		"science": 30,
 		"requiredTech": "Alchemy",
@@ -1475,7 +1464,6 @@
 	},
 	{
 		"name": "Chrysopoeia",
-		// "cost": 6000,
 		"gold": 200,
 		"isWonder": true,
 		"requiredTech": "Alchemy",
@@ -1484,13 +1472,11 @@
 		"name": "Fireworks Entertainment!",
 		"happiness": 3,
 		"maintenance": 20,
-		// "cost": 3400,
 		"requiredTech": "Gunpowder"
 	},
 	{
 		"name": "Sputnik",
 		"uniques": ["[2] Free Technologies"],
-		// "cost": 17000,
 		"requiredTech": "Satellites"
 	},
 	{
@@ -1500,43 +1486,37 @@
 		"food": 30,
 		"gold": 1200,
 		"culture": 90,
-		// "cost": 15000,
 		"requiredTech": "Space Adaptation"
 	},
 	{
 		"name": "Hive Mind",
 		"isWonder": true,
-		// "cost": 400,
 		"requiredTech": "Nerve Cord",
 		"uniques": ["[+10]% Strength <for [Water] units> <when adjacent to a [non-[Enemy]] unit>"]
 	},
 	{
-		"name": "Emotions",
+		"name": "Feelings",
 		"requiredBuilding": "Nervous System",
-		// "cost": 400,
 		"happiness": 4,
-		"gold": 3,
-		"uniques": ["[+15]% [Gold] [in this city]"],
+		"percentStatBonus": {"happiness": 15},
 		"requiredTech": "Medulla Oblongata",
 	},
 	{
 		"name": "Mammal Brain",
 		"requiredBuilding": "Emotions",
 		"maintenance": 3,
-		// "cost": 750,
-		"science": 4,
-		"production": 4,
+		"science": 3,
+		"percentStatBonus": {"science": 33},
 		"requiredTech": "Neocortex",
-		"uniques": ["New [Mammal] units start with [15] Experience [in this city]","[+15]% [Science] [in this city]"],
+		"uniques": ["New [Mammal] units start with [15] Experience [in this city]"],
 	},
 	{
 		"name": "Big Brain",
 		"requiredBuilding": "Limbic System",
-		// "cost": 1000,
 		"maintenance": 3,
 		"science": 5,
-		"happiness": 1,
-		"uniques": ["[+20]% [Science] [in this city]","New [Human] units start with [15] Experience [in this city]"],
+		"percentStatBonus": {"science": 50},
+		"uniques": ["New [Human] units start with [15] Experience [in this city]"],
 		"requiredTech": "Homo Heidelbergensis",
 	},
 	{
@@ -1580,11 +1560,10 @@
 	{
 		"name": "Sociality",
 		// "cost": 700,
-		"maintenance": 1,
-		"happiness": 1,
+		"maintenance": 5,
 		"requiredTech": "Ape Brain",
 		"specialistSlots": {"Elder": 1},
-		"uniques": ["[25]% [Production] [in this city]","[25]% [Culture] [in this city]","[12]% [Food] [in this city]"],
+		"percentStatBonus": {"culture": 100}
 	},
 	{
 		"name": "Stone Work",
@@ -1593,49 +1572,39 @@
 		"production": 8,
 		"maintenance": 1,
 		"requiredTech": "Stone Tools",
-		"uniques": ["[+20]% Production when constructing [Human] units [in this city]"],
+		"percentStatBonus": {"production": 15},
 	},
 	{
 		"name": "Count",
 		// "cost": 700,
 		"maintenance": 1,
-		"production": 2,
-		"gold": 3,
+		"gold": 10,
 		"requiredTech": "Five Fingers",
-		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]"],
+		"uniques": ["[+25]% Production when constructing [All] buildings [in this city]"],
 	},
 	{
 		"name": "Gathering",
 		// "cost": 750,
 		"production": 6,
 		"maintenance": 1,
-		"gold": 1,
-		"food": 4,
+		"food": 5,
 		"requiredTech": "Opposable Thumb",
-		"uniques": ["[+15]% Production when constructing [All] buildings [in this city]"],
+		"uniques": ["[+25]% Production when constructing [All] buildings [in this city]"],
 	},
 	{
 		"name": "Campfire",
-		"specialistSlots": {"Hunter": 3},
-		"culture": 5,
-		"maintenance": 1,
-		"happiness": 5,
-		"food": 5,
-		"production": 1,
-		"science": 1,
-		// "cost": 1300,
-		"requiredTech": "Fire",
-		"uniques": ["[10]% [Food] [in this city]","[+1 Food] from [Hunting Spot] tiles [in this city]"],
+		"specialistSlots": {"Hunter": 1},
+		"happiness": 6,
+ 		"percentStatBonus": {"food": 50, "science": 25},
+		"uniques": ["[+1 Food] from [Hunting Spot] tiles [in this city]"],
 	},
 	{
 		"name": "Bulletin Wall",
 		"specialistSlots": {"Elder": 1},
 		"requiredTech": "Cave Painting",
-		// "cost": 1000,
 		"maintenance": 1,
-		"gold": 6,
-		"culture": 5,
-		"happiness": 2,
+		"culture": 6,
+		"percentStatBonus": {"culture": 50, "science": 25},
 		"uniques": ["[+1 Food] from [Hunting Spot] tiles [in this city]"],
 	},
 	{
@@ -1663,10 +1632,9 @@
 	{
 		"name": "Limbic System",
 		"requiredBuilding": "Mammal Brain",
-		// "cost": 240,
 		"science": 3,
 		"requiredTech": "Learning",
-		"uniques": ["New [Hominiae] units start with [15] Experience [in this city]","New [Mammal] units start with [15] Experience [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"]
 	},
 	{
 		"name": "Free SCS",
@@ -1676,8 +1644,6 @@
 		"name": "Gamerule",
 		"cityStrength": -5,
 		"cityHealth": -5,
-		"happiness": -3,
-		// "science": -3,
 		"uniques": ["Unsellable","Unbuildable","Destroyed when the city is captured",
 			"Gain a free [Warm Environment] [in this city] <in [Warm] tiles>",
 		"Gain a free [Littoral Environment] [in this city] <in [Coastal] tiles>",
@@ -1743,11 +1709,11 @@
         {
                 "name": "Palace",
                 "isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
+		"production": 8,
+		"science": 6,
+		"gold": 6,
 		"cost": 1,
-		"culture": 3,
+		"culture": 5,
 		"happiness": 3,
                 "uniques": ["Gain a free [Gamerule] [in all cities]","Indicates the capital city","Unsellable","Unbuildable","Cannot be purchased","Provides [1] [Super Creature Stock] <for [non-[City-states]]>"], // Prev, it was easy to create super units by forming an alliance with a city-state.
         },
