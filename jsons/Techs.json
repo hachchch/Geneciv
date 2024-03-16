@@ -974,6 +974,108 @@
 			}
 		]
 	},
+	/*
+	{
+		"columnNumber": 24,
+		"era": "Triassic period",
+		"techCost": 780,
+		"buildingCost": 360,
+		"wonderCost": 550,
+		"techs": [
+			{
+				"name": "Modern Coral",
+				"row": 1,
+				"prerequisites": ["Forest Cycle"]
+			},
+			{
+				"name": "Diving",
+				"row": 8,
+				"prerequisites": ["Archosauria","Neoselachii"],
+			},
+			{
+				"name": "Dinosaur",
+				"row": 6,
+				"prerequisites": ["Archosauria"],
+			},
+			{
+				"name": "Herbivore",
+				"row": 3,
+				"prerequisites": ["Forest Cycle","Archosauria"],
+			},
+			{
+				"name": "Canine Tooth",
+				"row": 7,
+				"prerequisites": ["Warm Blooded","Ear"]
+			},
+			{
+				"name": "Wings",
+				"row": 4,
+				"prerequisites": ["Archosauria"],
+				"uniques": ["[+10]% Strength <for [Herbivore] units>","[+1] Movement <for [Avemetatarsalia] units>"],
+			},
+		]
+	},
+	{
+		"columnNumber": 25,
+		"era": "Triassic period",
+		"techCost": 850,
+		"buildingCost": 375,
+		"wonderCost": 550,
+		"techs": [
+			{
+				"name": "Sauropoda",
+				"row": 3,
+				"prerequisites": ["Herbivore","Dinosaur"]
+			},
+			{
+				"name": "Gliding",
+				"row": 4,
+				"prerequisites": ["Wings","Herbivore"],
+			},
+			{
+				"name": "Uterus",
+				"row": 9,
+				"prerequisites": ["Canine Tooth","Egg Shell"],
+				"uniques": ["Enables Defensive Pacts","Production to [Science] conversion in cities changed by [+10]%"],
+			},
+			/*
+			{
+				"name": "Plesiosaur",
+				"row": 8,
+				"prerequisites": ["Dinosaur","Diving"],
+			},
+			{
+				"name": "Ocean Reform",
+				"row": 1,
+				"prerequisites": ["Angiosperm"]
+			},
+			{
+				"name": "Feathers"
+				"row": 4,
+				"prerequisites": ["Wings"],
+				"uniques": ["[+1] Sight <for [Avemetatarsalia] units>"],
+			},
+			*/
+			{
+				"name": "Hair",
+				"row": 5,
+				"uniques": ["[+10]% Strength <when fighting in [Snow] tiles> <for [Mammal] units>"],
+				"prerequisites": ["Canine Tooth"]
+			},
+			{
+				"name": "Theropoda",
+				"row": 6,
+				"prerequisites": ["Dinosaur"],
+			},
+			{
+				"name": "Glands",
+				"row": 7,
+				"uniques": ["[+10]% Strength <when fighting in [Desert] tiles>","[+10]% Strength <when fighting in [Jungle] tiles>"],
+				"prerequisites": ["Canine Tooth"],
+			},
+		]
+	},
+	*/
 	{
 		"columnNumber": 24,
 		"era": "Mesozoic era",
