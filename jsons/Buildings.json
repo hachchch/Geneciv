@@ -82,7 +82,7 @@
 		"name": "Sarcopterygii", // Famenia
 		"requiredTech": "Predation",
 		"uniqueTo": "Famenia",
-		""
+		"percentStatBonus": {"science": 10},
 		"uniques": ["New [Water] units start with [25] Experience [in this city]"]
 		"replaces": "Actinopterygii",
 	},
