@@ -1033,30 +1033,6 @@
 				"prerequisites": ["Wings","Herbivore"],
 			},
 			{
-				"name": "Uterus",
-				"row": 9,
-				"prerequisites": ["Canine Tooth","Egg Shell"],
-				"uniques": ["Enables Defensive Pacts","Production to [Science] conversion in cities changed by [+10]%"],
-			},
-			/*
-			{
-				"name": "Plesiosaur",
-				"row": 8,
-				"prerequisites": ["Dinosaur","Diving"],
-			},
-			{
-				"name": "Ocean Reform",
-				"row": 1,
-				"prerequisites": ["Angiosperm"]
-			},
-			{
-				"name": "Feathers"
-				"row": 4,
-				"prerequisites": ["Wings"],
-				"uniques": ["[+1] Sight <for [Avemetatarsalia] units>"],
-			},
-			*/
-			{
 				"name": "Hair",
 				"row": 5,
 				"uniques": ["[+10]% Strength <when fighting in [Snow] tiles> <for [Mammal] units>"],
