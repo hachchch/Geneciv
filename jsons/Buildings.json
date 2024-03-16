@@ -1593,6 +1593,7 @@
 	},
 	{
 		"name": "Campfire",
+		"requiredTech": "Fire",
 		"specialistSlots": {"Hunter": 1},
 		"happiness": 6,
  		"percentStatBonus": {"food": 50, "science": 25},
