@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/HexaRealm/Units/Saurischia
+TileSets/HexaRealm/Units/Theropoda
   rotate: false
   xy: 0, 0
   size: 101, 60
@@ -80,14 +80,7 @@ TileSets/HexaRealm/Units/Jellyfish
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Tamisiocaris
-  rotate: false
-  xy: 0, 112
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Crustacean
+TileSets/HexaRealm/Units/Anomalocaris
   rotate: false
   xy: 0, 112
   size: 64, 56
@@ -124,29 +117,22 @@ repeat: none
 TileSets/HexaRealm/Units/Spinosaurus
   rotate: false
   xy: 0, 0
-  size: 64, 53
-  orig: 64, 53
-  offset: 0, 0
-  index: -1
-TileSets/HexaRealm/Units/Eupelycosauria
-  rotate: false
-  xy: 64, 0
-  size: 64, 53
-  orig: 64, 53
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Embolomeri
   rotate: false
   xy: 128, 0
-  size: 64, 53
-  orig: 64, 53
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Batrachosauria
   rotate: false
   xy: 192, 0
-  size: 64, 53
-  orig: 64, 53
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Sauropoda
@@ -154,5 +140,26 @@ TileSets/HexaRealm/Units/Sauropoda
   xy: 256, 0
   size: 87, 53
   orig: 87, 53
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Eupelycosauria
+  rotate: false
+  xy: 320, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Crustacean
+  rotate: false
+  xy: 384, 0
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Saurischia
+  rotate: false
+  xy: 448, 0
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
