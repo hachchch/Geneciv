@@ -144,21 +144,21 @@ TileSets/HexaRealm/Units/Sauropoda
   index: -1
 TileSets/HexaRealm/Units/Eupelycosauria
   rotate: false
-  xy: 320, 0
+  xy: 343, 0
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Crustacean
   rotate: false
-  xy: 384, 0
+  xy: 407, 0
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Units/Saurischia
   rotate: false
-  xy: 448, 0
+  xy: 471, 0
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
