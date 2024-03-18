@@ -1,5 +1,4 @@
-<h1 align="center"><font size="6">Geneciv</h1>
-<h2 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/preview.png"　width="640" height="640"></h1>
+<h1 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/preview.png"　width="640" height="640"></h1>
 <i align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/PlanetEarth.png">
 <img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/Moon.png">
 <img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/OrganicCompound.png">
@@ -14,9 +13,9 @@ Life, which first began as organic compounds, has evolved an astonishing diversi
 This mod uses Unciv to transform the that process into a strategy game.<br>
 It is probably one of the few efforts to create a strategy game on a geological time scale.</p>
 <p2 align="center">well, It's time to beggining the biggest history!</p2>
-<h3 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/oldpreview.png"></h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/hachchch/-Geneciv-/master/extraImages/oldpreview.png"></h2>
 
-## Contribution
+<d1 align="center"><font size="6">Contribution</d1>
 
 <p>You can help my Project with Issues or Pull Request.</p>
 
