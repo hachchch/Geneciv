@@ -9,7 +9,7 @@
   },
   {
     "name": "Clear Barbarian Camp",
-    "description": "We feel threatened by a Beast Hive near our Diversity. Please take care of it.",
+    "description": "We feel threatened by a Beast Hive near our Bioregion. Please take care of it.",
     "type": "Global",
     "influence": 50,
     "minimumCivs": 1,
