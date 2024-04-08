@@ -29,6 +29,7 @@
 			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
 	},
 	// Nation Unique Buildings
+	/*
 	{
 		"name": "Feed the World", // Panspermia
 		"replaces": "Meteor",
@@ -56,10 +57,11 @@
 		"cost": 60,
 		"uniques": ["[+10]% [Gold] [in this city]"]
 	},
+	*/
 	{
-		"name": "Cyanobacteria", // Stromatolite
+		"name": "Cyanobacteria", // Pilbara
 		"requiredTech": "Mitochondria",
-		"uniqueTo": "Stromatolite",
+		"uniqueTo": "Pilbara",
 		"replaces": "Endosymbiont",
 		"cost": 50,
 		"maintenance": 1,
