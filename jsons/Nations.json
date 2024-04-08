@@ -6,38 +6,9 @@
 		"innerColor": [0, 0, 0]
 	},
 	{
-		"name": "Panspermia",
-		"leaderName": "Anaxagoras",
-		"adjective": ["Panspermian"],
-		"startBias": ["Lakes"],
-		"preferredVictoryType": "Scientific",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
-		"outerColor": [138,50,70],
-		"innerColor": [255,167,165],
-		"uniqueName": "Germ spread theory",
-		"uniques": ["[+2 Food] [in capital] <before discovering [Sexual Reproduction]>",
-		"[+3 Science] [in all cities] <before discovering [Primordial Soup]>",
-		"When spreading religion to a city, gain [13] times the amount of followers of other religions as [Science]"],
-		"cities": ["Granular Zircons","Priscoan","Narryer Gneiss Terrane","Jack Hills","Xenolith","Guiana Shield"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
-	{
-		"name": "Vaalbara",
-		"leaderName": "Cyano Biont",
-		"adjective": ["Vaalbaran"],
+		"name": "Kaapvaal",
+		"leaderName": "Kaapvaal Craton",
+		"adjective": ["Kaapvaalian"],
 		"startBias": ["Plains"]
 		"preferredVictoryType": "Diplomatic",
 
@@ -56,45 +27,17 @@
 		
 		"outerColor": [128,50,50],
 		"innerColor": [15,0,0],
-		"uniqueName": "Convergent Boundary",
-		"uniques": ["[+100]% [Gold]","[-50]% [Food] [in all cities]",
-			"[+1] Sight <for [Cell] units>","[-1] Movement <for [Cell] units>"],
-		"cities": ["Vaalbara","Pongola","Dharwar Craton","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State","Endolith","Hypolith"],
+		"uniqueName": "Proterozoic Orogens",
+		"uniques": ["[+50]% [Gold] <during a Golden Age>"],
+		"cities": ["Kaapvaal","Great Ark","Cyanobacteria City","Cyanobacteria Village","Cyanobacteria Town","Cyano State","Endolith","Hypolith"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
-		"name": "Spontaneous",
-		"leaderName": "Aristotelēs",
-		"adjective": ["Spontaneousian"],
-		"startBias": ["Avoid [Cold]"]
-		"preferredVictoryType": "Cultural",
-
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "As a result of natural selection, Adapted  were preserved, having been appropriately constituted by an internal spontaneity, and whatsoever things were not thus constituted, perished, and still perish.",
-		"introduction": "Are you real or a phantom?",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
-		"outerColor": [133,118,126],
-		"innerColor": [255,255,255],
-		"uniqueName": "The Embryo of Life",
-		"uniques": ["Gain [75] [Culture] <upon entering a new era>"],
-		"cities": ["Chaotian","Baltic Shield","Rhodope Massif","Pilbara Craton","Kaapvaal Craton","Transvaal Basin"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
-	{
-		"name": "Stromatolite", // Personality Plan: ambitious, Prefer Production Buildings
+		"name": "Pilbara", // Personality Plan: ambitious, Prefer Production Buildings
 		"personality": "Peaceful",
-		"leaderName": "Laguna Negra",
-		"adjective": ["Stromatolite"],
-		"startBias": ["Plains","Flesh water"],
+		"leaderName": "Pilbara Craton",
+		"adjective": ["Pilbaran"],
+		"startBias": ["Plains","Coast"],
 		"preferredVictoryType": "Cultural",
 
 		"startIntroPart1": "2.1 billion years ago...the first cyanobacteria were born on Earth, which was full of water. It is the first oxygenic photosynthesis and the common ancestor of plants and algae. Cyanobacteria spread efficiently through photosynthesis, causing one of the most important oxidative events in Earth's history. also, when the cyanobacteria dies, Stromatolites are formed with cyanobacterial remains accumulate. This is the only structure made by life during the Boring Billion.",
@@ -112,9 +55,9 @@
 
 		"outerColor": [27,53,63],
 		"innerColor": [213,249,255],
-		"uniqueName": "Life in Hadean",
+		"uniqueName": "The Stromatolites",
 		"uniques": ["[+1 Culture, +1 Science] from [Stone] tiles [in all cities]"],
-		"cities": ["Collenia","Shark Bay","Lagoa Salgada","Lake Salda","Gunflint Range","Ojos de Mar"],
+		"cities": ["Pilbara","Collenia","Shark Bay","Lagoa Salgada","Lake Salda","Gunflint Range","Ojos de Mar"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
@@ -143,12 +86,8 @@
 		"uniqueName": "Snowball Earth",
 		"uniques": ["Comment [[Cell] Units can make [Snow] tile and [Ice] tile with consuming unit and 300 [Biomass]]",
 			"[+1 Science] from [Snow] tiles [in all cities]","[+1 Science] from [Ice] tiles [in all cities]",
-			"[+1 Science] from [{Tundra} {non-[Forest]} {non-[Hill]}] tiles [in all cities]",
-			"No Maintenance costs for improvements in [Snow] tiles"],
-		// "uniqueName": "The Supercontinent",
-		// "uniques": ["[+1 Production, +1 Gold, +1 Happiness, +1 Culture] [in all cities]","[+44]% Production when constructing [Settler] units [in all cities]",
-		// "[-25]% Culture cost of natural border growth [in all cities]"],
-		"cities": ["Laurentia","Consensus","Amazonia","SWEAT","AUSWUS","AUSMEX","Missing-Link"],
+			"[+1 Science] from [{Tundra} {non-[Forest]} {non-[Hill]}] tiles [in all cities]"],
+		"cities": ["Mirovia","SWEAT","AUSWUS","AUSMEX"],
         "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
 	},
 	{
@@ -203,14 +142,26 @@
 
 		"outerColor": [108,94,202],
 		"innerColor": [176,195,260],
-		"uniqueName": "Cambrian explosion",
+		"uniqueName": "Cambrian Explosion",
 		"uniques": ["[+1 Science] from [Water] tiles [in all cities] <during the [Cambrian period]>","[+1 Science] from [Atoll] tiles [in all cities]"],
 		"cities": ["Marrella","Yohoia","Naraoia","Waptia","Canadaspis","Plenocaris","Molaria","Pikaia","Myllokunmingia","Haikouichthys",
 			"Opabinia","Anomalocaris","Hallucigenia","Odontogriphus"],
         "spyNames": ["Stanleycaris", "Cambroraster", "Titanokorys", "Waptia", "Canadaspis", "Fibulacaris", "Balhuticaris", "Loricicaris", "Odaraia", "Burgessia"]
 	},
 	{
-		"name": "United States", // Personality Plan: Hamburgernized
+		"name": "Wheeler",
+		"leaderName": "Elrathia Kingii",
+		"adjective": ["Burgessis"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"outerColor": [114,70,203],
+		"innerColor": [255,250,253],
+		"uniqueName": "Trilobites World",
+		"uniques": ["[+1 Science] from [Algae] tiles [in all cities] <starting from the [Cambrian period]>"],
+		"cities": ["Utah","Caryosyntrips","Stanleycaris","Asaphiscus","Emeraldella","Cambromedusa","Pelagiella","Hertzina"],
+	},
+	{
+		"name": "United States", // Personality Plan: Hamburger
 		"leaderName": "Abraham Lincoln",
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
@@ -239,7 +190,7 @@
 		"spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
 	{
-		"name": "Sahelanthropus", // prefer wisdom than money, and Adventurous.
+		"name": "Sahelanthropus",
 		"leaderName": "Orrorin",
 		"adjective": ["Sahelanthropus"],
 		"preferredVictoryType": "Scientific",
@@ -252,10 +203,8 @@
 		"neutralHello": "Ooga Booga.",
 		"hateHello": "Ooga Booga!",
 		"tradeRequest": "Ooga Booga?",
-
 		"outerColor": [46,0,36],
 		"innerColor": [152,132,114],
-
 		"uniqueName": "Chimpanzee-Human Last Common Ancestor",
 		"uniques": ["Production to [Science] conversion in cities changed by [+10]%",
 			"[1] additional attacks per turn <for [Thrower] units>","[+200]% to Flank Attack bonuses <for [Hominiae] units>"],// Unique Unit Chimpanzee to replaces the any Hominina 
@@ -432,39 +381,35 @@
 		"uniqueName": "Planet of the Apes",
 		"uniques": ["New [Land] units start with [15] Experience [in capital]","Science gained from research agreements [+100]%"]
 	},
-/*
 	{
 		"name": "Sapiens",
 		"personality": "Aggressive",
-		"leaderName": "",
+		"leaderName": "Homo Sapiens",
 		"adjective": ["Homo Sapiens"],
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 		"outerColor": [10,10,100],
 		"innerColor": [85,100,200],
-		"cities": [""],
+		"cities": ["Drakensberg","Altamira","Laas Geel","Tassili n'Ajjer","Chauvet","Lascaux","Cueva de las Manos"],
 		"uniqueName": "Ties of Beliefs",
-		"uniques": ["[-100]% unhappiness from the number of cities",
-		"Retain [-100]% of the happiness from a luxury after the last copy has been traded away",
-		"[+100]% Strength <for [Military] units> <in [Fallout] tiles>"],
+		"uniques": ["Gain enough Faith for a Pantheon <upon discovering [Religion] technology>"],
 	},
 	{
 		"name": "Neanderthals",
 		"personality": "Aggressive",
-		"leaderName": "",
+		"leaderName": "Homo Neanderthalensis",
 		"adjective": ["Homo Neanderthalensis"],
 		"preferredVictoryType": "Domination",
 		"startIntroPart1": "",
 		"startIntroPart2": "",
 		"outerColor": [10,10,100],
 		"innerColor": [85,100,200],
-		"cities": ["Amasia","Glea","Red Alart","Technofossilia","Cenopotamia","Cysophesaern"],
-		"uniqueName": "Nihilism",
-		"uniques": ["[-100]% unhappiness from the number of cities",
-		"Retain [-100]% of the happiness from a luxury after the last copy has been traded away",
-		"[+100]% Strength <for [Military] units> <in [Fallout] tiles>"],
+		"cities": ["Neander Valley","Bruniquel","Ehringsdorf","Le Regourdou","La Quina","Le Moustier","La Chapelle-aux-Saints","Nahal Amud"],
+		"uniqueName": "Mousterian Culture",
+		"uniques": ["[+2 Culture] from [Stone] tiles [in all cities]"],
 	},
+	/*
 	{
 		"name": "Denisovans",
 		"personality": "Peaceful",
@@ -481,7 +426,7 @@
 		"Retain [-100]% of the happiness from a luxury after the last copy has been traded away",
 		"[+100]% Strength <for [Military] units> <in [Fallout] tiles>"],
 	},
-*/
+	*/
 	{
 		"name": "Cockroaches Empire",
 		"personality": "Peaceful",
