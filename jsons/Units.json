@@ -29,7 +29,7 @@
 	{
 		"name": "Cyanobacterium",
 		"replaces": "Algae",
-		"uniqueTo": "Stromatolite",
+		"uniqueTo": "Pilbara",
 		"unitType": "Civilian Water",
 		"movement": 2,
 		"hurryCostModifier": 20,
