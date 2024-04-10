@@ -351,22 +351,23 @@
 		"production": 2,
 		"gold": 2,
 		"requiredTech": "Swimming",
-		"uniques": ["WIP!",
+		"uniques": [
+			"Must be next to [Water]",
 			"All newly-trained [Jellyfish] units [in this city] receive the [Plankton] promotion",
 		"All newly-trained [Flatworm] units [in this city] receive the [Plankton] promotion"],
 	},
 	{
-		"name": "A Variety of Marine Worms",
+		"name": "Sea Floor Life",
 		"culture": 2,
 		"science": 2,
 		"requiredTech": "Flatworm",
-		"uniques": ["WIP!",
+		"uniques": ["Must be next to [Water]",
 		"All newly-trained [Hallucigenia] units [in this city] receive the [Benthos] promotion"],
 	},
 	{
-		"name": "Neuston",
+		"name": "Floating Animals",
 		"requiredTech": "Modern Ocean",
-		"uniques": ["WIP!",
+		"uniques": ["Must be next to [Water]",
 			"[+1 Production] from [{Photic zone} {Algae}] tiles [in this city]",
 			"[+1 Production] from [{Coast} {Algae}] tiles [in this city]",
 			"[+1 Production] from [{Neritic zone} {Algae}] tiles [in this city]",
@@ -378,7 +379,7 @@
 		"production": 2,
 		"gold": 2,
 		"requiredTech": "Swimming",
-		"uniques": ["WIP!",
+		"uniques": ["Must be next to [Water]",
 			"All newly-trained [Jellyfish] units [in this city] receive the [Plankton] promotion",
 		"All newly-trained [Flatworm] units [in this city] receive the [Plankton] promotion"],
 	},
@@ -386,7 +387,7 @@
 		"name": "Nektonic Predation",
 		"gold": 1,
 		"requiredTech": "Vertebrate",
-		"uniques": ["WIP!","All newly-trained [Fishes] units [in this city] receive the [Nekton] promotion",
+		"uniques": ["All newly-trained [Fishes] units [in this city] receive the [Nekton] promotion",
 		"All newly-trained [Modern Fishes] units [in this city] receive the [Nekton] promotion",
 		"All newly-trained [Water Arthropod] units [in this city] receive the [Nekton] promotion",
 		"All newly-trained [Trilobites] units [in this city] receive the [Nekton] promotion",
@@ -402,14 +403,15 @@
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
 		"requiredTech": "Cold Blooded",
-		"uniques": ["Must be next to [Coast]","[-20]% Culture cost of natural border growth [in this city]"]
+		"uniques": ["Must be next to [Water]",
+			"[-20]% Culture cost of natural border growth [in this city]"]
 	},
 	{
 		"name": "Coelacanth",
 		"sciece": 3,
 		"maintenance": 1,
 		"requiredTech": "Predation",
-		"uniques": ["Must be next to [Coastal]"]
+		"uniques": ["Must be next to [Fresh water]"]
 		"specialistSlots": {"Creature": 1},
 	},
 	{
@@ -419,7 +421,7 @@
 		// "maintenance": 1,
 		"requiredTech": "Jaw",
 		"quote": "Prior to the discovery of Entelognathus, scientists assumed that the last common ancestor of jawed vertebrates was a shark-like animal, with no distinct jawbones, and that modern jaws evolved in early bony fishes. but Entelognathus shows that modern jaws evolved earlier. It is possible that Chondrichthyes started with distinct jaws and then dispensed with them. Entelognathus has been called the earliest known animal with what looks like a face.",
-		"uniques": ["May buy [{Water} {non-[Jawless]}] units with [Culture] for [3] times their normal Production cost","Must be next to [Coast]"]
+		"uniques": ["May buy [{Water} {non-[Jawless]}] units with [Culture] for [3] times their normal Production cost","Must be next to [Water]"]
 		// "specialistSlots": {"Creature": 1},
 	},
 	{
@@ -428,22 +430,17 @@
 		"culture": 2,
 		"science": 2,
 		"uniques": ["[+30]% City Strength from defensive buildings","[Fishes] Units adjacent to this city heal [30] HP per turn when healing"],
-		"requiredTech": "Fins",
+		"requiredTech": "Plated Armour",
 		"quote": "Placoderms were also the first fish to develop pelvic fins, the precursor to hindlimbs in tetrapods, as well as true teeth.(reference thesis 'Development of teeth and jaws in the earliest jawed vertebrates')",
 	},
 	{
 		"name": "Agnatha",
 		"science": 2,
 		"maintenance": 1,
-		"requiredTech": "Fish",
-		"uniques": ["Must be next to [Coast]"]
+		"requiredTech": "Vertebrate",
+		"uniques": ["Must be next to [Water]"]
 		"specialistSlots": {"Creature": 1},
 	},
-	/*{
-		"name": "Durophagy",
-		"requiredTech": "Jaw",
-		"uniques": [""],
-	},*/
 	// Devonian
 	{
 		"name": "Actinopterygii",
@@ -454,15 +451,8 @@
 	{
 		"name": "Elpistostegalia",
 		"requiredTech": "Lungfish",
-		"science": 1,
-		"uniques": ["Must be next to [Coastal]","New [Land] units start with [10] Experience [in this city]"]
-	},
-	{
-		"name": "Ichthyostega",
-		"requiredBuilding": "Elpistostegalia",
-		"science": 1,
-		"requiredTech": "Lungfish",
-		"uniques": ["Must be next to [Coastal]","Devonian","New [Land] units start with [10] Experience [in this city]"]
+		"science": 2,
+		"uniques": ["Must be next to [Fresh water]"]
 	},
 	// Devonian-Carboniferous Flora
 	{
@@ -481,6 +471,13 @@
 	},
 	{
 		"name": "Lepidodendron",
+		"requiredTech": "Gymnosperm",
+		"production": 3,
+		"maintenance": 3,
+		"requiredBuilding": "Lycophyte",
+	},
+	{
+		"name": "Sigillaria",
 		"requiredTech": "Gymnosperm",
 		"production": 3,
 		"maintenance": 3,
