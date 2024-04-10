@@ -489,33 +489,6 @@
 			},
 		]
 	},
-	/*
-	{
-		"name": "Peytoia",
-		"uniqueTo": "Burgess",
-		"replaces": "Amplectobelua",
-		"unitType": "Water Arthropod",
-		"cost": 95,
-		"strength": 28,
-		"obsoleteTech": "Metamorphosis",
-		"upgradesTo": "Crustacean",
-		"movement": 2,
-		"requiredTech": "Articulation",
-		"promotions": ["Oral Cone I"],
-		"uniques": ["Cambrian","Jawless","[+50]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
-		"attackSound": "whoo",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Tamisiocaris",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Tamisiocaris",
-				"imageSize": 192
-			},
-		]
-	},
-	*/
 	{
 		"name": "Diania",
 		"unitType": "Water Animal",
@@ -752,7 +725,7 @@
 		"obsoleteTech": "Neoselachii",
 		"upgradesTo": "Shark",
 		"movement": 2,
-		"requiredTech": "Metamorphosis",
+		"requiredTech": "Ecdysis",
 		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
