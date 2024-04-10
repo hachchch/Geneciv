@@ -457,8 +457,14 @@
 				]
 			},
 			{
-				"name": "Coral",
+				"name": "Radial Symmetry",
 				"row": 4,
+				"prerequisites": ["Swimming"],
+				"uniques": ["Comment [Available [Jellyfish]'s ability]"],
+			},
+			{
+				"name": "Coral",
+				"row": 6,
 				"prerequisites": ["Sponge"],
 				"uniques": ["[+3 Gold] in cities on [Coast] tiles"],
 				"civilopediaText": [
@@ -484,16 +490,20 @@
 		"wonderCost": 275,
 		"techs": [
 			{
-				"name": "Radial Symmetry",
+				"name": "Bilateral Symmetry",
 				"row": 4,
-				"prerequisites": ["Swimming"],
-				"uniques": ["Comment [Available [Jellyfish]'s ability]"],
+				"prerequisites": ["Radial Symmetry","Swimming"],
 			},
 			{
 				"name": "Flatworm",
 				"row": 6,
-				"prerequisites": ["Swimming"],
-			}
+				"prerequisites": ["Swimming","Coral"],
+			},
+			{
+				"name": "Red Algaes",
+				"row": 1,
+				"prerequisites": ["Radial Symmetry","Chloroplasts"]
+			},
 		]
 	},
 	{
@@ -504,27 +514,22 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Radial Algae",
-				"row": 1,
-				"prerequisites": ["Radial Symmetry","Chloroplasts"]
-			},
-			{
-				"name": "Bilateral Symmetry",
-				"row": 4,
-				"prerequisites": ["Radial Symmetry","Flatworm"],
-			},
-			{
 				"name": "Articulation",
 				"row": 6,
-				"prerequisites": ["Flatworm"],
-				// "uniques": ["[+25]% XP gained from combat <for [Water Arthropod] units>"],
+				"prerequisites": ["Bilateral Symmetry"],
 			},
 			{
 				"name": "Cocoon",
 				"row": 9,
 				"prerequisites": ["Sexual Reproduction","Flatworm"],
 				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
-			}
+			},
+			{
+				"name": "Compound Eye",
+				"row": 3,
+				"prerequisites": ["Bilateral Symmetry"],
+				"uniques": ["[+1] Sight <for [Water Arthropod] units>"]
+			},
 		]
 	},
 	{
@@ -537,7 +542,7 @@
 			{
 				"name": "Exoskeleton",
 				"row": 6,
-				"prerequisites": ["Articulation","Bilateral Symmetry"],
+				"prerequisites": ["Articulation"],
 			},
 			{
 				"name": "Vertebrate",
@@ -549,20 +554,13 @@
 				"name": "Heart",
 				"row": 4,
 				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
-				"prerequisites": ["Bilateral Symmetry"],
+				"prerequisites": ["Articulation"],
 			},
 			{
 				"name": "Nerve Cord",
 				"row": 2,
-				"prerequisites": ["Bilateral Symmetry","Nervous System"],
-				// "uniques": ["[+1 Gold] per [5] population [in capital]"]
-			},
-			{
-				"name": "Pigment Spot",
-				"row": 3,
-				"prerequisites": ["Bilateral Symmetry"],
-				"uniques": ["+1 sight for Water Animals"]
-			},
+				"prerequisites": ["Articulation","Nervous System"],
+			}
 		]
 	},
 	{
@@ -575,23 +573,17 @@
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Radial Algae"],
+				"prerequisites": ["Red Algae","Nerve Cord"],
 			},
 			{
 				"name": "Cephalopod",
 				"row": 6,
-				"prerequisites": ["Exoskeleton"],
-			},
-			{
-				"name": "Ecdysis",
-				"row": 8,
 				"prerequisites": ["Exoskeleton","Vertebrate"],
 			},
 			{
-				"name": "Compound Eye",
-				"row": 3,
-				"prerequisites": ["Pigment Spot"],
-				"uniques": ["[+1] Sight <for [Water Arthropod] units>"]
+				"name": "Ecdysis",
+				"row": 7,
+				"prerequisites": ["Exoskeleton","Vertebrate"],
 			},
 		]
 	},
@@ -610,15 +602,15 @@
 				"[+1 Production] from [Plains] tiles [in all cities]"]
 			},
 			{
-				"name": "Trilobite",
+				"name": "Eurypterid",
 				"row": 6,
-				"prerequisites": ["Cephalopod","Ecdysis"],
+				"prerequisites": ["Ecdysis"],
 				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
 			},
 			{
 				"name": "Plated Armour",
 				"row": 8,
-				"prerequisites": ["Ecdysis"],
+				"prerequisites": ["Vertebrate"],
 				"uniques": ["[+25]% Strength <when defending> <vs [Jawless] units> <for [All] units>"]
 			},
 			{
@@ -630,7 +622,7 @@
 			{
 				"name": "Eye",
 				"row": 3,
-				"prerequisites": ["Compound Eye"],
+				"prerequisites": ["Compound Eye","Cephalopod"],
 				"uniques": ["+1 sight for Crustacean and Fish"]
 			},
 		]
@@ -645,7 +637,7 @@
 			{
 				"name": "Land Arthropod",
 				"row": 1,
-				"prerequisites": ["Spore Plant","Trilobite"]
+				"prerequisites": ["Spore Plant","Eurypterid"]
 			},
 			{
 				"name": "Brain",
