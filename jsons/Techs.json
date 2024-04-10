@@ -583,7 +583,7 @@
 				"prerequisites": ["Exoskeleton"],
 			},
 			{
-				"name": "Metamorphosis",
+				"name": "Ecdysis",
 				"row": 8,
 				"prerequisites": ["Exoskeleton","Vertebrate"],
 			},
@@ -612,13 +612,13 @@
 			{
 				"name": "Trilobite",
 				"row": 6,
-				"prerequisites": ["Cephalopod","Metamorphosis"],
+				"prerequisites": ["Cephalopod","Ecdysis"],
 				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
 			},
 			{
 				"name": "Plated Armour",
 				"row": 8,
-				"prerequisites": ["Metamorphosis"],
+				"prerequisites": ["Ecdysis"],
 				"uniques": ["[+25]% Strength <when defending> <vs [Jawless] units> <for [All] units>"]
 			},
 			{
