@@ -573,7 +573,7 @@
 			{
 				"name": "First Plant",
 				"row": 1,
-				"prerequisites": ["Red Algae","Nerve Cord"],
+				"prerequisites": ["Red Algaes","Nerve Cord"],
 			},
 			{
 				"name": "Cephalopod",
