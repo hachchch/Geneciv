@@ -276,6 +276,23 @@
 		"wonderCost": 200,
 		"techs": [
 			{
+				"name": "Chloroplasts",
+				"row": 1,
+				"prerequisites": ["Mitochondria"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Chloroplasts",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
 				"name": "Eukaryotic Cell",
 				"row": 5,
 				"prerequisites": ["Nucleus","Mitochondria"],
@@ -321,6 +338,23 @@
 		"wonderCost": 200,
 		"techs": [
 			{
+				"name": "Glaucophytes",
+				"row": 1,
+				"prerequisites": ["Chloroplasts"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Glaucophytes",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": ".",
+			},
+				]
+			},
+			{
 				"name": "Tissue",
 				"row": 4,
 				"prerequisites": ["Eukaryotic Cell"],
@@ -352,12 +386,12 @@
 		"wonderCost": 225,
 		"techs": [
 			{
-				"name": "Chloroplasts",
+				"name": "Green Plants",
 				"row": 1,
-				"prerequisites": ["Tissue"],
+				"prerequisites": ["Glaucophytes","Tissue"],
 				"civilopediaText": [
 			{
-				"extraImage": "Picture/Chloroplasts",
+				"extraImage": "Picture/Green Plants",
 				"imageSize": 192
 			},
 			{
@@ -459,7 +493,7 @@
 			{
 				"name": "Radial Symmetry",
 				"row": 4,
-				"prerequisites": ["Swimming"],
+				"prerequisites": ["Sponge"],
 				"uniques": ["Comment [Available [Jellyfish]'s ability]"],
 			},
 			{
@@ -502,7 +536,7 @@
 			{
 				"name": "Red Algaes",
 				"row": 1,
-				"prerequisites": ["Radial Symmetry","Chloroplasts"]
+				"prerequisites": ["Radial Symmetry","Green Plants"]
 			},
 		]
 	},
@@ -517,6 +551,11 @@
 				"name": "Articulation",
 				"row": 6,
 				"prerequisites": ["Bilateral Symmetry"],
+			},
+			{
+				"name": "Notochord",
+				"row": 8,
+				"prerequisites": ["Flatworm"],
 			},
 			{
 				"name": "Cocoon",
@@ -548,7 +587,7 @@
 				"name": "Vertebrate",
 				"row": 8,
 				"quote": "Vertebrae are bones that protect the spinal cord.",
-				"prerequisites": ["Articulation"],
+				"prerequisites": ["Articulation","Notochord"],
 			},
 			{
 				"name": "Heart",
