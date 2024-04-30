@@ -1211,11 +1211,8 @@
 	},
 	{
 		"name": "Flagellum",
-		// "cost": 85,
 		"maintenance": 1,
-		"science": 1,
-		"percentStatBonus": {"science": 5},
-		"uniques": ["New [Cell] units start with [15] Experience [in this city]"],
+		"food": 2,
 		"requiredTech": "Nucleus",
 	},
 	{
@@ -1249,17 +1246,13 @@
 		"production": 2,
 		"uniques": ["[+1 Production] from [Atoll] tiles [in this city]"],
 	},
-	/*
 	{
-		"name": "Algae",
-		"requiredBuilding": "Photosynthesis",
+		"name": "Proteobacteria",
 		"maintenance": 1,
-		"specialistSlots": {"Vegetation": 1},
-		// "cost": 120,
-		"requiredTech": "Chloroplasts",
-		"uniques": ["Must be next to [Coast]","[+1 Food] from [Water] tiles [in this city]"]
+		"food": 2,
+		"requiredTech": "Prokaryotic Cell",
+		"uniques": ["Must be on [Water]"]
 	},
-	*/
 	{
 		"name": "Fungi",
 		"maintenance": 1,
@@ -1740,7 +1733,7 @@
 		"uniques": ["[+10]% [Gold] [in this city]","Destroyed when the city is captured"],
 		"requiredTech": "Nucleotides",
 	},
-	// Meghalayan
+	/*Human History*/
 	{
 		"name": "Granary",
 		"cost": 1000,
