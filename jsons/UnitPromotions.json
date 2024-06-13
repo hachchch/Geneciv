@@ -26,40 +26,12 @@
 		"name": "Mimicry", // Small Reptile
 		"uniques": ["Instantly consumes [10] [Biomass]","This Unit loses the [Mimicry] promotion <upon turn end>","Invisible to non-adjacent units"]
 	},
-	// Mammal Types
-	{
-		"name": "Carnivora",
-		"uniques": ["[+15]% Strength <when attacking> <vs [non-[Predator]] units>"],
-	},
-	{
-		"name": "Monotreme",
-		"uniques": ["[+15]% Strength <when fighting in [Fresh water] tiles>"],
-	},
-	{
-		"name": "Cetacea",
-		"uniques": ["[+15]% Strength <when fighting in [Saline water] tiles>"],
-	},
-	{
-		"name": "Primate",
-		"uniques": ["[+15]% Strength <when fighting in [Forests] tiles>"],
-	},
-	{
-		"name": "Ungulate",
-		"uniques": ["[+15]% Strength <when fighting in [GrassLand] tiles>"],
-	},
-	{
-		"name": "Marsupial",
-		"uniques": ["[+15]% Strength <when fighting in [Warm] tiles>"],
-	},
-	{
-		"name": "Rodentia",
-		"uniques": ["[+15]% Strength <when fighting in [City center] tiles>"],
-	},
 	// Instant
+	/*
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Aves","Amphibian","Birds","Cell","Fishes","Glider","Herbivore","Hominiae","Mammal","Particle","Reptiles","Water Animal","Water Arthropod","Land Arthropod","Water Mammal","Water Reptiles","Human"],
+		"unitTypes": ["Aves","Amphibia","Birds","Fishes","Glider","Herbivore","Hominiae","Mammal","Particle","Reptiles","Water Animal","Water Arthropod","Land Arthropod","Water Mammal","Water Reptiles","Human"],
 		"row": 1,
 		"column": 0,
 	},
@@ -899,14 +871,7 @@
 		"uniques": ["[+30]% Strength <vs [Predator] units> <when attacking>","Only available <when [non-[Predator]]>"],
 		"unitTypes": ["Reptiles","Mammal"]
 	},
-	// Dinosauria(恐竜)
-	{
-		"name": "Dinosauria Families",
-		"column": 116,
-		"row": 1,
-		"unitTypes": ["Water Reptiles","Reptiles","Glider"],
-		"uniques": ["Dinosaur","Only available <when [Dinosaur]>"]
-	},
+	// Dinosauria
 	{
 		"name": "Horn-Faced",
 		// "prerequisites": ["Dinosauria Families"],
@@ -943,6 +908,7 @@
 		"uniques": ["Only available <when [Dinosaur]>","[+100]% Strength <vs [Land Arthropod] units>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
 		"unitTypes": ["Reptiles"],
 	},
+	*/
 	// Aquatic Organisms Swimming Types
 	{
 		"name": "Neuston",
