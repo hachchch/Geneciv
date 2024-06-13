@@ -187,7 +187,7 @@
 		"wonderCost": 175,
 		"techs": [
 			{
-				"name": "Prokaryotic Cell",
+				"name": "Bacteria",
 				"row": 5,
 				"prerequisites": ["Protein","DNA"],
 				"civilopediaText": [
@@ -213,9 +213,9 @@
 		"wonderCost": 175,
 		"techs": [
 			{
-				"name": "Mitochondria",
+				"name": "Proteobacteria",
 				"row": 3,
-				"prerequisites": ["Prokaryotic Cell"],
+				"prerequisites": ["Bacteria"],
 				// "uniques": ["[+2 Production] [in all cities]"],
 				"quote": "'A mitochondrion (mitochondria) is an organelle found in the cells of most eukaryotes, such as animals, plants and fungi. Mitochondria have a double membrane structure and use aerobic respiration to generate adenosine triphosphate (ATP), which is used throughout the cell as a source of chemical energy.' - Wikipedia",
 				"civilopediaText": [
@@ -232,9 +232,9 @@
 				]
 			},
 			{
-				"name": "Nucleus",
+				"name": "Archaea",
 				"row": 7,
-				"prerequisites": ["Prokaryotic Cell"],
+				"prerequisites": ["Bacteria"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Nucleus",
@@ -251,7 +251,7 @@
 			{
 				"name": "Mitosis",
 				"row": 9,
-				"prerequisites": ["Prokaryotic Cell"],
+				"prerequisites": ["Bacteria"],
 				"uniques": ["Enables conversion of city production to [Gold]"],
 				"civilopediaText": [
 			{
@@ -276,9 +276,9 @@
 		"wonderCost": 200,
 		"techs": [
 			{
-				"name": "Chloroplasts",
+				"name": "Cyanobacteria",
 				"row": 1,
-				"prerequisites": ["Mitochondria"],
+				"prerequisites": ["Proteobacteria"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Chloroplasts",
@@ -293,9 +293,9 @@
 				]
 			},
 			{
-				"name": "Eukaryotic Cell",
+				"name": "Eukaryota",
 				"row": 5,
-				"prerequisites": ["Nucleus","Mitochondria"],
+				"prerequisites": ["Archaea","Proteobacteria"],
 				"quote": "'You can find microbes everywhere - they are extremely adaptable to conditions, and survive wherever they are.' -Charles Q. Choi",
 				"civilopediaText": [
 			{
@@ -338,9 +338,9 @@
 		"wonderCost": 200,
 		"techs": [
 			{
-				"name": "Glaucophytes",
+				"name": "Plantae",
 				"row": 1,
-				"prerequisites": ["Chloroplasts"],
+				"prerequisites": ["Eukaryota","Cyanobacteria"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Glaucophytes",
@@ -355,14 +355,14 @@
 				]
 			},
 			{
-				"name": "Tissue",
+				"name": "Amorphea",
 				"row": 4,
-				"prerequisites": ["Eukaryotic Cell"],
+				"prerequisites": ["Eukaryota"],
 			},
 			{
 				"name": "Filter Feeding",
 				"row": 8,
-				"prerequisites": ["Eukaryotic Cell"],
+				"prerequisites": ["Eukaryota"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Filter Feeding",
@@ -386,68 +386,49 @@
 		"wonderCost": 225,
 		"techs": [
 			{
-				"name": "Green Plants",
+				"name": "Red Algae",
 				"row": 1,
-				"prerequisites": ["Glaucophytes","Tissue"],
-				"civilopediaText": [
-			{
-				"extraImage": "Picture/Green Plants",
-				"imageSize": 192
+				"prerequisites": ["Plantae"]
 			},
 			{
-				"Separator": true
-			},
-			{
-				"text": ".",
-			},
-				]
-			},
-			{
-				"name": "Nervous System",
-				"row": 2,
-				"prerequisites": ["Tissue"],
-				// "uniques": ["[+1 Production] [in all cities]","[+2 Happiness] from [City center] tiles [in all cities]"],
-				"civilopediaText": [
-			{
-				"extraImage": "Picture/Nervous System",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": ".",
-			},
-				]
-			},
-			{
-				"name": "Muscles",
+				"name": "Fungi",
 				"row": 3,
-				"prerequisites": ["Tissue"],
+				"prerequisites": ["Amorphea"]
 			},
 			{
-				"name": "Sponge",
+				"name": "Animals",
+				"row": 4,
+				"prerequisites": ["Amorphea"]
+			},
+			{
+				"name": "SAR Supergroup",
 				"row": 5,
-				"prerequisites": ["Tissue","Filter Feeding"],
-				"quote": "'Sponges, the members of the phylum Porifera, are a basal animal clade as a sister of the diploblasts. They are multicellular organisms that have bodies full of pores and channels allowing water to circulate through them, consisting of jelly-like mesohyl sandwiched between two thin layers of cells.' - Wikipedia",
-				"civilopediaText": [
+				"prerequisites": ["Eukaryota","Plantae"]
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Neoproterozoic",
+		"techCost": 130,
+		"buildingCost": 120,
+		"wonderCost": 225,
+		"techs": [
 			{
-				"extraImage": "Picture/Sponge",
-				"imageSize": 192
+				"name": "Green Algae",
+				"row": 1,
+				"prerequisites": ["Fungi","Red Algae","SAR Supergroup"]
 			},
 			{
-				"Separator": true
-			},
-			{
-				"text": ".",
-			},
-				]
+				"name": "Filter Feeding",
+				"row": 4,
+				"prerequisites": ["Animals"]
 			},
 			{
 				"name": "Sexual Reproduction",
 				"row": 9,
-				"prerequisites": ["Asexual Reproduction"],
-				"uniques": ["Enables conversion of city production to [Science]","[+1 Science] from every specialist [in all cities]"],
+				"prerequisites": ["Animals","Asexual Reproduction"],
+				"uniques": ["Enables conversion of city production to [Science]","[+1 Science] from every specialist [in all cities]"]
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Sexual Reproduction",
@@ -461,49 +442,38 @@
 			},
 				]
 			},
+			{
+				"name": "Nervous System",
+				"row": 2,
+				"prerequisites": ["Animals"]
+			}
 		]
-		
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 9,
 		"era": "Neoproterozoic",
-		"techCost": 150,
-		"buildingCost": 130,
-		"wonderCost": 250,
+		"techCost": 130,
+		"buildingCost": 120,
+		"wonderCost": 225,
 		"techs": [
 			{
-				"name": "Swimming",
+				"name": "Lichen",
+				"row": 3,
+				"prerequisites": ["Green Algae","Fungi"]
+			},
+			{
+				"name": "Muscles",
+				"row": 2,
+				"prerequisites": ["Nervous System"],
+			},
+			{
+				"name": "Cnidaria",
 				"row": 5,
-				"prerequisites": ["Muscles","Sponge"],
-				"uniques": ["Enables embarkation for land units"],
-				"quote": "'Why did it come to this town, what did it come here for? Everyone walking outside are all wearing a helmet. Since when was it there, where was it from? No one knows. this is no illusion or immagination, It definitely is right here.' - One of Missing Song called Kurage", // I like this song too much lol
+				"prerequisites": ["Nervous System","Filter Feeding"],
+				"quote": "'Sponges, the members of the phylum Porifera, are a basal animal clade as a sister of the diploblasts. They are multicellular organisms that have bodies full of pores and channels allowing water to circulate through them, consisting of jelly-like mesohyl sandwiched between two thin layers of cells.' - Wikipedia",
 				"civilopediaText": [
 			{
-				"extraImage": "Picture/Swimming",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "Translucent, moving objects have been created from polyps that at first glance look like coral. Yes, this is our ancestor.It's cute.",
-			},
-				]
-			},
-			{
-				"name": "Radial Symmetry",
-				"row": 4,
-				"prerequisites": ["Sponge"],
-				"uniques": ["Comment [Available [Jellyfish]'s ability]"],
-			},
-			{
-				"name": "Coral",
-				"row": 6,
-				"prerequisites": ["Sponge"],
-				"uniques": ["[+3 Gold] in cities on [Coast] tiles"],
-				"civilopediaText": [
-			{
-				"extraImage": "Picture/Coral",
+				"extraImage": "Picture/Sponge",
 				"imageSize": 192
 			},
 			{
@@ -517,27 +487,49 @@
 		]
 	},
 	{
+		"columnNumber": 10,
+		"era": "Ediacaran period",
+		"techCost": 150,
+		"buildingCost": 130,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Swimming",
+				"row": 5,
+				"prerequisites": ["Muscles","Cnidaria"],
+				"uniques": ["Enables embarkation for land units"],
+				"civilopediaText": [
+			{
+				"extraImage": "Picture/Swimming",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Translucent, moving objects have been created from polyps that at first glance look like coral. Yes, this is our ancestor.It's cute.",
+			},
+				]
+			}
+		]
+	},
+	{
 		"columnNumber": 11,
-		"era": "Neoproterozoic",
+		"era": "Ediacaran period",
 		"techCost": 180,
 		"buildingCost": 140,
 		"wonderCost": 275,
 		"techs": [
 			{
-				"name": "Bilateral Symmetry",
+				"name": "Bilateria",
 				"row": 4,
-				"prerequisites": ["Radial Symmetry","Swimming"],
+				"prerequisites": ["Swimming"],
 			},
 			{
-				"name": "Flatworm",
-				"row": 6,
-				"prerequisites": ["Swimming","Coral"],
-			},
-			{
-				"name": "Red Algaes",
-				"row": 1,
-				"prerequisites": ["Radial Symmetry","Green Plants"]
-			},
+				"name": "Ctenophora",
+				"row": 8,
+				"prerequisites": ["Swimming"]
+			}
 		]
 	},
 	{
@@ -548,27 +540,52 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Articulation",
-				"row": 6,
-				"prerequisites": ["Bilateral Symmetry"],
+				"name": "Nerve Cord",
+				"row": 2,
+				"uniques": ["Muscles"]
+			},
+			{
+				"name": "Tunicate",
+				"row": 3,
+				"prerequisites": ["Bilateria"],
 			},
 			{
 				"name": "Notochord",
+				"row": 4,
+				"prerequisites": ["Bilateria"],
+			},
+			{
+				"name": "Flatworm",
+				"row": 5,
+				"prerequisites": ["Bilateria"],
+			},
+			{
+				"name": "Ecdysis",
+				"row": 6,
+				"prerequisites": ["Bilateria"],
+			},
+			{
+				"name": "Herbivore",
+				"row": 1,
+				"prerequisites": ["Bilateria","Lichen"]
+			},
+			{
+				"name": "Molluscs",
 				"row": 8,
-				"prerequisites": ["Flatworm"],
+				"prerequisites": ["Bilateria","Ctenophora"]
 			},
 			{
 				"name": "Cocoon",
 				"row": 9,
-				"prerequisites": ["Sexual Reproduction","Flatworm"],
+				"prerequisites": ["Sexual Reproduction"],
 				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
 			},
 			{
 				"name": "Compound Eye",
-				"row": 3,
-				"prerequisites": ["Bilateral Symmetry"],
+				"row": 7,
+				"prerequisites": ["Bilateria"],
 				"uniques": ["[+1] Sight <for [Water Arthropod] units>"]
-			},
+			}
 		]
 	},
 	{
@@ -579,26 +596,31 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Exoskeleton",
-				"row": 6,
-				"prerequisites": ["Articulation"],
+				"name": "Lobopodia",
+				"row": 5,
+				"prerequisites": ["Flatworm","Ecdysis"]
 			},
 			{
-				"name": "Vertebrate",
-				"row": 8,
-				"quote": "Vertebrae are bones that protect the spinal cord.",
-				"prerequisites": ["Articulation","Notochord"],
+				"name": "Radiodonta",
+				"row": 6,
+				"prerequisites": ["Nerve Cord","Ecdysis","Compound Eye"]
+			},
+			{
+				"name": "Spine",
+				"row": 4,
+				"quote": "Vertebrate are bones that protect the spinal cord.",
+				"prerequisites": ["Nerve Cord","Tunicate","Notochord"],
 			},
 			{
 				"name": "Heart",
-				"row": 4,
+				"row": 3,
 				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
-				"prerequisites": ["Articulation"],
+				"prerequisites": ["Notochord"],
 			},
 			{
-				"name": "Nerve Cord",
-				"row": 2,
-				"prerequisites": ["Articulation","Nervous System"],
+				"name": "Spherical Lens",
+				"row": 8,
+				"prerequisites": ["Compound Eye","Molluscs"]
 			}
 		]
 	},
@@ -610,19 +632,25 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "First Plant",
+				"name": "Eye",
+				"row": 2,
+				"prerequisites": ["Nerve Cord","Spine"],
+				"uniques": ["+1 sight for Fish"]
+			},
+			{
+				"name": "Streptophyta",
 				"row": 1,
-				"prerequisites": ["Red Algaes","Nerve Cord"],
+				"prerequisites": ["Herbivore","Lobopodia"],
 			},
 			{
 				"name": "Cephalopod",
-				"row": 6,
-				"prerequisites": ["Exoskeleton","Vertebrate"],
+				"row": 8,
+				"prerequisites": ["Spherical Lens"],
 			},
 			{
-				"name": "Ecdysis",
-				"row": 7,
-				"prerequisites": ["Exoskeleton","Vertebrate"],
+				"name": "Eurypterid",
+				"row": 6,
+				"prerequisites": ["Radiodonta"],
 			},
 		]
 	},
@@ -657,13 +685,7 @@
 				"row": 4,
 				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
 				"prerequisites": ["Compound Eye","Cephalopod","Heart"],
-			},
-			{
-				"name": "Eye",
-				"row": 3,
-				"prerequisites": ["Compound Eye","Cephalopod"],
-				"uniques": ["+1 sight for Crustacean and Fish"]
-			},
+			}
 		]
 	},
 	{
