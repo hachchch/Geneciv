@@ -32,6 +32,13 @@
 	    "[-1] Sight <for [Embarked] units>",
 	    "[-150]% growth [in all cities]",
 	    "Nullifies [Faith] [in all cities] <before discovering [Religion]>",
+	    "Provides [1] [Biomass] <for every [10] [units]>",
+	    "Provides [1] [Atmosphere] <for every [Metazoa]>",
+	    "Consumes [1] [Oxygen] <for every [Metazoa]>",
+	    "Provides [1] [Atmosphere] <for every [{non-[Tetrapodomorpha]} {Chordata}]> <after discovering [Gill]>",
+	    // "Consumes [1] [Oxygen] <for every [{non-[Tetrapodomorpha]} {Chordata}]> <after discovering [Gill]>",
+	    "Provides [1] [Atmosphere] <for every [Tetrapodomorpha]> <after discovering [Lung]>",
+	    // "Consumes [1] [Oxygen] <for every [Tetrapodomorpha]> <after discovering [Lung]>",
 	    // SubUnitTypes
 	    "[+20]% Production when constructing [Cretaceous] units [in all cities] <during the [Mesozoic era]>",
 	    "[+20]% XP gained from combat <for [Cretaceous] units> <during the [Mesozoic era]>",
@@ -114,5 +121,5 @@
 	    "Cannot build [Settler] units <when below [1] Happiness> <for [AI player]>",
 	    "[-30]% Production when constructing [Settler] units [in all cities] <for [AI player]> <before discovering [Spore Plant]>",
 	    "[+20]% Production when constructing [LUCA] buildings [in all cities] <for [AI player]> <hidden from users>",
-	    "[+100]% Production when constructing [RNA World] buildings [in all cities] <for [AI player]> <hidden from users>"],
+	    "[+100]% Production when constructing [RNA World] buildings [in all cities] <for [AI player]> <hidden from users>"]
 }
