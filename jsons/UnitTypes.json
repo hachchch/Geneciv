@@ -11,13 +11,13 @@
 		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
 	},
 	{
-		"name": "Amphibian",
+		"name": "Amphibia",
 		"uniques": ["Metazoan","[+30]% Strength <when fighting in [{Land} {Coastal}] tiles>","[+30]% Strength <when fighting in [Estuaries] tiles>","[+30]% Strength <when fighting in [Intertidal zone] tiles>","[+30]% Strength <when fighting in [{non-[Coastal]} {Fresh water}] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>","[-30]% Strength <when fighting in [{non-[Coastal]} {Desert}] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>",
 		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Can enter ice tiles"],
 	},
 	{
-		"name": "Reptiles",
+		"name": "Parareptilia",
 		"movementType": "Land",
 		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 			"[-10]% Strength <when fighting in [Coastal] tiles>",
@@ -25,22 +25,93 @@
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
 	},
 	{
+		"name": "Sauria",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"],
+	},
+	{
+		"name": "Sauria",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Archosauriformes",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Theropoda",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Pterosauria",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Sauropoda",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
 		"name": "Water Reptiles",
 		"movementType": "Water",
 		"uniques": ["Metazoan","Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Can enter ice tiles","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
 	},
 	{
-		"name": "Mammal",
+		"name": "Synapsida",
 		"movementType": "Land",
 		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
-			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>",
-		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
 	},
 	{
-		"name": "Herbivore",
+		"name": "Cynodontia",
 		"movementType": "Land",
-		"uniques": ["Metazoan",/*"All healing effects doubled <in [GrassLand] tiles>",*/"[-60]% Strength <when fighting in [Desert] tiles>","[-35]% Strength <when fighting in [Tundra] tiles>","[-80]% Strength <when fighting in [Snow] tiles>",
-		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Placentalia",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Carnivora",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Ungulate",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Cetacea",
+		"movementType": "Water",
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Primates",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
 	},
 	{
 		"name": "Modern Fishes",
@@ -94,7 +165,7 @@
 		"uniques": ["Metazoan","Can enter ice tiles","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Water] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Water] tile>"]
 	},
 	{
-		"name": "Insecta",
+		"name": "Hexapoda",
 		"movementType": "Land",
 		"uniques": ["Metazoan","This Unit takes [35] damage <upon ending a turn in a [Water] tile>","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Land] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Land] tile>"]
 	},
