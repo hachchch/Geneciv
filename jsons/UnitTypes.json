@@ -78,18 +78,23 @@
 		"uniques": ["Metazoan","Can enter ice tiles","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"]
 	},
 	{
-		"name": "Fishes",
+		"name": "Agnatha",
+		"movementType": "Water",
+		"uniques": ["Metazoan"]
+	},
+	{
+		"name": "Gnathostomata",
 		"movementType": "Water",
 		"uniques": ["Metazoan","Instantly consumes [1] [Oxygen] <upon ending a turn in a [Water] tile>",
 		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [Water] tile>","Instantly provides [1] [Atmosphere] <after discovering [Gills]> <upon ending a turn in a [Water] tile>","Can enter ice tiles"]
 	},
 	{
-		"name": "Water Arthropod", // Renamed to Dinocaridida in English Translation
+		"name": "Dinocaridida",
 		"movementType": "Water",
 		"uniques": ["Metazoan","Can enter ice tiles","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Water] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Water] tile>"]
 	},
 	{
-		"name": "Land Arthropod",
+		"name": "Insecta",
 		"movementType": "Land",
 		"uniques": ["Metazoan","This Unit takes [35] damage <upon ending a turn in a [Water] tile>","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Land] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Land] tile>"]
 	},
@@ -114,73 +119,23 @@
 		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"],
 	},
 	{
-		"name": "Sword",
-		"movementType": "Land",
-		"uniques": ["Mammal","Human"]
+		"name": "Modern Human",
+		"uniques": ["Metazoan","Mammal",
+		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"]
 	},
 	{
-		"name": "Gunpowder",
-		"movementType": "Land",
-		"uniques": ["Mammal","Human"]
-	},
-	{
-		"name": "Human Air",
+		"name": "Airplanes",
 		"movementType": "Air",
 		"uniques": ["Mammal","Human","Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
 	},
 	{
-		"name": "Human Water",
+		"name": "Ships",
 		"movementType": "Water",
 		"uniques": ["Mammal","Human"]
 	},
 	{
-		"name": "Husbandried",
-		"movementType": "Land",
-		"uniques": ["Mammal","Domesticated"]
-	},
-	{
-		"name": "Siege",
-		"movementType": "Land",
-		"uniques": ["Mammal","Human"],
-	},
-	{
-		"name": "Fixed",
-		"movementType": "Air",
-		"uniques": ["Mammal","Human"]
-	},
-	{
-		"name": "Archery",
+		"name": "Domesticated",
 		"movementType": "Land",
 		"uniques": ["Mammal","Human"]
-	},
-	{
-		"name": "Armored",
-		"movementType": "Land",
-		"uniques": ["Mammal","Human"]
-	},
-	{
-		"name": "Missile",
-		"movementType": "Air",
-		"uniques": ["Self-destructs when attacking"]
-	},
-	{
-		"name": "Disaster",
-		"movementType": "Air",
-		"uniques": ["Self-destructs when attacking"]
-	},
-	{
-		"name": "Aircraft Carrier",
-		"movementType": "Water",
-		"uniques": ["Mammal","Human"]
-	},
-	{
-		"name": "Bot",
-		"movementType": "Land",
-		"uniques": ["AI"]
-	},
-	{
-		"name": "Cockroach",
-		"movementType": "Land",
-		"uniques": ["Bugs"]
-	},
+	}
 ]
