@@ -5,7 +5,19 @@
 		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles"],
 	},
 	{
-		"name": "Cell",
+		"name": "Bacteria",
+		"movementType": "Land",
+		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
+		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
+	},
+	{
+		"name": "Archaea",
+		"movementType": "Land",
+		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
+		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
+	},
+	{
+		"name": "Eukaryota",
 		"movementType": "Land",
 		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
 		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
@@ -67,11 +79,6 @@
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
 	},
 	{
-		"name": "Water Reptiles",
-		"movementType": "Water",
-		"uniques": ["Metazoan","Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Can enter ice tiles","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
-	},
-	{
 		"name": "Synapsida",
 		"movementType": "Land",
 		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
@@ -114,9 +121,19 @@
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
 	},
 	{
-		"name": "Modern Fishes",
+		"name": "Chordata",
 		"movementType": "Water",
-		"uniques": ["Metazoan","Fishes","Can enter ice tiles","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Gills]>"]
+		"uniques": ["Metazoan","Fishes","Can enter ice tiles"]
+	},
+	{
+		"name": "Sarcopterygii",
+		"movementType": "Water",
+		"uniques": ["Metazoan","Fishes","Can enter ice tiles"]
+	},
+	{
+		"name": "Teleostei",
+		"movementType": "Water",
+		"uniques": ["Metazoan","Fishes","Can enter ice tiles"]
 	},
 	{
 		"name": "Hominiae",
