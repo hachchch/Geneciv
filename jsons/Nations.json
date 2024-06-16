@@ -392,8 +392,8 @@
 		"outerColor": [10,10,100],
 		"innerColor": [85,100,200],
 		"cities": ["Drakensberg","Altamira","Laas Geel","Tassili n'Ajjer","Chauvet","Lascaux","Cueva de las Manos"],
-		"uniqueName": "Ties of Beliefs",
-		"uniques": ["Gain enough Faith for a Pantheon <upon discovering [Religion] technology>"],
+		"uniqueName": "Man is a thinking reed",
+		"uniques": ["[+1 Science] from every [Faith]"],
 	},
 	{
 		"name": "Neanderthals",
