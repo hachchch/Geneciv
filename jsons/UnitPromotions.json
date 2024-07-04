@@ -35,7 +35,6 @@
 		"row": 1,
 		"column": 0,
 	},
-	/*
 	{
 		"name": "Sprint Instantly", // It works OP for some reason
 		"uniques": ["+1 Movement for 3 turns","[+1] Movement <hidden from users>","[-1] Movement <after [3] turns> <hidden from users>","Doing so will consume this opportunity to choose a Promotion"],
