@@ -13,7 +13,7 @@
 			"Can build [Mangrove Forest] improvements on tiles <within [3] tiles of a [Warm]>",
 		"Can build [Charales] improvements on tiles <in [Fresh water] tiles>"],
 		"cost": 100,
-		"requiredTech": "Chloroplasts",
+		"requiredTech": "Plantae",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Green Algae",
@@ -37,7 +37,7 @@
 		"Can build [Mangrove Forest] improvements on tiles <within [3] tiles of a [Warm]>",
 		"Can build [Charales] improvements on tiles <in [Fresh water] tiles>"],
 		"cost": 50,
-		"requiredTech": "Mitochondria",
+		"requiredTech": "Cyanobacteria",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Green Algae",
@@ -62,7 +62,7 @@
 			"[-75]% tile improvement construction time <in [Fresh water] tiles> <hidden from users>",
 			"Can build [Lichen] improvements on tiles <hidden from users>","Can build [GrassLand] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Forests] improvements on tiles <hidden from users>","Can build [Spore Tree] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>"],
 		"cost": 150,
-		"requiredTech": "First Plant",
+		"requiredTech": "Sporophyte",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Grassland+GrassLand",
@@ -174,7 +174,7 @@
 		"cost": 20,
 		"uniques": ["No Sight <hidden from users> <for [Human player]>","[-1] Sight <hidden from users>"],
 		"requiredTech": "Amino Acid",
-		"obsoleteTech": "Eukaryotic Cell",
+		"obsoleteTech": "Bacteria",
 		"upgradesTo": "Prokaryote",
 		"attackSound": "plays",
 		"civilopediaText": [
@@ -201,8 +201,8 @@
 		"movement": 2,
 		"cost": 30,
 		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
-		"requiredTech": "Prokaryotic Cell",
-		"obsoleteTech": "Tissue",
+		"requiredTech": "Bacteria",
+		"obsoleteTech": "Eukaryote",
 		"upgradesTo": "Eukaryote",
 		"attackSound": "Cell",
 		"civilopediaText": [
@@ -229,7 +229,7 @@
 		"strength": 8,
 		"cost": 30,
 		"requiredTech": "Eukaryotic Cell",
-		"obsoleteTech": "Tissue",
+		"obsoleteTech": "Amorphea",
 		"upgradesTo": "Eumycetozoa",
 		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
@@ -247,7 +247,7 @@
 			},
 			{
 				"text": "The nucleus at the center of the cell controls various organs. It's like our brain. Also, eukaryotes are much larger than prokaryotes. There is also a lot of DNA.",
-			},
+			}
 		]
 	},
 	{
@@ -256,8 +256,8 @@
 		"movement": 2,
 		"strength": 4,
 		"cost": 60,
-		"requiredTech": "Mitosis",
-		"obsoleteTech": "Eukaryotic Cell",
+		"requiredTech": "Archaea",
+		"obsoleteTech": "Eukaryota",
 		"upgradesTo": "Eukaryote",
 		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
@@ -272,7 +272,7 @@
 			},
 			{
 				"Separator": true
-			},
+			}
 		]
 	},
 	{
@@ -281,8 +281,8 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 80,
-		"requiredTech": "Tissue",
-		"obsoleteTech": "Chloroplasts",
+		"requiredTech": "Amorphea",
+		"obsoleteTech": "Animals",
 		"upgradesTo": "Protozoa",
 		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
@@ -297,7 +297,7 @@
 			},
 			{
 				"Separator": true
-			},
+			}
 		]
 	},
 	{
@@ -306,8 +306,8 @@
 		"movement": 2,
 		"strength": 18,
 		"cost": 120,
-		"requiredTech": "Chloroplasts",
-		"obsoleteTech": "Land Arthropod",
+		"requiredTech": "Animals",
+		"obsoleteTech": "Invertebrate Landing",
 		"upgradesTo": "Chelicerate",
 		"uniques": ["[-50]% Strength <vs [Water] units>"/*,"Only available <in cities without a [Littoral Environment]>"*/,"Can move after attacking","[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
@@ -332,7 +332,7 @@
 		"movement": 2,
 		"strength": 18,
 		"cost": 150,
-		"requiredTech": "Land Arthropod",
+		"requiredTech": "Invertebrate Landing",
 		"obsoleteTech": "Lungfish",
 		// "upgradesTo": "Tetrapod",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","[+25]% Strength <vs cities>","[+100]% Strength <vs [Cell] units>","Can move after attacking","[-1] Sight"],
@@ -357,7 +357,7 @@
 		"movement": 2,
 		"strength": 18,
 		"cost": 125,
-		"requiredTech": "Land Arthropod",
+		"requiredTech": "Invertebrate Landing",
 		"obsoleteTech": "Lungfish",
 		// "upgradesTo": "Tetrapod",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","[+25]% Strength <vs cities>","Can move after attacking","[-1] Sight"],
@@ -384,7 +384,7 @@
 		"strength": 32,
 		"obsoleteTech": "Plesiosaur",
 		"movement": 2,
-		"requiredTech": "Trilobite",
+		"requiredTech": "Bilateria",
 		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
 			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "Splash",
@@ -400,36 +400,14 @@
 		]
 	},
 	{
-		"name": "Radiodonta",
-		"unitType": "Water Arthropod",
-		"cost": 95,
-		"strength": 28,
-		"obsoleteTech": "Metamorphosis",
-		"upgradesTo": "Crustacean",
-		"movement": 3,
-		"requiredTech": "Articulation",
-		"uniques": ["Cambrian","Jawless","[-1] Sight <before discovering [Pigment Spot]>"],
-		"attackSound": "whoo",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Radiodonta",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Radiodonta",
-				"imageSize": 192
-			},
-		]
-	},
-	{
 		"name": "Amplectobelua",
 		"unitType": "Water Arthropod",
 		"cost": 95,
 		"strength": 24,
-		"obsoleteTech": "Metamorphosis",
-		"upgradesTo": "Crustacean",
+		"obsoleteTech": "Eurypterid",
+		"upgradesTo": "Eurypterid",
 		"movement": 2,
-		"requiredTech": "Articulation",
+		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian","Jawless","[+35]% Strength <when defending>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -448,10 +426,10 @@
 		"unitType": "Water Arthropod",
 		"cost": 95,
 		"strength": 24,
-		"obsoleteTech": "Metamorphosis",
+		"obsoleteTech": "Eurypterid",
 		"upgradesTo": "Crustacean",
 		"movement": 2,
-		"requiredTech": "Articulation",
+		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian","Jawless","[+200]% Strength <vs [Cell] units>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -470,10 +448,10 @@
 		"unitType": "Water Arthropod",
 		"cost": 95,
 		"strength": 24,
-		"obsoleteTech": "Metamorphosis",
+		"obsoleteTech": "Eurypterid",
 		"upgradesTo": "Crustacean",
 		"movement": 2,
-		"requiredTech": "Articulation",
+		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian","Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -564,7 +542,7 @@
 		"name": "Strobila",
 		"unitType": "Civilian Water",
 		"cost": 49,
-		"requiredTech": "Radial Symmetry",
+		"requiredTech": "Swimming",
 		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage <upon ending a turn in a [Water] tile>"],
 		"civilopediaText": [
 			{
@@ -587,7 +565,7 @@
 		"name": "Modern Strobila",
 		"unitType": "Civilian Water",
 		"cost": 49,
-		"requiredTech": "Radial Symmetry",
+		"requiredTech": "Swimming",
 		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Modern Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage <upon ending a turn in a [Water] tile>"],
 		"civilopediaText": [
 			{
@@ -641,7 +619,7 @@
 		"movement": 2,
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
-		"requiredTech": "Flatworm",
+		"requiredTech": "Bilateria",
 		"uniques": ["Neoproterozoic","[+50]% Strength <vs [Neoproterozoic] units>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -659,16 +637,16 @@
 		]
 	},
 	{
-		"uniqueTo": "Burgess",
+		//"uniqueTo": "Burgess",
 		"name": "Pikaia",
-		"replaces": "Flatworm",
+		//"replaces": "Flatworm",
 		"unitType": "Water Animal",
 		"cost": 105,
 		"strength": 21,
 		"movement": 3,
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
-		"requiredTech": "Flatworm",
+		"requiredTech": "Notochord",
 		"uniques": ["Cambrian","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
