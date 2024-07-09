@@ -638,7 +638,7 @@
 				"uniques": ["+1 sight for Fish"]
 			},
 			{
-				"name": "Streptophyta",
+				"name": "Streptophyte",
 				"row": 1,
 				"prerequisites": ["Herbivore","Lobopodia"],
 			},
@@ -662,17 +662,11 @@
 		"wonderCost": 300,
 		"techs": [
 			{
-				"name": "Spore Plant",
+				"name": "Sporophyte",
 				"row": 1,
-				"prerequisites": ["First Plant"],
+				"prerequisites": ["Streptophyte"],
 				"uniques": ["Give sight to settlers","[+1 Food] from [Grassland] tiles [in all cities]",
 				"[+1 Production] from [Plains] tiles [in all cities]"]
-			},
-			{
-				"name": "Eurypterid",
-				"row": 6,
-				"prerequisites": ["Ecdysis"],
-				"uniques": ["[+50]% Production when constructing [Water Arthropod] units [in all cities]"]
 			},
 			{
 				"name": "Plated Armour",
@@ -696,9 +690,16 @@
 		"wonderCost": 350,
 		"techs": [
 			{
+				"name": "Bryophyte",
+				"row": 1,
+				"prerequisites": ["Sporophyte"],
+				"uniques": ["Give sight to settlers","[+1 Food] from [Grassland] tiles [in all cities]",
+				"[+1 Production] from [Plains] tiles [in all cities]"]
+			},
+			{
 				"name": "Invertebrate Landing",
 				"row": 1,
-				"prerequisites": ["Spore Plant","Eurypterid"]
+				"prerequisites": ["Sporophyte"]
 			},
 			{
 				"name": "Brain",
@@ -733,9 +734,9 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Streptophytes",
+				"name": "Vascular",
 				"row": 1,
-				"prerequisites": ["Invertebrate Landing"]
+				"prerequisites": ["Bryophyte","Invertebrate Landing"]
 			},
 			{
 				"name": "Gills",
@@ -788,9 +789,9 @@
 				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins have deep homology.",
 			},
 			{
-				"name": "Vascular",
+				"name": "Heterospory",
 				"row": 1,
-				"prerequisites": ["Streptophytes"]
+				"prerequisites": ["Vascular"]
 			},
 			{
 				"name": "Medulla Oblongata",
@@ -846,7 +847,7 @@
 		"wonderCost": 400,
 		"techs": [
 			{
-				"name": "Terrestrial Transition",
+				"name": "Vertebrate Landing",
 				"row": 6,
 				"prerequisites": ["Legs","Lungfish"],
 				"quote": "Look! One of freshwater lungfish is landing using their front flippers! It's Tiktaalik!",
@@ -867,7 +868,7 @@
 			{
 				"name": "Progymnosperm",
 				"row": 2,
-				"prerequisites": ["Vascular"]
+				"prerequisites": ["Heterospory"]
 			},
 			{
 				"name": "Neoselachii",
@@ -886,7 +887,7 @@
 			{
 				"name": "Amphibian",
 				"row": 6,
-				"prerequisites": ["Terrestrial Transition"]
+				"prerequisites": ["Vertebrate Landing"]
 			},
 			{
 				"name": "Rib Cage",
@@ -896,7 +897,7 @@
 			{
 				"name": "Keratinized Skin",
 				"row": 4,
-				"prerequisites": ["Terrestrial Transition"],
+				"prerequisites": ["Vertebrate Landing"],
 				"quote": "Their fish-like slimy bodies are not suitable for dried ground. It has to be thicker and wilder...",
 				"uniques": ["[+15]% Strength <when defending> <in [Warm] tiles> <for [Land] units>"]
 			},
@@ -916,7 +917,7 @@
 				"name": "Amnion",
 				"row": 9,
 				"uniques": ["[5]% Food is carried over after population increases [in all cities]"],
-				"prerequisites": ["Terrestrial Transition","Fish Egg"],
+				"prerequisites": ["Vertebrate Landing","Fish Egg"],
 			},
 		]
 	},
