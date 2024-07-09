@@ -200,43 +200,6 @@
 	},
 	// Others
 	{
-		"name": "Industry",
-		"shortcutKey": "I",
-		"techRequired": "Industrialization",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 20,
-		"production": 3,
-		"gold": 15,
-		"uniques": ["Consumes [5] [Oxygen]","Provides [5] [Atmosphere]","Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Industry",
-				"imageSize": 192,
-			},
-			{
-				"text": "The tertiary industry contributes significantly to the current GDP. The industry will eventually shift from the consumer goods industry to the capital goods industry.",
-			},
-		]
-	},
-	{
-		"name": "Factory",
-		"shortcutKey": "P",
-		"techRequired": "Industrialization",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow"],
-		"turnsToBuild": 20,
-		"production": 10,
-		"uniques": ["Provides [10] [Atmosphere]","Consumes [3] [Biomass]","Only available <with [1] to [1] neighboring [City center] tiles>","techRequired: Industrialization,"],
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Factory",
-				"imageSize": 192,
-			},
-			{
-				"text": "Waterwheels, which contributed to the industry in the Middle Ages, could only be operated near water, but steam engines made of solid metal can obtain rotational power anywhere as long as there is coal. A series of industrial changes and an energy revolution due to the use of coal from the mid-18th century to the 19th century will lead to changes in the social structure.",
-			},
-		]
-	},
-	{
 		"name": "Productive Site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 5,
@@ -281,14 +244,6 @@
 				"text": "Humans like to represent themselves and their communities in symbolic ways. But it would have been very difficult for the ancients. Many wishes are put in the monument that looks like a simple stone.",
 			},
 		]
-	},
-	{
-		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
-		"food": 1,
-		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Magnetic Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "F"
 	},
 	{
 		"name": "Hunting Spot",
@@ -415,92 +370,6 @@
 				"text": "Appearance changes with the technological era of the owning civilization",
 			}
 		]
-	},
-	{
-		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "The Wheel",
-		"uniques": ["Consumes [1] [Biomass]","Can be built outside your borders", "Costs [1] [Gold] per turn"],
-		"shortcutKey": "R",
-		"civilopediaText": [{"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"}, {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},{"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}]
-	},
-	{
-		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 10,
-		"turnsToBuild": 7,
-		"techRequired": "Mining",
-		"uniques": ["[+10 Production] <after discovering [Gunpowder]>","[+10 Production] <after discovering [Chemistry]>", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "M"
-	},
-	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Flood plains"],
-		"gold": 20,
-		"turnsToBuild": 7,
-		"techRequired": "Guilds",
-		"uniques": ["[+20 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "T"
-	},
-	{
-		"name": "Pasture",
-		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
-		"uniques": ["[+10 Food] <after discovering [Plow]>","[+10 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Plantation",
-		"turnsToBuild": 6,
-		"gold": 10,
-		"techRequired": "Calendar",
-		"uniques": ["[+10 Food] <after discovering [Fertilizer]>",
-			"[+10 Gold] <after discovering [Guilds]>",
-			"[+10 Food, +10 Gold] <after discovering [Intensive Farming]>",
-			"[+5 Production, +20 Gold] <after discovering [Monopoly]>",
-			"[+5 Production, +20 Gold] <after discovering [Colonization]>",
-			"[+5 Production, +20 Gold] <after discovering [Economics]>",
-			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Lumber mill",
-		"production": 10,
-		"turnsToBuild": 7,
-		"techRequired": "Nail",
-		"uniques": ["[+10 Production] <after discovering [Arithmetic]>","Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
-		"shortcutKey": "L"
-	},
-	{
-		"name": "Quarry",
-		"turnsToBuild": 8,
-		"techRequired": "Masonry",
-		"uniques": ["[+10 Production] <after discovering [Hydraulically]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "Q"
-	},
-	{
-		"name": "Well House",
-		"turnsToBuild": 8,
-		"food": 5,
-		"production": 5,
-		"techRequired": "Gear",
-		"uniques": ["Can only be built on [Hill] tiles","Can also be built on tiles adjacent to fresh water","[+10 Production] <after discovering [Hydraulically]>",
-			"[+5 Production] <after discovering [Machinery]>",
-			"[+5 Production] <after discovering [Mechanics]>",
-			"[+5 Production] <after discovering [Turbine]>",
-			"[+5 Production] <after discovering [Geometry]>",
-			"Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]"],
-		"shortcutKey": "W"
-	},
-	{
-		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "Locomotives",
-		"uniques": ["Can be built outside your borders", "Costs [2] [Gold] per turn"],
-		"shortcutKey": "R",
-        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
 	},
 	// Great
 	{
