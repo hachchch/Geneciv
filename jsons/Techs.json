@@ -696,7 +696,7 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Land Arthropod",
+				"name": "Invertebrate Landing",
 				"row": 1,
 				"prerequisites": ["Spore Plant","Eurypterid"]
 			},
@@ -733,9 +733,9 @@
 		"wonderCost": 350,
 		"techs": [
 			{
-				"name": "Charophyte",
+				"name": "Streptophytes",
 				"row": 1,
-				"prerequisites": ["Land Arthropod"]
+				"prerequisites": ["Invertebrate Landing"]
 			},
 			{
 				"name": "Gills",
@@ -788,9 +788,9 @@
 				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins have deep homology.",
 			},
 			{
-				"name": "Vascular Plant",
+				"name": "Vascular",
 				"row": 1,
-				"prerequisites": ["Charophyte"]
+				"prerequisites": ["Streptophytes"]
 			},
 			{
 				"name": "Medulla Oblongata",
@@ -855,7 +855,7 @@
 				"name": "Fern",
 				"row": 1,
 				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
-				"prerequisites": ["Vascular Plant"],
+				"prerequisites": ["Vascular"],
 				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
 			{
@@ -867,7 +867,7 @@
 			{
 				"name": "Progymnosperm",
 				"row": 2,
-				"prerequisites": ["Vascular Plant"]
+				"prerequisites": ["Vascular"]
 			},
 			{
 				"name": "Neoselachii",
