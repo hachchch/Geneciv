@@ -196,7 +196,7 @@
 	},
 	{
 		"name": "Prokaryote",
-		"unitType": "Cell",
+		"unitType": "Bacteria",
 		"strength": 2,
 		"movement": 2,
 		"cost": 30,
@@ -224,7 +224,7 @@
 	},
 	{
 		"name": "Eukaryote",
-		"unitType": "Cell",
+		"unitType": "Eukaryota",
 		"movement": 2,
 		"strength": 8,
 		"cost": 30,
@@ -252,7 +252,7 @@
 	},
 	{
 		"name": "Archaea",
-		"unitType": "Cell",
+		"unitType": "Archaea",
 		"movement": 2,
 		"strength": 4,
 		"cost": 60,
@@ -277,7 +277,7 @@
 	},
 	{
 		"name": "Eumycetozoa",
-		"unitType": "Cell",
+		"unitType": "Eukaryota",
 		"movement": 2,
 		"strength": 12,
 		"cost": 80,
@@ -302,7 +302,7 @@
 	},
 	{
 		"name": "Protozoa",
-		"unitType": "Cell",
+		"unitType": "Eukaryota",
 		"movement": 2,
 		"strength": 18,
 		"cost": 120,
