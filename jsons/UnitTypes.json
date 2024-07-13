@@ -30,11 +30,36 @@
 		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
 	},
 	/*Metazoan class*/
+	{
+		"name": "Jellyfish",
+		"movementType": "Water",
+		"uniques": ["Jellyfish"]
+	},
 	/*Protostomes class*/
+	{
+		"name": "Dinocaridida",
+		"movementType": "Water",
+		"uniques": ["Dinocaridida"]
+	},
 	{
 		"name": "Cephalopoda",
 		"movementType": "Water",
 		"uniques": ["Cephalopod"]
+	},
+	{
+		"name": "Artiopoda",
+		"movementType": "Water",
+		"uniques": ["Artiopoda"]
+	},
+	{
+		"name": "Pancrustacea",
+		"movementType": "Water",
+		"uniques": ["Crustacean"]
+	},
+	{
+		"name": "Hexapoda",
+		"movementType": "Land",
+		"uniques": ["Insect"]
 	},
 	{
 		"name": "Myriapoda",
