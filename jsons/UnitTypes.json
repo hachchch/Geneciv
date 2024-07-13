@@ -29,6 +29,12 @@
 		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
 		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
 	},
+	{
+		"name": "Fungi",
+		"movementType": "Land",
+		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
+		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
+	},
 	/*Metazoan class*/
 	{
 		"name": "Jellyfish",
