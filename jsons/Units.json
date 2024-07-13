@@ -389,7 +389,7 @@
 		"cost": 95,
 		"strength": 24,
 		"obsoleteTech": "Eurypterid",
-		"upgradesTo": "Crustacean",
+		"upgradesTo": "Eurypterid",
 		"movement": 2,
 		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian","Jawless","[+200]% Strength <vs [Cell] units>","[-1] Sight <before discovering [Pigment Spot]>"],
@@ -411,7 +411,7 @@
 		"cost": 95,
 		"strength": 24,
 		"obsoleteTech": "Eurypterid",
-		"upgradesTo": "Crustacean",
+		"upgradesTo": "Eurypterid",
 		"movement": 2,
 		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian","Jawless","[+10] HP when healing","[-1] Sight <before discovering [Pigment Spot]>"],
@@ -472,7 +472,7 @@
 		"unitType": "Artiopoda",
 		"cost": 250,
 		"strength": 32,
-		"obsoleteTech": "Inveretebrate Landing",
+		"obsoleteTech": "Invertebrate Landing",
 		"upgradeTo": "Horseshoe Crab",
 		"movement": 2,
 		"requiredTech": "Bilateria",
@@ -498,7 +498,7 @@
 		"obsoleteTech": "Insect",
 		"upgradeTo": "Crayfish",
 		"movement": 2,
-		"requiredTech": "Inveretebrate Landing",
+		"requiredTech": "Invertebrate Landing",
 		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
 			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "Splash",
@@ -548,7 +548,7 @@
 		"movement": 1,
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Cephalopod",
-		"upgradesTo": "Cephalopod",
+		"upgradesTo": "Nautilus",
 		"uniques": ["[-1] Sight <hidden from users>","Only 1 Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -578,7 +578,7 @@
 		"movement": 1,
 		"requiredTech": "Swimming",
 		"obsoleteTech": "Cephalopod",
-		"upgradesTo": "Cephalopod",
+		"upgradesTo": "Nautilus",
 		"uniques": ["[-1] Sight <hidden from users>","Only 1 Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
 		"attackSound": "whoo",
 		"civilopediaText": [
@@ -914,7 +914,7 @@
 		"cost": 180,
 		"strength": 28,
 		"movement": 1,
-		"requiredTech": "Terrestrial Transition",
+		"requiredTech": "Vertebrate Landing",
 		"attackSound": "crrr",
 		"uniques": ["Tournaisian","Quadrupedal","May travel on Water tiles without embarking <hidden from users>","Double movement in [Coast] <after discovering [Water Tight]>","Double movement in [Fresh Water]"],
 		"civilopediaText": [
@@ -1267,8 +1267,6 @@
 		"movement": 1,
 		"cost": 380,
 		"requiredTech": "Gliding",
-		"obsoleteTech": "Flying",
-		"upgradesTo": "Archeopteryx",
 		"attackSound": "Woosh"
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Triassic","Predator"],
 		"civilopediaText": [
@@ -1620,7 +1618,7 @@
 	},
 	{
 		"name": "Bat",
-		"unitType": "Air Mammal",
+		"unitType": "Chiroptera",
 		"strength": 105,
 		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
@@ -1887,7 +1885,6 @@
 		"cost": 800,
 		"attackSound": "metalhit",
 		"requiredTech": "War",
-		"obsoleteTech": "Urbanization",
 		"unitType": "Hominini",
 		"strength": 280,
 		"movement": 2,
@@ -2031,7 +2028,7 @@
 		"uniques": ["Cambrian","Predator","Never appears as a Barbarian unit <hidden from users>"],
 		"requiredResource": "Super Creature Stock",
 		"obsoleteTech": "Predation",
-		"requiredTech": "Articulation",
+		"requiredTech": "Radiodonta",
 	},
 	{
 		"name": "Cameroceras",
@@ -2303,7 +2300,7 @@
 		"cost": 95,
 		"replaces": "Eumycetozoa",
 		"uniqueTo": "Barbarians",
-		"requiredTech": "Tissue",
+		"requiredTech": "Eukaryota",
 		"obsoleteTech": "Chloroplasts",
 		"upgradesTo": "Protozoa",
 		"uniques": ["[+60]% Strength <vs cities> <when attacking>"]
@@ -2326,7 +2323,7 @@
 		"replaces": "Archaea",
 		"uniqueTo": "Barbarians",
 		"strength": 4,
-		"requiredTech": "Eukaryotic Cell",
+		"requiredTech": "DNA",
 		"attackSound": "Cell",
 		"uniques": ["May travel on Water tiles without embarking"],
 		"civilopediaText": [
@@ -2343,8 +2340,6 @@
 	{
 		"name": "Great Elder",
 		"unitType": "Civilian",
-		"upgradesTo": "Great Prophet",
-		"obsoleteTech": "Urbanization",
 		"uniques": ["Can instantly construct a [Monument] improvement <by consuming this unit>","Can [Spread Religion] [4] times","Removes other religions when spreading religion","May found a religion","May enhance a religion","May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]","Unbuildable", "Religious Unit", "Hidden when religion is disabled","Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -2352,16 +2347,12 @@
 	{
 		"name": "Great Chief",
 		"unitType": "Civilian",
-		"upgradesTo": "Great General",
-		"obsoleteTech": "Urbanization",
 		"movement": 2,
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>","[+15]% Strength bonus for [Military] units within [2] tiles","Can instantly construct a [Outpost] improvement <by consuming this unit>","Great Person - [War]", "Unbuildable", "Uncapturable"],
 	},
 	{
 		"name": "Great Craftsman",
 		"unitType": "Civilian",
-		"upgradesTo": "Great Engineer",
-		"obsoleteTech": "Urbanization",
 		"uniques": ["Can speed up construction of a building","Can instantly construct a [Productive Site] improvement <by consuming this unit>","Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2,
 	}
