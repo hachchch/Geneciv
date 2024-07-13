@@ -151,6 +151,10 @@
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"],
 	},
 	{
+		"name": "Squamata",
+		"movementType": "Land"
+	},
+	{
 		"name": "Mesosauridae",
 		"movementType": "Water"
 	},
