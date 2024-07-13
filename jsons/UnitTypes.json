@@ -57,6 +57,11 @@
 		"uniques": ["Crustacean"]
 	},
 	{
+		"name": "Chelicerata",
+		"movementType": "Land",
+		"uniques": ["Six Legs"]
+	},
+	{
 		"name": "Hexapoda",
 		"movementType": "Land",
 		"uniques": ["Insect"]
