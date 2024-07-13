@@ -28,7 +28,6 @@
 		"uniques": ["Instantly consumes [10] [Biomass]","This Unit loses the [Mimicry] promotion <upon turn end>","Invisible to non-adjacent units"]
 	},
 	// Instant
-	/*
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
@@ -43,7 +42,6 @@
 		"uniques": ["+1 Movement for 3 turns","[+1] Movement <hidden from users>","[-1] Movement <after [3] turns> <hidden from users>","Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": ["Amphibian","Fishes","Herbivore","Hominiae","Mammal","Reptiles","Water Animal","Water Arthropod","Water Mammal","Water Reptiles","Human"],
 	},
-	*/
 	{
 		"name": "Exchange to Energy",
 		"row": 2,
@@ -889,20 +887,12 @@
 		"uniques": ["Only available <when [Dinosaur]>","[+100]% Strength <vs [Land Arthropod] units>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
 		"unitTypes": ["Amphibia","Theropoda","Synapsida","Eutheria","Hominidae","Hominini"],
 	},
-	*/
 	// Aquatic Organisms Swimming Types
 	{
 		"name": "Neuston",
 		"uniques": ["[+30]% Strength <when fighting in [Intertidal zone] tiles>",
 	    	"[+30]% Strength <when fighting in [Neritic zone] tiles>"]
 	},
-	/*
-	{
-		"name": "Pleuston",
-		"uniques": ["[+30]% Strength <when fighting in [Photic zone] tiles>",
-	    	"[+30]% Strength <when fighting in [Neritic zone] tiles>"]
-	},
-	*/
 	{
 		"name": "Plankton",
 		"uniques": ["[+30]% Strength <when fighting in [Estuaries] tiles>",
