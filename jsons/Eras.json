@@ -92,6 +92,22 @@
 		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm"]
 	},
 	{
+		"name": "Ediacaran Period",
+		"researchAgreementCost": 0,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "True Jellyfish",
+		"startingGold":80,
+		"settlerPopulation": 1,
+		"startPercent": 40,
+		"citySound": "Underwater",
+		"embarkDefense": 3,
+		"iconRGB": [104, 58, 183],
+		"settlerBuildings": ["Eclipse","Plasma Membrane","Phagocytic Cell","Ribosomes","Flagellum","Meteor","Volcano","Adenosine Triphosphate","Enzymes","RNA","Replication","Chromosomes","Polypeptides"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha"]
+	},
+	{
 		"name": "Cambrian period",
 		"researchAgreementCost": 0,
 		"startingSettlerCount": 1,
