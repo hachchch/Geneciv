@@ -472,7 +472,8 @@
 		"unitType": "Artiopoda",
 		"cost": 250,
 		"strength": 32,
-		"obsoleteTech": "Plesiosaur",
+		"obsoleteTech": "Inveretebrate Landing",
+		"upgradeTo": "Horseshoe Crab",
 		"movement": 2,
 		"requiredTech": "Bilateria",
 		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
@@ -494,9 +495,10 @@
 		"unitType": "Artiopoda",
 		"cost": 250,
 		"strength": 32,
-		"obsoleteTech": "Plesiosaur",
+		"obsoleteTech": "Insect",
+		"upgradeTo": "Crayfish",
 		"movement": 2,
-		"requiredTech": "Bilateria",
+		"requiredTech": "Inveretebrate Landing",
 		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
 			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
 		"attackSound": "Splash",
@@ -510,6 +512,30 @@
 				"imageSize": 192
 			},
 		]
+	},
+	{
+		"name": "Crayfish",
+		"unitType": "Decapoda",
+		"cost": 250,
+		"strength": 32,
+		"obsoleteTech": "Plesiosaur",
+		"movement": 2,
+		"requiredTech": "Insect",
+		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "Splash",
+	},
+	{
+		"name": "Land Crab",
+		"unitType": "Gecarcinidae",
+		"cost": 250,
+		"strength": 32,
+		"obsoleteTech": "Plesiosaur",
+		"movement": 2,
+		"requiredTech": "Bilateria",
+		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "Splash"
 	},
 	// Water
 	{
@@ -993,7 +1019,7 @@
 	},
 	{
 		"name": "Big Reptile",
-		"unitType": "Parareptilia",
+		"unitType": "Sauria",
 		"movement": 2,
 		"cost": 275,
 		"obsoleteTech": "Dinosaur",
@@ -1018,7 +1044,7 @@
 	},
 	{
 		"name": "Saurischia",
-		"unitType": "Parareptilia",
+		"unitType": "Theropoda",
 		"strength": 80,
 		"cost": 300,
 		"movement": 2,
@@ -1046,7 +1072,7 @@
 	},
 	{
 		"name": "Theropoda",
-		"unitType": "Parareptilia",
+		"unitType": "Theropoda",
 		"strength": 70,
 		"cost": 280,
 		"movement": 2,
@@ -1063,7 +1089,7 @@
 	},
 	/*{
 		"name": "Pseudosuchia",
-		"unitType": "Parareptilia",
+		"unitType": "Sauria",
 		"strength": 70,
 		"cost": 300,
 		"movement": 2,
@@ -1082,7 +1108,7 @@
 	*/
 	{
 		"name": "Avemetatarsalia",
-		"unitType": "Parareptilia",
+		"unitType": "Sauria",
 		"strength": 70,
 		"cost": 280,
 		"movement": 2,
@@ -1114,7 +1140,7 @@
 		"movement": 2,
 		"obsoleteTech": "Eutherians",
 		"requiredTech": "Dinosaur",
-		"unitType": "Parareptilia",
+		"unitType": "Sauropoda",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
@@ -1130,7 +1156,7 @@
 		"name": "Spinosaurus",
                 "replaces": "Tyrannosaurus",
 		"uniqueTo": "Wild Africa",
-		"unitType": "Parareptilia",
+		"unitType": "Theropoda",
 		"cost": 895,
 		"strength": 135,
 		"requiredTech": "Cretaceous Reptiles",
@@ -1164,7 +1190,7 @@
 		"cost": 300,
 		"strength": 83,
 		"movement": 3,
-		"unitType": "Water Reptiles",
+		"unitType": "Mesosauridae",
 		"uniques": ["Triassic","Quadrupedal"],
 	},
 	{
@@ -1175,12 +1201,12 @@
 		"cost": 300,
 		"strength": 75,
 		"movement": 4,
-		"unitType": "Water Reptiles",
+		"unitType": "Ichthyosauromorpha",
 		"uniques": ["Triassic","Predator","Quadrupedal","[+1] Sight"],
 	},
 	{
 		"name": "Plesiosaur",
-		"unitType": "Water Reptiles",
+		"unitType": "Sauropterygia",
 		"cost": 450,
 		"strength": 97,
 		"movement": 3,
@@ -1212,15 +1238,11 @@
 	{
 		"name": "Ornithischia",
 		"cost": 280,
-		// "obsoleteTech": "Dinosaur",
-		// "upgradesTo": "Sauropoda",
 		"strength": 70,
-		// "rangedStrength": 75,
-		// "range": 1,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
 		"movement": 2,
 		"requiredTech": "Herbivore",
-		"unitType": "Herbivore",
+		"unitType": "Ornithischia",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Herbivore",
@@ -1237,7 +1259,7 @@
 	},
 	{
 		"name": "Pterosaur",
-		"unitType": "Glider",
+		"unitType": "Pterosauria",
 		"range": 2,
 		"interceptRange": 1,
 		"rangedStrength": 68,
@@ -1265,7 +1287,7 @@
 	},
 	{
 		"name": "Ankylosauria",
-		"unitType": "Reptiles",
+		"unitType": "Ornithischia",
 		"strength": 80,
 		"cost": 320,
 		"movement": 1,
@@ -1290,7 +1312,7 @@
 	},
 	{
 		"name": "Triceratops",
-		"unitType": "Reptiles",
+		"unitType": "Ornithischia",
 		"cost": 380,
 		"strength": 100,
 		"requiredTech": "Cretaceous Reptiles",
@@ -1311,7 +1333,7 @@
 	},
 	{
 		"name": "Cretaceous Dinosaur",
-		"unitType": "Reptiles",
+		"unitType": "Theropoda",
 		"cost": 360,
 		"strength": 100,
 		"movement": 2,
@@ -1334,8 +1356,8 @@
 		]
 	},
 	{
-		"name": "Ophidia",
-		"unitType": "Reptiles",
+		"name": "Snake",
+		"unitType": "Squamata",
 		"strength": 90,
 		"movement": 2,
 		"cost": 500,
@@ -1345,9 +1367,9 @@
 		"promotions": ["Poison I"]
 	},
 	{
-		"name": "Eusuchia",
+		"name": "Crocodile",
 		"obsoleteTech": "Anthropocene",
-		"unitType": "Reptiles",
+		"unitType": "Sauria",
 		"strength": 100,
 		"cost": 660,
 		"movement": 2,
@@ -1373,8 +1395,8 @@
 		]
 	},
 	{
-		"name": "Cryptodira",
-		"unitType": "Reptiles",
+		"name": "Tortoise",
+		"unitType": "Cryptodira",
 		"strength": 50,
 		"movement": 1,
 		"cost": 500,
@@ -1384,8 +1406,8 @@
 		"promotions": ["Shell"]
 	},
 	{
-		"name": "Chelonioidea",
-		"unitType": "Water Reptiles",
+		"name": "Sea Turtle",
+		"unitType": "Pantestudines",
 		"strength": 60,
 		"movement": 2,
 		"cost": 500,
@@ -1400,7 +1422,7 @@
 		"name": "Eupelycosauria",
 		"upgradesTo": "Cynodont",
 		"obsoleteTech": "Canine Tooth",
-		"unitType": "Mammal",
+		"unitType": "Synapsida",
 		"movement": 2,
 		"cost": 250,
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>","Only available <in cities without a [Sea Environment]> <hidden from users>","Carboniferous","Quadrupedal","Can move after attacking"],
@@ -1432,7 +1454,7 @@
 		"movement": 3,
 		"requiredTech": "Canine Tooth",
 		"upgradesTo": "Cynodont",
-		"unitType": "Mammal",
+		"unitType": "Synapsida",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Synapsida",
@@ -1453,7 +1475,7 @@
 	*/
 	{
 		"name": "Cynodont"
-		"unitType": "Mammal",
+		"unitType": "Cynodontia",
 		"movement": 2,
 		"cost": 280,
 		"strength": 60,
@@ -1480,7 +1502,7 @@
 		"name": "Therocephalia",
 		"uniqueTo": "The Pangaea",
 		"replaces": "Eupelycosauria",
-		"unitType": "Mammal",
+		"unitType": "Cynodontia",
 		"movement": 3,
 		"cost": 250,
 		"obsoleteTech": "Canine Tooth",
@@ -1505,7 +1527,7 @@
 	// Mammals
 	{
 		"name": "Glires",
-		"unitType": "Mammal",
+		"unitType": "Placentalia",
 		"strength": 90,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
 		"cost": 400,
@@ -1525,7 +1547,7 @@
 	},
 	{
 		"name": "Feliform",
-		"unitType": "Mammal",
+		"unitType": "Carnivora",
 		"obsoleteTech": "Anthropocene",
 		"cost": 450,
 		"strength": 120,
@@ -1556,7 +1578,7 @@
 	},
 	{
 		"name": "Caniform",
-		"unitType": "Mammal",
+		"unitType": "Carnivora",
 		"cost": 450,
 		"obsoleteTech": "Anthropocene",
 		"strength": 120,
@@ -1583,7 +1605,7 @@
 		"attackSound": "horse"
 		"strength": 100,
 		"movement": 3,
-		"unitType": "Mammal",
+		"unitType": "Ungulate",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
 		"civilopediaText": [
 			{
@@ -1597,7 +1619,7 @@
 		]
 	},
 	{
-		"name": "Chiroptera",
+		"name": "Bat",
 		"unitType": "Air Mammal",
 		"strength": 105,
 		"obsoleteTech": "Anthropocene",
@@ -1618,7 +1640,7 @@
 	},
 	{
 		"name": "Dolphin",
-		"unitType": "Water Mammal",
+		"unitType": "Cetacea",
 		"strength": 112,
 		"movement": 4,
 		"obsoleteTech": "Anthropocene",
@@ -1639,7 +1661,7 @@
 	},
 	{
 		"name": "Kangaroos",
-		"unitType": "Mammal",
+		"unitType": "Eutheria",
 		"obsoleteTech": "Anthropocene",
 		"cost": 460,
 		"strength": 112,
@@ -1650,7 +1672,7 @@
 	},
 	{
 		"name": "Platypus",
-		"unitType": "Mammal",
+		"unitType": "Eutheria",
 		"obsoleteTech": "Anthropocene",
 		"cost": 460,
 		"strength": 95,
@@ -1669,7 +1691,7 @@
 		"rangedStrength": 70,
 		"movement": 4,
 		"obsoleteTech": "Anthropocene",
-		"unitType": "Mammal",
+		"unitType": "Ungulate",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
 		"civilopediaText": [
 			{
@@ -1684,7 +1706,7 @@
 	},
 	{
 		"name": "Koala",
-		"unitType": "Mammal",
+		"unitType": "Eutheria",
 		"obsoleteTech": "Anthropocene",
 		"cost": 460,
 		"strength": 112,
@@ -1696,7 +1718,7 @@
 	// Wise Animals
 	{
 		"name": "Ape",
-		"unitType": "Hominiae",
+		"unitType": "Hominidae",
 		"cost": 450,
 		"strength": 100,
 		"movement": 3,
@@ -1746,7 +1768,7 @@
 	},
 	{
 		"name": "Mankind",
-		"unitType": "Hominiae",
+		"unitType": "Hominini",
 		"cost": 500,
 		"movement": 2,
 		"strength": 100,
@@ -1766,7 +1788,7 @@
 	},
 	{
 		"name": "Thrower",
-		"unitType": "Hominiae",
+		"unitType": "Hominini",
 		"cost": 590,
 		"movement": 2,
 		"range": 2,
@@ -1788,7 +1810,7 @@
 	},
 	{
 		"name": "Tribesman",
-		"unitType": "Human",
+		"unitType": "Hominini",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","[-70]% Strength <vs [Human] units>","[500]% Strength <vs [Glires] units>","[125]% Strength <vs [Feliform] units> <after discovering [Advanced Game]> <when attacking>","[125]% Strength <vs [Caniform] units> <after discovering [Advanced Game]> <when attacking>",
 		"Can build [Hunting Spot] improvements on tiles"],
 		"strength": 150,
@@ -1805,7 +1827,7 @@
 	},
 	{
 		"name": "Archer",
-		"unitType": "Human",
+		"unitType": "Hominini",
 		"requiredTech": "Advanced Game",
 		"cost": 800,
 		"Range": 2,
@@ -1824,7 +1846,7 @@
 	},
 	{
 		"name": "Sapiens Warrior",
-		"unitType": "Human",
+		"unitType": "Hominini",
 		"attackSound": "nonmetalhit",
 		"cost": 700,
 		"requiredTech": "Homo Sapiens",
@@ -1841,7 +1863,7 @@
 	},
 	{
 		"name": "Neanderthalensis Warrior",
-		"unitType": "Human",
+		"unitType": "Hominini",
 		"attackSound": "nonmetalhit",
 		"cost": 700,
 		"requiredTech": "Homo Neanderthalensis",
@@ -1857,7 +1879,7 @@
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Neanderthalensis Warrior",
 				"imageSize": 192
-			},
+			}
 		]
 	},
 	{
@@ -1866,7 +1888,7 @@
 		"attackSound": "metalhit",
 		"requiredTech": "War",
 		"obsoleteTech": "Urbanization",
-		"unitType": "Human",
+		"unitType": "Hominini",
 		"strength": 280,
 		"movement": 2,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Holocene","[+25]% Strength <vs [Human] units>","[+25]% Strength <vs [Mammal] units> <when attacking>","Earn [100]% of killed [Human] unit's [Strength] as [Science]","Can build [Hunting Spot] improvements on tiles"],
@@ -1883,8 +1905,8 @@
 	},
 	// Aves
 	{
-		"name": "Archeopteryx",
-		"unitType": "Birds",
+		"name": "Protoavis",
+		"unitType": "Protoavis",
 		"range": 4,
 		"rangedStrength": 70,
 		"interceptRange": 4,
@@ -1909,7 +1931,7 @@
 	},
 	{
 		"name": "Eagle",
-		"unitType": "Birds",
+		"unitType": "Neoaves",
 		"range": 6,
 		"rangedStrength": 90,
 		"strength": 90,
@@ -1950,7 +1972,7 @@
 	},
 	{
 		"name": "Crow",
-		"unitType": "Birds",
+		"unitType": "Neoaves",
 		"interceptRange": 5,
 		"range": 5,
 		"rangedStrength": 80,
@@ -1973,8 +1995,8 @@
 		]
 	},
 	{
-		"name": "Charadriiformes",
-		"unitType": "Birds",
+		"name": "Common Gull",
+		"unitType": "Neoaves",
 		"range": 7,
 		"rangedStrength": 80,
 		"strength": 80,
@@ -2060,7 +2082,7 @@
 	},
 	{
 		"name": "Mosasaur",
-		"unitType": "Mosasauroidea",
+		"unitType": "Mosasauridae",
 		"cost": 940,
 		"strength": 150,
 		"requiredTech": "Plesiosaur",
@@ -2217,7 +2239,7 @@
 	},
 	{
 		"name": "Great Skua",
-		"unitType": "Birds",
+		"unitType": "Neoaves",
 		"range": 8,
 		"rangedStrength": 100,
 		"strength": 100,
@@ -2232,8 +2254,8 @@
 	// General
 	{
 		"name": "Parasiticworm",
-		"replaces": "Platyzoa",
-		"unitType": "Water Animal",
+		"replaces": "Flatworm",
+		"unitType": "Platyzoa",
 		"uniqueTo": "Barbarians",
 		"cost": 220,
 		"strength": 22,
