@@ -1,9 +1,15 @@
 [
+	/*Chemical Life*/
 	{
 		"name": "Particle",
 		"movementType": "Land",
 		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles"],
 	},
+	{
+		"name": "Virus",
+		//"uniques": [""]
+	},
+	/*bacteria-like class*/
 	{
 		"name": "Bacteria",
 		"movementType": "Land",
@@ -16,17 +22,31 @@
 		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
 		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
 	},
+	/*non-Animal class*/
 	{
 		"name": "Eukaryota",
 		"movementType": "Land",
 		"uniques": ["No defensive terrain bonus","Eliminates combat penalty for attacking over a river","Unable to pillage tiles","All tiles cost 1 movement","May travel on Water tiles without embarking","Can enter ice tiles",
 		"Reveal up to [All] [All] within a [1] tile radius <by consuming this unit>"],
 	},
+	/*Metazoan class*/
+	/*Protostomes class*/
+	{
+		"name": "Cephalopoda",
+		"movementType": "Water",
+		"uniques": ["Cephalopod"]
+	},
+	{
+		"name": "Myriapoda",
+		"movementType": "Land",
+		"uniques": ["Worm"]
+	},
+	/*Vertebrates class*/
 	{
 		"name": "Amphibia",
 		"uniques": ["Metazoan","[+30]% Strength <when fighting in [{Land} {Coastal}] tiles>","[+30]% Strength <when fighting in [Estuaries] tiles>","[+30]% Strength <when fighting in [Intertidal zone] tiles>","[+30]% Strength <when fighting in [{non-[Coastal]} {Fresh water}] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>","[-30]% Strength <when fighting in [{non-[Coastal]} {Desert}] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>",
-		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Can enter ice tiles"],
+		"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Can enter ice tiles"]
 	},
 	{
 		"name": "Parareptilia",
@@ -34,7 +54,7 @@
 		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 			"[-10]% Strength <when fighting in [Coastal] tiles>",
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>",
-		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
+		"Instantly provides [1] [Biomass] <upon ending a turn in a [All] tile>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"]
 	},
 	{
 		"name": "Sauria",
@@ -78,6 +98,7 @@
 			"[-10]% Strength <when fighting in [Coastal] tiles>",
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
 	},
+	/*Mammal-like and Mammalia class*/
 	{
 		"name": "Synapsida",
 		"movementType": "Land",
@@ -192,6 +213,18 @@
 		"movementType": "Land"
 	},
 	{
+		"name": "Domesticated",
+		"movementType": "Land",
+		"uniques": ["Mammal"]
+	},
+	{
+		"name": "Human",
+		"movementType": "Land",
+		"uniques": ["Metazoan","Mammal","Unable to pillage tiles <before discovering [Fire]> <in [GrassLand] tiles>","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>",
+		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"],
+	},
+	/*Civilization class*/
+	{
 		"name": "Civilian",
 		"movementType": "Land",
 	},
@@ -201,29 +234,13 @@
 		"uniques": ["Can enter ice tiles"]
 	},
 	{
-		"name": "Human",
-		"movementType": "Land",
-		"uniques": ["Metazoan","Mammal","Unable to pillage tiles <before discovering [Fire]> <in [GrassLand] tiles>","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>",
-		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"],
-	},
-	{
-		"name": "Modern Human",
-		"uniques": ["Metazoan","Mammal",
-		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"]
-	},
-	{
 		"name": "Airplanes",
 		"movementType": "Air",
-		"uniques": ["Mammal","Human","Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"],
+		"uniques": ["Mammal","Human","Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
 	},
 	{
 		"name": "Ships",
 		"movementType": "Water",
-		"uniques": ["Mammal","Human"]
-	},
-	{
-		"name": "Domesticated",
-		"movementType": "Land",
 		"uniques": ["Mammal","Human"]
 	}
 ]
