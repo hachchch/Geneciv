@@ -953,7 +953,7 @@
 			{
 				"name": "Gymnosperm",
 				"row": 2,
-				"prerequisites": ["Gymnosperm"]
+				"prerequisites": ["Rainforest"]
 			},
 			{
 				"name": "Eardrum",
@@ -992,7 +992,7 @@
 				"name": "Conifer",
 				"row": 2,
 				"uniques": ["[+1 Food, +1 Production] from [Forests] tiles [in all cities]"],
-				"prerequisites": ["Gymnosperm"]
+				"prerequisites": ["Gymnosperm","Insect"]
 			},
 			{
 				"name": "Earthworm",
