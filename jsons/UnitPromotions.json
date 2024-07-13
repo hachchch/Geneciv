@@ -48,21 +48,21 @@
 		"name": "Exchange to Energy",
 		"row": 2,
 		"column": 0,
-		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
+		"unitTypes": ["Particle","Virus","Bacteria","Archaea","Eukaryota","Fungi"],
 		"uniques": ["Gain [30] [Gold] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion","Only available <before the [Silurian period]>"]
 	},
 	{
 		"name": "Exchange to Mutation",
 		"row": 3,
 		"column": 0,
-		"unitTypes": ["Cell","Particle","Water Animal","Water Arthropod"],
+		"unitTypes": ["Particle","Virus","Bacteria","Archaea","Eukaryota","Fungi"],
 		"uniques": ["Gain [15] [Science] (modified by game speed)","Doing so will consume this opportunity to choose a Promotion","Only available <before the [Silurian period]>"]
 	},
 	// Water Animals
 	{
 		"name": "Nematocyst I",
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Water Animal"],
+		"unitTypes": ["Jellyfish"],
 		"row": 1,
 		"column": 1,
 	},
@@ -70,7 +70,7 @@
 		"name": "Nematocyst II",
 		"prerequisites": ["Nematocyst I"],
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Water Animal"],
+		"unitTypes": ["Jellyfish"],
 		"row": 2,
 		"column": 1,
 	},
@@ -78,14 +78,14 @@
 		"name": "Nematocyst III",
 		"prerequisites": ["Nematocyst II"],
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Water Animal"],
+		"unitTypes": ["Jellyfish"],
 		"row": 3,
 		"column": 1,
 	},
 	{
 		"name": "Poison I",
 		"uniques": ["[+50]% Strength <with [33]% chance> <when attacking>"],
-		"unitTypes": ["Water Animal"],
+		"unitTypes": ["Jellyfish"],
 		"row": 1,
 		"column": 3,
 	},
@@ -93,7 +93,7 @@
 		"name": "Poison II",
 		"prerequisites": ["Poison I"],
 		"uniques": ["[+50]% Strength <with [33]% chance> <when attacking>"],
-		"unitTypes": ["Water Animal"],
+		"unitTypes": ["Jellyfish"],
 		"row": 2,
 		"column": 3,
 	},
@@ -101,7 +101,7 @@
 		"name": "Poison III",
 		"prerequisites": ["Poison II"],
 		"uniques": ["[+50]% Strength <with [33]% chance> <when attacking>"],
-		"unitTypes": ["Water Animal"],
+		"unitTypes": ["Jellyfish"],
 		"row": 3,
 		"column": 3,
 	},
@@ -109,7 +109,7 @@
 		"name": "Symmetry",
 		"prerequisites": ["Poison II","Nematocyst II"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Water Animal"],
+		"unitTypes": ["Jellyfish"],
 		"row": 3,
 		"column": 2,
 	},
@@ -118,7 +118,7 @@
 		"name": "Jaw I",
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking>",
 			"[+15]% Strength <vs [Jawless] units> <when attacking>","Only available <after discovering [Jaw]>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes","Actinopterygii","Sarcopterygii"],
 		"row": 1,
 		"column": 5,
 	},
@@ -126,7 +126,7 @@
 		"name": "Jaw II",
 		"prerequisites": ["Jaw I"],
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking> <after discovering [Jaw]>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes","Actinopterygii","Sarcopterygii"],
 		"row": 2,
 		"column": 5,
 	},
@@ -134,7 +134,7 @@
 		"name": "Jaw III",
 		"prerequisites": ["Jaw II"],
 		"uniques": ["[+15]% Strength <vs [Water] units> <when attacking> <after discovering [Jaw]>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes","Actinopterygii","Sarcopterygii"],
 		"row": 3,
 		"column": 5,
 	},
@@ -148,7 +148,7 @@
 		"[+50]% Strength <when fighting in [Hadopelagic zone] tiles>",
 		"[+50]% Strength <when fighting in [Demersal zone] tiles>",
 		"[+50]% Strength <when fighting in [Benthic zone] tiles>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes"],
 		"row": 3,
 		"column": 6,
 	},
@@ -156,14 +156,14 @@
 		"name": "Mega Eyeball",
 		"prerequisites": ["Deep Sea Fish"],
 		"uniques": ["[+1] Sight","[+40]% Strength <vs [Jellyfish] units>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes"],
 		"row": 4,
 		"column": 6,
 	},
 	{
 		"name": "Predation I",
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>","Only available <after discovering [Predation]>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes"],
 		"row": 1,
 		"column": 7,
 	},
@@ -171,7 +171,7 @@
 		"name": "Predation II",
 		"prerequisites": ["Predation I"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes"],
 		"row": 2,
 		"column": 7,
 	},
@@ -179,7 +179,7 @@
 		"name": "Predation III",
 		"prerequisites": ["Predation II"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking> <after discovering [Predation]>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Chondrichthyes"],
 		"row": 3,
 		"column": 7,
 	},
@@ -187,7 +187,7 @@
 		"name": "Fin",
 		"prerequisites": ["Predation I","Jaw I"],
 		"uniques": ["[+1] Movement","Only available <after discovering [Fins]>"],
-		"unitTypes": ["Fishes"],
+		"unitTypes": ["Gnathostomata","Agnatha","Chondrichthyes","Actinopterygii","Sarcopterygii"],
 		"row": 2,
 		"column": 6,
 	},
@@ -195,7 +195,7 @@
 	{
 		"name": "Amphibious",
 		"uniques": ["Eliminates combat penalty for attacking over a river","Eliminates combat penalty for attacking across a coast","May attack when embarked"],
-		"unitTypes": ["Amphibian"],
+		"unitTypes": ["Amphibia"],
 		"prerequisites": ["Battle of Landing Race I"],
 		"row": 2,
 		"column": 10
@@ -205,7 +205,7 @@
 		"row": 1,
 		"column": 8,
 		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
-		"unitTypes": ["Amphibian"],
+		"unitTypes": ["Amphibia"],
 	},
 	{
 		"name": "Battle of Landing Race II",
@@ -213,7 +213,7 @@
 		"row": 2,
 		"column": 8,
 		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>"],
-		"unitTypes": ["Amphibian"],
+		"unitTypes": ["Amphibia"],
 	},
 	{
 		"name": "Battle of Landing Race III",
@@ -221,7 +221,7 @@
 		"row": 3,
 		"column": 8,
 		"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles>","[+15]% Strength <when fighting in [Fresh water] tiles>","[+15]% Strength <when fighting in [Coast] tiles>"],
-		"unitTypes": ["Amphibian"],
+		"unitTypes": ["Amphibia"],
 	},
 	{
 		"name": "Perivitelline",
@@ -229,12 +229,12 @@
 		"row": 2,
 		"column": 9,
 		"uniques": ["[+10] HP when healing <in [Fresh water] tiles>","[+5] HP when healing"],
-		"unitTypes": ["Amphibian"],
+		"unitTypes": ["Amphibia"],
 	},
 	{
 		"name": "Quadrupedalism",
 		"uniques": ["[+1] Movement","Quadrupedal","Only available <after discovering [Legs]>"],
-		"unitTypes": ["Amphibian"],
+		"unitTypes": ["Amphibia"],
 		"column": 11,
 		"row": 1
 	},
@@ -242,28 +242,28 @@
 	{
 		"name": "Hollow Bones",
 		"uniques": ["[+1] Movement","[+1] Range"],
-		"unitTypes": ["Birds","Glider","Aves"],
+		"unitTypes": ["Neoaves","Protoavis","Aves"],
 		"column": 12,
 		"row": 1
 	},
 	{
 		"name": "Hollow Bones I",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Reptiles","Herbivore"],
+		"unitTypes": ["Sauria","Sauropoda","Theropoda","Ornithischia"],
 		"column": 13,
 		"row": 1
 	},
 	{
 		"name": "Propubic Pelvis I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Reptiles","Herbivore"],
+		"unitTypes": ["Sauria","Sauropoda","Theropoda","Ornithischia"],
 		"column": 15,
 		"row": 1
 	},
 	{
 		"name": "Hollow Bones II",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Reptiles","Herbivore"],
+		"unitTypes": ["Sauria","Sauropoda","Theropoda","Ornithischia"],
 		"column": 13,
 		"row": 2,
 		"prerequisites": ["Hollow Bones I"]
@@ -271,7 +271,7 @@
 	{
 		"name": "Propubic Pelvis II",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Reptiles","Herbivore"],
+		"unitTypes": ["Sauria","Sauropoda","Theropoda","Ornithischia"],
 		"column": 15,
 		"row": 2,
 		"prerequisites": ["Propubic Pelvis I"]
@@ -279,7 +279,7 @@
 	{
 		"name": "Hollow Bones III",
 		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Reptiles","Herbivore"],
+		"unitTypes": ["Sauria","Sauropoda","Theropoda","Ornithischia"],
 		"column": 13,
 		"row": 3,
 		"prerequisites": ["Hollow Bones II"]
@@ -287,7 +287,7 @@
 	{
 		"name": "Propubic Pelvis III",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Reptiles","Herbivore"],
+		"unitTypes": ["Sauria","Sauropoda","Theropoda","Ornithischia"],
 		"column": 15,
 		"row": 3,
 		"prerequisites": ["Propubic Pelvis II"]
@@ -298,7 +298,7 @@
 		"column": 14,
 		"row": 2
 		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Reptiles"],
+		"unitTypes": ["Ornithischia"],
 	},
 	{
 		"name": "Ankylosis II",
@@ -306,23 +306,14 @@
 		"column": 14,
 		"row": 3
 		"uniques": ["[+15]% Strength <when defending>"],
-		"unitTypes": ["Reptiles"],
-	},
-	{
-		"name": "Squamate",
-		"column": 14,
-		"prerequisites": ["Propubic Pelvis III","Hollow Bones III","Ankylosis II"],
-		"row": 4,
-		"uniques": ["Squamates","[+15]% Strength <in [Warm] tiles> <for [Land] units>",
-		"[+15]% Strength <in [Coastal] tiles>","[+15]% Strength <in [Fresh water] tiles>"],
-		"unitTypes": ["Water Reptiles","Reptiles"],
+		"unitTypes": ["Ornithischia"],
 	},
 	// Herbivore
 	{
 		"name": "Predentary I",
 		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>"],
 		"prerequisites": ["Propubic Pelvis I","Hollow Bones I"],
-		"unitTypes": ["Herbivore"],
+		"unitTypes": ["Ornithischia"],
 		"column": 17,
 		"row": 2
 	},
@@ -330,7 +321,7 @@
 		"name": "Predentary II",
 		"uniques": ["[+10] HP when healing <in [GrassLand] tiles>"],
 		"prerequisites": ["Predentary I"],
-		"unitTypes": ["Herbivore"],
+		"unitTypes": ["Ornithischia"],
 		"column": 17,
 		"row": 3
 	},
@@ -338,14 +329,14 @@
 		"name": "Molar",
 		"uniques": ["Heal this unit by [5] HP <upon ending a turn in a [GrassLand] tile>"],
 		"prerequisites": ["Predentary I"],
-		"unitTypes": ["Herbivore"],
+		"unitTypes": ["Ornithischia"],
 		"column": 18,
 		"row": 3
 	},
 	{
 		"name": "Herd",
 		"uniques": ["[+15]% Strength <when adjacent to a [Herbivore] unit>"],
-		"unitTypes": ["Herbivore"],
+		"unitTypes": ["Ornithischia"],
 		"column": 18,
 		"row": 1
 	},
@@ -355,7 +346,7 @@
 		"uniques": ["[+15]% Strength <when adjacent to a [All] unit>"],
 		"row": 1,
 		"column": 21,
-		"unitTypes": ["Modern Fishes","Mammal"],
+		"unitTypes": ["Actinopterygii","Ungulate"],
 	},
 	{
 		"name": "Herd II",
@@ -363,7 +354,7 @@
 		"uniques": ["[+15]% Strength <when adjacent to a [All] unit>"],
 		"row": 2,
 		"column": 21,
-		"unitTypes": ["Modern Fishes","Mammal"],
+		"unitTypes": ["Actinopterygii","Ungulate"],
 	},
 	{
 		"name": "Herd III",
@@ -371,22 +362,22 @@
 		"uniques": ["[+15]% Strength <when adjacent to a [All] unit>"],
 		"row": 3,
 		"column": 21,
-		"unitTypes": ["Modern Fishes","Mammal"],
+		"unitTypes": ["Actinopterygii","Ungulate"],
 	},
 	{
 		"name": "Rodent",
 		"uniques": ["Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>","Only available <when [Glires]>"],
-		"unitTypes": ["Mammal"]
+		"unitTypes": ["Placentalia"]
 	},
 	{
 		"name": "Lagomorpha",
 		"uniques": ["They have four incisors in the upper jaw.","Only available <when [Glires]>","All healing effects doubled <in [GrassLand] tiles>","Can only heal by pillaging"],
-		"unitTypes": ["Mammal"]
+		"unitTypes": ["Placentalia"]
 	},
 	{
 		"name": "Pinniped",
 		"uniques": ["[+1] Movement <on water maps>","May attack when embarked","[+35]% Strength <on water maps>"],
-		"unitTypes": ["Mammal"],
+		"unitTypes": ["Carnivora"],
 	},
 	{
 		"name": "Estrus",
@@ -394,7 +385,7 @@
 		"prerequisites": ["Herd II"],
 		"column": 22,
 		"uniques": ["[+10] HP when healing","Only available <after discovering [Uterus]>"],
-		"unitTypes": ["Mammal"],
+		"unitTypes": ["Placentalia"],
 	},
 	// Teleost
 	{
@@ -404,7 +395,7 @@
 		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>"],
 		"row": 1,
 		"column": 30,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Jellyfish"],
 	},
 	{
 		"name": "Bioluminescence II",
@@ -414,7 +405,7 @@
 		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>"],
 		"row": 2,
 		"column": 30,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Jellyfish"]
 	},
 	{
 		"name": "Bioluminescence III",
@@ -424,7 +415,7 @@
 		"[+15]% Strength <when fighting in [Bathypelagic zone] tiles>"],
 		"row": 3,
 		"column": 30,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Jellyfish"]
 	},
 	{
 		"name": "Firmness Bone I",
@@ -433,7 +424,7 @@
 		"[+15]% Strength <when fighting in [Epipelagic zone] tiles>"],
 		"row": 1,
 		"column": 31,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Gnathostomata"],
 	},
 	{
 		"name": "Firmness Bone II",
@@ -443,7 +434,7 @@
 		"[+15]% Strength <when fighting in [Epipelagic zone] tiles>"],
 		"row": 2,
 		"column": 31,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Gnathostomata"]
 	},
 	{
 		"name": "Firmness Bone III",
@@ -453,7 +444,7 @@
 		"[+15]% Strength <when fighting in [Epipelagic zone] tiles>"],
 		"row": 3,
 		"column": 31,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Gnathostomata"]
 	},
 	{
 		"name": "Detritivore I",
@@ -462,7 +453,7 @@
 		"[+15]% Strength <when fighting in [Demersal zone] tiles>"],
 		"row": 1,
 		"column": 32,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Gnathostomata"],
 	},
 	{
 		"name": "Detritivore II",
@@ -472,7 +463,7 @@
 		"[+15]% Strength <when fighting in [Demersal zone] tiles>"],
 		"row": 2,
 		"column": 32,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Gnathostomata"],
 	},
 	{
 		"name": "Detritivore III",
@@ -483,7 +474,7 @@
 		"[+15]% Strength <when fighting in [Benthic zone] tiles>"],
 		"row": 3,
 		"column": 32,
-		"unitTypes": ["Modern Fishes"],
+		"unitTypes": ["Gnathostomata"],
 	},
 	// Water Mammal
 	{
@@ -491,28 +482,28 @@
 		"uniques": ["[+15]% Strength <vs [Water] units> <upon defeating a [Water] unit> <for [3] turns>"],
 		"row": 1,
 		"column": 35,
-		"unitTypes": ["Water Mammal","Modern Fishes"],
+		"unitTypes": ["Gnathostomata"],
 	},
 	{
 		"name": "Intelligence",
 		"uniques": ["May withdraw before melee ([33]%)"],
 		"row": 1,
 		"column": 36,
-		"unitTypes": ["Water Mammal","Hominiae"],
+		"unitTypes": ["Hominidae"]
 	},
 	{
 		"name": "Bird Hunter",
 		"uniques": ["[+5]% Strength <when attacking>","[50]% chance to intercept air attacks","[100]% Damage when intercepting"],
 		"row": 53,
 		"column": 0,
-		"unitTypes": ["Birds","Mammal","Hominiae"],
+		"unitTypes": ["Hominidae"],
 	},
 	{
 		"name": "Echolocation",
 		"uniques": ["[+10]% Strength <when defending> <when adjacent to a [Military] unit>","[+1] Sight <when adjacent to a [Military] unit>"],
 		"row": 55,
 		"column": 0,
-		"unitTypes": ["Water Mammal","Air Mammal"],
+		"unitTypes": ["Cetacea"],
 	},
 	// Cells
 	{
@@ -520,7 +511,7 @@
 		"uniques": ["Heal this unit by [33] HP <upon defeating a [All] unit>"],
 		"row": 60,
 		"column": 0,
-		"unitTypes": ["Cell"],
+		"unitTypes": ["Bacteria","Archaea","Eukaryota","Fungi"],
 	},
 	// Humana
 	{
@@ -528,7 +519,7 @@
 		"row": 1,
 		"column": 60,
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Marathon II",
@@ -536,7 +527,7 @@
 		"column": 60,
 		"prerequisites": ["Marathon I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Marathon III",
@@ -544,13 +535,13 @@
 		"column": 60,
 		"prerequisites": ["Marathon II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","Only available <after discovering [Homo Ergaster]>"],
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Strategy Leaning",
 		"row": 1,
 		"column": 63,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
@@ -559,7 +550,7 @@
 		"row": 2,
 		"column": 63,
 		"uniques": ["[+33]% Strength <vs [non-[Wounded]] units>"],
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Defence Strategy",
@@ -567,14 +558,14 @@
 		"row": 2,
 		"column": 64,
 		"uniques": ["[+33]% Strength <when defending>"],
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Stone Knife",
 		"row": 1,
 		"column": 62,
 		"uniques": ["[+10]% Strength","[+15]% Strength <for [Melee] units>"],
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Throwable Weapon",
@@ -582,7 +573,7 @@
 		"uniques": ["[+10]% Strength","[+15]% Strength <for [Ranged] units>"],
 		"row": 2,
 		"column": 62,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Weapon Improving",
@@ -590,14 +581,14 @@
 		"uniques": ["[+50]% XP gained from combat","[-33]% Gold cost of upgrading","Earn [20]% of killed [Military] unit's [Cost] as [Science]"],
 		"row": 3,
 		"column": 62,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Camouflage",
 		"uniques": ["[+25]% Strength <when defending>"],
 		"row": 1,
 		"column": 65,
-		"unitTypes": ["Modern Fishes","Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Military",
@@ -605,14 +596,14 @@
 		"uniques": ["[+20]% Strength <vs [Human] units>"],
 		"row": 2,
 		"column": 66,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Training",
 		"uniques": ["[+10]% Strength <vs [Human] units>"],
 		"row": 1,
 		"column": 66,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Formation",
@@ -620,23 +611,14 @@
 		"uniques": ["[+15]% Strength <for [Land] units> <when adjacent to a [Land] unit>"],
 		"row": 2,
 		"column": 67,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"]
 	},
-	/*
-	{
-		"name": "Conceit",
-		"uniques": ["[+15]% Strength <when above [80] HP>"],
-		"row": 103,
-		"column": 0,
-		"unitTypes": ["Human"],
-	},
-	*/
 	{
 		"name": "Bird Tamer I",
 		"uniques": ["Can carry [1] [Birds] units"],
 		"row": 1,
 		"column": 68,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Bird Tamer II",
@@ -644,7 +626,7 @@
 		"prerequisites": ["Bird Tamer I"],
 		"row": 2,
 		"column": 68,
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	// Ape(Except Sapiens)
 	{
@@ -652,7 +634,7 @@
 		"row": 205,
 		"column": 0,
 		"uniques": ["[+20]% Strength <when defending>"],
-		"unitTypes": ["Hominiae"],
+		"unitTypes": ["Hominidae"],
 	},
 	{
 		"name": "Counter Attack II",
@@ -660,7 +642,7 @@
 		"row": 205,
 		"column": 1,
 		"uniques": ["[+20]% Strength <when defending>"],
-		"unitTypes": ["Hominiae"],
+		"unitTypes": ["Hominidae"],
 	},
 	{
 		"name": "Counter Attack III",
@@ -668,7 +650,7 @@
 		"row": 205,
 		"column": 2,
 		"uniques": ["[+20]% Strength <when defending>"],
-		"unitTypes": ["Hominiae"],
+		"unitTypes": ["Hominidae"],
 	},
 	{
 		"name": "Counter Attack IV",
@@ -676,49 +658,44 @@
 		"row": 205,
 		"column": 3,
 		"uniques": ["[+20]% Strength <when defending>"],
-		"unitTypes": ["Hominiae"],
+		"unitTypes": ["Hominidae"],
 	},
 	{
 		"name": "Arboreal",
 		"row": 206,
 		"column": 0,
 		"uniques": ["[+35]% Strength <when fighting in [Forests] tiles>"],
-		"unitTypes": ["Hominiae"],
+		"unitTypes": ["Hominidae"],
 	},
 	{
 		"name": "Bone Tools",
 		"uniques": ["[+20]% Strength <upon defeating a [Enemy] unit> <when attacking>"],
-		"unitTypes": ["Human","Hominiae"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "DNA Replication",
 		"uniques": ["[10] HP when healing","Only available <after discovering [DNA]>"],
-		"unitTypes": ["Particle"],
-	},
-	{
-		"name": "Bacterium",
-		"uniques": ["[+25]% Strength <when attacking>","[-100]% maintenance costs"],
-		"unitTypes": ["Cell"],
+		"unitTypes": ["Particle","Virus"],
 	},
 	{
 		"name": "Zooplankton",
 		"uniques": ["[+15]% Strength <in [Water] tiles>"],
-		"unitTypes": ["Cell"],
+		"unitTypes": ["Eukaryota"],
 	},
 	{
 		"name": "Phytoplankton",
 		"uniques": ["[+25]% Strength <in [Algae] tiles>"],
-		"unitTypes": ["Cell"],
+		"unitTypes": ["Eukaryota"],
 	},
 	{
 		"name": "Ecosystem Engineer",
 		"uniques": ["Can build [Habitat] improvements on tiles","[+300]% maintenance costs"],
-		"unitTypes": ["Mammal","Human","Hominiae"],
+		"unitTypes": ["Eutheria","Hominini"],
 	},
 	{
-		"name": "Best Friends",
+		"name": "Animal Domestication",
 		"uniques": ["Free [Feliform] appears <upon defeating a [Feliform] unit> <with [15]% chance>","Free [Caniform] appears <upon defeating a [Caniform] unit> <with [15]% chance>","[+200]% maintenance costs"],
-		"unitTypes": ["Human"],
+		"unitTypes": ["Hominini"],
 	},
 	{
 		"name": "Survival Instinct",
@@ -736,7 +713,7 @@
 		"name": "Pack Hunting I",
 		"column": 658,
 		"row": 1,
-		"unitTypes": ["Modern Fishes","Reptiles","Mammal","Human","Hominiae","Aves"]
+		"unitTypes": ["Theropoda"]
 		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
@@ -744,22 +721,22 @@
 		"prerequisites": ["Pack Hunting I"]
 		"column": 658,
 		"row": 2,
-		"unitTypes": ["Modern Fishes","Reptiles","Mammal","Human","Hominiae","Aves"]
+		"unitTypes": ["Theropoda"]
 		"uniques": ["[+50]% to Flank Attack bonuses"]
 	},
 	{
 		"name": "Breeding Pair",
-		"unitType": ["Birds","Aves","Mammal"],
+		"unitType": ["Neoaves","Aves","Placentalia"],
 		"uniques": ["Heal this unit by [3] HP <upon ending a turn in a [Land] tile> <when adjacent to a [{non-[Air]} {Birds}] unit> <when [{non-[Air]} {Birds}]>",
 		"[+5] HP when healing <when [{Air} {Birds}]>",
 		"[+5] HP when healing <when adjacent to a [Mammal] unit> <when [Mammal]>"]
 	},
-	// Dinocaridida(恐蟹類)
+	// Dinocaridida
 	{
 		"name": "Oral Cone I",
 		"row": 433,
 		"column": 1,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
@@ -767,14 +744,14 @@
 		"row": 433,
 		"column": 2,
 		"prerequisites": ["Oral Cone I"],
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "Predation",
 		"row": 433,
 		"column": 4,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"prerequisites": ["Oral Cone III"]
 		"uniques": ["Predator","[1] additional attacks per turn"]
 	},
@@ -783,14 +760,14 @@
 		"row": 433,
 		"column": 3,
 		"prerequisites": ["Oral Cone II"],
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"uniques": ["[+20]% Strength <vs [Wounded] units> <when attacking>"]
 	},
 	{
 		"name": "Compound Eye",
 		"row": 435,
 		"column": 4,
-		"unitTypes": ["Water Arthropod","Land Arthropod"],
+		"unitTypes": ["Dinocaridida","Panarthropoda"],
 		"prerequisites": ["Oral Cone III","Frontal Appendage III"],
 		"uniques": ["[+1] Sight"]
 	},
@@ -798,7 +775,7 @@
 		"name": "Ventral Flap I",
 		"row": 434,
 		"column": 2,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"prerequisites": ["Oral Cone I","Frontal Appendage I"],
 		"uniques": ["[+1] Movement"]
 	},
@@ -806,7 +783,7 @@
 		"name": "Ventral Flap II",
 		"row": 434,
 		"column": 3,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"prerequisites": ["Ventral Flap I"],
 		"uniques": ["Can move after attacking"]
 	},
@@ -814,7 +791,7 @@
 		"name": "Setal Blades I",
 		"row": 436,
 		"column": 2,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"prerequisites": ["Frontal Appendage I"],
 		"uniques": ["[5] HP when healing"]
 	},
@@ -822,7 +799,7 @@
 		"name": "Setal Blades II",
 		"row": 436,
 		"column": 3,
-		"unitTypes": ["Water Arthropod"],
+		"unitTypes": ["Dinocaridida"],
 		"prerequisites": ["Setal Blades I"],
 		"uniques": ["[5] HP when healing","May heal outside of friendly territory","[+15] HP when healing <in [Foreign Land] tiles>"]
 	},
@@ -830,7 +807,7 @@
 		"name": "Ecdysis",
 		"row": 436,
 		"column": 4,
-		"unitTypes": ["Water Arthropod","Land Arthropod"],
+		"unitTypes": ["Dinocaridida","Panarthropoda"],
 		"prerequisites": ["Frontal Appendage III","Setal Blades II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"]
 	},
@@ -838,7 +815,7 @@
 		"name": "Frontal Appendage I",
 		"row": 435,
 		"column": 1,
-		"unitTypes": ["Water Arthropod","Land Arthropod"],
+		"unitTypes": ["Dinocaridida","Panarthropoda"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
@@ -846,7 +823,7 @@
 		"row": 435,
 		"column": 2,
 		"prerequisites": ["Frontal Appendage I"],
-		"unitTypes": ["Water Arthropod","Land Arthropod"],
+		"unitTypes": ["Dinocaridida","Panarthropoda"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	{
@@ -854,24 +831,26 @@
 		"row": 435,
 		"column": 3,
 		"prerequisites": ["Frontal Appendage II"],
-		"unitTypes": ["Water Arthropod","Land Arthropod"],
+		"unitTypes": ["Dinocaridida","Panarthropoda"],
 		"uniques": ["[+15]% Strength <when attacking>"]
 	},
 	// Anti-Something
 	{
 		"name": "Filter Feeding",
-		"unitType": ["Water Arthropod","Water Animal"],
-		"uniques": ["[+30]% Strength <vs [Cell] units> <when attacking>"],
+		"unitType": ["Dinocaridida"],
+		"uniques": ["[+30]% Strength <vs [Bacteria] units>",
+		"[+30]% Strength <vs [Archaea] units>","[+30]% Strength <vs [Eukaryota] units>"],
 	},
 	{
 		"name": "Durophagy",
-		"unitType": ["Fishes"],
-		"uniques": ["[+30]% Strength <vs [Water Arthropod] units> <when attacking>"],
+		"unitType": ["Gnathostomata"],
+		"uniques": ["[+30]% Strength <vs [Panarthropoda] units> <when attacking>",
+		"[+30]% Strength <vs [Cephalopoda] units> <when attacking>"],
 	},
 	{
 		"name": "Anti-Predator",
 		"uniques": ["[+30]% Strength <vs [Predator] units> <when attacking>","Only available <when [non-[Predator]]>"],
-		"unitTypes": ["Reptiles","Mammal"]
+		"unitTypes": ["Gnathostomata","Sauria","Placentalia"]
 	},
 	// Dinosauria
 	{
@@ -879,8 +858,8 @@
 		// "prerequisites": ["Dinosauria Families"],
 		"column": 117,
 		"row": 1,
-		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <when attacking> <vs [non-[Herbivore]] units>"],
-		"unitTypes": ["Reptiles","Glider"],
+		"uniques": ["[+10]% Strength <when attacking> <vs [non-[Herbivore]] units>"],
+		"unitTypes": ["Sauria","Theropoda","Ornithischia","Protoavis","Aves","Neoaves"],
 	},
 	{
 		"name": "Strong Neck",
@@ -888,7 +867,7 @@
 		"column": 118,
 		"row": 1,
 		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <vs [non-[Predator]] units>"],
-		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+		"unitTypes": ["Theropoda","Sauropoda"],
 	},
 	{
 		"name": "Large Body",
@@ -896,7 +875,7 @@
 		"column": 119,
 		"row": 1,
 		"uniques": ["Only available <when [Dinosaur]>","[+10]% Strength <vs [non-[Quadrupedal]] units>"],
-		"unitTypes": ["Reptiles","Glider","Water Reptiles"],
+		"unitTypes": ["Theropoda","Sauropoda"],
 	},
 	{
 		"name": "Large Body III", // Only Work for Giganotosaurus
@@ -908,7 +887,7 @@
 		"row": 1,
 		// "prerequisites": ["Dinosauria Families"],
 		"uniques": ["Only available <when [Dinosaur]>","[+100]% Strength <vs [Land Arthropod] units>","Can only heal by pillaging","All healing effects doubled","Herbivore","[+20]% Strength <vs cities>"],
-		"unitTypes": ["Reptiles"],
+		"unitTypes": ["Amphibia","Theropoda","Synapsida","Eutheria","Hominidae","Hominini"],
 	},
 	*/
 	// Aquatic Organisms Swimming Types
