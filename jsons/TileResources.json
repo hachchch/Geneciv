@@ -90,7 +90,7 @@
 		"revealedBy": "Progymnosperm",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains","Tundra","Hill"]
-		"improvedBy": ["Spore Tree","Forests","Lumber mill"],
+		"improvedBy": ["Spore Tree","Forests"],
 		"improvementStats": {"production": 2, "food": 1},
 		"uniques": ["Generated on every [8] tiles <in [Featureless] [Plains] tiles>", // Savanna Forest
 			"Generated on every [14] tiles <in [Fresh water] [Plains] tiles>",
@@ -172,7 +172,7 @@
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Plains"]
 		"food": 1,
-		"improvedBy": ["Hunting Spot", "Pasture"],
+		"improvedBy": ["Hunting Spot"],
 		"improvementStats": {"food": 1},
 	},
 	{
@@ -190,7 +190,7 @@
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland","Hill"]
 		"food": 1,
-		"improvedBy": ["Hunting Spot", "Pasture"],
+		"improvedBy": ["Hunting Spot"],
 		"improvementStats": {"food": 1},
 	},
 	{
@@ -206,7 +206,7 @@
 		"name": "Stone",
 		"revealedBy": "Primordial Soup",
 		"resourceType": "Bonus",
-		"improvement": "Quarry",
+		"improvement": "GrassLand",
                 "terrainsCanBeFoundOn": ["Hill","Snow","Plains"]
 		"production": 2,
 	},
@@ -234,7 +234,7 @@
 		"revealedBy": "Fern",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
 		"production": 1,
-		"improvement": "Mine",
+		"improvement": "GrassLand",
 		"improvementStats": {"production": 1},
 		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
@@ -254,7 +254,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["GrassLand", "Plantation"]
+		"improvedBy": ["GrassLand"]
 	},
 	{
 		"name": "Dyes",
@@ -262,7 +262,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvedBy": ["GrassLand", "Plantation"]
+		"improvedBy": ["GrassLand"]
 	},
 	{
 		"name": "Incense",
@@ -270,7 +270,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["GrassLand", "Plantation"]
+		"improvedBy": ["GrassLand"]
 	},
 	{
 		"name": "Ivory",
@@ -287,7 +287,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvedBy": ["Forests", "Plantation"]
+		"improvedBy": ["Forests"]
 	},
 	{
 		"name": "Spices",
@@ -295,7 +295,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvedBy": ["GrassLand", "Plantation"]
+		"improvedBy": ["GrassLand"]
 	},
 	{
 		"name": "Sugar",
@@ -303,7 +303,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland"],
 		"gold": 2,
-		"improvedBy": ["GrassLand", "Plantation"]
+		"improvedBy": ["GrassLand"]
 	},
 	{
 		"name": "Whales",
@@ -311,70 +311,27 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone"],
 		"food": 1,
-		"improvement": "Fishing Boats",
+		"improvement": "Brown Algae",
 		"improvementStats": {"food": 1},
 		"gold": 1,
-	},
-	{
-		"name": "Faunas",
-		"resourceType": "Strategic",
-		"revealedBy": "Biology",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Grassland","Plains","Hill"],
-		"improvement": "Mine",
-		"improvementStats": {"culture": 20},
-		"uniques": ["Minor deposits generated with weight [20] <in [Featureless] [Desert] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
-	},
-	{
-		"name": "Aluminum",
-		"resourceType": "Strategic",
-		"revealedBy": "Electricity",
-		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow"],
-		"production": 10,
-		"improvement": "Mine",
-		"improvementStats": {"production": 10},
-		"uniques": ["Generated with weight [8] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [8] <in [Featureless] [Snow] tiles>",
-					"Generated with weight [15] <in [Hill] tiles>",
-					"Minor deposits generated with weight [5] <in [Featureless] [Desert] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
-	},
-	{
-		"name": "Aruminiumu",
-		"resourceType": "Strategic",
-		"revealedBy": "Electricity",
-		"uniques": ["Excluded from map editor"],
 	},
 	{
 		"name": "Pearls",
 		"revealedBy": "Modern Ocean",
 		"resourceType": "Luxury",
-		"improvement": "Fishing Boats",
+		"improvedBy": ["Soft Coral","Blue Coral","Stony Coral"],
 		"improvementStats": {"food": 1},
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 	},
 	{
-		"name": "Horses",
-		"resourceType": "Strategic",
-		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
-		"production": 10,
-		"improvement": "Pasture",
-		"improvementStats": {"production": 10},
-		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	{
 		"name": "Iron",
 		"resourceType": "Strategic",
-		"revealedBy": "Iron Working",
+		"revealedBy": "Planet Earth",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
 		"production": 10,
 		"improvementStats": {"production": 10},
-		"improvement": "Mine",
+		"improvement": "GrassLand",
 		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	}
