@@ -31,7 +31,9 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Particle","Virus","Bacteria","Archaea","Eukaryota","Fungi","Jellyfish","Platyzoa","Proarticulata","Dinocaridida","Cephalopoda","Artiopoda","Pancrustacea","Chelicerata","Hexapoda","Myriapoda","Decapoda","Gecarcinidae","Chordata","Agnatha","Gnathostomata","Chondrichthyes","Actinopterygii","Sarcopterygii"],
+		"unitTypes": ["Particle","Virus","Bacteria","Archaea","Eukaryota","Fungi","Jellyfish","Platyzoa","Proarticulata","Dinocaridida","Cephalopoda","Artiopoda","Pancrustacea","Chelicerata","Hexapoda","Myriapoda","Decapoda","Gecarcinidae","Chordata","Agnatha","Gnathostomata","Chondrichthyes","Actinopterygii","Sarcopterygii",
+		"Amphibia","Parareptilia","Sauria","Squamata","Mesosauridae","Ichthyosauromorpha","Sauropterygia","Mosasauridae","Pantestudines","Cryptodira","Theropoda","Pterosauria","Ornithischia","Sauropoda","Protoavis","Aves","Neoaves",
+		"Synapsida","Cynodontia","Eutheria","Placentalia","Carnivora","Ungulate","Cetacea","Chiroptera","Domesticated","Primates","Hominidae","Hominini","Airplanes","Ships"],
 		"row": 1,
 		"column": 0,
 	},
