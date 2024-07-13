@@ -339,7 +339,6 @@
 			},
 		]
 	},
-	// Cambrian Entities
 	{
 		"name": "Trilobites",
 		"unitType": "Artiopoda",
@@ -464,6 +463,50 @@
 			},
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Hallucigenia",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Eurypterid",
+		"unitType": "Artiopoda",
+		"cost": 250,
+		"strength": 32,
+		"obsoleteTech": "Plesiosaur",
+		"movement": 2,
+		"requiredTech": "Bilateria",
+		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
+				"imageSize": 192
+			},
+		]
+	},
+	{
+		"name": "Horseshoe Crab",
+		"unitType": "Artiopoda",
+		"cost": 250,
+		"strength": 32,
+		"obsoleteTech": "Plesiosaur",
+		"movement": 2,
+		"requiredTech": "Bilateria",
+		"uniques": ["[+25]% Strength <after discovering [Predation]>","Cambrian","Only available <after adopting [Diversity]>","Jawless","[+45]% Strength <vs [Predator] units> <when attacking>",
+			"[-1] Sight <before discovering [Pigment Spot]>","[+1] Sight <after discovering [Eye]>"],
+		"attackSound": "Splash",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Crustacean",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Crustacean",
 				"imageSize": 192
 			},
 		]
