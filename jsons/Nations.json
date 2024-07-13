@@ -283,7 +283,7 @@
 		"declaringWar": "",
 		"attacked": "",
 		"outerColor": [73,120,65],
-		"innerColor": [227,202,0],
+		"innerColor": [255,230,230],
 		"cities": ["Krasnoyarsk Stolby","Tunguska","Upper Taz","Denezhkin Kamen","Ilmen","Little Sosva","Pripyshminskiye Bory","Yugansky","Olyokma","Magadan"],
 		"uniqueName": "Zapovednik Nature Preservation",
 		"uniques": ["Europe","[+1 Culture, +1 Food, +1 Production] from [{Tundra}{Forests}] tiles [in all cities]"],
