@@ -286,7 +286,7 @@
 		"innerColor": [227,202,0],
 		"cities": ["Krasnoyarsk Stolby","Tunguska","Upper Taz","Denezhkin Kamen","Ilmen","Little Sosva","Pripyshminskiye Bory","Yugansky","Olyokma","Magadan"],
 		"uniqueName": "Zapovednik Nature Preservation",
-		"uniques": ["Europe","[+1 Culture, +1 Food, +1 Produciton] from [{Tundra}{Forests}] tiles [in all cities]"],
+		"uniques": ["Europe","[+1 Culture, +1 Food, +1 Production] from [{Tundra}{Forests}] tiles [in all cities]"],
 	},
 	{
 		"name": "Clan of Sapiens",
