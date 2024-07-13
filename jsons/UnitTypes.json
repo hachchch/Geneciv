@@ -81,6 +81,16 @@
 		"movementType": "Land",
 		"uniques": ["Worm"]
 	},
+	{
+		"name": "Decapoda",
+		"movementType": "Water",
+		"uniques": ["Shrimp"]
+	},
+	{
+		"name": "Gecarcinidae",
+		"movementType": "Land",
+		"uniques": ["Crab"]
+	},
 	/*Chordates class*/
 	{
 		"name": "Chordata",
@@ -135,18 +145,28 @@
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"],
 	},
 	{
-		"name": "Sauria",
-		"movementType": "Land",
-		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
-			"[-10]% Strength <when fighting in [Coastal] tiles>",
-			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+		"name": "Mesosauridae",
+		"movementType": "Water"
 	},
 	{
-		"name": "Archosauriformes",
-		"movementType": "Land",
-		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
-			"[-10]% Strength <when fighting in [Coastal] tiles>",
-			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+		"name": "Ichthyosauromorpha",
+		"movementType": "Water"
+	},
+	{
+		"name": "Sauropterygia",
+		"movementType": "Water"
+	},
+	{
+		"name": "Mosasauridae",
+		"movementType": "Water"
+	},
+	{
+		"name": "Pantestudines",
+		"movementType": "Water"
+	},
+	{
+		"name": "Cryptodira",
+		"movementType": "Land"
 	},
 	{
 		"name": "Theropoda",
@@ -163,11 +183,33 @@
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
 	},
 	{
+		"name": "Ornithischia",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
+			"[-10]% Strength <when fighting in [Coastal] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
 		"name": "Sauropoda",
 		"movementType": "Land",
 		"uniques": ["Metazoan","[-30]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
 			"[-10]% Strength <when fighting in [Coastal] tiles>",
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Protoavis",
+		"uniques": ["Metazoan","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Birds","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <after discovering [Lung]> <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
+		"movementType": "Land"
+	},
+	{
+		"name": "Aves",
+		"uniques": ["Metazoan","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Birds","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <after discovering [Lung]> <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
+		"movementType": "Land"
+	},
+	{
+		"name": "Neoaves",
+		"movementType": "Air",
+		"uniques": ["Metazoan","[+3] Sight","Instantly consumes [1] [Oxygen] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end> <after discovering [Lung]>"],
 	},
 	/*Mammal-like and Mammalia class*/
 	{
@@ -178,6 +220,12 @@
 	},
 	{
 		"name": "Cynodontia",
+		"movementType": "Land",
+		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
+			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Eutheria",
 		"movementType": "Land",
 		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
@@ -202,9 +250,18 @@
 	},
 	{
 		"name": "Cetacea",
+		"uniques": ["Metazoan","Mammal","Can enter ice tiles","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
 		"movementType": "Water",
-		"uniques": ["Metazoan","[-25]% Strength <when fighting in [Desert] tiles>","[-25]% Strength <when fighting in [Snow] tiles>",
-			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
+	},
+	{
+		"name": "Chiroptera",
+		"movementType": "Land",
+		"uniques": ["Metazoan","Mammal","May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
+	},
+	{
+		"name": "Domesticated",
+		"movementType": "Land",
+		"uniques": ["Mammal"]
 	},
 	{
 		"name": "Primates",
@@ -213,83 +270,12 @@
 			"Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>"]
 	},
 	{
-		"name": "Chordata",
-		"movementType": "Water",
-		"uniques": ["Metazoan","Fishes","Can enter ice tiles"]
-	},
-	{
-		"name": "Sarcopterygii",
-		"movementType": "Water",
-		"uniques": ["Metazoan","Fishes","Can enter ice tiles"]
-	},
-	{
-		"name": "Teleostei",
-		"movementType": "Water",
-		"uniques": ["Metazoan","Fishes","Can enter ice tiles"]
-	},
-	{
-		"name": "Hominiae",
+		"name": "Hominidae",
 		"movementType": "Land",
 		"uniques": ["Metazoan","Mammal","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","[+10] HP when healing <in [Forests] tiles>","[-12]% Strength <when fighting in [Tundra] tiles>","[-25]% Strength <when fighting in [Snow] tiles>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
 	},
 	{
-		"name": "Water Mammal",
-		"uniques": ["Metazoan","Mammal","Can enter ice tiles","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
-		"movementType": "Water",
-	},
-	{
-		"name": "Air Mammal",
-		"movementType": "Land",
-		"uniques": ["Metazoan","Mammal","May Paradrop up to [9] tiles from inside friendly territory","Can pass through impassable tiles","Ignores terrain cost","Ignores Zone of Control","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>"],
-	},
-	{
-		"name": "Glider",
-		"movementType": "Air",
-		"uniques": ["Metazoan","Instantly consumes [1] [Oxygen] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end> <after discovering [Lung]>"]
-	},
-	{
-		"name": "Birds",
-		"movementType": "Air",
-		"uniques": ["Metazoan","[+3] Sight","Instantly consumes [1] [Oxygen] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end>","Instantly provides [1] [Atmosphere] <upon turn end> <after discovering [Lung]>"],
-	},
-	{
-		"name": "Water Animal",
-		"movementType": "Water",
-		"uniques": ["Metazoan","Can enter ice tiles","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"]
-	},
-	{
-		"name": "Agnatha",
-		"movementType": "Water",
-		"uniques": ["Metazoan"]
-	},
-	{
-		"name": "Gnathostomata",
-		"movementType": "Water",
-		"uniques": ["Metazoan","Instantly consumes [1] [Oxygen] <upon ending a turn in a [Water] tile>",
-		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [Water] tile>","Instantly provides [1] [Atmosphere] <after discovering [Gills]> <upon ending a turn in a [Water] tile>","Can enter ice tiles"]
-	},
-	{
-		"name": "Dinocaridida",
-		"movementType": "Water",
-		"uniques": ["Metazoan","Can enter ice tiles","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Water] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Water] tile>"]
-	},
-	{
-		"name": "Hexapoda",
-		"movementType": "Land",
-		"uniques": ["Metazoan","This Unit takes [35] damage <upon ending a turn in a [Water] tile>","Instantly consumes [1] [Atmosphere] <upon ending a turn in a [Land] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [Land] tile>"]
-	},
-	{
-		"name": "Aves",
-		"uniques": ["Metazoan","Unable to pillage tiles <when [non-[Herbivore]]> <in [GrassLand] tiles>","Birds","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <after discovering [Lung]> <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>"], // Includes Flying Birds. but It means Land Birds(Except Avemetatarsalias) in this mod
-		"movementType": "Land"
-	},
-	{
-		"name": "Domesticated",
-		"movementType": "Land",
-		"uniques": ["Mammal"]
-	},
-	{
-		"name": "Human",
+		"name": "Hominini",
 		"movementType": "Land",
 		"uniques": ["Metazoan","Mammal","Unable to pillage tiles <before discovering [Fire]> <in [GrassLand] tiles>","[-9]% Strength <when fighting in [Tundra] tiles> <before discovering [Fire]>","[-25]% Strength <when fighting in [Snow] tiles> <before discovering [Fire]>",
 		"Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile>","Instantly provides [1] [Atmosphere] <upon ending a turn in a [All] tile> <after discovering [Lung]>","Instantly consumes [1] [Oxygen] <upon ending a turn in a [All] tile>"],
