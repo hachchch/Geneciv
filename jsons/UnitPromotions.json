@@ -31,7 +31,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP","Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Aves","Amphibia","Birds","Fishes","Glider","Herbivore","Hominiae","Mammal","Particle","Reptiles","Water Animal","Water Arthropod","Land Arthropod","Water Mammal","Water Reptiles","Human"],
+		"unitTypes": ["Particle","Virus","Bacteria","Archaea","Eukaryota","Fungi","Jellyfish","Platyzoa","Proarticulata","Dinocaridida","Cephalopoda","Artiopoda","Pancrustacea","Chelicerata","Hexapoda","Myriapoda","Decapoda","Gecarcinidae","Chordata","Agnatha","Gnathostomata","Chondrichthyes","Actinopterygii","Sarcopterygii"],
 		"row": 1,
 		"column": 0,
 	},
