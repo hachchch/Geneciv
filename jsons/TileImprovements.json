@@ -37,7 +37,7 @@
 	{
 		"name": "Lichen",
 		"shortcutKey": "L",
-		"techRequired": "Spore Plant",
+		"techRequired": "Bryophyte",
 		"production": 1,
 		"uniques": ["Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 		"terrainsCanBeBuiltOn": ["Desert","Tundra","Grassland","Plains","Hill"],
@@ -55,7 +55,7 @@
 	{
 		"name": "Liverworts",
 		"shortcutKey": "L",
-		"techRequired": "First Plant",
+		"techRequired": "Streptophyte",
 		"food": 1,
 		"uniques": ["Costs [1] [Gold] per turn","Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
@@ -73,7 +73,7 @@
 	{
 		"name": "GrassLand",
 		"shortcutKey": "G",
-		"techRequired": "Charophyte",
+		"techRequired": "Fern",
 		"food": 1,
 		"uniques": ["Costs [1] [Gold] per turn","Vegetation","Provides [1] [Biomass]","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 		"terrainsCanBeBuiltOn": ["Flood plains","Tundra","Grassland","Plains","Hill"],
@@ -100,7 +100,7 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"food": -1
-		"techRequired": "Coral",
+		"techRequired": "Cnidaria",
 		"uniques": ["Coral","Can only be built to improve a resource","Cambrian","[+1 Gold] <after discovering [Modern Ocean]>","Provides [4] [Biomass]"],
 	},
 	{
@@ -118,7 +118,7 @@
 		],
 		"turnsToBuild": 7,
 		"food": 1,
-		"techRequired": "Chloroplasts",
+		"techRequired": "Green Algae",
 		"uniques": ["Algae","Proterozoic","[+1 Food] <after discovering [Modern Ocean]>","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]"],
 	},
 	{
@@ -126,7 +126,7 @@
 		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone"],
 		"turnsToBuild": 7,
 		"gold": 1,
-		"techRequired": "Radial Algae",
+		"techRequired": "Red Algae",
 		"uniques": ["Algae","Proterozoic","[+1 Gold] <after discovering [Modern Ocean]>","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]",
 		"[+2 Gold] <in [Atoll] tiles>",
 		"[+1 Gold] <in [Neritic zone] tiles>"],
@@ -146,7 +146,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"turnsToBuild": 7,
 		"food": 2,
-		"techRequired": "Charophyte",
+		"techRequired": "Streptophyte",
 		"uniques": ["Algae","Paleogene","[+1 Food] <after discovering [Modern Ocean]>","Consumes [1] [Atmosphere]","Provides [1] [Oxygen]","Provides [1] [Biomass]"],
 	},
 	{
@@ -172,30 +172,16 @@
 		"turnsToBuild": 7,
 		"replaces": "Green Algae",
 		"food": 2,
-		"techRequired": "Chloroplasts",
+		"techRequired": "Cnidaria",
 		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone","Epipelagic zone","Aphotic zone","Mesopelagic zone","Bathypelagic zone","Abyssopelagic zone"],
 		"uniques": ["Coral","Proterozoic","Provides [1] [Oxygen]"],
 	},
-	/*
-	{
-		"name": "Pennatulacean Forest",
-		"uniqueTo": "Ediacara",
-		"food": 2,
-		"replaces": "Green Algae",
-		"turnsToBuild": 5,
-		"techRequired": "Chloroplasts",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["Algae","Proterozoic","Provides [1] [Oxygen]"],
-	},
-	*/
 	{
 		"name": "Stromatolites",
-		"uniqueTo": "Stromatolite",
 		"terrainsCanBeBuiltOn": ["Intertidal zone","Neritic zone","Coast","Photic zone","Epipelagic zone"],
 		"production": 1,
-		"replaces": "Stony Coral",
 		"turnsToBuild": 7,
-		"techRequired": "Mitochondria",
+		"techRequired": "Cyanobacteria",
 		"uniques": ["Archean","Provides [2] [Oxygen]"],
 	},
 	// Others
