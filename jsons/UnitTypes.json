@@ -250,15 +250,6 @@
 	},
 	/*Civilization class*/
 	{
-		"name": "Civilian",
-		"movementType": "Land",
-	},
-	{
-		"name": "Civilian Water",
-		"movementType": "Water",
-		"uniques": ["Can enter ice tiles"]
-	},
-	{
 		"name": "Airplanes",
 		"movementType": "Air",
 		"uniques": ["Mammal","Human","Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
@@ -267,5 +258,15 @@
 		"name": "Ships",
 		"movementType": "Water",
 		"uniques": ["Mammal","Human"]
+	},
+	/*Others*/
+	{
+		"name": "Civilian",
+		"movementType": "Land",
+	},
+	{
+		"name": "Civilian Water",
+		"movementType": "Water",
+		"uniques": ["Can enter ice tiles"]
 	}
 ]
