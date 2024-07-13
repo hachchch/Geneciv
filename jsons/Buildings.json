@@ -60,7 +60,7 @@
 	*/
 	{
 		"name": "Cyanobacteria", // Pilbara
-		"requiredTech": "Mitochondria",
+		"requiredTech": "Cyanobacteria",
 		"uniqueTo": "Pilbara",
 		"replaces": "Endosymbiont",
 		"cost": 50,
@@ -111,7 +111,7 @@
 		"production": 2,
 		"culture": 1,
 		"gold": 2,
-		"requiredTech": "Coral",
+		"requiredTech": "Cnidaria",
 		"uniques": ["Cambrian","[+1 Production] from [Coastal] tiles [in this city]","Must be next to [Coastal]"]
 	},
 	{
@@ -121,7 +121,7 @@
 		"science": 3,
 		"culture": 2,
 		"maintenance": 1,
-		"requiredTech": "Coral",
+		"requiredTech": "Ecdysis",
 		"uniques": ["Only available <starting from the [Silurian period]>","Must be next to [Coast]"]
 		"specialistSlots": {"Creature": 1},
 	},
@@ -159,7 +159,7 @@
 		"cityStrength": 5,
                 "cityHealth": 50,
 		"maintenance": 1,
-		"requiredTech": "Tissue",
+		"requiredTech": "Animals",
 	},
 	{
 		"name": "Hair Follicle",
@@ -198,7 +198,7 @@
                 "cityHealth": 50,
 		"maintenance": 1,
 		"specialistSlots": {"Creature": 1},
-		"requiredTech": "Land Arthropod",
+		"requiredTech": "Invertebrate Landing",
 		"production": 3,
 		// "cost": 350,
 		"uniques": ["Bugs","[+5]% [Production] [in all cities]"]
@@ -329,33 +329,23 @@
 		"food": 6,
 		"culture": 2,
 		"isWonder": true,
-		"requiredTech": "Vertebrate",
+		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian"],
 		"quote": "One of the most distinctive characters of Opabinia is the hollow proboscis, whose total length was about one-third that of the body, and projected down from under the head. It looked so strange that the audience at the first presentation of Whittington's analysis laughed. Also, Opabinia has 5 compound eyes.",
 	},
 	{
 		"name": "Kerygmachela",
 		"food": 2,
-		"requiredTech": "Vertebrate",
+		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian"],
 	},
 	{
 		"name": "Kylinxia",
 		"science": 2,
-		"requiredTech": "Vertebrate",
+		"requiredTech": "Radiodonta",
 		"uniques": ["Cambrian"],
 	},
 	// Swimming Types
-	{
-		"name": "Milky Sea",
-		"production": 2,
-		"gold": 2,
-		"requiredTech": "Swimming",
-		"uniques": [
-			"Must be next to [Water]",
-			"All newly-trained [Jellyfish] units [in this city] receive the [Plankton] promotion",
-		"All newly-trained [Flatworm] units [in this city] receive the [Plankton] promotion"],
-	},
 	{
 		"name": "Sea Floor Life",
 		"culture": 2,
@@ -386,7 +376,7 @@
 	{
 		"name": "Nektonic Predation",
 		"gold": 1,
-		"requiredTech": "Vertebrate",
+		"requiredTech": "Swimming",
 		"uniques": ["All newly-trained [Fishes] units [in this city] receive the [Nekton] promotion",
 		"All newly-trained [Modern Fishes] units [in this city] receive the [Nekton] promotion",
 		"All newly-trained [Water Arthropod] units [in this city] receive the [Nekton] promotion",
@@ -433,14 +423,6 @@
 		"requiredTech": "Plated Armour",
 		"quote": "Placoderms were also the first fish to develop pelvic fins, the precursor to hindlimbs in tetrapods, as well as true teeth.(reference thesis 'Development of teeth and jaws in the earliest jawed vertebrates')",
 	},
-	{
-		"name": "Agnatha",
-		"science": 2,
-		"maintenance": 1,
-		"requiredTech": "Vertebrate",
-		"uniques": ["Must be next to [Water]"]
-		"specialistSlots": {"Creature": 1},
-	},
 	// Devonian
 	{
 		"name": "Actinopterygii",
@@ -457,7 +439,7 @@
 	// Devonian-Carboniferous Flora
 	{
 		"name": "Lycophyte",
-		"requiredTech": "Vascular Plant",
+		"requiredTech": "Vascular",
 		"production": 2,
 		"maintenance": 2,
 		// "requiredBuilding": "Shrub",
@@ -501,7 +483,7 @@
 		"isWonder": true,
 		"culture": 3,
 		"gold": 3,
-		"requiredTech": "Sponge",
+		"requiredTech": "Porifera",
 		"uniques": ["Empire enters golden age"]
 	},
 	{
@@ -632,8 +614,8 @@
 		"cityStrength": 8,
                 "cityHealth": 20,
 		// "cost": 375,
-		"isWonder": true
-		"requiredTech": "Eukaryotic Cell",
+		"isWonder": true,
+		"requiredTech": "Eukaryota",
 		"uniques": ["New [Land] units start with [15] Experience [in all cities]"],
 		"quote": "In cell biology, the cytoplasm describes all material within a eukaryotic cell, enclosed by the cell membrane, except for the cell nucleus. The material inside the nucleus and contained within the nuclear membrane is termed the nucleoplasm. The main components of the cytoplasm are the cytosol, the organelles, and various cytoplasmic inclusions. The cytoplasm is about 80% water and is usually colorless.",
 	},
@@ -688,15 +670,6 @@
 		"requiredTech": "The Culture",
 	},
 	{
-		"name": "Hōryū Ji",
-		// "cost": 9000,
-		"isWonder": true,
-		"culture": 16,
-		"uniques": ["[+1 Culture] per every [8] [Faith]"],
-		"requiredTech": "Philosophy",
-		"quote": "Hōryū Ji was originally commissioned by Shōtokutaishi at the time it was called Wakakusadera, a name that is still sometimes used. This first temple is believed to have been completed by 607. Hōryū-ji was dedicated to Yakushi Nyorai, the Buddha of healing and in honor of the prince's father.",
-	},
-	{
 		"name": "Ammonoids",
 		// "cost": 1000,
 		"culture": 2,
@@ -708,7 +681,7 @@
 	{
 		"name": "Psilophyton",
 		"isWonder": true,
-		"requiredTech": "Vascular Plant",
+		"requiredTech": "Vascular",
 		"uniques": ["Provides [29] [Biomass]","[+20]% [Science] from every [Vascular]"]
 	},
 	{
@@ -720,7 +693,7 @@
 	},
 	{
 		"name": "Brontoscorpio",
-		"requiredTech": "Land Arthropod",
+		"requiredTech": "Invertebrate Landing",
 		"isWonder": true,
 		"science": 3,
 		"gold": 3,
@@ -736,7 +709,7 @@
 	{
 		"name": "Alveolate",
 		"isWonder": true,
-		"requiredTech": "Eukaryotic Cell",
+		"requiredTech": "Eukaryota",
 		"science": 4,
 	},
 	{
@@ -934,12 +907,12 @@
 		"name": "Symbiogenesis",
 		"isWonder": true,
 		"science": 3,
-		"requiredTech": "Mitochondria", 
+		"requiredTech": "Proteobacteria", 
 		"uniques": ["[+15]% [Science]"]
 	},
 	{
 		"name": "Carapace",
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Ecdysis",
 		"isWonder": true,
 		"Culture": 2,
 		"uniques": ["[+35]% Strength <for [Water Arthropod] units> <when defending>"]
@@ -950,7 +923,7 @@
 		"specialistSlots": {"Creature": 2},
 		"culture": 1,
 		"maintenance": 3,
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Molluscs",
 		"uniques": ["Only available <in cities without a [Helcionelloida]>","Cambrian"]
 	},
 	{
@@ -958,16 +931,8 @@
 		"specialistSlots": {"Creature": 1},
 		"culture": 3,
 		"maintenance": 3,
-		"requiredTech": "Exoskeleton",
+		"requiredTech": "Molluscs",
 		"uniques": ["Only available <in cities without a [Monoplacophora]>","Cambrian"]
-	},
-	{
-		"name": "Cephalopoda",
-		"specialistSlots": {"Creature": 1},
-		"culture": 2,
-		"maintenance": 1,
-		"requiredTech": "Exoskeleton",
-		"uniques": ["Cambrian"]
 	},
 	{
 		"name": "Polychaetes",
@@ -1094,9 +1059,9 @@
 	},
 	// Embryophyte
 	{
-		"name": "Vascular",
+		"name": "Vascular Plant",
 		"requiredBuilding": "Land Algae",
-		"requiredTech": "Vascular Plant",
+		"requiredTech": "Vascular",
 		"gold": 4,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>"]
 	},
@@ -1121,7 +1086,7 @@
 		"specialistSlots": {"Vegetation": 1},
 		"maintenance": 1,
 		"food": 2,
-		"requiredTech": "First Plant",
+		"requiredTech": "Streptophyta",
 		"uniques": ["Free [Vegetation] appears <in cities with a [Littoral Environment]> <for [AI player]> <hidden from users>","[+1 Food] from [Fresh Water] tiles [in this city]","Only available <in cities without a [Sea Environment]> <hidden from users>"]
 	},
 	{
@@ -1140,7 +1105,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
 		"uniques": ["Must be next to [Fresh water]"],
-		"requiredTech": "Spore Plant",
+		"requiredTech": "Bryophyte",
 	},
 	{
 		"name": "Thorax",
@@ -1160,14 +1125,14 @@
 		"cost": 50,
 		"requiredBuilding": "Chemical Synthesis",
 		"gold": 3,
-		"requiredTech": "Mitochondria",
+		"requiredTech": "Cyanobacteria",
 	},
 	{
 		"name": "Endosymbiont",
 		"requiredBuilding": "Enzymes",
 		"maintenance": 2,
 		"production": 3,
-		"requiredTech": "Mitochondria",
+		"requiredTech": "Eukaryota",
 	},
 	{
 		"name": "Enzymes",
@@ -1196,7 +1161,14 @@
 		"requiredTech": "Protein",
 	},
 	{
+		"name": "Coacervation",
+		"maintenance": 1,
+		"science": 1,
+		"requiredTech": "Amino Acid"
+	},
+	{
 		"name": "Polypeptides",
+		"requiredBuilding": "Coacervation",
 		"science": 1,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
@@ -1207,13 +1179,19 @@
 		"requiredBuilding": "RNA",
 		"food": 2,
 		"maintenance": 1,
-		"requiredTech": "DNA",
+		"requiredTech": "DNA"
 	},
 	{
 		"name": "Flagellum",
 		"maintenance": 1,
+		"gold": 3,
+		"requiredTech": "Bacteria"
+	},
+	{
+		"name": "Glycoprotein",
+		"maintenance": 1,
 		"food": 2,
-		"requiredTech": "Nucleus",
+		"requiredTech": "Bacteria"
 	},
 	{
 		"name": "Ribosomes",
@@ -1236,30 +1214,15 @@
 		"maintenance": 2,
 		"production": 2,
 		"uniques": ["Must be next to [Coast]","[+1 Production] from [Atoll] tiles [in this city]"],
-		"requiredTech": "Coral",
+		"requiredTech": "Porifera",
 	},
 	{
 		"name": "Photosynthesis",
 		"maintenance": 2,
 		"specialistSlots": {"Vegetation": 1},
-		"requiredTech": "Chloroplasts",
+		"requiredTech": "Cyanobacteria",
 		"production": 2,
 		"uniques": ["[+1 Production] from [Atoll] tiles [in this city]"],
-	},
-	{
-		"name": "Proteobacteria",
-		"maintenance": 1,
-		"food": 2,
-		"requiredTech": "Prokaryotic Cell",
-		"uniques": ["Must be on [Water]"]
-	},
-	{
-		"name": "Fungi",
-		"maintenance": 1,
-		"specialistSlots": {"Meristem": 1},
-		"requiredTech": "Tissue",
-		"gold": 2,
-		"food": 1
 	},
 	{
 		"name": "Muscles",
@@ -1281,20 +1244,13 @@
 	{
 		"name": "Soil",
 		"maintenance": 1,
-		"requiredTech": "Tissue",
+		"requiredTech": "Bacteria",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Must not be next to [Coastal]",
 			"Costs [100] [Oxygen]",
 			"[+1 Food] from [Land] tiles [in this city]",
 			"Only available <when above [99] [Oxygen]> <hidden from users>"]
 	},
 	// After Jellyfish
-	{
-		"name": "Radial Symmetry",
-		"requiredBuilding": "Polypeptides",
-		"science": 2,
-		"percentStatBonus": {"science": 25},
-		"requiredTech": "Radial Symmetry",
-	},
 	{
 		"name": "Blood Pump",
 		"requiredBuilding": "Muscles",
@@ -1303,24 +1259,11 @@
 		"production": 2,
 		"requiredTech": "Heart",
 	},
-	{
-		"name": "Vertebrate",
-		"specialistSlots": {"Creature": 1},
-		// "cost": 135,
-		"uniques": ["Limited to [2] per Civilization","Unbuildable <in cities with a [Palace]> <hidden from users>","[+25]% Production towards any buildings that already exist in the Capital"],
-		"requiredTech": "Vertebrate",
-	},
-	{
-		"name": "Bilateral Symmetry",
-		"requiredBuilding": "Radial Symmetry",
-		"science": 3,
-		"percentStatBonus": {"science": 25},
-		"requiredTech": "Bilateral Symmetry",
-	},
+	/*
 	{
 		"name": "Unit Radiodonta",
 		"cost": 95,
-		"uniques": ["Remove [Radiodonta] [in this city] <before discovering [Exoskeleton]>","Only available <after discovering [Articulation]> <in cities with a [Aphotic Environment]>","Free [Radiodonta] appears <hidden from users>"]
+		"uniques": ["Remove [Radiodonta] [in this city] <before discovering [Exoskeleton]>","Only available <after discovering [Radiodonta]> <in cities with a [Aphotic Environment]>","Free [Radiodonta] appears <hidden from users>"]
 	},
 	{
 		"name": "Unit Crustacean",
@@ -1332,6 +1275,7 @@
 		"cost": 150,
 		"uniques": ["Remove [Fish] [in this city] <before discovering [Predation]>","Only available <after discovering [Fish]> <in cities with a [Aphotic Environment]>","Free [Fish] appears <hidden from users>"]
 	},
+	*/
 	// General
 	{
 		"name": "Otavia Antiqua",
@@ -1339,6 +1283,7 @@
 		"food": 2,
 		// "science": 1,
 		"gold": 1,
+		"requiredTech": "Animals",
 		"uniques": ["Unbuildable","[+1] population [in this city]","Destroyed when the city is captured"],
 	},
 	{
@@ -1432,7 +1377,7 @@
 		"name": "Polyp",
 		"food": 1,
 		"isWonder": true,
-		"requiredTech": "Radial Symmetry",
+		"requiredTech": "Swimming",
 		"uniques": ["Must be next to [Coast]","[4] free [Strobila] units appear"]
 	},
 	{
@@ -1446,55 +1391,22 @@
 		"production": 1,
 		"food": 2,
 		"isWonder": true,
-		"requiredTech": "Urbanization",
-		"uniques": ["[+50]% [Production] [in all cities] <for [30] turns>"]
+		"requiredTech": "Agriculture",
+		"percentStatBonus": {"food": 50}
 	},
 	{
 		"name": "Hurrian Hymn",
 		"culture": 1,
 		"isWonder": true,
-		"requiredTech": "Writing",
-		"percentStatBonus": {"culture": 33},
-	},
-	{
-		"name": "Early Chemistry",
-		"maintenance": 10,
-		"science": 30,
-		"requiredTech": "Alchemy",
+		"requiredTech": "Agriculture",
+		"percentStatBonus": {"culture": 33}
 	},
 	{
 		"name": "Scleractinia",
-		"requiredBuilding": "Oscula",
 		"gold": 2,
 		"happiness": 2,
 		"cost": 350,
 		"uniques": ["Also known as Stony Coral","Must be next to [Coast]","Unbuildable <before the [Mesozoic era]>"]
-	},
-	{
-		"name": "Chrysopoeia",
-		"gold": 200,
-		"isWonder": true,
-		"requiredTech": "Alchemy",
-	},
-	{
-		"name": "Fireworks Entertainment!",
-		"happiness": 3,
-		"maintenance": 20,
-		"requiredTech": "Gunpowder"
-	},
-	{
-		"name": "Sputnik",
-		"uniques": ["[2] Free Technologies"],
-		"requiredTech": "Satellites"
-	},
-	{
-		"name": "Moon Base",
-		"production": 170,
-		"science": 360,
-		"food": 30,
-		"gold": 1200,
-		"culture": 90,
-		"requiredTech": "Space Adaptation"
 	},
 	{
 		"name": "Hive Mind",
@@ -1516,7 +1428,7 @@
 		"science": 3,
 		"percentStatBonus": {"science": 33},
 		"requiredTech": "Neocortex",
-		"uniques": ["New [Mammal] units start with [15] Experience [in this city]"],
+		"uniques": ["New [Placentalia] units start with [15] Experience [in this city]"],
 	},
 	{
 		"name": "Big Brain",
@@ -1524,7 +1436,7 @@
 		"maintenance": 3,
 		"science": 5,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["New [Human] units start with [15] Experience [in this city]"],
+		"uniques": ["New [Hominini] units start with [15] Experience [in this city]"],
 		"requiredTech": "Homo Heidelbergensis",
 	},
 	{
@@ -1541,10 +1453,9 @@
 		"greatPersonPoints": {"Great Craftsman": 1},
 		"specialistSlots": {"Craftsman": 2},
 		"culture": 8,
-		// "cost": 1550,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
+		"requiredTech": "The Culture",
 		"uniques": ["[+1 Culture] from [Monument] tiles [in this city]"]
 	},
 	{
