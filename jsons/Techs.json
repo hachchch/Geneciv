@@ -992,12 +992,12 @@
 				"name": "Conifer",
 				"row": 2,
 				"uniques": ["[+1 Food, +1 Production] from [Forests] tiles [in all cities]"],
-				"prerequisites": ["Gymnosperm","Insect"]
+				"prerequisites": ["Gymnosperm"]
 			},
 			{
 				"name": "Earthworm",
 				"row": 1,
-				"prerequisites": ["Insect"]
+				"prerequisites": ["Gymnosperm"]
 			},
 			{
 				"name": "Egg Shell",
@@ -1015,7 +1015,7 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Forest Cycle", // Earliest Agaricomycetes (Mushrooms Group) Appear in Permian
+				"name": "Forest Cycle",
 				"row": 1,
 				"prerequisites": ["Conifer","Earthworm"]
 			},
