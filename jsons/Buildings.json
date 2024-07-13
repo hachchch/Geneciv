@@ -117,7 +117,6 @@
 	{
 		"name": "Thylacocephala", // Hirnantian
 		"uniqueTo": "Hirnantian",
-		"replaces": "Agnatha",
 		"science": 3,
 		"culture": 2,
 		"maintenance": 1,
@@ -940,7 +939,6 @@
 		"cityStrength": 7,
                 "cityHealth": 10,
 		"maintenance": 2,
-		"replaces": "Cephalopoda",
 		"uniqueTo": "Burgess",
 		"culture": 2,
 		"requiredTech": "Flatworm",
@@ -1019,14 +1017,6 @@
 		"uniques": ["Unbuildable"]
 	},
 	{
-		"name": "Archaeocyatha",
-		"isWonder": true,
-		"culture": 3,
-		"maintenance": 1,
-		"requiredTech": "Sponge",
-		"uniques": ["Empire enters golden age"]
-	},
-	{
 		"name": "End Of Boring Billion",
 		"cost": 300,
 		"culture": 1,
@@ -1086,7 +1076,7 @@
 		"specialistSlots": {"Vegetation": 1},
 		"maintenance": 1,
 		"food": 2,
-		"requiredTech": "Streptophyta",
+		"requiredTech": "Streptophyte",
 		"uniques": ["Free [Vegetation] appears <in cities with a [Littoral Environment]> <for [AI player]> <hidden from users>","[+1 Food] from [Fresh Water] tiles [in this city]","Only available <in cities without a [Sea Environment]> <hidden from users>"]
 	},
 	{
