@@ -42,7 +42,7 @@
 	{
 		"name": "Biomass",
 		"resourceType": "Strategic",
-		"revealedBy": "Chloroplasts",
+		"revealedBy": "Bacteria",
 		"uniques": [
 			"[-100]% [Science] [in all cities] <when below [1] [Biomass]>","[+100]% [Culture] [in all cities] <when below [1] [Biomass]>",
 			"Cannot be traded","Stockpiled"/*,"Not shown on world screen"*/,"Excluded from map editor"],
@@ -120,7 +120,7 @@
 	},
         {
                 "name": "Atoll",
-		"revealedBy": "Coral",
+		"revealedBy": "Cnidaria",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Coast","Neritic zone","Intertidal zone","Photic zone","Epipelagic zone"],
 		"improvedBy": ["Soft Coral","Blue Coral","Stony Coral"],
@@ -128,7 +128,7 @@
         },
 	{
 		"name": "Sea Pen",
-		"revealedBy": "Sponge",
+		"revealedBy": "Cnidaria",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Aphotic zone","Mesopelagic zone","Bathypelagic zone"],
 		"improvedBy": ["Soft Coral","Charnia Forest"],
@@ -136,7 +136,7 @@
 	},
 	{
 		"name": "Glass Sponge",
-		"revealedBy": "Sponge",
+		"revealedBy": "Porifera",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Abyssopelagic zone","Hadopelagic zone","Demersal zone","Benthic zone"],
 		"improvedBy": ["Soft Coral"],
@@ -144,7 +144,7 @@
 	},
 	{
 		"name": "Marsh",
-		"revealedBy": "Spore Plant",
+		"revealedBy": "Bryophyte",
 		"resourceType": "Bonus",
                 "terrainsCanBeFoundOn": ["Grassland"]
 		"food": -1,
