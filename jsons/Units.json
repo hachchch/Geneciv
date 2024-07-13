@@ -125,19 +125,6 @@
 		"Turn this tile into a [Plains] tile <in [Desert] tiles> <by consuming this unit>"],
 		"hurryCostModifier": 20
 	},
-	// Special Units
-	{
-		"name": "Comet",
-		"unitType": "Disaster",
-		"movement": 1,
-		"strength": 50,
-		"rangedStrength": 50,
-		"range": 12,
-		"cost": 10000,
-		"uniques": ["Unbuildable","Nuclear weapon of Strength [1]",
-			"Blast radius [1]"],
-		// "attackSound": "nuke"
-	},
 	// Boring Billion
 	{
 		"name": "Particles",
