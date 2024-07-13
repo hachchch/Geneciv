@@ -26,30 +26,6 @@
 		]
 	},
 	{
-		"name": "Cyanobacterium",
-		"replaces": "Algae",
-		"uniqueTo": "Pilbara",
-		"unitType": "Civilian Water",
-		"movement": 2,
-		"hurryCostModifier": 20,
-		"uniques": ["Ordovician","Can design water environment (such a Stromatolites)",
-			"Can build [{non-[Charales]} {Algae}] improvements on tiles <in [non-[Unhabitable]] tiles> <hidden from users>","Can build [Coral] improvements on tiles <hidden from users>","Can build [Stromatolites] improvements on tiles <hidden from users>","Automation is a primary action <hidden from users>","[-1] Sight <hidden from users>","No Sight <hidden from users> <for [Human player]> <before discovering [Pigment Spot]>",
-		"Can build [Mangrove Forest] improvements on tiles <within [3] tiles of a [Warm]>",
-		"Can build [Charales] improvements on tiles <in [Fresh water] tiles>"],
-		"cost": 50,
-		"requiredTech": "Cyanobacteria",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Tiles/Green Algae",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Tiles/Green Algae",
-				"imageSize": 192
-			},
-		]
-	},
-	{
 		"name": "Vegetation",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -314,13 +290,13 @@
 	},
 	// Land Arthropod
 	{
-		"name": "Chelicerate",
-		"unitType": "Land Arthropod",
+		"name": "Scorpiones",
+		"unitType": "Chelicerata",
 		"movement": 2,
 		"strength": 18,
 		"cost": 150,
 		"requiredTech": "Invertebrate Landing",
-		"obsoleteTech": "Lungfish",
+		"obsoleteTech": "Vertebrate Landing",
 		// "upgradesTo": "Tetrapod",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","[+25]% Strength <vs cities>","[+100]% Strength <vs [Cell] units>","Can move after attacking","[-1] Sight"],
 		"attackSound": "nonmetalhit",
@@ -339,13 +315,13 @@
 		]
 	},
 	{
-		"name": "Mandibulate",
-		"unitType": "Land Arthropod",
+		"name": "Spider",
+		"unitType": "Chelicerata",
 		"movement": 2,
 		"strength": 18,
 		"cost": 125,
 		"requiredTech": "Invertebrate Landing",
-		"obsoleteTech": "Lungfish",
+		"obsoleteTech": "Vertebrate Landing",
 		// "upgradesTo": "Tetrapod",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","[+25]% Strength <vs cities>","Can move after attacking","[-1] Sight"],
 		"attackSound": "nonmetalhit",
@@ -366,7 +342,7 @@
 	// Cambrian Entities
 	{
 		"name": "Trilobites",
-		"unitType": "Water Arthropod",
+		"unitType": "Artiopoda",
 		"cost": 250,
 		"strength": 32,
 		"obsoleteTech": "Plesiosaur",
@@ -388,7 +364,7 @@
 	},
 	{
 		"name": "Amplectobelua",
-		"unitType": "Water Arthropod",
+		"unitType": "Dinocaridida",
 		"cost": 95,
 		"strength": 24,
 		"obsoleteTech": "Eurypterid",
@@ -410,7 +386,7 @@
 	},
 	{
 		"name": "Hurdiidae",
-		"unitType": "Water Arthropod",
+		"unitType": "Dinocaridida",
 		"cost": 95,
 		"strength": 24,
 		"obsoleteTech": "Eurypterid",
@@ -432,7 +408,7 @@
 	},
 	{
 		"name": "Tamisiocaris",
-		"unitType": "Water Arthropod",
+		"unitType": "Dinocaridida",
 		"cost": 95,
 		"strength": 24,
 		"obsoleteTech": "Eurypterid",
@@ -454,7 +430,7 @@
 	},
 	{
 		"name": "Diania",
-		"unitType": "Water Animal",
+		"unitType": "Dinocaridida",
 		"cost": 100,
 		"strength": 15,
 		"movement": 2,
@@ -474,9 +450,7 @@
 	},
 	{
 		"name": "Hallucigenia",
-		"replaces": "Diania",
-		"uniqueTo": "Burgess",
-		"unitType": "Water Animal",
+		"unitType": "Dinocaridida",
 		"cost": 100,
 		"strength": 19,
 		"movement": 2,
@@ -496,8 +470,8 @@
 	},
 	// Water
 	{
-		"name": "Jellyfish",
-		"unitType": "Water Animal",
+		"name": "True Jellyfish",
+		"unitType": "Jellyfish",
 		"cost": 50,
 		"strength": 15,
 		"rangedStrength": 19,
@@ -526,11 +500,41 @@
 		]
 	},
 	{
+		"name": "Comb Jellyfish",
+		"unitType": "Jellyfish",
+		"cost": 50,
+		"strength": 15,
+		"rangedStrength": 19,
+		"range": 1,
+		"movement": 1,
+		"requiredTech": "Swimming",
+		"obsoleteTech": "Cephalopod",
+		"upgradesTo": "Cephalopod",
+		"uniques": ["[-1] Sight <hidden from users>","Only 1 Sight","Can move after attacking","Limited to [3] per Civilization <for [AI player]> <hidden from users>","This Unit gains the [Asexual Reproduction] promotion <once> <after discovering [Radial Symmetry]> <hidden from users>","Comment [When activate the ability, [Jellyfish] will become [Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion). This unit's ability is available after evolving [Radial Symmetry].]"],
+		"attackSound": "whoo",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Jellyfish",
+				"imageSize": 192
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Something like a coral that wandered the ocean was the first animal. They have poisonous nematocysts like sea anemones.",
+			}
+		]
+	},
+	{
 		"name": "Strobila",
 		"unitType": "Civilian Water",
 		"cost": 49,
 		"requiredTech": "Swimming",
-		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage <upon ending a turn in a [Water] tile>"],
+		"uniques": ["Uncapturable","Cannot move","Unbuildable","[-1] Sight","Free [True Jellyfish] appears <upon ending a turn in a [Water] tile>","This Unit takes [100] damage <upon ending a turn in a [Water] tile>"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Strobila",
@@ -573,7 +577,7 @@
 	},
 	{
 		"name": "Flatworm",
-		"unitType": "Water Animal",
+		"unitType": "Platyzoa",
 		"cost": 100,
 		"strength": 19,
 		"movement": 3,
@@ -593,21 +597,19 @@
 			},
 			{
 				"Separator": true
-			},
+			}
 		]
 	},
 	{
 		"name": "Spriggina",
-		"uniqueTo": "Ediacara",
-		"replaces": "Flatworm",
-		"unitType": "Water Animal",
+		"unitType": "Proarticulata",
 		"cost": 60,
 		"strength": 20,
 		"movement": 2,
 		"obsoleteTech": "Fish",
 		"upgradesTo": "Fish",
 		"requiredTech": "Bilateria",
-		"uniques": ["Neoproterozoic","[+50]% Strength <vs [Neoproterozoic] units>","[-1] Sight <before discovering [Pigment Spot]>"],
+		"uniques": ["Neoproterozoic","[+50]% Strength <vs [Ediacaran] units>","[-1] Sight <before discovering [Pigment Spot]>"],
 		"attackSound": "whoo",
 		"civilopediaText": [
 			{
@@ -624,10 +626,8 @@
 		]
 	},
 	{
-		//"uniqueTo": "Burgess",
 		"name": "Pikaia",
-		//"replaces": "Flatworm",
-		"unitType": "Water Animal",
+		"unitType": "Chordata",
 		"cost": 105,
 		"strength": 21,
 		"movement": 3,
@@ -651,8 +651,8 @@
 		]
 	},
 	{
-		"name": "Cephalopod",
-		"unitType": "Water Animal",
+		"name": "Nautilus",
+		"unitType": "Cephalopoda",
 		"strength": 30,
 		"rangedStrength": 32,
 		"range": 1,
@@ -666,9 +666,7 @@
 	},
 	{
 		"name": "Orthoceras",
-		"replaces": "Cephalopod",
-		"uniqueTo": "Hirnantian",
-		"unitType": "Water Animal",
+		"unitType": "Cephalopoda",
 		"strength": 45,
 		"rangedStrength": 32,
 		"range": 1,
@@ -681,8 +679,8 @@
 		"uniques": ["Ordvician","[-1] Sight <before discovering [Pigment Spot]>","Limited to [4] per Civilization <for [AI player]> <hidden from users>"],
 	},
 	{
-		"name": "Crustacean",
-		"unitType": "Water Arthropod",
+		"name": "Ceratiocaris",
+		"unitType": "Pancrustacea",
 		"cost": 115,
 		"strength": 32,
 		"obsoleteTech": "Neoselachii",
@@ -705,7 +703,7 @@
 	{
 		"name": "Fish",
 		"obsoleteTech": "Modern Ocean",
-		"unitType": "Fishes",
+		"unitType": "Gnathostomata",
 		"cost": 150,
 		"strength": 48,
 		"movement": 2,
@@ -732,7 +730,7 @@
 	{
 		"name": "Shark",
 		"obsoleteTech": "Modern Ocean",
-		"unitType": "Fishes",
+		"unitType": "Chondrichthyes",
 		"cost": 340,
 		"strength": 60,
 		"movement": 5,
@@ -760,13 +758,11 @@
 		"name": "Dunkleosteus",
 		"upgradesTo": "Shark",
 		"obsoleteTech": "Neoselachii",
-		"unitType": "Fishes",
+		"unitType": "Agnatha",
 		"cost": 280,
 		"strength": 75,
 		"movement": 5,
 		"requiredResource": "Super Creature Stock",
-		"uniqueTo": "Euramerica",
-		"replaces": "Arthrodira",
 		"requiredTech": "Fish",
 		"uniques": ["Devonian","Predator","[1] Sight","Can move after attacking","Can enter ice tiles","May enter foreign tiles without open borders"],
 		"attackSound": "Splash",
@@ -790,7 +786,7 @@
 	{
 		"name": "Modern Jellyfish",
 		"obsoleteTech": "Sailing",
-		"unitType": "Water Animal",
+		"unitType": "Jellyfish",
 		"cost": 840,
 		"strength": 75,
 		"rangedStrength": 112,
@@ -815,7 +811,7 @@
 	{
 		"name": "Modern Fish",
 		"obsoleteTech": "Sailing",
-		"unitType": "Modern Fishes",
+		"unitType": "Actinopterygii",
 		"cost": 860,
 		"strength": 105,
 		"movement": 5,
@@ -845,7 +841,7 @@
 		"name": "Tetrapod",
 		"obsoleteTech": "Amphibian",
 		"upgradesTo": "Batrachosauria",
-		"unitType": "Amphibian",
+		"unitType": "Amphibia",
 		"cost": 180,
 		"strength": 28,
 		"movement": 1,
@@ -872,7 +868,7 @@
 	{
 		"name": "Embolomeri",
 		"obsoleteTech": "Anthropocene",
-		"unitType": "Amphibian",
+		"unitType": "Amphibia",
 		"cost": 180,
 		"strength": 28,
 		"movement": 1,
@@ -900,7 +896,7 @@
 		"name": "Batrachosauria",
 		"obsoleteTech": "Therapsid",
 		"upgradesTo": "Eupelycosauria",
-		"unitType": "Amphibian",
+		"unitType": "Amphibia",
 		"cost": 180,
 		"strength": 28,
 		"movement": 1,
@@ -929,7 +925,7 @@
 		"name": "Small Reptile",
 		"upgradesTo": "Big Reptile",
 		"obsoleteTech": "Archosauria",
-		"unitType": "Reptiles",
+		"unitType": "Parareptilia",
 		"movement": 3,
 		"cost": 225,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Devonian","Pennsylvanian","Quadrupedal","Can move after attacking",
@@ -954,7 +950,7 @@
 	},
 	{
 		"name": "Big Reptile",
-		"unitType": "Reptiles",
+		"unitType": "Parareptilia",
 		"movement": 2,
 		"cost": 275,
 		"obsoleteTech": "Dinosaur",
@@ -979,7 +975,7 @@
 	},
 	{
 		"name": "Saurischia",
-		"unitType": "Reptiles",
+		"unitType": "Parareptilia",
 		"strength": 80,
 		"cost": 300,
 		"movement": 2,
@@ -1007,7 +1003,7 @@
 	},
 	{
 		"name": "Theropoda",
-		"unitType": "Reptiles",
+		"unitType": "Parareptilia",
 		"strength": 70,
 		"cost": 280,
 		"movement": 2,
@@ -1024,7 +1020,7 @@
 	},
 	/*{
 		"name": "Pseudosuchia",
-		"unitType": "Reptiles",
+		"unitType": "Parareptilia",
 		"strength": 70,
 		"cost": 300,
 		"movement": 2,
@@ -1043,7 +1039,7 @@
 	*/
 	{
 		"name": "Avemetatarsalia",
-		"unitType": "Reptiles",
+		"unitType": "Parareptilia",
 		"strength": 70,
 		"cost": 280,
 		"movement": 2,
@@ -1075,7 +1071,7 @@
 		"movement": 2,
 		"obsoleteTech": "Eutherians",
 		"requiredTech": "Dinosaur",
-		"unitType": "Herbivore",
+		"unitType": "Parareptilia",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Sauropoda",
@@ -1091,7 +1087,7 @@
 		"name": "Spinosaurus",
                 "replaces": "Tyrannosaurus",
 		"uniqueTo": "Wild Africa",
-		"unitType": "Reptiles",
+		"unitType": "Parareptilia",
 		"cost": 895,
 		"strength": 135,
 		"requiredTech": "Cretaceous Reptiles",
@@ -1106,7 +1102,7 @@
 		"name": "African Elephant",
 		"replaces": "Horse",
 		"uniqueTo": "Wild Africa",
-		"unitType": "Mammal",
+		"unitType": "Placentalia",
 		"cost": 900,
 		"strength": 100,
 		"requiredTech": "Eutherians",
