@@ -866,7 +866,7 @@
 				"name": "Fern",
 				"row": 1,
 				"quote": "in the late Devonian, The new plant group called fern(Polypodiopsida) was rapidly diversified and still completely dominates the terrestrial flora. also The strong roots of ferns strengthened the soil.",
-				"prerequisites": ["Vascular"],
+				"prerequisites": ["Heterospory"],
 				"quote": "Ferns are taller and have stronger stems and leaves than bryophytes. These superior traits easily usurped sunlight rights from the bryophytes, allowing the bryophyte empire to transition to the next world.",
 			},
 			{
@@ -953,7 +953,7 @@
 			{
 				"name": "Gymnosperm",
 				"row": 2,
-				"prerequisites": ["Rainforest"]
+				"prerequisites": ["Rainforest","Insect"]
 			},
 			{
 				"name": "Eardrum",
