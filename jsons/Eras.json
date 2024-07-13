@@ -92,7 +92,7 @@
 		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm"]
 	},
 	{
-		"name": "Ediacaran Period",
+		"name": "Ediacaran period",
 		"researchAgreementCost": 0,
 		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
