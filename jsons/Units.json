@@ -2301,7 +2301,7 @@
 		"replaces": "Eumycetozoa",
 		"uniqueTo": "Barbarians",
 		"requiredTech": "Eukaryota",
-		"obsoleteTech": "Chloroplasts",
+		"obsoleteTech": "Animals",
 		"upgradesTo": "Protozoa",
 		"uniques": ["[+60]% Strength <vs cities> <when attacking>"]
 		"attackSound": "Cell",
