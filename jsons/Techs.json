@@ -1061,7 +1061,7 @@
 				"prerequisites": ["Archosauria"],
 			},
 			{
-				"name": "Herbivore",
+				"name": "Ornithischia",
 				"row": 3,
 				"prerequisites": ["Forest Cycle","Archosauria"],
 			},
@@ -1088,7 +1088,7 @@
 			{
 				"name": "Gliding",
 				"row": 3,
-				"prerequisites": ["Wings","Herbivore"],
+				"prerequisites": ["Wings","Ornithischia"],
 			},
 			{
 				"name": "Uterus",
