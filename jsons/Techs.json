@@ -948,7 +948,7 @@
 			{
 				"name": "Gymnosperm",
 				"row": 2,
-				"prerequisites": ["Insect","Rainforest"]
+				"prerequisites": ["Gymnosperm"]
 			},
 			{
 				"name": "Eardrum",
