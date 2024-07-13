@@ -271,7 +271,7 @@
 		"cost": 120,
 		"requiredTech": "Animals",
 		"obsoleteTech": "Invertebrate Landing",
-		"upgradesTo": "Chelicerate",
+		"upgradesTo": "Scorpiones",
 		"uniques": ["[-50]% Strength <vs [Water] units>"/*,"Only available <in cities without a [Littoral Environment]>"*/,"Can move after attacking","[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <hidden from users> <for [non-[Vaalbara]]>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"attackSound": "Cell",
 		"civilopediaText": [
@@ -288,7 +288,7 @@
 			},
 		]
 	},
-	// Land Arthropod
+	/*Invertebrates*/
 	{
 		"name": "Scorpiones",
 		"unitType": "Chelicerata",
@@ -1958,7 +1958,7 @@
 	{
 		"name": "Anomalocaris",
 		"cost": 250,
-		"unitType": "Water Arthropod",
+		"unitType": "Dinocaridida",
 		"strength": 35,
 		"movement": 2,
 		"attackSound": "Splash",
@@ -1969,10 +1969,10 @@
 		"requiredTech": "Articulation",
 	},
 	{
-		"name": "Endoceras",
+		"name": "Cameroceras",
 		"cost": 300,
 		"strength": 40,
-		"unitType": "Water Animal",
+		"unitType": "Cephalopoda",
 		"rangedStrength": 50,
 		"range": 1,
 		"movement": 2,
@@ -1984,39 +1984,10 @@
 		"uniques": ["Predator"]
 	},
 	{
-		"name": "Arthrodira",
-		"obsoleteTech": "Neoselachii",
-		"upgradesTo": "Shark",
-		"unitType": "Fishes",
-		"cost": 400,
-		"strength": 60,
-		"movement": 2,
-		"requiredResource": "Super Creature Stock",
-		"requiredTech": "Fish",
-		"uniques": ["Cambrian","Predator","Jawless <before discovering [Jaw]>","[1] Sight <after discovering [Eye]>","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>","Double movement in [Water] <after discovering [Fins]>"],
-		"attackSound": "Splash",
-		"civilopediaText": [
-			{
-				"extraImage": "TileSets/FantasyHex/Units/Arthrodira",
-				"imageSize": 192
-			},
-			{
-				"extraImage": "TileSets/AbsoluteUnits/Units/Arthrodira",
-				"imageSize": 192
-			},
-			{
-				"Separator": true
-			},
-			{
-				"text": "during their thriving, the arthrodires were one of the most diverse and numerically successful, if not the most successful, vertebrate orders of the Devonian, occupying a vast spectrum of roles from apex predator to detritus-nibbling bottom dweller. Despite their success, the arthrodires were one of many groups eliminated by the environmental catastrophes of the Late Devonian extinction, allowing other fish such as sharks to diversify into the vacated ecological niches during the Carboniferous period."
-			}
-		]
-	},
-	{
 		"name": "Megalodon",
 		"obsoleteTech": "Cetaceans",
 		"requiredTech": "Ocean Reform",
-		"unitType": "Fishes",
+		"unitType": "Chondrichthyes",
 		"cost": 1250,
 		"strength": 300,
 		"movement": 4,
@@ -2035,7 +2006,7 @@
 	},
 	{
 		"name": "Dimetrodon",
-		"unitType": "Mammal",
+		"unitType": "Synapsida",
 		"cost": 750,
 		"strength": 90,
 		"movement": 2,
@@ -2046,7 +2017,7 @@
 	},
 	{
 		"name": "Mosasaur",
-		"unitType": "Water Reptiles",
+		"unitType": "Mosasauroidea",
 		"cost": 940,
 		"strength": 150,
 		"requiredTech": "Plesiosaur",
@@ -2059,7 +2030,7 @@
 	},
 	{
 		"name": "Tyrannosaurus",
-		"unitType": "Reptiles",
+		"unitType": "Theropoda",
 		"cost": 950,
 		"strength": 135,
 		"requiredTech": "Cretaceous Reptiles",
@@ -2082,7 +2053,7 @@
 	},
 	{
 		"name": "Giganotosaurus",
-		"unitType": "Reptiles",
+		"unitType": "Theropoda",
 		"cost": 1275,
 		"strength": 150,
 		"requiredTech": "Cretaceous Reptiles",
@@ -2104,7 +2075,7 @@
 	},
 	{
 		"name": "Giant Squid",
-		"unitType": "Water Animal",
+		"unitType": "Cephalopoda",
 		"cost": 1680,
 		"strength": 250,
 		"rangedStrength": 100,
@@ -2128,8 +2099,8 @@
 		]
 	},
 	{
-		"name": "Tiger", // is it should be Panthera?
-		"unitType": "Mammal",
+		"name": "Tiger",
+		"unitType": "Carnivora",
 		"obsoleteTech": "Anthropocene",
 		"cost": 900,
 		"strength": 120,
@@ -2149,12 +2120,12 @@
 			},
 			{
 				"Separator": true
-			},
+			}
 		]
 	},
 	{
 		"name": "Lion",
-		"unitType": "Mammal",
+		"unitType": "Carnivora",
 		"obsoleteTech": "Anthropocene",
 		"cost": 900,
 		"strength": 150,
@@ -2179,7 +2150,7 @@
 	},
 	{
 		"name": "Polar Bear",
-		"unitType": "Mammal",
+		"unitType": "Carnivora",
 		"obsoleteTech": "Anthropocene",
 		"cost": 1200,
 		"strength": 200,
@@ -2218,7 +2189,7 @@
 	// General
 	{
 		"name": "Parasiticworm",
-		"replaces": "Flatworm",
+		"replaces": "Platyzoa",
 		"unitType": "Water Animal",
 		"uniqueTo": "Barbarians",
 		"cost": 220,
@@ -2242,7 +2213,7 @@
 	},
 	{
 		"name": "Cordyceps",
-		"unitType": "Cell",
+		"unitType": "Fungi",
 		"cost": 430,
 		"strength": 30,
 		"movement": 2,
@@ -2261,7 +2232,7 @@
 	},
 	{
 		"name": "Cancer",
-		"unitType": "Cell",
+		"unitType": "Eukaryota",
 		"movement": 2,
 		"strength": 16,
 		"cost": 95,
@@ -2280,12 +2251,12 @@
 			{
 				"extraImage": "TileSets/AbsoluteUnits/Units/Cancer",
 				"imageSize": 192
-			},
+			}
 		]
 	},
 	{
 		"name": "Virus",
-		"unitType": "Cell",
+		"unitType": "Virus",
 		"movement": 2,
 		"replaces": "Archaea",
 		"uniqueTo": "Barbarians",
