@@ -2355,5 +2355,43 @@
 		"unitType": "Civilian",
 		"uniques": ["Can speed up construction of a building","Can instantly construct a [Productive Site] improvement <by consuming this unit>","Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2,
+	},
+	/*Unique Species*/
+	{
+		"name": "Siberian Musk Deer",
+		"uniqueTo":"Siberian Taiga",
+		"cost": 450,
+		"requiredTech": "Eutherians",
+		"obsoleteTech": "Anthropocene",
+		"attackSound": "horse"
+		"strength": 100,
+		"movement": 3,
+		"unitType": "Ungulate",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","[+25]% Strength <in [Taiga] tiles>","Only available <in cities without a [Cold Environment]> <hidden from users>","Eocene","Ungulates","[+2] Sight","Can move after attacking","No defensive terrain bonus","[+10]% to Flank Attack bonuses <vs [Mammal] units>","[-50]% Strength <vs [Human] units>"],
+	},
+	{
+		"name": "Baikal Teal",
+		"uniqueTo":"Siberian Taiga",
+		"unitType": "Aves",
+		"interceptRange": 2,
+		"strength": 80,
+		"movement": 2,
+		"cost": 500,
+		"attackSound": "crrr",
+		"requiredTech": "Ratite Birds",
+		"obsoleteTech": "Anthropocene",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>","[75]% chance to intercept air attacks"],
+	},
+	{
+		"name": "Brown Bear",
+		"uniqueTo":"Siberian Taiga",
+		"unitType": "Carnivora",
+		"cost": 460,
+		"obsoleteTech": "Anthropocene",
+		"strength": 140,
+		"movement": 3,
+		"requiredTech": "Eutherians",
+		"attackSound": "Slash",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Warm Environment]> <hidden from users>","Eocene","Predator","[+50]% Strength <in [Taiga] tiles>"]
 	}
 ]
