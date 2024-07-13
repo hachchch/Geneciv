@@ -37,6 +37,16 @@
 	},
 	/*Protostomes class*/
 	{
+		"name": "Platyzoa",
+		"movementType": "Water",
+		"uniques": ["Flatworm"]
+	},
+	{
+		"name": "Proarticulata",
+		"movementType": "Water",
+		//"uniques": [""]
+	},
+	{
 		"name": "Dinocaridida",
 		"movementType": "Water",
 		"uniques": ["Dinocaridida"]
@@ -71,7 +81,38 @@
 		"movementType": "Land",
 		"uniques": ["Worm"]
 	},
-	/*Vertebrates class*/
+	/*Chordates class*/
+	{
+		"name": "Chordata",
+		"movementType": "Water",
+		//"uniques": [""]
+	},
+	{
+		"name": "Agnatha",
+		"movementType": "Water",
+		//"uniques": [""]
+	},
+	{
+		"name": "Gnathostomata",
+		"movementType": "Water",
+		//"uniques": [""]
+	},
+	{
+		"name": "Chondrichthyes",
+		"movementType": "Water",
+		//"uniques": [""]
+	},
+	{
+		"name": "Actinopterygii",
+		"movementType": "Water",
+		//"uniques": [""]
+	},
+	{
+		"name": "Sarcopterygii",
+		"movementType": "Water",
+		//"uniques": [""]
+	},
+	/*Tetrapodomorphas class*/
 	{
 		"name": "Amphibia",
 		"uniques": ["Metazoan","[+30]% Strength <when fighting in [{Land} {Coastal}] tiles>","[+30]% Strength <when fighting in [Estuaries] tiles>","[+30]% Strength <when fighting in [Intertidal zone] tiles>","[+30]% Strength <when fighting in [{non-[Coastal]} {Fresh water}] tiles>","[+15]% Strength <when fighting in [Marsh] tiles>","[-30]% Strength <when fighting in [{non-[Coastal]} {Desert}] tiles>","[-25]% Strength <when fighting in [Tundra] tiles>","[-50]% Strength <when fighting in [Snow] tiles>",
