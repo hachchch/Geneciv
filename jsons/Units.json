@@ -189,7 +189,7 @@
 		"cost": 30,
 		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
 		"requiredTech": "Bacteria",
-		"obsoleteTech": "Eukaryote",
+		"obsoleteTech": "Eukaryota",
 		"upgradesTo": "Eukaryote",
 		"attackSound": "Cell",
 		"civilopediaText": [
@@ -215,7 +215,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 30,
-		"requiredTech": "Eukaryotic Cell",
+		"requiredTech": "Eukaryota",
 		"obsoleteTech": "Amorphea",
 		"upgradesTo": "Eumycetozoa",
 		"uniques": ["[-2] Sight <for [Vaalbara]> <hidden from users>","[-1] Sight <for [non-[Vaalbara]]> <hidden from users>","No Sight <hidden from users> <for [{Human player} {non-[Vaalbara]}]>"],
