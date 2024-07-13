@@ -402,7 +402,7 @@
 			},
 			{
 				"name": "SAR Supergroup",
-				"row": 5,
+				"row": 2,
 				"prerequisites": ["Eukaryota","Plantae"]
 			}
 		]
@@ -418,6 +418,11 @@
 				"name": "Green Algae",
 				"row": 1,
 				"prerequisites": ["Fungi","Red Algae","SAR Supergroup"]
+			},
+			{
+				"name": "Porifera",
+				"row": 6,
+				"prerequisites": ["Animals"]
 			},
 			{
 				"name": "Filter Feeding",
@@ -469,7 +474,7 @@
 			{
 				"name": "Cnidaria",
 				"row": 5,
-				"prerequisites": ["Nervous System","Filter Feeding"],
+				"prerequisites": ["Nervous System","Filter Feeding","Porifera"],
 				"quote": "'Sponges, the members of the phylum Porifera, are a basal animal clade as a sister of the diploblasts. They are multicellular organisms that have bodies full of pores and channels allowing water to circulate through them, consisting of jelly-like mesohyl sandwiched between two thin layers of cells.' - Wikipedia",
 				"civilopediaText": [
 			{
