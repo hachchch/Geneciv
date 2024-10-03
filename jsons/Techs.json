@@ -1056,11 +1056,6 @@
 		"wonderCost": 550,
 		"techs": [
 			{
-				"name": "Angiosperm",
-				"row": 1,
-				"prerequisites": ["Forest Cycle"]
-			},
-			{
 				"name": "Diving",
 				"row": 8,
 				"prerequisites": ["Archosauria","Chondrichthyes"],
@@ -1107,11 +1102,6 @@
 				"prerequisites": ["Dinosaur","Diving"],
 			},
 			{
-				"name": "Ocean Reform",
-				"row": 1,
-				"prerequisites": ["Angiosperm"]
-			},
-			{
 				"name": "Hair",
 				"row": 6,
 				"uniques": ["[+10]% Strength <when fighting in [Snow] tiles> <for [Mammal] units>"],
@@ -1142,6 +1132,11 @@
 		"buildingCost": 375,
 		"wonderCost": 550,
 		"techs": [
+			{
+				"name": "Ocean Reform",
+				"row": 1,
+				"prerequisites": ["Forest Cycle"]
+			},
 			{
 				"name": "Ornithischia",
 				"row": 3,
@@ -1179,6 +1174,18 @@
 		"wonderCost": 550,
 		"techs": [
 			{
+				"name": "Tyrant Lizards",
+				"row": 5,
+				"quote":"",
+				"prerequisites": ["Dinosaur Gigantism","Air Sac"]
+			},
+			{
+				"name": "Maniraptors",
+				"row": 6,
+				"quote":"",
+				"prerequisites": ["Feathers","Air Sac"]
+			},
+			{
 				"name": "Nocturnal Bottleneck",
 				"row": 7,
 				"quote":"Mammals have evolved as nocturnal animals for 160 million years, and their legacy still remains in our anatomy. Today, mammals dominant on earth, but most of them are nocturnal.",
@@ -1194,9 +1201,26 @@
 		"wonderCost": 550,
 		"techs": [
 			{
-				"name": "Hollow Bones",
+				"name": "Angiosperm",
+				"row": 1,
+				"prerequisites": ["Ocean Reform"]
+			},
+			{
+				"name": "Tyrannosaurs",
+				"row": 5,
+				"quote": "",
+				"prerequisites": ["Tyrant Lizards"]
+			},
+			{
+				"name": "Olfactory Bulb",
+				"row": 7,
+				"quote": "",
+				"prerequisites": ["Nocturnal Bottleneck"]
+			},
+			{
+				"name": "Bird Wings",
 				"row": 6,
-				"prerequisites": ["Hollow Bones"]
+				"prerequisites": ["Maniraptors"],
 			}
 		]
 	},
@@ -1207,6 +1231,16 @@
 		"buildingCost": 375,
 		"wonderCost": 550,
 		"techs": [
+			{
+				"name": "Grass",
+				"row": 1,
+				"prerequisites": ["Ocean Reform"],
+			},
+			{
+				"name": "Flying",
+				"row": 3,
+				"prerequisites": ["Bird Wings"],
+			}
 		]
 	},
 	{
@@ -1217,20 +1251,17 @@
 		"wonderCost": 800,
 		"techs": [
 			{
-				"name": "Flying",
-				"row": 3,
-				"prerequisites": ["Feathers","Gliding"],
-			},
-			{
-				"name": "Grass",
-				"row": 1,
-				"prerequisites": ["Ocean Reform"],
-			},
-			{
 				"name": "Eutherians",
 				"row": 6,
 				"prerequisites": ["Hair","Glands"],
 			},
+			{
+				"name": "Placenta",
+				"row": 9,
+				"prerequisites": ["Uterus"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"quote": "Most extant mammals are placentalia. Having a placenta could protect an immature from kidnappers."
+			}
 		]
 	},
 	{
@@ -1253,7 +1284,7 @@
 			{
 				"name": "Flowers",
 				"row": 1,
-				"prerequisites": ["Grass","Flying"],
+				"prerequisites": ["Grass"],
 			},
 			{
 				"name": "Cetaceans",
@@ -1274,9 +1305,9 @@
 				"quote": "The neocortex is responsible for rational, analytical thinking and language functions. It seems that lower organisms tend to be smaller, while higher organisms tend to be larger."
 			},
 			{
-				"name": "Placenta",
+				"name": "Estrus",
 				"row": 9,
-				"prerequisites": ["Uterus","Eutherians"],
+				"prerequisites": ["Placenta"],
 				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
 				"quote": "Most extant mammals are placentalia. Having a placenta could protect an immature from kidnappers."
 			},
@@ -1358,6 +1389,13 @@
 		"wonderCost": 900,
 		"techs": [
 			{
+				"name": "Menstruation",
+				"row": 9,
+				"prerequisites": ["Upright Bipedal Walk","Modern Ocean"],
+				"uniques": ["Production to [Science] conversion in cities changed by [+10]%"],
+				"quote": "Most extant mammals are placentalia. Having a placenta could protect an immature from kidnappers."
+			},
+			{
 				"name": "Australopithecus",
 				"row": 6,
 				"prerequisites": ["Upright Bipedal Walk","Five Fingers","Ape Brain"],
@@ -1392,7 +1430,7 @@
 			{
 				"name": "Abstract Thinking",
 				"row": 10,
-				"prerequisites": ["Australopithecus","Modern Ocean"],
+				"prerequisites": ["Australopithecus","Menstruation"],
 			},
 		]
 	},
