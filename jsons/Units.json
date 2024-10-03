@@ -803,7 +803,7 @@
 		"cost": 340,
 		"strength": 60,
 		"movement": 5,
-		"requiredTech": "Ceratiocaris",
+		"requiredTech": "Chondrichthyes",
 		"attackSound": "Splash",
 		"uniques": ["Jurassic","Predator","Can move after attacking","Destroys tile improvements when attacking"],
 		"civilopediaText": [
@@ -826,7 +826,7 @@
 	{
 		"name": "Dunkleosteus",
 		"upgradesTo": "Shark",
-		"obsoleteTech": "Neoselachii",
+		"obsoleteTech": "Chondrichthyes",
 		"unitType": "Agnatha",
 		"cost": 280,
 		"strength": 75,
@@ -854,7 +854,6 @@
 	},
 	{
 		"name": "Modern Jellyfish",
-		"obsoleteTech": "Sailing",
 		"unitType": "Jellyfish",
 		"cost": 840,
 		"strength": 75,
@@ -878,7 +877,6 @@
 	},
 	{
 		"name": "Modern Fish",
-		"obsoleteTech": "Sailing",
 		"unitType": "Actinopterygii",
 		"cost": 860,
 		"strength": 105,
@@ -1992,7 +1990,6 @@
 		"cost": 500,
 		"attackSound": "crrr",
 		"requiredTech": "Ratite Birds",
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Birds","Bipedal","Holocene","Only available <before the [Medieval era]>","[75]% chance to intercept air attacks"]
 	},
 	// Great Units
