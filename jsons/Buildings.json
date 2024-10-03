@@ -9,7 +9,7 @@
 		"name": "The Anthropocene era",
 		"cost": 3500,
 		"uniques": ["Triggers the following global alert: [!Humans are Changing the World!]","Hidden when [Dawn of Civilization] Victory is disabled"],
-		"requiredTech": "Future Evolutions",
+		"requiredTech": "Future Evolution",
 		"isWonder": true,
 	},
 	{
@@ -98,11 +98,11 @@
 	},
 	{
 		"name": "Sarcopterygii", // Famenia
-		"requiredTech": "Predation",
+		"requiredTech": "Meaty Fins",
 		"uniqueTo": "Famenia",
 		"percentStatBonus": {"science": 10},
 		"uniques": ["New [Water] units start with [25] Experience [in this city]"]
-		"replaces": "Actinopterygii",
+		"replaces": "",
 	},
 	{
 		"name": "Graptolite", // Hirnantian
@@ -399,7 +399,7 @@
 		"name": "Coelacanth",
 		"sciece": 3,
 		"maintenance": 1,
-		"requiredTech": "Predation",
+		"requiredTech": "Meaty Fins",
 		"uniques": ["Must be next to [Fresh water]"]
 		"specialistSlots": {"Creature": 1},
 	},
@@ -426,7 +426,7 @@
 	{
 		"name": "Actinopterygii",
 		"science": 1,
-		"requiredTech": "Predation",
+		"requiredTech": "Sharp Fins",
 		"uniques": ["Must be next to [Coast]","Devonian","New [Water] units start with [15] Experience [in this city]"]
 	},
 	{
@@ -557,7 +557,7 @@
 	{
 		"name": "Hangenberg Crisis",
 		"isWonder": true,
-		"requiredTech": "Neoselachii",
+		"requiredTech": "Chondrichthyes",
 		"uniques": ["[Gold] cost of purchasing items in cities [-25]%"],
 		"quote": "Mass extinction called the Hangenberg event, also known as the end-Devonian extinction, occurred 359 million years ago, bringing an end to the Famennian and Devonian, as the world transitioned into the Carboniferous Period.",
 	},
@@ -629,7 +629,7 @@
 	{
 		"name": "Devonian Nekton Revolution",
 		"isWonder": true,
-		"requiredTech": "Predation",
+		"requiredTech": "Fish",
 		"uniques": ["[+15]% Production when constructing [Fishes] units [in all cities]",
 		"[+10]% Strength <for [Nekton] units>"],
 		"quote": "Nekton filled the empty place left after the Ordovician mass extinction and dead macro-planktons. It time for Fishes.",
@@ -1303,7 +1303,7 @@
 		"isWonder": true,
 		// "cost": 550,
 		"food": 2,
-		"requiredTech": "Predation",
+		"requiredTech": "Chondrichthyes",
 		"uniques": ["Underwater Building","Only available <in cities with a [Sea Environment]> <hidden from users>","Must be next to [Coast]","[+15]% Strength <for [Predator] units> <when attacking>","[+1 Food] from [Water] tiles [in this city]"]
 	},
 	{
