@@ -752,7 +752,7 @@
 		"unitType": "Pancrustacea",
 		"cost": 115,
 		"strength": 32,
-		"obsoleteTech": "Neoselachii",
+		"obsoleteTech": "Chondrichthyes",
 		"upgradesTo": "Shark",
 		"movement": 2,
 		"requiredTech": "Ecdysis",
@@ -803,7 +803,7 @@
 		"cost": 340,
 		"strength": 60,
 		"movement": 5,
-		"requiredTech": "Neoselachii",
+		"requiredTech": "Ceratiocaris",
 		"attackSound": "Splash",
 		"uniques": ["Jurassic","Predator","Can move after attacking","Destroys tile improvements when attacking"],
 		"civilopediaText": [
@@ -862,7 +862,6 @@
 		"range": 2,
 		"movement": 2,
 		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["[-1] Sight <hidden from users>","Only 1 Sight","Can move after attacking","This Unit gains the [Asexual Reproduction II] promotion <once> <hidden from users>","Comment [When activate the ability, [Modern Jellyfish] will become [Modern Strobila](no defence) for one turn, and will be fully heal after that(but, loses promotion).]"],
 		"attackSound": "whoo",
 		"promotions": ["Nematocyst I","Poison I"],
@@ -884,7 +883,6 @@
 		"cost": 860,
 		"strength": 105,
 		"movement": 5,
-		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Modern Ocean",
 		"uniques": ["[2] Sight","Can move after attacking","Can enter ice tiles <hidden from users>","May enter foreign tiles without open borders <hidden from users>"],
 		"attackSound": "Splash",
@@ -936,7 +934,6 @@
 	},
 	{
 		"name": "Embolomeri",
-		"obsoleteTech": "Anthropocene",
 		"unitType": "Amphibia",
 		"cost": 180,
 		"strength": 28,
@@ -1360,13 +1357,11 @@
 		"movement": 2,
 		"cost": 500,
 		"requiredTech": "Grass",
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities without a [Cold Environment]> <hidden from users>","Cretaceous","May withdraw before melee ([33]%)","Unable to pillage tiles","Can move after attacking","Invisible to non-adjacent units","[-2] Sight"],
 		"promotions": ["Poison I"]
 	},
 	{
 		"name": "Crocodile",
-		"obsoleteTech": "Anthropocene",
 		"unitType": "Sauria",
 		"strength": 100,
 		"cost": 660,
@@ -1399,7 +1394,6 @@
 		"movement": 1,
 		"cost": 500,
 		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Only available <in cities with a [Fresh water Environment]> <hidden from users>","Cretaceous","Cannot attack","No Sight <when adjacent to a [Enemy] unit>"],
 		"promotions": ["Shell"]
 	},
@@ -1410,7 +1404,6 @@
 		"movement": 2,
 		"cost": 500,
 		"requiredTech": "Modern Ocean",
-		"obsoleteTech": "Anthropocene",
 		"attackSound": "whoo",
 		"uniques": ["Cretaceous","Cannot attack"],
 		"promotions": ["Shell"]
@@ -1530,7 +1523,6 @@
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Paleocene","[225]% Strength <vs cities>","All healing effects doubled"],
 		"cost": 400,
 		"movement": 3,
-		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Eutherians",
 		"civilopediaText": [
 			{
@@ -1546,7 +1538,6 @@
 	{
 		"name": "Feliform",
 		"unitType": "Carnivora",
-		"obsoleteTech": "Anthropocene",
 		"cost": 450,
 		"strength": 120,
 		"movement": 3,
@@ -1578,7 +1569,6 @@
 		"name": "Caniform",
 		"unitType": "Carnivora",
 		"cost": 450,
-		"obsoleteTech": "Anthropocene",
 		"strength": 120,
 		"movement": 3,
 		"requiredTech": "Eutherians",
@@ -1599,7 +1589,6 @@
 		"name": "Horse",
 		"cost": 450,
 		"requiredTech": "Eutherians",
-		"obsoleteTech": "Anthropocene",
 		"attackSound": "horse"
 		"strength": 100,
 		"movement": 3,
@@ -1620,7 +1609,6 @@
 		"name": "Bat",
 		"unitType": "Chiroptera",
 		"strength": 105,
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Eocene","[+10]% Strength <when fighting in [Hill] tiles>","Heal this unit by [10] HP <upon defeating a [Military] unit>"],
 		"cost": 420,
 		"movement": 3,
@@ -1641,7 +1629,6 @@
 		"unitType": "Cetacea",
 		"strength": 112,
 		"movement": 4,
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Oligocene","Predator"],
 		"requiredTech": "Cetaceans",
 		"cost": 450,
@@ -1660,7 +1647,6 @@
 	{
 		"name": "Kangaroos",
 		"unitType": "Eutheria",
-		"obsoleteTech": "Anthropocene",
 		"cost": 460,
 		"strength": 112,
 		"movement": 2,
@@ -1671,7 +1657,6 @@
 	{
 		"name": "Platypus",
 		"unitType": "Eutheria",
-		"obsoleteTech": "Anthropocene",
 		"cost": 460,
 		"strength": 95,
 		"movement": 2,
@@ -1688,7 +1673,6 @@
 		"range": 1,
 		"rangedStrength": 70,
 		"movement": 4,
-		"obsoleteTech": "Anthropocene",
 		"unitType": "Ungulate",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Pleistocene","Ungulates","[+100]% to Flank Attack bonuses"],
 		"civilopediaText": [
@@ -1705,7 +1689,6 @@
 	{
 		"name": "Koala",
 		"unitType": "Eutheria",
-		"obsoleteTech": "Anthropocene",
 		"cost": 460,
 		"strength": 112,
 		"movement": 1,
@@ -1934,7 +1917,6 @@
 		"strength": 90,
 		"movement": 1,
 		"cost": 500,
-		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Neoaves",
 		"attackSound": "Woosh",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Eocene","Predator","[+25]% Strength <vs [Land] units>"],
@@ -1958,7 +1940,6 @@
 		"cost": 500,
 		"attackSound": "crrr",
 		"requiredTech": "Ratite Birds",
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>","[75]% chance to intercept air attacks"],
 		"civilopediaText": [
 			{
@@ -1976,7 +1957,6 @@
 		"strength": 80,
 		"movement": 1,
 		"cost": 500,
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Miocene","Destroys tile improvements when attacking","Damage taken from interception reduced by [30]%","[75]% chance to intercept air attacks","[+80]% Strength <vs [Eagle] units>","Can perform Air Sweep"],
 		"requiredTech": "Neoaves",
 		"attackSound": "Woosh",
@@ -1999,7 +1979,6 @@
 		"strength": 80,
 		"movement": 1,
 		"cost": 500,
-		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Neoaves",
 		"attackSound": "Splash",
 		"uniques": ["Can only attack [Water] tiles","Only available <in cities with a [Littoral Environment]> <hidden from users>","Eocene","Predator","[+200]% Strength <vs [Embarked] units>","[+25]% Strength <vs [Water] units>"],
@@ -2027,7 +2006,7 @@
 		"promotions": ["Frontal Appendage I"],
 		"uniques": ["Cambrian","Predator","Never appears as a Barbarian unit <hidden from users>"],
 		"requiredResource": "Super Creature Stock",
-		"obsoleteTech": "Predation",
+		"obsoleteTech": "Eurypterid",
 		"requiredTech": "Radiodonta",
 	},
 	{
@@ -2040,7 +2019,7 @@
 		"movement": 2,
 		"uniques": ["Ordvician","Predator","Never appears as a Barbarian unit <hidden from users>"],
 		"requiredResource": "Super Creature Stock",
-		"obsoleteTech": "Predation",
+		"obsoleteTech": "Eurypterid",
 		"requiredTech": "Cephalopod",
 		"attackSound": "Whoo",
 		"uniques": ["Predator"]
@@ -2163,7 +2142,6 @@
 	{
 		"name": "Tiger",
 		"unitType": "Carnivora",
-		"obsoleteTech": "Anthropocene",
 		"cost": 900,
 		"strength": 120,
 		"movement": 4,
@@ -2188,7 +2166,6 @@
 	{
 		"name": "Lion",
 		"unitType": "Carnivora",
-		"obsoleteTech": "Anthropocene",
 		"cost": 900,
 		"strength": 150,
 		"movement": 4,
@@ -2213,7 +2190,6 @@
 	{
 		"name": "Polar Bear",
 		"unitType": "Carnivora",
-		"obsoleteTech": "Anthropocene",
 		"cost": 1200,
 		"strength": 200,
 		"movement": 3,
@@ -2242,7 +2218,6 @@
 		"strength": 100,
 		"movement": 1,
 		"cost": 1000,
-		"obsoleteTech": "Anthropocene",
 		"requiredTech": "Neoaves",
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Splash",
@@ -2362,7 +2337,6 @@
 		"uniqueTo":"Siberian Taiga",
 		"cost": 450,
 		"requiredTech": "Eutherians",
-		"obsoleteTech": "Anthropocene",
 		"attackSound": "horse"
 		"strength": 100,
 		"movement": 3,
@@ -2379,7 +2353,6 @@
 		"cost": 500,
 		"attackSound": "crrr",
 		"requiredTech": "Ratite Birds",
-		"obsoleteTech": "Anthropocene",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Birds","Bipedal","Eocene","[+50]% Strength <vs [Ophidia] units> <when attacking>","[+300]% Strength <vs [Birds] units>","[+10]% Strength <vs [Glires] units> <when attacking>","[-100]% Strength <after discovering [Animal Husbandry]>","[75]% chance to intercept air attacks"],
 	},
 	{
@@ -2387,7 +2360,6 @@
 		"uniqueTo":"Siberian Taiga",
 		"unitType": "Carnivora",
 		"cost": 460,
-		"obsoleteTech": "Anthropocene",
 		"strength": 140,
 		"movement": 3,
 		"requiredTech": "Eutherians",
