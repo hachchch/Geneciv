@@ -320,7 +320,7 @@
 	},
 	{
 		"name": "Tradition",
-		"era": "Neolithic",
+		"era": "Anthropocene",
 		"priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -389,7 +389,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Neolithic",
+        "era": "Anthropocene",
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
@@ -455,7 +455,7 @@
     },
     {
         "name": "Honor",
-        "era": "Neolithic",
+        "era": "Anthropocene",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
