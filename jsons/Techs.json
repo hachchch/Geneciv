@@ -403,7 +403,7 @@
 			{
 				"name": "SAR Supergroup",
 				"row": 2,
-				"prerequisites": ["Eukaryota","Plantae"]
+				"prerequisites": ["Plantae"]
 			}
 		]
 	},
@@ -1638,12 +1638,14 @@
 			{
 				"name": "Writing",
 				"row": 1,
+				"uniques": ["[+10]% [Science]"],
 				"prerequisites": ["Agriculture"],
 				"quote": "We have become able to convey knowledge and stories without speaking."
 			},
 			{
 				"name": "Animal Husbandry",
 				"row": 2,
+				"uniques": ["[+10]% [Food]","Only available <after discovering [Writing]>"],
 				"prerequisites": ["Agriculture"],
 				"quote": "We are in control of nature's right to give birth and die to other species."
 			},
@@ -1651,56 +1653,56 @@
 				"name": "Navigation",
 				"row": 3,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Gold]","Only available <after discovering [Animal Husbandry]>"],
 				"quote": "We able to communicate across the continents and trade goods."
 			},
 			{
 				"name": "Industrialization",
 				"row": 4,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Production]","Only available <after discovering [Navigation]>"],
 				"quote": "We also control power. As we consume resources, society become more convenient."
 			},
 			{
 				"name": "Flight",
 				"row": 5,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Happiness]","Only available <after discovering [Industrialization]>"],
 				"quote": "We can fly faster and higher than birds."
 			},
 			{
 				"name": "Mass Society",
 				"row": 6,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Culture]","Only available <after discovering [Flight]>"],
 				"quote": "We elect our leaders democratically. Both men and women are born with equal rights and can rebel against society."
 			},
 			{
 				"name": "Plastics",
 				"row": 7,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Production]","Only available <after discovering [Mass Society]>"],
 				"quote": "We have versatile resources."
 			},
 			{
 				"name": "Atomic Theory",
 				"row": 8,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Gold]","Only available <after discovering [Plastics]>"],
 				"quote": "We have the strength that even could destroy ourselves. Therefore we must be wise."
 			},
 			{
 				"name": "Satellites",
 				"row": 9,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Science]","Only available <after discovering [Atomic Theory]>"],
 				"quote": "We can look down on the world from the space."
 			},
 			{
 				"name": "Telecommunications",
 				"row": 10,
 				"prerequisites": ["Agriculture"],
-				"uniques": ["Can be continually researched"],
+				"uniques": ["[+10]% [Culture]","Only available <after discovering [Satellites]>"],
 				"quote": "We can also talk across oceans."
 			}
 		]
