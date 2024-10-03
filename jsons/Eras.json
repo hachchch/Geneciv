@@ -380,7 +380,25 @@
 			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
 	},
 	{
-		"name": "Neolithic",
+		"name": "Anthropocene",
+		"researchAgreementCost": 0,
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 3,
+		"startingMilitaryUnit": "Spearman",
+		"startingGold": 0,
+		"settlerPopulation": 1,
+		"startPercent": 40,
+		"citySound": "cityAncient",
+		"embarkDefense": 80,
+		"iconRGB": [233, 31, 99],
+		//"settlerBuildings": ["Eclipse","Cephalopoda","Big Brain","Meteor","Volcano","Blood Pump","Mammal Brain","Sociality","Feelings","Green Field","Hunting","Logical Thinking","Fishing","Stone Work","Count","Gathering","Campfire","Bulletin Wall","Cemetery","Enzymes","RNA","Replication","Plasma Membrane","Polypeptides","Chromosomes","Flagellum","Ribosomes","Phagocytic Cell","Oscula","Photosynthesis","Fungi","Muscles","Nervous System","Radial Symmetry","Vertebrate","Bilateral Symmetry","Bee","Limbic System","Adenosine Triphosphate"],
+		"startingObsoleteWonders": ["Nuclear Fusion","LUCA","Giant-Impact","Cytoplasm","Grenville Orogeny","Bangiomorpha","Polyp","Neuron Activation","Hive Mind",
+		"White of Eye Cells","Ammonoids","Replaceable Teeth","Hangenberg Crisis","The Predator's Food Chain","Interstitial Environment","Carnian Pluvial Episode",
+			"Manicouagan Reservoir","Smithian-Spathian Boundary","Three Bone Ear","Winged Threat"]
+	},
+	{
+		"name": "Future era",
 		"researchAgreementCost": 0,
 		"startingSettlerCount": 1,
 		"startingWorkerCount": 0,
