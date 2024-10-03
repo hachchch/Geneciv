@@ -1067,13 +1067,8 @@
 			},
 			{
 				"name": "Dinosaur",
-				"row": 6,
+				"row": 5,
 				"prerequisites": ["Archosauria"],
-			},
-			{
-				"name": "Ornithischia",
-				"row": 3,
-				"prerequisites": ["Forest Cycle","Archosauria"],
 			},
 			{
 				"name": "Canine Tooth",
@@ -1117,28 +1112,27 @@
 				"prerequisites": ["Angiosperm"]
 			},
 			{
-				"name": "Feathers"
-				"row": 4,
-				"prerequisites": ["Wings"],
-				"uniques": ["[+1] Sight <for [Avemetatarsalia] units>"],
-			},
-			{
 				"name": "Hair",
-				"row": 5,
+				"row": 6,
 				"uniques": ["[+10]% Strength <when fighting in [Snow] tiles> <for [Mammal] units>"],
 				"prerequisites": ["Canine Tooth"]
 			},
 			{
-				"name": "Cretaceous Reptiles",
-				"row": 6,
-				"prerequisites": ["Dinosaur"],
+				"name": "Sauropods",
+				"row": 4,
+				"prerequisites": ["Dinosaur"]
+			},
+			{
+				"name": "Hollow Bones",
+				"row": 5,
+				"prerequisites": ["Dinosaur"]
 			},
 			{
 				"name": "Glands",
 				"row": 7,
 				"uniques": ["[+10]% Strength <when fighting in [Desert] tiles>","[+10]% Strength <when fighting in [Jungle] tiles>"],
 				"prerequisites": ["Canine Tooth"],
-			},
+			}
 		]
 	},
 	{
@@ -1148,6 +1142,33 @@
 		"buildingCost": 375,
 		"wonderCost": 550,
 		"techs": [
+			{
+				"name": "Ornithischia",
+				"row": 3,
+				"prerequisites": ["Ocean Reform"]
+			},
+			{
+				"name": "Dinosaur Gigantism",
+				"row": 5,
+				"prerequisites": ["Hollow Bones","Sauropods"]
+			},
+			{
+				"name": "Air Sac",
+				"row": 6,
+				"prerequisites": ["Hollow Bones"]
+			},
+			{
+				"name": "Mammals",
+				"row": 7,
+				"uniques": ["[+10]% Strength <when fighting in [Desert] tiles>","[+10]% Strength <when fighting in [Jungle] tiles>"],
+				"prerequisites": ["Glands","Hair"]
+			},
+			{
+				"name": "Feathers"
+				"row": 4,
+				"prerequisites": ["Hollow Bones"],
+				"uniques": ["[+1] Sight <for [Avemetatarsalia] units>"],
+			}
 		]
 	},
 	{
@@ -1157,6 +1178,12 @@
 		"buildingCost": 375,
 		"wonderCost": 550,
 		"techs": [
+			{
+				"name": "Nocturnal Bottleneck",
+				"row": 7,
+				"quote":"Mammals have evolved as nocturnal animals for 160 million years, and their legacy still remains in our anatomy. Today, mammals dominant on earth, but most of them are nocturnal.",
+				"prerequisites": ["Glands","Hair"],
+			}
 		]
 	},
 	{
@@ -1166,6 +1193,11 @@
 		"buildingCost": 375,
 		"wonderCost": 550,
 		"techs": [
+			{
+				"name": "Hollow Bones",
+				"row": 6,
+				"prerequisites": ["Hollow Bones"]
+			}
 		]
 	},
 	{
