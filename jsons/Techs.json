@@ -1086,20 +1086,14 @@
 		"wonderCost": 550,
 		"techs": [
 			{
+				"name": "Wasps",
+				"row": 1,
+				"prerequisites": ["Forest Cycle"]
+			},
+			{
 				"name": "Gliding",
 				"row": 3,
 				"prerequisites": ["Wings","Ornithischia"],
-			},
-			{
-				"name": "Uterus",
-				"row": 9,
-				"prerequisites": ["Canine Tooth","Egg Shell"],
-				"uniques": ["Enables Defensive Pacts","Production to [Science] conversion in cities changed by [+10]%"],
-			},
-			{
-				"name": "Plesiosaur",
-				"row": 8,
-				"prerequisites": ["Dinosaur","Diving"],
 			},
 			{
 				"name": "Hair",
@@ -1135,12 +1129,17 @@
 			{
 				"name": "Ocean Reform",
 				"row": 1,
-				"prerequisites": ["Forest Cycle"]
+				"prerequisites": ["Wasps"]
 			},
 			{
 				"name": "Ornithischia",
 				"row": 3,
-				"prerequisites": ["Ocean Reform"]
+				"prerequisites": ["Gliding"]
+			},
+			{
+				"name": "Plesiosaur",
+				"row": 8,
+				"prerequisites": ["Diving"],
 			},
 			{
 				"name": "Dinosaur Gigantism",
@@ -1189,7 +1188,7 @@
 				"name": "Nocturnal Bottleneck",
 				"row": 7,
 				"quote":"Mammals have evolved as nocturnal animals for 160 million years, and their legacy still remains in our anatomy. Today, mammals dominant on earth, but most of them are nocturnal.",
-				"prerequisites": ["Glands","Hair"],
+				"prerequisites": ["Mammals"],
 			}
 		]
 	},
@@ -1201,9 +1200,20 @@
 		"wonderCost": 550,
 		"techs": [
 			{
+				"name": "Uterus",
+				"row": 9,
+				"prerequisites": ["Nocturnal Bottleneck","Egg Shell"],
+				"uniques": ["Enables Defensive Pacts","Production to [Science] conversion in cities changed by [+10]%"]
+			},
+			{
 				"name": "Angiosperm",
 				"row": 1,
 				"prerequisites": ["Ocean Reform"]
+			},
+			{
+				"name": "Ornithopods",
+				"row": 3,
+				"prerequisites": ["Ornithischia"]
 			},
 			{
 				"name": "Tyrannosaurs",
@@ -1232,14 +1242,29 @@
 		"wonderCost": 550,
 		"techs": [
 			{
+				"name": "Neck Frill",
+				"row": 3,
+				"prerequisites": ["Ornithopods"]
+			},
+			{
 				"name": "Grass",
 				"row": 1,
-				"prerequisites": ["Ocean Reform"],
+				"prerequisites": ["Angiosperm"],
 			},
 			{
 				"name": "Flying",
 				"row": 3,
 				"prerequisites": ["Bird Wings"],
+			},
+			{
+				"name":"Monotremes",
+				"row": 6,
+				"prerequisites": ["Olfactory Bulb"]
+			},
+			{
+				"name":"Middle ear",
+				"row": 7,
+				"prerequisites": ["Olfactory Bulb"]
 			}
 		]
 	},
@@ -1253,7 +1278,7 @@
 			{
 				"name": "Eutherians",
 				"row": 6,
-				"prerequisites": ["Hair","Glands"],
+				"prerequisites": ["Middle Ear","Monotremes"],
 			},
 			{
 				"name": "Placenta",
