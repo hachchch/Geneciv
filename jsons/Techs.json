@@ -692,7 +692,7 @@
 			},
 			{
 				"name": "Jaw",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Vertebrate"],
 			},
 			{
@@ -846,7 +846,7 @@
 			{
 				"name": "Chondrichthyes",
 				"row": 8,
-				"prerequisites": ["Cartilage Skeleton"],
+				"prerequisites": ["Cartilage"],
 				"uniques": ["[+1 Food] from [{Ocean} {Fish}] tiles [in all cities]"],
 				"quote": "Chondrichthyes is a class of jawed fish that contains the cartilaginous fish or chondrichthyans, which all have skeletons primarily composed of cartilage.",
 				"civilopediaText": [
@@ -1603,7 +1603,7 @@
 			},
 			{
 				"name": "Telecommunications",
-				"row": 6,
+				"row": 10,
 				"prerequisites": ["Agriculture"],
 				"uniques": ["Can be continually researched"],
 				"quote": "We can also talk across oceans."
@@ -1620,7 +1620,7 @@
 			{
 				"name": "Future Evolution",
 				"row": 6,
-				"prerequisites": ["Anthropocene"],
+				"prerequisites": ["Writing","Animal Husbandry","Navigation","Industrialization","Flight","Mass Society","Plastics","Atomic Theory","Satellites","Telecommunications"],
 				"uniques": ["Can be continually researched"],
 				"quote": "Human civilization is evolving rapidly, and our quality of life has become richer than it has been in the last few thouthand years. On the other hand, human civilization faces various problems such as nuclear weapons, terrorism, chemical pollution, and global warming, and it is not surprising that if world will soon become like the world after the extinction of the dinosaurs. What does the future hold for the Anthropocene?"
 			}
