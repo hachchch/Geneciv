@@ -1148,7 +1148,7 @@
 		]
 	},
 	{
-		"name": "Spinosaurus",
+		"name": "Tyrant Lizards",
                 "replaces": "Tyrannosaurus",
 		"uniqueTo": "Wild Africa",
 		"unitType": "Theropoda",
@@ -1231,7 +1231,7 @@
 		]
 	},
 	{
-		"name": "Ornithischia",
+		"name": "Stegosaurus",
 		"cost": 280,
 		"strength": 70,
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Quadrupedal","Reptiles","Unit will heal every turn, even if it performs an action <in [GrassLand] tiles>"],
@@ -1284,7 +1284,7 @@
 		"strength": 80,
 		"cost": 320,
 		"movement": 1,
-		"requiredTech": "Dinosaur",
+		"requiredTech": "Ornithopods",
 		"obsoleteTech": "Eutherians",
 		"attackSound": "Monster",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Quadrupedal","Armored"],
@@ -1308,7 +1308,7 @@
 		"unitType": "Ornithischia",
 		"cost": 380,
 		"strength": 100,
-		"requiredTech": "Cretaceous Reptiles",
+		"requiredTech": "Neck Frill",
 		"movement": 1,
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
@@ -1325,13 +1325,13 @@
 		]
 	},
 	{
-		"name": "Cretaceous Dinosaur",
+		"name": "Allosaurus",
 		"unitType": "Theropoda",
 		"cost": 360,
 		"strength": 100,
 		"movement": 2,
 		"attackSound": "Monster",
-		"requiredTech": "Cretaceous Reptiles",
+		"requiredTech": "Dinosaur Gigantism",
 		"obsoleteTech": "Eutherians",
 		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Cretaceous","Bipedal","[+30]% Strength <when attacking>"],
 		"civilopediaText": [
@@ -1883,6 +1883,28 @@
 	},
 	// Aves
 	{
+		"name": "Gallimimus",
+		"unitType": "Aves",
+		"interceptRange": 4,
+		"strength": 70,
+		"movement": 2,
+		"cost": 450,
+		"requiredTech": "Flying",
+		"obsoleteTech": "Ratite Birds",
+		"attackSound": "crrr",
+		"uniques": ["Only available <in cities without a [Sea Environment]> <hidden from users>","Jurassic","Predator"],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Archeopteryx",
+				"imageSize": 192
+			},
+			{
+				"extraImage": "TileSets/AbsoluteUnits/Units/Archeopteryx",
+				"imageSize": 192
+			},
+		]
+	},
+	{
 		"name": "Protoavis",
 		"unitType": "Protoavis",
 		"range": 4,
@@ -2071,7 +2093,7 @@
 		"unitType": "Theropoda",
 		"cost": 950,
 		"strength": 135,
-		"requiredTech": "Cretaceous Reptiles",
+		"requiredTech": "Tyrannosaurs",
 		"movement": 2,
 		"requiredResource": "Super Creature Stock",
 		"attackSound": "Monster",
@@ -2094,7 +2116,7 @@
 		"unitType": "Theropoda",
 		"cost": 1275,
 		"strength": 150,
-		"requiredTech": "Cretaceous Reptiles",
+		"requiredTech": "Tyrannosaurs",
 		"movement": 2,
 		"attackSound": "Monster",
 		"obsoleteTech": "Eutherians",
