@@ -680,14 +680,25 @@
 			},
 			{
 				"name": "Plated Armour",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Vertebrate"],
 				"uniques": ["[+25]% Strength <when defending> <vs [Jawless] units> <for [All] units>"]
 			},
 			{
+				"name": "Fins",
+				"row": 4,
+				"prerequisites": ["Vertebrate"],
+				"uniques": ["Improve Fishes Mobility"]
+			},
+			{
+				"name": "Jaw",
+				"row": 5,
+				"prerequisites": ["Vertebrate"],
+			},
+			{
 				"name": "Cephalization",
 				"row": 8,
-				"quote": "The heart is a muscular organ in most animals. This organ pumps blood through the blood vessels of the circulatory system. The pumped blood carries oxygen and nutrients to the body, while carrying metabolic waste such as carbon dioxide to the lungs.",
+				"quote": "Cephalization is an evolutionary trend in animals that, over many generations, the special sense organs and nerve ganglia become concentrated towards the rostral end of the body where the mouth is located, often producing an enlarged head.",
 				"prerequisites": ["Cephalopod","Eye"],
 			}
 		]
@@ -714,13 +725,13 @@
 			{
 				"name": "Brain",
 				"row": 2,
-				"prerequisites": ["Eye","Cephalization","Nerve Cord"]
+				"prerequisites": ["Eye","Plated Armour"]
 			},
 			{
 				"name": "Fish",
 				"row": 6,
 				"uniques": ["They are still jawless fishes (-25% Attack Strength) but after you discovering Jaw, their debuff will disappear"],
-				"prerequisites": ["Eye","Plated Armour","Cephalization"],
+				"prerequisites": ["Plated Armour","Cephalization","Fins","Jaw"],
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Fish",
@@ -734,6 +745,12 @@
 			},
 				]
 			},
+			{
+				"name": "Excretion Opening",
+				"row": 5,
+				"prerequisites": ["Jaw"]
+				"uniques": ["[+1 Food] from [Saline water] tiles [in all cities]"],
+			}
 		]
 	},
 	{
@@ -749,16 +766,15 @@
 				"prerequisites": ["Bryophyte","Invertebrate Landing"]
 			},
 			{
-				"name": "Gills",
-				"row": 5,
-				"prerequisites": ["Fish"],
-				"uniques": ["Comment [[Atmosphere] production from [Fishes] increases by +100% ([Oxygen] consumption does not increase)]"]
-			},
-			{
-				"name": "Fins",
+				"name": "Meaty Fins",
 				"row": 4,
 				"prerequisites": ["Fish"],
-				"uniques": ["Improve Fishes Mobility"]
+			},
+			{
+				"name": "Gills",
+				"row": 5,
+				"prerequisites": ["Excretion Opening"],
+				"uniques": ["Comment [[Atmosphere] production from [Fishes] increases by +100% ([Oxygen] consumption does not increase)]"]
 			},
 			{
 				"name": "Cold Blooded",
@@ -766,7 +782,12 @@
 				"prerequisites": ["Fish"],
 			},
 			{
-				"name": "Jaw",
+				"name": "Cartilage",
+				"row": 8,
+				"prerequisites": ["Fish"],
+			},
+			{
+				"name": "Sharp Fins",
 				"row": 7,
 				"prerequisites": ["Fish"],
 			},
@@ -775,12 +796,6 @@
 				"row": 9,
 				"prerequisites": ["Fish","Cocoon"],
 				"uniques": ["[+1 Food] from [Fresh water] tiles [in all cities]","[5]% Food is carried over after population increases [in all cities]"]
-			},
-			{
-				"name": "Excretion Opening",
-				"row": 8,
-				"prerequisites": ["Fish"]
-				"uniques": ["[+1 Food] from [Saline water] tiles [in all cities]"],
 			}
 		]
 	},
@@ -794,7 +809,7 @@
 			{
 				"name": "Legs",
 				"row": 4,
-				"prerequisites": ["Fins"],
+				"prerequisites": ["Meaty Fins"],
 				"uniques": ["Improve Lungfishes Move Speed","Enables Open Borders agreements"],
 				"quote": "Fins were not needed on land, so they evolved into legs. As evidence of this, the skeletons of the legs and fins have deep homology.",
 			},
@@ -829,11 +844,11 @@
 				]
 			},
 			{
-				"name": "Predation",
+				"name": "Chondrichthyes",
 				"row": 8,
-				"prerequisites": ["Excretion Opening","Jaw"],
+				"prerequisites": ["Cartilage Skeleton"],
 				"uniques": ["[+1 Food] from [{Ocean} {Fish}] tiles [in all cities]"],
-				"quote": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
+				"quote": "Chondrichthyes is a class of jawed fish that contains the cartilaginous fish or chondrichthyans, which all have skeletons primarily composed of cartilage.",
 				"civilopediaText": [
 			{
 				"extraImage": "Picture/Predation",
@@ -843,7 +858,7 @@
 				"Separator": true
 			},
 			{
-				"text": "The jaws that can easily crush living things and the high excretion ability have designed a monster that can swallow other living things whole.",
+				"text": "Chondrichthyes is a class of jawed fish that contains the cartilaginous fish or chondrichthyans, which all have skeletons primarily composed of cartilage.",
 			}
 				]
 			},
@@ -879,12 +894,7 @@
 				"name": "Progymnosperm",
 				"row": 2,
 				"prerequisites": ["Heterospory"]
-			},
-			{
-				"name": "Neoselachii",
-				"row": 8,
-				"prerequisites": ["Predation"]
-			},
+			}
 		]
 	},
 	{
@@ -1040,7 +1050,7 @@
 	},
 	{
 		"columnNumber": 26,
-		"era": "Mesozoic era",
+		"era": "Triassic era",
 		"techCost": 780,
 		"buildingCost": 360,
 		"wonderCost": 550,
@@ -1053,7 +1063,7 @@
 			{
 				"name": "Diving",
 				"row": 8,
-				"prerequisites": ["Archosauria","Neoselachii"],
+				"prerequisites": ["Archosauria","Chondrichthyes"],
 			},
 			{
 				"name": "Dinosaur",
@@ -1080,7 +1090,7 @@
 	},
 	{
 		"columnNumber": 27,
-		"era": "Mesozoic era",
+		"era": "Triassic era",
 		"techCost": 850,
 		"buildingCost": 375,
 		"wonderCost": 550,
@@ -1133,6 +1143,42 @@
 	},
 	{
 		"columnNumber": 28,
+		"era": "Jurassic era",
+		"techCost": 850,
+		"buildingCost": 375,
+		"wonderCost": 550,
+		"techs": [
+		]
+	},
+	{
+		"columnNumber": 29,
+		"era": "Jurassic era",
+		"techCost": 850,
+		"buildingCost": 375,
+		"wonderCost": 550,
+		"techs": [
+		]
+	},
+	{
+		"columnNumber": 30,
+		"era": "Cretaceous era",
+		"techCost": 850,
+		"buildingCost": 375,
+		"wonderCost": 550,
+		"techs": [
+		]
+	},
+	{
+		"columnNumber": 31,
+		"era": "Cretaceous era",
+		"techCost": 850,
+		"buildingCost": 375,
+		"wonderCost": 550,
+		"techs": [
+		]
+	},
+	{
+		"columnNumber": 32,
 		"era": "Paleogene period",
 		"techCost": 900,
 		"buildingCost": 400,
@@ -1156,7 +1202,7 @@
 		]
 	},
 	{
-		"columnNumber": 29,
+		"columnNumber": 33,
 		"era": "Paleogene period",
 		"techCost": 950,
 		"buildingCost": 400,
@@ -1205,7 +1251,7 @@
 		]
 	},
 	{
-		"columnNumber": 30,
+		"columnNumber": 34,
 		"era": "Miocene",
 		"techCost": 1000,
 		"buildingCost": 425,
@@ -1239,7 +1285,7 @@
 		]
 	},
 	{
-		"columnNumber": 31,
+		"columnNumber": 35,
 		"era": "Miocene",
 		"techCost": 1200,
 		"buildingCost": 450,
@@ -1273,7 +1319,7 @@
 		]
 	},
 	{
-		"columnNumber": 32,
+		"columnNumber": 36,
 		"era": "Pliocene",
 		"techCost": 1350,
 		"buildingCost": 475,
@@ -1294,7 +1340,7 @@
 		]
 	},
 	{
-		"columnNumber": 33,
+		"columnNumber": 37,
 		"era": "Pliocene",
 		"techCost": 1800,
 		"buildingCost": 500,
@@ -1319,7 +1365,7 @@
 		]
 	},
 	{
-		"columnNumber": 34,
+		"columnNumber": 38,
 		"era": "Pleistocene",
 		"techCost": 2200,
 		"buildingCost": 525,
@@ -1353,7 +1399,7 @@
 		]
 	},
 	{
-		"columnNumber": 35,
+		"columnNumber": 39,
 		"era": "Pleistocene",
 		"techCost": 2500,
 		"buildingCost": 550,
@@ -1400,7 +1446,7 @@
 		]
 	},
 	{
-		"columnNumber": 36,
+		"columnNumber": 40,
 		"era": "Holocene",
 		"techCost": 3000,
 		"buildingCost": 575,
@@ -1438,7 +1484,7 @@
 		]
 	},
 	{
-		"columnNumber": 37,
+		"columnNumber": 41,
 		"era": "Holocene",
 		"techCost": 3500,
 		"buildingCost": 600,
@@ -1473,14 +1519,14 @@
 		]
 	},
 	{
-		"columnNumber": 38,
-		"era": "Holocene",
+		"columnNumber": 42,
+		"era": "Anthropocene",
 		"techCost": 6250,
 		"buildingCost": 625,
 		"wonderCost": 1050,
 		"techs": [
 			{
-				"name": "Anthropocene",
+				"name": "Agriculture",
 				"row": 6,
 				"prerequisites": ["Human Race","Human Brain","Morality","The Culture","Diplomacy"],
 				"quote": "The technology cannot be stopped."
@@ -1488,18 +1534,95 @@
 		]
 	},
 	{
-		"columnNumber": 39,
-		"era": "Neolithic",
+		"columnNumber": 43,
+		"era": "Anthropocene",
 		"techCost": 10000,
 		"buildingCost": 1000,
 		"wonderCost": 5000,
 		"techs": [
 			{
-				"name": "Agriculture",
+				"name": "Writing",
+				"row": 1,
+				"prerequisites": ["Agriculture"],
+				"quote": "We have become able to convey knowledge and stories without speaking."
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+				"quote": "We are in control of nature's right to give birth and die to other species."
+			},
+			{
+				"name": "Navigation",
+				"row": 3,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We able to communicate across the continents and trade goods."
+			},
+			{
+				"name": "Industrialization",
+				"row": 4,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We also control power. As we consume resources, society become more convenient."
+			},
+			{
+				"name": "Flight",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We can fly faster and higher than birds."
+			},
+			{
+				"name": "Mass Society",
+				"row": 6,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We elect our leaders democratically. Both men and women are born with equal rights and can rebel against society."
+			},
+			{
+				"name": "Plastics",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We have versatile resources."
+			},
+			{
+				"name": "Atomic Theory",
+				"row": 8,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We have the strength that even could destroy ourselves. Therefore we must be wise."
+			},
+			{
+				"name": "Satellites",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We can look down on the world from the space."
+			},
+			{
+				"name": "Telecommunications",
+				"row": 6,
+				"prerequisites": ["Agriculture"],
+				"uniques": ["Can be continually researched"],
+				"quote": "We can also talk across oceans."
+			}
+		]
+	},
+	{
+		"columnNumber": 44,
+		"era": "Future era",
+		"techCost": 10000,
+		"buildingCost": 1000,
+		"wonderCost": 5000,
+		"techs": [
+			{
+				"name": "Future Evolution",
 				"row": 6,
 				"prerequisites": ["Anthropocene"],
 				"uniques": ["Can be continually researched"],
-				"quote": "Congratulations. After a long evolutionary journey, you gave birth to an intelligent life form. It will be less than 10000 years before us, human: the one of primate species, make the amazing today civilization!"
+				"quote": "Human civilization is evolving rapidly, and our quality of life has become richer than it has been in the last few thouthand years. On the other hand, human civilization faces various problems such as nuclear weapons, terrorism, chemical pollution, and global warming, and it is not surprising that if world will soon become like the world after the extinction of the dinosaurs. What does the future hold for the Anthropocene?"
 			}
 		]
 	}
