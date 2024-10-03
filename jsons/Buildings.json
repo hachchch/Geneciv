@@ -96,14 +96,14 @@
 		"requiredTech": "Fern",
 		"uniques": ["Provides [3] [Oxygen]","Free [Vegetation] appears"]
 	},
-	{
+	/*{
 		"name": "Sarcopterygii", // Famenia
 		"requiredTech": "Meaty Fins",
 		"uniqueTo": "Famenia",
 		"percentStatBonus": {"science": 10},
 		"uniques": ["New [Water] units start with [25] Experience [in this city]"]
 		"replaces": "",
-	},
+	},*/
 	{
 		"name": "Graptolite", // Hirnantian
 		"uniqueTo": "Hirnantian",
