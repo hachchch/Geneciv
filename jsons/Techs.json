@@ -1093,7 +1093,7 @@
 			{
 				"name": "Gliding",
 				"row": 3,
-				"prerequisites": ["Wings","Ornithischia"],
+				"prerequisites": ["Wings"],
 			},
 			{
 				"name": "Hair",
@@ -1179,6 +1179,11 @@
 				"prerequisites": ["Dinosaur Gigantism","Air Sac"]
 			},
 			{
+				"name": "Ornithopods",
+				"row": 3,
+				"prerequisites": ["Ornithischia"]
+			},
+			{
 				"name": "Maniraptors",
 				"row": 6,
 				"quote":"",
@@ -1211,9 +1216,9 @@
 				"prerequisites": ["Ocean Reform"]
 			},
 			{
-				"name": "Ornithopods",
+				"name": "Neck Frill",
 				"row": 3,
-				"prerequisites": ["Ornithischia"]
+				"prerequisites": ["Ornithopods"]
 			},
 			{
 				"name": "Tyrannosaurs",
@@ -1242,11 +1247,6 @@
 		"wonderCost": 550,
 		"techs": [
 			{
-				"name": "Neck Frill",
-				"row": 3,
-				"prerequisites": ["Ornithopods"]
-			},
-			{
 				"name": "Grass",
 				"row": 1,
 				"prerequisites": ["Angiosperm"],
@@ -1254,7 +1254,7 @@
 			{
 				"name": "Flying",
 				"row": 3,
-				"prerequisites": ["Bird Wings"],
+				"prerequisites": ["Tyrannosaurs","Neck Frill","Bird Wings"],
 			},
 			{
 				"name":"Monotremes",
@@ -1262,7 +1262,7 @@
 				"prerequisites": ["Olfactory Bulb"]
 			},
 			{
-				"name":"Middle ear",
+				"name":"Middle Ear",
 				"row": 7,
 				"prerequisites": ["Olfactory Bulb"]
 			}
